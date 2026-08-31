@@ -41,7 +41,7 @@
   .act button,.act a{flex:1;height:36px;display:flex;align-items:center;justify-content:center;gap:6px;
     font:inherit;font-size:12px;font-weight:700;letter-spacing:.04em;border-radius:var(--r);cursor:pointer;
     text-decoration:none;border:1px solid var(--ink);background:var(--ink);color:#fff}
-  .act a{flex:0 0 92px;background:transparent;color:var(--ink);border-color:var(--line);font-weight:500}
+  .act a{flex:0 0 104px;background:transparent;color:var(--ink);border-color:var(--line);font-weight:500}
   .act button:hover{opacity:.78} .act a:hover{background:var(--field)}
   .act button.done{background:#fff;color:var(--ink);border-color:var(--ink)}
 
@@ -57,7 +57,7 @@
 <header>
   <h1>日本のサイトのデザインを DESIGN.md に</h1>
   <p>実際のサイトを1440px幅で開いて、色・文字・余白・角丸を測った値だけをまとめています。
-     <strong>コピー</strong>を押して Claude Code に貼れば、そのままデザインの指示になります。ファイルのダウンロードは要りません。</p>
+     <strong>mdをコピー</strong>を押すと DESIGN.md の中身がクリップボードに入ります。Claude Code に貼れば、そのままデザインの指示になります。ファイルのダウンロードは要りません。</p>
 </header>
 
 <div class="bar">
@@ -75,6 +75,9 @@
 </footer>
 
 <script>
+// mdファイルのリンク先。GitHub 上で開くと中身がそのまま読める（生ファイルだと保存になってしまう）
+const REPO = 'https://github.com/hiroho-t/jp-styles/blob/main';
+
 const grid = document.getElementById('grid'), q = document.getElementById('q');
 const countEl = document.getElementById('count'), empty = document.getElementById('empty');
 let items = [];
@@ -103,8 +106,8 @@ function render() {
         <div class="sw">${(x.palette || []).map(c => `<i style="background:${esc(c.hex)};flex:${c.pct}"></i>`).join('')}</div>
         <div class="tags">${(x.tags || []).map(t => `<span>${esc(t)}</span>`).join('')}</div>
         <div class="act">
-          <button data-slug="${esc(x.slug)}">コピー</button>
-          <a href="s/${esc(x.slug)}.md" target="_blank" rel="noopener">中身を見る</a>
+          <button data-slug="${esc(x.slug)}">mdをコピー</button>
+          <a href="${REPO}/s/${esc(x.slug)}.md" target="_blank" rel="noopener">mdファイル</a>
         </div>
       </div>
     </article>`).join('');
@@ -120,7 +123,7 @@ grid.addEventListener('click', async e => {
   try {
     const md = await fetch('s/' + b.dataset.slug + '.md').then(r => r.text());
     await navigator.clipboard.writeText(md);
-    b.textContent = 'コピーしました'; b.classList.add('done');
+    b.textContent = 'mdをコピーしました'; b.classList.add('done');
   } catch { b.textContent = 'コピーできません'; }
   setTimeout(() => { b.textContent = before; b.classList.remove('done'); }, 1600);
 });
