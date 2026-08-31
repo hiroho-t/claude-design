@@ -43,6 +43,19 @@
 - 主色 `#096fca` は差し色ではなく**面**で使う。画面の38%を占めている。
 - 影は**使わない**（計測0件）。段差は色面の切り替えだけでつくる。
 
+## 色の使い分け
+
+同じ色でも、面に使うのか文字に使うのかで印象が変わる。実際に数えた箇所数。
+
+| 色 | 面 | 文字 | 枠線 | ボタンの地 |
+|---|---|---|---|---|
+| `#ffffff` | 8 | 59 | 12 | 0 |
+| `#096fca` | 4 | 62 | 4 | 1 |
+| `#f9f7f7` | 1 | 0 | 0 | 0 |
+| `#000000` | 0 | 1 | 0 | 0 |
+
+- `#096fca` は文字色として62箇所で使うのが主。面としては4箇所しかないが、1枚が大きく画面の38%を占める。ボタンの地にも使う。枠線にも4箇所。
+
 ## 文字
 
 - 和文: ゴシックMB101 M JIS2004（有料）→ 無料で近いのは **Zen Kaku Gothic New**、なければ Noto Sans JP
@@ -68,6 +81,21 @@
 - 並びの間隔: 4 / 8 / 16 / 24px
 - 角丸: 0px が基本。大きな面だけ 32px。中途半端な角丸を混ぜない
 - 画面幅の切り替え: 1160 / 768 / 480 / 320px
+
+## スマホ（390px）
+
+同じサイトを390px幅で測り直した値。
+
+| | PC 1440px | スマホ 390px |
+|---|---|---|
+| 本文 | 20px / 行間 2 | 16px |
+| 見出し | 72px | 27px / 行間 1.5 |
+| セクションの上下余白 | 120px | 48px |
+| 左右の余白 | — | 16px |
+| 並びの間隔 | 16px | 8px |
+
+- 本文は 20px → 16px、セクション余白は 120px → 48px（PCの40%）。
+- 文字サイズの段は 27 / 21 / 16 / 14 / 12px。
 
 ## ボタン
 
@@ -125,6 +153,35 @@
 - 37枚使っている。うち 6 枚は画面いっぱいに置く
 - 比率は 16:9（22枚）、1:1（7枚）、3:2（3枚）
 - 角丸 0px。切り抜かず四角のまま置く
+
+## すぐ使う骨格
+
+上の `:root` と合わせて、これをそのまま置けば土台になる。
+
+```css
+body{ background:var(--bg); color:var(--ink);
+  font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
+
+.section{ padding:var(--section-y) 0 }
+.container{ width:min(100% - 32px, var(--container)); margin-inline:auto }
+.read{ max-width:var(--read) }
+
+.hero{ min-height:540px; display:grid; align-content:center }
+.section--main{ background:var(--main); color:#ffffff }
+.card{ background:transparent; border:1px solid #ffffff;
+  border-radius:32px; padding:64px 0px }
+.btn{ display:inline-flex; align-items:center; justify-content:center;
+  background:#096fca; color:#ffffff; border-radius:4px;
+  padding:0px 48px; min-height:48px;
+  font-size:14px; font-weight:700 }
+
+img{ width:100%; height:auto; border-radius:0px; aspect-ratio:16/9; object-fit:cover }
+
+@media (max-width:768px){
+  :root{ --fs-body:16px; --section-y:48px; --gap:8px; }
+  .container{ width:calc(100% - 32px) }
+}
+```
 
 ## 守ること
 

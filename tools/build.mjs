@@ -66,6 +66,23 @@ const secs = d.sections || [];
 const allFull = secs.length > 0 && secs.every(x => x.full);
 const mainSurf = (d.surfaces || []).find(s2 => s2.hex.toLowerCase() === main.hex.toLowerCase());
 const img = d.images || { n: 0, ratios: [], radius: [] };
+const usage = d.usage || [];
+const mob = d.mobile || {};
+const uMain = usage.find(u => u.hex.toLowerCase() === main.hex.toLowerCase());
+const sidePad = mob.sidePad ?? 20;
+
+/** 主色の使われ方を一言でまとめる */
+const usageNote = () => {
+  if (!uMain) return '';
+  const { 面: bg, 文字: tx, 枠: bd, ボタン: bt } = uMain;
+  const parts = [];
+  if (tx >= bg * 3) parts.push(`文字色として${tx}箇所で使うのが主。面としては${bg}箇所しかないが、1枚が大きく画面の${Math.round(main.pct)}%を占める`);
+  else if (bg >= tx) parts.push(`面として${bg}箇所、文字として${tx}箇所。塗りが主役`);
+  else parts.push(`面${bg}箇所・文字${tx}箇所を行き来する`);
+  if (bt) parts.push(`ボタンの地にも使う`); else parts.push(`ボタンの地には使っていない`);
+  if (bd) parts.push(`枠線にも${bd}箇所`);
+  return parts.join('。') + '。';
+};
 
 const md = `# ${name} ふうのデザイン
 
@@ -106,7 +123,17 @@ ${palette.map((c, i) => `| ${roles[i] || '差し色'} | \`${c.hex}\` | ${c.pct}%
 - 主色 \`${main.hex}\` は差し色ではなく**面**で使う。画面の${Math.round(main.pct)}%を占めている。
 - 影は${d.shadow.length ? `\`${d.shadow[0].css}\`` : '**使わない**（計測0件）。段差は色面の切り替えだけでつくる'}。
 
-## 文字
+${usage.length ? `## 色の使い分け
+
+同じ色でも、面に使うのか文字に使うのかで印象が変わる。実際に数えた箇所数。
+
+| 色 | 面 | 文字 | 枠線 | ボタンの地 |
+|---|---|---|---|---|
+${usage.map(u => `| \`${u.hex}\` | ${u.面} | ${u.文字} | ${u.枠} | ${u.ボタン} |`).join('\n')}
+
+- \`${main.hex}\` は${usageNote()}
+
+` : ''}## 文字
 
 - 和文: ${ja?.family}${alt ? `（有料）→ 無料で近いのは **${alt[0]}**、なければ ${alt[1] || 'Noto Sans JP'}` : ''}
 ${en ? `- 欧文: ${en.family}\n` : ''}- ウェイトは ${[...new Set(h.map(x => x.weight))].join(' / ') || '400'} が中心。太さで強弱をつけず、大きさで差をつける。
@@ -125,7 +152,21 @@ ${ladder.map(s => `| ${s.role} | ${s.px}px | ${lhOf(s.px) ?? '—'} |`).join('\n
 - 角丸: ${rad}px が基本${d.radius[1] ? `。大きな面だけ ${d.radius[1].px}px` : ''}。中途半端な角丸を混ぜない
 - 画面幅の切り替え: ${d.bp.map(b => b.px).join(' / ')}px
 
-## ボタン
+${mob.bodyFs ? `## スマホ（390px）
+
+同じサイトを390px幅で測り直した値。
+
+| | PC 1440px | スマホ 390px |
+|---|---|---|
+| 本文 | ${d.body.fs}px${d.body.lh ? ` / 行間 ${d.body.lh}` : ''} | ${mob.bodyFs}px${mob.bodyLh ? ` / 行間 ${mob.bodyLh}` : ''} |
+${mob.h1 ? `| 見出し | ${ladder[0]?.px}px | ${mob.h1.fs}px${mob.h1.lh ? ` / 行間 ${mob.h1.lh}` : ''} |\n` : ''}| セクションの上下余白 | ${pad}px | ${mob.pad ?? '—'}px |
+| 左右の余白 | — | ${sidePad}px |
+| 並びの間隔 | ${gaps[Math.floor(gaps.length / 2)] ?? 16}px | ${mob.gap ?? '—'}px |
+
+- 本文は ${d.body.fs}px → ${mob.bodyFs}px${mob.pad ? `、セクション余白は ${pad}px → ${mob.pad}px（PCの${Math.round(mob.pad / pad * 100)}%）` : ''}。
+- 文字サイズの段は ${mob.sizes.join(' / ')}px。
+
+` : ''}## ボタン
 
 \`\`\`css
 ${d.buttons.map((b, i) => `.btn${i ? '-sub' : ''}{
@@ -173,6 +214,31 @@ ${d.chips.length ? `ラベル・タグ
 - 比率は ${img.ratios.map(r => `${r.ratio}（${r.n}枚）`).join('、') || '一定しない'}
 - 角丸 ${img.radius[0]?.px ?? 0}px。${(img.radius[0]?.px ?? 0) === 0 ? '切り抜かず四角のまま置く' : '画像も箱と同じだけ丸める'}
 
+## すぐ使う骨格
+
+上の \`:root\` と合わせて、これをそのまま置けば土台になる。
+
+\`\`\`css
+body{ background:var(--bg); color:var(--ink);
+  font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
+
+.section{ padding:var(--section-y) 0 }
+.container{ width:min(100% - ${sidePad * 2}px, var(--container)); margin-inline:auto }
+${read ? `.read{ max-width:var(--read) }\n` : ''}
+.hero{ ${secs[0] ? `min-height:${secs[0].h}px;` : ''} display:grid; align-content:center }
+${(d.surfaces || []).length > 1 ? `.section--main{ background:var(--main); color:${d.ink[1]?.hex || '#fff'} }\n` : ''}${d.cards.length ? `.card{ background:${d.cards[0].bg};${d.cards[0].border ? ` border:${d.cards[0].border.replace(' ', ' solid ')};` : ''}
+  border-radius:${d.cards[0].radius}px; padding:${d.cards[0].pad.split('/')[0]}px ${d.cards[0].pad.split('/')[1]}px }\n` : ''}${d.buttons[0] ? `.btn{ display:inline-flex; align-items:center; justify-content:center;
+  background:${d.buttons[0].bg}; color:${d.buttons[0].color}; border-radius:${d.buttons[0].radius};
+  padding:${d.buttons[0].pad}; min-height:${d.buttons[0].h}px;
+  font-size:${d.buttons[0].fs}px; font-weight:${d.buttons[0].weight} }\n` : ''}
+img{ width:100%; height:auto; border-radius:${img.radius?.[0]?.px ?? 0}px; aspect-ratio:${(img.ratios[0]?.ratio || '16:9').replace(':', '/')}; object-fit:cover }
+
+@media (max-width:${d.bp.find(b => b.px <= 900)?.px || 768}px){
+  :root{${mob.bodyFs ? ` --fs-body:${mob.bodyFs}px;` : ''}${mob.pad ? ` --section-y:${mob.pad}px;` : ''}${mob.gap ? ` --gap:${mob.gap}px;` : ''} }
+  .container{ width:calc(100% - ${sidePad * 2}px) }
+}
+\`\`\`
+
 ## 守ること
 
 やること
@@ -194,7 +260,7 @@ writeFileSync(`s/${slug}.md`, md);
 // 詳細ページ（実物のサイズ・色・角丸でそのまま見せる）
 writeFileSync(`p/${slug}.html`, detailPage({
   d, palette, md, name, industry, ja, en, alt, ladder, lhOf, cont, read, pad, rad, gaps, main,
-  secs, secName, allFull, img,
+  secs, secName, allFull, img, usage, mob, usageNote, sidePad,
 }));
 
 // 一覧用

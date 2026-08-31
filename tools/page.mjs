@@ -8,7 +8,7 @@ const PANGRAM = 'あのイーハトーヴォのすきとおった風';
 const EXT = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7h-1.5V5.56L5.06 12 4 10.94 10.44 4.5H6V3Z"/><path d="M3 5h2v1.5H4.5v5H10V11h1.5v2H3V5Z"/></svg>';
 const REPO = 'https://github.com/hiroho-t/jp-styles/blob/main';
 
-export function detailPage({ d, palette, md, name, industry, ja, en, alt, ladder, lhOf, cont, read, pad, rad, gaps, main, secs = [], secName, allFull, img = {} }) {
+export function detailPage({ d, palette, md, name, industry, ja, en, alt, ladder, lhOf, cont, read, pad, rad, gaps, main, secs = [], secName, allFull, img = {}, usage = [], mob = {}, usageNote, sidePad }) {
   const font = alt ? alt[0] : 'Noto Sans JP';
   const gf = [...new Set([font, 'Noto Sans JP'])].map(f => `family=${f.replace(/ /g, '+')}:wght@400;500;700`).join('&');
   const roles = ['地', '主色', '副色', '差し色', '差し色'];
@@ -137,6 +137,11 @@ export function detailPage({ d, palette, md, name, industry, ja, en, alt, ladder
   pre{margin:0;padding:14px;max-height:62vh;overflow:auto;font-size:11px;line-height:1.8;
     font-family:ui-monospace,Menlo,monospace;white-space:pre-wrap;word-break:break-word;color:#333}
 
+  .sub{font-size:12px;font-weight:700;margin:26px 0 8px}
+  .usage th{width:auto;display:flex;align-items:center;gap:8px;color:var(--ink)}
+  .usage th i{width:14px;height:14px;border-radius:3px;border:1px solid var(--line);flex:none}
+  .usage td{width:auto;text-align:right;font-family:ui-monospace,Menlo,monospace;font-size:12px}
+  .usage tr:first-child td,.usage tr:first-child th{color:var(--sub);font-size:11px;font-weight:400}
   .note{font-size:12px;color:var(--sub);margin:12px 0}
   .note code{font-family:ui-monospace,Menlo,monospace;font-size:11px}
   .secs{display:flex;flex-direction:column;gap:3px}
@@ -180,6 +185,13 @@ export function detailPage({ d, palette, md, name, industry, ja, en, alt, ladder
     <div class="ratio">${palette.map(c => `<i style="background:${esc(c.hex)};flex:${c.pct}"></i>`).join('')}</div>
     <div class="colors">${colorCards}</div>
     <p class="cuse" style="margin-top:14px">文字色は ${d.ink.map(c => `<code>${esc(c.hex)}</code>`).join(' / ')}。</p>
+    ${usage.length ? `<h3 class="sub">どこに使っているか（箇所数）</h3>
+    <table class="usage">
+      <tr><th>色</th><td>面</td><td>文字</td><td>枠線</td><td>ボタンの地</td></tr>
+      ${usage.map(u => `<tr><th><i style="background:${esc(u.hex)}"></i><code>${esc(u.hex)}</code></th>
+        <td>${u.面}</td><td>${u.文字}</td><td>${u.枠}</td><td>${u.ボタン}</td></tr>`).join('')}
+    </table>
+    <p class="note"><code>${esc(main.hex)}</code> は${esc(usageNote ? usageNote() : '')}</p>` : ''}
   </section>
 
   <section>
@@ -237,6 +249,20 @@ export function detailPage({ d, palette, md, name, industry, ja, en, alt, ladder
           padding:${esc(c.pad)};font-size:${c.fs}px;${c.border ? `border:${esc(c.border)} solid currentColor;` : ''}">タグ</span>
       </div>
       <p class="note">角丸 ${esc(c.radius)} ／ ${c.fs}px</p>` })() : ''}
+  </section>` : ''}
+
+  ${mob.bodyFs ? `<section>
+    <h2>PCとスマホ</h2>
+    <p class="note">同じサイトを390px幅で測り直した値。</p>
+    <table>
+      <tr><th></th><td>PC 1440px</td><td>スマホ 390px</td></tr>
+      <tr><th>本文</th><td>${d.body.fs}px${d.body.lh ? ` / 行間 ${d.body.lh}` : ''}</td><td>${mob.bodyFs}px${mob.bodyLh ? ` / 行間 ${mob.bodyLh}` : ''}</td></tr>
+      ${mob.h1 ? `<tr><th>見出し</th><td>${ladder[0]?.px}px</td><td>${mob.h1.fs}px</td></tr>` : ''}
+      <tr><th>セクションの上下余白</th><td>${pad}px</td><td>${mob.pad ?? '—'}px</td></tr>
+      <tr><th>左右の余白</th><td>—</td><td>${sidePad}px</td></tr>
+      <tr><th>並びの間隔</th><td>${gaps[Math.floor(gaps.length / 2)] ?? 16}px</td><td>${mob.gap ?? '—'}px</td></tr>
+    </table>
+    <p class="note">文字サイズの段は ${mob.sizes.join(' / ')}px。${mob.pad ? `セクション余白はPCの${Math.round(mob.pad / pad * 100)}%まで詰める。` : ''}</p>
   </section>` : ''}
 
   ${img.n ? `<section>

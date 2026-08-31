@@ -77,6 +77,11 @@
   pre{margin:0;padding:14px;max-height:62vh;overflow:auto;font-size:11px;line-height:1.8;
     font-family:ui-monospace,Menlo,monospace;white-space:pre-wrap;word-break:break-word;color:#333}
 
+  .sub{font-size:12px;font-weight:700;margin:26px 0 8px}
+  .usage th{width:auto;display:flex;align-items:center;gap:8px;color:var(--ink)}
+  .usage th i{width:14px;height:14px;border-radius:3px;border:1px solid var(--line);flex:none}
+  .usage td{width:auto;text-align:right;font-family:ui-monospace,Menlo,monospace;font-size:12px}
+  .usage tr:first-child td,.usage tr:first-child th{color:var(--sub);font-size:11px;font-weight:400}
   .note{font-size:12px;color:var(--sub);margin:12px 0}
   .note code{font-family:ui-monospace,Menlo,monospace;font-size:11px}
   .secs{display:flex;flex-direction:column;gap:3px}
@@ -141,6 +146,16 @@
       </div>
     </div></div>
     <p class="cuse" style="margin-top:14px">文字色は <code>#096fca</code> / <code>#ffffff</code> / <code>#000000</code>。</p>
+    <h3 class="sub">どこに使っているか（箇所数）</h3>
+    <table class="usage">
+      <tr><th>色</th><td>面</td><td>文字</td><td>枠線</td><td>ボタンの地</td></tr>
+      <tr><th><i style="background:#ffffff"></i><code>#ffffff</code></th>
+        <td>8</td><td>59</td><td>12</td><td>0</td></tr><tr><th><i style="background:#096fca"></i><code>#096fca</code></th>
+        <td>4</td><td>62</td><td>4</td><td>1</td></tr><tr><th><i style="background:#f9f7f7"></i><code>#f9f7f7</code></th>
+        <td>1</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#000000"></i><code>#000000</code></th>
+        <td>0</td><td>1</td><td>0</td><td>0</td></tr>
+    </table>
+    <p class="note"><code>#096fca</code> は文字色として62箇所で使うのが主。面としては4箇所しかないが、1枚が大きく画面の38%を占める。ボタンの地にも使う。枠線にも4箇所。</p>
   </section>
 
   <section>
@@ -261,6 +276,20 @@
   </section>
 
   <section>
+    <h2>PCとスマホ</h2>
+    <p class="note">同じサイトを390px幅で測り直した値。</p>
+    <table>
+      <tr><th></th><td>PC 1440px</td><td>スマホ 390px</td></tr>
+      <tr><th>本文</th><td>20px / 行間 2</td><td>16px</td></tr>
+      <tr><th>見出し</th><td>72px</td><td>27px</td></tr>
+      <tr><th>セクションの上下余白</th><td>120px</td><td>48px</td></tr>
+      <tr><th>左右の余白</th><td>—</td><td>16px</td></tr>
+      <tr><th>並びの間隔</th><td>16px</td><td>8px</td></tr>
+    </table>
+    <p class="note">文字サイズの段は 27 / 21 / 16 / 14 / 12px。セクション余白はPCの40%まで詰める。</p>
+  </section>
+
+  <section>
     <h2>画像</h2>
     <div class="imgs"><div><span style="aspect-ratio:16/9;border-radius:0px"></span>
         <em>16:9・22枚</em></div><div><span style="aspect-ratio:1/1;border-radius:0px"></span>
@@ -321,6 +350,19 @@
 - 主色 `#096fca` は差し色ではなく**面**で使う。画面の38%を占めている。
 - 影は**使わない**（計測0件）。段差は色面の切り替えだけでつくる。
 
+## 色の使い分け
+
+同じ色でも、面に使うのか文字に使うのかで印象が変わる。実際に数えた箇所数。
+
+| 色 | 面 | 文字 | 枠線 | ボタンの地 |
+|---|---|---|---|---|
+| `#ffffff` | 8 | 59 | 12 | 0 |
+| `#096fca` | 4 | 62 | 4 | 1 |
+| `#f9f7f7` | 1 | 0 | 0 | 0 |
+| `#000000` | 0 | 1 | 0 | 0 |
+
+- `#096fca` は文字色として62箇所で使うのが主。面としては4箇所しかないが、1枚が大きく画面の38%を占める。ボタンの地にも使う。枠線にも4箇所。
+
 ## 文字
 
 - 和文: ゴシックMB101 M JIS2004（有料）→ 無料で近いのは **Zen Kaku Gothic New**、なければ Noto Sans JP
@@ -346,6 +388,21 @@
 - 並びの間隔: 4 / 8 / 16 / 24px
 - 角丸: 0px が基本。大きな面だけ 32px。中途半端な角丸を混ぜない
 - 画面幅の切り替え: 1160 / 768 / 480 / 320px
+
+## スマホ（390px）
+
+同じサイトを390px幅で測り直した値。
+
+| | PC 1440px | スマホ 390px |
+|---|---|---|
+| 本文 | 20px / 行間 2 | 16px |
+| 見出し | 72px | 27px / 行間 1.5 |
+| セクションの上下余白 | 120px | 48px |
+| 左右の余白 | — | 16px |
+| 並びの間隔 | 16px | 8px |
+
+- 本文は 20px → 16px、セクション余白は 120px → 48px（PCの40%）。
+- 文字サイズの段は 27 / 21 / 16 / 14 / 12px。
 
 ## ボタン
 
@@ -403,6 +460,35 @@
 - 37枚使っている。うち 6 枚は画面いっぱいに置く
 - 比率は 16:9（22枚）、1:1（7枚）、3:2（3枚）
 - 角丸 0px。切り抜かず四角のまま置く
+
+## すぐ使う骨格
+
+上の `:root` と合わせて、これをそのまま置けば土台になる。
+
+```css
+body{ background:var(--bg); color:var(--ink);
+  font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
+
+.section{ padding:var(--section-y) 0 }
+.container{ width:min(100% - 32px, var(--container)); margin-inline:auto }
+.read{ max-width:var(--read) }
+
+.hero{ min-height:540px; display:grid; align-content:center }
+.section--main{ background:var(--main); color:#ffffff }
+.card{ background:transparent; border:1px solid #ffffff;
+  border-radius:32px; padding:64px 0px }
+.btn{ display:inline-flex; align-items:center; justify-content:center;
+  background:#096fca; color:#ffffff; border-radius:4px;
+  padding:0px 48px; min-height:48px;
+  font-size:14px; font-weight:700 }
+
+img{ width:100%; height:auto; border-radius:0px; aspect-ratio:16/9; object-fit:cover }
+
+@media (max-width:768px){
+  :root{ --fs-body:16px; --section-y:48px; --gap:8px; }
+  .container{ width:calc(100% - 32px) }
+}
+```
 
 ## 守ること
 

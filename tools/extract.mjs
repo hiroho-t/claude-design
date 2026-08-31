@@ -54,6 +54,7 @@ const raw = await page.evaluate(() => {
   const bump = (map, key, w) => { if (key == null) return; map[key] = (map[key] || 0) + w; };
 
   const bgArea = {}, inkWeight = {}, sizeWeight = {}, faceWeight = {};
+  const useBg = {}, useText = {}, useBorder = {}, useBtn = {};   // 色の使われ方（箇所数）
   const radius = {}, shadow = {}, gaps = {}, sectionPad = {}, containers = {};
   const buttons = [], headings = {};
 
@@ -90,9 +91,15 @@ const raw = await page.evaluate(() => {
     const fs = parseFloat(cs.fontSize) || 0;
     if (own.length > 1 && fs) {
       const w = own.length;
-      const c = rgb(cs.color); if (c) bump(inkWeight, hex(c), w * fs);
+      const c = rgb(cs.color); if (c) { bump(inkWeight, hex(c), w * fs); bump(useText, hex(c), 1); }
       bump(sizeWeight, round(fs, 1), w);
       bump(faceWeight, cs.fontFamily.split(',')[0].replace(/["']/g, '').trim(), w);
+    }
+
+    // 色が使われている箇所を数える（面か、枠か）
+    if (r.width >= 24 && r.height >= 24) {
+      const b = rgb(cs.backgroundColor); if (b) bump(useBg, hex(b), 1);
+      if (parseFloat(cs.borderTopWidth) > 0) { const bc = rgb(cs.borderTopColor); if (bc) bump(useBorder, hex(bc), 1); }
     }
 
     // 角丸・影（地色か枠を持つ箱だけ）
@@ -193,10 +200,12 @@ const raw = await page.evaluate(() => {
 
   const htmlBg = (() => { const c = rgb(getComputedStyle(document.body).backgroundColor); return c ? hex(c) : '#ffffff'; })();
 
+  for (const b of buttons) if (b.bg !== 'transparent') bump(useBtn, b.bg, 1);
+
   return {
     title: document.title,
     desc: document.querySelector('meta[name=description]')?.content || '',
-    htmlBg, bgArea, inkWeight, sizeWeight, faceWeight,
+    htmlBg, bgArea, inkWeight, sizeWeight, faceWeight, useBg, useText, useBorder, useBtn,
     radius, shadow, gaps, sectionPad, containers, buttons, headings,
     bodyFs: bodyFs ? +bodyFs : null, bodyLh, bodyLs, bp,
   };
@@ -335,6 +344,66 @@ const shape = await page.evaluate(() => {
   return { sections: sections.slice(0, 20), surfaces, cards, chips, ratios, imgRadius, fullBleed, imgs };
 });
 
+/* ---- 3巡目：スマホ幅（390px）で本文まわりだけ測り直す ---- */
+await page.setViewport({ width: 390, height: 844, deviceScaleFactor: 1 });
+await page.reload({ waitUntil: 'networkidle2', timeout: 90000 }).catch(() => {});
+await new Promise(r => setTimeout(r, 2500));
+await page.evaluate(async () => {
+  const s = ms => new Promise(r => setTimeout(r, ms));
+  const step = Math.round(innerHeight * 0.7), H = document.documentElement.scrollHeight;
+  for (let y = 0; y < H; y += step) { scrollTo(0, y); await s(140); }
+  scrollTo(0, 0); await s(1000);
+});
+
+const mobile = await page.evaluate(() => {
+  const V = { w: innerWidth };
+  const bump = (m, k, w = 1) => { if (k != null) m[k] = (m[k] || 0) + w; };
+  const round = (n, st = 1) => Math.round(n / st) * st;
+  const vis = (cs, r) => cs.display !== 'none' && cs.visibility !== 'hidden' && r.width > 0 && r.height > 0;
+
+  const sizeW = {}, pads = {}, gaps = {}, conts = {};
+  const heads = {};
+  let bodyLh = null, bodyFs = null;
+
+  for (const el of document.querySelectorAll('body *')) {
+    const cs = getComputedStyle(el), r = el.getBoundingClientRect();
+    if (!vis(cs, r)) continue;
+    const own = [...el.childNodes].filter(n => n.nodeType === 3).map(n => n.textContent.trim()).join('');
+    const fs = parseFloat(cs.fontSize) || 0;
+    if (own.length > 1 && fs) bump(sizeW, round(fs, 1), own.length);
+    if (r.width > V.w * 0.55 && r.height > 120) {
+      for (const p of [cs.paddingTop, cs.paddingBottom, cs.marginTop, cs.marginBottom]) {
+        const n = parseFloat(p); if (n >= 24) bump(pads, round(n, 4), 1);
+      }
+    }
+    if (/flex|grid/.test(cs.display) && cs.gap && cs.gap !== 'normal') {
+      for (const g of cs.gap.split(' ')) { const n = parseFloat(g); if (n > 0) bump(gaps, round(n, 1), 1); }
+    }
+    if (r.width > V.w * 0.6 && r.width <= V.w && el.children.length >= 2) bump(conts, round(V.w - r.width, 2), 1);
+    if (/^h[1-3]$/.test(el.tagName.toLowerCase()) && own.length > 1) {
+      const lh = parseFloat(cs.lineHeight);
+      bump(heads[el.tagName.toLowerCase()] ||= {}, JSON.stringify({ fs: round(fs, 1), lh: lh ? +(lh / fs).toFixed(2) : null }), 1);
+    }
+  }
+  bodyFs = +Object.entries(sizeW).sort((a, b) => b[1] - a[1])[0]?.[0] || null;
+  for (const el of document.querySelectorAll('body *')) {
+    const cs = getComputedStyle(el), fs = parseFloat(cs.fontSize);
+    const own = [...el.childNodes].filter(n => n.nodeType === 3).map(n => n.textContent.trim()).join('');
+    if (own.length > 20 && Math.round(fs) === bodyFs) {
+      const lh = parseFloat(cs.lineHeight); bodyLh = lh ? +(lh / fs).toFixed(2) : null; break;
+    }
+  }
+  const top1 = o => Object.entries(o).sort((a, b) => b[1] - a[1])[0];
+  return {
+    bodyFs, bodyLh,
+    sizes: Object.entries(sizeW).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([px]) => +px).sort((a, b) => b - a),
+    pad: top1(pads) ? +top1(pads)[0] : null,
+    gap: top1(gaps) ? +top1(gaps)[0] : null,
+    sidePad: top1(conts) ? Math.round(+top1(conts)[0] / 2) : null,
+    h1: heads.h1 ? JSON.parse(top1(heads.h1)[0]) : (heads.h2 ? JSON.parse(top1(heads.h2)[0]) : null),
+  };
+});
+
 await browser.close();
 
 /* ---- ここから整理（近い色をまとめ、上位だけ残す） ---- */
@@ -388,7 +457,20 @@ const out = {
     ratios: top(shape.ratios, 3).map(([r, n]) => ({ ratio: r, n })),
     radius: top(shape.imgRadius, 2).map(([r, n]) => ({ px: +r, n })),
   },
+  mobile,
 };
+
+// 色ごとの使われ方を、代表色にまとめ直す（近い色は同じ色として数える）
+{
+  const reps = [...out.bg, ...out.ink].map(c => c.hex).filter((h, i, a) => a.indexOf(h) === i);
+  const tally = {};
+  const put = (src, key) => { for (const [h, n] of Object.entries(src)) {
+    const rep = reps.find(r => near(r, h)); if (!rep) continue;
+    (tally[rep] ||= { hex: rep, 面: 0, 文字: 0, 枠: 0, ボタン: 0 })[key] += n;
+  } };
+  put(raw.useBg, '面'); put(raw.useText, '文字'); put(raw.useBorder, '枠'); put(raw.useBtn, 'ボタン');
+  out.usage = reps.map(h => tally[h]).filter(Boolean);
+}
 
 // 抽出値からそのまま決まるタグ（人の主観を入れない）
 const gray = h => { const [r, g, b] = toRgb(h); return Math.max(r, g, b) - Math.min(r, g, b) < 24; };
