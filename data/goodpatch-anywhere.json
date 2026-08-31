@@ -1,0 +1,227 @@
+{
+  "slug": "goodpatch-anywhere",
+  "url": "https://anywhere.goodpatch.com/",
+  "title": "Goodpatch Anywhere | 越境するデザイン組織",
+  "desc": "私たちは、専門性を武器に、越境しながら共創するチームです。 デザイン、エンジニアリング、戦略、リサーチ。異なる領域を持つ専門家が、一人では辿りつけない価値を、チームで生み出していきます。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 72.5
+    },
+    {
+      "hex": "#096fca",
+      "pct": 22.2
+    },
+    {
+      "hex": "#f9f7f7",
+      "pct": 5.4
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#096fca",
+      "pct": 50
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 48.4
+    },
+    {
+      "hex": "#000000",
+      "pct": 1.6
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "ゴシックMB101 M JIS2004",
+      "w": 1838
+    },
+    {
+      "family": "Helvetica Neue",
+      "w": 80
+    },
+    {
+      "family": "Noto Sans JP",
+      "w": 75
+    },
+    {
+      "family": "Hiragino Kaku Gothic ProN",
+      "w": 40
+    }
+  ],
+  "sizes": [
+    {
+      "px": 48,
+      "w": 43
+    },
+    {
+      "px": 32,
+      "w": 75
+    },
+    {
+      "px": 20,
+      "w": 631
+    },
+    {
+      "px": 18,
+      "w": 607
+    },
+    {
+      "px": 16,
+      "w": 404
+    },
+    {
+      "px": 13,
+      "w": 128
+    }
+  ],
+  "body": {
+    "fs": 20,
+    "lh": 2,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 48,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "ゴシックMB101 M JIS2004"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 72,
+        "weight": "400",
+        "lh": 1.6,
+        "ls": "0",
+        "family": "ゴシックMB101 M JIS2004"
+      },
+      {
+        "fs": 16,
+        "weight": "400",
+        "lh": 1.6,
+        "ls": "0",
+        "family": "ゴシックMB101 M JIS2004"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 15
+    },
+    {
+      "px": 32,
+      "n": 11
+    },
+    {
+      "px": 4,
+      "n": 3
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 16,
+      "n": 22
+    },
+    {
+      "px": 8,
+      "n": 21
+    },
+    {
+      "px": 24,
+      "n": 11
+    },
+    {
+      "px": 4,
+      "n": 8
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 120,
+      "n": 2
+    },
+    {
+      "px": 100,
+      "n": 1
+    },
+    {
+      "px": 140,
+      "n": 1
+    },
+    {
+      "px": 200,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1376,
+      "n": 14
+    },
+    {
+      "px": 672,
+      "n": 10
+    },
+    {
+      "px": 720,
+      "n": 10
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#096fca",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "4px",
+      "pad": "0px 48px",
+      "fs": 14,
+      "weight": "700",
+      "h": 48,
+      "ls": "0",
+      "n": 1
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": "1px #ffffff",
+      "radius": "4px",
+      "pad": "20px 32px",
+      "fs": 16,
+      "weight": "700",
+      "h": 60,
+      "ls": "0",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1160,
+      "n": 102
+    },
+    {
+      "px": 768,
+      "n": 215
+    },
+    {
+      "px": 480,
+      "n": 125
+    },
+    {
+      "px": 320,
+      "n": 66
+    }
+  ],
+  "accent": "#096fca",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}
