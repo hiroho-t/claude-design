@@ -8,10 +8,14 @@ const PANGRAM = 'あのイーハトーヴォのすきとおった風';
 const EXT = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7h-1.5V5.56L5.06 12 4 10.94 10.44 4.5H6V3Z"/><path d="M3 5h2v1.5H4.5v5H10V11h1.5v2H3V5Z"/></svg>';
 const REPO = 'https://github.com/hiroho-t/jp-styles/blob/main';
 
-export function detailPage({ d, palette, md, name, industry, ja, en, alt, ladder, lhOf, cont, read, pad, rad, gaps, main }) {
+export function detailPage({ d, palette, md, name, industry, ja, en, alt, ladder, lhOf, cont, read, pad, rad, gaps, main, secs = [], secName, allFull, img = {} }) {
   const font = alt ? alt[0] : 'Noto Sans JP';
   const gf = [...new Set([font, 'Noto Sans JP'])].map(f => `family=${f.replace(/ /g, '+')}:wght@400;500;700`).join('&');
   const roles = ['地', '主色', '副色', '差し色', '差し色'];
+  // 白抜きの部品は白地だと見えないので、主色を敷いて見せる
+  const lum = h => { if (!/^#[0-9a-f]{6}$/i.test(h || '')) return 1;
+    const [r, g, bl] = [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16) / 255);
+    return .2126 * r + .7152 * g + .0722 * bl; };
   const use = {
     地: 'ページ全体の下地',
     主色: '面で置く色。ボタンや線だけに使うと別物になる',
@@ -46,9 +50,6 @@ export function detailPage({ d, palette, md, name, industry, ja, en, alt, ladder
     ['画面幅の切り替え', d.bp.map(b => b.px).join(' / ') + 'px', ''],
   ].filter(Boolean).map(([k, v, pv]) => `<tr><th>${k}</th><td>${v}</td><td class="pvcell">${pv}</td></tr>`).join('');
 
-  // 白抜きのボタンは白地だと見えないので、そのサイトの主色を敷いて見せる
-  const lum = h => { const [r, g, bl] = [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16) / 255);
-    return .2126 * r + .7152 * g + .0722 * bl; };
   const btns = d.buttons.map((b, i) => {
     const onDark = b.color && /^#/.test(b.color) && lum(b.color) > .7;
     return `<div class="btnrow" style="background:${onDark ? esc(main.hex) : 'var(--field)'};color:${onDark ? 'rgba(255,255,255,.72)' : 'var(--sub)'}">
@@ -136,6 +137,22 @@ export function detailPage({ d, palette, md, name, industry, ja, en, alt, ladder
   pre{margin:0;padding:14px;max-height:62vh;overflow:auto;font-size:11px;line-height:1.8;
     font-family:ui-monospace,Menlo,monospace;white-space:pre-wrap;word-break:break-word;color:#333}
 
+  .note{font-size:12px;color:var(--sub);margin:12px 0}
+  .note code{font-family:ui-monospace,Menlo,monospace;font-size:11px}
+  .secs{display:flex;flex-direction:column;gap:3px}
+  .sec{display:flex;align-items:center;gap:12px;padding:0 14px;border-radius:4px;font-size:12px;overflow:hidden}
+  .secno{opacity:.6;font-size:11px;width:16px;flex:none}
+  .secname{font-weight:700}
+  .sech{margin-left:auto;opacity:.65;font-size:11px;font-family:ui-monospace,Menlo,monospace}
+  .stage{padding:28px;border-radius:8px;display:flex;align-items:center;justify-content:center}
+  .carddemo{width:min(320px,100%);display:flex;flex-direction:column;gap:10px}
+  .carddemo i{display:block;height:8px;border-radius:2px}
+  .chipdemo{display:inline-flex;align-items:center;justify-content:center;line-height:1.6}
+  .imgs{display:flex;gap:16px;flex-wrap:wrap}
+  .imgs div{width:150px}
+  .imgs span{display:block;width:100%;background:var(--field);border:1px solid var(--line)}
+  .imgs em{display:block;font-style:normal;font-size:11px;color:var(--sub);margin-top:6px}
+
   footer{border-top:1px solid var(--line);padding:28px 32px 56px;font-size:12px;color:var(--sub)}
   footer p{max-width:720px} footer a{color:var(--ink)}
   @media (max-width:900px){
@@ -183,6 +200,51 @@ export function detailPage({ d, palette, md, name, industry, ja, en, alt, ladder
   ${d.buttons.length ? `<section>
     <h2>ボタン</h2>
     ${btns}
+  </section>` : ''}
+
+  ${secs.length ? `<section>
+    <h2>ページの組み立て</h2>
+    <p class="note">上から順に、実際に並んでいたセクション。高さの比率もそのまま。</p>
+    <div class="secs">${secs.map((x, i) => {
+      const hh = Math.max(26, Math.min(120, Math.round(x.h / 18)));
+      const bg = x.bg || palette[0].hex;
+      const dark = lum(bg) < .6;
+      return `<div class="sec" style="height:${hh}px;background:${esc(bg)};color:${dark ? '#fff' : 'var(--ink)'};
+        border:1px solid ${dark ? 'transparent' : 'var(--line)'}">
+        <span class="secno">${i + 1}</span>
+        <span class="secname">${esc(secName(x, i))}</span>
+        <span class="sech">${x.h}px${x.bg ? ` ・ ${esc(x.bg)}` : ''}</span>
+      </div>`;
+    }).join('')}</div>
+    <p class="note">全${secs.length}セクション${allFull ? '、すべて全幅' : ''}。面の色は ${(d.surfaces || []).map(s2 => `<code>${esc(s2.hex)}</code>（${s2.n}）`).join(' / ')}。</p>
+  </section>` : ''}
+
+  ${(d.cards.length || d.chips.length) ? `<section>
+    <h2>部品</h2>
+    ${d.cards.length ? (() => { const c = d.cards[0];
+      const light = (c.bg === 'transparent' ? (c.border ? lum(c.border.split(' ')[1] || '#000000') : 1) : lum(c.bg)) > .7;
+      return `<div class="stage" style="background:${light ? esc(main.hex) : 'var(--field)'}">
+        <div class="carddemo" style="background:${esc(c.bg)};${c.border ? `border:${esc(c.border.replace(' ', ' solid '))};` : ''}
+          border-radius:${c.radius}px;padding:${esc(c.pad.replace('/', 'px '))}px;${c.shadow ? `box-shadow:${esc(c.shadow)};` : ''}">
+          <i style="background:${light ? 'rgba(255,255,255,.5)' : 'var(--line)'}"></i>
+          <i style="width:60%;background:${light ? 'rgba(255,255,255,.5)' : 'var(--line)'}"></i>
+        </div>
+      </div>
+      <p class="note">同じ形が ${c.n} 箇所。角丸 ${c.radius}px${c.border ? ` ／ ${esc(c.border)} の線` : ''}${c.shadow ? '' : ' ／ 影なし'}</p>` })() : '<p class="note">囲みらしい繰り返しの箱はなかった。枠で囲まず、余白だけで区切っている。</p>'}
+    ${d.chips.length ? (() => { const c = d.chips[0]; const light = lum(c.bg === 'transparent' ? '#ffffff' : c.bg) > .7;
+      return `<div class="stage" style="background:${light ? 'var(--field)' : '#fff'}">
+        <span class="chipdemo" style="background:${esc(c.bg)};color:${esc(c.color)};border-radius:${esc(c.radius)};
+          padding:${esc(c.pad)};font-size:${c.fs}px;${c.border ? `border:${esc(c.border)} solid currentColor;` : ''}">タグ</span>
+      </div>
+      <p class="note">角丸 ${esc(c.radius)} ／ ${c.fs}px</p>` })() : ''}
+  </section>` : ''}
+
+  ${img.n ? `<section>
+    <h2>画像</h2>
+    <div class="imgs">${(img.ratios || []).map(r => { const [a, b] = r.ratio.split(':').map(Number);
+      return `<div><span style="aspect-ratio:${a}/${b};border-radius:${img.radius?.[0]?.px ?? 0}px"></span>
+        <em>${esc(r.ratio)}・${r.n}枚</em></div>`; }).join('')}</div>
+    <p class="note">${img.n}枚${img.fullBleed ? `。うち ${img.fullBleed} 枚は画面いっぱいに置く` : ''}。角丸 ${img.radius?.[0]?.px ?? 0}px。</p>
   </section>` : ''}
 </main>
 

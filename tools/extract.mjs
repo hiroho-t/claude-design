@@ -202,6 +202,139 @@ const raw = await page.evaluate(() => {
   };
 });
 
+
+/* ---- 2巡目：ページ全体の組み立て方を見る（セクションの並び・部品・画像） ---- */
+const shape = await page.evaluate(() => {
+  const V = { w: innerWidth, h: innerHeight };
+  const rgb = v => {
+    const m = /rgba?\(([^)]+)\)/.exec(v || ''); if (!m) return null;
+    const p = m[1].split(/[,\s/]+/).filter(Boolean).map(Number);
+    if (p.length >= 4 && p[3] < 0.15) return null;
+    return p;
+  };
+  const hex = c => '#' + c.slice(0, 3).map(n => Math.round(n).toString(16).padStart(2, '0')).join('');
+  const bump = (m, k, w = 1) => { if (k != null) m[k] = (m[k] || 0) + w; };
+  const round = (n, s = 1) => Math.round(n / s) * s;
+  const vis = el => { const c = getComputedStyle(el), r = el.getBoundingClientRect();
+    return c.display !== 'none' && c.visibility !== 'hidden' && r.width > 0 && r.height > 0; };
+
+  // ページのセクション＝「全幅の子を一番多く持つ要素」の子たち
+  let host = null, best = 0;
+  for (const el of document.querySelectorAll('body, body *')) {
+    let n = 0;
+    for (const k of el.children) {
+      const r = k.getBoundingClientRect();
+      if (r.width >= V.w * 0.95 && r.height >= 120 && vis(k)) n++;
+    }
+    if (n > best) { best = n; host = el; }
+  }
+
+  // 横並びの列数を数える（幅のそろった兄弟が2つ以上）
+  const colsIn = root => {
+    let found = 0;
+    for (const el of root.querySelectorAll('*')) {
+      const cs = getComputedStyle(el);
+      if (!/flex|grid/.test(cs.display)) continue;
+      const kids = [...el.children].filter(vis).map(k => k.getBoundingClientRect());
+      if (kids.length < 2) continue;
+      const w0 = kids[0].width;
+      if (w0 < 140 || kids.some(k => Math.abs(k.width - w0) > 12)) continue;
+      if (kids[0].height < 80) continue;
+      found = Math.max(found, Math.min(kids.length, 6));
+    }
+    return found;
+  };
+
+  const sections = [];
+  if (host) {
+    for (const el of host.children) {
+      if (!vis(el)) continue;
+      const r = el.getBoundingClientRect();
+      if (r.height < 120) continue;
+      const bg = rgb(getComputedStyle(el).backgroundColor);
+      sections.push({
+        h: round(r.height, 20),
+        full: r.width >= V.w * 0.95,
+        cols: colsIn(el),
+        img: !!el.querySelector('img,picture,video,svg'),
+        bg: bg ? hex(bg) : null,
+      });
+    }
+  }
+
+  // 面の階層（大きな箱に使われている地色）
+  const surfaces = {};
+  for (const el of document.querySelectorAll('body *')) {
+    if (!vis(el)) continue;
+    const r = el.getBoundingClientRect();
+    if (r.width < 280 || r.height < 120) continue;
+    const c = rgb(getComputedStyle(el).backgroundColor);
+    if (c) bump(surfaces, hex(c));
+  }
+
+  // くり返し出てくる箱＝カード。同じ見た目のものが2つ以上あるものだけ
+  const cards = {};
+  for (const el of document.querySelectorAll('body *')) {
+    if (!vis(el)) continue;
+    const cs = getComputedStyle(el), r = el.getBoundingClientRect();
+    if (r.width < 180 || r.width > 760 || r.height < 120 || r.height > 720) continue;
+    const own = rgb(cs.backgroundColor), bd = parseFloat(cs.borderTopWidth) || 0;
+    const par = el.parentElement ? rgb(getComputedStyle(el.parentElement).backgroundColor) : null;
+    const painted = own && (!par || hex(own) !== hex(par));
+    if (!painted && bd === 0 && cs.boxShadow === 'none') continue;
+    if (!el.querySelector('img,p,h1,h2,h3,h4,span,div')) continue;
+    const key = JSON.stringify({
+      bg: own ? hex(own) : 'transparent',
+      radius: round(parseFloat(cs.borderTopLeftRadius) || 0, 1),
+      pad: [cs.paddingTop, cs.paddingLeft].map(v => round(parseFloat(v) || 0, 2)).join('/'),
+      border: bd ? `${round(bd, 1)}px ${hex(rgb(cs.borderTopColor) || [0, 0, 0])}` : null,
+      shadow: cs.boxShadow === 'none' ? null : cs.boxShadow,
+    });
+    bump(cards, key);
+  }
+
+  // タグ・ラベルのような小さい部品
+  const chips = {};
+  for (const el of document.querySelectorAll('body *')) {
+    if (!vis(el)) continue;
+    const cs = getComputedStyle(el), r = el.getBoundingClientRect();
+    const t = (el.innerText || '').trim();
+    if (!t || t.length > 14 || r.height < 18 || r.height > 44 || r.width < 32 || r.width > 240) continue;
+    const rad = parseFloat(cs.borderTopLeftRadius) || 0;
+    const own = rgb(cs.backgroundColor), bd = parseFloat(cs.borderTopWidth) || 0;
+    if (!own && bd === 0) continue;
+    if (rad < 4) continue;
+    // 余白のない「丸いだけの箱」はタグではないので外す
+    if ((parseFloat(cs.paddingLeft) || 0) < 4) continue;
+    bump(chips, JSON.stringify({
+      bg: own ? hex(own) : 'transparent',
+      color: hex(rgb(cs.color) || [0, 0, 0]),
+      radius: /%|9999|99px/.test(cs.borderTopLeftRadius) || rad >= r.height / 2 ? '999px' : round(rad, 1) + 'px',
+      pad: `${round(parseFloat(cs.paddingTop) || 0, 1)}px ${round(parseFloat(cs.paddingLeft) || 0, 1)}px`,
+      fs: round(parseFloat(cs.fontSize), 1),
+      border: bd ? `${round(bd, 1)}px` : null,
+    }));
+  }
+
+  // 画像の扱い
+  const ratios = {}, imgRadius = {};
+  let fullBleed = 0, imgs = 0;
+  for (const el of document.querySelectorAll('img,picture,video')) {
+    if (!vis(el)) continue;
+    const r = el.getBoundingClientRect();
+    if (r.width < 160 || r.height < 90) continue;
+    imgs++;
+    if (r.width >= V.w * 0.95) fullBleed++;
+    const known = [[16, 9], [3, 2], [4, 3], [1, 1], [3, 4], [2, 3], [21, 9]];
+    const a = r.width / r.height;
+    const near = known.reduce((b, k) => Math.abs(k[0] / k[1] - a) < Math.abs(b[0] / b[1] - a) ? k : b, known[0]);
+    if (Math.abs(near[0] / near[1] - a) < 0.14) bump(ratios, near.join(':'));
+    bump(imgRadius, round(parseFloat(getComputedStyle(el).borderTopLeftRadius) || 0, 1));
+  }
+
+  return { sections: sections.slice(0, 20), surfaces, cards, chips, ratios, imgRadius, fullBleed, imgs };
+});
+
 await browser.close();
 
 /* ---- ここから整理（近い色をまとめ、上位だけ残す） ---- */
@@ -244,6 +377,17 @@ const out = {
   container: top(raw.containers, 3).map(([w, n]) => ({ px: +w, n })),
   buttons: Object.values(btnCount).sort((a, b) => b.n - a.n).slice(0, 3).map(x => ({ ...x.b, n: x.n })),
   bp: top(raw.bp, 5).map(([b, n]) => ({ px: +b, n })).sort((a, b) => b.px - a.px),
+
+  // ページ全体の組み立て
+  sections: shape.sections,
+  surfaces: top(shape.surfaces, 4).map(([h, n]) => ({ hex: h, n })),
+  cards: top(shape.cards, 2).map(([k, n]) => ({ ...JSON.parse(k), n })).filter(c => c.n >= 2),
+  chips: top(shape.chips, 2).map(([k, n]) => ({ ...JSON.parse(k), n })).filter(c => c.n >= 2),
+  images: {
+    n: shape.imgs, fullBleed: shape.fullBleed,
+    ratios: top(shape.ratios, 3).map(([r, n]) => ({ ratio: r, n })),
+    radius: top(shape.imgRadius, 2).map(([r, n]) => ({ px: +r, n })),
+  },
 };
 
 // 抽出値からそのまま決まるタグ（人の主観を入れない）

@@ -56,6 +56,17 @@ const ladder = (() => {
   ].slice(0, 7);
 })();
 
+const secName = (x, i) => {
+  if (i === 0) return x.img ? 'ヒーロー（画像）' : 'ヒーロー';
+  if (x.cols >= 2) return `${x.cols}カラム${x.img ? '・画像あり' : ''}`;
+  if (x.h <= 320) return '帯・区切り';
+  return x.img ? '1カラム・画像あり' : '1カラム・文字だけ';
+};
+const secs = d.sections || [];
+const allFull = secs.length > 0 && secs.every(x => x.full);
+const mainSurf = (d.surfaces || []).find(s2 => s2.hex.toLowerCase() === main.hex.toLowerCase());
+const img = d.images || { n: 0, ratios: [], radius: [] };
+
 const md = `# ${name} ふうのデザイン
 
 - 出典: ${d.url}
@@ -124,11 +135,58 @@ ${d.buttons.map((b, i) => `.btn${i ? '-sub' : ''}{
 }`).join('\n')}
 \`\`\`
 
+## ページの組み立て
+
+上から順に、実際に並んでいたセクション。
+
+| # | 高さ | 地色 | 中身 |
+|---|---|---|---|
+${secs.map((x, i) => `| ${i + 1} | ${x.h}px | ${x.bg ? `\`${x.bg}\`` : '—'} | ${secName(x, i)} |`).join('\n')}
+
+- 全${secs.length}セクション${allFull ? '、すべて全幅' : ''}。${allFull ? '中央に寄せた箱を積むのではなく、色面を全幅で切り替えながら進む。' : ''}
+${mainSurf ? `- 主色 \`${main.hex}\` の面が ${mainSurf.n} 箇所。地色と主色の面を交互に置くのがリズムのつくり方。\n` : ''}- 使われている面の色: ${(d.surfaces || []).map(s2 => `\`${s2.hex}\`（${s2.n}）`).join(' / ')}
+
+## 部品
+
+${d.cards.length ? `囲み（${d.cards[0].n}箇所で同じ形）
+
+\`\`\`css
+.card{
+  background: ${d.cards[0].bg};${d.cards[0].border ? `\n  border: ${d.cards[0].border.replace(' ', ' solid ')};` : ''}
+  border-radius: ${d.cards[0].radius}px;
+  padding: ${d.cards[0].pad.split('/')[0]}px ${d.cards[0].pad.split('/')[1]}px;${d.cards[0].shadow ? `\n  box-shadow: ${d.cards[0].shadow};` : ''}
+}
+\`\`\`
+` : '囲みらしい繰り返しの箱は見つからなかった。枠で囲まずに余白だけで区切っている。\n'}
+${d.chips.length ? `ラベル・タグ
+
+\`\`\`css
+.chip{
+  background: ${d.chips[0].bg}; color: ${d.chips[0].color};${d.chips[0].border ? `\n  border: ${d.chips[0].border} solid currentColor;` : ''}
+  border-radius: ${d.chips[0].radius}; padding: ${d.chips[0].pad}; font-size: ${d.chips[0].fs}px;
+}
+\`\`\`
+` : ''}
+## 画像
+
+- ${img.n}枚使っている${img.fullBleed ? `。うち ${img.fullBleed} 枚は画面いっぱいに置く` : ''}
+- 比率は ${img.ratios.map(r => `${r.ratio}（${r.n}枚）`).join('、') || '一定しない'}
+- 角丸 ${img.radius[0]?.px ?? 0}px。${(img.radius[0]?.px ?? 0) === 0 ? '切り抜かず四角のまま置く' : '画像も箱と同じだけ丸める'}
+
 ## 守ること
 
-- 配色の比率を崩さない。主色を線やボタンだけに使うと、このサイトらしさは出ない。
+やること
+
+- 地色と主色 \`${main.hex}\` の面を${allFull ? '全幅で' : ''}交互に置く。主色は画面の${Math.round(main.pct)}%を占めるだけ使う。
 - 余白 ${pad}px と行間 ${d.body.lh} を先に決めてから中身を入れる。
-- 角丸と影を足さない。${rad === 0 ? '角は立てたまま。' : ''}
+- 画像は ${img.ratios[0]?.ratio || '16:9'} に統一し、角丸は ${img.radius[0]?.px ?? 0}px。
+${d.cards.length ? `- 囲みは ${d.cards[0].border ? `${d.cards[0].border.split(' ')[0]} の線` : '塗り'}＋角丸 ${d.cards[0].radius}px でそろえる。\n` : ''}
+やらないこと
+
+- ${d.shadow.length ? '指定以外の影を足さない' : '影をつけない（このサイトには1つもない）'}。
+- 主色を線やボタンだけの差し色に使わない。面で使わないと別物になる。
+- 本文の行間を ${d.body.lh} より詰めない。${rad === 0 ? '角を丸めない。' : ''}
+- 中途半端な角丸（${rad}px と ${d.radius[1]?.px ?? 32}px 以外）を混ぜない。
 `;
 
 writeFileSync(`s/${slug}.md`, md);
@@ -136,6 +194,7 @@ writeFileSync(`s/${slug}.md`, md);
 // 詳細ページ（実物のサイズ・色・角丸でそのまま見せる）
 writeFileSync(`p/${slug}.html`, detailPage({
   d, palette, md, name, industry, ja, en, alt, ladder, lhOf, cont, read, pad, rad, gaps, main,
+  secs, secName, allFull, img,
 }));
 
 // 一覧用
