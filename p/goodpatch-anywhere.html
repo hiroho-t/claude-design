@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Goodpatch Anywhere のスタイル｜日本のサイトのデザインを DESIGN.md に</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{ --bg:#fff; --ink:#141414; --sub:#767676; --line:#e6e4e2; --field:#f4f3f1; --r:6px }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--ink);font-family:"Noto Sans JP",sans-serif;line-height:1.9;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .top{padding:20px 32px;border-bottom:1px solid var(--line);font-size:12px;color:var(--sub)}
+  .top a{text-decoration:none} .top a:hover{text-decoration:underline}
+
+  .wrap{display:grid;grid-template-columns:minmax(0,1fr) 400px;gap:40px;padding:32px;align-items:start}
+  section{padding:28px 0;border-top:1px solid var(--line)}
+  section:first-of-type{border-top:0;padding-top:0}
+  h2{font-size:12px;font-weight:700;letter-spacing:.16em;color:var(--sub);margin-bottom:18px}
+  h1{font-size:24px;font-weight:700;line-height:1.5}
+  .lead{margin-top:10px;font-size:14px;color:var(--sub);max-width:640px}
+  .shot{display:block;border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-bottom:22px}
+  .shot img{width:100%;display:block}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+  .tags span{font-size:11px;color:var(--sub);border:1px solid var(--line);border-radius:99px;padding:3px 10px}
+  .src{margin-top:16px}
+  .src a{display:inline-flex;align-items:center;gap:8px;height:38px;padding:0 14px;font-size:13px;
+    border:1px solid var(--line);border-radius:var(--r);text-decoration:none;color:var(--ink)}
+  .src a:hover{background:var(--field)}
+  .src svg{width:14px;height:14px;fill:currentColor;flex:none}
+  .src span{color:var(--sub);font-size:11px}
+
+  .ratio{display:flex;height:40px;border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-bottom:20px}
+  .ratio i{box-shadow:1px 0 0 var(--line) inset} .ratio i:first-child{box-shadow:none}
+  .colors{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
+  .c{display:flex;gap:12px;border:1px solid var(--line);border-radius:8px;padding:12px}
+  .chip{flex:0 0 44px;height:44px;border-radius:6px;border:1px solid var(--line)}
+  .crole{font-size:12px;font-weight:700;line-height:1.6;display:flex;gap:8px;align-items:baseline}
+  .crole span{font-weight:400;color:var(--sub);font-size:11px}
+  .hex{font:inherit;font-size:12px;font-family:ui-monospace,Menlo,monospace;background:var(--field);
+    border:0;border-radius:4px;padding:1px 7px;cursor:pointer;color:var(--ink);margin:2px 0}
+  .hex:hover{background:#e8e6e3}
+  .cuse{font-size:11px;color:var(--sub);line-height:1.7}
+
+  .fonts{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:24px}
+  .fonts div{border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+  .fonts p{font-size:11px;color:var(--sub);letter-spacing:.1em}
+  .fonts strong{display:block;font-size:14px;margin-top:4px;line-height:1.6}
+  .fonts em{font-style:normal;font-size:11px;color:var(--sub)}
+  .sp{padding:14px 0;border-bottom:1px dashed var(--line)}
+  .sp:last-child{border-bottom:0}
+  .spmeta{font-size:11px;color:var(--sub);display:flex;gap:10px;margin-bottom:2px}
+  .spdemo{font-family:"Zen Kaku Gothic New","Noto Sans JP",sans-serif;font-weight:400;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th{text-align:left;font-weight:500;color:var(--sub);width:180px;vertical-align:top;padding:12px 0}
+  td{padding:12px 0;vertical-align:top} td:first-of-type{width:220px}
+  tr+tr th,tr+tr td{border-top:1px solid var(--line)}
+  .pv span{display:block;background:var(--ink);height:3px}
+  .pv.gaps{display:flex;gap:6px;align-items:center}
+  .pv.gaps span{height:20px;background:var(--field);border:1px solid var(--line)}
+  .pv b{display:inline-block;width:56px;height:36px;border:1px solid var(--ink);margin-right:8px}
+
+  .btnrow{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:20px;border-radius:8px;margin-bottom:10px}
+  .btnrow:last-child{margin-bottom:0}
+  .btnrow .demo{display:inline-flex;align-items:center;justify-content:center;font-family:inherit}
+  .btnrow code{font-size:11px;font-family:ui-monospace,Menlo,monospace;color:inherit}
+
+  aside{position:sticky;top:32px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff}
+  .ahead{display:flex;gap:8px;padding:12px;border-bottom:1px solid var(--line);align-items:center}
+  .ahead p{font-size:12px;font-weight:700;flex:1}
+  .ahead button,.ahead a{height:32px;padding:0 12px;display:inline-flex;align-items:center;font:inherit;font-size:11px;
+    font-weight:700;border-radius:var(--r);cursor:pointer;text-decoration:none;border:1px solid var(--ink);background:var(--ink);color:#fff}
+  .ahead a{background:transparent;color:var(--ink);border-color:var(--line);font-weight:500}
+  .ahead button.done{background:#fff;color:var(--ink)}
+  pre{margin:0;padding:14px;max-height:62vh;overflow:auto;font-size:11px;line-height:1.8;
+    font-family:ui-monospace,Menlo,monospace;white-space:pre-wrap;word-break:break-word;color:#333}
+
+  footer{border-top:1px solid var(--line);padding:28px 32px 56px;font-size:12px;color:var(--sub)}
+  footer p{max-width:720px} footer a{color:var(--ink)}
+  @media (max-width:900px){
+    .wrap{grid-template-columns:1fr;gap:28px;padding:24px 20px}
+    aside{position:static} .top,footer{padding-left:20px;padding-right:20px}
+  }
+</style>
+</head>
+<body>
+
+<nav class="top"><a href="../index.html">一覧</a> ／ Goodpatch Anywhere</nav>
+
+<div class="wrap">
+<main>
+  <section>
+    <a class="shot" href="https://anywhere.goodpatch.com/" target="_blank" rel="noopener"><img src="../shot/goodpatch-anywhere.jpg" alt="Goodpatch Anywhere のトップページ"></a>
+    <h1>Goodpatch Anywhere</h1>
+    <p class="lead">白地に #096fca を大きな面で置く配色。影も枠線もほとんど使わない。本文 20px・行間 2、セクション間 120px。</p>
+    <div class="tags"><span>ゴシック</span><span>余白ひろい</span><span>角ばった</span><span>色つき</span><span>デザイン会社・採用</span></div>
+    <p class="src"><a href="https://anywhere.goodpatch.com/" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7h-1.5V5.56L5.06 12 4 10.94 10.44 4.5H6V3Z"/><path d="M3 5h2v1.5H4.5v5H10V11h1.5v2H3V5Z"/></svg>anywhere.goodpatch.com<span>参考サイトを開く</span></a></p>
+  </section>
+
+  <section>
+    <h2>配色</h2>
+    <div class="ratio"><i style="background:#ffffff;flex:49.5"></i><i style="background:#096fca;flex:37.8"></i><i style="background:#e3d7d5;flex:7.1"></i></div>
+    <div class="colors"><div class="c">
+      <div class="chip" style="background:#ffffff"></div>
+      <div class="cmeta">
+        <p class="crole">地<span>49.5%</span></p>
+        <button class="hex" data-copy="#ffffff">#ffffff</button>
+        <p class="cuse">ページ全体の下地</p>
+      </div>
+    </div><div class="c">
+      <div class="chip" style="background:#096fca"></div>
+      <div class="cmeta">
+        <p class="crole">主色<span>37.8%</span></p>
+        <button class="hex" data-copy="#096fca">#096fca</button>
+        <p class="cuse">面で置く色。ボタンや線だけに使うと別物になる</p>
+      </div>
+    </div><div class="c">
+      <div class="chip" style="background:#e3d7d5"></div>
+      <div class="cmeta">
+        <p class="crole">副色<span>7.1%</span></p>
+        <button class="hex" data-copy="#e3d7d5">#e3d7d5</button>
+        <p class="cuse">主色を受ける面。区切りや帯に</p>
+      </div>
+    </div></div>
+    <p class="cuse" style="margin-top:14px">文字色は <code>#096fca</code> / <code>#ffffff</code> / <code>#000000</code>。</p>
+  </section>
+
+  <section>
+    <h2>文字</h2>
+    <div class="fonts">
+      <div><p>和文</p><strong>ゴシックMB101 M JIS2004</strong><em>有料。無料で近いのは Zen Kaku Gothic New、Noto Sans JP</em></div>
+      <div><p>欧文</p><strong>Helvetica Neue</strong></div>
+      <div><p>本文</p><strong>20px / 行間 2</strong><em>この見本は Zen Kaku Gothic New で表示しています</em></div>
+    </div>
+    <div class="sp">
+      <p class="spmeta">大見出し<span>72px / 行間 1.6</span></p>
+      <p class="spdemo" style="font-size:72px;line-height:1.6">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">見出し<span>48px / 行間 1.5</span></p>
+      <p class="spdemo" style="font-size:48px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">小見出し<span>32px</span></p>
+      <p class="spdemo" style="font-size:32px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">本文<span>20px / 行間 2</span></p>
+      <p class="spdemo" style="font-size:20px;line-height:2">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">補助<span>18px</span></p>
+      <p class="spdemo" style="font-size:18px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">注記<span>16px / 行間 1.6</span></p>
+      <p class="spdemo" style="font-size:16px;line-height:1.6">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">注記<span>13px</span></p>
+      <p class="spdemo" style="font-size:13px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>余白とかたち</h2>
+    <table><tr><th>コンテンツ幅</th><td>1376px</td><td class="pvcell"><div class="pv"><span style="width:100%;max-width:260px"></span></div></td></tr><tr><th>読ませる段の幅</th><td>672px</td><td class="pvcell"><div class="pv"><span style="width:168px"></span></div></td></tr><tr><th>セクションの上下余白</th><td>120px</td><td class="pvcell"><div class="pv"><span style="height:120px;width:3px"></span></div></td></tr><tr><th>並びの間隔</th><td>4 / 8 / 16 / 24px</td><td class="pvcell"><div class="pv gaps"><span style="width:4px"></span><span style="width:8px"></span><span style="width:16px"></span><span style="width:24px"></span></div></td></tr><tr><th>角丸</th><td>0px（大きな面は 32px）</td><td class="pvcell"><div class="pv"><b style="border-radius:0px"></b><b style="border-radius:32px"></b></div></td></tr><tr><th>影</th><td>なし</td><td class="pvcell"><div class="pv"><b></b></div></td></tr><tr><th>画面幅の切り替え</th><td>1160 / 768 / 480 / 320px</td><td class="pvcell"></td></tr></table>
+  </section>
+
+  <section>
+    <h2>ボタン</h2>
+    <div class="btnrow" style="background:#096fca;color:rgba(255,255,255,.72)">
+      <span class="demo" style="background:#096fca;color:#ffffff;border-radius:4px;padding:0px 48px;min-height:48px;font-size:14px;font-weight:700;letter-spacing:0">お問い合わせ</span>
+      <code>#096fca / 14px / 700 / 角丸 4px</code>
+    </div><div class="btnrow" style="background:#096fca;color:rgba(255,255,255,.72)">
+      <span class="demo" style="background:transparent;color:#ffffff;border:1px solid #ffffff;border-radius:4px;padding:20px 32px;min-height:60px;font-size:16px;font-weight:700;letter-spacing:0">もっと見る</span>
+      <code>transparent / 16px / 700 / 角丸 4px</code>
+    </div>
+  </section>
+</main>
+
+<aside>
+  <div class="ahead">
+    <p>DESIGN.md</p>
+    <button id="copy">mdをコピー</button>
+    <a href="https://github.com/hiroho-t/jp-styles/blob/main/s/goodpatch-anywhere.md" target="_blank" rel="noopener">mdファイル</a>
+  </div>
+  <pre id="md"># Goodpatch Anywhere ふうのデザイン
+
+- 出典: https://anywhere.goodpatch.com/
+- 実測: 2026-09-01／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 印象: ゴシック / 余白ひろい / 角ばった / 色つき
+- 業種: デザイン会社・採用
+
+白地に `#096fca` を大きな面で置く配色。影も枠線もほとんど使わない。本文 20px・行間 2、セクション間 120px。
+
+このファイルに書いてあるのは色と寸法だけ。文言・写真・ロゴは真似せず、自分で用意すること。
+
+## そのまま使う変数
+
+```css
+:root{
+  --bg: #ffffff;
+  --main: #096fca;
+  --sub: #e3d7d5;
+  --ink: #096fca;
+  --ink-rev: #ffffff;
+  --font-ja: &quot;Zen Kaku Gothic New&quot;, &quot;Noto Sans JP&quot;, sans-serif;
+  --font-en: &quot;Helvetica Neue&quot;, sans-serif;
+  --fs-body: 20px;
+  --lh-body: 2;
+  --container: 1376px;
+  --read: 672px;
+  --section-y: 120px;
+  --gap: 16px;
+  --radius: 0px;
+}
+```
+
+## 配色
+
+| 役割 | 色 | 画面に占める割合 |
+|---|---|---|
+| 地 | `#ffffff` | 49.5% |
+| 主色 | `#096fca` | 37.8% |
+| 副色 | `#e3d7d5` | 7.1% |
+
+文字色は `#096fca` / `#ffffff` / `#000000`。
+
+- 主色 `#096fca` は差し色ではなく**面**で使う。画面の38%を占めている。
+- 影は**使わない**（計測0件）。段差は色面の切り替えだけでつくる。
+
+## 文字
+
+- 和文: ゴシックMB101 M JIS2004（有料）→ 無料で近いのは **Zen Kaku Gothic New**、なければ Noto Sans JP
+- 欧文: Helvetica Neue
+- ウェイトは 400 が中心。太さで強弱をつけず、大きさで差をつける。
+
+| 用途 | サイズ | 行間 |
+|---|---|---|
+| 大見出し | 72px | 1.6 |
+| 見出し | 48px | 1.5 |
+| 小見出し | 32px | — |
+| 本文 | 20px | 2 |
+| 補助 | 18px | — |
+| 注記 | 16px | 1.6 |
+| 注記 | 13px | — |
+
+- 本文は 20px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
+
+## レイアウト
+
+- コンテンツ幅: 最大 1376px／読ませる段は 672px
+- セクションの上下余白: 120 / 100 / 140 / 200px（基本は 120px）
+- 並びの間隔: 4 / 8 / 16 / 24px
+- 角丸: 0px が基本。大きな面だけ 32px。中途半端な角丸を混ぜない
+- 画面幅の切り替え: 1160 / 768 / 480 / 320px
+
+## ボタン
+
+```css
+.btn{
+  background: #096fca; color: #ffffff;
+  border-radius: 4px; padding: 0px 48px; min-height: 48px;
+  font-size: 14px; font-weight: 700; letter-spacing: 0;
+}
+.btn-sub{
+  background: transparent; color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px; padding: 20px 32px; min-height: 60px;
+  font-size: 16px; font-weight: 700; letter-spacing: 0;
+}
+```
+
+## 守ること
+
+- 配色の比率を崩さない。主色を線やボタンだけに使うと、このサイトらしさは出ない。
+- 余白 120px と行間 2 を先に決めてから中身を入れる。
+- 角丸と影を足さない。角は立てたまま。
+</pre>
+</aside>
+</div>
+
+<footer>
+  <p>掲載しているのは、各サイトを計測して得た色・寸法などの数値と、参考として添えたスクリーンショットです。
+     文言・写真・ロゴは含めていません。著作権は各サイトの権利者に帰属します。
+     スクリーンショットの掲載を希望されない場合はご連絡ください、確認のうえ削除します。</p>
+  <p style="margin-top:12px">運営：<a href="https://startwith.org/" target="_blank" rel="noopener">合同会社StartWith</a></p>
+</footer>
+
+<script>
+const flash = (el, msg) => { const b = el.textContent; el.textContent = msg; el.classList.add('done');
+  setTimeout(() => { el.textContent = b; el.classList.remove('done'); }, 1500); };
+document.getElementById('copy').addEventListener('click', async e => {
+  try { await navigator.clipboard.writeText(document.getElementById('md').textContent); flash(e.target, 'コピーしました'); }
+  catch { flash(e.target, 'コピーできません'); }
+});
+document.querySelectorAll('[data-copy]').forEach(b => b.addEventListener('click', async () => {
+  try { await navigator.clipboard.writeText(b.dataset.copy); flash(b, 'コピー'); } catch {}
+}));
+</script>
+</body>
+</html>

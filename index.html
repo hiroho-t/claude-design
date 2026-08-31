@@ -30,6 +30,8 @@
   .shot{display:block;aspect-ratio:16/10;overflow:hidden;background:var(--field);border-bottom:1px solid var(--line)}
   .shot img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block}
   .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:10px;flex:1}
+  .head{text-decoration:none;color:inherit;display:block}
+  .head:hover .name{text-decoration:underline;text-underline-offset:3px}
   .name{font-size:14px;font-weight:700;line-height:1.5}
   .meta{font-size:11px;color:var(--sub);line-height:1.7}
   .sw{display:flex;border-radius:4px;overflow:hidden;height:14px;border:1px solid var(--line)}
@@ -41,8 +43,7 @@
   .act button,.act a{flex:1;height:36px;display:flex;align-items:center;justify-content:center;gap:6px;
     font:inherit;font-size:12px;font-weight:700;letter-spacing:.04em;border-radius:var(--r);cursor:pointer;
     text-decoration:none;border:1px solid var(--ink);background:var(--ink);color:#fff}
-  .act a{flex:0 0 104px;background:transparent;color:var(--ink);border-color:var(--line);font-weight:500}
-  .act button:hover{opacity:.78} .act a:hover{background:var(--field)}
+  .act button:hover{opacity:.78}
   .act button.done{background:#fff;color:var(--ink);border-color:var(--ink)}
 
   footer{border-top:1px solid var(--line);padding:28px 32px 56px;font-size:12px;color:var(--sub)}
@@ -75,9 +76,6 @@
 </footer>
 
 <script>
-// mdファイルのリンク先。GitHub 上で開くと中身がそのまま読める（生ファイルだと保存になってしまう）
-const REPO = 'https://github.com/hiroho-t/jp-styles/blob/main';
-
 const grid = document.getElementById('grid'), q = document.getElementById('q');
 const countEl = document.getElementById('count'), empty = document.getElementById('empty');
 let items = [];
@@ -95,19 +93,18 @@ function render() {
   empty.hidden = hit.length > 0;
   grid.innerHTML = hit.map(x => `
     <article class="card">
-      <a class="shot" href="${esc(x.url)}" target="_blank" rel="noopener">
+      <a class="shot" href="p/${esc(x.slug)}.html">
         <img src="shot/${esc(x.slug)}.jpg" alt="${esc(x.name)} のトップページ" loading="lazy">
       </a>
       <div class="body">
-        <div>
+        <a class="head" href="p/${esc(x.slug)}.html">
           <p class="name">${esc(x.name)}</p>
           <p class="meta">${esc(x.industry || '')}</p>
-        </div>
+        </a>
         <div class="sw">${(x.palette || []).map(c => `<i style="background:${esc(c.hex)};flex:${c.pct}"></i>`).join('')}</div>
         <div class="tags">${(x.tags || []).map(t => `<span>${esc(t)}</span>`).join('')}</div>
         <div class="act">
           <button data-slug="${esc(x.slug)}">mdをコピー</button>
-          <a href="${REPO}/s/${esc(x.slug)}.md" target="_blank" rel="noopener">mdファイル</a>
         </div>
       </div>
     </article>`).join('');

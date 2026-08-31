@@ -6,6 +6,7 @@
  *   node tools/build.mjs <slug> "<業種>"
  */
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { detailPage } from './page.mjs';
 
 const [slug, industry = ''] = process.argv.slice(2);
 const d = JSON.parse(readFileSync(`data/${slug}.json`, 'utf8'));
@@ -132,6 +133,11 @@ ${d.buttons.map((b, i) => `.btn${i ? '-sub' : ''}{
 
 writeFileSync(`s/${slug}.md`, md);
 
+// 詳細ページ（実物のサイズ・色・角丸でそのまま見せる）
+writeFileSync(`p/${slug}.html`, detailPage({
+  d, palette, md, name, industry, ja, en, alt, ladder, lhOf, cont, read, pad, rad, gaps, main,
+}));
+
 // 一覧用
 const list = existsSync('data.json') ? JSON.parse(readFileSync('data.json', 'utf8')) : [];
 const entry = { slug, name, url: d.url, industry, tags: d.tags, accent: main.hex, palette: palette.slice(0, 4).map(c => ({ hex: c.hex, pct: c.pct })) };
@@ -139,7 +145,7 @@ const i = list.findIndex(x => x.slug === slug);
 i < 0 ? list.push(entry) : (list[i] = entry);
 writeFileSync('data.json', JSON.stringify(list, null, 2));
 
-console.log(`s/${slug}.md (${md.split('\n').length}行) と data.json を更新`);
+console.log(`s/${slug}.md (${md.split('\n').length}行) ／ p/${slug}.html ／ data.json を更新`);
 
 /** 数値から機械的に一言つくる（書き手の主観を入れない） */
 function describe(d, palette, main) {
