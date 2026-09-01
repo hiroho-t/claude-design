@@ -297,7 +297,7 @@ export function detailPage({ d, palette, md, name, industry, ja, en, alt, ladder
 
 <footer>
   <p>スクリーンショットの掲載を希望されない場合はご連絡ください、確認のうえ削除します。</p>
-  <p style="margin-top:12px">運営：<a href="https://startwith.org/" target="_blank" rel="noopener">合同会社StartWith</a></p>
+  <p class="foot-meta"><span>© StartWith Inc.</span><a href="https://startwith.org/" target="_blank" rel="noopener">運営会社</a></p>
 </footer>
 
 <script>

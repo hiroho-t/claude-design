@@ -1,0 +1,349 @@
+{
+  "slug": "jiichiroshop",
+  "url": "https://www.jiichiro-shop.com/",
+  "title": "治一郎 公式オンラインショップ",
+  "desc": "「心で感じる美味しさ」を大切に。治一郎オンラインショップでは、バウムクーヘンや詰め合わせセットなど、こだわりのお菓子をお取り寄せいただけます。",
+  "bg": [
+    {
+      "hex": "#f8f6e7",
+      "pct": 94.4
+    },
+    {
+      "hex": "#f8f8f8",
+      "pct": 5.6
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 0
+    },
+    {
+      "hex": "#000000",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 92.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 5.5
+    },
+    {
+      "hex": "#231815",
+      "pct": 1.7
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "ryo-gothic-plusn",
+      "w": 800
+    },
+    {
+      "family": "Figtree",
+      "w": 127
+    },
+    {
+      "family": "ryo-text-plusn",
+      "w": 103
+    }
+  ],
+  "sizes": [
+    {
+      "px": 18,
+      "w": 64
+    },
+    {
+      "px": 15,
+      "w": 102
+    },
+    {
+      "px": 14,
+      "w": 493
+    },
+    {
+      "px": 13,
+      "w": 92
+    },
+    {
+      "px": 12,
+      "w": 153
+    },
+    {
+      "px": 11,
+      "w": 39
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.72,
+    "ls": "0.030em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 32,
+        "weight": "300",
+        "lh": 1.31,
+        "ls": "0.060em",
+        "family": "ryo-text-plusn"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 28,
+        "weight": "300",
+        "lh": 1.2,
+        "ls": "0.020em",
+        "family": "ryo-text-plusn"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 8,
+      "n": 12
+    },
+    {
+      "px": 0,
+      "n": 3
+    },
+    {
+      "px": 4,
+      "n": 2
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 10,
+      "n": 9
+    },
+    {
+      "px": 12,
+      "n": 6
+    },
+    {
+      "px": 13,
+      "n": 6
+    },
+    {
+      "px": 30,
+      "n": 6
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 2
+    },
+    {
+      "px": 120,
+      "n": 2
+    },
+    {
+      "px": 140,
+      "n": 2
+    },
+    {
+      "px": 152,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 668,
+      "n": 11
+    },
+    {
+      "px": 980,
+      "n": 8
+    },
+    {
+      "px": 1135,
+      "n": 2
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#000000",
+      "border": "1px #000000",
+      "radius": "4px",
+      "pad": "6px 10px",
+      "fs": 14,
+      "weight": "300",
+      "h": 33,
+      "ls": "1.12px",
+      "n": 2
+    }
+  ],
+  "bp": [],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 620,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1760,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f8f6e7",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "transparent",
+      "radius": 8,
+      "pad": "30/30",
+      "border": "1px #d9d9d9",
+      "shadow": null,
+      "n": 6
+    }
+  ],
+  "chips": [
+    {
+      "bg": "transparent",
+      "color": "#000000",
+      "radius": "4px",
+      "pad": "6px 13px",
+      "fs": 14,
+      "border": "1px",
+      "n": 2
+    }
+  ],
+  "images": {
+    "n": 16,
+    "fullBleed": 14,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 8
+      },
+      {
+        "ratio": "1:1",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 16
+      }
+    ]
+  },
+  "circles": {
+    "n": 2,
+    "sizes": [
+      {
+        "px": 16,
+        "n": 1
+      },
+      {
+        "px": 24,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.57,
+    "sizes": [
+      14,
+      13,
+      12,
+      11,
+      10
+    ],
+    "pad": 36,
+    "gap": 7,
+    "sidePad": 30,
+    "h1": {
+      "fs": 26,
+      "lh": 1.46
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f8f6e7",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f8f8f8",
+      "面": 6,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 0,
+      "文字": 8,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 71,
+      "枠": 2,
+      "ボタン": 0
+    },
+    {
+      "hex": "#231815",
+      "面": 0,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "モノトーン"
+  ]
+}

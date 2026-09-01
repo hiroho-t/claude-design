@@ -1,0 +1,514 @@
+{
+  "slug": "oricom",
+  "url": "https://www.oricom.co.jp/",
+  "title": "株式会社オリコム ORICOM CO.,LTD.",
+  "desc": "オリコムは創業100年の歴史と実績を持つ、総合広告会社です。私たちは、生活者に寄り添い、生活者を起点として思考します。豊富なOOH実績とデータによる体験設計、デジタルとマスメディアを組み合わせた総合的なソリューションによりお客様の課題を解決します。",
+  "bg": [
+    {
+      "hex": "#222222",
+      "pct": 37
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 33.6
+    },
+    {
+      "hex": "#f5f5f5",
+      "pct": 28.3
+    },
+    {
+      "hex": "#000000",
+      "pct": 1.1
+    },
+    {
+      "hex": "#dddddd",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 72.1
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 16.7
+    },
+    {
+      "hex": "#f5f5f5",
+      "pct": 6.3
+    },
+    {
+      "hex": "#333333",
+      "pct": 3.6
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Arial",
+      "w": 2938
+    },
+    {
+      "family": "Gotham",
+      "w": 245
+    },
+    {
+      "family": "Helvetica",
+      "w": 174
+    }
+  ],
+  "sizes": [
+    {
+      "px": 24,
+      "w": 680
+    },
+    {
+      "px": 20,
+      "w": 230
+    },
+    {
+      "px": 16,
+      "w": 1059
+    },
+    {
+      "px": 14,
+      "w": 610
+    },
+    {
+      "px": 13,
+      "w": 165
+    },
+    {
+      "px": 10,
+      "w": 446
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 2,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 18,
+        "weight": "700",
+        "lh": 1.75,
+        "ls": "0",
+        "family": "Arial"
+      },
+      {
+        "fs": 104,
+        "weight": "700",
+        "lh": 1.25,
+        "ls": "0.030em",
+        "family": "Arial"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 64,
+        "weight": "700",
+        "lh": 1.2,
+        "ls": "0",
+        "family": "Gotham"
+      },
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1.75,
+        "ls": "0",
+        "family": "Arial"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 8,
+      "n": 67
+    },
+    {
+      "px": 16,
+      "n": 11
+    },
+    {
+      "px": 0,
+      "n": 8
+    },
+    {
+      "px": 24,
+      "n": 4
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.3) 0px -4px 10px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 8,
+      "n": 27
+    },
+    {
+      "px": 2,
+      "n": 25
+    },
+    {
+      "px": 24,
+      "n": 23
+    },
+    {
+      "px": 10,
+      "n": 21
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 80,
+      "n": 12
+    },
+    {
+      "px": 40,
+      "n": 7
+    },
+    {
+      "px": 64,
+      "n": 2
+    },
+    {
+      "px": 200,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1280,
+      "n": 29
+    },
+    {
+      "px": 800,
+      "n": 11
+    },
+    {
+      "px": 1200,
+      "n": 11
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 10,
+      "weight": "400",
+      "h": 32,
+      "ls": "0",
+      "n": 25
+    },
+    {
+      "bg": "#000000",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "8px",
+      "pad": "4px 16px",
+      "fs": 10,
+      "weight": "400",
+      "h": 32,
+      "ls": "0",
+      "n": 25
+    },
+    {
+      "bg": "#f5f5f5",
+      "color": "#000000",
+      "border": null,
+      "radius": "8px",
+      "pad": "4px 16px",
+      "fs": 10,
+      "weight": "400",
+      "h": 32,
+      "ls": "0",
+      "n": 21
+    }
+  ],
+  "bp": [
+    {
+      "px": 1024,
+      "n": 2
+    },
+    {
+      "px": 900,
+      "n": 1
+    },
+    {
+      "px": 768,
+      "n": 11
+    },
+    {
+      "px": 736,
+      "n": 1
+    },
+    {
+      "px": 414,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 240,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 240,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 240,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 240,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 240,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 240,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 240,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 240,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 240,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 240,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 7
+    },
+    {
+      "hex": "#222222",
+      "n": 2
+    },
+    {
+      "hex": "#f5f5f5",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": null,
+      "bg": "transparent",
+      "radius": 16,
+      "pad": "0/0",
+      "border": "1px #dddddd",
+      "shadow": null,
+      "n": 4
+    },
+    {
+      "onBg": "#f5f5f5",
+      "bg": "#ffffff",
+      "radius": 16,
+      "pad": "24/24",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#000000",
+      "color": "#ffffff",
+      "radius": "8px",
+      "pad": "4px 16px",
+      "fs": 16,
+      "border": null,
+      "n": 30
+    },
+    {
+      "bg": "#f5f5f5",
+      "color": "#000000",
+      "radius": "8px",
+      "pad": "4px 16px",
+      "fs": 16,
+      "border": null,
+      "n": 29
+    }
+  ],
+  "images": {
+    "n": 43,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "16:9",
+        "n": 41
+      },
+      {
+        "ratio": "1:1",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 43
+      }
+    ]
+  },
+  "circles": {
+    "n": 1,
+    "sizes": [
+      {
+        "px": 16,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sizes": [
+      18,
+      16,
+      14,
+      13,
+      10
+    ],
+    "pad": 24,
+    "gap": 8,
+    "sidePad": 16,
+    "h1": {
+      "fs": 18,
+      "lh": 1.75
+    }
+  },
+  "usage": [
+    {
+      "hex": "#222222",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 9,
+      "文字": 45,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f5f5f5",
+      "面": 32,
+      "文字": 10,
+      "枠": 0,
+      "ボタン": 21
+    },
+    {
+      "hex": "#000000",
+      "面": 33,
+      "文字": 165,
+      "枠": 6,
+      "ボタン": 26
+    },
+    {
+      "hex": "#dddddd",
+      "面": 0,
+      "文字": 0,
+      "枠": 6,
+      "ボタン": 0
+    },
+    {
+      "hex": "#333333",
+      "面": 0,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "モノトーン"
+  ]
+}
