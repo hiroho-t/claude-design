@@ -1,0 +1,513 @@
+{
+  "slug": "hogoneco-clinic-neco-republic",
+  "url": "https://hogoneco-clinic.neco-republic.jp/",
+  "title": "ネコリパブリック 保護猫専用の不妊手術病院 ほごねこクリニック",
+  "desc": "保護猫専用の不妊手術病院です。保護猫団体の方も一般個人の方も野良猫を見かけたら、捕獲し、不妊手術を徹底することが殺処分ゼロへの近道です。不妊手術をしたいという方は当院にご相談ください。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 49.1
+    },
+    {
+      "hex": "#f8b62d",
+      "pct": 22.1
+    },
+    {
+      "hex": "#fff9f2",
+      "pct": 22.3
+    },
+    {
+      "hex": "#e5e3df",
+      "pct": 2.4
+    },
+    {
+      "hex": "#ffb415",
+      "pct": 2
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#2f2f2f",
+      "pct": 62.2
+    },
+    {
+      "hex": "#000000",
+      "pct": 13.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 11.8
+    },
+    {
+      "hex": "#ffad03",
+      "pct": 7.6
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "游ゴシック体",
+      "w": 2424
+    },
+    {
+      "family": "Ubuntu",
+      "w": 442
+    },
+    {
+      "family": "Roboto",
+      "w": 90
+    }
+  ],
+  "sizes": [
+    {
+      "px": 20,
+      "w": 211
+    },
+    {
+      "px": 16,
+      "w": 126
+    },
+    {
+      "px": 15,
+      "w": 1845
+    },
+    {
+      "px": 14,
+      "w": 163
+    },
+    {
+      "px": 13,
+      "w": 136
+    },
+    {
+      "px": 12,
+      "w": 203
+    }
+  ],
+  "body": {
+    "fs": 15,
+    "lh": 1.87,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 38,
+        "weight": "700",
+        "lh": 1.74,
+        "ls": "0.100em",
+        "family": "游ゴシック体"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 20,
+        "weight": "700",
+        "lh": 1.8,
+        "ls": "0",
+        "family": "游ゴシック体"
+      },
+      {
+        "fs": 22,
+        "weight": "700",
+        "lh": 1.82,
+        "ls": "0.100em",
+        "family": "游ゴシック体"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 15,
+        "weight": "700",
+        "lh": 1.87,
+        "ls": "0",
+        "family": "游ゴシック体"
+      },
+      {
+        "fs": 20,
+        "weight": "700",
+        "lh": 1.15,
+        "ls": "0.040em",
+        "family": "游ゴシック体"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 56
+    },
+    {
+      "px": 50,
+      "n": 8
+    },
+    {
+      "px": 13,
+      "n": 7
+    },
+    {
+      "px": 30,
+      "n": 5
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.3) 0px 1px 4px -1px",
+      "n": 2
+    }
+  ],
+  "gap": [
+    {
+      "px": 9,
+      "n": 1
+    },
+    {
+      "px": 10,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 80,
+      "n": 3
+    },
+    {
+      "px": 40,
+      "n": 2
+    },
+    {
+      "px": 92,
+      "n": 2
+    },
+    {
+      "px": 96,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 800,
+      "n": 13
+    },
+    {
+      "px": 1004,
+      "n": 8
+    },
+    {
+      "px": 1228,
+      "n": 7
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffb415",
+      "color": "#ffffff",
+      "border": "2px #ffb415",
+      "radius": "70px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "700",
+      "h": 70,
+      "ls": "0.8px",
+      "n": 4
+    },
+    {
+      "bg": "#48b428",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "50px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "700",
+      "h": 50,
+      "ls": "0.7px",
+      "n": 3
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "700",
+      "h": 40,
+      "ls": "0.7px",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1366,
+      "n": 1
+    },
+    {
+      "px": 1024,
+      "n": 1
+    },
+    {
+      "px": 768,
+      "n": 53
+    },
+    {
+      "px": 767,
+      "n": 22
+    },
+    {
+      "px": 600,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 420,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "右",
+      "split": "50:50"
+    },
+    {
+      "h": 260,
+      "full": false,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 340,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 940,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "右",
+      "split": "76:24"
+    },
+    {
+      "h": 1320,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 2300,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1060,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "78:22"
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 660,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": "#fff9f2",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "49:51"
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 3
+    },
+    {
+      "hex": "#f8b62d",
+      "n": 1
+    },
+    {
+      "hex": "#e5e3df",
+      "n": 1
+    },
+    {
+      "hex": "#fff9f2",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 82,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "4:3",
+        "n": 42
+      },
+      {
+        "ratio": "1:1",
+        "n": 14
+      },
+      {
+        "ratio": "16:9",
+        "n": 10
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 78
+      },
+      {
+        "px": 30,
+        "n": 4
+      }
+    ]
+  },
+  "circles": {
+    "n": 1,
+    "sizes": [
+      {
+        "px": 40,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 15,
+    "bodyLh": 1.87,
+    "sizes": [
+      18,
+      15,
+      14,
+      13,
+      12
+    ],
+    "pad": 60,
+    "gap": null,
+    "sidePad": 20,
+    "h1": {
+      "fs": 28,
+      "lh": 1.86
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 8,
+      "文字": 31,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#f8b62d",
+      "面": 12,
+      "文字": 12,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#fff9f2",
+      "面": 48,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#e5e3df",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffb415",
+      "面": 5,
+      "文字": 0,
+      "枠": 5,
+      "ボタン": 4
+    },
+    {
+      "hex": "#2f2f2f",
+      "面": 8,
+      "文字": 75,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 34,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffad03",
+      "面": 0,
+      "文字": 28,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#ffad03",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

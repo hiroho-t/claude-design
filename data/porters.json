@@ -1,0 +1,426 @@
+{
+  "slug": "porters",
+  "url": "https://www.porters.jp/",
+  "title": "ポーターズ株式会社",
+  "desc": "",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 37.8
+    },
+    {
+      "hex": "#24211e",
+      "pct": 36.9
+    },
+    {
+      "hex": "#000000",
+      "pct": 22.7
+    },
+    {
+      "hex": "#2c2926",
+      "pct": 2.5
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#ffffff",
+      "pct": 86.4
+    },
+    {
+      "hex": "#000000",
+      "pct": 13.6
+    }
+  ],
+  "pageBg": "#24211e",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 1504
+    },
+    {
+      "family": "Poppins",
+      "w": 246
+    },
+    {
+      "family": "Source Serif Pro",
+      "w": 86
+    },
+    {
+      "family": "Oswald",
+      "w": 65
+    }
+  ],
+  "sizes": [
+    {
+      "px": 28,
+      "w": 48
+    },
+    {
+      "px": 18,
+      "w": 414
+    },
+    {
+      "px": 15,
+      "w": 136
+    },
+    {
+      "px": 14,
+      "w": 251
+    },
+    {
+      "px": 13,
+      "w": 545
+    },
+    {
+      "px": 12,
+      "w": 282
+    }
+  ],
+  "body": {
+    "fs": 13,
+    "lh": 1.92,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 15,
+        "weight": "500",
+        "lh": 1,
+        "ls": "0.050em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 10,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.050em",
+        "family": "Poppins"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 18,
+        "weight": "400",
+        "lh": 1.78,
+        "ls": "0.050em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 18,
+        "weight": "500",
+        "lh": 1.67,
+        "ls": "0.028em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 12
+    },
+    {
+      "px": 5,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 100,
+      "n": 3
+    },
+    {
+      "px": 200,
+      "n": 2
+    },
+    {
+      "px": 40,
+      "n": 1
+    },
+    {
+      "px": 44,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1200,
+      "n": 39
+    },
+    {
+      "px": 900,
+      "n": 8
+    },
+    {
+      "px": 600,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#000000",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 15,
+      "weight": "500",
+      "h": 50,
+      "ls": "0.75px",
+      "n": 2
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#000000",
+      "border": null,
+      "radius": "5px",
+      "pad": "0px 0px",
+      "fs": 15,
+      "weight": "500",
+      "h": 50,
+      "ls": "0.75px",
+      "n": 1
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#000000",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 15,
+      "weight": "400",
+      "h": 40,
+      "ls": "0.75px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1400,
+      "n": 1
+    },
+    {
+      "px": 1333,
+      "n": 1
+    },
+    {
+      "px": 1100,
+      "n": 1
+    },
+    {
+      "px": 1024,
+      "n": 3
+    },
+    {
+      "px": 800,
+      "n": 25
+    }
+  ],
+  "sections": [
+    {
+      "h": 1420,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "右",
+      "split": "75:25"
+    },
+    {
+      "h": 560,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 820,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 960,
+      "full": false,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 620,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 120,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 760,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#24211e",
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#24211e",
+      "n": 3
+    },
+    {
+      "hex": "#000000",
+      "n": 2
+    },
+    {
+      "hex": "#2c2926",
+      "n": 1
+    },
+    {
+      "hex": "#ffffff",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#24211e",
+      "bg": "#24211e",
+      "radius": 0,
+      "pad": "46/48",
+      "border": null,
+      "shadow": null,
+      "n": 2
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 12,
+    "fullBleed": 2,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 4
+      },
+      {
+        "ratio": "4:3",
+        "n": 3
+      },
+      {
+        "ratio": "16:9",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 12
+      }
+    ]
+  },
+  "circles": {
+    "n": 4,
+    "sizes": [
+      {
+        "px": 64,
+        "n": 3
+      },
+      {
+        "px": 48,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 13,
+    "bodyLh": 1.54,
+    "sizes": [
+      16,
+      15,
+      14,
+      13,
+      12
+    ],
+    "pad": 40,
+    "gap": null,
+    "sidePad": 21,
+    "h1": {
+      "fs": 14,
+      "lh": 1
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 3,
+      "文字": 96,
+      "枠": 6,
+      "ボタン": 2
+    },
+    {
+      "hex": "#24211e",
+      "面": 4,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 3,
+      "文字": 35,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#2c2926",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "モノトーン"
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "slug": "sr-comodo",
+  "url": "https://sr-comodo.com/",
+  "title": "株式会社コモドデザイン | 東信州の住宅・商店のリノベーションは小諸のコモド",
+  "desc": "",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 62.5
+    },
+    {
+      "hex": "#166678",
+      "pct": 17
+    },
+    {
+      "hex": "#faeae0",
+      "pct": 12.9
+    },
+    {
+      "hex": "#b2a69a",
+      "pct": 5.9
+    },
+    {
+      "hex": "#403128",
+      "pct": 1.8
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#403128",
+      "pct": 80.3
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 12.4
+    },
+    {
+      "hex": "#166678",
+      "pct": 4.7
+    },
+    {
+      "hex": "#b2a69a",
+      "pct": 2.7
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Lato",
+      "w": 947
+    }
+  ],
+  "sizes": [
+    {
+      "px": 30,
+      "w": 52
+    },
+    {
+      "px": 29,
+      "w": 12
+    },
+    {
+      "px": 22,
+      "w": 157
+    },
+    {
+      "px": 17,
+      "w": 467
+    },
+    {
+      "px": 15,
+      "w": 124
+    },
+    {
+      "px": 13,
+      "w": 135
+    }
+  ],
+  "body": {
+    "fs": 17,
+    "lh": 2.5,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 30,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.100em",
+        "family": "Lato"
+      },
+      {
+        "fs": 22,
+        "weight": "700",
+        "lh": 1.8,
+        "ls": "0.100em",
+        "family": "Lato"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 17,
+        "weight": "700",
+        "lh": 1.8,
+        "ls": "0.050em",
+        "family": "Lato"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 36,
+      "n": 10
+    },
+    {
+      "px": 20,
+      "n": 9
+    },
+    {
+      "px": 0,
+      "n": 3
+    },
+    {
+      "px": 34,
+      "n": 2
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 72,
+      "n": 5
+    },
+    {
+      "px": 144,
+      "n": 5
+    },
+    {
+      "px": 64,
+      "n": 1
+    },
+    {
+      "px": 216,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1152,
+      "n": 11
+    },
+    {
+      "px": 1208,
+      "n": 2
+    },
+    {
+      "px": 1352,
+      "n": 2
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 13,
+      "weight": "500",
+      "h": 32,
+      "ls": "0.843338px",
+      "n": 9
+    },
+    {
+      "bg": "#403128",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "20px",
+      "pad": "7px 13px",
+      "fs": 13,
+      "weight": "500",
+      "h": 38,
+      "ls": "0.843338px",
+      "n": 6
+    },
+    {
+      "bg": "transparent",
+      "color": "#403128",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 17,
+      "weight": "500",
+      "h": 55,
+      "ls": "0.843338px",
+      "n": 6
+    }
+  ],
+  "bp": [
+    {
+      "px": 1366,
+      "n": 7
+    },
+    {
+      "px": 1280,
+      "n": 47
+    },
+    {
+      "px": 1024,
+      "n": 46
+    },
+    {
+      "px": 768,
+      "n": 109
+    },
+    {
+      "px": 600,
+      "n": 10
+    }
+  ],
+  "sections": [
+    {
+      "h": 2500,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 620,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 880,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 880,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "63:37"
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "63:37"
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 8
+    },
+    {
+      "hex": "#b2a69a",
+      "n": 3
+    },
+    {
+      "hex": "#166678",
+      "n": 1
+    },
+    {
+      "hex": "#faeae0",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#ffffff",
+      "radius": 36,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 6
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "#b2a69a",
+      "radius": 36,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#403128",
+      "color": "#ffffff",
+      "radius": "999px",
+      "pad": "7px 13px",
+      "fs": 13,
+      "border": null,
+      "n": 6
+    },
+    {
+      "bg": "#b2a69a",
+      "color": "#ffffff",
+      "radius": "999px",
+      "pad": "3px 13px",
+      "fs": 13,
+      "border": null,
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 22,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "16:9",
+        "n": 8
+      },
+      {
+        "ratio": "3:4",
+        "n": 6
+      },
+      {
+        "ratio": "1:1",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 22
+      }
+    ]
+  },
+  "circles": {
+    "n": 14,
+    "sizes": [
+      {
+        "px": 24,
+        "n": 11
+      },
+      {
+        "px": 64,
+        "n": 3
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2.5,
+    "sizes": [
+      20,
+      18,
+      14,
+      13,
+      11
+    ],
+    "pad": 40,
+    "gap": null,
+    "sidePad": 29,
+    "h1": {
+      "fs": 20,
+      "lh": 1.5
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 11,
+      "文字": 13,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#166678",
+      "面": 3,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#faeae0",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#b2a69a",
+      "面": 6,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 3
+    },
+    {
+      "hex": "#403128",
+      "面": 19,
+      "文字": 46,
+      "枠": 0,
+      "ボタン": 7
+    }
+  ],
+  "accent": "#403128",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角丸",
+    "色つき"
+  ]
+}

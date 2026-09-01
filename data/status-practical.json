@@ -1524,5 +1524,265 @@
     "state": "skip",
     "why": "測定に失敗",
     "url": "https://www.nichiasteel.co.jp/"
+  },
+  "yukiyasu": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.yukiyasu.co.jp/"
+  },
+  "tomatec": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://tomatec.co.jp/"
+  },
+  "baigie": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://baigie.me/"
+  },
+  "r-equal": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://r-equal.com/"
+  },
+  "soto": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://soto.shinfuji.co.jp/"
+  },
+  "gris": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://gris.jp/"
+  },
+  "belmo": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.belmo.com/"
+  },
+  "mixi": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://mixi.co.jp/"
+  },
+  "yubihari": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://yubihari.com/"
+  },
+  "i-tech-muramoto": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://i-tech-muramoto.co.jp/"
+  },
+  "ppc-wonder": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://ppc-wonder.com/"
+  },
+  "midori-no-mori": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://midori-no-mori.jp/"
+  },
+  "lion": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.lion.co.jp/ja/"
+  },
+  "sta": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://online-sta.com/"
+  },
+  "talkme": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://talkme.jp/"
+  },
+  "arjuna": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://arjuna.ne.jp/"
+  },
+  "kiboufudousan": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://kiboufudousan.jp/"
+  },
+  "denso-drivenbase": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.denso.com/jp/ja/driven-base/"
+  },
+  "sr-comodo": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://sr-comodo.com/"
+  },
+  "chagocoro": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.chagocoro.jp/"
+  },
+  "hozantei": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.hozantei.com/"
+  },
+  "saintparts": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.saintparts.co.jp/"
+  },
+  "nissin-store": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://store.nissin.com/"
+  },
+  "invox": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://invox.jp/"
+  },
+  "decencia": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.decencia.co.jp/"
+  },
+  "plazmark-craypas": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://plazmark.craypas.co.jp/"
+  },
+  "accorder-recruit": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.accorder.co.jp/recruit/"
+  },
+  "nagaoyouchien": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.nagaoyouchien.com/"
+  },
+  "nishi-itami-k": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://nishi-itami-k.ed.jp/"
+  },
+  "eco-pork": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.eco-pork.com/"
+  },
+  "shiroyamakumano-jinja": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://shiroyamakumano-jinja.jp/"
+  },
+  "juhmokusha": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://juhmokusha.jp/"
+  },
+  "sugoyose": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://sugoyose.jp/"
+  },
+  "moneyforward-design": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://design.moneyforward.com/"
+  },
+  "swc-aiwakai": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://swc-aiwakai.jp/"
+  },
+  "robotpayment-recruit": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.robotpayment.co.jp/recruit/"
+  },
+  "kaitori-studiocbr": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://kaitori.studiocbr.jp/"
+  },
+  "careplus-staff": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.care-plus.jp/staff/"
+  },
+  "tribalmedia": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.tribalmedia.co.jp/"
+  },
+  "shimohara-auto": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://shimohara-auto.co.jp/"
+  },
+  "pday": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://pday.jp/"
+  },
+  "kyoei": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.kyoei-corp.com/"
+  },
+  "toketa": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://toketa.jp/"
+  },
+  "kuwazawa-wagashi": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://kuwazawa-wagashi.com/"
+  },
+  "hogoneco-clinic-neco-republic": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://hogoneco-clinic.neco-republic.jp/"
+  },
+  "aa-design-lab": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://aa-design-lab.com/"
+  },
+  "goodthewhat": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.goodthewhat.com/"
+  },
+  "merise": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://eikaiwa.merise.asia/"
+  },
+  "pkshatech": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.pkshatech.com/"
+  },
+  "laq2": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://laq2.jp/"
+  },
+  "porters": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.porters.jp/"
+  },
+  "kinswith-vet": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://kinswith-vet.com/"
   }
 }

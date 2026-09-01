@@ -1,0 +1,383 @@
+{
+  "slug": "pday",
+  "url": "https://pday.jp/",
+  "title": "【最短翌日出荷 / 最短60分店仕上】オリジナル卓上&壁掛カレンダーがすぐ作れる - PDAY",
+  "desc": "最短翌日出荷 / 最短60分店仕上 990円〜写真でオリジナル卓上&壁掛けカレンダーが店舗&宅配で1個から作れる。贈り物に喜ばれる箱付き。スマホやPCで簡単注文。",
+  "bg": [
+    {
+      "hex": "#909ea0",
+      "pct": 98.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 1.1
+    },
+    {
+      "hex": "#222222",
+      "pct": 0.2
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 60
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 18.3
+    },
+    {
+      "hex": "#eeeeee",
+      "pct": 18
+    },
+    {
+      "hex": "#909ea0",
+      "pct": 2
+    }
+  ],
+  "pageBg": "#f7f7f7",
+  "fonts": [
+    {
+      "family": "YakuHanJPs",
+      "w": 1543
+    },
+    {
+      "family": "Josefin Sans",
+      "w": 282
+    }
+  ],
+  "sizes": [
+    {
+      "px": 24,
+      "w": 110
+    },
+    {
+      "px": 18,
+      "w": 38
+    },
+    {
+      "px": 16,
+      "w": 98
+    },
+    {
+      "px": 14,
+      "w": 1337
+    },
+    {
+      "px": 12,
+      "w": 162
+    },
+    {
+      "px": 10,
+      "w": 28
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.8,
+    "ls": "0.080em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0.120em",
+        "family": "Josefin Sans"
+      },
+      {
+        "fs": 20,
+        "weight": "400",
+        "lh": 1.7,
+        "ls": "0.040em",
+        "family": "YakuHanJPs"
+      }
+    ],
+    "h1": [
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0.120em",
+        "family": "Josefin Sans"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 6
+    },
+    {
+      "px": 30,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 40,
+      "n": 6
+    },
+    {
+      "px": 10,
+      "n": 1
+    },
+    {
+      "px": 80,
+      "n": 1
+    },
+    {
+      "px": 120,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 92,
+      "n": 8
+    },
+    {
+      "px": 80,
+      "n": 3
+    },
+    {
+      "px": 200,
+      "n": 3
+    },
+    {
+      "px": 100,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1320,
+      "n": 13
+    },
+    {
+      "px": 564,
+      "n": 6
+    },
+    {
+      "px": 760,
+      "n": 3
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "500",
+      "h": 80,
+      "ls": "0.56px",
+      "n": 1
+    },
+    {
+      "bg": "#909ea0",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "500",
+      "h": 80,
+      "ls": "0.56px",
+      "n": 1
+    },
+    {
+      "bg": "#909ea0",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "30px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "500",
+      "h": 60,
+      "ls": "0.8px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1600,
+      "n": 1
+    },
+    {
+      "px": 1024,
+      "n": 32
+    },
+    {
+      "px": 768,
+      "n": 1
+    },
+    {
+      "px": 750,
+      "n": 75
+    }
+  ],
+  "sections": [
+    {
+      "h": 800,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "29:71"
+    },
+    {
+      "h": 1740,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": "#909ea0",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 3060,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#909ea0",
+      "n": 2
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 24,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "4:3",
+        "n": 22
+      },
+      {
+        "ratio": "16:9",
+        "n": 1
+      },
+      {
+        "ratio": "2:3",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 24
+      }
+    ]
+  },
+  "circles": {
+    "n": 7,
+    "sizes": [
+      {
+        "px": 56,
+        "n": 4
+      },
+      {
+        "px": 120,
+        "n": 3
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 15,
+    "bodyLh": 1,
+    "sizes": [
+      25,
+      21,
+      19,
+      15,
+      12
+    ],
+    "pad": 52,
+    "gap": 10,
+    "sidePad": 37,
+    "h1": {
+      "fs": 25,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#909ea0",
+      "面": 4,
+      "文字": 5,
+      "枠": 4,
+      "ボタン": 2
+    },
+    {
+      "hex": "#ffffff",
+      "面": 3,
+      "文字": 18,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#222222",
+      "面": 1,
+      "文字": 5,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 65,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#eeeeee",
+      "面": 0,
+      "文字": 9,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "モノトーン"
+  ]
+}

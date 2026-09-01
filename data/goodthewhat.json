@@ -1,0 +1,348 @@
+{
+  "slug": "goodthewhat",
+  "url": "https://www.goodthewhat.com/",
+  "title": "株式会社GoodTheWhat",
+  "desc": "心にグッとザワッとくるご提案を。",
+  "bg": [
+    {
+      "hex": "#fafafa",
+      "pct": 81.7
+    },
+    {
+      "hex": "#1a1a1a",
+      "pct": 8.7
+    },
+    {
+      "hex": "#f1f1f1",
+      "pct": 9.6
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#1a1a1a",
+      "pct": 87.1
+    },
+    {
+      "hex": "#fafafa",
+      "pct": 10.6
+    },
+    {
+      "hex": "#f1f1f1",
+      "pct": 2.3
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "din-2014",
+      "w": 651
+    },
+    {
+      "family": "kinuta-maruminold-stdn",
+      "w": 253
+    },
+    {
+      "family": "yu-gothic-pr6n",
+      "w": 189
+    },
+    {
+      "family": "Material Symbols Outlined",
+      "w": 12
+    }
+  ],
+  "sizes": [
+    {
+      "px": 52,
+      "w": 80
+    },
+    {
+      "px": 32,
+      "w": 165
+    },
+    {
+      "px": 20,
+      "w": 99
+    },
+    {
+      "px": 18,
+      "w": 81
+    },
+    {
+      "px": 16,
+      "w": 217
+    },
+    {
+      "px": 12,
+      "w": 158
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 2.2,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 20,
+        "weight": "800",
+        "lh": 1,
+        "ls": "0",
+        "family": "din-2014"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 40
+    },
+    {
+      "px": 20,
+      "n": 5
+    },
+    {
+      "px": 5,
+      "n": 4
+    },
+    {
+      "px": 10,
+      "n": 3
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.05) 0px 0px 20px 0px",
+      "n": 14
+    }
+  ],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 4
+    },
+    {
+      "px": 240,
+      "n": 3
+    },
+    {
+      "px": 60,
+      "n": 2
+    },
+    {
+      "px": 360,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1296,
+      "n": 13
+    },
+    {
+      "px": 584,
+      "n": 6
+    },
+    {
+      "px": 776,
+      "n": 6
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#1a1a1a",
+      "color": "#f1f1f1",
+      "border": null,
+      "radius": "0px",
+      "pad": "24px 0px",
+      "fs": 16,
+      "weight": "600",
+      "h": 80,
+      "ls": "0",
+      "n": 4
+    },
+    {
+      "bg": "transparent",
+      "color": "#f1f1f1",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "600",
+      "h": 80,
+      "ls": "0",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 834,
+      "n": 9
+    },
+    {
+      "px": 782,
+      "n": 6
+    },
+    {
+      "px": 600,
+      "n": 8
+    },
+    {
+      "px": 500,
+      "n": 47
+    },
+    {
+      "px": 499,
+      "n": 9
+    }
+  ],
+  "sections": [
+    {
+      "h": 440,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 6200,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 17
+    },
+    {
+      "hex": "#fafafa",
+      "n": 1
+    },
+    {
+      "hex": "#f1f1f1",
+      "n": 1
+    },
+    {
+      "hex": "#1a1a1a",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#ffffff",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": "rgba(0, 0, 0, 0.05) 0px 0px 20px 0px",
+      "n": 14
+    },
+    {
+      "onBg": "#fafafa",
+      "bg": "#ffffff",
+      "radius": 300,
+      "pad": "120/58",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [
+    {
+      "bg": "transparent",
+      "color": "#1a1a1a",
+      "radius": "999px",
+      "pad": "3px 20px",
+      "fs": 16,
+      "border": "1px",
+      "n": 2
+    }
+  ],
+  "images": {
+    "n": 25,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "4:3",
+        "n": 17
+      },
+      {
+        "ratio": "2:3",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 17
+      },
+      {
+        "px": 20,
+        "n": 5
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": null,
+    "bodyLh": null,
+    "sizes": [],
+    "pad": null,
+    "gap": null,
+    "sidePad": null,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#fafafa",
+      "面": 19,
+      "文字": 12,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#1a1a1a",
+      "面": 5,
+      "文字": 75,
+      "枠": 2,
+      "ボタン": 4
+    },
+    {
+      "hex": "#f1f1f1",
+      "面": 1,
+      "文字": 4,
+      "枠": 28,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "モノトーン"
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "slug": "kaitori-studiocbr",
+  "url": "https://kaitori.studiocbr.jp/",
+  "title": "studio.CBR | 東京・代官山の高級中古革靴買取",
+  "desc": "高級革靴の買取を代官山の店舗（東京都渋谷区）で行っています。革靴相場を作ってきた業界のパイオニアとして、使命感を持って真摯に査定いたします。",
+  "bg": [
+    {
+      "hex": "#ede9e0",
+      "pct": 19.1
+    },
+    {
+      "hex": "#44514b",
+      "pct": 19
+    },
+    {
+      "hex": "#080808",
+      "pct": 17.6
+    },
+    {
+      "hex": "#000000",
+      "pct": 17.6
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 13.1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#44514b",
+      "pct": 89.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 9.9
+    },
+    {
+      "hex": "#c06223",
+      "pct": 0.2
+    }
+  ],
+  "pageBg": "#f5f3ed",
+  "fonts": [
+    {
+      "family": "Lato",
+      "w": 4644
+    }
+  ],
+  "sizes": [
+    {
+      "px": 32,
+      "w": 104
+    },
+    {
+      "px": 24,
+      "w": 65
+    },
+    {
+      "px": 20,
+      "w": 676
+    },
+    {
+      "px": 16,
+      "w": 2495
+    },
+    {
+      "px": 14,
+      "w": 1162
+    },
+    {
+      "px": 12,
+      "w": 71
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 2,
+    "ls": "0.020em"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.013em",
+        "family": "Lato"
+      },
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.020em",
+        "family": "Lato"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.010em",
+        "family": "Lato"
+      },
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 1.75,
+        "ls": "0.010em",
+        "family": "Lato"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 14,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.023em",
+        "family": "Lato"
+      },
+      {
+        "fs": 28,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.060em",
+        "family": "Lato"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 17
+    },
+    {
+      "px": 15,
+      "n": 8
+    },
+    {
+      "px": 50,
+      "n": 2
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 60,
+      "n": 8
+    },
+    {
+      "px": 80,
+      "n": 8
+    },
+    {
+      "px": 120,
+      "n": 6
+    },
+    {
+      "px": 40,
+      "n": 5
+    }
+  ],
+  "container": [
+    {
+      "px": 1680,
+      "n": 14
+    },
+    {
+      "px": 1080,
+      "n": 13
+    },
+    {
+      "px": 1360,
+      "n": 8
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#c06223",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "100px",
+      "pad": "18px 30px",
+      "fs": 16,
+      "weight": "700",
+      "h": 60,
+      "ls": "0.32px",
+      "n": 9
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#44514b",
+      "border": null,
+      "radius": "100px",
+      "pad": "15px 15px",
+      "fs": 14,
+      "weight": "700",
+      "h": 44,
+      "ls": "0.32px",
+      "n": 3
+    },
+    {
+      "bg": "transparent",
+      "color": "#c06223",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 13,
+      "weight": "700",
+      "h": 50,
+      "ls": "0.32px",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1760,
+      "n": 2
+    },
+    {
+      "px": 769,
+      "n": 1
+    },
+    {
+      "px": 768,
+      "n": 3
+    },
+    {
+      "px": 720,
+      "n": 2
+    },
+    {
+      "px": 600,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 160,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "右",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 8000,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "44:56"
+    },
+    {
+      "h": 1020,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 5
+    },
+    {
+      "hex": "#f5f3ed",
+      "n": 3
+    },
+    {
+      "hex": "#080808",
+      "n": 1
+    },
+    {
+      "hex": "#000000",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f5f3ed",
+      "bg": "#ffffff",
+      "radius": 15,
+      "pad": "40/40",
+      "border": null,
+      "shadow": null,
+      "n": 4
+    },
+    {
+      "onBg": "#ede9e0",
+      "bg": "transparent",
+      "radius": 0,
+      "pad": "30/0",
+      "border": "1px #44514b",
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#44514b",
+      "radius": "999px",
+      "pad": "15px 15px",
+      "fs": 14,
+      "border": null,
+      "n": 3
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#c06223",
+      "radius": "999px",
+      "pad": "3px 10px",
+      "fs": 13,
+      "border": null,
+      "n": 2
+    }
+  ],
+  "images": {
+    "n": 51,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "4:3",
+        "n": 50
+      },
+      {
+        "ratio": "3:4",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 15,
+        "n": 48
+      },
+      {
+        "px": 60,
+        "n": 2
+      }
+    ]
+  },
+  "circles": {
+    "n": 5,
+    "sizes": [
+      {
+        "px": 40,
+        "n": 3
+      },
+      {
+        "px": 32,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sizes": [
+      20,
+      16,
+      14,
+      12,
+      11
+    ],
+    "pad": 32,
+    "gap": null,
+    "sidePad": 31,
+    "h1": {
+      "fs": 20,
+      "lh": 1.5
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ede9e0",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#44514b",
+      "面": 4,
+      "文字": 188,
+      "枠": 9,
+      "ボタン": 1
+    },
+    {
+      "hex": "#080808",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 10,
+      "文字": 52,
+      "枠": 7,
+      "ボタン": 5
+    },
+    {
+      "hex": "#c06223",
+      "面": 12,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 11
+    }
+  ],
+  "accent": "#c06223",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

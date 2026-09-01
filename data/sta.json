@@ -1,0 +1,311 @@
+{
+  "slug": "sta",
+  "url": "https://online-sta.com/",
+  "title": "Sta.",
+  "desc": "Sta.の公式サイト。今日も、調味料から手づくりで仕込んで、皆さんをお待ちしております。座席予約・ケータリング注文・商品購入など、こちらからどうぞ。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 58.8
+    },
+    {
+      "hex": "#adadaf",
+      "pct": 37.4
+    },
+    {
+      "hex": "#000000",
+      "pct": 3.8
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 87.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 11.6
+    },
+    {
+      "hex": "#adadaf",
+      "pct": 0.4
+    }
+  ],
+  "pageBg": "#adadaf",
+  "fonts": [
+    {
+      "family": "RotisSansSerif-Bold",
+      "w": 937
+    },
+    {
+      "family": "A+EqpB-游ゴシック体 Pr6N D",
+      "w": 898
+    },
+    {
+      "family": "RotisSansSerif-ExtraBold",
+      "w": 116
+    }
+  ],
+  "sizes": [
+    {
+      "px": 30,
+      "w": 70
+    },
+    {
+      "px": 26,
+      "w": 61
+    },
+    {
+      "px": 17,
+      "w": 558
+    },
+    {
+      "px": 14,
+      "w": 214
+    },
+    {
+      "px": 12,
+      "w": 934
+    },
+    {
+      "px": 11,
+      "w": 60
+    }
+  ],
+  "body": {
+    "fs": 12,
+    "lh": 1.5,
+    "ls": "0.070em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 26,
+        "weight": "400",
+        "lh": 1.8,
+        "ls": "0.032em",
+        "family": "A+EqpB-游ゴシック体 Pr6N D"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 30,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.028em",
+        "family": "RotisSansSerif-ExtraBold"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 15
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 120,
+      "n": 4
+    },
+    {
+      "px": 240,
+      "n": 3
+    },
+    {
+      "px": 56,
+      "n": 1
+    },
+    {
+      "px": 124,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 640,
+      "n": 6
+    },
+    {
+      "px": 1228,
+      "n": 6
+    },
+    {
+      "px": 588,
+      "n": 5
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#000000",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "400",
+      "h": 44,
+      "ls": "0.84px",
+      "n": 4
+    }
+  ],
+  "bp": [
+    {
+      "px": 1620,
+      "n": 2
+    },
+    {
+      "px": 1280,
+      "n": 1
+    },
+    {
+      "px": 960,
+      "n": 2
+    },
+    {
+      "px": 768,
+      "n": 15
+    },
+    {
+      "px": 580,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1540,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1060,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 3
+    },
+    {
+      "hex": "#adadaf",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 7,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "3:4",
+        "n": 4
+      },
+      {
+        "ratio": "4:3",
+        "n": 2
+      },
+      {
+        "ratio": "3:2",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 7
+      }
+    ]
+  },
+  "circles": {
+    "n": 1,
+    "sizes": [
+      {
+        "px": 64,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 12,
+    "bodyLh": 1.5,
+    "sizes": [
+      24,
+      20,
+      16,
+      12,
+      10
+    ],
+    "pad": 40,
+    "gap": 40,
+    "sidePad": 40,
+    "h1": {
+      "fs": 20,
+      "lh": 1.8
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 4,
+      "文字": 6,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#adadaf",
+      "面": 1,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 7,
+      "文字": 117,
+      "枠": 4,
+      "ボタン": 4
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "明朝",
+    "余白ひろい",
+    "角ばった",
+    "モノトーン"
+  ]
+}

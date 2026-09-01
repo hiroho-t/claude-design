@@ -1,0 +1,373 @@
+{
+  "slug": "kyoei",
+  "url": "https://www.kyoei-corp.com/",
+  "title": "株式会社 協栄｜安心も快適も感動も",
+  "desc": "50年以上培ってきた技術・ノウハウで 公共施設・文化施設・スポーツ施設など 人の集まるすべての場の価値を高める総合施設管理会社です。弊社ホームページでは、事業ごとの提供サービス内容や実績事例、サステナビリティに繋がる取り組み等を紹介しています。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 100
+    },
+    {
+      "hex": "#000000",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#4b5158",
+      "pct": 77.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 10.9
+    },
+    {
+      "hex": "#909598",
+      "pct": 9.2
+    },
+    {
+      "hex": "#ec4e4e",
+      "pct": 2.1
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 2185
+    },
+    {
+      "family": "Overpass",
+      "w": 60
+    }
+  ],
+  "sizes": [
+    {
+      "px": 18,
+      "w": 536
+    },
+    {
+      "px": 17,
+      "w": 815
+    },
+    {
+      "px": 16,
+      "w": 286
+    },
+    {
+      "px": 15,
+      "w": 149
+    },
+    {
+      "px": 14,
+      "w": 291
+    },
+    {
+      "px": 13,
+      "w": 69
+    }
+  ],
+  "body": {
+    "fs": 17,
+    "lh": 2,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 40,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "0.021em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 16
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.16) 0px 10px 50px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 20,
+      "n": 1
+    },
+    {
+      "px": 30,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 200,
+      "n": 6
+    },
+    {
+      "px": 100,
+      "n": 4
+    },
+    {
+      "px": 60,
+      "n": 2
+    },
+    {
+      "px": 120,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1320,
+      "n": 12
+    },
+    {
+      "px": 600,
+      "n": 8
+    },
+    {
+      "px": 980,
+      "n": 7
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#4b5158",
+      "border": null,
+      "radius": "0px",
+      "pad": "5px 50px",
+      "fs": 20,
+      "weight": "400",
+      "h": 50,
+      "ls": "0.85px",
+      "n": 2
+    },
+    {
+      "bg": "transparent",
+      "color": "#4b5158",
+      "border": "1px #4b5158",
+      "radius": "0px",
+      "pad": "10px 52px",
+      "fs": 18,
+      "weight": "400",
+      "h": 90,
+      "ls": "0.85px",
+      "n": 2
+    },
+    {
+      "bg": "transparent",
+      "color": "#4b5158",
+      "border": "1px #4b5158",
+      "radius": "0px",
+      "pad": "10px 50px",
+      "fs": 16,
+      "weight": "400",
+      "h": 70,
+      "ls": "0.85px",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1470,
+      "n": 10
+    },
+    {
+      "px": 1340,
+      "n": 16
+    },
+    {
+      "px": 768,
+      "n": 174
+    },
+    {
+      "px": 767,
+      "n": 65
+    },
+    {
+      "px": 374,
+      "n": 12
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "48:52"
+    },
+    {
+      "h": 4680,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1820,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 920,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 800,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": null,
+      "bg": "transparent",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": "rgba(0, 0, 0, 0.16) 0px 5px 25px 0px",
+      "n": 2
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 30,
+    "fullBleed": 8,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 16
+      },
+      {
+        "ratio": "16:9",
+        "n": 8
+      },
+      {
+        "ratio": "21:9",
+        "n": 3
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 30
+      }
+    ]
+  },
+  "circles": {
+    "n": 2,
+    "sizes": [
+      {
+        "px": 56,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sizes": [
+      18,
+      15,
+      14,
+      13,
+      12
+    ],
+    "pad": 40,
+    "gap": 12,
+    "sidePad": 20,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 7,
+      "文字": 9,
+      "枠": 1,
+      "ボタン": 2
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#4b5158",
+      "面": 0,
+      "文字": 99,
+      "枠": 5,
+      "ボタン": 0
+    },
+    {
+      "hex": "#909598",
+      "面": 0,
+      "文字": 26,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ec4e4e",
+      "面": 0,
+      "文字": 7,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#ec4e4e",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

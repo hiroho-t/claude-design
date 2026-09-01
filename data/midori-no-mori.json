@@ -1,0 +1,429 @@
+{
+  "slug": "midori-no-mori",
+  "url": "https://midori-no-mori.jp/",
+  "title": "【公式】北海道最大の動物病院グループ｜緑の森どうぶつ病院",
+  "desc": "緑の森どうぶつ病院　ー　森のようなやさしさで、どうぶつが「どうぶつ」らしくある場所へ。",
+  "bg": [
+    {
+      "hex": "#3fa037",
+      "pct": 93.2
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 6.5
+    },
+    {
+      "hex": "#2c3134",
+      "pct": 0.3
+    },
+    {
+      "hex": "#1a6585",
+      "pct": 0.1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#ffffff",
+      "pct": 67.6
+    },
+    {
+      "hex": "#3fa037",
+      "pct": 30.7
+    },
+    {
+      "hex": "#828282",
+      "pct": 1
+    },
+    {
+      "hex": "#d3edd1",
+      "pct": 0.6
+    }
+  ],
+  "pageBg": "#fefefb",
+  "fonts": [
+    {
+      "family": "Zen Maru Gothic",
+      "w": 2190
+    },
+    {
+      "family": "Nunito",
+      "w": 151
+    },
+    {
+      "family": "Noto Sans JP",
+      "w": 61
+    }
+  ],
+  "sizes": [
+    {
+      "px": 80,
+      "w": 55
+    },
+    {
+      "px": 32,
+      "w": 88
+    },
+    {
+      "px": 20,
+      "w": 302
+    },
+    {
+      "px": 16,
+      "w": 753
+    },
+    {
+      "px": 14,
+      "w": 982
+    },
+    {
+      "px": 12,
+      "w": 113
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.5,
+    "ls": "0"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.050em",
+        "family": "Zen Maru Gothic"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 10
+    },
+    {
+      "px": 4,
+      "n": 6
+    },
+    {
+      "px": 6,
+      "n": 4
+    },
+    {
+      "px": 16,
+      "n": 4
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.15) 0px 4px 8px 3px, rgba(0, 0, 0, 0.3) 0px 1px 3px 0px",
+      "n": 4
+    }
+  ],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 80,
+      "n": 4
+    },
+    {
+      "px": 120,
+      "n": 3
+    },
+    {
+      "px": 60,
+      "n": 2
+    },
+    {
+      "px": 72,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1200,
+      "n": 26
+    },
+    {
+      "px": 880,
+      "n": 15
+    },
+    {
+      "px": 640,
+      "n": 8
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#3fa037",
+      "border": null,
+      "radius": "6px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "700",
+      "h": 34,
+      "ls": "1.33px",
+      "n": 4
+    },
+    {
+      "bg": "transparent",
+      "color": "#3fa037",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "700",
+      "h": 34,
+      "ls": "1.33px",
+      "n": 3
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "700",
+      "h": 80,
+      "ls": "1.52px",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1280,
+      "n": 834
+    },
+    {
+      "px": 1024,
+      "n": 183
+    },
+    {
+      "px": 769,
+      "n": 1098
+    },
+    {
+      "px": 768,
+      "n": 902
+    }
+  ],
+  "sections": [
+    {
+      "h": 160,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 7760,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1700,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#3fa037",
+      "n": 3
+    },
+    {
+      "hex": "#ffffff",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [
+    {
+      "bg": "#2c3134",
+      "color": "#ffffff",
+      "radius": "4px",
+      "pad": "4px 8px",
+      "fs": 12,
+      "border": null,
+      "n": 5
+    },
+    {
+      "bg": "#3fa037",
+      "color": "#ffffff",
+      "radius": "999px",
+      "pad": "6px 20px",
+      "fs": 14,
+      "border": null,
+      "n": 2
+    }
+  ],
+  "images": {
+    "n": 40,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 18
+      },
+      {
+        "ratio": "4:3",
+        "n": 12
+      },
+      {
+        "ratio": "16:9",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 40
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 15,
+    "bodyLh": 1.5,
+    "sizes": [
+      21,
+      19,
+      17,
+      15,
+      12
+    ],
+    "pad": 32,
+    "gap": null,
+    "sidePad": 21,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#3fa037",
+      "面": 8,
+      "文字": 41,
+      "枠": 0,
+      "ボタン": 4
+    },
+    {
+      "hex": "#ffffff",
+      "面": 5,
+      "文字": 135,
+      "枠": 6,
+      "ボタン": 4
+    },
+    {
+      "hex": "#2c3134",
+      "面": 6,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#1a6585",
+      "面": 4,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#828282",
+      "面": 0,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#d3edd1",
+      "面": 0,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#3fa037",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

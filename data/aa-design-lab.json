@@ -1,0 +1,435 @@
+{
+  "slug": "aa-design-lab",
+  "url": "https://aa-design-lab.com/",
+  "title": "安心安全デザイン研究室",
+  "desc": "安心安全デザイン研究室は、工学院大学 准教授 小川 雅の研究室です。力学と哲学とを組み合わせた新たな視点で、最先端の技術開発と安全性を確保していきます。物事の全体性に光を当てることで、事故を未然に防ぐと同時に、メーカーの個性、創造性、先見性を発揮し、新たな日本のものづくりのサポートを目的としています。",
+  "bg": [
+    {
+      "hex": "#f9efe8",
+      "pct": 74
+    },
+    {
+      "hex": "#000000",
+      "pct": 9.1
+    },
+    {
+      "hex": "#eeeeee",
+      "pct": 5.4
+    },
+    {
+      "hex": "#f2e3d6",
+      "pct": 4.1
+    },
+    {
+      "hex": "#666666",
+      "pct": 4.1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#666666",
+      "pct": 60.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 21.2
+    },
+    {
+      "hex": "#999999",
+      "pct": 6.2
+    },
+    {
+      "hex": "#888888",
+      "pct": 4.1
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 344
+    },
+    {
+      "family": "Lato",
+      "w": 300
+    },
+    {
+      "family": "Hiragino Kaku Gothic ProN",
+      "w": 20
+    },
+    {
+      "family": "Roboto",
+      "w": 15
+    }
+  ],
+  "sizes": [
+    {
+      "px": 40,
+      "w": 27
+    },
+    {
+      "px": 20,
+      "w": 124
+    },
+    {
+      "px": 16,
+      "w": 71
+    },
+    {
+      "px": 15,
+      "w": 66
+    },
+    {
+      "px": 14,
+      "w": 71
+    },
+    {
+      "px": 12,
+      "w": 252
+    }
+  ],
+  "body": {
+    "fs": 12,
+    "lh": 1.4,
+    "ls": "0.100em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 40,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "0.050em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 16
+    },
+    {
+      "px": 30,
+      "n": 2
+    },
+    {
+      "px": 8,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 112,
+      "n": 2
+    },
+    {
+      "px": 60,
+      "n": 1
+    },
+    {
+      "px": 80,
+      "n": 1
+    },
+    {
+      "px": 100,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 568,
+      "n": 7
+    },
+    {
+      "px": 1136,
+      "n": 2
+    },
+    {
+      "px": 600,
+      "n": 1
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#666666",
+      "border": "1px #e8d4c7",
+      "radius": "0px",
+      "pad": "15px 0px",
+      "fs": 14,
+      "weight": "400",
+      "h": 36,
+      "ls": "1.4px",
+      "n": 6
+    },
+    {
+      "bg": "#666666",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "400",
+      "h": 80,
+      "ls": "3.68px",
+      "n": 2
+    },
+    {
+      "bg": "transparent",
+      "color": "#666666",
+      "border": "1px #666666",
+      "radius": "64px",
+      "pad": "20px 30px",
+      "fs": 16,
+      "weight": "400",
+      "h": 64,
+      "ls": "3.68px",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1140,
+      "n": 21
+    },
+    {
+      "px": 840,
+      "n": 34
+    },
+    {
+      "px": 540,
+      "n": 111
+    },
+    {
+      "px": 320,
+      "n": 40
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#f9efe8",
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 340,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1020,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 520,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "46:54"
+    },
+    {
+      "h": 520,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "46:54"
+    },
+    {
+      "h": 400,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": "#eeeeee",
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f9efe8",
+      "n": 3
+    },
+    {
+      "hex": "#f2e3d6",
+      "n": 2
+    },
+    {
+      "hex": "#ffffff",
+      "n": 1
+    },
+    {
+      "hex": "#000000",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f9efe8",
+      "bg": "#f2e3d6",
+      "radius": 30,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 2
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 6,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 3
+      },
+      {
+        "ratio": "2:3",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 6
+      }
+    ]
+  },
+  "circles": {
+    "n": 1,
+    "sizes": [
+      {
+        "px": 240,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 12,
+    "bodyLh": 1.4,
+    "sizes": [
+      22,
+      16,
+      15,
+      14,
+      12
+    ],
+    "pad": 52,
+    "gap": null,
+    "sidePad": 0,
+    "h1": {
+      "fs": 22,
+      "lh": 1.5
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f9efe8",
+      "面": 4,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#eeeeee",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f2e3d6",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#666666",
+      "面": 5,
+      "文字": 28,
+      "枠": 4,
+      "ボタン": 4
+    },
+    {
+      "hex": "#ffffff",
+      "面": 1,
+      "文字": 15,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#999999",
+      "面": 0,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#888888",
+      "面": 0,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#f2e3d6",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

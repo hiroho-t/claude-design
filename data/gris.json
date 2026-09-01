@@ -1,0 +1,397 @@
+{
+  "slug": "gris",
+  "url": "https://gris.jp/",
+  "title": "Gris | グリ公式オンラインストア",
+  "desc": "ドッグギアブランドGris（グリ）の公式オンラインストア。アウトドアブランドmuracoが手掛ける、高機能でシンプルな犬用アクセサリーが揃います。犬本来の美しさを引き立てるデザインと、環境に適応するための機能性を追求。muracoの素材選定と技術を活かした上質なリーシュやウェアが、人と犬の暮らしに自然に寄り添います。",
+  "bg": [
+    {
+      "hex": "#d8d8d8",
+      "pct": 53.6
+    },
+    {
+      "hex": "#151515",
+      "pct": 31.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 13.5
+    },
+    {
+      "hex": "#000000",
+      "pct": 0.9
+    },
+    {
+      "hex": "#aaaaaa",
+      "pct": 0.2
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#151515",
+      "pct": 89
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 11
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "helvetica",
+      "w": 5085
+    }
+  ],
+  "sizes": [
+    {
+      "px": 39,
+      "w": 86
+    },
+    {
+      "px": 31,
+      "w": 83
+    },
+    {
+      "px": 25,
+      "w": 370
+    },
+    {
+      "px": 20,
+      "w": 163
+    },
+    {
+      "px": 16,
+      "w": 4260
+    },
+    {
+      "px": 13,
+      "w": 123
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.8,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 39,
+        "weight": "700",
+        "lh": 1.3,
+        "ls": "0",
+        "family": "helvetica"
+      },
+      {
+        "fs": 31,
+        "weight": "400",
+        "lh": 1.3,
+        "ls": "0",
+        "family": "helvetica"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 20,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "helvetica"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 435
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 8,
+      "n": 3
+    },
+    {
+      "px": 16,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 32,
+      "n": 7
+    },
+    {
+      "px": 64,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 720,
+      "n": 14
+    },
+    {
+      "px": 1376,
+      "n": 9
+    },
+    {
+      "px": 1384,
+      "n": 3
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#d8d8d8",
+      "color": "#151515",
+      "border": null,
+      "radius": "0px",
+      "pad": "16px 16px",
+      "fs": 16,
+      "weight": "400",
+      "h": 61,
+      "ls": "0",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1025,
+      "n": 3
+    },
+    {
+      "px": 1024,
+      "n": 38
+    },
+    {
+      "px": 768,
+      "n": 11
+    },
+    {
+      "px": 640,
+      "n": 2
+    },
+    {
+      "px": 375,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 960,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 520,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 2000,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 400,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 580,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#d8d8d8",
+      "n": 223
+    },
+    {
+      "hex": "#151515",
+      "n": 187
+    },
+    {
+      "hex": "#ffffff",
+      "n": 13
+    },
+    {
+      "hex": "#000000",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#d8d8d8",
+      "bg": "#d8d8d8",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 61
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 200,
+    "fullBleed": 8,
+    "ratios": [
+      {
+        "ratio": "3:4",
+        "n": 182
+      },
+      {
+        "ratio": "3:2",
+        "n": 18
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 200
+      }
+    ]
+  },
+  "circles": {
+    "n": 218,
+    "sizes": [
+      {
+        "px": 16,
+        "n": 109
+      },
+      {
+        "px": 24,
+        "n": 109
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sizes": [
+      31,
+      25,
+      20,
+      16,
+      13
+    ],
+    "pad": 292,
+    "gap": 8,
+    "sidePad": 0,
+    "h1": {
+      "fs": 31,
+      "lh": 1.3
+    }
+  },
+  "usage": [
+    {
+      "hex": "#d8d8d8",
+      "面": 233,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#151515",
+      "面": 187,
+      "文字": 365,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 13,
+      "文字": 27,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#aaaaaa",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "モノトーン"
+  ]
+}

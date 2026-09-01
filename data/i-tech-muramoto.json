@@ -1,0 +1,447 @@
+{
+  "slug": "i-tech-muramoto",
+  "url": "https://i-tech-muramoto.co.jp/",
+  "title": "株式会社アイテックムラモト｜電気設備工事設計施工 ",
+  "desc": "つちかう、たかめる、 未来へつむぐ。創業から100年、これからもアイテックムラモトは成長を続けます。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 41.4
+    },
+    {
+      "hex": "#05b193",
+      "pct": 26.5
+    },
+    {
+      "hex": "#141414",
+      "pct": 12
+    },
+    {
+      "hex": "#eeeeee",
+      "pct": 10.9
+    },
+    {
+      "hex": "#000000",
+      "pct": 8.8
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#ffffff",
+      "pct": 38.8
+    },
+    {
+      "hex": "#5f5f5f",
+      "pct": 25.9
+    },
+    {
+      "hex": "#141414",
+      "pct": 16.2
+    },
+    {
+      "hex": "#777777",
+      "pct": 9
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "中ゴシックBBB JIS2004",
+      "w": 821
+    },
+    {
+      "family": "見出ゴMB1",
+      "w": 259
+    },
+    {
+      "family": "Jost",
+      "w": 158
+    },
+    {
+      "family": "Material Icons",
+      "w": 78
+    }
+  ],
+  "sizes": [
+    {
+      "px": 26,
+      "w": 106
+    },
+    {
+      "px": 18,
+      "w": 165
+    },
+    {
+      "px": 16,
+      "w": 359
+    },
+    {
+      "px": 14,
+      "w": 184
+    },
+    {
+      "px": 12,
+      "w": 204
+    },
+    {
+      "px": 10,
+      "w": 62
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": null,
+    "ls": "0"
+  },
+  "headings": {},
+  "radius": [
+    {
+      "px": 0,
+      "n": 21
+    },
+    {
+      "px": 50,
+      "n": 4
+    },
+    {
+      "px": 40,
+      "n": 2
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.2) 1px 1px 0px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 8,
+      "n": 2
+    },
+    {
+      "px": 48,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 3
+    },
+    {
+      "px": 120,
+      "n": 3
+    },
+    {
+      "px": 60,
+      "n": 2
+    },
+    {
+      "px": 160,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1180,
+      "n": 13
+    },
+    {
+      "px": 772,
+      "n": 3
+    },
+    {
+      "px": 672,
+      "n": 1
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#002d72",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "50px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "700",
+      "h": 70,
+      "ls": "0.8px",
+      "n": 3
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": "1px #eeeeee",
+      "radius": "50%",
+      "pad": "0px 0px",
+      "fs": 10,
+      "weight": "400",
+      "h": 70,
+      "ls": "0",
+      "n": 2
+    },
+    {
+      "bg": "transparent",
+      "color": "#002d72",
+      "border": "1px",
+      "radius": "50%",
+      "pad": "0px 0px",
+      "fs": 24,
+      "weight": "400",
+      "h": 60,
+      "ls": "0",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1140,
+      "n": 32
+    },
+    {
+      "px": 768,
+      "n": 101
+    },
+    {
+      "px": 480,
+      "n": 127
+    },
+    {
+      "px": 320,
+      "n": 26
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#05b193",
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1140,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#ffffff",
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 740,
+      "full": true,
+      "cols": 4,
+      "img": false,
+      "bg": "#ffffff",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 2,
+      "img": false,
+      "bg": "#ffffff",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1200,
+      "full": true,
+      "cols": 3,
+      "img": false,
+      "bg": "#ffffff",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": "#ffffff",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 300,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1260,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#05b193",
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 9
+    },
+    {
+      "hex": "#141414",
+      "n": 7
+    },
+    {
+      "hex": "#05b193",
+      "n": 3
+    },
+    {
+      "hex": "#000000",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#141414",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 6
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 5,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:4",
+        "n": 4
+      },
+      {
+        "ratio": "4:3",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 5
+      }
+    ]
+  },
+  "circles": {
+    "n": 4,
+    "sizes": [
+      {
+        "px": 64,
+        "n": 2
+      },
+      {
+        "px": 56,
+        "n": 1
+      },
+      {
+        "px": 72,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 13,
+    "bodyLh": 1.7,
+    "sizes": [
+      20,
+      16,
+      15,
+      13,
+      10
+    ],
+    "pad": 40,
+    "gap": 8,
+    "sidePad": 30,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 9,
+      "文字": 40,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#05b193",
+      "面": 5,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#141414",
+      "面": 7,
+      "文字": 11,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#eeeeee",
+      "面": 1,
+      "文字": 0,
+      "枠": 2,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#5f5f5f",
+      "面": 0,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#777777",
+      "面": 0,
+      "文字": 8,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#05b193",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

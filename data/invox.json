@@ -1,0 +1,545 @@
+{
+  "slug": "invox",
+  "url": "https://invox.jp/",
+  "title": "invox受取請求書 – 紙でも電子でも受取請求書のデータ化・支払・計上を自動化するクラウド請求書受領システム",
+  "desc": "invox受取請求書は、請求書の受取から入力・支払・会計システムへの仕訳計上を自動化。紙でも電子でもAI OCRとオペレータが99.9％の精度でデータ化し、インボイス制度・電子帳簿保存法対応を効率化できるクラウド請求書受領システムです。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 62.2
+    },
+    {
+      "hex": "#000000",
+      "pct": 29.1
+    },
+    {
+      "hex": "#ffcc00",
+      "pct": 7.8
+    },
+    {
+      "hex": "#474241",
+      "pct": 0.4
+    },
+    {
+      "hex": "#e34047",
+      "pct": 0.1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#474241",
+      "pct": 97.9
+    },
+    {
+      "hex": "#0094ff",
+      "pct": 0.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 0.3
+    },
+    {
+      "hex": "#a678d6",
+      "pct": 0.2
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 10588
+    },
+    {
+      "family": "Inter",
+      "w": 375
+    },
+    {
+      "family": "sans-serif",
+      "w": 9
+    },
+    {
+      "family": "Arial",
+      "w": 6
+    }
+  ],
+  "sizes": [
+    {
+      "px": 36,
+      "w": 146
+    },
+    {
+      "px": 24,
+      "w": 158
+    },
+    {
+      "px": 18,
+      "w": 1058
+    },
+    {
+      "px": 16,
+      "w": 3968
+    },
+    {
+      "px": 14,
+      "w": 4649
+    },
+    {
+      "px": 12,
+      "w": 917
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.71,
+    "ls": "0.107em"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 36,
+        "weight": "700",
+        "lh": 1.56,
+        "ls": "0.028em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 36,
+        "weight": "700",
+        "lh": 1.56,
+        "ls": "0.028em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 18,
+        "weight": "700",
+        "lh": 1.56,
+        "ls": "0.083em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": 1.63,
+        "ls": "0.031em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 16,
+      "n": 43
+    },
+    {
+      "px": 0,
+      "n": 40
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(71, 66, 65, 0.2) 0px -2px 20px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 10,
+      "n": 6
+    },
+    {
+      "px": 8,
+      "n": 2
+    },
+    {
+      "px": 16,
+      "n": 2
+    },
+    {
+      "px": 24,
+      "n": 2
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 104,
+      "n": 13
+    },
+    {
+      "px": 80,
+      "n": 6
+    },
+    {
+      "px": 40,
+      "n": 4
+    },
+    {
+      "px": 36,
+      "n": 3
+    }
+  ],
+  "container": [
+    {
+      "px": 1120,
+      "n": 45
+    },
+    {
+      "px": 1072,
+      "n": 22
+    },
+    {
+      "px": 700,
+      "n": 5
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#474241",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "700",
+      "h": 56,
+      "ls": "0",
+      "n": 32
+    },
+    {
+      "bg": "#ffcc00",
+      "color": "#474241",
+      "border": "2px #ffcc00",
+      "radius": "70px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "700",
+      "h": 46,
+      "ls": "0",
+      "n": 14
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#474241",
+      "border": "2px #ffcc00",
+      "radius": "70px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "700",
+      "h": 46,
+      "ls": "0",
+      "n": 7
+    }
+  ],
+  "bp": [
+    {
+      "px": 1200,
+      "n": 5
+    },
+    {
+      "px": 1100,
+      "n": 23
+    },
+    {
+      "px": 991,
+      "n": 18
+    },
+    {
+      "px": 768,
+      "n": 75
+    },
+    {
+      "px": 767,
+      "n": 36
+    }
+  ],
+  "sections": [
+    {
+      "h": 740,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "46:54"
+    },
+    {
+      "h": 200,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 540,
+      "full": true,
+      "cols": 3,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1000,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 2120,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1080,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1060,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1420,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 4840,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1800,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1400,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 2220,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 740,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 7
+    },
+    {
+      "hex": "#000000",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": null,
+      "bg": "transparent",
+      "radius": 16,
+      "pad": "8/8",
+      "border": "2px #474241",
+      "shadow": null,
+      "n": 24
+    },
+    {
+      "onBg": null,
+      "bg": "transparent",
+      "radius": 16,
+      "pad": "0/0",
+      "border": "2px #474241",
+      "shadow": null,
+      "n": 6
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 75,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "16:9",
+        "n": 32
+      },
+      {
+        "ratio": "21:9",
+        "n": 30
+      },
+      {
+        "ratio": "3:2",
+        "n": 7
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 75
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.86,
+    "sizes": [
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "pad": 24,
+    "gap": 16,
+    "sidePad": 24,
+    "h1": {
+      "fs": 32,
+      "lh": 1.38
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 19,
+      "文字": 6,
+      "枠": 0,
+      "ボタン": 9
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffcc00",
+      "面": 24,
+      "文字": 1,
+      "枠": 35,
+      "ボタン": 16
+    },
+    {
+      "hex": "#474241",
+      "面": 5,
+      "文字": 352,
+      "枠": 49,
+      "ボタン": 0
+    },
+    {
+      "hex": "#e34047",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#0094ff",
+      "面": 0,
+      "文字": 7,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#a678d6",
+      "面": 1,
+      "文字": 1,
+      "枠": 1,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#0094ff",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角丸",
+    "色つき"
+  ]
+}

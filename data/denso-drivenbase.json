@@ -1,0 +1,488 @@
+{
+  "slug": "denso-drivenbase",
+  "url": "https://www.denso.com/jp/ja/driven-base/",
+  "title": "DRIVEN BASE（ドリブンベース）- デンソー",
+  "desc": "DRIVEN BASE（ドリブンベース）は、「できてない」 を 「できる」に変える知と人が集まるメディアです。成⻑したい。夢をかなえたい。社会を良くしたい。そんな人の背中を押せる場所になります。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 25.2
+    },
+    {
+      "hex": "#000000",
+      "pct": 15
+    },
+    {
+      "hex": "#be50f1",
+      "pct": 12.4
+    },
+    {
+      "hex": "#64afb9",
+      "pct": 12.4
+    },
+    {
+      "hex": "#34915e",
+      "pct": 12.4
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#ffffff",
+      "pct": 82
+    },
+    {
+      "hex": "#333333",
+      "pct": 14.2
+    },
+    {
+      "hex": "#666666",
+      "pct": 2.3
+    },
+    {
+      "hex": "#dc0032",
+      "pct": 0.9
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "denso-en",
+      "w": 4998
+    },
+    {
+      "family": "DENSO TP 2017",
+      "w": 38
+    }
+  ],
+  "sizes": [
+    {
+      "px": 28,
+      "w": 426
+    },
+    {
+      "px": 24,
+      "w": 226
+    },
+    {
+      "px": 18,
+      "w": 2467
+    },
+    {
+      "px": 16,
+      "w": 415
+    },
+    {
+      "px": 14,
+      "w": 462
+    },
+    {
+      "px": 11,
+      "w": 663
+    }
+  ],
+  "body": {
+    "fs": 18,
+    "lh": 1.6,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 24,
+        "weight": "443",
+        "lh": 1.6,
+        "ls": "0.050em",
+        "family": "denso-en"
+      },
+      {
+        "fs": 24,
+        "weight": "400",
+        "lh": 1.6,
+        "ls": "0.125em",
+        "family": "denso-en"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 16,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0",
+        "family": "denso-en"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 24,
+      "n": 27
+    },
+    {
+      "px": 0,
+      "n": 10
+    },
+    {
+      "px": 30,
+      "n": 8
+    },
+    {
+      "px": 12,
+      "n": 6
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.25) 0px 30px 50px 0px",
+      "n": 27
+    },
+    {
+      "css": "rgba(0, 0, 0, 0.25) 0px 8px 20px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 8,
+      "n": 1
+    },
+    {
+      "px": 18,
+      "n": 1
+    },
+    {
+      "px": 20,
+      "n": 1
+    },
+    {
+      "px": 32,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 92,
+      "n": 5
+    },
+    {
+      "px": 80,
+      "n": 4
+    },
+    {
+      "px": 60,
+      "n": 2
+    },
+    {
+      "px": 32,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 684,
+      "n": 299
+    },
+    {
+      "px": 1296,
+      "n": 6
+    },
+    {
+      "px": 1280,
+      "n": 5
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#333333",
+      "border": "1px #dddddd",
+      "radius": "30px",
+      "pad": "18px 15px",
+      "fs": 14,
+      "weight": "400",
+      "h": 52,
+      "ls": "0",
+      "n": 3
+    },
+    {
+      "bg": "transparent",
+      "color": "#333333",
+      "border": "1px #dddddd",
+      "radius": "30px",
+      "pad": "16px 16px",
+      "fs": 14,
+      "weight": "400",
+      "h": 48,
+      "ls": "0",
+      "n": 2
+    },
+    {
+      "bg": "transparent",
+      "color": "#333333",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "400",
+      "h": 52,
+      "ls": "0",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1090,
+      "n": 2
+    },
+    {
+      "px": 1080,
+      "n": 2
+    },
+    {
+      "px": 1079,
+      "n": 5
+    },
+    {
+      "px": 768,
+      "n": 11
+    },
+    {
+      "px": 767,
+      "n": 10
+    }
+  ],
+  "sections": [
+    {
+      "h": 1080,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#ffffff",
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 360,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#dc0032",
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1420,
+      "full": false,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1220,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#db0033",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 660,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1200,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 340,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#dc0032",
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#be50f1",
+      "n": 9
+    },
+    {
+      "hex": "#64afb9",
+      "n": 9
+    },
+    {
+      "hex": "#34915e",
+      "n": 9
+    },
+    {
+      "hex": "#dc0032",
+      "n": 5
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#be50f1",
+      "radius": 24,
+      "pad": "0/0",
+      "border": null,
+      "shadow": "rgba(0, 0, 0, 0.25) 0px 30px 50px 0px",
+      "n": 9
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "#64afb9",
+      "radius": 24,
+      "pad": "0/0",
+      "border": null,
+      "shadow": "rgba(0, 0, 0, 0.25) 0px 30px 50px 0px",
+      "n": 9
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 108,
+    "fullBleed": 11,
+    "ratios": [
+      {
+        "ratio": "16:9",
+        "n": 78
+      },
+      {
+        "ratio": "4:3",
+        "n": 28
+      },
+      {
+        "ratio": "21:9",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 108
+      }
+    ]
+  },
+  "circles": {
+    "n": 35,
+    "sizes": [
+      {
+        "px": 40,
+        "n": 27
+      },
+      {
+        "px": 48,
+        "n": 3
+      },
+      {
+        "px": 64,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 13,
+    "bodyLh": 1.6,
+    "sizes": [
+      19,
+      18,
+      14,
+      13,
+      11
+    ],
+    "pad": 60,
+    "gap": 8,
+    "sidePad": 12,
+    "h1": {
+      "fs": 20,
+      "lh": 1.6
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 15,
+      "文字": 258,
+      "枠": 4,
+      "ボタン": 3
+    },
+    {
+      "hex": "#000000",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#be50f1",
+      "面": 9,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#64afb9",
+      "面": 9,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#34915e",
+      "面": 9,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#333333",
+      "面": 0,
+      "文字": 39,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#666666",
+      "面": 0,
+      "文字": 18,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#dc0032",
+      "面": 35,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 1
+    }
+  ],
+  "accent": "#dc0032",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角丸",
+    "色つき"
+  ]
+}

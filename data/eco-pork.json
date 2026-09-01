@@ -1,0 +1,384 @@
+{
+  "slug": "eco-pork",
+  "url": "https://www.eco-pork.com/",
+  "title": "株式会社Eco-Pork",
+  "desc": " 株式会社Eco-Porkは、養豚とテクノロジーを繋ぎ、農家の食料生産性の向上と透明性の高い安心な食糧供給を統合的に支援する共創型ソリューションファームです。",
+  "bg": [
+    {
+      "hex": "#f4f1ee",
+      "pct": 50.6
+    },
+    {
+      "hex": "#0f3c3c",
+      "pct": 24.2
+    },
+    {
+      "hex": "#009b4a",
+      "pct": 11.4
+    },
+    {
+      "hex": "#faf9f7",
+      "pct": 11.9
+    },
+    {
+      "hex": "#dcdcdc",
+      "pct": 1.8
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#333333",
+      "pct": 48.5
+    },
+    {
+      "hex": "#fafafa",
+      "pct": 28.5
+    },
+    {
+      "hex": "#0f3c3c",
+      "pct": 15.6
+    },
+    {
+      "hex": "#009b4a",
+      "pct": 6.8
+    }
+  ],
+  "pageBg": "#f4f1ef",
+  "fonts": [
+    {
+      "family": "Montserrat",
+      "w": 1274
+    },
+    {
+      "family": "Arial",
+      "w": 11
+    }
+  ],
+  "sizes": [
+    {
+      "px": 43,
+      "w": 38
+    },
+    {
+      "px": 40,
+      "w": 41
+    },
+    {
+      "px": 37,
+      "w": 38
+    },
+    {
+      "px": 17,
+      "w": 529
+    },
+    {
+      "px": 14,
+      "w": 557
+    },
+    {
+      "px": 12,
+      "w": 38
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.7,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h4": [
+      {
+        "fs": 14,
+        "weight": "600",
+        "lh": 1.7,
+        "ls": "0.050em",
+        "family": "Montserrat"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 11
+    },
+    {
+      "px": 50,
+      "n": 1
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.3) 0px 0px 9px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [],
+  "sectionPad": [],
+  "container": [
+    {
+      "px": 1296,
+      "n": 10
+    },
+    {
+      "px": 1152,
+      "n": 7
+    },
+    {
+      "px": 576,
+      "n": 5
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffd2cd",
+      "color": "#000000",
+      "border": null,
+      "radius": "0px",
+      "pad": "6px 20px",
+      "fs": 16,
+      "weight": "700",
+      "h": 27,
+      "ls": "0",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1921,
+      "n": 1
+    },
+    {
+      "px": 1280,
+      "n": 1
+    },
+    {
+      "px": 1024,
+      "n": 1
+    },
+    {
+      "px": 1023,
+      "n": 1
+    },
+    {
+      "px": 680,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 1000,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#f4f1ee",
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1640,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "右",
+      "split": "43:57"
+    },
+    {
+      "h": 1060,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#f4f2ee",
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 960,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 280,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 820,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#0f3c3c",
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f4f1ee",
+      "n": 3
+    },
+    {
+      "hex": "#0f3c3c",
+      "n": 2
+    },
+    {
+      "hex": "#faf9f7",
+      "n": 1
+    },
+    {
+      "hex": "#f4f2ee",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#0f3c3c",
+      "bg": "#fafafa",
+      "radius": 100,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#009b4a",
+      "color": "#fafafa",
+      "radius": "999px",
+      "pad": "2px 10px",
+      "fs": 10,
+      "border": null,
+      "n": 3
+    },
+    {
+      "bg": "transparent",
+      "color": "#009b4a",
+      "radius": "999px",
+      "pad": "2px 6px",
+      "fs": 12,
+      "border": "1px",
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 2,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 1
+      },
+      {
+        "ratio": "3:2",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 2
+      }
+    ]
+  },
+  "circles": {
+    "n": 12,
+    "sizes": [
+      {
+        "px": 72,
+        "n": 4
+      },
+      {
+        "px": 184,
+        "n": 3
+      },
+      {
+        "px": 24,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sizes": [
+      27,
+      24,
+      16,
+      14,
+      12
+    ],
+    "pad": null,
+    "gap": null,
+    "sidePad": 20,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#f4f1ee",
+      "面": 4,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#0f3c3c",
+      "面": 4,
+      "文字": 17,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#009b4a",
+      "面": 5,
+      "文字": 6,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#faf9f7",
+      "面": 7,
+      "文字": 26,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#333333",
+      "面": 0,
+      "文字": 19,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#0f3c3c",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

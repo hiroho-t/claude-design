@@ -1,0 +1,439 @@
+{
+  "slug": "robotpayment-recruit",
+  "url": "https://www.robotpayment.co.jp/recruit/",
+  "title": "採用情報 | 株式会社ROBOT PAYMENT",
+  "desc": "ロボットペイメントの採用サイトです。キャリア採用、新卒採用、インターンシップの情報を掲載しています。職種ごとの募集要項、企業理念、事業内容、サービス、社員インタビュー、座談会、福利厚生、評価、キャリアパス、教育研修などを紹介します。",
+  "bg": [
+    {
+      "hex": "#f3f4f6",
+      "pct": 41.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 30.9
+    },
+    {
+      "hex": "#112d61",
+      "pct": 27
+    },
+    {
+      "hex": "#e02838",
+      "pct": 0.3
+    },
+    {
+      "hex": "#344c79",
+      "pct": 0.1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#172e59",
+      "pct": 80.3
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 15.9
+    },
+    {
+      "hex": "#ed3242",
+      "pct": 1.5
+    },
+    {
+      "hex": "#0d234d",
+      "pct": 1.4
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans CJK JP Subset",
+      "w": 1379
+    },
+    {
+      "family": "Roboto",
+      "w": 60
+    },
+    {
+      "family": "din-2014",
+      "w": 14
+    }
+  ],
+  "sizes": [
+    {
+      "px": 48,
+      "w": 110
+    },
+    {
+      "px": 24,
+      "w": 153
+    },
+    {
+      "px": 20,
+      "w": 442
+    },
+    {
+      "px": 18,
+      "w": 400
+    },
+    {
+      "px": 16,
+      "w": 72
+    },
+    {
+      "px": 14,
+      "w": 145
+    }
+  ],
+  "body": {
+    "fs": 20,
+    "lh": 2,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 48,
+        "weight": "900",
+        "lh": 1.25,
+        "ls": "0",
+        "family": "Noto Sans CJK JP Subset"
+      },
+      {
+        "fs": 48,
+        "weight": "900",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Noto Sans CJK JP Subset"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 20
+    },
+    {
+      "px": 2,
+      "n": 3
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 60,
+      "n": 3
+    },
+    {
+      "px": 4,
+      "n": 2
+    },
+    {
+      "px": 40,
+      "n": 2
+    },
+    {
+      "px": 100,
+      "n": 2
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 60,
+      "n": 3
+    },
+    {
+      "px": 100,
+      "n": 3
+    },
+    {
+      "px": 160,
+      "n": 3
+    },
+    {
+      "px": 40,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1200,
+      "n": 32
+    },
+    {
+      "px": 704,
+      "n": 2
+    },
+    {
+      "px": 832,
+      "n": 2
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#f3f4f6",
+      "color": "#556685",
+      "border": null,
+      "radius": "0px",
+      "pad": "5px 0px",
+      "fs": 12,
+      "weight": "500",
+      "h": 29,
+      "ls": "0",
+      "n": 5
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#0d234d",
+      "border": null,
+      "radius": "2px",
+      "pad": "20px 20px",
+      "fs": 24,
+      "weight": "900",
+      "h": 81,
+      "ls": "0",
+      "n": 2
+    },
+    {
+      "bg": "#e02838",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "17px 34px",
+      "fs": 15,
+      "weight": "900",
+      "h": 50,
+      "ls": "0",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 782,
+      "n": 6
+    },
+    {
+      "px": 750,
+      "n": 1
+    },
+    {
+      "px": 640,
+      "n": 1
+    },
+    {
+      "px": 600,
+      "n": 10
+    },
+    {
+      "px": 480,
+      "n": 4
+    }
+  ],
+  "sections": [
+    {
+      "h": 1000,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 2660,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 420,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": "#f3f4f6",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 420,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": "#f3f4f6",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 420,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": "#f3f4f6",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 420,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": "#f3f4f6",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 400,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 560,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 800,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f3f4f6",
+      "n": 5
+    },
+    {
+      "hex": "#112d61",
+      "n": 3
+    },
+    {
+      "hex": "#ffffff",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 30,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "2:3",
+        "n": 10
+      },
+      {
+        "ratio": "4:3",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 30
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": 1.5,
+    "sizes": [
+      24,
+      16,
+      14,
+      12,
+      11
+    ],
+    "pad": 40,
+    "gap": 13,
+    "sidePad": 16,
+    "h1": {
+      "fs": 24,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f3f4f6",
+      "面": 10,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 5
+    },
+    {
+      "hex": "#ffffff",
+      "面": 3,
+      "文字": 15,
+      "枠": 0,
+      "ボタン": 2
+    },
+    {
+      "hex": "#112d61",
+      "面": 3,
+      "文字": 68,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#e02838",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#344c79",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ed3242",
+      "面": 0,
+      "文字": 4,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#0d234d",
+      "面": 0,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#172e59",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}
