@@ -1,0 +1,417 @@
+{
+  "slug": "yuasakensetsu",
+  "url": "https://www.yuasakensetsu.com/",
+  "title": "湯浅建設株式会社｜地域・人・自然にとことん向き合う建設会社",
+  "desc": "湯浅建設株式会社は、高知県馬路村魚梁瀬地区に拠点を構える建設会社です。森林土木工事、道路工事、 河川工事など公共工事を中心に施工しています。",
+  "bg": [
+    {
+      "hex": "#f6f6f8",
+      "pct": 84.1
+    },
+    {
+      "hex": "#000000",
+      "pct": 10.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 5
+    },
+    {
+      "hex": "#ffe109",
+      "pct": 0
+    },
+    {
+      "hex": "#c8c8c8",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 72
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 20.5
+    },
+    {
+      "hex": "#9fa0a0",
+      "pct": 7.5
+    }
+  ],
+  "pageBg": "#f6f6f8",
+  "fonts": [
+    {
+      "family": "Zen Kaku Gothic New",
+      "w": 822
+    }
+  ],
+  "sizes": [
+    {
+      "px": 40,
+      "w": 42
+    },
+    {
+      "px": 16,
+      "w": 395
+    },
+    {
+      "px": 15,
+      "w": 40
+    },
+    {
+      "px": 14,
+      "w": 87
+    },
+    {
+      "px": 13,
+      "w": 47
+    },
+    {
+      "px": 12,
+      "w": 52
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 2.5,
+    "ls": "0.100em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 18,
+        "weight": "700",
+        "lh": 2,
+        "ls": "0",
+        "family": "Zen Kaku Gothic New"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 10
+    },
+    {
+      "px": 10,
+      "n": 4
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 8,
+      "n": 12
+    },
+    {
+      "px": 6,
+      "n": 4
+    },
+    {
+      "px": 20,
+      "n": 4
+    },
+    {
+      "px": 25,
+      "n": 4
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 56,
+      "n": 1
+    },
+    {
+      "px": 72,
+      "n": 1
+    },
+    {
+      "px": 84,
+      "n": 1
+    },
+    {
+      "px": 104,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1060,
+      "n": 5
+    },
+    {
+      "px": 920,
+      "n": 4
+    },
+    {
+      "px": 1216,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#000000",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "1440px",
+      "pad": "2px 24px",
+      "fs": 13,
+      "weight": "700",
+      "h": 46,
+      "ls": "0",
+      "n": 2
+    },
+    {
+      "bg": "#ffe109",
+      "color": "#000000",
+      "border": null,
+      "radius": "1440px",
+      "pad": "2px 24px",
+      "fs": 15,
+      "weight": "700",
+      "h": 34,
+      "ls": "0",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1141,
+      "n": 2
+    },
+    {
+      "px": 1023,
+      "n": 1
+    },
+    {
+      "px": 768,
+      "n": 1
+    },
+    {
+      "px": 767,
+      "n": 1
+    },
+    {
+      "px": 479,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 880,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#f6f6f8",
+      "align": "右",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 560,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#f6f6f8",
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1460,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": "#f6f6f8",
+      "align": "右",
+      "media": "左",
+      "split": "64:36"
+    },
+    {
+      "h": 880,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": "#f6f6f8",
+      "align": "左",
+      "media": "右",
+      "split": "64:36"
+    },
+    {
+      "h": 980,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 540,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#f6f6f8",
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 940,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": "#f6f6f8",
+      "align": "右",
+      "media": "左",
+      "split": "50:50"
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#f6f6f8",
+      "align": "中央",
+      "media": "右",
+      "split": "20:80"
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f6f6f8",
+      "n": 8
+    },
+    {
+      "hex": "#ffffff",
+      "n": 4
+    },
+    {
+      "hex": "#000000",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f6f6f8",
+      "bg": "#ffffff",
+      "radius": 10,
+      "pad": "54/20",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 44,
+    "fullBleed": 6,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 15
+      },
+      {
+        "ratio": "1:1",
+        "n": 14
+      },
+      {
+        "ratio": "3:4",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 44
+      }
+    ]
+  },
+  "circles": {
+    "n": 5,
+    "sizes": [
+      {
+        "px": 24,
+        "n": 4
+      },
+      {
+        "px": 152,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2.5,
+    "sizes": [
+      22,
+      16,
+      14,
+      10,
+      6
+    ],
+    "pad": 40,
+    "gap": 6,
+    "sidePad": 35,
+    "h1": {
+      "fs": 14,
+      "lh": 2
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f6f6f8",
+      "面": 8,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 3,
+      "文字": 42,
+      "枠": 0,
+      "ボタン": 2
+    },
+    {
+      "hex": "#ffffff",
+      "面": 4,
+      "文字": 16,
+      "枠": 2,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffe109",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#9fa0a0",
+      "面": 0,
+      "文字": 9,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#ffe109",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

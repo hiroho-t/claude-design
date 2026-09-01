@@ -242,5 +242,87 @@
   },
   "gotoju": {
     "state": "done"
+  },
+  "kakumagumi": {
+    "state": "done"
+  },
+  "ieshima": {
+    "state": "done"
+  },
+  "chiyodakohan-recruit": {
+    "state": "done"
+  },
+  "saikazo": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://saikazo.org/"
+  },
+  "yuasakensetsu": {
+    "state": "done"
+  },
+  "tdb": {
+    "state": "done"
+  },
+  "wjetec": {
+    "state": "done"
+  },
+  "amcare-recruit": {
+    "state": "done"
+  },
+  "maruigroup": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.0101maruigroup.co.jp/"
+  },
+  "tential-recruit": {
+    "state": "done"
+  },
+  "yagyushichiho": {
+    "state": "done"
+  },
+  "tsk": {
+    "state": "done"
+  },
+  "saishunkan": {
+    "state": "done"
+  },
+  "iiojozo": {
+    "state": "done"
+  },
+  "carekura": {
+    "state": "done"
+  },
+  "ishiizouen": {
+    "state": "done"
+  },
+  "akatsukisecurities": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.akatsuki-sc.com/"
+  },
+  "gosaijikenshin": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://gosaiji-kenshin.com/"
+  },
+  "izumiiin": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.izumiiin.com/"
+  },
+  "kuraudiaholdings": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.kuraudia.holdings/"
+  },
+  "miyoshishoji": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.miyoshi-shoji.co.jp/"
+  },
+  "smarthr": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://smarthr.co.jp/"
   }
 }

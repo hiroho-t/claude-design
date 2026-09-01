@@ -1,0 +1,358 @@
+{
+  "slug": "iiojozo",
+  "url": "https://iio-jozo.co.jp/",
+  "title": "富士酢醸造元 飯尾醸造",
+  "desc": "京都で明治26年創業 富士酢の飯尾醸造です。お酢の通信販売、お酢レシピを掲載しています。無農薬米を作ることから始める富士酢作りもご紹介しております。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 91.3
+    },
+    {
+      "hex": "#f5e6d2",
+      "pct": 8.7
+    },
+    {
+      "hex": "#000000",
+      "pct": 0
+    },
+    {
+      "hex": "#dec4a2",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 80.9
+    },
+    {
+      "hex": "#666666",
+      "pct": 19.1
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "YakuHanMP",
+      "w": 1162
+    },
+    {
+      "family": "Libre Baskerville",
+      "w": 41
+    },
+    {
+      "family": "YakuHanJP",
+      "w": 11
+    }
+  ],
+  "sizes": [
+    {
+      "px": 22,
+      "w": 129
+    },
+    {
+      "px": 18,
+      "w": 136
+    },
+    {
+      "px": 16,
+      "w": 248
+    },
+    {
+      "px": 14,
+      "w": 182
+    },
+    {
+      "px": 13,
+      "w": 40
+    },
+    {
+      "px": 12,
+      "w": 365
+    }
+  ],
+  "body": {
+    "fs": 12,
+    "lh": null,
+    "ls": null
+  },
+  "headings": {},
+  "radius": [
+    {
+      "px": 0,
+      "n": 25
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 16,
+      "n": 7
+    },
+    {
+      "px": 8,
+      "n": 5
+    },
+    {
+      "px": 24,
+      "n": 5
+    },
+    {
+      "px": 25,
+      "n": 5
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 80,
+      "n": 2
+    },
+    {
+      "px": 160,
+      "n": 2
+    },
+    {
+      "px": 96,
+      "n": 1
+    },
+    {
+      "px": 100,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 572,
+      "n": 19
+    },
+    {
+      "px": 1200,
+      "n": 15
+    },
+    {
+      "px": 1088,
+      "n": 11
+    }
+  ],
+  "buttons": [],
+  "bp": [
+    {
+      "px": 1280,
+      "n": 3
+    },
+    {
+      "px": 1000,
+      "n": 3
+    },
+    {
+      "px": 900,
+      "n": 1
+    },
+    {
+      "px": 768,
+      "n": 59
+    },
+    {
+      "px": 767,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#ffffff",
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1200,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 940,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "右",
+      "split": "40:60"
+    },
+    {
+      "h": 1840,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "右",
+      "split": "54:46"
+    },
+    {
+      "h": 1060,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "右",
+      "split": "54:46"
+    },
+    {
+      "h": 740,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "左",
+      "split": "25:75"
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 10
+    },
+    {
+      "hex": "#f5e6d2",
+      "n": 6
+    },
+    {
+      "hex": "#f6fbff",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#f5e6d2",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 5
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "transparent",
+      "radius": 0,
+      "pad": "0/0",
+      "border": "1px #dec4a2",
+      "shadow": null,
+      "n": 4
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 16,
+    "fullBleed": 2,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 9
+      },
+      {
+        "ratio": "16:9",
+        "n": 2
+      },
+      {
+        "ratio": "3:2",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 16
+      }
+    ]
+  },
+  "circles": {
+    "n": 10,
+    "sizes": [
+      {
+        "px": 32,
+        "n": 4
+      },
+      {
+        "px": 40,
+        "n": 4
+      },
+      {
+        "px": 24,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sizes": [
+      18,
+      16,
+      14,
+      13,
+      11
+    ],
+    "pad": 80,
+    "gap": 16,
+    "sidePad": 24,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 12,
+      "文字": 0,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f5e6d2",
+      "面": 15,
+      "文字": 0,
+      "枠": 8,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 72,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#dec4a2",
+      "面": 0,
+      "文字": 0,
+      "枠": 8,
+      "ボタン": 0
+    },
+    {
+      "hex": "#666666",
+      "面": 0,
+      "文字": 41,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#f5e6d2",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

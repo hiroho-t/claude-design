@@ -1,0 +1,525 @@
+{
+  "slug": "gosaijikenshin",
+  "url": "https://gosaiji-kenshin.com/",
+  "title": "5歳児健診ポータル | 5歳児健診をすべてのこどもに",
+  "desc": "5歳児健診ポータルは、すべてのこども達が保護者とともに安心して就学できる環境を作るため、5歳児健診の情報をまとめたポータルサイトです。健診の流れの動画や、自治体の実施データを見ることができます。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 58.8
+    },
+    {
+      "hex": "#ffe9ca",
+      "pct": 18.4
+    },
+    {
+      "hex": "#d26e49",
+      "pct": 10.5
+    },
+    {
+      "hex": "#17aa6c",
+      "pct": 4.8
+    },
+    {
+      "hex": "#257ec7",
+      "pct": 3.7
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#3a3a3a",
+      "pct": 68.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 16.8
+    },
+    {
+      "hex": "#257ec7",
+      "pct": 12.8
+    },
+    {
+      "hex": "#17aa6c",
+      "pct": 0.6
+    }
+  ],
+  "pageBg": "#fff4e3",
+  "fonts": [
+    {
+      "family": "Zen Kaku Gothic New",
+      "w": 1437
+    },
+    {
+      "family": "Montserrat",
+      "w": 63
+    }
+  ],
+  "sizes": [
+    {
+      "px": 28,
+      "w": 62
+    },
+    {
+      "px": 24,
+      "w": 60
+    },
+    {
+      "px": 20,
+      "w": 440
+    },
+    {
+      "px": 18,
+      "w": 426
+    },
+    {
+      "px": 16,
+      "w": 237
+    },
+    {
+      "px": 12,
+      "w": 191
+    }
+  ],
+  "body": {
+    "fs": 20,
+    "lh": 2,
+    "ls": "0.100em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1.8,
+        "ls": "0.100em",
+        "family": "Zen Kaku Gothic New"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": 1.55,
+        "ls": "0",
+        "family": "Zen Kaku Gothic New"
+      },
+      {
+        "fs": 20,
+        "weight": "700",
+        "lh": 1.55,
+        "ls": "0.100em",
+        "family": "Montserrat"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 10,
+      "n": 31
+    },
+    {
+      "px": 0,
+      "n": 20
+    },
+    {
+      "px": 30,
+      "n": 8
+    },
+    {
+      "px": 20,
+      "n": 2
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 20,
+      "n": 15
+    },
+    {
+      "px": 12,
+      "n": 9
+    },
+    {
+      "px": 32,
+      "n": 4
+    },
+    {
+      "px": 16,
+      "n": 3
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 2
+    },
+    {
+      "px": 112,
+      "n": 2
+    },
+    {
+      "px": 136,
+      "n": 2
+    },
+    {
+      "px": 56,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 644,
+      "n": 13
+    },
+    {
+      "px": 1172,
+      "n": 7
+    },
+    {
+      "px": 1084,
+      "n": 5
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffe9ca",
+      "color": "#3a3a3a",
+      "border": null,
+      "radius": "0px",
+      "pad": "10px 30px",
+      "fs": 16,
+      "weight": "700",
+      "h": 45,
+      "ls": "0",
+      "n": 10
+    },
+    {
+      "bg": "transparent",
+      "color": "#3a3a3a",
+      "border": null,
+      "radius": "0px",
+      "pad": "8px 0px",
+      "fs": 15,
+      "weight": "700",
+      "h": 38,
+      "ls": "0",
+      "n": 4
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 20,
+      "weight": "700",
+      "h": 40,
+      "ls": "2px",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 1200,
+      "n": 7
+    },
+    {
+      "px": 1023,
+      "n": 1
+    },
+    {
+      "px": 767,
+      "n": 35
+    },
+    {
+      "px": 639,
+      "n": 1
+    },
+    {
+      "px": 600,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 920,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 960,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 240,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 800,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "48:52"
+    },
+    {
+      "h": 360,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1140,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 160,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 740,
+      "full": false,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "左",
+      "split": "59:41"
+    },
+    {
+      "h": 160,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 460,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "12:88"
+    },
+    {
+      "h": 160,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 560,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "16:84"
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 22
+    },
+    {
+      "hex": "#ffe9ca",
+      "n": 5
+    },
+    {
+      "hex": "#ffd954",
+      "n": 2
+    },
+    {
+      "hex": "#17aa6c",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#fff4e3",
+      "bg": "#ffffff",
+      "radius": 10,
+      "pad": "0/0",
+      "border": "3px #257ec7",
+      "shadow": null,
+      "n": 21
+    },
+    {
+      "onBg": "#fff4e3",
+      "bg": "#ffe9ca",
+      "radius": 10,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 50,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 26
+      },
+      {
+        "ratio": "4:3",
+        "n": 11
+      },
+      {
+        "ratio": "1:1",
+        "n": 6
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 49
+      },
+      {
+        "px": 10,
+        "n": 1
+      }
+    ]
+  },
+  "circles": {
+    "n": 18,
+    "sizes": [
+      {
+        "px": 48,
+        "n": 13
+      },
+      {
+        "px": 40,
+        "n": 5
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 15,
+    "bodyLh": 1.7,
+    "sizes": [
+      16,
+      15,
+      14,
+      13,
+      10
+    ],
+    "pad": 32,
+    "gap": 20,
+    "sidePad": 30,
+    "h1": {
+      "fs": 18,
+      "lh": 1.8
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 53,
+      "文字": 16,
+      "枠": 0,
+      "ボタン": 5
+    },
+    {
+      "hex": "#ffe9ca",
+      "面": 15,
+      "文字": 0,
+      "枠": 1,
+      "ボタン": 10
+    },
+    {
+      "hex": "#d26e49",
+      "面": 4,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#17aa6c",
+      "面": 4,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#257ec7",
+      "面": 3,
+      "文字": 24,
+      "枠": 23,
+      "ボタン": 0
+    },
+    {
+      "hex": "#3a3a3a",
+      "面": 0,
+      "文字": 71,
+      "枠": 5,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#257ec7",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

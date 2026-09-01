@@ -1,0 +1,437 @@
+{
+  "slug": "eizosystem",
+  "url": "https://www.eizo-system.co.jp/",
+  "title": "株式会社映像システム | 映像・音響のトータルソリューション",
+  "desc": "株式会社映像システム（ESC）は、半世紀近くにわたり映像音響マルチメディア・システムの開発普及に努め、会議システム、デジタルサイネージなど日本でも数少ないAVシステム専門企業として業界有数の実績を重ねています。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 62.6
+    },
+    {
+      "hex": "#222222",
+      "pct": 33
+    },
+    {
+      "hex": "#f2f2f2",
+      "pct": 4
+    },
+    {
+      "hex": "#464646",
+      "pct": 0.3
+    },
+    {
+      "hex": "#e94709",
+      "pct": 0.1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#222222",
+      "pct": 55.3
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 44.7
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "NeueHaasUnicaPro-Light",
+      "w": 783
+    },
+    {
+      "family": "NeueHaasUnicaPro-Medium",
+      "w": 427
+    }
+  ],
+  "sizes": [
+    {
+      "px": 16,
+      "w": 212
+    },
+    {
+      "px": 15,
+      "w": 298
+    },
+    {
+      "px": 14,
+      "w": 142
+    },
+    {
+      "px": 13,
+      "w": 184
+    },
+    {
+      "px": 12,
+      "w": 160
+    },
+    {
+      "px": 11,
+      "w": 65
+    }
+  ],
+  "body": {
+    "fs": 15,
+    "lh": 1.7,
+    "ls": "0.040em"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 48,
+        "weight": "400",
+        "lh": 1.35,
+        "ls": "0.040em",
+        "family": "NeueHaasUnicaPro-Medium"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 16,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0.020em",
+        "family": "NeueHaasUnicaPro-Medium"
+      },
+      {
+        "fs": 22,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0.020em",
+        "family": "NeueHaasUnicaPro-Medium"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 18,
+        "weight": "600",
+        "lh": 1.1,
+        "ls": "0.033em",
+        "family": "NeueHaasUnicaPro-Medium"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 25
+    },
+    {
+      "px": 6,
+      "n": 14
+    },
+    {
+      "px": 4,
+      "n": 4
+    },
+    {
+      "px": 3,
+      "n": 2
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 8,
+      "n": 18
+    },
+    {
+      "px": 40,
+      "n": 5
+    },
+    {
+      "px": 4,
+      "n": 3
+    },
+    {
+      "px": 1,
+      "n": 2
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 140,
+      "n": 5
+    },
+    {
+      "px": 80,
+      "n": 3
+    },
+    {
+      "px": 64,
+      "n": 2
+    },
+    {
+      "px": 132,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 580,
+      "n": 16
+    },
+    {
+      "px": 1200,
+      "n": 16
+    },
+    {
+      "px": 572,
+      "n": 10
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#464646",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "6px",
+      "pad": "0px 0px",
+      "fs": 15,
+      "weight": "600",
+      "h": 57,
+      "ls": "0.6px",
+      "n": 4
+    },
+    {
+      "bg": "#f0f0f0",
+      "color": "#222222",
+      "border": "3px #f0f0f0",
+      "radius": "4px",
+      "pad": "10px 29px",
+      "fs": 13,
+      "weight": "400",
+      "h": 50,
+      "ls": "0",
+      "n": 2
+    },
+    {
+      "bg": "#e94709",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "6px",
+      "pad": "4px 10px",
+      "fs": 12,
+      "weight": "600",
+      "h": 29,
+      "ls": "0.6px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1920,
+      "n": 30
+    },
+    {
+      "px": 1000,
+      "n": 8
+    },
+    {
+      "px": 768,
+      "n": 55
+    },
+    {
+      "px": 767,
+      "n": 1085
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1100,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#222222",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1180,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "右",
+      "media": "左",
+      "split": "33:67"
+    },
+    {
+      "h": 520,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": "#f2f2f2",
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 560,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 560,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 7
+    },
+    {
+      "hex": "#222222",
+      "n": 4
+    },
+    {
+      "hex": "#f2f2f2",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "transparent",
+      "radius": 0,
+      "pad": "0/0",
+      "border": "1px #000000",
+      "shadow": null,
+      "n": 3
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "transparent",
+      "radius": 6,
+      "pad": "0/0",
+      "border": "1px #000000",
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 65,
+    "fullBleed": 5,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 49
+      },
+      {
+        "ratio": "21:9",
+        "n": 9
+      },
+      {
+        "ratio": "16:9",
+        "n": 6
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 53
+      },
+      {
+        "px": 4,
+        "n": 7
+      }
+    ]
+  },
+  "circles": {
+    "n": 3,
+    "sizes": [
+      {
+        "px": 48,
+        "n": 3
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 15,
+    "bodyLh": 1.95,
+    "sizes": [
+      15,
+      14,
+      12,
+      11,
+      10
+    ],
+    "pad": 68,
+    "gap": 6,
+    "sidePad": 27,
+    "h1": {
+      "fs": 40,
+      "lh": 1.25
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 11,
+      "文字": 70,
+      "枠": 1,
+      "ボタン": 3
+    },
+    {
+      "hex": "#222222",
+      "面": 5,
+      "文字": 43,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#f2f2f2",
+      "面": 3,
+      "文字": 0,
+      "枠": 2,
+      "ボタン": 2
+    },
+    {
+      "hex": "#464646",
+      "面": 4,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 4
+    },
+    {
+      "hex": "#e94709",
+      "面": 5,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 2
+    }
+  ],
+  "accent": "#e94709",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

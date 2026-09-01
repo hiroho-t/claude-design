@@ -1,0 +1,403 @@
+{
+  "slug": "tential-recruit",
+  "url": "https://recruit.tential.jp/",
+  "title": "採用サイト｜株式会社TENTIAL",
+  "desc": "「健康に前向きな社会を創り、人類のポテンシャルを引き出す。」をミッションに掲げる株式会社TENTIALの採用サイト。",
+  "bg": [
+    {
+      "hex": "#e7eff5",
+      "pct": 65.3
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 34.2
+    },
+    {
+      "hex": "#294c7a",
+      "pct": 0.5
+    },
+    {
+      "hex": "#000000",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#294c7a",
+      "pct": 67.5
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 32.5
+    }
+  ],
+  "pageBg": "#e7eff5",
+  "fonts": [
+    {
+      "family": "Figtree",
+      "w": 1369
+    },
+    {
+      "family": "Hiragino Kaku Gothic",
+      "w": 149
+    }
+  ],
+  "sizes": [
+    {
+      "px": 64,
+      "w": 57
+    },
+    {
+      "px": 34,
+      "w": 30
+    },
+    {
+      "px": 20,
+      "w": 683
+    },
+    {
+      "px": 16,
+      "w": 485
+    },
+    {
+      "px": 15,
+      "w": 46
+    },
+    {
+      "px": 13,
+      "w": 204
+    }
+  ],
+  "body": {
+    "fs": 20,
+    "lh": 2.6,
+    "ls": "0.040em"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 16,
+        "weight": "500",
+        "lh": null,
+        "ls": "0.050em",
+        "family": "Figtree"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 16,
+        "weight": "500",
+        "lh": null,
+        "ls": "0.050em",
+        "family": "Figtree"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 20,
+        "weight": "500",
+        "lh": null,
+        "ls": "0.050em",
+        "family": "Figtree"
+      },
+      {
+        "fs": 64,
+        "weight": "400",
+        "lh": 1.13,
+        "ls": "-0.010em",
+        "family": "Figtree"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 5
+    },
+    {
+      "px": 4,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 19,
+      "n": 5
+    },
+    {
+      "px": 40,
+      "n": 4
+    },
+    {
+      "px": 15,
+      "n": 2
+    },
+    {
+      "px": 37,
+      "n": 2
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 172,
+      "n": 2
+    },
+    {
+      "px": 72,
+      "n": 1
+    },
+    {
+      "px": 88,
+      "n": 1
+    },
+    {
+      "px": 92,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1382,
+      "n": 14
+    },
+    {
+      "px": 760,
+      "n": 9
+    },
+    {
+      "px": 1264,
+      "n": 7
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#294c7a",
+      "border": "1px",
+      "radius": "100px",
+      "pad": "9px 10px",
+      "fs": 16,
+      "weight": "500",
+      "h": 70,
+      "ls": "0.8px",
+      "n": 2
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": "1px #ffffff",
+      "radius": "100px",
+      "pad": "9px 10px",
+      "fs": 16,
+      "weight": "500",
+      "h": 70,
+      "ls": "0.8px",
+      "n": 2
+    },
+    {
+      "bg": "#294c7a",
+      "color": "#ffffff",
+      "border": "1px #294c7a",
+      "radius": "100px",
+      "pad": "10px 27px",
+      "fs": 15,
+      "weight": "500",
+      "h": 45,
+      "ls": "0.8px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1299,
+      "n": 15
+    },
+    {
+      "px": 1024,
+      "n": 30
+    },
+    {
+      "px": 767,
+      "n": 100
+    },
+    {
+      "px": 600,
+      "n": 1
+    },
+    {
+      "px": 374,
+      "n": 3
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 800,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1340,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1700,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1160,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#e7eff5",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 2
+    },
+    {
+      "hex": "#e7eff5",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 30,
+    "fullBleed": 8,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 16
+      },
+      {
+        "ratio": "4:3",
+        "n": 10
+      },
+      {
+        "ratio": "3:4",
+        "n": 3
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 18
+      },
+      {
+        "px": 20,
+        "n": 12
+      }
+    ]
+  },
+  "circles": {
+    "n": 6,
+    "sizes": [
+      {
+        "px": 48,
+        "n": 4
+      },
+      {
+        "px": 64,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 13,
+    "bodyLh": null,
+    "sizes": [
+      32,
+      14,
+      13,
+      12,
+      10
+    ],
+    "pad": 32,
+    "gap": 11,
+    "sidePad": 0,
+    "h1": {
+      "fs": 13,
+      "lh": null
+    }
+  },
+  "usage": [
+    {
+      "hex": "#e7eff5",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 4,
+      "文字": 30,
+      "枠": 2,
+      "ボタン": 0
+    },
+    {
+      "hex": "#294c7a",
+      "面": 3,
+      "文字": 62,
+      "枠": 2,
+      "ボタン": 1
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 0,
+      "枠": 3,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#294c7a",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

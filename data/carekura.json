@@ -1,0 +1,502 @@
+{
+  "slug": "carekura",
+  "url": "https://carekura.com/",
+  "title": "一般社団法人ケアと暮らしの編集社 | 孤独・孤立を予防する処方箋を",
+  "desc": "ケアと暮らしの編集社は暮らしの中にケアを編み込み、孤独・孤立が生まれない地域づくりを目指しています。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 58.9
+    },
+    {
+      "hex": "#34a9ee",
+      "pct": 22.9
+    },
+    {
+      "hex": "#fdf2ed",
+      "pct": 15.3
+    },
+    {
+      "hex": "#e57547",
+      "pct": 2.8
+    },
+    {
+      "hex": "#000000",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#18181b",
+      "pct": 41
+    },
+    {
+      "hex": "#34a9ee",
+      "pct": 22.3
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 16.2
+    },
+    {
+      "hex": "#000000",
+      "pct": 16
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Urbanist",
+      "w": 2332
+    }
+  ],
+  "sizes": [
+    {
+      "px": 44,
+      "w": 50
+    },
+    {
+      "px": 20,
+      "w": 202
+    },
+    {
+      "px": 16,
+      "w": 639
+    },
+    {
+      "px": 15,
+      "w": 290
+    },
+    {
+      "px": 14,
+      "w": 430
+    },
+    {
+      "px": 13,
+      "w": 410
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 2.2,
+    "ls": "0.049em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 64,
+        "weight": "400",
+        "lh": 2.4,
+        "ls": "0.080em",
+        "family": "Urbanist"
+      },
+      {
+        "fs": 36,
+        "weight": "400",
+        "lh": 2,
+        "ls": "0.080em",
+        "family": "Urbanist"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 13,
+        "weight": "500",
+        "lh": 1.6,
+        "ls": "0.062em",
+        "family": "Urbanist"
+      },
+      {
+        "fs": 22,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0.036em",
+        "family": "Urbanist"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 15,
+        "weight": "500",
+        "lh": 2,
+        "ls": "0.053em",
+        "family": "Urbanist"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 8,
+      "n": 15
+    },
+    {
+      "px": 16,
+      "n": 7
+    },
+    {
+      "px": 0,
+      "n": 3
+    },
+    {
+      "px": 6,
+      "n": 2
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 12,
+      "n": 17
+    },
+    {
+      "px": 16,
+      "n": 10
+    },
+    {
+      "px": 4,
+      "n": 7
+    },
+    {
+      "px": 32,
+      "n": 6
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 128,
+      "n": 9
+    },
+    {
+      "px": 64,
+      "n": 8
+    },
+    {
+      "px": 32,
+      "n": 4
+    },
+    {
+      "px": 48,
+      "n": 4
+    }
+  ],
+  "container": [
+    {
+      "px": 1224,
+      "n": 12
+    },
+    {
+      "px": 700,
+      "n": 8
+    },
+    {
+      "px": 936,
+      "n": 7
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#e57547",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "300px",
+      "pad": "8px 32px",
+      "fs": 32,
+      "weight": "600",
+      "h": 80,
+      "ls": "1.6px",
+      "n": 5
+    },
+    {
+      "bg": "#34a9ee",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "300px",
+      "pad": "14px 32px",
+      "fs": 14,
+      "weight": "400",
+      "h": 51,
+      "ls": "0.8px",
+      "n": 3
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#18181b",
+      "border": "1px #e3e1d7",
+      "radius": "8px",
+      "pad": "14px 14px",
+      "fs": 14,
+      "weight": "500",
+      "h": 62,
+      "ls": "0.8px",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 1400,
+      "n": 21
+    },
+    {
+      "px": 992,
+      "n": 89
+    },
+    {
+      "px": 991,
+      "n": 18
+    },
+    {
+      "px": 768,
+      "n": 61
+    },
+    {
+      "px": 767,
+      "n": 39
+    }
+  ],
+  "sections": [
+    {
+      "h": 1000,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "右",
+      "split": "90:10"
+    },
+    {
+      "h": 960,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 980,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "14:86"
+    },
+    {
+      "h": 2940,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1360,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1560,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 500,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 5
+    },
+    {
+      "hex": "#f9f9f9",
+      "n": 3
+    },
+    {
+      "hex": "#34a9ee",
+      "n": 1
+    },
+    {
+      "hex": "#fdf2ed",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#f9f9f9",
+      "radius": 8,
+      "pad": "0/0",
+      "border": "1px #e3e1d7",
+      "shadow": null,
+      "n": 3
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "#ffffff",
+      "radius": 400,
+      "pad": "32/32",
+      "border": null,
+      "shadow": null,
+      "n": 2
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#34a9ee",
+      "color": "#ffffff",
+      "radius": "999px",
+      "pad": "1px 17px",
+      "fs": 11,
+      "border": null,
+      "n": 4
+    },
+    {
+      "bg": "transparent",
+      "color": "#34a9ee",
+      "radius": "16px",
+      "pad": "3px 16px",
+      "fs": 16,
+      "border": "1px",
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 29,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 18
+      },
+      {
+        "ratio": "16:9",
+        "n": 7
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 17
+      },
+      {
+        "px": 8,
+        "n": 12
+      }
+    ]
+  },
+  "circles": {
+    "n": 3,
+    "sizes": [
+      {
+        "px": 32,
+        "n": 2
+      },
+      {
+        "px": 64,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2.2,
+    "sizes": [
+      14,
+      13,
+      12,
+      11,
+      10
+    ],
+    "pad": 32,
+    "gap": 8,
+    "sidePad": 29,
+    "h1": {
+      "fs": 36,
+      "lh": 2.2
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 20,
+      "文字": 29,
+      "枠": 0,
+      "ボタン": 4
+    },
+    {
+      "hex": "#34a9ee",
+      "面": 12,
+      "文字": 29,
+      "枠": 4,
+      "ボタン": 4
+    },
+    {
+      "hex": "#fdf2ed",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#e57547",
+      "面": 5,
+      "文字": 4,
+      "枠": 0,
+      "ボタン": 5
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 10,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#18181b",
+      "面": 0,
+      "文字": 56,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#34a9ee",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

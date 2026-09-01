@@ -1,0 +1,543 @@
+{
+  "slug": "tdb",
+  "url": "https://www.tdb.co.jp/",
+  "title": "株式会社 帝国データバンク[TDB] | TEIKOKU DATABANK, LTD.",
+  "desc": "帝国データバンクの企業情報データベースで、ビジネスを次のレベルへ。国内最大級のデータベースを駆使して、企業信用調査やマーケティング戦略の最適化、取引先の状況把握や与信管理を迅速かつ効果的にサポートします。倒産情報速報や気になるニュースレポートも提供。確かな情報と分析で、リスクを最小限に、ビジネスチャンスを最大限に引き出します。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 42
+    },
+    {
+      "hex": "#f8f8f8",
+      "pct": 16.9
+    },
+    {
+      "hex": "#1e2025",
+      "pct": 11.9
+    },
+    {
+      "hex": "#e5ebf5",
+      "pct": 19
+    },
+    {
+      "hex": "#00339e",
+      "pct": 9.9
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#26282d",
+      "pct": 46.3
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 23.9
+    },
+    {
+      "hex": "#00339e",
+      "pct": 13.2
+    },
+    {
+      "hex": "#6f6f6f",
+      "pct": 10
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Nunito Sans",
+      "w": 5977
+    }
+  ],
+  "sizes": [
+    {
+      "px": 21,
+      "w": 258
+    },
+    {
+      "px": 16,
+      "w": 879
+    },
+    {
+      "px": 14,
+      "w": 2824
+    },
+    {
+      "px": 13,
+      "w": 625
+    },
+    {
+      "px": 12,
+      "w": 935
+    },
+    {
+      "px": 11,
+      "w": 132
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.4,
+    "ls": "0"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": 1.75,
+        "ls": "0.020em",
+        "family": "Nunito Sans"
+      },
+      {
+        "fs": 12,
+        "weight": "700",
+        "lh": 1.8,
+        "ls": "0.060em",
+        "family": "Nunito Sans"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 12,
+        "weight": "700",
+        "lh": 1.8,
+        "ls": "0.060em",
+        "family": "Nunito Sans"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 1.54,
+        "ls": "0.040em",
+        "family": "Nunito Sans"
+      },
+      {
+        "fs": 14,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "Nunito Sans"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 19
+    },
+    {
+      "px": 15,
+      "n": 17
+    },
+    {
+      "px": 16,
+      "n": 17
+    },
+    {
+      "px": 2,
+      "n": 10
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(255, 255, 255) 0px 0px 20px 22px inset",
+      "n": 18
+    },
+    {
+      "css": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.03) 0px 7px 9px 0px, rgba(0, 0, 0, 0.03) 0px -4px 20px 0px",
+      "n": 3
+    }
+  ],
+  "gap": [
+    {
+      "px": 8,
+      "n": 271
+    },
+    {
+      "px": 6,
+      "n": 42
+    },
+    {
+      "px": 32,
+      "n": 17
+    },
+    {
+      "px": 16,
+      "n": 15
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 64,
+      "n": 10
+    },
+    {
+      "px": 96,
+      "n": 4
+    },
+    {
+      "px": 80,
+      "n": 2
+    },
+    {
+      "px": 32,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1240,
+      "n": 29
+    },
+    {
+      "px": 1188,
+      "n": 16
+    },
+    {
+      "px": 1028,
+      "n": 7
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "9999px",
+      "pad": "2px 2px",
+      "fs": 16,
+      "weight": "700",
+      "h": 67,
+      "ls": "0",
+      "n": 8
+    },
+    {
+      "bg": "#00339e",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "9999px",
+      "pad": "22px 28px",
+      "fs": 16,
+      "weight": "700",
+      "h": 76,
+      "ls": "0",
+      "n": 7
+    },
+    {
+      "bg": "#f8f8f8",
+      "color": "#00339e",
+      "border": null,
+      "radius": "2px",
+      "pad": "4px 6px",
+      "fs": 13,
+      "weight": "700",
+      "h": 26,
+      "ls": "0.65px",
+      "n": 5
+    }
+  ],
+  "bp": [
+    {
+      "px": 1600,
+      "n": 1
+    },
+    {
+      "px": 1220,
+      "n": 1
+    },
+    {
+      "px": 1160,
+      "n": 1
+    },
+    {
+      "px": 1024,
+      "n": 7
+    },
+    {
+      "px": 768,
+      "n": 46
+    }
+  ],
+  "sections": [
+    {
+      "h": 720,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#00339e",
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 220,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": "#e6ebf5",
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 220,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 820,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#f8f8f8",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": "#f8f8f8",
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 620,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 120,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#e9e9e9",
+      "n": 17
+    },
+    {
+      "hex": "#ffffff",
+      "n": 16
+    },
+    {
+      "hex": "#f8f8f8",
+      "n": 2
+    },
+    {
+      "hex": "#e6e8ef",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": null,
+      "bg": "#e9e9e9",
+      "radius": 16,
+      "pad": "2/2",
+      "border": null,
+      "shadow": null,
+      "n": 10
+    },
+    {
+      "onBg": "#e9e9e9",
+      "bg": "#ffffff",
+      "radius": 15,
+      "pad": "24/24",
+      "border": null,
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(255, 255, 255) 0px 0px 20px 22px inset",
+      "n": 10
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 30,
+    "fullBleed": 2,
+    "ratios": [
+      {
+        "ratio": "16:9",
+        "n": 14
+      },
+      {
+        "ratio": "1:1",
+        "n": 7
+      },
+      {
+        "ratio": "3:2",
+        "n": 7
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 30
+      }
+    ]
+  },
+  "circles": {
+    "n": 11,
+    "sizes": [
+      {
+        "px": 40,
+        "n": 6
+      },
+      {
+        "px": 64,
+        "n": 3
+      },
+      {
+        "px": 24,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 13,
+    "bodyLh": 1.6,
+    "sizes": [
+      24,
+      16,
+      14,
+      13,
+      11
+    ],
+    "pad": 24,
+    "gap": 8,
+    "sidePad": 20,
+    "h1": {
+      "fs": 24,
+      "lh": 1.54
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 36,
+      "文字": 127,
+      "枠": 2,
+      "ボタン": 2
+    },
+    {
+      "hex": "#f8f8f8",
+      "面": 12,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 5
+    },
+    {
+      "hex": "#1e2025",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#e5ebf5",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#00339e",
+      "面": 9,
+      "文字": 61,
+      "枠": 0,
+      "ボタン": 8
+    },
+    {
+      "hex": "#26282d",
+      "面": 0,
+      "文字": 202,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#6f6f6f",
+      "面": 0,
+      "文字": 32,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#00339e",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}
