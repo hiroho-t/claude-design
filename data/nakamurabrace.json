@@ -1,0 +1,423 @@
+{
+  "slug": "nakamurabrace",
+  "url": "https://www.nakamura-brace.co.jp/",
+  "title": "中村ブレイス株式会社｜義肢装具・人工乳房・人工補正具｜世界遺産・石見銀山",
+  "desc": "私たちは世界遺産・石見銀山を拠点とする義肢装具メーカーです。誠実なものづくりでひとの身体と心、古民家再生や文化事業を通して地域の暮らしを支えています。",
+  "bg": [
+    {
+      "hex": "#87d2d2",
+      "pct": 41.2
+    },
+    {
+      "hex": "#bedcb4",
+      "pct": 18.2
+    },
+    {
+      "hex": "#fdecda",
+      "pct": 17.4
+    },
+    {
+      "hex": "#c8aa8c",
+      "pct": 13.1
+    },
+    {
+      "hex": "#fdfcf8",
+      "pct": 10.1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#323232",
+      "pct": 96.6
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 2
+    },
+    {
+      "hex": "#a44d8d",
+      "pct": 0.7
+    },
+    {
+      "hex": "#284696",
+      "pct": 0.6
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "YakuHanMPs",
+      "w": 1292
+    },
+    {
+      "family": "YakuHanJP",
+      "w": 46
+    },
+    {
+      "family": "Zen Maru Gothic",
+      "w": 7
+    }
+  ],
+  "sizes": [
+    {
+      "px": 21,
+      "w": 126
+    },
+    {
+      "px": 18,
+      "w": 119
+    },
+    {
+      "px": 16,
+      "w": 129
+    },
+    {
+      "px": 15,
+      "w": 493
+    },
+    {
+      "px": 13,
+      "w": 231
+    },
+    {
+      "px": 11,
+      "w": 157
+    }
+  ],
+  "body": {
+    "fs": 15,
+    "lh": 2.5,
+    "ls": "0"
+  },
+  "headings": {},
+  "radius": [
+    {
+      "px": 0,
+      "n": 14
+    },
+    {
+      "px": 30,
+      "n": 4
+    },
+    {
+      "px": 50,
+      "n": 3
+    },
+    {
+      "px": 20,
+      "n": 1
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.05) 0px 1px 4px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 52,
+      "n": 2
+    },
+    {
+      "px": 92,
+      "n": 2
+    },
+    {
+      "px": 100,
+      "n": 2
+    },
+    {
+      "px": 156,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 980,
+      "n": 23
+    },
+    {
+      "px": 1160,
+      "n": 6
+    },
+    {
+      "px": 652,
+      "n": 5
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#323232",
+      "border": "1px #323232",
+      "radius": "30px",
+      "pad": "3px 10px",
+      "fs": 10,
+      "weight": "400",
+      "h": 26,
+      "ls": "1px",
+      "n": 4
+    },
+    {
+      "bg": "#fffcf8",
+      "color": "#323232",
+      "border": null,
+      "radius": "50px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "400",
+      "h": 67,
+      "ls": "0",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 1180,
+      "n": 8
+    },
+    {
+      "px": 1060,
+      "n": 2
+    },
+    {
+      "px": 1001,
+      "n": 77
+    },
+    {
+      "px": 1000,
+      "n": 65
+    },
+    {
+      "px": 600,
+      "n": 2
+    }
+  ],
+  "sections": [
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#87d2d2",
+      "n": 1
+    },
+    {
+      "hex": "#fdecda",
+      "n": 1
+    },
+    {
+      "hex": "#c8aa8c",
+      "n": 1
+    },
+    {
+      "hex": "#bedcb4",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [
+    {
+      "bg": "transparent",
+      "color": "#323232",
+      "radius": "999px",
+      "pad": "3px 10px",
+      "fs": 10,
+      "border": "1px",
+      "n": 4
+    }
+  ],
+  "images": {
+    "n": 77,
+    "fullBleed": 20,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 38
+      },
+      {
+        "ratio": "1:1",
+        "n": 18
+      },
+      {
+        "ratio": "16:9",
+        "n": 16
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 77
+      }
+    ]
+  },
+  "circles": {
+    "n": 1,
+    "sizes": [
+      {
+        "px": 144,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 15,
+    "bodyLh": 1.7,
+    "sizes": [
+      16,
+      15,
+      12,
+      11,
+      10
+    ],
+    "pad": 28,
+    "gap": null,
+    "sidePad": 31,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#87d2d2",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#bedcb4",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#fdecda",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#c8aa8c",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#fdfcf8",
+      "面": 5,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 3
+    },
+    {
+      "hex": "#323232",
+      "面": 0,
+      "文字": 92,
+      "枠": 14,
+      "ボタン": 0
+    },
+    {
+      "hex": "#a44d8d",
+      "面": 0,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#284696",
+      "面": 0,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#a44d8d",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

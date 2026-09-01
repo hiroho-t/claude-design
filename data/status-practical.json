@@ -869,5 +869,45 @@
     "state": "skip",
     "why": "測定に失敗",
     "url": "https://mujuu.jp/"
+  },
+  "foodison": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://foodison.jp/"
+  },
+  "freee-jobs": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://jobs.freee.co.jp/"
+  },
+  "ventureforjapan": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://ventureforjapan.or.jp/"
+  },
+  "learningware": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.pro-seeds.com/learningware/"
+  },
+  "karte": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://karte.io/"
+  },
+  "michinoeki-ashigakubo": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://michinoeki-ashigakubo.com/"
+  },
+  "satsukikai": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://satsukikai-oshima.com/"
+  },
+  "housousha": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://housousha.co.jp/"
   }
 }

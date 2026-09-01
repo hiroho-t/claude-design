@@ -1,0 +1,495 @@
+{
+  "slug": "lycorp",
+  "url": "https://www.lycorp.co.jp/ja/",
+  "title": "LINEヤフー株式会社",
+  "desc": "LINEヤフー株式会社のコーポレートサイトです。2023年10月にヤフー株式会社とLINE株式会社などが再編されて生まれました。「WOW Our Users!」をミッションに掲げ、検索・ポータル、eコマース、メッセンジャー、広告など、多様な領域において事業を展開しています。",
+  "bg": [
+    {
+      "hex": "#f4f4f4",
+      "pct": 23.5
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 36.5
+    },
+    {
+      "hex": "#ececec",
+      "pct": 12.5
+    },
+    {
+      "hex": "#353a3f",
+      "pct": 12.2
+    },
+    {
+      "hex": "#000000",
+      "pct": 11.4
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#2e2e2e",
+      "pct": 94.8
+    },
+    {
+      "hex": "#000000",
+      "pct": 3.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 1
+    },
+    {
+      "hex": "#959595",
+      "pct": 0.3
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "LINESeedJP",
+      "w": 4287
+    }
+  ],
+  "sizes": [
+    {
+      "px": 24,
+      "w": 50
+    },
+    {
+      "px": 18,
+      "w": 776
+    },
+    {
+      "px": 16,
+      "w": 1047
+    },
+    {
+      "px": 14,
+      "w": 1575
+    },
+    {
+      "px": 13,
+      "w": 178
+    },
+    {
+      "px": 12,
+      "w": 545
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.24,
+    "ls": "0.114em"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 38,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0.100em",
+        "family": "LINESeedJP"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0.060em",
+        "family": "LINESeedJP"
+      },
+      {
+        "fs": 20,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.048em",
+        "family": "LINESeedJP"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0.060em",
+        "family": "LINESeedJP"
+      },
+      {
+        "fs": 36,
+        "weight": "700",
+        "lh": 1.3,
+        "ls": "0.027em",
+        "family": "LINESeedJP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 33
+    },
+    {
+      "px": 20,
+      "n": 16
+    },
+    {
+      "px": 12,
+      "n": 15
+    },
+    {
+      "px": 8,
+      "n": 4
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.1) 0px 0px 25px 0px",
+      "n": 14
+    }
+  ],
+  "gap": [
+    {
+      "px": 40,
+      "n": 4
+    },
+    {
+      "px": 20,
+      "n": 2
+    },
+    {
+      "px": 15,
+      "n": 1
+    },
+    {
+      "px": 49,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 5
+    },
+    {
+      "px": 52,
+      "n": 5
+    },
+    {
+      "px": 120,
+      "n": 3
+    },
+    {
+      "px": 180,
+      "n": 3
+    }
+  ],
+  "container": [
+    {
+      "px": 560,
+      "n": 37
+    },
+    {
+      "px": 1104,
+      "n": 31
+    },
+    {
+      "px": 1372,
+      "n": 16
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#2e2e2e",
+      "color": "#ffffff",
+      "border": "1px #2e2e2e",
+      "radius": "8px",
+      "pad": "15px 50px",
+      "fs": 15,
+      "weight": "700",
+      "h": 49,
+      "ls": "0.96px",
+      "n": 2
+    },
+    {
+      "bg": "transparent",
+      "color": "#2e2e2e",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 12,
+      "weight": "700",
+      "h": 32,
+      "ls": "-0.24px",
+      "n": 1
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#2e2e2e",
+      "border": "1px #d0d0d0",
+      "radius": "4px",
+      "pad": "0px 16px",
+      "fs": 12,
+      "weight": "700",
+      "h": 32,
+      "ls": "-0.24px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1200,
+      "n": 11
+    },
+    {
+      "px": 768,
+      "n": 117
+    },
+    {
+      "px": 767,
+      "n": 2
+    },
+    {
+      "px": 699,
+      "n": 1
+    },
+    {
+      "px": 559,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 22
+    },
+    {
+      "hex": "#fdfdfd",
+      "n": 4
+    },
+    {
+      "hex": "#000000",
+      "n": 1
+    },
+    {
+      "hex": "#f4f4f4",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#353a3f",
+      "bg": "#ffffff",
+      "radius": 20,
+      "pad": "32/26",
+      "border": null,
+      "shadow": null,
+      "n": 16
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "#fdfdfd",
+      "radius": 12,
+      "pad": "0/0",
+      "border": null,
+      "shadow": "rgba(0, 0, 0, 0.1) 0px 0px 25px 0px",
+      "n": 8
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 67,
+    "fullBleed": 15,
+    "ratios": [
+      {
+        "ratio": "16:9",
+        "n": 26
+      },
+      {
+        "ratio": "21:9",
+        "n": 22
+      },
+      {
+        "ratio": "3:2",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 66
+      },
+      {
+        "px": 20,
+        "n": 1
+      }
+    ]
+  },
+  "circles": {
+    "n": 3,
+    "sizes": [
+      {
+        "px": 48,
+        "n": 3
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": 1.5,
+    "sizes": [
+      24,
+      16,
+      15,
+      13,
+      12
+    ],
+    "pad": 32,
+    "gap": 20,
+    "sidePad": 20,
+    "h1": {
+      "fs": 23,
+      "lh": 1
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f4f4f4",
+      "面": 17,
+      "文字": 0,
+      "枠": 12,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 38,
+      "文字": 8,
+      "枠": 0,
+      "ボタン": 2
+    },
+    {
+      "hex": "#ececec",
+      "面": 1,
+      "文字": 0,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#353a3f",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 26,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#2e2e2e",
+      "面": 4,
+      "文字": 309,
+      "枠": 2,
+      "ボタン": 3
+    },
+    {
+      "hex": "#959595",
+      "面": 0,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "モノトーン"
+  ]
+}

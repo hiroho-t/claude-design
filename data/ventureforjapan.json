@@ -1,0 +1,404 @@
+{
+  "slug": "ventureforjapan",
+  "url": "https://ventureforjapan.or.jp/",
+  "title": "VENTURE FOR JAPAN",
+  "desc": "経営者直下の事業責任者など重要なポジションにつき、2年間で起業力を身につけるVENTURE FOR JAPAN -ベンチャーフォージャパン- の就職・転職サイトです。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 58.1
+    },
+    {
+      "hex": "#f3f3f4",
+      "pct": 36.3
+    },
+    {
+      "hex": "#e60012",
+      "pct": 5.4
+    },
+    {
+      "hex": "#e8e8e8",
+      "pct": 0.1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#231815",
+      "pct": 73.2
+    },
+    {
+      "hex": "#dedede",
+      "pct": 13.3
+    },
+    {
+      "hex": "#e60012",
+      "pct": 5.3
+    },
+    {
+      "hex": "#999999",
+      "pct": 4.4
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "YakuHanJP_Noto",
+      "w": 2900
+    },
+    {
+      "family": "Poppins",
+      "w": 651
+    },
+    {
+      "family": "Noto Sans JP",
+      "w": 47
+    }
+  ],
+  "sizes": [
+    {
+      "px": 45,
+      "w": 228
+    },
+    {
+      "px": 36,
+      "w": 306
+    },
+    {
+      "px": 25,
+      "w": 310
+    },
+    {
+      "px": 16,
+      "w": 676
+    },
+    {
+      "px": 15,
+      "w": 603
+    },
+    {
+      "px": 14,
+      "w": 472
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.4,
+    "ls": "-0.020em"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 23,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "-0.010em",
+        "family": "YakuHanJP_Noto"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 45,
+        "weight": "700",
+        "lh": 1.3,
+        "ls": "-0.020em",
+        "family": "YakuHanJP_Noto"
+      },
+      {
+        "fs": 39,
+        "weight": "700",
+        "lh": 1.3,
+        "ls": "-0.020em",
+        "family": "YakuHanJP_Noto"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 3,
+      "n": 55
+    },
+    {
+      "px": 0,
+      "n": 19
+    },
+    {
+      "px": 7,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 14,
+      "n": 6
+    },
+    {
+      "px": 36,
+      "n": 4
+    },
+    {
+      "px": 20,
+      "n": 1
+    },
+    {
+      "px": 35,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 64,
+      "n": 6
+    },
+    {
+      "px": 80,
+      "n": 3
+    },
+    {
+      "px": 180,
+      "n": 3
+    },
+    {
+      "px": 116,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1088,
+      "n": 11
+    },
+    {
+      "px": 1244,
+      "n": 11
+    },
+    {
+      "px": 748,
+      "n": 7
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#231815",
+      "border": null,
+      "radius": "3px",
+      "pad": "0px 7px",
+      "fs": 25,
+      "weight": "500",
+      "h": 37,
+      "ls": "-0.495px",
+      "n": 12
+    },
+    {
+      "bg": "transparent",
+      "color": "#231815",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "500",
+      "h": 62,
+      "ls": "-0.225px",
+      "n": 6
+    },
+    {
+      "bg": "#e8e8e8",
+      "color": "#231815",
+      "border": null,
+      "radius": "3px",
+      "pad": "0px 14px",
+      "fs": 14,
+      "weight": "500",
+      "h": 34,
+      "ls": "-0.225px",
+      "n": 6
+    }
+  ],
+  "bp": [
+    {
+      "px": 1680,
+      "n": 1
+    },
+    {
+      "px": 768,
+      "n": 540
+    },
+    {
+      "px": 767,
+      "n": 53
+    }
+  ],
+  "sections": [
+    {
+      "h": 2160,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1140,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1780,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 4020,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "45:55"
+    },
+    {
+      "h": 1040,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 4
+    },
+    {
+      "hex": "#f3f3f4",
+      "n": 3
+    },
+    {
+      "hex": "#e60012",
+      "n": 2
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 84,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "16:9",
+        "n": 30
+      },
+      {
+        "ratio": "1:1",
+        "n": 25
+      },
+      {
+        "ratio": "4:3",
+        "n": 8
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 84
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 15,
+    "bodyLh": 1.4,
+    "sizes": [
+      21,
+      19,
+      15,
+      14,
+      12
+    ],
+    "pad": 24,
+    "gap": 12,
+    "sidePad": 21,
+    "h1": {
+      "fs": 21,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 53,
+      "文字": 11,
+      "枠": 0,
+      "ボタン": 19
+    },
+    {
+      "hex": "#f3f3f4",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#e60012",
+      "面": 9,
+      "文字": 20,
+      "枠": 6,
+      "ボタン": 7
+    },
+    {
+      "hex": "#e8e8e8",
+      "面": 6,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 6
+    },
+    {
+      "hex": "#231815",
+      "面": 0,
+      "文字": 190,
+      "枠": 6,
+      "ボタン": 0
+    },
+    {
+      "hex": "#dedede",
+      "面": 0,
+      "文字": 1,
+      "枠": 2,
+      "ボタン": 0
+    },
+    {
+      "hex": "#999999",
+      "面": 0,
+      "文字": 32,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#e60012",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

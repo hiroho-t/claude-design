@@ -1,0 +1,437 @@
+{
+  "slug": "housousha",
+  "url": "https://housousha.co.jp/",
+  "title": "有限会社包装社｜西宮の包装資材卸売",
+  "desc": "有限会社包装社は、西宮にて包装資材の卸売事業を展開。食品資材・飲料資材・梱包資材・衛生用品など、幅広い資材を取り扱っております。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 59.6
+    },
+    {
+      "hex": "#f2f4f5",
+      "pct": 25.9
+    },
+    {
+      "hex": "#4b6aa5",
+      "pct": 8.3
+    },
+    {
+      "hex": "#a9afb7",
+      "pct": 6.2
+    },
+    {
+      "hex": "#5075bb",
+      "pct": 0.1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#ffffff",
+      "pct": 45.1
+    },
+    {
+      "hex": "#212122",
+      "pct": 22.1
+    },
+    {
+      "hex": "#4b6aa5",
+      "pct": 20.6
+    },
+    {
+      "hex": "#a9afb7",
+      "pct": 3
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Manrope",
+      "w": 1443
+    }
+  ],
+  "sizes": [
+    {
+      "px": 24,
+      "w": 102
+    },
+    {
+      "px": 18,
+      "w": 206
+    },
+    {
+      "px": 16,
+      "w": 169
+    },
+    {
+      "px": 15,
+      "w": 475
+    },
+    {
+      "px": 14,
+      "w": 147
+    },
+    {
+      "px": 12,
+      "w": 92
+    }
+  ],
+  "body": {
+    "fs": 15,
+    "lh": 2,
+    "ls": "0.080em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 14,
+        "weight": "600",
+        "lh": 1.2,
+        "ls": "0.086em",
+        "family": "Manrope"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 15,
+        "weight": "600",
+        "lh": 1.2,
+        "ls": "0.067em",
+        "family": "Manrope"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 20,
+        "weight": "600",
+        "lh": 1.2,
+        "ls": "0.060em",
+        "family": "Manrope"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 14
+    },
+    {
+      "px": 5,
+      "n": 6
+    },
+    {
+      "px": 8,
+      "n": 2
+    },
+    {
+      "px": 10,
+      "n": 2
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 92,
+      "n": 14
+    },
+    {
+      "px": 108,
+      "n": 4
+    },
+    {
+      "px": 44,
+      "n": 2
+    },
+    {
+      "px": 80,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1140,
+      "n": 12
+    },
+    {
+      "px": 1100,
+      "n": 10
+    },
+    {
+      "px": 720,
+      "n": 7
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#4b6aa5",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "600",
+      "h": 30,
+      "ls": "1.2px",
+      "n": 12
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 12,
+      "weight": "400",
+      "h": 30,
+      "ls": "1.2px",
+      "n": 6
+    },
+    {
+      "bg": "#a9afb7",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "5px",
+      "pad": "6px 10px",
+      "fs": 12,
+      "weight": "400",
+      "h": 30,
+      "ls": "1.2px",
+      "n": 6
+    }
+  ],
+  "bp": [
+    {
+      "px": 992,
+      "n": 106
+    },
+    {
+      "px": 991,
+      "n": 31
+    },
+    {
+      "px": 768,
+      "n": 63
+    },
+    {
+      "px": 576,
+      "n": 163
+    },
+    {
+      "px": 575,
+      "n": 21
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "16:84"
+    },
+    {
+      "h": 1540,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#4b6aa5",
+      "align": "左",
+      "media": "右",
+      "split": "33:67"
+    },
+    {
+      "h": 760,
+      "full": true,
+      "cols": 6,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1120,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1140,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 760,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f2f4f5",
+      "n": 10
+    },
+    {
+      "hex": "#ffffff",
+      "n": 4
+    },
+    {
+      "hex": "#4b6aa5",
+      "n": 2
+    },
+    {
+      "hex": "#a9afb7",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [
+    {
+      "bg": "#a9afb7",
+      "color": "#ffffff",
+      "radius": "5px",
+      "pad": "6px 10px",
+      "fs": 12,
+      "border": null,
+      "n": 6
+    }
+  ],
+  "images": {
+    "n": 20,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 10
+      },
+      {
+        "ratio": "1:1",
+        "n": 7
+      },
+      {
+        "ratio": "4:3",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 20
+      }
+    ]
+  },
+  "circles": {
+    "n": 21,
+    "sizes": [
+      {
+        "px": 16,
+        "n": 19
+      },
+      {
+        "px": 48,
+        "n": 1
+      },
+      {
+        "px": 56,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sizes": [
+      18,
+      16,
+      14,
+      12,
+      11
+    ],
+    "pad": 40,
+    "gap": null,
+    "sidePad": 20,
+    "h1": {
+      "fs": 14,
+      "lh": 1.2
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 5,
+      "文字": 64,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f2f4f5",
+      "面": 12,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 2
+    },
+    {
+      "hex": "#4b6aa5",
+      "面": 2,
+      "文字": 21,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#a9afb7",
+      "面": 7,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 6
+    },
+    {
+      "hex": "#5075bb",
+      "面": 1,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#212122",
+      "面": 0,
+      "文字": 28,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#4b6aa5",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}
