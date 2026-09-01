@@ -5,7 +5,7 @@
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: アイウェア・コーポレート
 
-白地に `#ffffff` を大きな面で置く配色。影を使って浮かせる。本文 18px・行間 1.7、セクション間 52px。
+白地に `#3860be` を文字と細部だけで効かせる配色。影を使って浮かせる。本文 18px・行間 1.7、セクション間 52px。
 
 このファイルに書いてあるのは色と寸法だけ。文言・写真・ロゴは真似せず、自分で用意すること。
 
@@ -14,10 +14,10 @@
 ```css
 :root{
   --bg: #ffffff;
-  --main: #ffffff;
+  --main: #3860be;
   --ink: #000000;
   --ink-rev: #ffffff;
-  --on: #ffffff;   /* いま乗っている面の上で使う線と文字の色。面ごとに入れ替える */
+  --on: #3860be;   /* いま乗っている面の上で使う線と文字の色。面ごとに入れ替える */
   --font-ja: "TazuganeGothicStdN", sans-serif;
   --font-en: "TazuganeGothicStdN", sans-serif;
   --fs-body: 18px;
@@ -38,7 +38,7 @@
 
 文字色は `#000000` / `#ffffff` / `#808080` / `#3860be`。
 
-- 主色 `#ffffff` は差し色ではなく**面**で使う。画面の98%を占めている。
+- 主色 `#3860be` は塗りにはほとんど使わない。文字・線・小さな部品だけで効かせる。
 - 影は`rgba(0, 0, 0, 0.1) 1px 1px 10px 0px`。
 
 ## 色の使い分け
@@ -56,7 +56,7 @@
 | `#808080` | 0 | 23 | 0 | 0 |
 | `#3860be` | 0 | 1 | 0 | 0 |
 
-- `#ffffff` は面22箇所・文字34箇所を行き来する。ボタンの地にも使う。
+- `#3860be` は文字色として1箇所で使うのが主。面としては0箇所しかないが、1枚が大きく画面の0%を占める。ボタンの地には使っていない。
 
 ## 面と線の関係
 
@@ -64,11 +64,11 @@
 
 | 面 | その上に置く線と文字 |
 |---|---|
-| `#ffffff`（地） | `#ffffff` |
-| `#f2f2f2` | `#ffffff` |
+| `#ffffff`（地） | `#3860be` |
+| `#f2f2f2` | `#3860be` |
 
 ```css
-.section{ --on:#ffffff }                     /* 地の面 */
+.section{ --on:#3860be }                     /* 地の面 */
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .card{ border:1px solid var(--on) }
 .btn--fill{ background:var(--main); color:#ffffff }
@@ -153,7 +153,6 @@
 | 7 | 560px | `#f2f2f2` | 4カラム・画像あり | 中央 | 見出しの下 |
 
 - 全7セクション、すべて全幅。中央に寄せた箱を積むのではなく、色面を全幅で切り替えながら進む。
-- 主色 `#ffffff` の面が 9 箇所。地色と主色の面を交互に置くのがリズムのつくり方。
 - 使われている面の色: `#ffffff`（9） / `#f2f2f2`（2）
 - 見出しは左1／中央5。
 - 2カラムの分け方は 28:72。半分ずつには割らない。
@@ -200,7 +199,7 @@
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
 
-.section{ padding:var(--section-y) 0; --on:#ffffff }
+.section{ padding:var(--section-y) 0; --on:#3860be }
 .container{ width:min(100% - 40px, var(--container)); margin-inline:auto }
 .read{ max-width:var(--read) }
 
@@ -226,7 +225,7 @@ img{ width:100%; height:auto; border-radius:0px; aspect-ratio:1/1; object-fit:co
 
 やること
 
-- 地色と主色 `#ffffff` の面を全幅で交互に置く。主色は画面の98%を占めるだけ使う。
+- 地は `#ffffff` のまま。主色 `#3860be` は文字と小さな部品にだけ使う。
 - 余白 52px と行間 1.7 を先に決めてから中身を入れる。
 - 画像は 1:1 に統一し、角丸は 0px。
 - 線と文字の色は面ごとに入れ替える（`--on` を面のクラスで上書きする）。固定色で書かない。
@@ -235,6 +234,6 @@ img{ width:100%; height:auto; border-radius:0px; aspect-ratio:1/1; object-fit:co
 やらないこと
 
 - 指定以外の影を足さない。
-- 主色を線やボタンだけの差し色に使わない。面で使わないと別物になる。
+- 主色を大きな面に塗らない。塗った瞬間に別物になる。
 - 本文の行間を 1.7 より詰めない。
 - 中途半端な角丸（4px と 50px 以外）を混ぜない。完全な円は別枠なので、消さなくてよい。

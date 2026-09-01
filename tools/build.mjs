@@ -35,7 +35,16 @@ const rad = d.radius[0]?.px ?? 0;
 const cont = d.container[0]?.px;
 const read = d.container.slice(1).map(c => c.px).sort((a, b) => a - b)[0];
 const gaps = d.gap.map(g => g.px).sort((a, b) => a - b);
-const main = palette.find(c => c.hex.toLowerCase() !== '#ffffff') || palette[0];
+// 主色＝面積のある色のうち、灰色でないもの。無ければ文字色から拾う（白基調のサイト）
+const isGray = h => { if (!/^#[0-9a-f]{6}$/i.test(h || '')) return true;
+  const [r, g, b] = [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
+  return Math.max(r, g, b) - Math.min(r, g, b) < 24; };
+const paletteMain = palette.find(c => !isGray(c.hex));
+const main = paletteMain
+  || (d.accent ? { hex: d.accent, pct: null } : null)
+  || palette.find(c => c.hex.toLowerCase() !== '#ffffff') || palette[0];
+/** 主色が「面」として効いているか（塗りで使われているか） */
+const mainIsArea = !!paletteMain && paletteMain.pct >= 8;
 const roles = ['地', '主色', '副色', '差し色', '差し色'];
 
 const h = Object.entries(d.headings).flatMap(([, v]) => v);
@@ -130,7 +139,7 @@ ${palette.map((c, i) => `| ${roles[i] || '差し色'} | \`${c.hex}\` | ${c.pct}%
 
 文字色は ${d.ink.map(c => `\`${c.hex}\``).join(' / ')}。
 
-- 主色 \`${main.hex}\` は差し色ではなく**面**で使う。画面の${Math.round(main.pct)}%を占めている。
+- 主色 \`${main.hex}\` は${mainIsArea ? `差し色ではなく**面**で使う。画面の${Math.round(main.pct)}%を占めている` : '塗りにはほとんど使わない。文字・線・小さな部品だけで効かせる'}。
 - 影は${d.shadow.length ? `\`${d.shadow[0].css}\`` : '**使わない**（計測0件）。段差は色面の切り替えだけでつくる'}。
 
 ${usage.length ? `## 色の使い分け
@@ -213,7 +222,7 @@ ${d.buttons.map((b, i) => `.btn${i ? '-sub' : ''}{
 ${secs.map((x, i) => `| ${i + 1} | ${x.h}px | ${x.bg ? `\`${x.bg}\`` : '—'} | ${secName(x, i)} | ${x.align || '—'} | ${x.media === 'none' ? '—' : x.media}${x.split ? `（${x.split}）` : ''} |`).join('\n')}
 
 - 全${secs.length}セクション${allFull ? '、すべて全幅' : ''}。${allFull ? '中央に寄せた箱を積むのではなく、色面を全幅で切り替えながら進む。' : ''}
-${mainSurf ? `- 主色 \`${main.hex}\` の面が ${mainSurf.n} 箇所。地色と主色の面を交互に置くのがリズムのつくり方。\n` : ''}- 使われている面の色: ${(d.surfaces || []).map(s2 => `\`${s2.hex}\`（${s2.n}）`).join(' / ')}
+${mainSurf && mainIsArea ? `- 主色 \`${main.hex}\` の面が ${mainSurf.n} 箇所。地色と主色の面を交互に置くのがリズムのつくり方。\n` : ''}- 使われている面の色: ${(d.surfaces || []).map(s2 => `\`${s2.hex}\`（${s2.n}）`).join(' / ')}
 ${(() => {
   const al = secs.map(x => x.align).filter(Boolean);
   const c = al.filter(a => a === '中央').length;
@@ -286,7 +295,7 @@ img{ width:100%; height:auto; border-radius:${img.radius?.[0]?.px ?? 0}px; aspec
 
 やること
 
-- 地色と主色 \`${main.hex}\` の面を${allFull ? '全幅で' : ''}交互に置く。主色は画面の${Math.round(main.pct)}%を占めるだけ使う。
+- ${mainIsArea ? `地色と主色 \`${main.hex}\` の面を${allFull ? '全幅で' : ''}交互に置く。主色は画面の${Math.round(main.pct)}%を占めるだけ使う` : `地は \`${palette[0].hex}\` のまま。主色 \`${main.hex}\` は文字と小さな部品にだけ使う`}。
 - 余白 ${pad}px と行間 ${d.body.lh} を先に決めてから中身を入れる。
 - 画像は ${img.ratios[0]?.ratio || '16:9'} に統一し、角丸は ${img.radius[0]?.px ?? 0}px。
 - 線と文字の色は面ごとに入れ替える（\`--on\` を面のクラスで上書きする）。固定色で書かない。
@@ -294,7 +303,7 @@ ${d.cards.length ? `- 囲みは ${d.cards[0].border ? `${d.cards[0].border.split
 やらないこと
 
 - ${d.shadow.length ? '指定以外の影を足さない' : '影をつけない（このサイトには1つもない）'}。
-- 主色を線やボタンだけの差し色に使わない。面で使わないと別物になる。
+- ${mainIsArea ? '主色を線やボタンだけの差し色に使わない。面で使わないと別物になる' : '主色を大きな面に塗らない。塗った瞬間に別物になる'}。
 - 本文の行間を ${d.body.lh} より詰めない。${rad === 0 ? '角を丸めない。' : ''}
 - 中途半端な角丸（${rad}px と ${d.radius[1]?.px ?? 32}px 以外）を混ぜない。${circles.n ? '完全な円は別枠なので、消さなくてよい。' : ''}
 `;
@@ -319,7 +328,7 @@ console.log(`s/${slug}.md (${md.split('\n').length}行) ／ p/${slug}.html ／ d
 /** 数値から機械的に一言つくる（書き手の主観を入れない） */
 function describe(d, palette, main) {
   const parts = [];
-  parts.push(`${palette[0].hex === '#ffffff' ? '白地' : `${palette[0].hex} の地`}に \`${main.hex}\` を大きな面で置く配色。`);
+  parts.push(`${palette[0].hex === '#ffffff' ? '白地' : `${palette[0].hex} の地`}に \`${main.hex}\` を${mainIsArea ? '大きな面で置く' : '文字と細部だけで効かせる'}配色。`);
   parts.push(d.shadow.length ? '影を使って浮かせる。' : '影も枠線もほとんど使わない。');
   parts.push(`本文 ${d.body.fs}px・行間 ${d.body.lh}、セクション間 ${d.sectionPad[0]?.px}px。`);
   return parts.join('');
