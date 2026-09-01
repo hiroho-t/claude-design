@@ -1,0 +1,416 @@
+{
+  "slug": "firenzelife",
+  "url": "https://www.firenzelife.co.jp/",
+  "title": "【公式】フィレンツェライフ青山｜藤井寺の有料老人ホーム",
+  "desc": "介護付き有料老人ホーム・フィレンツェライフ青山———安心をベースに、心豊かな高年生活を、水と緑に囲まれた悠久の地、藤井寺に静かで落ち着いた時の流れと、シニアライフに相応しい生活が始まります。",
+  "bg": [
+    {
+      "hex": "#004f3c",
+      "pct": 32.4
+    },
+    {
+      "hex": "#454545",
+      "pct": 25.2
+    },
+    {
+      "hex": "#887241",
+      "pct": 14.8
+    },
+    {
+      "hex": "#d6be98",
+      "pct": 8.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 8.4
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#282b2c",
+      "pct": 70.5
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 23.5
+    },
+    {
+      "hex": "#b0974b",
+      "pct": 3.2
+    },
+    {
+      "hex": "#d6be98",
+      "pct": 1.5
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Shippori Mincho",
+      "w": 3464
+    },
+    {
+      "family": "Cormorant Infant",
+      "w": 158
+    }
+  ],
+  "sizes": [
+    {
+      "px": 20,
+      "w": 107
+    },
+    {
+      "px": 18,
+      "w": 344
+    },
+    {
+      "px": 16,
+      "w": 256
+    },
+    {
+      "px": 15,
+      "w": 276
+    },
+    {
+      "px": 13,
+      "w": 2320
+    },
+    {
+      "px": 12,
+      "w": 102
+    }
+  ],
+  "body": {
+    "fs": 13,
+    "lh": 1.5,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 18,
+        "weight": "500",
+        "lh": 1.28,
+        "ls": "0.044em",
+        "family": "Shippori Mincho"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 31
+    },
+    {
+      "px": 4,
+      "n": 1
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.1) 0px 0px 10px 5px",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 4,
+      "n": 13
+    },
+    {
+      "px": 15,
+      "n": 8
+    },
+    {
+      "px": 5,
+      "n": 5
+    },
+    {
+      "px": 7,
+      "n": 4
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 120,
+      "n": 3
+    },
+    {
+      "px": 52,
+      "n": 2
+    },
+    {
+      "px": 220,
+      "n": 2
+    },
+    {
+      "px": 260,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1200,
+      "n": 8
+    },
+    {
+      "px": 680,
+      "n": 4
+    },
+    {
+      "px": 1296,
+      "n": 3
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "400",
+      "h": 50,
+      "ls": "0.8px",
+      "n": 2
+    },
+    {
+      "bg": "#b0974b",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "16px 24px",
+      "fs": 16,
+      "weight": "400",
+      "h": 50,
+      "ls": "0.8px",
+      "n": 2
+    },
+    {
+      "bg": "transparent",
+      "color": "#b0974b",
+      "border": "1px #b0974b",
+      "radius": "0px",
+      "pad": "20px 60px",
+      "fs": 16,
+      "weight": "400",
+      "h": 77,
+      "ls": "0.9px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1400,
+      "n": 1
+    },
+    {
+      "px": 1280,
+      "n": 1
+    },
+    {
+      "px": 1024,
+      "n": 8
+    },
+    {
+      "px": 768,
+      "n": 142
+    },
+    {
+      "px": 600,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 240,
+      "full": true,
+      "cols": 5,
+      "img": false,
+      "bg": "#d6be98",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 2120,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 2620,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1760,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#b0974b",
+      "n": 5
+    },
+    {
+      "hex": "#454545",
+      "n": 4
+    },
+    {
+      "hex": "#004f3c",
+      "n": 3
+    },
+    {
+      "hex": "#887241",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#d6be98",
+      "bg": "#ffffff",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 5
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "#b0974b",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 5
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 15,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "4:3",
+        "n": 7
+      },
+      {
+        "ratio": "3:2",
+        "n": 6
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 15
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 13,
+    "bodyLh": 1.5,
+    "sizes": [
+      20,
+      16,
+      15,
+      14,
+      13
+    ],
+    "pad": 32,
+    "gap": 4,
+    "sidePad": 20,
+    "h1": {
+      "fs": 13,
+      "lh": 1.38
+    }
+  },
+  "usage": [
+    {
+      "hex": "#004f3c",
+      "面": 4,
+      "文字": 5,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#454545",
+      "面": 4,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#887241",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#d6be98",
+      "面": 1,
+      "文字": 5,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 9,
+      "文字": 52,
+      "枠": 2,
+      "ボタン": 1
+    },
+    {
+      "hex": "#282b2c",
+      "面": 0,
+      "文字": 37,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#b0974b",
+      "面": 8,
+      "文字": 14,
+      "枠": 3,
+      "ボタン": 2
+    }
+  ],
+  "accent": "#b0974b",
+  "tags": [
+    "明朝",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

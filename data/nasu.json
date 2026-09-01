@@ -1,0 +1,473 @@
+{
+  "slug": "nasu",
+  "url": "https://nasu.design/",
+  "title": "NASU デザインで成す会社",
+  "desc": "ビジネスに「勝てるデザイン」を。株式会社NASUは、コンテンツの魅力を最大化し、ビジネスで結果が出る「勝てるデザイン」を提供するデザイン会社です。徹底的な親身さと遊び心が強みです。グラフィックデザイン、WEBデザイン、コミュニティなど、無料でご相談・お見積もりいたします。",
+  "bg": [
+    {
+      "hex": "#f5f5f5",
+      "pct": 53.1
+    },
+    {
+      "hex": "#111111",
+      "pct": 21.7
+    },
+    {
+      "hex": "#ffa600",
+      "pct": 17.6
+    },
+    {
+      "hex": "#0b0c1f",
+      "pct": 7
+    },
+    {
+      "hex": "#212121",
+      "pct": 0.4
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#212121",
+      "pct": 80.6
+    },
+    {
+      "hex": "#555555",
+      "pct": 10.1
+    },
+    {
+      "hex": "#ffa600",
+      "pct": 7.9
+    },
+    {
+      "hex": "#6f6f6f",
+      "pct": 1.2
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "YakuHanJP",
+      "w": 4287
+    },
+    {
+      "family": "kateru",
+      "w": 92
+    }
+  ],
+  "sizes": [
+    {
+      "px": 23,
+      "w": 240
+    },
+    {
+      "px": 18,
+      "w": 425
+    },
+    {
+      "px": 17,
+      "w": 212
+    },
+    {
+      "px": 16,
+      "w": 1941
+    },
+    {
+      "px": 14,
+      "w": 270
+    },
+    {
+      "px": 13,
+      "w": 900
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 2,
+    "ls": "0.150em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 32,
+        "weight": "600",
+        "lh": 1.6,
+        "ls": "0.100em",
+        "family": "YakuHanJP"
+      },
+      {
+        "fs": 16,
+        "weight": "500",
+        "lh": 1,
+        "ls": "0",
+        "family": "YakuHanJP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 28,
+        "weight": "600",
+        "lh": 1.5,
+        "ls": "0.030em",
+        "family": "YakuHanJP"
+      },
+      {
+        "fs": 22,
+        "weight": "500",
+        "lh": 1.4,
+        "ls": "0.030em",
+        "family": "YakuHanJP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 23
+    },
+    {
+      "px": 5,
+      "n": 10
+    },
+    {
+      "px": 20,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 7,
+      "n": 24
+    },
+    {
+      "px": 13,
+      "n": 24
+    },
+    {
+      "px": 8,
+      "n": 11
+    },
+    {
+      "px": 18,
+      "n": 4
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 60,
+      "n": 7
+    },
+    {
+      "px": 200,
+      "n": 7
+    },
+    {
+      "px": 100,
+      "n": 3
+    },
+    {
+      "px": 52,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 612,
+      "n": 72
+    },
+    {
+      "px": 1075,
+      "n": 50
+    },
+    {
+      "px": 1076,
+      "n": 28
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#f0f0f0",
+      "color": "#212121",
+      "border": null,
+      "radius": "0px",
+      "pad": "10px 10px",
+      "fs": 13,
+      "weight": "500",
+      "h": 33,
+      "ls": "0",
+      "n": 9
+    },
+    {
+      "bg": "transparent",
+      "color": "#212121",
+      "border": "1px #212121",
+      "radius": "0px",
+      "pad": "6px 6px",
+      "fs": 12,
+      "weight": "500",
+      "h": 26,
+      "ls": "0",
+      "n": 6
+    },
+    {
+      "bg": "transparent",
+      "color": "#212121",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "500",
+      "h": 52,
+      "ls": "0.48px",
+      "n": 5
+    }
+  ],
+  "bp": [
+    {
+      "px": 1280,
+      "n": 10
+    },
+    {
+      "px": 1024,
+      "n": 182
+    },
+    {
+      "px": 880,
+      "n": 154
+    },
+    {
+      "px": 768,
+      "n": 328
+    },
+    {
+      "px": 640,
+      "n": 80
+    }
+  ],
+  "sections": [
+    {
+      "h": 660,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 160,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 160,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 660,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 160,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 320,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 660,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 660,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffa600",
+      "n": 4
+    },
+    {
+      "hex": "#0b0c1f",
+      "n": 1
+    },
+    {
+      "hex": "#f5f5f5",
+      "n": 1
+    },
+    {
+      "hex": "#111111",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "transparent",
+      "radius": 5,
+      "pad": "0/0",
+      "border": "1px #d9d9d9",
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 57,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "16:9",
+        "n": 39
+      },
+      {
+        "ratio": "1:1",
+        "n": 13
+      },
+      {
+        "ratio": "3:4",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 57
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.8,
+    "sizes": [
+      16,
+      15,
+      14,
+      13,
+      12
+    ],
+    "pad": 32,
+    "gap": 6,
+    "sidePad": 28,
+    "h1": {
+      "fs": 23,
+      "lh": 1.6
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f5f5f5",
+      "面": 10,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 9
+    },
+    {
+      "hex": "#111111",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffa600",
+      "面": 4,
+      "文字": 4,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#0b0c1f",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#212121",
+      "面": 7,
+      "文字": 184,
+      "枠": 8,
+      "ボタン": 0
+    },
+    {
+      "hex": "#555555",
+      "面": 0,
+      "文字": 74,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#6f6f6f",
+      "面": 0,
+      "文字": 6,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#ffa600",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

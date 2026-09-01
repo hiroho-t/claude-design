@@ -1,0 +1,447 @@
+{
+  "slug": "creatures",
+  "url": "https://www.creatures.co.jp/",
+  "title": "株式会社クリーチャーズ",
+  "desc": "株式会社クリーチャーズの公式サイト。クリーチャーズは、ポケモンカードゲーム開発、ポケモンの派生デジタルゲーム開発、ポケモンの3Dモデリング・モーション制作を担う、ものづくりの質にこだわった「遊び」を発信する企画開発会社です。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 58.7
+    },
+    {
+      "hex": "#2a2a30",
+      "pct": 25.4
+    },
+    {
+      "hex": "#f0f0f5",
+      "pct": 8.4
+    },
+    {
+      "hex": "#ffd916",
+      "pct": 5.6
+    },
+    {
+      "hex": "#1cd6da",
+      "pct": 1.1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#34343a",
+      "pct": 69.6
+    },
+    {
+      "hex": "#2a2a30",
+      "pct": 9.1
+    },
+    {
+      "hex": "#ffd916",
+      "pct": 3.4
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 3.1
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "YakuHanJP",
+      "w": 1295
+    },
+    {
+      "family": "BasisGrotesquePro",
+      "w": 511
+    }
+  ],
+  "sizes": [
+    {
+      "px": 20,
+      "w": 237
+    },
+    {
+      "px": 18,
+      "w": 176
+    },
+    {
+      "px": 16,
+      "w": 235
+    },
+    {
+      "px": 14,
+      "w": 289
+    },
+    {
+      "px": 12,
+      "w": 399
+    },
+    {
+      "px": 8,
+      "w": 163
+    }
+  ],
+  "body": {
+    "fs": 12,
+    "lh": 1.8,
+    "ls": "0.040em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 14,
+        "weight": "500",
+        "lh": 1.8,
+        "ls": "0",
+        "family": "YakuHanJP"
+      },
+      {
+        "fs": 88,
+        "weight": "500",
+        "lh": 1,
+        "ls": "-0.010em",
+        "family": "BasisGrotesquePro"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 20,
+        "weight": "500",
+        "lh": 1.15,
+        "ls": "0",
+        "family": "BasisGrotesquePro"
+      },
+      {
+        "fs": 40,
+        "weight": "500",
+        "lh": 1,
+        "ls": "-0.010em",
+        "family": "BasisGrotesquePro"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 16
+    },
+    {
+      "px": 8,
+      "n": 7
+    },
+    {
+      "px": 40,
+      "n": 5
+    },
+    {
+      "px": 24,
+      "n": 3
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 40,
+      "n": 2
+    },
+    {
+      "px": 3,
+      "n": 1
+    },
+    {
+      "px": 15,
+      "n": 1
+    },
+    {
+      "px": 16,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 168,
+      "n": 8
+    },
+    {
+      "px": 104,
+      "n": 3
+    },
+    {
+      "px": 96,
+      "n": 2
+    },
+    {
+      "px": 100,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1080,
+      "n": 8
+    },
+    {
+      "px": 744,
+      "n": 6
+    },
+    {
+      "px": 1920,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#2a2a30",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "1440px",
+      "pad": "23px 120px",
+      "fs": 16,
+      "weight": "700",
+      "h": 48,
+      "ls": "0",
+      "n": 5
+    },
+    {
+      "bg": "#3b37fd",
+      "color": "#ffffff",
+      "border": "1px #3b37fd",
+      "radius": "1440px",
+      "pad": "8px 20px",
+      "fs": 14,
+      "weight": "500",
+      "h": 27,
+      "ls": "0",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 1500,
+      "n": 5
+    },
+    {
+      "px": 1024,
+      "n": 44
+    },
+    {
+      "px": 769,
+      "n": 8
+    },
+    {
+      "px": 768,
+      "n": 18
+    },
+    {
+      "px": 767,
+      "n": 562
+    }
+  ],
+  "sections": [
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "右",
+      "media": "左",
+      "split": "76:24"
+    },
+    {
+      "h": 2660,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#2a2a30",
+      "align": "左",
+      "media": "右",
+      "split": "64:36"
+    },
+    {
+      "h": 960,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1080,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 760,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 9
+    },
+    {
+      "hex": "#f0f0f5",
+      "n": 9
+    },
+    {
+      "hex": "#dcdce1",
+      "n": 1
+    },
+    {
+      "hex": "#ffd916",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#f0f0f5",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 8
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#3b37fd",
+      "color": "#ffffff",
+      "radius": "999px",
+      "pad": "8px 20px",
+      "fs": 14,
+      "border": "1px",
+      "n": 3
+    },
+    {
+      "bg": "#3b37fd",
+      "color": "#ffffff",
+      "radius": "4px",
+      "pad": "10px 10px",
+      "fs": 12,
+      "border": null,
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 39,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "4:3",
+        "n": 15
+      },
+      {
+        "ratio": "3:2",
+        "n": 7
+      },
+      {
+        "ratio": "1:1",
+        "n": 6
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 39
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 12,
+    "bodyLh": 1.75,
+    "sizes": [
+      40,
+      14,
+      12,
+      10,
+      8
+    ],
+    "pad": 40,
+    "gap": 6,
+    "sidePad": 24,
+    "h1": {
+      "fs": 14,
+      "lh": 1.8
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 10,
+      "文字": 12,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#2a2a30",
+      "面": 6,
+      "文字": 6,
+      "枠": 0,
+      "ボタン": 5
+    },
+    {
+      "hex": "#f0f0f5",
+      "面": 16,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffd916",
+      "面": 1,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#1cd6da",
+      "面": 4,
+      "文字": 0,
+      "枠": 2,
+      "ボタン": 0
+    },
+    {
+      "hex": "#34343a",
+      "面": 0,
+      "文字": 79,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#ffd916",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

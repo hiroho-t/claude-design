@@ -1,0 +1,487 @@
+{
+  "slug": "saikazo",
+  "url": "https://saikazo.org/",
+  "title": "埼玉県済生会加須病院",
+  "desc": "埼玉県済生会加須病院は、埼玉県利根保健医療圏にある急性期病院です。高度医療および救急医療の提供で、地域の皆さまの健康を守り安心できる暮らしに貢献します。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 75.1
+    },
+    {
+      "hex": "#f4f2eb",
+      "pct": 14.3
+    },
+    {
+      "hex": "#114fa1",
+      "pct": 7.4
+    },
+    {
+      "hex": "#d4e0f3",
+      "pct": 1.6
+    },
+    {
+      "hex": "#222222",
+      "pct": 1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#222222",
+      "pct": 72.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 8.8
+    },
+    {
+      "hex": "#114fa1",
+      "pct": 6.4
+    },
+    {
+      "hex": "#6db55c",
+      "pct": 3.6
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 2272
+    },
+    {
+      "family": "Jost",
+      "w": 34
+    }
+  ],
+  "sizes": [
+    {
+      "px": 18,
+      "w": 310
+    },
+    {
+      "px": 17,
+      "w": 913
+    },
+    {
+      "px": 15,
+      "w": 133
+    },
+    {
+      "px": 13,
+      "w": 116
+    },
+    {
+      "px": 12,
+      "w": 390
+    },
+    {
+      "px": 11,
+      "w": 131
+    }
+  ],
+  "body": {
+    "fs": 17,
+    "lh": 1.6,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 38,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0.030em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 22,
+        "weight": "700",
+        "lh": 2,
+        "ls": "0.050em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 29,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.060em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 11,
+      "n": 20
+    },
+    {
+      "px": 22,
+      "n": 13
+    },
+    {
+      "px": 0,
+      "n": 6
+    },
+    {
+      "px": 6,
+      "n": 1
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(124, 124, 124, 0.1) 0px 6px 6px 0px",
+      "n": 5
+    },
+    {
+      "css": "rgba(0, 0, 0, 0.1) 6px 6px 12px 0px",
+      "n": 3
+    }
+  ],
+  "gap": [
+    {
+      "px": 22,
+      "n": 59
+    },
+    {
+      "px": 2,
+      "n": 6
+    },
+    {
+      "px": 11,
+      "n": 6
+    },
+    {
+      "px": 7,
+      "n": 2
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 88,
+      "n": 9
+    },
+    {
+      "px": 608,
+      "n": 6
+    },
+    {
+      "px": 44,
+      "n": 4
+    },
+    {
+      "px": 56,
+      "n": 3
+    }
+  ],
+  "container": [
+    {
+      "px": 996,
+      "n": 37
+    },
+    {
+      "px": 1108,
+      "n": 12
+    },
+    {
+      "px": 1216,
+      "n": 10
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#f4f2eb",
+      "color": "#222222",
+      "border": null,
+      "radius": "1440px",
+      "pad": "0px 72px",
+      "fs": 15,
+      "weight": "700",
+      "h": 55,
+      "ls": "0.30996px",
+      "n": 9
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#222222",
+      "border": null,
+      "radius": "1440px",
+      "pad": "14px 31px",
+      "fs": 17,
+      "weight": "400",
+      "h": 55,
+      "ls": "0.3321px",
+      "n": 3
+    },
+    {
+      "bg": "#114fa1",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "1440px",
+      "pad": "6px 6px",
+      "fs": 13,
+      "weight": "700",
+      "h": 38,
+      "ls": "0.6642px",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1300,
+      "n": 2
+    },
+    {
+      "px": 1200,
+      "n": 1
+    },
+    {
+      "px": 1150,
+      "n": 2
+    },
+    {
+      "px": 768,
+      "n": 212
+    },
+    {
+      "px": 767,
+      "n": 310
+    }
+  ],
+  "sections": [
+    {
+      "h": 660,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 920,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "38:62"
+    },
+    {
+      "h": 1140,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 5
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#ffffff",
+      "radius": 22,
+      "pad": "12/12",
+      "border": "1px #d1d1d1",
+      "shadow": null,
+      "n": 6
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "transparent",
+      "radius": 11,
+      "pad": "18/44",
+      "border": "1px #6db55c",
+      "shadow": "rgba(124, 124, 124, 0.1) 0px 6px 6px 0px",
+      "n": 5
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#114fa1",
+      "radius": "999px",
+      "pad": "4px 11px",
+      "fs": 11,
+      "border": "1px",
+      "n": 7
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#7c344d",
+      "radius": "999px",
+      "pad": "4px 11px",
+      "fs": 11,
+      "border": "1px",
+      "n": 7
+    }
+  ],
+  "images": {
+    "n": 27,
+    "fullBleed": 8,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 4
+      },
+      {
+        "ratio": "3:2",
+        "n": 3
+      },
+      {
+        "ratio": "4:3",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 27
+      }
+    ]
+  },
+  "circles": {
+    "n": 9,
+    "sizes": [
+      {
+        "px": 48,
+        "n": 6
+      },
+      {
+        "px": 88,
+        "n": 3
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 15,
+    "bodyLh": 1.6,
+    "sizes": [
+      15,
+      14,
+      12,
+      11,
+      10
+    ],
+    "pad": 32,
+    "gap": 10,
+    "sidePad": 16,
+    "h1": {
+      "fs": 27,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 19,
+      "文字": 13,
+      "枠": 0,
+      "ボタン": 3
+    },
+    {
+      "hex": "#f4f2eb",
+      "面": 9,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 9
+    },
+    {
+      "hex": "#114fa1",
+      "面": 9,
+      "文字": 20,
+      "枠": 10,
+      "ボタン": 2
+    },
+    {
+      "hex": "#d4e0f3",
+      "面": 1,
+      "文字": 0,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#222222",
+      "面": 4,
+      "文字": 128,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#6db55c",
+      "面": 1,
+      "文字": 11,
+      "枠": 6,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#114fa1",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

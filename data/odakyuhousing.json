@@ -1,0 +1,472 @@
+{
+  "slug": "odakyuhousing",
+  "url": "https://www.odakyuhousing.co.jp/",
+  "title": "小田急ハウジング",
+  "desc": "小田急ハウジングは、小田急グループの不動産分野の一翼を担い、リフォーム・新築（事業用建築）・マンション管理の事業を展開しています。語りたくなる住まいを、この街のすみずみへ。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 64.1
+    },
+    {
+      "hex": "#f4f7fb",
+      "pct": 25.5
+    },
+    {
+      "hex": "#004ea2",
+      "pct": 10.4
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#5d636f",
+      "pct": 71.1
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 16.7
+    },
+    {
+      "hex": "#2f3134",
+      "pct": 11.6
+    },
+    {
+      "hex": "#004ea2",
+      "pct": 0.6
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Zen Kaku Gothic Antique",
+      "w": 1826
+    },
+    {
+      "family": "Barlow",
+      "w": 176
+    }
+  ],
+  "sizes": [
+    {
+      "px": 38,
+      "w": 71
+    },
+    {
+      "px": 18,
+      "w": 91
+    },
+    {
+      "px": 17,
+      "w": 132
+    },
+    {
+      "px": 16,
+      "w": 1372
+    },
+    {
+      "px": 14,
+      "w": 74
+    },
+    {
+      "px": 12,
+      "w": 141
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 2,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 23,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "Zen Kaku Gothic Antique"
+      },
+      {
+        "fs": 47,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "Zen Kaku Gothic Antique"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 23,
+        "weight": "500",
+        "lh": 1,
+        "ls": "0.034em",
+        "family": "Zen Kaku Gothic Antique"
+      },
+      {
+        "fs": 18,
+        "weight": "400",
+        "lh": 1.7,
+        "ls": "0",
+        "family": "Zen Kaku Gothic Antique"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 38,
+        "weight": "400",
+        "lh": 1.7,
+        "ls": "0.030em",
+        "family": "Zen Kaku Gothic Antique"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 5,
+      "n": 22
+    },
+    {
+      "px": 0,
+      "n": 4
+    },
+    {
+      "px": 8,
+      "n": 4
+    },
+    {
+      "px": 25,
+      "n": 2
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 8,
+      "n": 14
+    },
+    {
+      "px": 19,
+      "n": 13
+    },
+    {
+      "px": 3,
+      "n": 4
+    },
+    {
+      "px": 14,
+      "n": 4
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 132,
+      "n": 4
+    },
+    {
+      "px": 36,
+      "n": 2
+    },
+    {
+      "px": 64,
+      "n": 2
+    },
+    {
+      "px": 112,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1120,
+      "n": 12
+    },
+    {
+      "px": 1404,
+      "n": 10
+    },
+    {
+      "px": 864,
+      "n": 5
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "500",
+      "h": 57,
+      "ls": "0",
+      "n": 3
+    },
+    {
+      "bg": "#004ea2",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "1440px",
+      "pad": "19px 24px",
+      "fs": 16,
+      "weight": "500",
+      "h": 57,
+      "ls": "0",
+      "n": 3
+    },
+    {
+      "bg": "transparent",
+      "color": "#5d636f",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "500",
+      "h": 57,
+      "ls": "0",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 782,
+      "n": 6
+    },
+    {
+      "px": 767,
+      "n": 2
+    },
+    {
+      "px": 600,
+      "n": 10
+    },
+    {
+      "px": 567,
+      "n": 1
+    },
+    {
+      "px": 374,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 1700,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 3180,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#f4f7fb",
+      "align": "中央",
+      "media": "右",
+      "split": "44:56"
+    },
+    {
+      "h": 1060,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 560,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 500,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "61:39"
+    },
+    {
+      "h": 560,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#f4f7fb",
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 15
+    },
+    {
+      "hex": "#f4f7fb",
+      "n": 2
+    },
+    {
+      "hex": "#004ea2",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f4f7fb",
+      "bg": "#ffffff",
+      "radius": 5,
+      "pad": "38/42",
+      "border": null,
+      "shadow": null,
+      "n": 10
+    },
+    {
+      "onBg": "#f4f7fb",
+      "bg": "#ffffff",
+      "radius": 5,
+      "pad": "48/38",
+      "border": "2px #ffffff",
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#004ea2",
+      "radius": "999px",
+      "pad": "7px 7px",
+      "fs": 14,
+      "border": "1px",
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 31,
+    "fullBleed": 4,
+    "ratios": [
+      {
+        "ratio": "3:4",
+        "n": 11
+      },
+      {
+        "ratio": "16:9",
+        "n": 5
+      },
+      {
+        "ratio": "1:1",
+        "n": 3
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 13
+      },
+      {
+        "px": 5,
+        "n": 9
+      }
+    ]
+  },
+  "circles": {
+    "n": 8,
+    "sizes": [
+      {
+        "px": 32,
+        "n": 4
+      },
+      {
+        "px": 56,
+        "n": 4
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sizes": [
+      24,
+      15,
+      14,
+      12,
+      10
+    ],
+    "pad": 24,
+    "gap": 10,
+    "sidePad": 20,
+    "h1": {
+      "fs": 24,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 22,
+      "文字": 12,
+      "枠": 3,
+      "ボタン": 6
+    },
+    {
+      "hex": "#f4f7fb",
+      "面": 2,
+      "文字": 0,
+      "枠": 3,
+      "ボタン": 0
+    },
+    {
+      "hex": "#004ea2",
+      "面": 13,
+      "文字": 4,
+      "枠": 5,
+      "ボタン": 3
+    },
+    {
+      "hex": "#5d636f",
+      "面": 0,
+      "文字": 72,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#2f3134",
+      "面": 0,
+      "文字": 17,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#004ea2",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

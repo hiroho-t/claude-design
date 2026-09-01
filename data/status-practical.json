@@ -189,5 +189,46 @@
     "state": "skip",
     "why": "測定に失敗",
     "url": "https://www.bouhan.metro.tokyo.lg.jp/"
+  },
+  "takedahp": {
+    "state": "done"
+  },
+  "nihonssi": {
+    "state": "done"
+  },
+  "nasu": {
+    "state": "done"
+  },
+  "nulab-careers": {
+    "state": "skip",
+    "why": "HTTP 403",
+    "url": "https://careers.nulab.com/"
+  },
+  "benners": {
+    "state": "done"
+  },
+  "uedahifuka": {
+    "state": "done"
+  },
+  "higashihiroshima-kanko": {
+    "state": "done"
+  },
+  "yusinkai": {
+    "state": "done"
+  },
+  "firenzelife": {
+    "state": "done"
+  },
+  "creatures": {
+    "state": "done"
+  },
+  "nue": {
+    "state": "done"
+  },
+  "odakyuhousing": {
+    "state": "done"
+  },
+  "baigie-recruit": {
+    "state": "done"
   }
 }

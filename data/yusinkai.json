@@ -1,0 +1,312 @@
+{
+  "slug": "yusinkai",
+  "url": "https://www.yusinkai.or.jp/",
+  "title": "医療法人優心会 大塚歯科医院",
+  "desc": "大塚歯科医院は丸亀・中讃で最大規模の総合歯科医院です。当院では、最新の治療技術と設備を備え、豊富な知識を活かした治療を提供しています。",
+  "bg": [
+    {
+      "hex": "#effaf8",
+      "pct": 50.6
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 49
+    },
+    {
+      "hex": "#555555",
+      "pct": 0.4
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#555555",
+      "pct": 96.3
+    },
+    {
+      "hex": "#ff7360",
+      "pct": 2.6
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 1.1
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Robot",
+      "w": 1060
+    },
+    {
+      "family": "Roboto Condensed",
+      "w": 85
+    },
+    {
+      "family": "Zen Maru Gothic",
+      "w": 59
+    },
+    {
+      "family": "Roboto",
+      "w": 28
+    }
+  ],
+  "sizes": [
+    {
+      "px": 16,
+      "w": 118
+    },
+    {
+      "px": 15,
+      "w": 62
+    },
+    {
+      "px": 14,
+      "w": 611
+    },
+    {
+      "px": 13,
+      "w": 282
+    },
+    {
+      "px": 12,
+      "w": 104
+    },
+    {
+      "px": 10,
+      "w": 28
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.7,
+    "ls": "0.021em"
+  },
+  "headings": {},
+  "radius": [
+    {
+      "px": 10,
+      "n": 9
+    },
+    {
+      "px": 0,
+      "n": 8
+    },
+    {
+      "px": 15,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 19,
+      "n": 37
+    },
+    {
+      "px": 11,
+      "n": 19
+    },
+    {
+      "px": 22,
+      "n": 10
+    },
+    {
+      "px": 40,
+      "n": 7
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 172,
+      "n": 3
+    },
+    {
+      "px": 56,
+      "n": 2
+    },
+    {
+      "px": 148,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 984,
+      "n": 6
+    },
+    {
+      "px": 1324,
+      "n": 4
+    },
+    {
+      "px": 976,
+      "n": 2
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#555555",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 11px",
+      "fs": 15,
+      "weight": "400",
+      "h": 28,
+      "ls": "0",
+      "n": 5
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#555555",
+      "border": "1px #555555",
+      "radius": "15px",
+      "pad": "4px 10px",
+      "fs": 15,
+      "weight": "400",
+      "h": 38,
+      "ls": "0.29696px",
+      "n": 1
+    }
+  ],
+  "bp": [],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 4500,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "63:37"
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 1
+    },
+    {
+      "hex": "#effaf8",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": null,
+      "bg": "transparent",
+      "radius": 10,
+      "pad": "28/28",
+      "border": "1px #555555",
+      "shadow": null,
+      "n": 6
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 14,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 6
+      },
+      {
+        "ratio": "2:3",
+        "n": 3
+      },
+      {
+        "ratio": "4:3",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 14
+      }
+    ]
+  },
+  "circles": {
+    "n": 4,
+    "sizes": [
+      {
+        "px": 40,
+        "n": 4
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.85,
+    "sizes": [
+      16,
+      15,
+      14,
+      12,
+      11
+    ],
+    "pad": 40,
+    "gap": 20,
+    "sidePad": 30,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#effaf8",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 3,
+      "文字": 4,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#555555",
+      "面": 4,
+      "文字": 115,
+      "枠": 16,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ff7360",
+      "面": 0,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#ff7360",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

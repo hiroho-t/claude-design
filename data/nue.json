@@ -1,0 +1,278 @@
+{
+  "slug": "nue",
+  "url": "https://www.nue-inc.jp/",
+  "title": "Nue inc. / 株式会社ぬえ",
+  "desc": "Nue inc.は、リサーチ / プラニング / クリエイティブを強みとした領域横断型のコンサルティング・ファームです。解決困難な課題に向き合い、今までになかった方法で新たな可能性の道を切り開きます。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 73.5
+    },
+    {
+      "hex": "#494949",
+      "pct": 26.5
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#1a1a1a",
+      "pct": 100
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "YakuHanJP",
+      "w": 1447
+    },
+    {
+      "family": "HelveticaNeueLTPro-Roman",
+      "w": 235
+    }
+  ],
+  "sizes": [
+    {
+      "px": 26,
+      "w": 7
+    },
+    {
+      "px": 25,
+      "w": 44
+    },
+    {
+      "px": 18,
+      "w": 158
+    },
+    {
+      "px": 16,
+      "w": 1328
+    },
+    {
+      "px": 15,
+      "w": 62
+    },
+    {
+      "px": 14,
+      "w": 83
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 2.2,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 26,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.020em",
+        "family": "HelveticaNeueLTPro-Roman"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 9
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 60,
+      "n": 2
+    },
+    {
+      "px": 152,
+      "n": 2
+    },
+    {
+      "px": 292,
+      "n": 2
+    },
+    {
+      "px": 48,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 696,
+      "n": 11
+    },
+    {
+      "px": 1200,
+      "n": 10
+    },
+    {
+      "px": 1152,
+      "n": 7
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#1a1a1a",
+      "border": "1px #b1b1b1",
+      "radius": "1440px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "400",
+      "h": 36,
+      "ls": "0.64px",
+      "n": 7
+    }
+  ],
+  "bp": [
+    {
+      "px": 1024,
+      "n": 77
+    },
+    {
+      "px": 880,
+      "n": 53
+    },
+    {
+      "px": 768,
+      "n": 21
+    },
+    {
+      "px": 640,
+      "n": 88
+    },
+    {
+      "px": 430,
+      "n": 84
+    }
+  ],
+  "sections": [
+    {
+      "h": 1040,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 180,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 8340,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "55:45"
+    },
+    {
+      "h": 520,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1220,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 12,
+    "fullBleed": 4,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 7
+      },
+      {
+        "ratio": "3:2",
+        "n": 3
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 12
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sizes": [
+      16,
+      15,
+      14,
+      13,
+      12
+    ],
+    "pad": 28,
+    "gap": null,
+    "sidePad": 26,
+    "h1": {
+      "fs": 28,
+      "lh": 1
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 7,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 7
+    },
+    {
+      "hex": "#494949",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#1a1a1a",
+      "面": 0,
+      "文字": 55,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "モノトーン"
+  ]
+}

@@ -14,7 +14,7 @@ const d = JSON.parse(readFileSync(`data/${slug}.json`, 'utf8'));
 // ただし、こちらが実際に観察していない分類（動き・制作ツール・見た印象）は載せない。
 // 作品を外すのではなく、その作品の「その分類だけ」を書かない。
 const CAT_GROUPS_OK = ['タイプ', '業種･ジャンル', '色･配色', '書体'];
-const CAT_SLUGS_OK = new Set(['roundedcorners', 'jumprate', 'responsive', '1column', '2column',
+const CAT_SLUGS_OK = new Set(['jumprate', 'responsive', '1column', '2column',
   'bold-headings', 'thin-headings', 'whitespace', 'dividers', 'card-list']);
 const catDict = existsSync('data/categories.json')
   ? JSON.parse(readFileSync('data/categories.json', 'utf8')) : {};

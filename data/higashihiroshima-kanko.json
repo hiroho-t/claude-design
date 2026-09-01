@@ -1,0 +1,560 @@
+{
+  "slug": "higashihiroshima-kanko",
+  "url": "https://higashihiroshima-kanko.jp/",
+  "title": "東広島おでかけ観光サイト「ヒガシル」",
+  "desc": "広島県東広島市の公式観光サイト「ヒガシル」。おすすめ観光スポット、最新のイベント情報、体験見学プラン、ご当地グルメ・特産品、飲食店、モデルコース、宿泊施設、アクセスなど東広島へのお出かけや旅行にお役立ちの情報が満載！",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 51.1
+    },
+    {
+      "hex": "#fff7ee",
+      "pct": 21.5
+    },
+    {
+      "hex": "#f3f3f3",
+      "pct": 18.6
+    },
+    {
+      "hex": "#0f68a5",
+      "pct": 6.9
+    },
+    {
+      "hex": "#878996",
+      "pct": 1.3
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#44575f",
+      "pct": 37.7
+    },
+    {
+      "hex": "#000000",
+      "pct": 27
+    },
+    {
+      "hex": "#1e2627",
+      "pct": 17
+    },
+    {
+      "hex": "#121619",
+      "pct": 6.8
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 5423
+    },
+    {
+      "family": "Poppins",
+      "w": 273
+    }
+  ],
+  "sizes": [
+    {
+      "px": 25,
+      "w": 356
+    },
+    {
+      "px": 23,
+      "w": 201
+    },
+    {
+      "px": 21,
+      "w": 449
+    },
+    {
+      "px": 19,
+      "w": 210
+    },
+    {
+      "px": 17,
+      "w": 2265
+    },
+    {
+      "px": 15,
+      "w": 1726
+    }
+  ],
+  "body": {
+    "fs": 17,
+    "lh": 1.5,
+    "ls": "0.062em"
+  },
+  "headings": {},
+  "radius": [
+    {
+      "px": 0,
+      "n": 56
+    },
+    {
+      "px": 11,
+      "n": 24
+    },
+    {
+      "px": 13,
+      "n": 24
+    },
+    {
+      "px": 8,
+      "n": 1
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.1) 0px 2.10835px 12.6501px 0px",
+      "n": 2
+    },
+    {
+      "css": "rgba(0, 0, 0, 0.13) 0px 2.10835px 15.8126px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 15,
+      "n": 18
+    },
+    {
+      "px": 11,
+      "n": 15
+    },
+    {
+      "px": 47,
+      "n": 9
+    },
+    {
+      "px": 63,
+      "n": 9
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 84,
+      "n": 4
+    },
+    {
+      "px": 72,
+      "n": 3
+    },
+    {
+      "px": 48,
+      "n": 2
+    },
+    {
+      "px": 52,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 632,
+      "n": 32
+    },
+    {
+      "px": 1264,
+      "n": 18
+    },
+    {
+      "px": 1160,
+      "n": 13
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#44575f",
+      "border": null,
+      "radius": "11px",
+      "pad": "5px 16px",
+      "fs": 15,
+      "weight": "400",
+      "h": 33,
+      "ls": "0.737921px",
+      "n": 24
+    },
+    {
+      "bg": "transparent",
+      "color": "#0f68a5",
+      "border": "1px #0f68a5",
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 17,
+      "weight": "700",
+      "h": 32,
+      "ls": "0.737921px",
+      "n": 18
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#0f68a5",
+      "border": null,
+      "radius": "50%",
+      "pad": "0px 0px",
+      "fs": 34,
+      "weight": "700",
+      "h": 69,
+      "ls": "0.737921px",
+      "n": 10
+    }
+  ],
+  "bp": [
+    {
+      "px": 769,
+      "n": 3842
+    },
+    {
+      "px": 768,
+      "n": 7
+    },
+    {
+      "px": 767,
+      "n": 2
+    },
+    {
+      "px": 640,
+      "n": 4
+    },
+    {
+      "px": 480,
+      "n": 4
+    }
+  ],
+  "sections": [
+    {
+      "h": 980,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#ebf3f6",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 880,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 960,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": "#0f68a5",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1620,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#fff7ee",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1000,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 760,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": "#f8f6ed",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": "#f8f6ed",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 580,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 300,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "右",
+      "split": "44:56"
+    },
+    {
+      "h": 440,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "右",
+      "split": "14:86"
+    },
+    {
+      "h": 1500,
+      "full": false,
+      "cols": 6,
+      "img": true,
+      "bg": "#f3f3f3",
+      "align": "右",
+      "media": "左",
+      "split": "47:53"
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1360,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 740,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 300,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 30
+    },
+    {
+      "hex": "#ebf3f6",
+      "n": 2
+    },
+    {
+      "hex": "#878996",
+      "n": 2
+    },
+    {
+      "hex": "#f8f6ed",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "transparent",
+      "radius": 50,
+      "pad": "0/0",
+      "border": "5px #ffffff",
+      "shadow": null,
+      "n": 9
+    },
+    {
+      "onBg": "#fff7ee",
+      "bg": "#ffffff",
+      "radius": 13,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 6
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#1e2627",
+      "radius": "11px",
+      "pad": "5px 16px",
+      "fs": 15,
+      "border": null,
+      "n": 24
+    }
+  ],
+  "images": {
+    "n": 149,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 103
+      },
+      {
+        "ratio": "1:1",
+        "n": 26
+      },
+      {
+        "ratio": "2:3",
+        "n": 6
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 146
+      },
+      {
+        "px": 11,
+        "n": 3
+      }
+    ]
+  },
+  "circles": {
+    "n": 74,
+    "sizes": [
+      {
+        "px": 32,
+        "n": 20
+      },
+      {
+        "px": 48,
+        "n": 18
+      },
+      {
+        "px": 72,
+        "n": 10
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": null,
+    "sizes": [
+      22,
+      20,
+      18,
+      16,
+      14
+    ],
+    "pad": 40,
+    "gap": 14,
+    "sidePad": 20,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 95,
+      "文字": 32,
+      "枠": 22,
+      "ボタン": 44
+    },
+    {
+      "hex": "#fff7ee",
+      "面": 7,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 3
+    },
+    {
+      "hex": "#f3f3f3",
+      "面": 6,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#0f68a5",
+      "面": 25,
+      "文字": 42,
+      "枠": 25,
+      "ボタン": 7
+    },
+    {
+      "hex": "#878996",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#44575f",
+      "面": 0,
+      "文字": 89,
+      "枠": 6,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 84,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#1e2627",
+      "面": 1,
+      "文字": 85,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#121619",
+      "面": 0,
+      "文字": 34,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#44575f",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

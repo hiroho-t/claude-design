@@ -1,0 +1,389 @@
+{
+  "slug": "baigie-recruit",
+  "url": "https://recruit.baigie.me/",
+  "title": "採用情報｜株式会社ベイジ",
+  "desc": "株式会社ベイジの採用サイトです。会社の特徴、ビジョン、求める人材像、募集職種、募集要項などをご覧いただけます。",
+  "bg": [
+    {
+      "hex": "#f0f0f0",
+      "pct": 73.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 24
+    },
+    {
+      "hex": "#242422",
+      "pct": 1.4
+    },
+    {
+      "hex": "#fefa32",
+      "pct": 0.7
+    },
+    {
+      "hex": "#cccccc",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#242422",
+      "pct": 38.3
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 13.2
+    },
+    {
+      "hex": "#525252",
+      "pct": 21.8
+    },
+    {
+      "hex": "#434646",
+      "pct": 9.9
+    }
+  ],
+  "pageBg": "#f0f0f0",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 1022
+    },
+    {
+      "family": "Hiragino Kaku Gothic ProN",
+      "w": 78
+    },
+    {
+      "family": "ryo-gothic-plusn",
+      "w": 9
+    }
+  ],
+  "sizes": [
+    {
+      "px": 19,
+      "w": 50
+    },
+    {
+      "px": 16,
+      "w": 71
+    },
+    {
+      "px": 15,
+      "w": 224
+    },
+    {
+      "px": 14,
+      "w": 306
+    },
+    {
+      "px": 13,
+      "w": 389
+    },
+    {
+      "px": 12,
+      "w": 43
+    }
+  ],
+  "body": {
+    "fs": 13,
+    "lh": 1,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 56,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 19,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.050em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 19,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0.050em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 8,
+      "n": 13
+    },
+    {
+      "px": 0,
+      "n": 5
+    },
+    {
+      "px": 6,
+      "n": 4
+    },
+    {
+      "px": 4,
+      "n": 2
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.1) 0px 0px 8px 0px",
+      "n": 1
+    },
+    {
+      "css": "rgb(230, 230, 230) 0px 0px 0px 1px inset",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 8,
+      "n": 21
+    },
+    {
+      "px": 16,
+      "n": 21
+    },
+    {
+      "px": 10,
+      "n": 11
+    },
+    {
+      "px": 24,
+      "n": 7
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 32,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1104,
+      "n": 12
+    },
+    {
+      "px": 1168,
+      "n": 9
+    },
+    {
+      "px": 612,
+      "n": 5
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#f7f7f6",
+      "color": "#242422",
+      "border": "1px #eeeeec",
+      "radius": "8px",
+      "pad": "0px 0px",
+      "fs": 15,
+      "weight": "500",
+      "h": 66,
+      "ls": "0",
+      "n": 4
+    },
+    {
+      "bg": "#fefa32",
+      "color": "#242422",
+      "border": null,
+      "radius": "6px",
+      "pad": "9px 20px",
+      "fs": 14,
+      "weight": "400",
+      "h": 36,
+      "ls": "0.7px",
+      "n": 1
+    },
+    {
+      "bg": "transparent",
+      "color": "#242422",
+      "border": "1px #cdccd2",
+      "radius": "6px",
+      "pad": "8px 20px",
+      "fs": 14,
+      "weight": "400",
+      "h": 36,
+      "ls": "0.7px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1280,
+      "n": 31
+    },
+    {
+      "px": 980,
+      "n": 148
+    },
+    {
+      "px": 540,
+      "n": 183
+    },
+    {
+      "px": 320,
+      "n": 33
+    }
+  ],
+  "sections": [
+    {
+      "h": 3080,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 5
+    },
+    {
+      "hex": "#242422",
+      "n": 2
+    },
+    {
+      "hex": "#f0f0f0",
+      "n": 1
+    },
+    {
+      "hex": "#eeeeec",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#eeeeec",
+      "bg": "#242422",
+      "radius": 8,
+      "pad": "32/32",
+      "border": null,
+      "shadow": null,
+      "n": 2
+    }
+  ],
+  "chips": [
+    {
+      "bg": "transparent",
+      "color": "#333333",
+      "radius": "6px",
+      "pad": "8px 20px",
+      "fs": 16,
+      "border": "1px",
+      "n": 2
+    }
+  ],
+  "images": {
+    "n": 20,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 20
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 20
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.7,
+    "sizes": [
+      16,
+      14,
+      13,
+      12,
+      10
+    ],
+    "pad": 28,
+    "gap": 16,
+    "sidePad": 24,
+    "h1": {
+      "fs": 32,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f0f0f0",
+      "面": 8,
+      "文字": 0,
+      "枠": 7,
+      "ボタン": 4
+    },
+    {
+      "hex": "#ffffff",
+      "面": 8,
+      "文字": 9,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#242422",
+      "面": 6,
+      "文字": 43,
+      "枠": 0,
+      "ボタン": 2
+    },
+    {
+      "hex": "#fefa32",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#cccccc",
+      "面": 0,
+      "文字": 0,
+      "枠": 2,
+      "ボタン": 0
+    },
+    {
+      "hex": "#525252",
+      "面": 0,
+      "文字": 12,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#434646",
+      "面": 0,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#fefa32",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}
