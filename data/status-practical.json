@@ -324,5 +324,50 @@
     "state": "skip",
     "why": "測定に失敗",
     "url": "https://smarthr.co.jp/"
+  },
+  "eizosystem": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.eizo-system.co.jp/"
+  },
+  "canary": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://corp.canary-app.jp/"
+  },
+  "lowrysfarm-2024holiday": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.dot-st.com/lowrysfarm/cp/2024holiday"
+  },
+  "uchidasteel": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://uchida-st.co.jp/"
+  },
+  "netbk-recruit": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://recruit.netbk.co.jp/"
+  },
+  "iijengineering-recruit": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://recruit.iij-engineering.co.jp/"
+  },
+  "elematec": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.elematec.com/"
+  },
+  "diamondrealtymanagement": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.mc-dream.com/"
+  },
+  "sanwa": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.sanwa-paint.jp/"
   }
 }

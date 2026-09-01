@@ -1,0 +1,410 @@
+{
+  "slug": "canary",
+  "url": "https://corp.canary-app.jp/",
+  "title": "株式会社カナリー | もっといい「当たり前」をつくる",
+  "desc": "私たちカナリーは、時代の変化に合わせ社会の「当たり前」をデジタルの力でより良いものにアップデートするため、様々な事業を展開しています。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 74.3
+    },
+    {
+      "hex": "#00bbd5",
+      "pct": 25.7
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#ffffff",
+      "pct": 64.8
+    },
+    {
+      "hex": "#000000",
+      "pct": 31.6
+    },
+    {
+      "hex": "#00bbd5",
+      "pct": 3.6
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 971
+    },
+    {
+      "family": "degular",
+      "w": 331
+    }
+  ],
+  "sizes": [
+    {
+      "px": 160,
+      "w": 75
+    },
+    {
+      "px": 28,
+      "w": 67
+    },
+    {
+      "px": 16,
+      "w": 215
+    },
+    {
+      "px": 15,
+      "w": 45
+    },
+    {
+      "px": 14,
+      "w": 697
+    },
+    {
+      "px": 13,
+      "w": 47
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 2,
+    "ls": "0.100em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 14,
+        "weight": "600",
+        "lh": 1.8,
+        "ls": "0.100em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 14,
+        "weight": "600",
+        "lh": 1,
+        "ls": "0.100em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 42,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "0.030em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 9
+    },
+    {
+      "px": 8,
+      "n": 5
+    },
+    {
+      "px": 12,
+      "n": 3
+    },
+    {
+      "px": 16,
+      "n": 1
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(161, 175, 187, 0.25) 0px 0px 24px 0px",
+      "n": 5
+    }
+  ],
+  "gap": [
+    {
+      "px": 20,
+      "n": 8
+    },
+    {
+      "px": 48,
+      "n": 7
+    },
+    {
+      "px": 14,
+      "n": 6
+    },
+    {
+      "px": 12,
+      "n": 5
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 32,
+      "n": 10
+    },
+    {
+      "px": 160,
+      "n": 3
+    },
+    {
+      "px": 104,
+      "n": 2
+    },
+    {
+      "px": 64,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 852,
+      "n": 6
+    },
+    {
+      "px": 612,
+      "n": 3
+    },
+    {
+      "px": 932,
+      "n": 3
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 48,
+      "weight": "200",
+      "h": 77,
+      "ls": "-1.44px",
+      "n": 7
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#00bbd5",
+      "border": "1px #e6ecf2",
+      "radius": "9999px",
+      "pad": "8px 8px",
+      "fs": 14,
+      "weight": "500",
+      "h": 64,
+      "ls": "0",
+      "n": 4
+    },
+    {
+      "bg": "#00bbd5",
+      "color": "#ffffff",
+      "border": "1px #00bbd5",
+      "radius": "9999px",
+      "pad": "4px 4px",
+      "fs": 15,
+      "weight": "500",
+      "h": 40,
+      "ls": "0",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1440,
+      "n": 2
+    },
+    {
+      "px": 1280,
+      "n": 4
+    },
+    {
+      "px": 960,
+      "n": 62
+    },
+    {
+      "px": 768,
+      "n": 2
+    },
+    {
+      "px": 600,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 360,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1220,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1680,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1180,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "13:87"
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 740,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 9
+    },
+    {
+      "hex": "#00bbd5",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": null,
+      "bg": "#ffffff",
+      "radius": 12,
+      "pad": "120/44",
+      "border": "1px #e6ecf2",
+      "shadow": null,
+      "n": 2
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 25,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:4",
+        "n": 16
+      },
+      {
+        "ratio": "16:9",
+        "n": 5
+      },
+      {
+        "ratio": "4:3",
+        "n": 3
+      }
+    ],
+    "radius": [
+      {
+        "px": 6,
+        "n": 19
+      },
+      {
+        "px": 0,
+        "n": 6
+      }
+    ]
+  },
+  "circles": {
+    "n": 12,
+    "sizes": [
+      {
+        "px": 48,
+        "n": 9
+      },
+      {
+        "px": 88,
+        "n": 2
+      },
+      {
+        "px": 32,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sizes": [
+      104,
+      18,
+      16,
+      14,
+      13
+    ],
+    "pad": 40,
+    "gap": 14,
+    "sidePad": 32,
+    "h1": {
+      "fs": 14,
+      "lh": 1.8
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 20,
+      "文字": 32,
+      "枠": 0,
+      "ボタン": 4
+    },
+    {
+      "hex": "#00bbd5",
+      "面": 2,
+      "文字": 10,
+      "枠": 1,
+      "ボタン": 1
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 26,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#00bbd5",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

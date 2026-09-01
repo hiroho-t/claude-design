@@ -1,0 +1,504 @@
+{
+  "slug": "netbk-recruit",
+  "url": "https://recruit.netbk.co.jp/",
+  "title": "ドコモSMTBネット銀行 採用サイト",
+  "desc": "わたしたちは銀行を超えた「テックカンパニー」を目指しています。ともに挑戦する仲間を探しています。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 72.7
+    },
+    {
+      "hex": "#edf6ff",
+      "pct": 20.8
+    },
+    {
+      "hex": "#f5f5f5",
+      "pct": 5.7
+    },
+    {
+      "hex": "#0068de",
+      "pct": 0.7
+    },
+    {
+      "hex": "#cfebff",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#333333",
+      "pct": 32.7
+    },
+    {
+      "hex": "#6e6e6e",
+      "pct": 24.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 21.8
+    },
+    {
+      "hex": "#1b1b1b",
+      "pct": 14.4
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 2220
+    },
+    {
+      "family": "Montserrat",
+      "w": 97
+    },
+    {
+      "family": "Hiragino Kaku Gothic ProN",
+      "w": 27
+    }
+  ],
+  "sizes": [
+    {
+      "px": 24,
+      "w": 38
+    },
+    {
+      "px": 20,
+      "w": 700
+    },
+    {
+      "px": 18,
+      "w": 130
+    },
+    {
+      "px": 16,
+      "w": 379
+    },
+    {
+      "px": 14,
+      "w": 613
+    },
+    {
+      "px": 12,
+      "w": 406
+    }
+  ],
+  "body": {
+    "fs": 20,
+    "lh": 1.75,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 32,
+        "weight": "500",
+        "lh": 1.75,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 64,
+        "weight": "500",
+        "lh": 1,
+        "ls": "0",
+        "family": "Montserrat"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 14
+    },
+    {
+      "px": 4,
+      "n": 3
+    },
+    {
+      "px": 8,
+      "n": 1
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.1) 0px 2px 10px 0px",
+      "n": 2
+    }
+  ],
+  "gap": [
+    {
+      "px": 8,
+      "n": 173
+    },
+    {
+      "px": 16,
+      "n": 66
+    },
+    {
+      "px": 4,
+      "n": 27
+    },
+    {
+      "px": 5,
+      "n": 27
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 120,
+      "n": 10
+    },
+    {
+      "px": 80,
+      "n": 3
+    },
+    {
+      "px": 40,
+      "n": 2
+    },
+    {
+      "px": 900,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1040,
+      "n": 7
+    },
+    {
+      "px": 1016,
+      "n": 6
+    },
+    {
+      "px": 1360,
+      "n": 2
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#6e6e6e",
+      "border": "1px #e9e9e9",
+      "radius": "128px",
+      "pad": "7px 11px",
+      "fs": 12,
+      "weight": "500",
+      "h": 31,
+      "ls": "0",
+      "n": 60
+    },
+    {
+      "bg": "transparent",
+      "color": "#6e6e6e",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 12,
+      "weight": "500",
+      "h": 31,
+      "ls": "0",
+      "n": 54
+    },
+    {
+      "bg": "#0068de",
+      "color": "#ffffff",
+      "border": "2px #0068de",
+      "radius": "60px",
+      "pad": "12px 12px",
+      "fs": 16,
+      "weight": "700",
+      "h": 61,
+      "ls": "0",
+      "n": 4
+    }
+  ],
+  "bp": [
+    {
+      "px": 1280,
+      "n": 40
+    },
+    {
+      "px": 820,
+      "n": 186
+    },
+    {
+      "px": 540,
+      "n": 196
+    }
+  ],
+  "sections": [
+    {
+      "h": 520,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": "#ffffff",
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 880,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": "#edf6ff",
+      "align": "右",
+      "media": "左",
+      "split": "31:69"
+    },
+    {
+      "h": 1320,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#edf6ff",
+      "align": "左",
+      "media": "右",
+      "split": "33:67"
+    },
+    {
+      "h": 560,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#ffffff",
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 420,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#f5f5f5",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 8
+    },
+    {
+      "hex": "#edf6ff",
+      "n": 2
+    },
+    {
+      "hex": "#f5f5f5",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#333333",
+      "radius": "999px",
+      "pad": "7px 11px",
+      "fs": 16,
+      "border": "1px",
+      "n": 60
+    },
+    {
+      "bg": "#f5f5f5",
+      "color": "#333333",
+      "radius": "4px",
+      "pad": "0px 8px",
+      "fs": 16,
+      "border": null,
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 32,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "2:3",
+        "n": 12
+      },
+      {
+        "ratio": "4:3",
+        "n": 9
+      },
+      {
+        "ratio": "3:4",
+        "n": 9
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 20
+      },
+      {
+        "px": 8,
+        "n": 12
+      }
+    ]
+  },
+  "circles": {
+    "n": 12,
+    "sizes": [
+      {
+        "px": 32,
+        "n": 6
+      },
+      {
+        "px": 40,
+        "n": 5
+      },
+      {
+        "px": 24,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sizes": [
+      20,
+      18,
+      16,
+      14,
+      13
+    ],
+    "pad": 32,
+    "gap": 8,
+    "sidePad": 16,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 79,
+      "文字": 40,
+      "枠": 4,
+      "ボタン": 62
+    },
+    {
+      "hex": "#edf6ff",
+      "面": 5,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f5f5f5",
+      "面": 4,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#0068de",
+      "面": 5,
+      "文字": 6,
+      "枠": 5,
+      "ボタン": 5
+    },
+    {
+      "hex": "#cfebff",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#333333",
+      "面": 0,
+      "文字": 27,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#6e6e6e",
+      "面": 0,
+      "文字": 98,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#1b1b1b",
+      "面": 0,
+      "文字": 26,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#0068de",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

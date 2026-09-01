@@ -1,0 +1,427 @@
+{
+  "slug": "elematec",
+  "url": "https://www.elematec.com/",
+  "title": "エレマテック株式会社",
+  "desc": "エレマテックは、エレクトロニクス業界における統合サービス企業。設立以来75年以上にわたり培われてきた現場力と取引先基盤に加え、国内外70拠点以上にも広がるネットワークと独自の5つの機能で、部材から完成品に至るまで、最適なソリューションを提供します。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 72.7
+    },
+    {
+      "hex": "#2f509f",
+      "pct": 15.9
+    },
+    {
+      "hex": "#000000",
+      "pct": 10.1
+    },
+    {
+      "hex": "#f0a60f",
+      "pct": 0.9
+    },
+    {
+      "hex": "#f6f6f6",
+      "pct": 0.5
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 60.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 38.2
+    },
+    {
+      "hex": "#2f509f",
+      "pct": 0.9
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 1493
+    },
+    {
+      "family": "Inter",
+      "w": 33
+    }
+  ],
+  "sizes": [
+    {
+      "px": 36,
+      "w": 33
+    },
+    {
+      "px": 26,
+      "w": 45
+    },
+    {
+      "px": 20,
+      "w": 104
+    },
+    {
+      "px": 16,
+      "w": 893
+    },
+    {
+      "px": 14,
+      "w": 254
+    },
+    {
+      "px": 11,
+      "w": 102
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.15,
+    "ls": "0"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 36,
+        "weight": "600",
+        "lh": 1.6,
+        "ls": "0.030em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 14,
+        "weight": "600",
+        "lh": 1.6,
+        "ls": "0.030em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 13,
+        "weight": "400",
+        "lh": 1.6,
+        "ls": "0.030em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 16,
+        "weight": "600",
+        "lh": 1.6,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 7
+    },
+    {
+      "px": 3,
+      "n": 6
+    },
+    {
+      "px": 4,
+      "n": 1
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.15) 0px 3px 30px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 16,
+      "n": 7
+    },
+    {
+      "px": 40,
+      "n": 2
+    },
+    {
+      "px": 20,
+      "n": 1
+    },
+    {
+      "px": 24,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 120,
+      "n": 4
+    },
+    {
+      "px": 80,
+      "n": 3
+    },
+    {
+      "px": 40,
+      "n": 2
+    },
+    {
+      "px": 160,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1160,
+      "n": 17
+    },
+    {
+      "px": 760,
+      "n": 15
+    },
+    {
+      "px": 652,
+      "n": 2
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 20,
+      "weight": "600",
+      "h": 32,
+      "ls": "0.6px",
+      "n": 6
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "400",
+      "h": 32,
+      "ls": "0.48px",
+      "n": 3
+    },
+    {
+      "bg": "#2f509f",
+      "color": "#ffffff",
+      "border": "2px #2f509f",
+      "radius": "3px",
+      "pad": "0px 60px",
+      "fs": 16,
+      "weight": "600",
+      "h": 76,
+      "ls": "0.48px",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1340,
+      "n": 3
+    },
+    {
+      "px": 1040,
+      "n": 1
+    },
+    {
+      "px": 1024,
+      "n": 3
+    },
+    {
+      "px": 1000,
+      "n": 78
+    },
+    {
+      "px": 999,
+      "n": 148
+    }
+  ],
+  "sections": [
+    {
+      "h": 500,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 500,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 500,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 500,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 500,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 2
+    },
+    {
+      "hex": "#2f509f",
+      "n": 1
+    },
+    {
+      "hex": "#000000",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [
+    {
+      "bg": "#f6f6f6",
+      "color": "#000000",
+      "radius": "999px",
+      "pad": "0px 10px",
+      "fs": 12,
+      "border": "1px",
+      "n": 5
+    }
+  ],
+  "images": {
+    "n": 27,
+    "fullBleed": 11,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 9
+      },
+      {
+        "ratio": "3:4",
+        "n": 6
+      },
+      {
+        "ratio": "1:1",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 27
+      }
+    ]
+  },
+  "circles": {
+    "n": 10,
+    "sizes": [
+      {
+        "px": 24,
+        "n": 9
+      },
+      {
+        "px": 32,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.6,
+    "sizes": [
+      24,
+      16,
+      14,
+      12,
+      11
+    ],
+    "pad": 32,
+    "gap": 16,
+    "sidePad": 24,
+    "h1": {
+      "fs": 24,
+      "lh": 1.6
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 14,
+      "文字": 42,
+      "枠": 4,
+      "ボタン": 0
+    },
+    {
+      "hex": "#2f509f",
+      "面": 6,
+      "文字": 2,
+      "枠": 2,
+      "ボタン": 4
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 56,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f0a60f",
+      "面": 1,
+      "文字": 0,
+      "枠": 1,
+      "ボタン": 1
+    },
+    {
+      "hex": "#f6f6f6",
+      "面": 5,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#2f509f",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

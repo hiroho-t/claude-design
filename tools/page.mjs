@@ -182,9 +182,11 @@ export function detailPage({ d, palette, md, name, industry, ja, en, alt, ladder
   .imgs span{display:block;width:100%;background:var(--field);border:1px solid var(--line)}
   .imgs em{display:block;font-style:normal;font-size:11px;color:var(--sub);margin-top:6px}
 
-  footer{border-top:1px solid var(--line);padding:28px 32px 56px;font-size:12px;color:var(--sub)}
+  footer{border-top:1px solid var(--line);padding:28px 32px 56px;font-size:12px;color:var(--sub);
+    display:flex;justify-content:space-between;align-items:baseline;gap:32px;flex-wrap:wrap}
   footer p{max-width:720px} footer a{color:var(--ink)}
   @media (max-width:900px){
+    footer{display:block} .foot-meta{margin-top:16px}
     .wrap{grid-template-columns:1fr;gap:28px;padding:24px 20px}
     aside{position:static} .top,footer{padding-left:20px;padding-right:20px}
   }

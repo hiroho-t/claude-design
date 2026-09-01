@@ -1,0 +1,416 @@
+{
+  "slug": "sanwa",
+  "url": "https://www.sanwa-paint.jp/",
+  "title": "外壁塗装・屋根塗装の三和ペイント | 防水工事・リフォームも対応",
+  "desc": "外壁塗装、屋根塗装の三和ペイント株式会社。外壁塗装、屋根塗装、防水工事やリフォームも対応。戸建て、アパート等の外壁の色あせやひび割れが気になる、外壁塗装の相場が分からないなど、住宅の外壁リフォーム工事についてご相談、お見積り、無料点検のご依頼は、全国20数拠点で展開する三和ペイントに、お気軽にご相談ください。「明日を塗り替える。」三和ペイントの外壁・屋根塗装が塗り替えるのは、暮らしです。",
+  "bg": [
+    {
+      "hex": "#008ad2",
+      "pct": 37.1
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 30.8
+    },
+    {
+      "hex": "#f2f5f9",
+      "pct": 17.6
+    },
+    {
+      "hex": "#005290",
+      "pct": 14.6
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#ffffff",
+      "pct": 52.3
+    },
+    {
+      "hex": "#204483",
+      "pct": 27.8
+    },
+    {
+      "hex": "#333333",
+      "pct": 15.3
+    },
+    {
+      "hex": "#008ad2",
+      "pct": 4.6
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 489
+    },
+    {
+      "family": "Heebo",
+      "w": 328
+    },
+    {
+      "family": "Arial",
+      "w": 20
+    }
+  ],
+  "sizes": [
+    {
+      "px": 26,
+      "w": 48
+    },
+    {
+      "px": 20,
+      "w": 133
+    },
+    {
+      "px": 18,
+      "w": 57
+    },
+    {
+      "px": 16,
+      "w": 199
+    },
+    {
+      "px": 14,
+      "w": 377
+    },
+    {
+      "px": 12,
+      "w": 12
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.5,
+    "ls": "0.057em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 20,
+        "weight": "700",
+        "lh": 1.3,
+        "ls": "0.040em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 80,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0.020em",
+        "family": "Heebo"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 30,
+      "n": 3
+    },
+    {
+      "px": 0,
+      "n": 2
+    },
+    {
+      "px": 4,
+      "n": 1
+    },
+    {
+      "px": 8,
+      "n": 1
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.5) 0px 0px 12px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 60,
+      "n": 2
+    },
+    {
+      "px": 76,
+      "n": 2
+    },
+    {
+      "px": 152,
+      "n": 2
+    },
+    {
+      "px": 44,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1060,
+      "n": 12
+    },
+    {
+      "px": 1280,
+      "n": 7
+    },
+    {
+      "px": 620,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#204483",
+      "border": null,
+      "radius": "0px",
+      "pad": "10px 0px",
+      "fs": 20,
+      "weight": "700",
+      "h": 70,
+      "ls": "0.8px",
+      "n": 6
+    },
+    {
+      "bg": "transparent",
+      "color": "#204483",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 18,
+      "weight": "700",
+      "h": 64,
+      "ls": "0",
+      "n": 4
+    },
+    {
+      "bg": "transparent",
+      "color": "#204483",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 12,
+      "weight": "500",
+      "h": 30,
+      "ls": "0.8px",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 782,
+      "n": 7
+    },
+    {
+      "px": 781,
+      "n": 2
+    },
+    {
+      "px": 768,
+      "n": 4
+    },
+    {
+      "px": 640,
+      "n": 1
+    },
+    {
+      "px": 600,
+      "n": 12
+    }
+  ],
+  "sections": [
+    {
+      "h": 820,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 560,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1120,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1120,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "左",
+      "split": "17:83"
+    },
+    {
+      "h": 560,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [],
+  "cards": [],
+  "chips": [
+    {
+      "bg": "#f2f5f9",
+      "color": "#204483",
+      "radius": "999px",
+      "pad": "9px 8px",
+      "fs": 12,
+      "border": null,
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 25,
+    "fullBleed": 8,
+    "ratios": [
+      {
+        "ratio": "16:9",
+        "n": 6
+      },
+      {
+        "ratio": "3:2",
+        "n": 4
+      },
+      {
+        "ratio": "3:4",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 25
+      }
+    ]
+  },
+  "circles": {
+    "n": 13,
+    "sizes": [
+      {
+        "px": 24,
+        "n": 8
+      },
+      {
+        "px": 64,
+        "n": 5
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.8,
+    "sizes": [
+      22,
+      16,
+      14,
+      12,
+      10
+    ],
+    "pad": 32,
+    "gap": null,
+    "sidePad": 24,
+    "h1": {
+      "fs": 14,
+      "lh": 1.3
+    }
+  },
+  "usage": [
+    {
+      "hex": "#008ad2",
+      "面": 12,
+      "文字": 4,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 2,
+      "文字": 57,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f2f5f9",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 3
+    },
+    {
+      "hex": "#005290",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#204483",
+      "面": 0,
+      "文字": 21,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#333333",
+      "面": 0,
+      "文字": 5,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#204483",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角丸",
+    "色つき"
+  ]
+}
