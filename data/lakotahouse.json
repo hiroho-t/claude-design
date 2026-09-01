@@ -1,0 +1,386 @@
+{
+  "slug": "lakotahouse",
+  "url": "https://lakotahouse.com/",
+  "title": "THE LAKOTA HOUSE ｜ ラコタハウス オフィシャルサイト",
+  "desc": "アメリカ最高峰のシューズブランド、Aldenの輸入総代理店Lakotaによる、 革製品のスペシャリティストアThe Lakota Houseのオフィシャルサイトです。取り扱いブランドAlden、The Lakota House、KREISのほか、Nantucket BasketやPierre Jeanneretの家具など、独自の視点でセレクトした後世に残したい商品をご紹介しています。",
+  "bg": [
+    {
+      "hex": "#efece5",
+      "pct": 73
+    },
+    {
+      "hex": "#000000",
+      "pct": 26.8
+    },
+    {
+      "hex": "#121212",
+      "pct": 0.1
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 0.1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 61.3
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 38.7
+    }
+  ],
+  "pageBg": "#f7f5f0",
+  "fonts": [
+    {
+      "family": "neue-haas-grotesk-text",
+      "w": 820
+    },
+    {
+      "family": "itc-benguiat",
+      "w": 342
+    },
+    {
+      "family": "Hiragino Kaku Gothic Pro",
+      "w": 263
+    }
+  ],
+  "sizes": [
+    {
+      "px": 56,
+      "w": 68
+    },
+    {
+      "px": 36,
+      "w": 239
+    },
+    {
+      "px": 20,
+      "w": 57
+    },
+    {
+      "px": 16,
+      "w": 259
+    },
+    {
+      "px": 15,
+      "w": 725
+    },
+    {
+      "px": 13,
+      "w": 42
+    }
+  ],
+  "body": {
+    "fs": 15,
+    "lh": 1.6,
+    "ls": "-0.020em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 20,
+        "weight": "500",
+        "lh": 1.63,
+        "ls": "0",
+        "family": "neue-haas-grotesk-text"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 56,
+        "weight": "400",
+        "lh": 1,
+        "ls": "-0.040em",
+        "family": "itc-benguiat"
+      },
+      {
+        "fs": 36,
+        "weight": "400",
+        "lh": 1,
+        "ls": "-0.040em",
+        "family": "itc-benguiat"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 33
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 10,
+      "n": 25
+    },
+    {
+      "px": 12,
+      "n": 4
+    },
+    {
+      "px": 20,
+      "n": 4
+    },
+    {
+      "px": 50,
+      "n": 3
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 200,
+      "n": 4
+    },
+    {
+      "px": 180,
+      "n": 2
+    },
+    {
+      "px": 112,
+      "n": 1
+    },
+    {
+      "px": 204,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1340,
+      "n": 6
+    },
+    {
+      "px": 1224,
+      "n": 5
+    },
+    {
+      "px": 672,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#121212",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 30px",
+      "fs": 15,
+      "weight": "500",
+      "h": 47,
+      "ls": "1px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1024,
+      "n": 310
+    },
+    {
+      "px": 990,
+      "n": 18
+    },
+    {
+      "px": 989,
+      "n": 7
+    },
+    {
+      "px": 750,
+      "n": 32
+    },
+    {
+      "px": 749,
+      "n": 9
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 540,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1040,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "47:53"
+    },
+    {
+      "h": 740,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 560,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "58:42"
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 420,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "45:55"
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#efece5",
+      "n": 14
+    },
+    {
+      "hex": "#000000",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f7f5f0",
+      "bg": "#efece5",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 23
+    },
+    {
+      "onBg": "#f7f5ef",
+      "bg": "#efece5",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 5
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 59,
+    "fullBleed": 18,
+    "ratios": [
+      {
+        "ratio": "3:4",
+        "n": 33
+      },
+      {
+        "ratio": "3:2",
+        "n": 21
+      },
+      {
+        "ratio": "1:1",
+        "n": 5
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 59
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.6,
+    "sizes": [
+      32,
+      26,
+      14,
+      13,
+      12
+    ],
+    "pad": 400,
+    "gap": 10,
+    "sidePad": 0,
+    "h1": {
+      "fs": 18,
+      "lh": 1.64
+    }
+  },
+  "usage": [
+    {
+      "hex": "#efece5",
+      "面": 29,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 3,
+      "文字": 83,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#121212",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#ffffff",
+      "面": 0,
+      "文字": 38,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "モノトーン"
+  ]
+}

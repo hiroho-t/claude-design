@@ -160,5 +160,34 @@
   },
   "fujiwaraprinting": {
     "state": "done"
+  },
+  "findy": {
+    "state": "done"
+  },
+  "shinseidenki": {
+    "state": "done"
+  },
+  "aksball": {
+    "state": "done"
+  },
+  "greencoop": {
+    "state": "done"
+  },
+  "toyoenergy": {
+    "state": "done"
+  },
+  "gateone": {
+    "state": "done"
+  },
+  "toyotabattery": {
+    "state": "done"
+  },
+  "lakotahouse": {
+    "state": "done"
+  },
+  "tokyobouhan": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.bouhan.metro.tokyo.lg.jp/"
   }
 }

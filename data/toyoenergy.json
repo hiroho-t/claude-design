@@ -1,0 +1,427 @@
+{
+  "slug": "toyoenergy",
+  "url": "https://www.toyo-e.co.jp/",
+  "title": "TOP|トーヨーエナジー株式会社 ",
+  "desc": "私たちトーヨーエナジーは、石油、LPG、電力、環境対応製品などのエネルギーを日本全国に安定供給するエネルギー商社です。社会に欠かせないいエネルギーを安定的に日本全国に巡らし、エネルギーの新しいカタチへ挑戦していくことで、今日も未来も、明るい社会を、みなさんと一緒に、実現していきます。 ",
+  "bg": [
+    {
+      "hex": "#f6f7fa",
+      "pct": 86.8
+    },
+    {
+      "hex": "#2a2f4e",
+      "pct": 11.5
+    },
+    {
+      "hex": "#142fc6",
+      "pct": 0.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 0.8
+    },
+    {
+      "hex": "#eeeeee",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#2a2f4e",
+      "pct": 57.2
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 37
+    },
+    {
+      "hex": "#142fc6",
+      "pct": 4
+    },
+    {
+      "hex": "#000000",
+      "pct": 1.7
+    }
+  ],
+  "pageBg": "#f6f7fa",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 945
+    },
+    {
+      "family": "Raleway",
+      "w": 227
+    },
+    {
+      "family": "Hiragino Kaku Gothic ProN",
+      "w": 25
+    }
+  ],
+  "sizes": [
+    {
+      "px": 40,
+      "w": 59
+    },
+    {
+      "px": 18,
+      "w": 478
+    },
+    {
+      "px": 16,
+      "w": 54
+    },
+    {
+      "px": 15,
+      "w": 42
+    },
+    {
+      "px": 14,
+      "w": 244
+    },
+    {
+      "px": 13,
+      "w": 179
+    }
+  ],
+  "body": {
+    "fs": 18,
+    "lh": 2,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 18,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.050em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 40,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0.050em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 14
+    },
+    {
+      "px": 4,
+      "n": 3
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 130,
+      "n": 23
+    },
+    {
+      "px": 8,
+      "n": 19
+    },
+    {
+      "px": 11,
+      "n": 11
+    },
+    {
+      "px": 160,
+      "n": 9
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 80,
+      "n": 7
+    },
+    {
+      "px": 200,
+      "n": 4
+    },
+    {
+      "px": 160,
+      "n": 2
+    },
+    {
+      "px": 32,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1356,
+      "n": 15
+    },
+    {
+      "px": 1012,
+      "n": 11
+    },
+    {
+      "px": 656,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#2a2f4e",
+      "border": null,
+      "radius": "128px",
+      "pad": "0px 20px",
+      "fs": 15,
+      "weight": "600",
+      "h": 40,
+      "ls": "0",
+      "n": 6
+    },
+    {
+      "bg": "#142fc6",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "128px",
+      "pad": "0px 20px",
+      "fs": 15,
+      "weight": "600",
+      "h": 40,
+      "ls": "0",
+      "n": 3
+    },
+    {
+      "bg": "transparent",
+      "color": "#142fc6",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "700",
+      "h": 72,
+      "ls": "0",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1280,
+      "n": 2
+    },
+    {
+      "px": 1141,
+      "n": 2
+    },
+    {
+      "px": 1140,
+      "n": 64
+    },
+    {
+      "px": 840,
+      "n": 106
+    },
+    {
+      "px": 540,
+      "n": 175
+    }
+  ],
+  "sections": [
+    {
+      "h": 140,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1940,
+      "full": false,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "57:43"
+    },
+    {
+      "h": 1180,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 920,
+      "full": false,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1200,
+      "full": false,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1140,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#2a2f4e",
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f6f7fa",
+      "n": 2
+    },
+    {
+      "hex": "#2a2f4e",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#333333",
+      "radius": "999px",
+      "pad": "0px 20px",
+      "fs": 16,
+      "border": null,
+      "n": 6
+    },
+    {
+      "bg": "#142fc6",
+      "color": "#333333",
+      "radius": "999px",
+      "pad": "0px 20px",
+      "fs": 16,
+      "border": null,
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 13,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 4
+      },
+      {
+        "ratio": "3:2",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 13
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sizes": [
+      24,
+      15,
+      14,
+      13,
+      10
+    ],
+    "pad": 28,
+    "gap": 8,
+    "sidePad": 24,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#f6f7fa",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#2a2f4e",
+      "面": 1,
+      "文字": 57,
+      "枠": 3,
+      "ボタン": 0
+    },
+    {
+      "hex": "#142fc6",
+      "面": 6,
+      "文字": 17,
+      "枠": 0,
+      "ボタン": 3
+    },
+    {
+      "hex": "#ffffff",
+      "面": 8,
+      "文字": 33,
+      "枠": 1,
+      "ボタン": 7
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#2a2f4e",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

@@ -1,0 +1,473 @@
+{
+  "slug": "greencoop",
+  "url": "https://www.fukushi-greencoop.or.jp/",
+  "title": "社会福祉法人グリーンコープ",
+  "desc": "社会福祉法人グリーンコープは、赤ちゃんからお年寄りまで、ハンディがあってもなくても、誰もが支え合い、育ち合い、自分らしく生きてゆける地域社会を目指しています。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 45.1
+    },
+    {
+      "hex": "#f9f8f3",
+      "pct": 14.8
+    },
+    {
+      "hex": "#ca4e26",
+      "pct": 7.6
+    },
+    {
+      "hex": "#8c5d90",
+      "pct": 6.7
+    },
+    {
+      "hex": "#3a77b4",
+      "pct": 6.7
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#453112",
+      "pct": 81.2
+    },
+    {
+      "hex": "#c54117",
+      "pct": 11.1
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 4.7
+    },
+    {
+      "hex": "#316fad",
+      "pct": 0.9
+    }
+  ],
+  "pageBg": "#f7f4e9",
+  "fonts": [
+    {
+      "family": "dnp-shuei-gothic-gin-std",
+      "w": 1270
+    },
+    {
+      "family": "Work Sans",
+      "w": 132
+    }
+  ],
+  "sizes": [
+    {
+      "px": 22,
+      "w": 65
+    },
+    {
+      "px": 18,
+      "w": 92
+    },
+    {
+      "px": 17,
+      "w": 220
+    },
+    {
+      "px": 16,
+      "w": 315
+    },
+    {
+      "px": 14,
+      "w": 396
+    },
+    {
+      "px": 12,
+      "w": 89
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.6,
+    "ls": "0.060em"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 22,
+        "weight": "600",
+        "lh": 1.4,
+        "ls": "0.120em",
+        "family": "dnp-shuei-gothic-gin-std"
+      },
+      {
+        "fs": 17,
+        "weight": "500",
+        "lh": 1.55,
+        "ls": "0.120em",
+        "family": "dnp-shuei-gothic-gin-std"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 14,
+        "weight": "500",
+        "lh": 1,
+        "ls": "0.120em",
+        "family": "dnp-shuei-gothic-gin-std"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 36,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.140em",
+        "family": "dnp-shuei-gothic-gin-std"
+      }
+    ],
+    "h1": [
+      {
+        "fs": 16,
+        "weight": "600",
+        "lh": 1,
+        "ls": "0.100em",
+        "family": "dnp-shuei-gothic-gin-std"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 30,
+      "n": 7
+    },
+    {
+      "px": 8,
+      "n": 5
+    },
+    {
+      "px": 0,
+      "n": 2
+    },
+    {
+      "px": 5,
+      "n": 1
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.25) 0px 4px 4px 0px",
+      "n": 1
+    },
+    {
+      "css": "rgb(233, 226, 213) 0px 6px 9px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 46,
+      "n": 1
+    },
+    {
+      "px": 65,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 52,
+      "n": 2
+    },
+    {
+      "px": 80,
+      "n": 2
+    },
+    {
+      "px": 100,
+      "n": 2
+    },
+    {
+      "px": 44,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1200,
+      "n": 7
+    },
+    {
+      "px": 652,
+      "n": 6
+    },
+    {
+      "px": 792,
+      "n": 5
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#453112",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 15,
+      "weight": "600",
+      "h": 39,
+      "ls": "1.8px",
+      "n": 2
+    },
+    {
+      "bg": "#f9f8f3",
+      "color": "#453112",
+      "border": "1px #453112",
+      "radius": "30px",
+      "pad": "11px 16px",
+      "fs": 15,
+      "weight": "600",
+      "h": 39,
+      "ls": "1.8px",
+      "n": 2
+    },
+    {
+      "bg": "#453112",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "13px 13px",
+      "fs": 14,
+      "weight": "500",
+      "h": 39,
+      "ls": "1.68px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1600,
+      "n": 4
+    },
+    {
+      "px": 1400,
+      "n": 4
+    },
+    {
+      "px": 1380,
+      "n": 4
+    },
+    {
+      "px": 1340,
+      "n": 10
+    },
+    {
+      "px": 1239,
+      "n": 2
+    }
+  ],
+  "sections": [
+    {
+      "h": 960,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 820,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "右",
+      "split": "45:55"
+    },
+    {
+      "h": 480,
+      "full": false,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1160,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 280,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 660,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [
+    {
+      "bg": "#f9f8f3",
+      "color": "#453112",
+      "radius": "999px",
+      "pad": "11px 18px",
+      "fs": 15,
+      "border": "1px",
+      "n": 2
+    }
+  ],
+  "images": {
+    "n": 58,
+    "fullBleed": 10,
+    "ratios": [
+      {
+        "ratio": "4:3",
+        "n": 31
+      },
+      {
+        "ratio": "16:9",
+        "n": 13
+      },
+      {
+        "ratio": "3:4",
+        "n": 8
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 56
+      },
+      {
+        "px": 10,
+        "n": 2
+      }
+    ]
+  },
+  "circles": {
+    "n": 2,
+    "sizes": [
+      {
+        "px": 72,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1,
+    "sizes": [
+      16,
+      15,
+      14,
+      13,
+      12
+    ],
+    "pad": 80,
+    "gap": 20,
+    "sidePad": 20,
+    "h1": {
+      "fs": 14,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 5,
+      "文字": 7,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#f9f8f3",
+      "面": 8,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 7
+    },
+    {
+      "hex": "#ca4e26",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#8c5d90",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#3a77b4",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#453112",
+      "面": 1,
+      "文字": 86,
+      "枠": 2,
+      "ボタン": 1
+    },
+    {
+      "hex": "#c54117",
+      "面": 0,
+      "文字": 17,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#316fad",
+      "面": 0,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#453112",
+  "tags": [
+    "明朝",
+    "余白つまった",
+    "角丸",
+    "色つき"
+  ]
+}
