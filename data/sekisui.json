@@ -1,0 +1,489 @@
+{
+  "slug": "sekisui",
+  "url": "https://www.sekisui.co.jp/",
+  "title": "積水化学工業株式会社",
+  "desc": "積水化学工業株式会社の企業情報、サステナビリティ、株主・投資家情報、製品情報、採用情報などを網羅したウェブサイト。積水化学グループはサステナブルな社会の実現に向けて、LIFE の基盤を支え、“未来につづく安心”を創造し社会に貢献いたします。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 71.3
+    },
+    {
+      "hex": "#1d93ed",
+      "pct": 10.8
+    },
+    {
+      "hex": "#f6f6f6",
+      "pct": 13.7
+    },
+    {
+      "hex": "#004ea2",
+      "pct": 4.3
+    },
+    {
+      "hex": "#000000",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#555555",
+      "pct": 70.3
+    },
+    {
+      "hex": "#004ea2",
+      "pct": 23.1
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 4.9
+    },
+    {
+      "hex": "#333333",
+      "pct": 1
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 4775
+    }
+  ],
+  "sizes": [
+    {
+      "px": 20,
+      "w": 165
+    },
+    {
+      "px": 18,
+      "w": 192
+    },
+    {
+      "px": 16,
+      "w": 426
+    },
+    {
+      "px": 14,
+      "w": 2561
+    },
+    {
+      "px": 13,
+      "w": 228
+    },
+    {
+      "px": 12,
+      "w": 1009
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 40,
+        "weight": "600",
+        "lh": 1,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 24,
+        "weight": "600",
+        "lh": 1,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 28,
+        "weight": "600",
+        "lh": 1.8,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0.064em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 23
+    },
+    {
+      "px": 12,
+      "n": 18
+    },
+    {
+      "px": 4,
+      "n": 6
+    },
+    {
+      "px": 50,
+      "n": 5
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 78, 162, 0.1) 0px 10px 20px 0px",
+      "n": 3
+    },
+    {
+      "css": "rgba(0, 0, 0, 0.15) 0px 10px 30px 0px",
+      "n": 2
+    }
+  ],
+  "gap": [
+    {
+      "px": 24,
+      "n": 2
+    },
+    {
+      "px": 32,
+      "n": 2
+    },
+    {
+      "px": 16,
+      "n": 1
+    },
+    {
+      "px": 20,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 120,
+      "n": 9
+    },
+    {
+      "px": 48,
+      "n": 6
+    },
+    {
+      "px": 96,
+      "n": 6
+    },
+    {
+      "px": 40,
+      "n": 5
+    }
+  ],
+  "container": [
+    {
+      "px": 964,
+      "n": 14
+    },
+    {
+      "px": 1294,
+      "n": 14
+    },
+    {
+      "px": 1296,
+      "n": 14
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#004ea2",
+      "color": "#ffffff",
+      "border": "1px #004ea2",
+      "radius": "50px",
+      "pad": "20px 80px",
+      "fs": 16,
+      "weight": "700",
+      "h": 74,
+      "ls": "0.512px",
+      "n": 5
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "700",
+      "h": 74,
+      "ls": "0.512px",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1326,
+      "n": 2
+    },
+    {
+      "px": 1024,
+      "n": 4
+    },
+    {
+      "px": 1023,
+      "n": 4
+    },
+    {
+      "px": 768,
+      "n": 9
+    },
+    {
+      "px": 767,
+      "n": 2
+    }
+  ],
+  "sections": [
+    {
+      "h": 1040,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 360,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1340,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "52:48"
+    },
+    {
+      "h": 960,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 2040,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#1d93ed",
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 520,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#004ea2",
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 580,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 17
+    },
+    {
+      "hex": "#ebf3f5",
+      "n": 1
+    },
+    {
+      "hex": "#1d93ed",
+      "n": 1
+    },
+    {
+      "hex": "#004ea2",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#004ea2",
+      "bg": "#ffffff",
+      "radius": 12,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 18
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "transparent",
+      "radius": 12,
+      "pad": "0/0",
+      "border": null,
+      "shadow": "rgba(0, 78, 162, 0.1) 0px 10px 20px 0px",
+      "n": 4
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 81,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 42
+      },
+      {
+        "ratio": "4:3",
+        "n": 18
+      },
+      {
+        "ratio": "1:1",
+        "n": 16
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 64
+      },
+      {
+        "px": 4,
+        "n": 12
+      }
+    ]
+  },
+  "circles": {
+    "n": 21,
+    "sizes": [
+      {
+        "px": 32,
+        "n": 8
+      },
+      {
+        "px": 48,
+        "n": 8
+      },
+      {
+        "px": 24,
+        "n": 4
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1,
+    "sizes": [
+      18,
+      16,
+      14,
+      13,
+      12
+    ],
+    "pad": 32,
+    "gap": 4,
+    "sidePad": 15,
+    "h1": {
+      "fs": 26,
+      "lh": 1
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 55,
+      "文字": 11,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#1d93ed",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f6f6f6",
+      "面": 7,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#004ea2",
+      "面": 7,
+      "文字": 45,
+      "枠": 9,
+      "ボタン": 5
+    },
+    {
+      "hex": "#555555",
+      "面": 0,
+      "文字": 270,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#333333",
+      "面": 0,
+      "文字": 6,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#004ea2",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

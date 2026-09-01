@@ -1,0 +1,460 @@
+{
+  "slug": "artscouncil-kanazawa",
+  "url": "https://artscouncil-kanazawa.jp/",
+  "title": "アーツカウンシル金沢",
+  "desc": "アーツカウンシル金沢は、多彩な文化芸術の取り組みを支援し、誰もが芸術文化に親しめる環境を醸成するためのプログラムです。",
+  "bg": [
+    {
+      "hex": "#fef6f6",
+      "pct": 44
+    },
+    {
+      "hex": "#000000",
+      "pct": 16.2
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 12.8
+    },
+    {
+      "hex": "#1cc18e",
+      "pct": 10.3
+    },
+    {
+      "hex": "#ffe5e5",
+      "pct": 8.3
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#333333",
+      "pct": 82.2
+    },
+    {
+      "hex": "#999999",
+      "pct": 7.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 7
+    },
+    {
+      "hex": "#1cc18e",
+      "pct": 2.8
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "dnp-shuei-gothic-gin-std",
+      "w": 2141
+    },
+    {
+      "family": "termina",
+      "w": 474
+    }
+  ],
+  "sizes": [
+    {
+      "px": 24,
+      "w": 69
+    },
+    {
+      "px": 20,
+      "w": 244
+    },
+    {
+      "px": 16,
+      "w": 224
+    },
+    {
+      "px": 14,
+      "w": 1102
+    },
+    {
+      "px": 12,
+      "w": 428
+    },
+    {
+      "px": 10,
+      "w": 371
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.8,
+    "ls": "0.040em"
+  },
+  "headings": {},
+  "radius": [
+    {
+      "px": 2,
+      "n": 11
+    },
+    {
+      "px": 40,
+      "n": 11
+    },
+    {
+      "px": 20,
+      "n": 9
+    },
+    {
+      "px": 0,
+      "n": 6
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 20,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 120,
+      "n": 12
+    },
+    {
+      "px": 80,
+      "n": 7
+    },
+    {
+      "px": 40,
+      "n": 3
+    },
+    {
+      "px": 160,
+      "n": 3
+    }
+  ],
+  "container": [
+    {
+      "px": 640,
+      "n": 9
+    },
+    {
+      "px": 1360,
+      "n": 7
+    },
+    {
+      "px": 600,
+      "n": 5
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#f5f5f5",
+      "color": "#333333",
+      "border": null,
+      "radius": "20px",
+      "pad": "0px 16px",
+      "fs": 14,
+      "weight": "600",
+      "h": 38,
+      "ls": "0.56px",
+      "n": 3
+    },
+    {
+      "bg": "#1cc18e",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "32px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "600",
+      "h": 44,
+      "ls": "0.56px",
+      "n": 2
+    },
+    {
+      "bg": "#1cc18e",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "20px",
+      "pad": "0px 16px",
+      "fs": 14,
+      "weight": "600",
+      "h": 38,
+      "ls": "0.56px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1280,
+      "n": 25
+    },
+    {
+      "px": 961,
+      "n": 251
+    },
+    {
+      "px": 960,
+      "n": 230
+    },
+    {
+      "px": 769,
+      "n": 14
+    },
+    {
+      "px": 768,
+      "n": 20
+    }
+  ],
+  "sections": [
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1180,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1120,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#fcf5f0",
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1100,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 960,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#fef6f6",
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 920,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": "#fef6f6",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 4
+    },
+    {
+      "hex": "#fef6f6",
+      "n": 2
+    },
+    {
+      "hex": "#000000",
+      "n": 1
+    },
+    {
+      "hex": "#e9f7f6",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#e9f7f6",
+      "bg": "transparent",
+      "radius": 10,
+      "pad": "0/0",
+      "border": "1px #e6e6e6",
+      "shadow": null,
+      "n": 4
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "transparent",
+      "radius": 20,
+      "pad": "0/0",
+      "border": "1px #f5f5f5",
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#f5f5f5",
+      "color": "#333333",
+      "radius": "999px",
+      "pad": "0px 16px",
+      "fs": 14,
+      "border": null,
+      "n": 3
+    },
+    {
+      "bg": "#1cc18e",
+      "color": "#ffffff",
+      "radius": "999px",
+      "pad": "0px 10px",
+      "fs": 10,
+      "border": null,
+      "n": 2
+    }
+  ],
+  "images": {
+    "n": 51,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 25
+      },
+      {
+        "ratio": "2:3",
+        "n": 20
+      },
+      {
+        "ratio": "21:9",
+        "n": 3
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 51
+      }
+    ]
+  },
+  "circles": {
+    "n": 7,
+    "sizes": [
+      {
+        "px": 40,
+        "n": 4
+      },
+      {
+        "px": 24,
+        "n": 1
+      },
+      {
+        "px": 32,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.8,
+    "sizes": [
+      16,
+      14,
+      12,
+      10,
+      9
+    ],
+    "pad": 80,
+    "gap": 10,
+    "sidePad": 20,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#fef6f6",
+      "面": 9,
+      "文字": 0,
+      "枠": 3,
+      "ボタン": 3
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 7,
+      "文字": 31,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#1cc18e",
+      "面": 5,
+      "文字": 6,
+      "枠": 0,
+      "ボタン": 3
+    },
+    {
+      "hex": "#ffe5e5",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#333333",
+      "面": 2,
+      "文字": 137,
+      "枠": 11,
+      "ボタン": 1
+    },
+    {
+      "hex": "#999999",
+      "面": 0,
+      "文字": 32,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#1cc18e",
+  "tags": [
+    "明朝",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

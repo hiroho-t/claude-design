@@ -1,0 +1,491 @@
+{
+  "slug": "nishiokatent",
+  "url": "https://nishiokatent.net/",
+  "title": "西岡テント",
+  "desc": "西岡テントの公式ホームページです。京都市に拠点を置きテントの設計、施工を行っております。レインウェアー専門店【かっぱや西岡】では、通勤通学用レインスーツ、レインコートなど多くの種類を取り揃えております。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 72.2
+    },
+    {
+      "hex": "#eff8f9",
+      "pct": 14.5
+    },
+    {
+      "hex": "#f8f6ef",
+      "pct": 8.1
+    },
+    {
+      "hex": "#333333",
+      "pct": 5.1
+    },
+    {
+      "hex": "#1955a6",
+      "pct": 0.2
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#333333",
+      "pct": 73.7
+    },
+    {
+      "hex": "#1955a6",
+      "pct": 13.1
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 11.7
+    },
+    {
+      "hex": "#77756f",
+      "pct": 0.8
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "A1ゴシック R JIS2004",
+      "w": 1732
+    },
+    {
+      "family": "A1ゴシック M JIS2004",
+      "w": 305
+    },
+    {
+      "family": "Material Icons",
+      "w": 128
+    },
+    {
+      "family": "Lato",
+      "w": 113
+    }
+  ],
+  "sizes": [
+    {
+      "px": 40,
+      "w": 63
+    },
+    {
+      "px": 24,
+      "w": 134
+    },
+    {
+      "px": 22,
+      "w": 37
+    },
+    {
+      "px": 18,
+      "w": 282
+    },
+    {
+      "px": 16,
+      "w": 1454
+    },
+    {
+      "px": 15,
+      "w": 343
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": null,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 40,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0.050em",
+        "family": "見出ゴMB31 JIS2004"
+      },
+      {
+        "fs": 40,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0.050em",
+        "family": "A1ゴシック M JIS2004"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 22,
+        "weight": "400",
+        "lh": 1.2,
+        "ls": "0.100em",
+        "family": "見出ゴMB31 JIS2004"
+      },
+      {
+        "fs": 22,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0.050em",
+        "family": "A1ゴシック M JIS2004"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 23
+    },
+    {
+      "px": 8,
+      "n": 9
+    },
+    {
+      "px": 50,
+      "n": 9
+    },
+    {
+      "px": 4,
+      "n": 8
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 152,
+      "n": 8
+    },
+    {
+      "px": 100,
+      "n": 5
+    },
+    {
+      "px": 80,
+      "n": 4
+    },
+    {
+      "px": 132,
+      "n": 3
+    }
+  ],
+  "container": [
+    {
+      "px": 1200,
+      "n": 13
+    },
+    {
+      "px": 572,
+      "n": 8
+    },
+    {
+      "px": 892,
+      "n": 8
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#eff8f9",
+      "color": "#1955a6",
+      "border": "1px #1955a6",
+      "radius": "50px",
+      "pad": "12px 20px",
+      "fs": 15,
+      "weight": "500",
+      "h": 40,
+      "ls": "0.75px",
+      "n": 1
+    },
+    {
+      "bg": "#333333",
+      "color": "#ffffff",
+      "border": "1px #333333",
+      "radius": "50px",
+      "pad": "12px 20px",
+      "fs": 15,
+      "weight": "500",
+      "h": 40,
+      "ls": "0.75px",
+      "n": 1
+    },
+    {
+      "bg": "#333333",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "50px",
+      "pad": "20px 50px",
+      "fs": 18,
+      "weight": "700",
+      "h": 70,
+      "ls": "0",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1280,
+      "n": 56
+    },
+    {
+      "px": 990,
+      "n": 151
+    },
+    {
+      "px": 690,
+      "n": 249
+    },
+    {
+      "px": 360,
+      "n": 23
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 980,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "50:50"
+    },
+    {
+      "h": 640,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "48:52"
+    },
+    {
+      "h": 1260,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 420,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#333333",
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 2800,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#eff8f9",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 520,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#333333",
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 960,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 920,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 640,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#f8f6ef",
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 400,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1120,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "中央",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 5
+    },
+    {
+      "hex": "#f8f6ef",
+      "n": 4
+    },
+    {
+      "hex": "#333333",
+      "n": 2
+    },
+    {
+      "hex": "#eff8f9",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 24,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:4",
+        "n": 8
+      },
+      {
+        "ratio": "3:2",
+        "n": 7
+      },
+      {
+        "ratio": "4:3",
+        "n": 3
+      }
+    ],
+    "radius": [
+      {
+        "px": 8,
+        "n": 19
+      },
+      {
+        "px": 0,
+        "n": 5
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": null,
+    "sizes": [
+      28,
+      24,
+      16,
+      15,
+      14
+    ],
+    "pad": 72,
+    "gap": null,
+    "sidePad": 20,
+    "h1": {
+      "fs": 28,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 18,
+      "文字": 16,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#eff8f9",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#f8f6ef",
+      "面": 10,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#333333",
+      "面": 6,
+      "文字": 63,
+      "枠": 1,
+      "ボタン": 2
+    },
+    {
+      "hex": "#1955a6",
+      "面": 2,
+      "文字": 23,
+      "枠": 13,
+      "ボタン": 0
+    },
+    {
+      "hex": "#77756f",
+      "面": 0,
+      "文字": 6,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#1955a6",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

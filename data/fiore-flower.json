@@ -1,0 +1,423 @@
+{
+  "slug": "fiore-flower",
+  "url": "https://www.fiore-flower.co.jp/",
+  "title": "大阪府和泉市の葬儀用花・フラワーインテリアの販売 | 株式会社フィオーレ",
+  "desc": "大阪府和泉市のフィオーレは、葬儀葬祭市場に特化した「フューネラル事業」、花や緑を使ったアートキットやドライフラワーのインテリアなどを販売の「hananico事業」展開しています。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 71.6
+    },
+    {
+      "hex": "#f8f8f4",
+      "pct": 19
+    },
+    {
+      "hex": "#93bb8f",
+      "pct": 9.3
+    },
+    {
+      "hex": "#db8d94",
+      "pct": 0.1
+    },
+    {
+      "hex": "#3b2f14",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#3b2f14",
+      "pct": 84.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 12.1
+    },
+    {
+      "hex": "#db8d94",
+      "pct": 2.2
+    },
+    {
+      "hex": "#999999",
+      "pct": 0.9
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Shippori Mincho",
+      "w": 792
+    },
+    {
+      "family": "Cormorant",
+      "w": 170
+    },
+    {
+      "family": "Noto Sans JP",
+      "w": 170
+    },
+    {
+      "family": "Montserrat",
+      "w": 114
+    }
+  ],
+  "sizes": [
+    {
+      "px": 18,
+      "w": 103
+    },
+    {
+      "px": 17,
+      "w": 689
+    },
+    {
+      "px": 15,
+      "w": 46
+    },
+    {
+      "px": 14,
+      "w": 38
+    },
+    {
+      "px": 13,
+      "w": 128
+    },
+    {
+      "px": 12,
+      "w": 102
+    }
+  ],
+  "body": {
+    "fs": 17,
+    "lh": 2,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 40,
+        "weight": "500",
+        "lh": 1.7,
+        "ls": "0.021em",
+        "family": "Shippori Mincho"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 20,
+      "n": 11
+    },
+    {
+      "px": 10,
+      "n": 9
+    },
+    {
+      "px": 30,
+      "n": 6
+    },
+    {
+      "px": 0,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 20,
+      "n": 1
+    },
+    {
+      "px": 30,
+      "n": 1
+    },
+    {
+      "px": 87,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 56,
+      "n": 5
+    },
+    {
+      "px": 112,
+      "n": 3
+    },
+    {
+      "px": 36,
+      "n": 2
+    },
+    {
+      "px": 168,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1348,
+      "n": 9
+    },
+    {
+      "px": 1104,
+      "n": 8
+    },
+    {
+      "px": 672,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#3b2f14",
+      "border": null,
+      "radius": "10px",
+      "pad": "12px 18px",
+      "fs": 18,
+      "weight": "500",
+      "h": 44,
+      "ls": "0.830408px",
+      "n": 9
+    },
+    {
+      "bg": "transparent",
+      "color": "#3b2f14",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 17,
+      "weight": "500",
+      "h": 39,
+      "ls": "0.830408px",
+      "n": 3
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 17,
+      "weight": "500",
+      "h": 39,
+      "ls": "0.830408px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 3840,
+      "n": 6
+    },
+    {
+      "px": 1599,
+      "n": 554
+    },
+    {
+      "px": 1023,
+      "n": 46
+    },
+    {
+      "px": 767,
+      "n": 171
+    },
+    {
+      "px": 320,
+      "n": 6
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 820,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "23:77"
+    },
+    {
+      "h": 380,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 4900,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "17:83"
+    },
+    {
+      "h": 580,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": "#93bb8f",
+      "align": "右",
+      "media": "左",
+      "split": "43:57"
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 4
+    },
+    {
+      "hex": "#f8f8f4",
+      "n": 1
+    },
+    {
+      "hex": "#93bb8f",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#3b2f14",
+      "radius": "10px",
+      "pad": "12px 18px",
+      "fs": 18,
+      "border": null,
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 34,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 12
+      },
+      {
+        "ratio": "16:9",
+        "n": 9
+      },
+      {
+        "ratio": "4:3",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 22
+      },
+      {
+        "px": 20,
+        "n": 9
+      }
+    ]
+  },
+  "circles": {
+    "n": 1,
+    "sizes": [
+      {
+        "px": 72,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sizes": [
+      18,
+      16,
+      14,
+      13,
+      12
+    ],
+    "pad": 32,
+    "gap": 30,
+    "sidePad": 20,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 22,
+      "文字": 9,
+      "枠": 4,
+      "ボタン": 9
+    },
+    {
+      "hex": "#f8f8f4",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#93bb8f",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#db8d94",
+      "面": 1,
+      "文字": 5,
+      "枠": 9,
+      "ボタン": 0
+    },
+    {
+      "hex": "#3b2f14",
+      "面": 0,
+      "文字": 76,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#999999",
+      "面": 0,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#3b2f14",
+  "tags": [
+    "明朝",
+    "余白つまった",
+    "角丸",
+    "色つき"
+  ]
+}

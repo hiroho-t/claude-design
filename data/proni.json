@@ -1,0 +1,423 @@
+{
+  "slug": "proni",
+  "url": "https://www.proni.co.jp/",
+  "title": "PRONI株式会社",
+  "desc": "プロに出会う。プロになる。PRONI株式会社（旧社名ユニラボ）は、BtoB受発注プラットフォーム「PRONIアイミツ」を運営するスタートアップです。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 90.8
+    },
+    {
+      "hex": "#e10000",
+      "pct": 7
+    },
+    {
+      "hex": "#f6f6f6",
+      "pct": 2.2
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#1a1a1a",
+      "pct": 82.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 11.8
+    },
+    {
+      "hex": "#e10000",
+      "pct": 3.6
+    },
+    {
+      "hex": "#9f7356",
+      "pct": 2
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 2374
+    },
+    {
+      "family": "Schibsted Grotesk",
+      "w": 421
+    }
+  ],
+  "sizes": [
+    {
+      "px": 40,
+      "w": 39
+    },
+    {
+      "px": 20,
+      "w": 482
+    },
+    {
+      "px": 16,
+      "w": 1643
+    },
+    {
+      "px": 14,
+      "w": 66
+    },
+    {
+      "px": 12,
+      "w": 450
+    },
+    {
+      "px": 11,
+      "w": 58
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.15,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 48,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0.050em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 20,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.050em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 20,
+        "weight": "700",
+        "lh": 1.8,
+        "ls": "0.050em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 16,
+      "n": 26
+    },
+    {
+      "px": 0,
+      "n": 15
+    },
+    {
+      "px": 40,
+      "n": 8
+    },
+    {
+      "px": 32,
+      "n": 1
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.04) 0px 0px 16px 0px",
+      "n": 2
+    }
+  ],
+  "gap": [
+    {
+      "px": 8,
+      "n": 17
+    },
+    {
+      "px": 24,
+      "n": 10
+    },
+    {
+      "px": 64,
+      "n": 5
+    },
+    {
+      "px": 20,
+      "n": 4
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 60,
+      "n": 4
+    },
+    {
+      "px": 240,
+      "n": 4
+    },
+    {
+      "px": 80,
+      "n": 3
+    },
+    {
+      "px": 172,
+      "n": 3
+    }
+  ],
+  "container": [
+    {
+      "px": 1120,
+      "n": 12
+    },
+    {
+      "px": 1040,
+      "n": 10
+    },
+    {
+      "px": 832,
+      "n": 6
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#f6f6f6",
+      "color": "#1a1a1a",
+      "border": null,
+      "radius": "40px",
+      "pad": "24px 24px",
+      "fs": 16,
+      "weight": "600",
+      "h": 80,
+      "ls": "0",
+      "n": 8
+    },
+    {
+      "bg": "#e10000",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "4px 4px",
+      "fs": 12,
+      "weight": "600",
+      "h": 56,
+      "ls": "0",
+      "n": 1
+    },
+    {
+      "bg": "transparent",
+      "color": "#1a1a1a",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "700",
+      "h": 56,
+      "ls": "0.7px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1220,
+      "n": 1
+    },
+    {
+      "px": 1050,
+      "n": 1
+    },
+    {
+      "px": 435,
+      "n": 1
+    },
+    {
+      "px": 375,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 1340,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 2840,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "右",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1840,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "右",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 2160,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "右",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1280,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#ffffff",
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 29
+    },
+    {
+      "hex": "#f6f6f6",
+      "n": 4
+    },
+    {
+      "hex": "#e10000",
+      "n": 3
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#ffffff",
+      "radius": 16,
+      "pad": "0/0",
+      "border": "2px #f6f6f6",
+      "shadow": null,
+      "n": 20
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "transparent",
+      "radius": 16,
+      "pad": "0/0",
+      "border": "2px #f6f6f6",
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 25,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "4:3",
+        "n": 13
+      },
+      {
+        "ratio": "16:9",
+        "n": 6
+      },
+      {
+        "ratio": "3:2",
+        "n": 3
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 25
+      }
+    ]
+  },
+  "circles": {
+    "n": 2,
+    "sizes": [
+      {
+        "px": 32,
+        "n": 1
+      },
+      {
+        "px": 64,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": 1.15,
+    "sizes": [
+      32,
+      18,
+      16,
+      12,
+      11
+    ],
+    "pad": 24,
+    "gap": 8,
+    "sidePad": 63,
+    "h1": {
+      "fs": 32,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 33,
+      "文字": 61,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#e10000",
+      "面": 5,
+      "文字": 4,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#f6f6f6",
+      "面": 13,
+      "文字": 0,
+      "枠": 26,
+      "ボタン": 9
+    },
+    {
+      "hex": "#1a1a1a",
+      "面": 0,
+      "文字": 95,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#9f7356",
+      "面": 0,
+      "文字": 8,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#e10000",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角丸",
+    "色つき"
+  ]
+}

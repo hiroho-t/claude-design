@@ -1,0 +1,359 @@
+{
+  "slug": "bright",
+  "url": "https://brt-inc.jp/",
+  "title": "BRIGHT｜ブランディングデザインブライト｜仙台・宮城にあるデザイン会社",
+  "desc": "ブライトは宮城県仙台市を拠点に、東北の企業・商品・サービスをロゴ・グラフィック・パッケージ・Web・印刷物・意匠設計・建築サイン等トータルでデザインする「ブランディングデザイン」会社。お客様の課題を一緒に解決し\"より輝く\"ことを目指しています。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 55.5
+    },
+    {
+      "hex": "#ffef00",
+      "pct": 39.7
+    },
+    {
+      "hex": "#000000",
+      "pct": 4.8
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 100
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "NewCezannePro-M",
+      "w": 2397
+    }
+  ],
+  "sizes": [
+    {
+      "px": 48,
+      "w": 69
+    },
+    {
+      "px": 32,
+      "w": 128
+    },
+    {
+      "px": 20,
+      "w": 496
+    },
+    {
+      "px": 16,
+      "w": 1289
+    },
+    {
+      "px": 12,
+      "w": 415
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.88,
+    "ls": "0"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 48,
+        "weight": "700",
+        "lh": 1.63,
+        "ls": "0",
+        "family": "NewCezannePro-M"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0",
+        "family": "NewCezannePro-M"
+      },
+      {
+        "fs": 48,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0",
+        "family": "NewCezannePro-M"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 12
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 60,
+      "n": 6
+    },
+    {
+      "px": 180,
+      "n": 4
+    },
+    {
+      "px": 68,
+      "n": 3
+    },
+    {
+      "px": 120,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 632,
+      "n": 12
+    },
+    {
+      "px": 1320,
+      "n": 10
+    },
+    {
+      "px": 1380,
+      "n": 5
+    }
+  ],
+  "buttons": [],
+  "bp": [
+    {
+      "px": 1025,
+      "n": 1
+    },
+    {
+      "px": 1024,
+      "n": 42
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffef00",
+      "n": 1
+    },
+    {
+      "hex": "#ffffff",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 20,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 16
+      },
+      {
+        "ratio": "3:2",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 20
+      }
+    ]
+  },
+  "circles": {
+    "n": 1,
+    "sizes": [
+      {
+        "px": 40,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 12,
+    "bodyLh": 1.83,
+    "sizes": [
+      24,
+      18,
+      14,
+      12,
+      10
+    ],
+    "pad": 40,
+    "gap": null,
+    "sidePad": 30,
+    "h1": {
+      "fs": 24,
+      "lh": 1.75
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffef00",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 10,
+      "文字": 152,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#ffef00",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

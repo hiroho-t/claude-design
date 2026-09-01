@@ -1,0 +1,505 @@
+{
+  "slug": "kawara-museum",
+  "url": "https://www.takahama-kawara-museum.com/",
+  "title": "高浜市やきものの里 かわら美術館・図書館（ミュージアム）｜愛知県",
+  "desc": "「高浜市やきものの里 かわら美術館・図書館」は、愛知県高浜市にある、瓦（かわら）をテーマにした美術館と市立図書館が一緒になった複合文化施設です。三州瓦の産地である高浜市ならではの展示や資料があり、瓦や美術に関心のある人々にとって魅力的な観光スポットです。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 45.2
+    },
+    {
+      "hex": "#ede9e4",
+      "pct": 26
+    },
+    {
+      "hex": "#ee763f",
+      "pct": 8.6
+    },
+    {
+      "hex": "#000000",
+      "pct": 8.4
+    },
+    {
+      "hex": "#63594c",
+      "pct": 7.4
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#442c16",
+      "pct": 71.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 14.2
+    },
+    {
+      "hex": "#c16c26",
+      "pct": 12.3
+    },
+    {
+      "hex": "#ee763f",
+      "pct": 1
+    }
+  ],
+  "pageBg": "#ede7e4",
+  "fonts": [
+    {
+      "family": "Shuei KakuGo Gin B",
+      "w": 3480
+    },
+    {
+      "family": "Outfit",
+      "w": 483
+    }
+  ],
+  "sizes": [
+    {
+      "px": 18,
+      "w": 627
+    },
+    {
+      "px": 16,
+      "w": 907
+    },
+    {
+      "px": 15,
+      "w": 575
+    },
+    {
+      "px": 14,
+      "w": 1060
+    },
+    {
+      "px": 13,
+      "w": 227
+    },
+    {
+      "px": 12,
+      "w": 121
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.88,
+    "ls": "0.075em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 18,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0.240em",
+        "family": "Shuei KakuGo Gin B"
+      },
+      {
+        "fs": 48,
+        "weight": "700",
+        "lh": 1.58,
+        "ls": "0.115em",
+        "family": "Shuei KakuGo Gin B"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 48,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0.100em",
+        "family": "Shuei KakuGo Gin B"
+      },
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0.050em",
+        "family": "Shuei KakuGo Gin B"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 40,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0.100em",
+        "family": "Shuei KakuGo Gin B"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 34
+    },
+    {
+      "px": 8,
+      "n": 14
+    },
+    {
+      "px": 50,
+      "n": 11
+    },
+    {
+      "px": 10,
+      "n": 3
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(60, 40, 8, 0.1) 0px 0px 10px 0px",
+      "n": 12
+    }
+  ],
+  "gap": [
+    {
+      "px": 8,
+      "n": 95
+    },
+    {
+      "px": 4,
+      "n": 22
+    },
+    {
+      "px": 6,
+      "n": 18
+    },
+    {
+      "px": 16,
+      "n": 16
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 80,
+      "n": 9
+    },
+    {
+      "px": 132,
+      "n": 6
+    },
+    {
+      "px": 60,
+      "n": 5
+    },
+    {
+      "px": 36,
+      "n": 4
+    }
+  ],
+  "container": [
+    {
+      "px": 604,
+      "n": 21
+    },
+    {
+      "px": 1296,
+      "n": 17
+    },
+    {
+      "px": 580,
+      "n": 14
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#442c16",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "100px",
+      "pad": "14px 23px",
+      "fs": 16,
+      "weight": "500",
+      "h": 58,
+      "ls": "1.6px",
+      "n": 8
+    },
+    {
+      "bg": "#ebf8ff",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "2px 2px",
+      "fs": 12,
+      "weight": "500",
+      "h": 70,
+      "ls": "0",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 768,
+      "n": 2
+    }
+  ],
+  "sections": [
+    {
+      "h": 780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#eeeae4",
+      "n": 13
+    },
+    {
+      "hex": "#ffffff",
+      "n": 9
+    },
+    {
+      "hex": "#ee763f",
+      "n": 1
+    },
+    {
+      "hex": "#442c16",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#eeeae4",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 12
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#442c16",
+      "color": "#ffffff",
+      "radius": "4px",
+      "pad": "0px 4px",
+      "fs": 9,
+      "border": null,
+      "n": 22
+    },
+    {
+      "bg": "#777777",
+      "color": "#ffffff",
+      "radius": "999px",
+      "pad": "3px 13px",
+      "fs": 13,
+      "border": null,
+      "n": 15
+    }
+  ],
+  "images": {
+    "n": 34,
+    "fullBleed": 11,
+    "ratios": [
+      {
+        "ratio": "16:9",
+        "n": 11
+      },
+      {
+        "ratio": "3:2",
+        "n": 10
+      },
+      {
+        "ratio": "2:3",
+        "n": 7
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 34
+      }
+    ]
+  },
+  "circles": {
+    "n": 15,
+    "sizes": [
+      {
+        "px": 72,
+        "n": 6
+      },
+      {
+        "px": 24,
+        "n": 4
+      },
+      {
+        "px": 40,
+        "n": 4
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 13,
+    "bodyLh": 1.88,
+    "sizes": [
+      16,
+      14,
+      13,
+      12,
+      11
+    ],
+    "pad": 40,
+    "gap": 7,
+    "sidePad": 27,
+    "h1": {
+      "fs": 16,
+      "lh": 1
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 23,
+      "文字": 86,
+      "枠": 2,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ede9e4",
+      "面": 16,
+      "文字": 0,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ee763f",
+      "面": 3,
+      "文字": 14,
+      "枠": 4,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#63594c",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#442c16",
+      "面": 14,
+      "文字": 179,
+      "枠": 9,
+      "ボタン": 8
+    },
+    {
+      "hex": "#c16c26",
+      "面": 12,
+      "文字": 35,
+      "枠": 1,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#442c16",
+  "tags": [
+    "明朝",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

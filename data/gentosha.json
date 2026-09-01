@@ -1,0 +1,462 @@
+{
+  "slug": "gentosha",
+  "url": "https://www.gentosha.co.jp/",
+  "title": "幻冬舎 / Gentosha",
+  "desc": "幻冬舎の公式サイト。単行本、新書、文庫、雑誌、コミック、電子書籍、オーディオブックなど注目の新刊や話題作を試し読み。特典・イベント、採用情報も。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 35.2
+    },
+    {
+      "hex": "#f5f5f5",
+      "pct": 23
+    },
+    {
+      "hex": "#383838",
+      "pct": 21.1
+    },
+    {
+      "hex": "#ededed",
+      "pct": 7.2
+    },
+    {
+      "hex": "#000000",
+      "pct": 5.8
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 48.2
+    },
+    {
+      "hex": "#d0d0d0",
+      "pct": 34.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 7.7
+    },
+    {
+      "hex": "#ededed",
+      "pct": 5
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Font-mincho",
+      "w": 1104
+    },
+    {
+      "family": "Font-gothic-bold",
+      "w": 468
+    },
+    {
+      "family": "Font-gothic-medium",
+      "w": 359
+    },
+    {
+      "family": "Font-decoration",
+      "w": 122
+    }
+  ],
+  "sizes": [
+    {
+      "px": 41,
+      "w": 456
+    },
+    {
+      "px": 22,
+      "w": 201
+    },
+    {
+      "px": 20,
+      "w": 253
+    },
+    {
+      "px": 17,
+      "w": 262
+    },
+    {
+      "px": 16,
+      "w": 277
+    },
+    {
+      "px": 14,
+      "w": 261
+    }
+  ],
+  "body": {
+    "fs": 41,
+    "lh": 1.5,
+    "ls": "0.008em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 24,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0.013em",
+        "family": "Font-gothic-bold"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 31,
+        "weight": "400",
+        "lh": 1.55,
+        "ls": "0.010em",
+        "family": "Font-gothic-bold"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 63
+    },
+    {
+      "px": 32,
+      "n": 23
+    },
+    {
+      "px": 20,
+      "n": 6
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.16) 0px 3px 6px 0px",
+      "n": 3
+    }
+  ],
+  "gap": [
+    {
+      "px": 14,
+      "n": 25
+    },
+    {
+      "px": 4,
+      "n": 24
+    },
+    {
+      "px": 24,
+      "n": 20
+    },
+    {
+      "px": 41,
+      "n": 18
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 72,
+      "n": 4
+    },
+    {
+      "px": 96,
+      "n": 3
+    },
+    {
+      "px": 40,
+      "n": 2
+    },
+    {
+      "px": 48,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1200,
+      "n": 23
+    },
+    {
+      "px": 576,
+      "n": 20
+    },
+    {
+      "px": 736,
+      "n": 9
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#000000",
+      "border": "1px #e0e0e0",
+      "radius": "32px",
+      "pad": "6px 16px",
+      "fs": 16,
+      "weight": "400",
+      "h": 39,
+      "ls": "0.64px",
+      "n": 18
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 15,
+      "weight": "400",
+      "h": 34,
+      "ls": "0.32px",
+      "n": 8
+    },
+    {
+      "bg": "transparent",
+      "color": "#000000",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "400",
+      "h": 26,
+      "ls": "0.32px",
+      "n": 6
+    }
+  ],
+  "bp": [],
+  "sections": [
+    {
+      "h": 1460,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#383838",
+      "align": "左",
+      "media": "右",
+      "split": "34:66"
+    },
+    {
+      "h": 1460,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 800,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "29:71"
+    },
+    {
+      "h": 180,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 180,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f5f5f5",
+      "n": 9
+    },
+    {
+      "hex": "#383838",
+      "n": 4
+    },
+    {
+      "hex": "#ffffff",
+      "n": 3
+    },
+    {
+      "hex": "#e0e0e0",
+      "n": 3
+    }
+  ],
+  "cards": [
+    {
+      "onBg": null,
+      "bg": "#f5f5f5",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 8
+    },
+    {
+      "onBg": null,
+      "bg": "#f5f5f5",
+      "radius": 0,
+      "pad": "30/32",
+      "border": null,
+      "shadow": null,
+      "n": 5
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#000000",
+      "radius": "999px",
+      "pad": "6px 16px",
+      "fs": 16,
+      "border": "1px",
+      "n": 18
+    },
+    {
+      "bg": "#000000",
+      "color": "#ffffff",
+      "radius": "999px",
+      "pad": "6px 16px",
+      "fs": 13,
+      "border": null,
+      "n": 6
+    }
+  ],
+  "images": {
+    "n": 34,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "2:3",
+        "n": 12
+      },
+      {
+        "ratio": "3:4",
+        "n": 9
+      },
+      {
+        "ratio": "16:9",
+        "n": 5
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 34
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 32,
+    "bodyLh": 1.5,
+    "sizes": [
+      32,
+      20,
+      16,
+      15,
+      14
+    ],
+    "pad": 32,
+    "gap": 8,
+    "sidePad": 19,
+    "h1": {
+      "fs": 19,
+      "lh": 1.5
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 26,
+      "文字": 32,
+      "枠": 5,
+      "ボタン": 19
+    },
+    {
+      "hex": "#f5f5f5",
+      "面": 17,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#383838",
+      "面": 4,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ededed",
+      "面": 13,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 14,
+      "文字": 144,
+      "枠": 8,
+      "ボタン": 8
+    },
+    {
+      "hex": "#d0d0d0",
+      "面": 0,
+      "文字": 18,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "明朝",
+    "余白ふつう",
+    "角ばった",
+    "モノトーン"
+  ]
+}

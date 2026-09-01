@@ -1,4 +1,9 @@
 {
+  "2016": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.2016arita.jp/"
+  },
   "landsolution": {
     "state": "done"
   },
@@ -909,5 +914,240 @@
     "state": "skip",
     "why": "測定に失敗",
     "url": "https://housousha.co.jp/"
+  },
+  "cartaholdings": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://cartaholdings.co.jp/"
+  },
+  "lycorp": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.lycorp.co.jp/ja/"
+  },
+  "shikikodomodc": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://shiki-kodomo-dc.com/"
+  },
+  "nakamurabrace": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.nakamura-brace.co.jp/"
+  },
+  "uchida-bs": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.uchida-bs.co.jp/"
+  },
+  "webstaff": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.webstaff.jp/"
+  },
+  "lee": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://lee.hpplus.jp/"
+  },
+  "r-reha": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://r-reha.jp/"
+  },
+  "fil-toyama": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://fil-toyama.com/index.html"
+  },
+  "ha-ru": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://ha-ru2017.co.jp/"
+  },
+  "splashtop": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://company.splashtop.co.jp/"
+  },
+  "koushou": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://koushou-inc.com/"
+  },
+  "axxis": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://axxis.co.jp/"
+  },
+  "proni": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.proni.co.jp/"
+  },
+  "gcs-tc-school": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://gcs-tc-school.com/"
+  },
+  "ohno": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.ohno.or.jp/"
+  },
+  "studio-tremo": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://studio-tremo.com/"
+  },
+  "vansay-kumamoto": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://vansay.jp/kumamoto/"
+  },
+  "kawara-museum": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.takahama-kawara-museum.com/"
+  },
+  "gentosha": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.gentosha.co.jp/"
+  },
+  "readycrew": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://readycrew.jp/"
+  },
+  "hatonosato": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://hatonosato.com/"
+  },
+  "ntt-linkeeth": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.ntt.com/business/services/linkeeth/lp/linkeeth.html"
+  },
+  "musashishinjo-shika": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://musashishinjo-shika.com/"
+  },
+  "takedacpta": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://takedacpta.jp/"
+  },
+  "newt": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.newt.so/"
+  },
+  "values": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.valuesccg.com/"
+  },
+  "garage-recruit": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://recruit.garage.co.jp/"
+  },
+  "recruit": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.recruit.co.jp/"
+  },
+  "sekisui": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.sekisui.co.jp/"
+  },
+  "syodorin": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://syodorin.org/"
+  },
+  "infomart": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://corp.infomart.co.jp/"
+  },
+  "roboti": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://robot.i-goods.co.jp/"
+  },
+  "nishiokatent": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://nishiokatent.net/"
+  },
+  "koyama-gr": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.koyama-gr.com/"
+  },
+  "isaka": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://isaka.co.jp/"
+  },
+  "fiore-flower": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.fiore-flower.co.jp/"
+  },
+  "artscouncil-kanazawa": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://artscouncil-kanazawa.jp/"
+  },
+  "hacobu": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://hacobu.jp/"
+  },
+  "yamashin": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://yamashin.yamco.co.jp/"
+  },
+  "ghraicho": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://ghraicho.com/"
+  },
+  "kidssnacklab": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://kidssnacklab.com/"
+  },
+  "tsunoru": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://tsuno-ru.com/"
+  },
+  "bright": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://brt-inc.jp/"
+  },
+  "fuji-koeki": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.fuji-koeki.co.jp/"
+  },
+  "office-pits": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.office-pits.co.jp/"
+  },
+  "nagano-cgc": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.nagano-cgc.or.jp/"
   }
 }

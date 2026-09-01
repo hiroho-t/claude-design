@@ -1,0 +1,448 @@
+{
+  "slug": "tsunoru",
+  "url": "https://tsuno-ru.com/",
+  "title": "TSUNORU（つのる） - 宮崎県都農町の事業募集プラットフォーム",
+  "desc": "TSUNORUは、宮崎県都農町の地方創生を目的に、都農町の諸課題を解決するために生まれた事業募集、インキュベーション・プラットフォームです。",
+  "bg": [
+    {
+      "hex": "#f5f5f5",
+      "pct": 50.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 26.5
+    },
+    {
+      "hex": "#1d60cc",
+      "pct": 7.3
+    },
+    {
+      "hex": "#2e363b",
+      "pct": 6.4
+    },
+    {
+      "hex": "#eaeaea",
+      "pct": 5.6
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 74.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 13.5
+    },
+    {
+      "hex": "#1d60cc",
+      "pct": 5.4
+    },
+    {
+      "hex": "#11a73b",
+      "pct": 2.9
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 8929
+    },
+    {
+      "family": "Roboto",
+      "w": 49
+    }
+  ],
+  "sizes": [
+    {
+      "px": 34,
+      "w": 87
+    },
+    {
+      "px": 24,
+      "w": 400
+    },
+    {
+      "px": 20,
+      "w": 973
+    },
+    {
+      "px": 16,
+      "w": 754
+    },
+    {
+      "px": 14,
+      "w": 6167
+    },
+    {
+      "px": 12,
+      "w": 391
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 2,
+    "ls": "0.011em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 30,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0.005em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 50,
+        "weight": "900",
+        "lh": 1,
+        "ls": "0.003em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 34,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0.004em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 10,
+      "n": 66
+    },
+    {
+      "px": 6,
+      "n": 33
+    },
+    {
+      "px": 0,
+      "n": 27
+    },
+    {
+      "px": 20,
+      "n": 13
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.16) 0px 1px 2px 0px",
+      "n": 4
+    },
+    {
+      "css": "rgba(0, 0, 0, 0.1) 0px 1px 2px 0px",
+      "n": 2
+    }
+  ],
+  "gap": [
+    {
+      "px": 10,
+      "n": 18
+    },
+    {
+      "px": 20,
+      "n": 16
+    },
+    {
+      "px": 14,
+      "n": 4
+    },
+    {
+      "px": 4,
+      "n": 3
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 52,
+      "n": 3
+    },
+    {
+      "px": 60,
+      "n": 3
+    },
+    {
+      "px": 120,
+      "n": 3
+    },
+    {
+      "px": 40,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 996,
+      "n": 47
+    },
+    {
+      "px": 668,
+      "n": 12
+    },
+    {
+      "px": 700,
+      "n": 12
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#1d60cc",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "20px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "500",
+      "h": 64,
+      "ls": "0.15px",
+      "n": 9
+    },
+    {
+      "bg": "#f5f5f5",
+      "color": "#333333",
+      "border": null,
+      "radius": "6px",
+      "pad": "0px 20px",
+      "fs": 12,
+      "weight": "400",
+      "h": 38,
+      "ls": "0.15px",
+      "n": 3
+    },
+    {
+      "bg": "#f55b79",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "20px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "500",
+      "h": 64,
+      "ls": "0.15px",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1130,
+      "n": 2
+    },
+    {
+      "px": 782,
+      "n": 6
+    },
+    {
+      "px": 769,
+      "n": 17
+    },
+    {
+      "px": 768,
+      "n": 1
+    },
+    {
+      "px": 600,
+      "n": 10
+    }
+  ],
+  "sections": [
+    {
+      "h": 7180,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#f5f5f5",
+      "align": "中央",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1000,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#eaeaea",
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1060,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#f5f5f5",
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 580,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#2e363b",
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 20
+    },
+    {
+      "hex": "#f5f5f5",
+      "n": 2
+    },
+    {
+      "hex": "#1d60cc",
+      "n": 2
+    },
+    {
+      "hex": "#f2d431",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f5f5f5",
+      "bg": "#ffffff",
+      "radius": 6,
+      "pad": "60/20",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#f5f5f5",
+      "color": "#333333",
+      "radius": "6px",
+      "pad": "0px 20px",
+      "fs": 12,
+      "border": null,
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 38,
+    "fullBleed": 3,
+    "ratios": [
+      {
+        "ratio": "4:3",
+        "n": 12
+      },
+      {
+        "ratio": "3:2",
+        "n": 7
+      },
+      {
+        "ratio": "16:9",
+        "n": 5
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 20
+      },
+      {
+        "px": 6,
+        "n": 17
+      }
+    ]
+  },
+  "circles": {
+    "n": 2,
+    "sizes": [
+      {
+        "px": 72,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 15,
+    "bodyLh": 1.43,
+    "sizes": [
+      21,
+      17,
+      15,
+      12,
+      11
+    ],
+    "pad": 36,
+    "gap": 21,
+    "sidePad": 21,
+    "h1": {
+      "fs": 19,
+      "lh": 1.67
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f5f5f5",
+      "面": 21,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 4
+    },
+    {
+      "hex": "#ffffff",
+      "面": 75,
+      "文字": 87,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#1d60cc",
+      "面": 17,
+      "文字": 48,
+      "枠": 0,
+      "ボタン": 9
+    },
+    {
+      "hex": "#2e363b",
+      "面": 18,
+      "文字": 20,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#eaeaea",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 137,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#11a73b",
+      "面": 0,
+      "文字": 30,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#1d60cc",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

@@ -1,0 +1,550 @@
+{
+  "slug": "hacobu",
+  "url": "https://hacobu.jp/",
+  "title": "物流DXツール・コンサルならHacobu | MOVO(ムーボ)、Hacobu Strategy",
+  "desc": "物流の課題を解決する物流DXツール「MOVO」や物流DXコンサルティング「Hacobu Strategy」を通じて、「運ぶ」を最適化します。",
+  "bg": [
+    {
+      "hex": "#e6e6e6",
+      "pct": 55.2
+    },
+    {
+      "hex": "#fafafa",
+      "pct": 33
+    },
+    {
+      "hex": "#262626",
+      "pct": 4.7
+    },
+    {
+      "hex": "#000000",
+      "pct": 3.4
+    },
+    {
+      "hex": "#313131",
+      "pct": 3.4
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 56.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 39.6
+    },
+    {
+      "hex": "#8c8c8c",
+      "pct": 1.4
+    },
+    {
+      "hex": "#ff0000",
+      "pct": 1.2
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "YakuHanJP",
+      "w": 2577
+    },
+    {
+      "family": "Inter",
+      "w": 114
+    },
+    {
+      "family": "PilatExtended",
+      "w": 23
+    }
+  ],
+  "sizes": [
+    {
+      "px": 18,
+      "w": 92
+    },
+    {
+      "px": 16,
+      "w": 1053
+    },
+    {
+      "px": 15,
+      "w": 468
+    },
+    {
+      "px": 13,
+      "w": 559
+    },
+    {
+      "px": 12,
+      "w": 160
+    },
+    {
+      "px": 10,
+      "w": 254
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1,
+    "ls": "0"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 44,
+        "weight": "500",
+        "lh": 1.3,
+        "ls": "0.100em",
+        "family": "YakuHanJP"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 30,
+        "weight": "600",
+        "lh": 1.8,
+        "ls": "0.040em",
+        "family": "YakuHanJP"
+      },
+      {
+        "fs": 36,
+        "weight": "500",
+        "lh": 1.44,
+        "ls": "0.020em",
+        "family": "YakuHanJP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 10,
+      "n": 95
+    },
+    {
+      "px": 0,
+      "n": 15
+    },
+    {
+      "px": 25,
+      "n": 13
+    },
+    {
+      "px": 5,
+      "n": 4
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.08) 0px 5px 30px 0px",
+      "n": 4
+    }
+  ],
+  "gap": [
+    {
+      "px": 20,
+      "n": 36
+    },
+    {
+      "px": 15,
+      "n": 14
+    },
+    {
+      "px": 10,
+      "n": 7
+    },
+    {
+      "px": 6,
+      "n": 6
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 52,
+      "n": 8
+    },
+    {
+      "px": 180,
+      "n": 4
+    },
+    {
+      "px": 72,
+      "n": 3
+    },
+    {
+      "px": 80,
+      "n": 3
+    }
+  ],
+  "container": [
+    {
+      "px": 1120,
+      "n": 19
+    },
+    {
+      "px": 1204,
+      "n": 6
+    },
+    {
+      "px": 1020,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 13,
+      "weight": "500",
+      "h": 50,
+      "ls": "1.3px",
+      "n": 8
+    },
+    {
+      "bg": "#e6172c",
+      "color": "#ffffff",
+      "border": "1px #e6172c",
+      "radius": "25px",
+      "pad": "10px 27px",
+      "fs": 13,
+      "weight": "500",
+      "h": 50,
+      "ls": "1.3px",
+      "n": 8
+    },
+    {
+      "bg": "transparent",
+      "color": "#e6172c",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 13,
+      "weight": "500",
+      "h": 50,
+      "ls": "1.3px",
+      "n": 4
+    }
+  ],
+  "bp": [
+    {
+      "px": 1500,
+      "n": 1
+    },
+    {
+      "px": 1300,
+      "n": 1
+    },
+    {
+      "px": 1100,
+      "n": 1
+    },
+    {
+      "px": 1000,
+      "n": 4
+    },
+    {
+      "px": 999,
+      "n": 5
+    }
+  ],
+  "sections": [
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#e6e6e6",
+      "n": 57
+    },
+    {
+      "hex": "#ffffff",
+      "n": 4
+    },
+    {
+      "hex": "#000000",
+      "n": 1
+    },
+    {
+      "hex": "#fafafa",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#313131",
+      "bg": "#e6e6e6",
+      "radius": 10,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 90
+    },
+    {
+      "onBg": "#fafafa",
+      "bg": "#e6e6e6",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 10
+    }
+  ],
+  "chips": [
+    {
+      "bg": "transparent",
+      "color": "#000000",
+      "radius": "5px",
+      "pad": "4px 12px",
+      "fs": 16,
+      "border": "1px",
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 1,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "16:9",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 1
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 12,
+    "bodyLh": 1.8,
+    "sizes": [
+      16,
+      14,
+      12,
+      11,
+      10
+    ],
+    "pad": 52,
+    "gap": 15,
+    "sidePad": 38,
+    "h1": {
+      "fs": 27,
+      "lh": 1.3
+    }
+  },
+  "usage": [
+    {
+      "hex": "#e6e6e6",
+      "面": 106,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#fafafa",
+      "面": 11,
+      "文字": 93,
+      "枠": 0,
+      "ボタン": 6
+    },
+    {
+      "hex": "#262626",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 65,
+      "枠": 10,
+      "ボタン": 0
+    },
+    {
+      "hex": "#313131",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#8c8c8c",
+      "面": 0,
+      "文字": 5,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ff0000",
+      "面": 0,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#ff0000",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

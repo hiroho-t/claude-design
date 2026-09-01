@@ -1,0 +1,460 @@
+{
+  "slug": "ohno",
+  "url": "https://www.ohno.or.jp/",
+  "title": "大野記念病院 | 大阪市南堀江",
+  "desc": "大阪市南堀江の大野記念病院は、心のふれあいと安全で質の高い専門医療を通して最良の癒しをご提供します。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 55.6
+    },
+    {
+      "hex": "#f5f8fa",
+      "pct": 30.3
+    },
+    {
+      "hex": "#000000",
+      "pct": 7.7
+    },
+    {
+      "hex": "#4082c4",
+      "pct": 0.9
+    },
+    {
+      "hex": "#b18fdd",
+      "pct": 0.9
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#2e2e2e",
+      "pct": 31.5
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 23.9
+    },
+    {
+      "hex": "#3c3c3c",
+      "pct": 16.2
+    },
+    {
+      "hex": "#4f4f4f",
+      "pct": 13.7
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "游ゴシック体",
+      "w": 1765
+    },
+    {
+      "family": "Roboto",
+      "w": 73
+    }
+  ],
+  "sizes": [
+    {
+      "px": 20,
+      "w": 207
+    },
+    {
+      "px": 18,
+      "w": 68
+    },
+    {
+      "px": 17,
+      "w": 743
+    },
+    {
+      "px": 16,
+      "w": 458
+    },
+    {
+      "px": 15,
+      "w": 122
+    },
+    {
+      "px": 14,
+      "w": 60
+    }
+  ],
+  "body": {
+    "fs": 17,
+    "lh": null,
+    "ls": "0"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 52,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.150em",
+        "family": "游ゴシック体"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 25,
+        "weight": "700",
+        "lh": null,
+        "ls": "0",
+        "family": "游ゴシック体"
+      },
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": null,
+        "ls": "0",
+        "family": "游ゴシック体"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 88
+    },
+    {
+      "px": 20,
+      "n": 14
+    },
+    {
+      "px": 12,
+      "n": 12
+    },
+    {
+      "px": 16,
+      "n": 9
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(173, 173, 173, 0.22) 0px 0px 16px 0px",
+      "n": 7
+    },
+    {
+      "css": "rgba(173, 173, 173, 0.1) 0px 0px 12px 0px",
+      "n": 7
+    }
+  ],
+  "gap": [
+    {
+      "px": 36,
+      "n": 5
+    },
+    {
+      "px": 12,
+      "n": 4
+    },
+    {
+      "px": 20,
+      "n": 3
+    },
+    {
+      "px": 10,
+      "n": 2
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 72,
+      "n": 4
+    },
+    {
+      "px": 64,
+      "n": 2
+    },
+    {
+      "px": 44,
+      "n": 1
+    },
+    {
+      "px": 56,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 864,
+      "n": 10
+    },
+    {
+      "px": 1320,
+      "n": 9
+    },
+    {
+      "px": 712,
+      "n": 7
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": "1px #ffffff",
+      "radius": "9999px",
+      "pad": "0px 40px",
+      "fs": 17,
+      "weight": "700",
+      "h": 47,
+      "ls": "0",
+      "n": 7
+    },
+    {
+      "bg": "transparent",
+      "color": "#2e2e2e",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 17,
+      "weight": "700",
+      "h": 64,
+      "ls": "0",
+      "n": 4
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 15,
+      "weight": "700",
+      "h": 26,
+      "ls": "0",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1200,
+      "n": 33
+    },
+    {
+      "px": 1025,
+      "n": 11
+    },
+    {
+      "px": 1024,
+      "n": 72
+    },
+    {
+      "px": 768,
+      "n": 105
+    },
+    {
+      "px": 600,
+      "n": 357
+    }
+  ],
+  "sections": [
+    {
+      "h": 120,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": false,
+      "cols": 6,
+      "img": true,
+      "bg": "#ffffff",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": "#000000",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 4520,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "62:38"
+    },
+    {
+      "h": 980,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": "#ffffff",
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 27
+    },
+    {
+      "hex": "#f5f8fa",
+      "n": 1
+    },
+    {
+      "hex": "#000000",
+      "n": 1
+    },
+    {
+      "hex": "#67c15b",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f5f8fa",
+      "bg": "#ffffff",
+      "radius": 12,
+      "pad": "26/40",
+      "border": null,
+      "shadow": "rgba(173, 173, 173, 0.22) 0px 0px 16px 0px",
+      "n": 4
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "transparent",
+      "radius": 0,
+      "pad": "26/26",
+      "border": "2px #ededed",
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 27,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "16:9",
+        "n": 13
+      },
+      {
+        "ratio": "3:4",
+        "n": 4
+      },
+      {
+        "ratio": "4:3",
+        "n": 3
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 27
+      }
+    ]
+  },
+  "circles": {
+    "n": 4,
+    "sizes": [
+      {
+        "px": 64,
+        "n": 4
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 17,
+    "bodyLh": null,
+    "sizes": [
+      20,
+      17,
+      16,
+      15,
+      12
+    ],
+    "pad": 28,
+    "gap": 10,
+    "sidePad": 20,
+    "h1": {
+      "fs": 29,
+      "lh": 1.5
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 32,
+      "文字": 44,
+      "枠": 7,
+      "ボタン": 1
+    },
+    {
+      "hex": "#f5f8fa",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#4082c4",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#b18fdd",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#2e2e2e",
+      "面": 0,
+      "文字": 45,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#3c3c3c",
+      "面": 0,
+      "文字": 49,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#4f4f4f",
+      "面": 0,
+      "文字": 24,
+      "枠": 44,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#4082c4",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "slug": "syodorin",
+  "url": "https://syodorin.org/",
+  "title": "唱導林 - 日蓮宗 行覚寺 | 大阪阿倍野区にあるお寺・行覚寺",
+  "desc": "行覚寺ではインターネットを通して遠隔地に居ながら、住職と共にご法事や年中行事を勤めることが可能です。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 95.1
+    },
+    {
+      "hex": "#111111",
+      "pct": 4.9
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#111111",
+      "pct": 87
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 13
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Serif JP",
+      "w": 1952
+    },
+    {
+      "family": "Hiragino Kaku Gothic ProN",
+      "w": 59
+    },
+    {
+      "family": "Vollkorn",
+      "w": 17
+    }
+  ],
+  "sizes": [
+    {
+      "px": 16,
+      "w": 149
+    },
+    {
+      "px": 15,
+      "w": 54
+    },
+    {
+      "px": 14,
+      "w": 1234
+    },
+    {
+      "px": 13,
+      "w": 196
+    },
+    {
+      "px": 11,
+      "w": 94
+    },
+    {
+      "px": 10,
+      "w": 108
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.8,
+    "ls": "0.086em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 25,
+        "weight": "400",
+        "lh": 1.8,
+        "ls": "0.048em",
+        "family": "Noto Serif JP"
+      },
+      {
+        "fs": 26,
+        "weight": "400",
+        "lh": 1.8,
+        "ls": "0.046em",
+        "family": "Noto Serif JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 26,
+        "weight": "400",
+        "lh": 1.8,
+        "ls": "0.046em",
+        "family": "Noto Serif JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 6
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 9
+    },
+    {
+      "px": 180,
+      "n": 3
+    },
+    {
+      "px": 120,
+      "n": 2
+    },
+    {
+      "px": 160,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 880,
+      "n": 9
+    },
+    {
+      "px": 740,
+      "n": 6
+    },
+    {
+      "px": 820,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#111111",
+      "border": null,
+      "radius": "0px",
+      "pad": "25px 0px",
+      "fs": 17,
+      "weight": "400",
+      "h": 81,
+      "ls": "1.2px",
+      "n": 3
+    },
+    {
+      "bg": "transparent",
+      "color": "#111111",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 17,
+      "weight": "400",
+      "h": 81,
+      "ls": "1.2px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1201,
+      "n": 2
+    },
+    {
+      "px": 960,
+      "n": 2
+    },
+    {
+      "px": 782,
+      "n": 6
+    },
+    {
+      "px": 600,
+      "n": 10
+    },
+    {
+      "px": 560,
+      "n": 2
+    }
+  ],
+  "sections": [
+    {
+      "h": 360,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 580,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 460,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1420,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1360,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": null,
+      "bg": "#ffffff",
+      "radius": 100,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 18,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 12
+      },
+      {
+        "ratio": "16:9",
+        "n": 4
+      },
+      {
+        "ratio": "3:2",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 18
+      }
+    ]
+  },
+  "circles": {
+    "n": 3,
+    "sizes": [
+      {
+        "px": 200,
+        "n": 3
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 12,
+    "bodyLh": 2.2,
+    "sizes": [
+      18,
+      13,
+      12,
+      11,
+      10
+    ],
+    "pad": 32,
+    "gap": null,
+    "sidePad": 31,
+    "h1": {
+      "fs": 18,
+      "lh": 1.8
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 7,
+      "文字": 13,
+      "枠": 0,
+      "ボタン": 3
+    },
+    {
+      "hex": "#111111",
+      "面": 1,
+      "文字": 73,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "明朝",
+    "余白つまった",
+    "角ばった",
+    "モノトーン"
+  ]
+}

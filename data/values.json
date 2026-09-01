@@ -1,0 +1,461 @@
+{
+  "slug": "values",
+  "url": "https://www.valuesccg.com/",
+  "title": "データインテリジェンス×マーケティングで価値創造をともに｜株式会社ヴァリューズ",
+  "desc": "VALUES（ヴァリューズ）は国内最大規模のWeb行動ログのデータベースを活用し、データインテリジェンス×マーケティングで新たな市場価値の創造をサポートする、事業成長支援企業です。",
+  "bg": [
+    {
+      "hex": "#2d3b35",
+      "pct": 66.6
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 24.6
+    },
+    {
+      "hex": "#26554c",
+      "pct": 7.6
+    },
+    {
+      "hex": "#f2f5f4",
+      "pct": 1.3
+    },
+    {
+      "hex": "#d0d6d3",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#2d3b35",
+      "pct": 74.1
+    },
+    {
+      "hex": "#d0d6d3",
+      "pct": 10.2
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 6.8
+    },
+    {
+      "hex": "#33a947",
+      "pct": 5.2
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 2581
+    },
+    {
+      "family": "Titillium Web",
+      "w": 148
+    }
+  ],
+  "sizes": [
+    {
+      "px": 28,
+      "w": 40
+    },
+    {
+      "px": 20,
+      "w": 25
+    },
+    {
+      "px": 16,
+      "w": 1214
+    },
+    {
+      "px": 14,
+      "w": 868
+    },
+    {
+      "px": 12,
+      "w": 512
+    },
+    {
+      "px": 10,
+      "w": 35
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.5,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 28,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 2,
+      "n": 18
+    },
+    {
+      "px": 0,
+      "n": 5
+    },
+    {
+      "px": 8,
+      "n": 4
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.08) 0px 4px 12px 0px",
+      "n": 2
+    }
+  ],
+  "gap": [
+    {
+      "px": 8,
+      "n": 42
+    },
+    {
+      "px": 16,
+      "n": 20
+    },
+    {
+      "px": 12,
+      "n": 10
+    },
+    {
+      "px": 24,
+      "n": 10
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 56,
+      "n": 4
+    },
+    {
+      "px": 128,
+      "n": 3
+    },
+    {
+      "px": 40,
+      "n": 2
+    },
+    {
+      "px": 48,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1200,
+      "n": 35
+    },
+    {
+      "px": 992,
+      "n": 9
+    },
+    {
+      "px": 864,
+      "n": 6
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#2d3b35",
+      "border": "1px #2d3b35",
+      "radius": "100px",
+      "pad": "2px 12px",
+      "fs": 12,
+      "weight": "400",
+      "h": 26,
+      "ls": "0",
+      "n": 14
+    },
+    {
+      "bg": "#f2f5f4",
+      "color": "#2d3b35",
+      "border": "1px #d0d6d3",
+      "radius": "2px",
+      "pad": "0px 12px",
+      "fs": 12,
+      "weight": "700",
+      "h": 26,
+      "ls": "0",
+      "n": 8
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#2d3b35",
+      "border": "1px #688177",
+      "radius": "200px",
+      "pad": "4px 12px",
+      "fs": 14,
+      "weight": "700",
+      "h": 40,
+      "ls": "0",
+      "n": 5
+    }
+  ],
+  "bp": [
+    {
+      "px": 1359,
+      "n": 1
+    },
+    {
+      "px": 960,
+      "n": 6
+    },
+    {
+      "px": 959,
+      "n": 4
+    },
+    {
+      "px": 640,
+      "n": 3
+    },
+    {
+      "px": 639,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 380,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "60:40"
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 140,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "60:40"
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 580,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 120,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 1
+    },
+    {
+      "hex": "#2d3b35",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#26554c",
+      "radius": 8,
+      "pad": "24/24",
+      "border": null,
+      "shadow": "rgba(0, 0, 0, 0.08) 0px 4px 12px 0px",
+      "n": 2
+    }
+  ],
+  "chips": [
+    {
+      "bg": "transparent",
+      "color": "#2d3b35",
+      "radius": "999px",
+      "pad": "2px 12px",
+      "fs": 12,
+      "border": "1px",
+      "n": 15
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#2d3b35",
+      "radius": "999px",
+      "pad": "4px 20px",
+      "fs": 14,
+      "border": "1px",
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 35,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 20
+      },
+      {
+        "ratio": "16:9",
+        "n": 10
+      },
+      {
+        "ratio": "1:1",
+        "n": 3
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 35
+      }
+    ]
+  },
+  "circles": {
+    "n": 7,
+    "sizes": [
+      {
+        "px": 40,
+        "n": 7
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": 1.5,
+    "sizes": [
+      28,
+      16,
+      14,
+      12,
+      10
+    ],
+    "pad": 24,
+    "gap": 8,
+    "sidePad": 17,
+    "h1": {
+      "fs": 16,
+      "lh": 1.5
+    }
+  },
+  "usage": [
+    {
+      "hex": "#2d3b35",
+      "面": 1,
+      "文字": 89,
+      "枠": 15,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 21,
+      "文字": 24,
+      "枠": 0,
+      "ボタン": 12
+    },
+    {
+      "hex": "#26554c",
+      "面": 2,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f2f5f4",
+      "面": 13,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 8
+    },
+    {
+      "hex": "#d0d6d3",
+      "面": 0,
+      "文字": 21,
+      "枠": 16,
+      "ボタン": 0
+    },
+    {
+      "hex": "#33a947",
+      "面": 0,
+      "文字": 18,
+      "枠": 10,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#33a947",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

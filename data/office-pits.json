@@ -1,0 +1,346 @@
+{
+  "slug": "office-pits",
+  "url": "https://www.office-pits.co.jp/",
+  "title": "株式会社オフィスコーポレーション",
+  "desc": "オフィスコーポレーションは、オフィス用品のレンタル、販売代行・リニューアル事業など、快適なオフィスづくりのためにお客様に寄り添い、一緒に「考える」会社です。",
+  "bg": [
+    {
+      "hex": "#009b70",
+      "pct": 75.9
+    },
+    {
+      "hex": "#ededed",
+      "pct": 22.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 1.3
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 51.5
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 36.6
+    },
+    {
+      "hex": "#009b70",
+      "pct": 11.9
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 595
+    },
+    {
+      "family": "Figtree",
+      "w": 142
+    }
+  ],
+  "sizes": [
+    {
+      "px": 22,
+      "w": 82
+    },
+    {
+      "px": 18,
+      "w": 47
+    },
+    {
+      "px": 16,
+      "w": 191
+    },
+    {
+      "px": 15,
+      "w": 43
+    },
+    {
+      "px": 14,
+      "w": 230
+    },
+    {
+      "px": 12,
+      "w": 82
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 2,
+    "ls": "0"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 22,
+        "weight": "500",
+        "lh": 1.82,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 18,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 15,
+      "n": 6
+    },
+    {
+      "px": 0,
+      "n": 4
+    },
+    {
+      "px": 8,
+      "n": 2
+    },
+    {
+      "px": 21,
+      "n": 2
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 30,
+      "n": 3
+    },
+    {
+      "px": 40,
+      "n": 3
+    },
+    {
+      "px": 55,
+      "n": 2
+    },
+    {
+      "px": 10,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 252,
+      "n": 5
+    },
+    {
+      "px": 300,
+      "n": 2
+    },
+    {
+      "px": 120,
+      "n": 1
+    },
+    {
+      "px": 152,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 712,
+      "n": 7
+    },
+    {
+      "px": 588,
+      "n": 6
+    },
+    {
+      "px": 696,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": "1px #ffffff",
+      "radius": "21px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "500",
+      "h": 42,
+      "ls": "0",
+      "n": 2
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#009b70",
+      "border": null,
+      "radius": "8px",
+      "pad": "0px 15px",
+      "fs": 21,
+      "weight": "700",
+      "h": 80,
+      "ls": "0",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1500,
+      "n": 1
+    },
+    {
+      "px": 1199,
+      "n": 1
+    },
+    {
+      "px": 1099,
+      "n": 1
+    },
+    {
+      "px": 1023,
+      "n": 32
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1080,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 2120,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#009b70",
+      "align": "右",
+      "media": "左",
+      "split": "48:52"
+    },
+    {
+      "h": 760,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#009b70",
+      "n": 2
+    },
+    {
+      "hex": "#ededed",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 47,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 30
+      },
+      {
+        "ratio": "2:3",
+        "n": 12
+      },
+      {
+        "ratio": "3:4",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 47
+      }
+    ]
+  },
+  "circles": {
+    "n": 2,
+    "sizes": [
+      {
+        "px": 24,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.72,
+    "sizes": [
+      51,
+      18,
+      16,
+      14,
+      12
+    ],
+    "pad": 100,
+    "gap": 20,
+    "sidePad": 30,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#009b70",
+      "面": 2,
+      "文字": 11,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ededed",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 2,
+      "文字": 19,
+      "枠": 3,
+      "ボタン": 2
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 25,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#009b70",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角丸",
+    "色つき"
+  ]
+}

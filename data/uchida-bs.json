@@ -1,0 +1,419 @@
+{
+  "slug": "uchida-bs",
+  "url": "https://www.uchida-bs.co.jp/",
+  "title": "ウチダビジネスソリューションズ｜オフィス・教育・福祉施設の移転・空間デザイン・ICTデザイン",
+  "desc": "",
+  "bg": [
+    {
+      "hex": "#f7f6f1",
+      "pct": 47.6
+    },
+    {
+      "hex": "#4f4f4f",
+      "pct": 22.1
+    },
+    {
+      "hex": "#3c3c3c",
+      "pct": 14.9
+    },
+    {
+      "hex": "#2b2b2b",
+      "pct": 14.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 0.5
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#3c3c3c",
+      "pct": 57.3
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 23.9
+    },
+    {
+      "hex": "#f2f1e9",
+      "pct": 12.8
+    },
+    {
+      "hex": "#d6d6d6",
+      "pct": 5.9
+    }
+  ],
+  "pageBg": "#f7f6f1",
+  "fonts": [
+    {
+      "family": "Zen Kaku Gothic New",
+      "w": 967
+    },
+    {
+      "family": "DM Sans",
+      "w": 183
+    }
+  ],
+  "sizes": [
+    {
+      "px": 30,
+      "w": 38
+    },
+    {
+      "px": 18,
+      "w": 193
+    },
+    {
+      "px": 17,
+      "w": 85
+    },
+    {
+      "px": 16,
+      "w": 551
+    },
+    {
+      "px": 15,
+      "w": 55
+    },
+    {
+      "px": 12,
+      "w": 91
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.8,
+    "ls": "0.030em"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 19,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0.026em",
+        "family": "Zen Kaku Gothic New"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 6
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 14,
+      "n": 12
+    },
+    {
+      "px": 32,
+      "n": 8
+    },
+    {
+      "px": 12,
+      "n": 5
+    },
+    {
+      "px": 28,
+      "n": 3
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 140,
+      "n": 3
+    },
+    {
+      "px": 40,
+      "n": 1
+    },
+    {
+      "px": 48,
+      "n": 1
+    },
+    {
+      "px": 64,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1240,
+      "n": 9
+    },
+    {
+      "px": 1028,
+      "n": 2
+    },
+    {
+      "px": 564,
+      "n": 1
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": "1px #ffffff",
+      "radius": "1440px",
+      "pad": "20px 0px",
+      "fs": 16,
+      "weight": "700",
+      "h": 64,
+      "ls": "0.79992px",
+      "n": 2
+    },
+    {
+      "bg": "transparent",
+      "color": "#3c3c3c",
+      "border": "1px #3c3c3c",
+      "radius": "1440px",
+      "pad": "20px 0px",
+      "fs": 16,
+      "weight": "700",
+      "h": 64,
+      "ls": "0.79992px",
+      "n": 2
+    },
+    {
+      "bg": "transparent",
+      "color": "#d6d6d6",
+      "border": "1px #d6d6d6",
+      "radius": "1440px",
+      "pad": "14px 0px",
+      "fs": 16,
+      "weight": "700",
+      "h": 52,
+      "ls": "0.79992px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1399,
+      "n": 1
+    },
+    {
+      "px": 1023,
+      "n": 1
+    },
+    {
+      "px": 768,
+      "n": 2
+    },
+    {
+      "px": 767,
+      "n": 2
+    },
+    {
+      "px": 479,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#f7f6f1",
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 140,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 4060,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 920,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 2240,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1060,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#f7f6f1",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f7f6f1",
+      "n": 3
+    },
+    {
+      "hex": "#3c3c3c",
+      "n": 1
+    },
+    {
+      "hex": "#2b2b2b",
+      "n": 1
+    },
+    {
+      "hex": "#4f4f4f",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 73,
+    "fullBleed": 3,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 43
+      },
+      {
+        "ratio": "16:9",
+        "n": 12
+      },
+      {
+        "ratio": "3:4",
+        "n": 8
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 38
+      },
+      {
+        "px": 8,
+        "n": 35
+      }
+    ]
+  },
+  "circles": {
+    "n": 6,
+    "sizes": [
+      {
+        "px": 40,
+        "n": 3
+      },
+      {
+        "px": 56,
+        "n": 1
+      },
+      {
+        "px": 136,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 17,
+    "bodyLh": 2,
+    "sizes": [
+      25,
+      17,
+      16,
+      11,
+      10
+    ],
+    "pad": 28,
+    "gap": 17,
+    "sidePad": 21,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#f7f6f1",
+      "面": 3,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#4f4f4f",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#3c3c3c",
+      "面": 2,
+      "文字": 29,
+      "枠": 6,
+      "ボタン": 0
+    },
+    {
+      "hex": "#2b2b2b",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 2,
+      "文字": 16,
+      "枠": 2,
+      "ボタン": 0
+    },
+    {
+      "hex": "#d6d6d6",
+      "面": 0,
+      "文字": 9,
+      "枠": 1,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "モノトーン"
+  ]
+}

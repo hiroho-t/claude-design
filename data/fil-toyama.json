@@ -1,0 +1,375 @@
+{
+  "slug": "fil-toyama",
+  "url": "https://fil-toyama.com/index.html",
+  "title": "fil｜富山市荒町の学生シェアハウス「フィル」オープン",
+  "desc": "学生シェアハウス「フィル」2022年11月プレオープン。つながって、自由になろう。つぎの糸口が、この街にある。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 91.9
+    },
+    {
+      "hex": "#000000",
+      "pct": 8.1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#333333",
+      "pct": 94.6
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 5.4
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 2139
+    }
+  ],
+  "sizes": [
+    {
+      "px": 18,
+      "w": 66
+    },
+    {
+      "px": 15,
+      "w": 190
+    },
+    {
+      "px": 14,
+      "w": 1020
+    },
+    {
+      "px": 13,
+      "w": 424
+    },
+    {
+      "px": 12,
+      "w": 159
+    },
+    {
+      "px": 11,
+      "w": 194
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.8,
+    "ls": "0.060em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 22,
+        "weight": "500",
+        "lh": 1,
+        "ls": "0.060em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 18,
+        "weight": "500",
+        "lh": 1,
+        "ls": "0.060em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 12,
+        "weight": "500",
+        "lh": 1,
+        "ls": "0.060em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 18,
+        "weight": "500",
+        "lh": 1.8,
+        "ls": "0.060em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 16
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 10,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 136,
+      "n": 6
+    },
+    {
+      "px": 48,
+      "n": 5
+    },
+    {
+      "px": 60,
+      "n": 2
+    },
+    {
+      "px": 92,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 720,
+      "n": 10
+    },
+    {
+      "px": 768,
+      "n": 6
+    },
+    {
+      "px": 1250,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 15,
+      "weight": "500",
+      "h": 60,
+      "ls": "0.45px",
+      "n": 5
+    },
+    {
+      "bg": "#000000",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "20px 0px",
+      "fs": 15,
+      "weight": "500",
+      "h": 60,
+      "ls": "0.45px",
+      "n": 5
+    },
+    {
+      "bg": "#000000",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 13,
+      "weight": "500",
+      "h": 75,
+      "ls": "0.39px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1710,
+      "n": 1
+    },
+    {
+      "px": 1520,
+      "n": 7
+    },
+    {
+      "px": 1290,
+      "n": 1
+    },
+    {
+      "px": 768,
+      "n": 2
+    }
+  ],
+  "sections": [
+    {
+      "h": 940,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1180,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 920,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "50:50"
+    },
+    {
+      "h": 880,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "50:50"
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "50:50"
+    },
+    {
+      "h": 740,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 580,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 580,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 200,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 34,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "4:3",
+        "n": 12
+      },
+      {
+        "ratio": "3:2",
+        "n": 6
+      },
+      {
+        "ratio": "16:9",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 34
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 13,
+    "bodyLh": 1.9,
+    "sizes": [
+      18,
+      15,
+      13,
+      12,
+      11
+    ],
+    "pad": 32,
+    "gap": 10,
+    "sidePad": 0,
+    "h1": {
+      "fs": 18,
+      "lh": 1
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 2,
+      "文字": 13,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 13,
+      "文字": 0,
+      "枠": 3,
+      "ボタン": 7
+    },
+    {
+      "hex": "#333333",
+      "面": 0,
+      "文字": 80,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "モノトーン"
+  ]
+}

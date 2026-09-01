@@ -1,0 +1,449 @@
+{
+  "slug": "lee",
+  "url": "https://lee.hpplus.jp/",
+  "title": "「LEE（リー）」｜集英社の雑誌「LEE」の公式ウェブメディア｜おしゃれと暮らしを楽しむすべての女性へ",
+  "desc": "集英社のライフスタイルマガジン「LEE（リー）」の公式ウェブメディア。おしゃれと暮らしを楽しむ女性を応援！ファッション、ビューティに加えてインテリアや料理など幅広いテーマをお届けします。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 68.9
+    },
+    {
+      "hex": "#f5f5f5",
+      "pct": 15.2
+    },
+    {
+      "hex": "#e66a4f",
+      "pct": 13.9
+    },
+    {
+      "hex": "#333333",
+      "pct": 2
+    },
+    {
+      "hex": "#707070",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 69
+    },
+    {
+      "hex": "#555555",
+      "pct": 13.5
+    },
+    {
+      "hex": "#333333",
+      "pct": 13.3
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 2.7
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Poppins",
+      "w": 9077
+    },
+    {
+      "family": "Noto Sans JP",
+      "w": 7707
+    },
+    {
+      "family": "Times New Roman",
+      "w": 1216
+    }
+  ],
+  "sizes": [
+    {
+      "px": 18,
+      "w": 2421
+    },
+    {
+      "px": 16,
+      "w": 319
+    },
+    {
+      "px": 14,
+      "w": 8547
+    },
+    {
+      "px": 12,
+      "w": 6142
+    },
+    {
+      "px": 11,
+      "w": 168
+    },
+    {
+      "px": 10,
+      "w": 263
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.6,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 48,
+        "weight": "400",
+        "lh": 1.6,
+        "ls": "0.060em",
+        "family": "Poppins"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 282
+    },
+    {
+      "px": 20,
+      "n": 31
+    },
+    {
+      "px": 30,
+      "n": 8
+    },
+    {
+      "px": 8,
+      "n": 2
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 4,
+      "n": 1
+    },
+    {
+      "px": 16,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 80,
+      "n": 5
+    },
+    {
+      "px": 40,
+      "n": 4
+    },
+    {
+      "px": 100,
+      "n": 4
+    },
+    {
+      "px": 52,
+      "n": 3
+    }
+  ],
+  "container": [
+    {
+      "px": 1120,
+      "n": 29
+    },
+    {
+      "px": 640,
+      "n": 27
+    },
+    {
+      "px": 656,
+      "n": 11
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#555555",
+      "border": "1px #555555",
+      "radius": "20px",
+      "pad": "6px 12px",
+      "fs": 12,
+      "weight": "400",
+      "h": 26,
+      "ls": "0.6px",
+      "n": 29
+    },
+    {
+      "bg": "transparent",
+      "color": "#000000",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 12,
+      "weight": "400",
+      "h": 28,
+      "ls": "0.6px",
+      "n": 18
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#000000",
+      "border": null,
+      "radius": "0px",
+      "pad": "4px 10px",
+      "fs": 12,
+      "weight": "400",
+      "h": 28,
+      "ls": "0.6px",
+      "n": 15
+    }
+  ],
+  "bp": [
+    {
+      "px": 1300,
+      "n": 2
+    },
+    {
+      "px": 1280,
+      "n": 3
+    },
+    {
+      "px": 768,
+      "n": 14
+    },
+    {
+      "px": 767,
+      "n": 3
+    },
+    {
+      "px": 600,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 740,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 2760,
+      "full": false,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "47:53"
+    },
+    {
+      "h": 540,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1380,
+      "full": false,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1020,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "右",
+      "split": "35:65"
+    },
+    {
+      "h": 6180,
+      "full": false,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "50:50"
+    },
+    {
+      "h": 1400,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#e66a4f",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 13
+    },
+    {
+      "hex": "#e66a4f",
+      "n": 3
+    },
+    {
+      "hex": "#f5f5f5",
+      "n": 1
+    },
+    {
+      "hex": "#333333",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#e66a4f",
+      "bg": "#ffffff",
+      "radius": 0,
+      "pad": "20/20",
+      "border": null,
+      "shadow": null,
+      "n": 126
+    },
+    {
+      "onBg": "#f5f5f5",
+      "bg": "#ffffff",
+      "radius": 0,
+      "pad": "20/20",
+      "border": null,
+      "shadow": null,
+      "n": 12
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#555555",
+      "radius": "999px",
+      "pad": "6px 12px",
+      "fs": 12,
+      "border": "1px",
+      "n": 29
+    }
+  ],
+  "images": {
+    "n": 275,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 173
+      },
+      {
+        "ratio": "3:4",
+        "n": 78
+      },
+      {
+        "ratio": "3:2",
+        "n": 7
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 275
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 12,
+    "bodyLh": 1.6,
+    "sizes": [
+      32,
+      16,
+      14,
+      12,
+      10
+    ],
+    "pad": 412,
+    "gap": 4,
+    "sidePad": 30,
+    "h1": {
+      "fs": 32,
+      "lh": 1.6
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 301,
+      "文字": 33,
+      "枠": 2,
+      "ボタン": 54
+    },
+    {
+      "hex": "#f5f5f5",
+      "面": 4,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#e66a4f",
+      "面": 8,
+      "文字": 4,
+      "枠": 0,
+      "ボタン": 2
+    },
+    {
+      "hex": "#333333",
+      "面": 1,
+      "文字": 221,
+      "枠": 6,
+      "ボタン": 0
+    },
+    {
+      "hex": "#707070",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 407,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#555555",
+      "面": 0,
+      "文字": 415,
+      "枠": 31,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#e66a4f",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

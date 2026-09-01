@@ -1,0 +1,439 @@
+{
+  "slug": "axxis",
+  "url": "https://axxis.co.jp/",
+  "title": "アクシス株式会社(Axxis inc.)｜転職エージェント(人材紹介)",
+  "desc": "アクシス株式会社(Axxis inc.)は東京・六本木を拠点に、キャリアコーチングサービス「マジキャリ」、転職エージェント事業「すべらないキャリアエージェント」、転職メディア事業「すべらない転職」のほか、個人起点でのサービスを多角的に提供しています。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 43.3
+    },
+    {
+      "hex": "#202733",
+      "pct": 33.3
+    },
+    {
+      "hex": "#f4f4f5",
+      "pct": 12.3
+    },
+    {
+      "hex": "#000000",
+      "pct": 9.5
+    },
+    {
+      "hex": "#0553dd",
+      "pct": 1.6
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#ffffff",
+      "pct": 59
+    },
+    {
+      "hex": "#202733",
+      "pct": 38.2
+    },
+    {
+      "hex": "#0553dd",
+      "pct": 2.8
+    }
+  ],
+  "pageBg": "#f4f4f5",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 1216
+    },
+    {
+      "family": "Hanken Grotesk",
+      "w": 756
+    }
+  ],
+  "sizes": [
+    {
+      "px": 280,
+      "w": 154
+    },
+    {
+      "px": 18,
+      "w": 42
+    },
+    {
+      "px": 15,
+      "w": 49
+    },
+    {
+      "px": 14,
+      "w": 285
+    },
+    {
+      "px": 13,
+      "w": 1063
+    },
+    {
+      "px": 12,
+      "w": 161
+    }
+  ],
+  "body": {
+    "fs": 13,
+    "lh": 1.5,
+    "ls": "-0.010em"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 1.63,
+        "ls": "0.060em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 14,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.060em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 18,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.060em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 6
+    },
+    {
+      "px": 8,
+      "n": 5
+    },
+    {
+      "px": 20,
+      "n": 5
+    },
+    {
+      "px": 4,
+      "n": 2
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.08) 3px 3px 15px 0px",
+      "n": 2
+    }
+  ],
+  "gap": [
+    {
+      "px": 20,
+      "n": 5
+    },
+    {
+      "px": 30,
+      "n": 2
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 80,
+      "n": 9
+    },
+    {
+      "px": 40,
+      "n": 4
+    },
+    {
+      "px": 32,
+      "n": 2
+    },
+    {
+      "px": 112,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1184,
+      "n": 12
+    },
+    {
+      "px": 596,
+      "n": 9
+    },
+    {
+      "px": 1120,
+      "n": 6
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#202733",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 13,
+      "weight": "500",
+      "h": 56,
+      "ls": "0.52px",
+      "n": 5
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#202733",
+      "border": "1px #c9d1db",
+      "radius": "100px",
+      "pad": "16px 16px",
+      "fs": 13,
+      "weight": "500",
+      "h": 56,
+      "ls": "0.52px",
+      "n": 4
+    },
+    {
+      "bg": "#0553dd",
+      "color": "#ffffff",
+      "border": "1px #0553dd",
+      "radius": "100px",
+      "pad": "0px 0px",
+      "fs": 12,
+      "weight": "500",
+      "h": 32,
+      "ls": "-0.12px",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1440,
+      "n": 1
+    },
+    {
+      "px": 1250,
+      "n": 3
+    },
+    {
+      "px": 1060,
+      "n": 134
+    },
+    {
+      "px": 768,
+      "n": 615
+    },
+    {
+      "px": 600,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 2020,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1280,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 980,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "58:42"
+    },
+    {
+      "h": 1320,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1500,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 520,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 5
+    },
+    {
+      "hex": "#202733",
+      "n": 4
+    },
+    {
+      "hex": "#f4f4f5",
+      "n": 1
+    },
+    {
+      "hex": "#000000",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "transparent",
+      "radius": 8,
+      "pad": "0/0",
+      "border": "1px #c9d1db",
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#202733",
+      "radius": "999px",
+      "pad": "2px 10px",
+      "fs": 12,
+      "border": "1px",
+      "n": 4
+    },
+    {
+      "bg": "#c9d1db",
+      "color": "#202733",
+      "radius": "999px",
+      "pad": "2px 10px",
+      "fs": 12,
+      "border": null,
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 14,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 8
+      },
+      {
+        "ratio": "16:9",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 14
+      }
+    ]
+  },
+  "circles": {
+    "n": 2,
+    "sizes": [
+      {
+        "px": 24,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 13,
+    "bodyLh": 1.5,
+    "sizes": [
+      120,
+      16,
+      15,
+      13,
+      12
+    ],
+    "pad": 60,
+    "gap": 20,
+    "sidePad": 20,
+    "h1": {
+      "fs": 22,
+      "lh": 1.59
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 16,
+      "文字": 70,
+      "枠": 8,
+      "ボタン": 5
+    },
+    {
+      "hex": "#202733",
+      "面": 5,
+      "文字": 60,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f4f4f5",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#0553dd",
+      "面": 6,
+      "文字": 10,
+      "枠": 4,
+      "ボタン": 2
+    }
+  ],
+  "accent": "#0553dd",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}
