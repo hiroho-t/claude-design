@@ -1,0 +1,466 @@
+{
+  "slug": "tetopaint",
+  "url": "https://tetopaint.jp/",
+  "title": "tetopaint｜三田市・神戸市の外壁・屋根・デザイン塗装専門店",
+  "desc": "tetopaint（テトペイント）は三田市・神戸市で外壁塗装・屋根塗装・デザイン塗装を提供しています。高品質な施工と丁寧なサポートで、長く安心して暮らせる住まいを実現します。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 87.4
+    },
+    {
+      "hex": "#61636a",
+      "pct": 6.6
+    },
+    {
+      "hex": "#1b1e29",
+      "pct": 4.5
+    },
+    {
+      "hex": "#f2f2f2",
+      "pct": 1.4
+    },
+    {
+      "hex": "#e8e8ea",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#1b1e29",
+      "pct": 70.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 21.2
+    },
+    {
+      "hex": "#a4a5a9",
+      "pct": 5.1
+    },
+    {
+      "hex": "#61636a",
+      "pct": 1.6
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Roboto",
+      "w": 2085
+    },
+    {
+      "family": "Zen Kaku Gothic New",
+      "w": 32
+    }
+  ],
+  "sizes": [
+    {
+      "px": 47,
+      "w": 164
+    },
+    {
+      "px": 45,
+      "w": 21
+    },
+    {
+      "px": 24,
+      "w": 98
+    },
+    {
+      "px": 16,
+      "w": 1148
+    },
+    {
+      "px": 15,
+      "w": 229
+    },
+    {
+      "px": 14,
+      "w": 362
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 2.3,
+    "ls": "0.070em"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 16,
+        "weight": "500",
+        "lh": 1.6,
+        "ls": "0.080em",
+        "family": "Roboto"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 22,
+        "weight": "500",
+        "lh": 1.2,
+        "ls": "0.080em",
+        "family": "Roboto"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 75,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.010em",
+        "family": "Roboto"
+      },
+      {
+        "fs": 55,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.010em",
+        "family": "Roboto"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 5,
+      "n": 25
+    },
+    {
+      "px": 0,
+      "n": 7
+    },
+    {
+      "px": 8,
+      "n": 3
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 15,
+      "n": 15
+    },
+    {
+      "px": 10,
+      "n": 14
+    },
+    {
+      "px": 20,
+      "n": 4
+    },
+    {
+      "px": 22,
+      "n": 4
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 52,
+      "n": 3
+    },
+    {
+      "px": 132,
+      "n": 3
+    },
+    {
+      "px": 152,
+      "n": 3
+    },
+    {
+      "px": 36,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1360,
+      "n": 21
+    },
+    {
+      "px": 700,
+      "n": 4
+    },
+    {
+      "px": 788,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#1b1e29",
+      "color": "#ffffff",
+      "border": "1px #1b1e29",
+      "radius": "5px",
+      "pad": "15px 40px",
+      "fs": 16,
+      "weight": "500",
+      "h": 58,
+      "ls": "0.32px",
+      "n": 7
+    },
+    {
+      "bg": "transparent",
+      "color": "#1b1e29",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 18,
+      "weight": "500",
+      "h": 30,
+      "ls": "0.96px",
+      "n": 4
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "500",
+      "h": 71,
+      "ls": "0",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 1280,
+      "n": 4
+    },
+    {
+      "px": 1025,
+      "n": 4
+    },
+    {
+      "px": 768,
+      "n": 4
+    },
+    {
+      "px": 576,
+      "n": 4
+    },
+    {
+      "px": 414,
+      "n": 3
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1180,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 3360,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "左",
+      "split": "47:53"
+    },
+    {
+      "h": 1120,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 920,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": "#61636a",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 500,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 9
+    },
+    {
+      "hex": "#f2f2f2",
+      "n": 5
+    },
+    {
+      "hex": "#1b1e29",
+      "n": 3
+    },
+    {
+      "hex": "#61636a",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#f2f2f2",
+      "radius": 5,
+      "pad": "30/16",
+      "border": null,
+      "shadow": null,
+      "n": 5
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "transparent",
+      "radius": 5,
+      "pad": "0/0",
+      "border": "1px #e8e8ea",
+      "shadow": null,
+      "n": 5
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 31,
+    "fullBleed": 3,
+    "ratios": [
+      {
+        "ratio": "4:3",
+        "n": 8
+      },
+      {
+        "ratio": "3:2",
+        "n": 7
+      },
+      {
+        "ratio": "1:1",
+        "n": 6
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 31
+      }
+    ]
+  },
+  "circles": {
+    "n": 15,
+    "sizes": [
+      {
+        "px": 40,
+        "n": 8
+      },
+      {
+        "px": 32,
+        "n": 7
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 15,
+    "bodyLh": 2.2,
+    "sizes": [
+      27,
+      16,
+      15,
+      14,
+      12
+    ],
+    "pad": 60,
+    "gap": 10,
+    "sidePad": 20,
+    "h1": {
+      "fs": 51,
+      "lh": 1
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 20,
+      "文字": 42,
+      "枠": 3,
+      "ボタン": 2
+    },
+    {
+      "hex": "#61636a",
+      "面": 1,
+      "文字": 5,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#1b1e29",
+      "面": 15,
+      "文字": 107,
+      "枠": 11,
+      "ボタン": 8
+    },
+    {
+      "hex": "#f2f2f2",
+      "面": 5,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#e8e8ea",
+      "面": 3,
+      "文字": 0,
+      "枠": 5,
+      "ボタン": 0
+    },
+    {
+      "hex": "#a4a5a9",
+      "面": 0,
+      "文字": 38,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "モノトーン"
+  ]
+}

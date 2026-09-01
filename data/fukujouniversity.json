@@ -1,0 +1,458 @@
+{
+  "slug": "fukujouniversity",
+  "url": "https://www.fukujo.ac.jp/university/",
+  "title": "福岡女学院大学・短期大学部｜福岡市唯一の私立女子大学",
+  "desc": "福岡女学院大学公式サイト。1885年の創立以来、キリスト教に基づく福岡女学院創立の精神に則り、神を畏れ奉仕に生きる、よき社会人としての女性を育成するため、教育・研究を行うことを目的としています。",
+  "bg": [
+    {
+      "hex": "#a44858",
+      "pct": 45.3
+    },
+    {
+      "hex": "#f6edee",
+      "pct": 28.6
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 26.1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#444444",
+      "pct": 57.5
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 32.4
+    },
+    {
+      "hex": "#a44858",
+      "pct": 6
+    },
+    {
+      "hex": "#858585",
+      "pct": 4.1
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "dnp-shuei-gothic-gin-std",
+      "w": 2009
+    },
+    {
+      "family": "tt-commons-pro",
+      "w": 510
+    },
+    {
+      "family": "minerva-modern",
+      "w": 71
+    }
+  ],
+  "sizes": [
+    {
+      "px": 188,
+      "w": 42
+    },
+    {
+      "px": 20,
+      "w": 42
+    },
+    {
+      "px": 18,
+      "w": 35
+    },
+    {
+      "px": 15,
+      "w": 1306
+    },
+    {
+      "px": 13,
+      "w": 597
+    },
+    {
+      "px": 11,
+      "w": 450
+    }
+  ],
+  "body": {
+    "fs": 15,
+    "lh": 1.8,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 48,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0.080em",
+        "family": "minerva-modern"
+      },
+      {
+        "fs": 14,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "tt-commons-pro"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 15,
+        "weight": "500",
+        "lh": 1.8,
+        "ls": "0.050em",
+        "family": "dnp-shuei-gothic-gin-std"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 15,
+        "weight": "500",
+        "lh": 1.8,
+        "ls": "0.050em",
+        "family": "dnp-shuei-gothic-gin-std"
+      },
+      {
+        "fs": 14,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "tt-commons-pro"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 12
+    },
+    {
+      "px": 2,
+      "n": 12
+    },
+    {
+      "px": 8,
+      "n": 2
+    },
+    {
+      "px": 3,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 10,
+      "n": 9
+    },
+    {
+      "px": 20,
+      "n": 7
+    },
+    {
+      "px": 25,
+      "n": 5
+    },
+    {
+      "px": 15,
+      "n": 3
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 160,
+      "n": 3
+    },
+    {
+      "px": 60,
+      "n": 2
+    },
+    {
+      "px": 100,
+      "n": 2
+    },
+    {
+      "px": 44,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1360,
+      "n": 18
+    },
+    {
+      "px": 956,
+      "n": 5
+    },
+    {
+      "px": 1280,
+      "n": 5
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#f6edee",
+      "color": "#a44858",
+      "border": null,
+      "radius": "999px",
+      "pad": "8px 15px",
+      "fs": 13,
+      "weight": "500",
+      "h": 37,
+      "ls": "1.04px",
+      "n": 27
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#444444",
+      "border": null,
+      "radius": "2px",
+      "pad": "14px 55px",
+      "fs": 15,
+      "weight": "500",
+      "h": 52,
+      "ls": "1.2px",
+      "n": 7
+    },
+    {
+      "bg": "transparent",
+      "color": "#444444",
+      "border": "1px #e6dcdd",
+      "radius": "3px",
+      "pad": "14px 20px",
+      "fs": 15,
+      "weight": "500",
+      "h": 58,
+      "ls": "0.75px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1280,
+      "n": 9
+    },
+    {
+      "px": 1024,
+      "n": 64
+    },
+    {
+      "px": 768,
+      "n": 476
+    },
+    {
+      "px": 640,
+      "n": 3
+    }
+  ],
+  "sections": [
+    {
+      "h": 700,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 940,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1340,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#a44858",
+      "align": "右",
+      "media": "左",
+      "split": "36:64"
+    },
+    {
+      "h": 1000,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": "#f6edee",
+      "align": "左",
+      "media": "右",
+      "split": "26:74"
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 880,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 11
+    },
+    {
+      "hex": "#a44858",
+      "n": 2
+    },
+    {
+      "hex": "#f6edee",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f6edee",
+      "bg": "#ffffff",
+      "radius": 0,
+      "pad": "30/20",
+      "border": null,
+      "shadow": null,
+      "n": 5
+    },
+    {
+      "onBg": "#f6edee",
+      "bg": "#ffffff",
+      "radius": 2,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#f6edee",
+      "color": "#a44858",
+      "radius": "999px",
+      "pad": "8px 15px",
+      "fs": 13,
+      "border": null,
+      "n": 24
+    }
+  ],
+  "images": {
+    "n": 68,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 27
+      },
+      {
+        "ratio": "2:3",
+        "n": 16
+      },
+      {
+        "ratio": "3:4",
+        "n": 5
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 68
+      }
+    ]
+  },
+  "circles": {
+    "n": 8,
+    "sizes": [
+      {
+        "px": 48,
+        "n": 6
+      },
+      {
+        "px": 72,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.8,
+    "sizes": [
+      16,
+      15,
+      14,
+      12,
+      11
+    ],
+    "pad": 32,
+    "gap": 10,
+    "sidePad": 45,
+    "h1": {
+      "fs": 42,
+      "lh": 1.5
+    }
+  },
+  "usage": [
+    {
+      "hex": "#a44858",
+      "面": 2,
+      "文字": 29,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f6edee",
+      "面": 29,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 27
+    },
+    {
+      "hex": "#ffffff",
+      "面": 26,
+      "文字": 57,
+      "枠": 2,
+      "ボタン": 7
+    },
+    {
+      "hex": "#444444",
+      "面": 0,
+      "文字": 111,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#858585",
+      "面": 0,
+      "文字": 17,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#a44858",
+  "tags": [
+    "明朝",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

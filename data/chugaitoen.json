@@ -1,0 +1,399 @@
+{
+  "slug": "chugaitoen",
+  "url": "https://chugaitoen.co.jp/",
+  "title": "株式会社中外陶園 ｜招き猫や干支置物、季節飾りを手掛ける陶磁器工芸メーカー",
+  "desc": "招き猫や干支置物など「しあわせ招くやきもの」と一緒に暮らしてみませんか。中外陶園は、焼き物の街愛知県瀬戸市で1952年に創業。招き猫、干支置物などの縁起置物や四季折々の季節飾りを、企画・デザインから製造まで一貫生産で手掛けています。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 58.1
+    },
+    {
+      "hex": "#f6f6f6",
+      "pct": 41.6
+    },
+    {
+      "hex": "#103381",
+      "pct": 0.2
+    },
+    {
+      "hex": "#000000",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 55
+    },
+    {
+      "hex": "#999999",
+      "pct": 25.2
+    },
+    {
+      "hex": "#f4f4f4",
+      "pct": 19
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 0.7
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "dnp-shuei-gothic-gin-std",
+      "w": 574
+    },
+    {
+      "family": "Manrope",
+      "w": 573
+    }
+  ],
+  "sizes": [
+    {
+      "px": 200,
+      "w": 22
+    },
+    {
+      "px": 36,
+      "w": 21
+    },
+    {
+      "px": 20,
+      "w": 222
+    },
+    {
+      "px": 16,
+      "w": 420
+    },
+    {
+      "px": 14,
+      "w": 361
+    },
+    {
+      "px": 12,
+      "w": 63
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 2,
+    "ls": "0.080em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 20,
+        "weight": "500",
+        "lh": 1.8,
+        "ls": "0.064em",
+        "family": "dnp-shuei-gothic-gin-std"
+      },
+      {
+        "fs": 14,
+        "weight": "500",
+        "lh": 1.8,
+        "ls": "0.091em",
+        "family": "dnp-shuei-gothic-gin-std"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 8
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 8,
+      "n": 7
+    },
+    {
+      "px": 32,
+      "n": 3
+    },
+    {
+      "px": 48,
+      "n": 3
+    },
+    {
+      "px": 24,
+      "n": 2
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 240,
+      "n": 7
+    },
+    {
+      "px": 48,
+      "n": 2
+    },
+    {
+      "px": 60,
+      "n": 2
+    },
+    {
+      "px": 72,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1248,
+      "n": 22
+    },
+    {
+      "px": 572,
+      "n": 6
+    },
+    {
+      "px": 600,
+      "n": 6
+    }
+  ],
+  "buttons": [],
+  "bp": [
+    {
+      "px": 1001,
+      "n": 28
+    },
+    {
+      "px": 1000,
+      "n": 136
+    },
+    {
+      "px": 771,
+      "n": 52
+    },
+    {
+      "px": 770,
+      "n": 144
+    },
+    {
+      "px": 500,
+      "n": 165
+    }
+  ],
+  "sections": [
+    {
+      "h": 180,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": "#103381",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "右",
+      "split": "74:26"
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 2,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 340,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 280,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1320,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1120,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 940,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#f6f6f6",
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 2
+    },
+    {
+      "hex": "#f6f6f6",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "transparent",
+      "radius": 999,
+      "pad": "0/0",
+      "border": "1px #cccccc",
+      "shadow": null,
+      "n": 4
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 22,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 8
+      },
+      {
+        "ratio": "3:2",
+        "n": 2
+      },
+      {
+        "ratio": "16:9",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 22
+      }
+    ]
+  },
+  "circles": {
+    "n": 8,
+    "sizes": [
+      {
+        "px": 72,
+        "n": 3
+      },
+      {
+        "px": 184,
+        "n": 3
+      },
+      {
+        "px": 32,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 12,
+    "bodyLh": 1.8,
+    "sizes": [
+      20,
+      16,
+      14,
+      12,
+      10
+    ],
+    "pad": 120,
+    "gap": 15,
+    "sidePad": 20,
+    "h1": {
+      "fs": 12,
+      "lh": 1.8
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 2,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f6f6f6",
+      "面": 2,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#103381",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 50,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#999999",
+      "面": 0,
+      "文字": 13,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#103381",
+  "tags": [
+    "明朝",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

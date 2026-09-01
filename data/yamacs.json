@@ -1,0 +1,454 @@
+{
+  "slug": "yamacs",
+  "url": "https://www.yamacs.co.jp/",
+  "title": "ヤマックス株式会社｜特殊印刷からオリジナル技術まで｜印刷業界のパートナー",
+  "desc": "ヤマックス株式会社は、特殊印刷を中心に多業界のニーズに応える印刷技術の専門企業です。シール印刷、シルクスクリーン印刷、オフセット印刷、デジタル印刷など、幅広い技術でお客様の難題を解決しています。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 67.1
+    },
+    {
+      "hex": "#2f4350",
+      "pct": 14.1
+    },
+    {
+      "hex": "#111111",
+      "pct": 6.9
+    },
+    {
+      "hex": "#dddddd",
+      "pct": 6.1
+    },
+    {
+      "hex": "#f3f8fc",
+      "pct": 4.9
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#111111",
+      "pct": 55.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 40.7
+    },
+    {
+      "hex": "#b4b4b4",
+      "pct": 3
+    },
+    {
+      "hex": "#0071b9",
+      "pct": 0.1
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Zen Kaku Gothic New",
+      "w": 1579
+    },
+    {
+      "family": "Manrope",
+      "w": 211
+    }
+  ],
+  "sizes": [
+    {
+      "px": 20,
+      "w": 111
+    },
+    {
+      "px": 17,
+      "w": 389
+    },
+    {
+      "px": 16,
+      "w": 510
+    },
+    {
+      "px": 15,
+      "w": 161
+    },
+    {
+      "px": 14,
+      "w": 202
+    },
+    {
+      "px": 13,
+      "w": 198
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 2,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 35,
+        "weight": "900",
+        "lh": 1.75,
+        "ls": "0.023em",
+        "family": "Zen Kaku Gothic New"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 13,
+        "weight": "700",
+        "lh": 1.23,
+        "ls": "0.040em",
+        "family": "Manrope"
+      },
+      {
+        "fs": 40,
+        "weight": "700",
+        "lh": 1.75,
+        "ls": "0.040em",
+        "family": "Zen Kaku Gothic New"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 4,
+      "n": 21
+    },
+    {
+      "px": 0,
+      "n": 9
+    },
+    {
+      "px": 8,
+      "n": 9
+    },
+    {
+      "px": 24,
+      "n": 6
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(67, 67, 67, 0.12) 0px 4px 4px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 12,
+      "n": 13
+    },
+    {
+      "px": 14,
+      "n": 10
+    },
+    {
+      "px": 4,
+      "n": 5
+    },
+    {
+      "px": 20,
+      "n": 4
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 80,
+      "n": 2
+    },
+    {
+      "px": 120,
+      "n": 2
+    },
+    {
+      "px": 144,
+      "n": 2
+    },
+    {
+      "px": 40,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1200,
+      "n": 12
+    },
+    {
+      "px": 576,
+      "n": 7
+    },
+    {
+      "px": 768,
+      "n": 5
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 17,
+      "weight": "700",
+      "h": 50,
+      "ls": "0.8px",
+      "n": 7
+    },
+    {
+      "bg": "transparent",
+      "color": "#111111",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 17,
+      "weight": "700",
+      "h": 50,
+      "ls": "0.8px",
+      "n": 3
+    },
+    {
+      "bg": "transparent",
+      "color": "#111111",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "700",
+      "h": 50,
+      "ls": "0.8px",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1280,
+      "n": 48
+    },
+    {
+      "px": 782,
+      "n": 6
+    },
+    {
+      "px": 781,
+      "n": 1
+    },
+    {
+      "px": 768,
+      "n": 6
+    },
+    {
+      "px": 600,
+      "n": 10
+    }
+  ],
+  "sections": [
+    {
+      "h": 1840,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "左",
+      "split": "28:72"
+    },
+    {
+      "h": 1240,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "右",
+      "split": "27:73"
+    },
+    {
+      "h": 1000,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 980,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 7
+    },
+    {
+      "hex": "#dddddd",
+      "n": 6
+    },
+    {
+      "hex": "#2f4350",
+      "n": 1
+    },
+    {
+      "hex": "#111111",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": null,
+      "bg": "#dddddd",
+      "radius": 24,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 6
+    },
+    {
+      "onBg": null,
+      "bg": "#ffffff",
+      "radius": 8,
+      "pad": "44/0",
+      "border": null,
+      "shadow": null,
+      "n": 5
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#f3f8fc",
+      "color": "#111111",
+      "radius": "999px",
+      "pad": "3px 12px",
+      "fs": 12,
+      "border": null,
+      "n": 6
+    }
+  ],
+  "images": {
+    "n": 23,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 13
+      },
+      {
+        "ratio": "4:3",
+        "n": 6
+      },
+      {
+        "ratio": "3:4",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 23
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sizes": [
+      17,
+      16,
+      15,
+      13,
+      12
+    ],
+    "pad": 24,
+    "gap": 12,
+    "sidePad": 20,
+    "h1": {
+      "fs": 26,
+      "lh": 1.75
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 25,
+      "文字": 27,
+      "枠": 0,
+      "ボタン": 3
+    },
+    {
+      "hex": "#2f4350",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#111111",
+      "面": 4,
+      "文字": 75,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#dddddd",
+      "面": 8,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f3f8fc",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#b4b4b4",
+      "面": 0,
+      "文字": 8,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#0071b9",
+      "面": 2,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#0071b9",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

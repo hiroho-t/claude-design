@@ -6,6 +6,7 @@ ROOT=/Users/hiroho/Documents/site-wireframe
 DEST="$ROOT/styles"
 mkdir -p "$DEST"
 rsync -a index.html data.json "$DEST/"
+rsync -a data/categories.json data/groups.json "$DEST/" 2>/dev/null || true
 rsync -a --delete s/ "$DEST/s/"
 rsync -a --delete p/ "$DEST/p/"
 rsync -a --delete --include="*.jpg" --exclude="*" shot/ "$DEST/shot/"
