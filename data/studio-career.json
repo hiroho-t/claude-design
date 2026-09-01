@@ -1,0 +1,422 @@
+{
+  "slug": "studio-career",
+  "url": "https://studio.inc/career",
+  "title": "採用情報 | Studio株式会社(Studio, Inc.)",
+  "desc": "Studio株式会社の採用情報をご覧いただけます。エンジニア、デザイナー、マーケティング、カスタマーサポート等、あなたの「個性」を生かせるポジションをご用意しています。",
+  "bg": [
+    {
+      "hex": "#eaeaea",
+      "pct": 64.1
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 14.7
+    },
+    {
+      "hex": "#222222",
+      "pct": 10.5
+    },
+    {
+      "hex": "#000000",
+      "pct": 6
+    },
+    {
+      "hex": "#f5f5f5",
+      "pct": 4.7
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#222222",
+      "pct": 46.9
+    },
+    {
+      "hex": "#000000",
+      "pct": 32
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 10.9
+    },
+    {
+      "hex": "#cecece",
+      "pct": 3.5
+    }
+  ],
+  "pageBg": "#eaeaea",
+  "fonts": [
+    {
+      "family": "Inter",
+      "w": 2634
+    },
+    {
+      "family": "Material Icons",
+      "w": 5
+    }
+  ],
+  "sizes": [
+    {
+      "px": 20,
+      "w": 249
+    },
+    {
+      "px": 18,
+      "w": 144
+    },
+    {
+      "px": 16,
+      "w": 131
+    },
+    {
+      "px": 15,
+      "w": 540
+    },
+    {
+      "px": 14,
+      "w": 252
+    },
+    {
+      "px": 13,
+      "w": 921
+    }
+  ],
+  "body": {
+    "fs": 13,
+    "lh": 1.6,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 48,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "Inter"
+      },
+      {
+        "fs": 42,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "Inter"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 12,
+        "weight": "600",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "Inter"
+      },
+      {
+        "fs": 20,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0.010em",
+        "family": "Inter"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 8,
+      "n": 8
+    },
+    {
+      "px": 0,
+      "n": 6
+    },
+    {
+      "px": 6,
+      "n": 2
+    },
+    {
+      "px": 12,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 20,
+      "n": 56
+    },
+    {
+      "px": 40,
+      "n": 26
+    },
+    {
+      "px": 10,
+      "n": 14
+    },
+    {
+      "px": 80,
+      "n": 13
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 6
+    },
+    {
+      "px": 80,
+      "n": 3
+    },
+    {
+      "px": 96,
+      "n": 2
+    },
+    {
+      "px": 100,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 840,
+      "n": 10
+    },
+    {
+      "px": 1360,
+      "n": 10
+    },
+    {
+      "px": 680,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": "1px #ffffff",
+      "radius": "6px",
+      "pad": "11px 15px",
+      "fs": 13,
+      "weight": "700",
+      "h": 42,
+      "ls": "0",
+      "n": 1
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#222222",
+      "border": "1px #222222",
+      "radius": "6px",
+      "pad": "11px 15px",
+      "fs": 13,
+      "weight": "700",
+      "h": 42,
+      "ls": "0",
+      "n": 1
+    }
+  ],
+  "bp": [],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#000000",
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 880,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "22:78"
+    },
+    {
+      "h": 740,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": "#f5f5f5",
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1560,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": "#222222",
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 640,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1200,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "47:53"
+    },
+    {
+      "h": 2560,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 3
+    },
+    {
+      "hex": "#eaeaea",
+      "n": 2
+    },
+    {
+      "hex": "#000000",
+      "n": 1
+    },
+    {
+      "hex": "#f5f5f5",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 35,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 25
+      },
+      {
+        "ratio": "3:4",
+        "n": 3
+      },
+      {
+        "ratio": "16:9",
+        "n": 3
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 35
+      }
+    ]
+  },
+  "circles": {
+    "n": 4,
+    "sizes": [
+      {
+        "px": 32,
+        "n": 4
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 13,
+    "bodyLh": 1.6,
+    "sizes": [
+      18,
+      15,
+      14,
+      13,
+      12
+    ],
+    "pad": 104,
+    "gap": 20,
+    "sidePad": 16,
+    "h1": {
+      "fs": 28,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#eaeaea",
+      "面": 2,
+      "文字": 5,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 5,
+      "文字": 22,
+      "枠": 2,
+      "ボタン": 1
+    },
+    {
+      "hex": "#222222",
+      "面": 2,
+      "文字": 38,
+      "枠": 5,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 31,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f5f5f5",
+      "面": 1,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#cecece",
+      "面": 0,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "モノトーン"
+  ]
+}

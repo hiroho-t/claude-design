@@ -1,0 +1,301 @@
+{
+  "slug": "worldftl",
+  "url": "https://worldftl.com/",
+  "title": "世界とつながる医薬品卸売パートナー | First Trade Ltd.（ファーストトレード）",
+  "desc": "",
+  "bg": [],
+  "ink": [
+    {
+      "hex": "#2d4f6a",
+      "pct": 66.3
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 28
+    },
+    {
+      "hex": "#60829d",
+      "pct": 3.9
+    },
+    {
+      "hex": "#88a1b5",
+      "pct": 1.8
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 1280
+    },
+    {
+      "family": "Expletus Sans",
+      "w": 183
+    }
+  ],
+  "sizes": [
+    {
+      "px": 32,
+      "w": 103
+    },
+    {
+      "px": 24,
+      "w": 64
+    },
+    {
+      "px": 18,
+      "w": 183
+    },
+    {
+      "px": 17,
+      "w": 247
+    },
+    {
+      "px": 16,
+      "w": 440
+    },
+    {
+      "px": 15,
+      "w": 253
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 2,
+    "ls": "0.040em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 96,
+        "weight": "400",
+        "lh": 1.2,
+        "ls": "0.020em",
+        "family": "Expletus Sans"
+      }
+    ]
+  },
+  "radius": [],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 84,
+      "n": 3
+    },
+    {
+      "px": 10,
+      "n": 2
+    },
+    {
+      "px": 20,
+      "n": 1
+    },
+    {
+      "px": 22,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 1
+    },
+    {
+      "px": 60,
+      "n": 1
+    },
+    {
+      "px": 64,
+      "n": 1
+    },
+    {
+      "px": 80,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1272,
+      "n": 15
+    },
+    {
+      "px": 840,
+      "n": 4
+    },
+    {
+      "px": 564,
+      "n": 3
+    }
+  ],
+  "buttons": [],
+  "bp": [
+    {
+      "px": 1366,
+      "n": 5
+    },
+    {
+      "px": 1365,
+      "n": 5
+    },
+    {
+      "px": 768,
+      "n": 5
+    },
+    {
+      "px": 767,
+      "n": 5
+    }
+  ],
+  "sections": [
+    {
+      "h": 1180,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1820,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 2780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 2240,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 540,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 40,
+    "fullBleed": 13,
+    "ratios": [
+      {
+        "ratio": "4:3",
+        "n": 24
+      },
+      {
+        "ratio": "3:2",
+        "n": 11
+      },
+      {
+        "ratio": "16:9",
+        "n": 3
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 37
+      },
+      {
+        "px": 10,
+        "n": 3
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sizes": [
+      25,
+      21,
+      16,
+      15,
+      13
+    ],
+    "pad": 40,
+    "gap": 10,
+    "sidePad": 21,
+    "h1": {
+      "fs": 41,
+      "lh": 1.6
+    }
+  },
+  "usage": [
+    {
+      "hex": "#2d4f6a",
+      "面": 0,
+      "文字": 32,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 0,
+      "文字": 28,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#60829d",
+      "面": 0,
+      "文字": 6,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#88a1b5",
+      "面": 0,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#2d4f6a",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

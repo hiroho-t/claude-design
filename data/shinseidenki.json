@@ -1,0 +1,426 @@
+{
+  "slug": "shinseidenki",
+  "url": "https://www.shinseidenki.co.jp/",
+  "title": "新生電機｜制御・電子機器等の専門商社",
+  "desc": "新生電機は岡山県を中心に中四国、九州北部の西日本エリアで、ライン制御部品、機械制御パーツ等の部品販売、制御設計やメンテナンス等のテクニカルサポートまで一貫して行っています。",
+  "bg": [
+    {
+      "hex": "#022a60",
+      "pct": 65.3
+    },
+    {
+      "hex": "#fcfcfc",
+      "pct": 30.2
+    },
+    {
+      "hex": "#f2f2f2",
+      "pct": 4.2
+    },
+    {
+      "hex": "#dbdbdb",
+      "pct": 0.3
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#f8f9fa",
+      "pct": 54.4
+    },
+    {
+      "hex": "#2f3639",
+      "pct": 41.3
+    },
+    {
+      "hex": "#cccccc",
+      "pct": 3.3
+    },
+    {
+      "hex": "#008ddb",
+      "pct": 0.6
+    }
+  ],
+  "pageBg": "#fcfcfc",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 1513
+    },
+    {
+      "family": "Work Sans",
+      "w": 301
+    }
+  ],
+  "sizes": [
+    {
+      "px": 34,
+      "w": 103
+    },
+    {
+      "px": 20,
+      "w": 131
+    },
+    {
+      "px": 16,
+      "w": 107
+    },
+    {
+      "px": 15,
+      "w": 871
+    },
+    {
+      "px": 14,
+      "w": 224
+    },
+    {
+      "px": 12,
+      "w": 201
+    }
+  ],
+  "body": {
+    "fs": 15,
+    "lh": 2,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0.047em",
+        "family": "Work Sans"
+      },
+      {
+        "fs": 13,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0",
+        "family": "Work Sans"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 6
+    },
+    {
+      "px": 32,
+      "n": 5
+    },
+    {
+      "px": 22,
+      "n": 1
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(47, 54, 57, 0.04) 3px 3px 12px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 8,
+      "n": 18
+    },
+    {
+      "px": 10,
+      "n": 10
+    },
+    {
+      "px": 14,
+      "n": 5
+    },
+    {
+      "px": 34,
+      "n": 4
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 4
+    },
+    {
+      "px": 48,
+      "n": 4
+    },
+    {
+      "px": 64,
+      "n": 3
+    },
+    {
+      "px": 36,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1240,
+      "n": 19
+    },
+    {
+      "px": 604,
+      "n": 4
+    },
+    {
+      "px": 636,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#f2f2f2",
+      "color": "#2f3639",
+      "border": null,
+      "radius": "32px",
+      "pad": "0px 64px",
+      "fs": 15,
+      "weight": "700",
+      "h": 64,
+      "ls": "0.75px",
+      "n": 4
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 68px",
+      "fs": 15,
+      "weight": "700",
+      "h": 56,
+      "ls": "0.75px",
+      "n": 1
+    },
+    {
+      "bg": "#f2f2f2",
+      "color": "#2f3639",
+      "border": null,
+      "radius": "22px",
+      "pad": "0px 24px",
+      "fs": 15,
+      "weight": "700",
+      "h": 44,
+      "ls": "0.75px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1200,
+      "n": 21
+    },
+    {
+      "px": 1024,
+      "n": 35
+    },
+    {
+      "px": 782,
+      "n": 6
+    },
+    {
+      "px": 767,
+      "n": 305
+    },
+    {
+      "px": 600,
+      "n": 107
+    }
+  ],
+  "sections": [
+    {
+      "h": 1180,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1120,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 2240,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 460,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "25:75"
+    },
+    {
+      "h": 1480,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#022a60",
+      "n": 1
+    },
+    {
+      "hex": "#fcfcfc",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [
+    {
+      "bg": "#dbdbdb",
+      "color": "#2f3639",
+      "radius": "999px",
+      "pad": "5px 9px",
+      "fs": 12,
+      "border": null,
+      "n": 4
+    }
+  ],
+  "images": {
+    "n": 23,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:4",
+        "n": 10
+      },
+      {
+        "ratio": "4:3",
+        "n": 10
+      },
+      {
+        "ratio": "3:2",
+        "n": 3
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 23
+      }
+    ]
+  },
+  "circles": {
+    "n": 7,
+    "sizes": [
+      {
+        "px": 16,
+        "n": 4
+      },
+      {
+        "px": 24,
+        "n": 1
+      },
+      {
+        "px": 32,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 15,
+    "bodyLh": 2,
+    "sizes": [
+      22,
+      16,
+      15,
+      14,
+      12
+    ],
+    "pad": 32,
+    "gap": 8,
+    "sidePad": 0,
+    "h1": {
+      "fs": 14,
+      "lh": 1
+    }
+  },
+  "usage": [
+    {
+      "hex": "#022a60",
+      "面": 1,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#fcfcfc",
+      "面": 7,
+      "文字": 49,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f2f2f2",
+      "面": 6,
+      "文字": 0,
+      "枠": 1,
+      "ボタン": 5
+    },
+    {
+      "hex": "#2f3639",
+      "面": 0,
+      "文字": 57,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#cccccc",
+      "面": 0,
+      "文字": 6,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#008ddb",
+      "面": 0,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#008ddb",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "slug": "fujiwaraprinting",
+  "url": "https://www.fujiwara-i.com/",
+  "title": "藤原印刷｜つくるよろこびをつくる",
+  "desc": "戦後ひとりの女性タイピストがはじめた印刷会社。 藤原印刷株式会社の公式サイトです。 「つくるよろこびをつくる」「つくる人を増やす」を理念に掲げクラフトプレスを推進しています。",
+  "bg": [
+    {
+      "hex": "#f9f9f9",
+      "pct": 57.5
+    },
+    {
+      "hex": "#e5e4e4",
+      "pct": 12.2
+    },
+    {
+      "hex": "#f2f1f1",
+      "pct": 6.7
+    },
+    {
+      "hex": "#92b34b",
+      "pct": 5.7
+    },
+    {
+      "hex": "#e8a100",
+      "pct": 5.7
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#ffffff",
+      "pct": 47.4
+    },
+    {
+      "hex": "#393836",
+      "pct": 36.6
+    },
+    {
+      "hex": "#6e6d6c",
+      "pct": 9.5
+    },
+    {
+      "hex": "#a8a7a6",
+      "pct": 4.3
+    }
+  ],
+  "pageBg": "#f9f9f9",
+  "fonts": [
+    {
+      "family": "Inter",
+      "w": 1022
+    },
+    {
+      "family": "Hiragino Kaku Gothic ProN",
+      "w": 25
+    }
+  ],
+  "sizes": [
+    {
+      "px": 28,
+      "w": 142
+    },
+    {
+      "px": 18,
+      "w": 135
+    },
+    {
+      "px": 16,
+      "w": 442
+    },
+    {
+      "px": 15,
+      "w": 35
+    },
+    {
+      "px": 14,
+      "w": 274
+    },
+    {
+      "px": 13,
+      "w": 19
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": null,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 28,
+        "weight": "500",
+        "lh": 1.3,
+        "ls": "0.100em",
+        "family": "Inter"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 59
+    },
+    {
+      "px": 4,
+      "n": 9
+    },
+    {
+      "px": 40,
+      "n": 3
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.05) 8px 7px 30px 0px",
+      "n": 3
+    }
+  ],
+  "gap": [
+    {
+      "px": 10,
+      "n": 34
+    },
+    {
+      "px": 16,
+      "n": 31
+    },
+    {
+      "px": 40,
+      "n": 24
+    },
+    {
+      "px": 4,
+      "n": 22
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 120,
+      "n": 12
+    },
+    {
+      "px": 40,
+      "n": 5
+    },
+    {
+      "px": 32,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1200,
+      "n": 5
+    },
+    {
+      "px": 580,
+      "n": 4
+    },
+    {
+      "px": 660,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "3px 4px",
+      "fs": 28,
+      "weight": "500",
+      "h": 41,
+      "ls": "2.8px",
+      "n": 4
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "400",
+      "h": 31,
+      "ls": "1.4px",
+      "n": 4
+    },
+    {
+      "bg": "#393836",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "4px",
+      "pad": "6px 12px",
+      "fs": 14,
+      "weight": "400",
+      "h": 31,
+      "ls": "1.4px",
+      "n": 4
+    }
+  ],
+  "bp": [
+    {
+      "px": 1280,
+      "n": 29
+    },
+    {
+      "px": 960,
+      "n": 96
+    },
+    {
+      "px": 600,
+      "n": 164
+    }
+  ],
+  "sections": [
+    {
+      "h": 1000,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#ffffff",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 300,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1000,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 2840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 2,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1020,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 640,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "右",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 4,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1100,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#f2f1f1",
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f9f9f9",
+      "n": 13
+    },
+    {
+      "hex": "#e5e4e4",
+      "n": 10
+    },
+    {
+      "hex": "#393836",
+      "n": 4
+    },
+    {
+      "hex": "#ffffff",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f9f9f9",
+      "bg": "#f9f9f9",
+      "radius": 0,
+      "pad": "64/64",
+      "border": "1px #e5e4e4",
+      "shadow": null,
+      "n": 12
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#393836",
+      "color": "#333333",
+      "radius": "4px",
+      "pad": "6px 12px",
+      "fs": 16,
+      "border": null,
+      "n": 4
+    },
+    {
+      "bg": "transparent",
+      "color": "#333333",
+      "radius": "999px",
+      "pad": "6px 18px",
+      "fs": 16,
+      "border": "1px",
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 5,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:4",
+        "n": 2
+      },
+      {
+        "ratio": "2:3",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 5
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.8,
+    "sizes": [
+      24,
+      16,
+      14,
+      13,
+      12
+    ],
+    "pad": 80,
+    "gap": 4,
+    "sidePad": 32,
+    "h1": {
+      "fs": 24,
+      "lh": 1.3
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f9f9f9",
+      "面": 16,
+      "文字": 34,
+      "枠": 13,
+      "ボタン": 0
+    },
+    {
+      "hex": "#e5e4e4",
+      "面": 25,
+      "文字": 0,
+      "枠": 15,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f2f1f1",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#92b34b",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#e8a100",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#393836",
+      "面": 9,
+      "文字": 29,
+      "枠": 0,
+      "ボタン": 4
+    },
+    {
+      "hex": "#6e6d6c",
+      "面": 0,
+      "文字": 12,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#a8a7a6",
+      "面": 0,
+      "文字": 5,
+      "枠": 2,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#92b34b",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

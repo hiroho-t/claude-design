@@ -1,0 +1,463 @@
+{
+  "slug": "kawatatec",
+  "url": "https://kawatatec.co.jp/",
+  "title": "大型旋盤チャックの株式会社カワタテック Kawatate Corp.",
+  "desc": "Φ600以上の大型旋盤チャックの開発・製造に強みを持つ奈良県桜井市の工作機械周辺装置メーカー。ニーズに合わせた柔軟な製品設計・開発に定評があります。",
+  "bg": [
+    {
+      "hex": "#002f7c",
+      "pct": 34.2
+    },
+    {
+      "hex": "#ebebeb",
+      "pct": 45.6
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 18
+    },
+    {
+      "hex": "#dddddd",
+      "pct": 1.4
+    },
+    {
+      "hex": "#202020",
+      "pct": 0.7
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#333333",
+      "pct": 35.1
+    },
+    {
+      "hex": "#002f7c",
+      "pct": 31.4
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 33.5
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 1814
+    },
+    {
+      "family": "Schibsted Grotesk",
+      "w": 331
+    },
+    {
+      "family": "Nunito",
+      "w": 66
+    }
+  ],
+  "sizes": [
+    {
+      "px": 28,
+      "w": 89
+    },
+    {
+      "px": 24,
+      "w": 89
+    },
+    {
+      "px": 17,
+      "w": 96
+    },
+    {
+      "px": 16,
+      "w": 54
+    },
+    {
+      "px": 15,
+      "w": 1311
+    },
+    {
+      "px": 14,
+      "w": 402
+    }
+  ],
+  "body": {
+    "fs": 15,
+    "lh": null,
+    "ls": "0"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 15,
+        "weight": "400",
+        "lh": null,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 14,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 15,
+        "weight": "400",
+        "lh": 1.6,
+        "ls": "0.040em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 15,
+        "weight": "700",
+        "lh": 1.8,
+        "ls": "0.040em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 26,
+        "weight": "700",
+        "lh": 1.2,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 4,
+      "n": 19
+    },
+    {
+      "px": 0,
+      "n": 13
+    },
+    {
+      "px": 8,
+      "n": 8
+    },
+    {
+      "px": 48,
+      "n": 2
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 12,
+      "n": 12
+    },
+    {
+      "px": 46,
+      "n": 9
+    },
+    {
+      "px": 16,
+      "n": 7
+    },
+    {
+      "px": 5,
+      "n": 6
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 2
+    },
+    {
+      "px": 56,
+      "n": 2
+    },
+    {
+      "px": 60,
+      "n": 2
+    },
+    {
+      "px": 76,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1384,
+      "n": 12
+    },
+    {
+      "px": 692,
+      "n": 7
+    },
+    {
+      "px": 1204,
+      "n": 7
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#1494f6",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "48px",
+      "pad": "0px 30px",
+      "fs": 14,
+      "weight": "500",
+      "h": 30,
+      "ls": "0.42px",
+      "n": 1
+    },
+    {
+      "bg": "#002f7c",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "8px",
+      "pad": "18px 18px",
+      "fs": 14,
+      "weight": "400",
+      "h": 56,
+      "ls": "0.42px",
+      "n": 1
+    },
+    {
+      "bg": "#002f7c",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "8px",
+      "pad": "17px 18px",
+      "fs": 14,
+      "weight": "500",
+      "h": 56,
+      "ls": "0.42px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1366,
+      "n": 3
+    },
+    {
+      "px": 921,
+      "n": 3
+    },
+    {
+      "px": 920,
+      "n": 2
+    },
+    {
+      "px": 768,
+      "n": 40
+    },
+    {
+      "px": 767,
+      "n": 5
+    }
+  ],
+  "sections": [
+    {
+      "h": 860,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 2440,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 540,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1100,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 560,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 620,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#002f7c",
+      "n": 9
+    },
+    {
+      "hex": "#ffffff",
+      "n": 9
+    },
+    {
+      "hex": "#dddddd",
+      "n": 3
+    },
+    {
+      "hex": "#f1f1f1",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ebebeb",
+      "bg": "#ffffff",
+      "radius": 4,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 6
+    },
+    {
+      "onBg": "#ebebeb",
+      "bg": "#002f7c",
+      "radius": 4,
+      "pad": "16/16",
+      "border": null,
+      "shadow": null,
+      "n": 6
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 55,
+    "fullBleed": 6,
+    "ratios": [
+      {
+        "ratio": "16:9",
+        "n": 26
+      },
+      {
+        "ratio": "1:1",
+        "n": 14
+      },
+      {
+        "ratio": "3:2",
+        "n": 6
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 55
+      }
+    ]
+  },
+  "circles": {
+    "n": 12,
+    "sizes": [
+      {
+        "px": 40,
+        "n": 12
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 13,
+    "bodyLh": 1.8,
+    "sizes": [
+      24,
+      16,
+      14,
+      13,
+      12
+    ],
+    "pad": 36,
+    "gap": 8,
+    "sidePad": 36,
+    "h1": {
+      "fs": 16,
+      "lh": null
+    }
+  },
+  "usage": [
+    {
+      "hex": "#002f7c",
+      "面": 16,
+      "文字": 73,
+      "枠": 6,
+      "ボタン": 4
+    },
+    {
+      "hex": "#ebebeb",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 20,
+      "文字": 61,
+      "枠": 7,
+      "ボタン": 2
+    },
+    {
+      "hex": "#dddddd",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#202020",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#333333",
+      "面": 0,
+      "文字": 23,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#002f7c",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

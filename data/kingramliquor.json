@@ -1,0 +1,535 @@
+{
+  "slug": "kingramliquor",
+  "url": "https://kingram-liquor.jp/",
+  "title": "お酒買取専門店キングラムリカー",
+  "desc": "大阪/東京にあるお酒買取・販売専門店キングラムリカーは、未開封のウイスキー・ブランデー・焼酎・ビール等を買取りします。専門査定士による徹底した相場把握で業界トップクラスの高額買取を実現。店頭買取・宅配買取実施中。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 41.8
+    },
+    {
+      "hex": "#f1f0eb",
+      "pct": 26.1
+    },
+    {
+      "hex": "#eac512",
+      "pct": 12.6
+    },
+    {
+      "hex": "#191f20",
+      "pct": 10.3
+    },
+    {
+      "hex": "#3c845a",
+      "pct": 3.7
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#191f20",
+      "pct": 65.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 11.3
+    },
+    {
+      "hex": "#a8aeaf",
+      "pct": 8.2
+    },
+    {
+      "hex": "#f1f0eb",
+      "pct": 7.1
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 3115
+    },
+    {
+      "family": "Inter Tight",
+      "w": 583
+    }
+  ],
+  "sizes": [
+    {
+      "px": 19,
+      "w": 131
+    },
+    {
+      "px": 18,
+      "w": 233
+    },
+    {
+      "px": 16,
+      "w": 1102
+    },
+    {
+      "px": 14,
+      "w": 614
+    },
+    {
+      "px": 13,
+      "w": 202
+    },
+    {
+      "px": 10,
+      "w": 754
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.8,
+    "ls": "0.010em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 53,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0.003em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 19,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0.008em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0.010em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0.005em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 10,
+      "n": 44
+    },
+    {
+      "px": 0,
+      "n": 25
+    },
+    {
+      "px": 15,
+      "n": 3
+    },
+    {
+      "px": 24,
+      "n": 2
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(124, 128, 129, 0.25) 0px 2px 15px 0px",
+      "n": 28
+    },
+    {
+      "css": "rgba(124, 128, 129, 0.25) 3px 3px 5px 0px",
+      "n": 6
+    }
+  ],
+  "gap": [
+    {
+      "px": 8,
+      "n": 31
+    },
+    {
+      "px": 14,
+      "n": 22
+    },
+    {
+      "px": 3,
+      "n": 18
+    },
+    {
+      "px": 16,
+      "n": 11
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 112,
+      "n": 6
+    },
+    {
+      "px": 40,
+      "n": 4
+    },
+    {
+      "px": 76,
+      "n": 3
+    },
+    {
+      "px": 48,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1088,
+      "n": 19
+    },
+    {
+      "px": 608,
+      "n": 12
+    },
+    {
+      "px": 1160,
+      "n": 8
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#191f20",
+      "border": "1px #d9dcdd",
+      "radius": "0px",
+      "pad": "19px 16px",
+      "fs": 10,
+      "weight": "700",
+      "h": 48,
+      "ls": "0.157388px",
+      "n": 16
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#191f20",
+      "border": "2px #c3c9ca",
+      "radius": "10px",
+      "pad": "16px 31px",
+      "fs": 16,
+      "weight": "700",
+      "h": 64,
+      "ls": "0.157388px",
+      "n": 5
+    },
+    {
+      "bg": "transparent",
+      "color": "#191f20",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "700",
+      "h": 47,
+      "ls": "0.157388px",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 1599,
+      "n": 44
+    },
+    {
+      "px": 1299,
+      "n": 81
+    },
+    {
+      "px": 1023,
+      "n": 155
+    },
+    {
+      "px": 767,
+      "n": 330
+    },
+    {
+      "px": 567,
+      "n": 191
+    }
+  ],
+  "sections": [
+    {
+      "h": 720,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 320,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#f1f0eb",
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 380,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "21:79"
+    },
+    {
+      "h": 1120,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#f1f0eb",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 420,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#eac512",
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 2220,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1960,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "左",
+      "split": "55:45"
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 740,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 420,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#eac512",
+      "align": null,
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 20
+    },
+    {
+      "hex": "#f1f0eb",
+      "n": 5
+    },
+    {
+      "hex": "#eac512",
+      "n": 2
+    },
+    {
+      "hex": "#3c845a",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f1f0eb",
+      "bg": "#ffffff",
+      "radius": 10,
+      "pad": "14/14",
+      "border": "2px #ffffff",
+      "shadow": "rgba(124, 128, 129, 0.25) 0px 2px 15px 0px",
+      "n": 16
+    },
+    {
+      "onBg": "#eac512",
+      "bg": "#f1f0eb",
+      "radius": 24,
+      "pad": "38/0",
+      "border": null,
+      "shadow": null,
+      "n": 2
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#eac512",
+      "color": "#191f20",
+      "radius": "999px",
+      "pad": "2px 7px",
+      "fs": 10,
+      "border": "1px",
+      "n": 4
+    }
+  ],
+  "images": {
+    "n": 44,
+    "fullBleed": 6,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 25
+      },
+      {
+        "ratio": "21:9",
+        "n": 2
+      },
+      {
+        "ratio": "16:9",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 26
+      },
+      {
+        "px": 10,
+        "n": 16
+      }
+    ]
+  },
+  "circles": {
+    "n": 9,
+    "sizes": [
+      {
+        "px": 32,
+        "n": 4
+      },
+      {
+        "px": 104,
+        "n": 2
+      },
+      {
+        "px": 152,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.8,
+    "sizes": [
+      15,
+      14,
+      13,
+      12,
+      10
+    ],
+    "pad": 32,
+    "gap": 10,
+    "sidePad": 20,
+    "h1": {
+      "fs": 32,
+      "lh": 1.6
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 57,
+      "文字": 29,
+      "枠": 28,
+      "ボタン": 9
+    },
+    {
+      "hex": "#f1f0eb",
+      "面": 9,
+      "文字": 8,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#eac512",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#191f20",
+      "面": 4,
+      "文字": 177,
+      "枠": 6,
+      "ボタン": 2
+    },
+    {
+      "hex": "#3c845a",
+      "面": 4,
+      "文字": 21,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#a8aeaf",
+      "面": 0,
+      "文字": 15,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#eac512",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

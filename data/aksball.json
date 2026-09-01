@@ -1,0 +1,445 @@
+{
+  "slug": "aksball",
+  "url": "https://www.aksball.co.jp/",
+  "title": "株式会社天辻鋼球製作所",
+  "desc": "天辻鋼球製作所の高精度の転がり軸受用鋼球は、自動車産業、航空機産業、産業機械など、世界中の幅広い分野で使用されています。日夜続けられる研究と技術革新の結果、今や「地球一のまるさ」を手に入れるまでに至っています。",
+  "bg": [
+    {
+      "hex": "#f6f7f9",
+      "pct": 62.4
+    },
+    {
+      "hex": "#a0acba",
+      "pct": 23
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 11.3
+    },
+    {
+      "hex": "#e60012",
+      "pct": 3.2
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#434750",
+      "pct": 52.5
+    },
+    {
+      "hex": "#dee2eb",
+      "pct": 31
+    },
+    {
+      "hex": "#a0acba",
+      "pct": 8.3
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 7.6
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 1565
+    },
+    {
+      "family": "Montserrat",
+      "w": 245
+    }
+  ],
+  "sizes": [
+    {
+      "px": 187,
+      "w": 76
+    },
+    {
+      "px": 23,
+      "w": 53
+    },
+    {
+      "px": 18,
+      "w": 1161
+    },
+    {
+      "px": 16,
+      "w": 95
+    },
+    {
+      "px": 14,
+      "w": 195
+    },
+    {
+      "px": 12,
+      "w": 84
+    }
+  ],
+  "body": {
+    "fs": 18,
+    "lh": 1.8,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 62,
+        "weight": "500",
+        "lh": 1.4,
+        "ls": "0.014em",
+        "family": "Montserrat"
+      },
+      {
+        "fs": 46,
+        "weight": "500",
+        "lh": 1.4,
+        "ls": "0.019em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 19,
+        "weight": "500",
+        "lh": 1.8,
+        "ls": "0.046em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 29,
+        "weight": "500",
+        "lh": 1.8,
+        "ls": "0.050em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 23,
+        "weight": "500",
+        "lh": 1.4,
+        "ls": "0.038em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 8
+    },
+    {
+      "px": 19,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 18,
+      "n": 31
+    },
+    {
+      "px": 16,
+      "n": 7
+    },
+    {
+      "px": 37,
+      "n": 6
+    },
+    {
+      "px": 56,
+      "n": 5
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 56,
+      "n": 6
+    },
+    {
+      "px": 112,
+      "n": 3
+    },
+    {
+      "px": 132,
+      "n": 3
+    },
+    {
+      "px": 76,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 936,
+      "n": 14
+    },
+    {
+      "px": 720,
+      "n": 10
+    },
+    {
+      "px": 1088,
+      "n": 8
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#a0acba",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 18,
+      "weight": "400",
+      "h": 65,
+      "ls": "0.886939px",
+      "n": 5
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "400",
+      "h": 67,
+      "ls": "0.886939px",
+      "n": 3
+    },
+    {
+      "bg": "#e60012",
+      "color": "#ffffff",
+      "border": "1px #e60012",
+      "radius": "999px",
+      "pad": "12px 9px",
+      "fs": 16,
+      "weight": "400",
+      "h": 67,
+      "ls": "0.886939px",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 1299,
+      "n": 1
+    },
+    {
+      "px": 1023,
+      "n": 1
+    },
+    {
+      "px": 767,
+      "n": 1
+    },
+    {
+      "px": 567,
+      "n": 1
+    },
+    {
+      "px": 374,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 4480,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1700,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 940,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#f6f7f9",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 760,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "28:72"
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 1
+    },
+    {
+      "hex": "#f6f7f9",
+      "n": 1
+    },
+    {
+      "hex": "#a0acba",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#e60012",
+      "radius": "999px",
+      "pad": "1px 13px",
+      "fs": 9,
+      "border": "1px",
+      "n": 3
+    },
+    {
+      "bg": "transparent",
+      "color": "#434750",
+      "radius": "999px",
+      "pad": "2px 12px",
+      "fs": 12,
+      "border": "1px",
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 32,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:4",
+        "n": 16
+      },
+      {
+        "ratio": "3:2",
+        "n": 6
+      },
+      {
+        "ratio": "1:1",
+        "n": 5
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 32
+      }
+    ]
+  },
+  "circles": {
+    "n": 24,
+    "sizes": [
+      {
+        "px": 48,
+        "n": 17
+      },
+      {
+        "px": 40,
+        "n": 4
+      },
+      {
+        "px": 72,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sizes": [
+      101,
+      16,
+      14,
+      12,
+      10
+    ],
+    "pad": 32,
+    "gap": 16,
+    "sidePad": 20,
+    "h1": {
+      "fs": 50,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f6f7f9",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#a0acba",
+      "面": 11,
+      "文字": 27,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 9,
+      "文字": 10,
+      "枠": 2,
+      "ボタン": 1
+    },
+    {
+      "hex": "#e60012",
+      "面": 14,
+      "文字": 8,
+      "枠": 16,
+      "ボタン": 3
+    },
+    {
+      "hex": "#434750",
+      "面": 0,
+      "文字": 76,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#dee2eb",
+      "面": 0,
+      "文字": 4,
+      "枠": 10,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#a0acba",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "slug": "budounoonepiece",
+  "url": "https://budou-no-onepiece.com/",
+  "title": "ぶどうのワンピース – budou-no-onepiece",
+  "desc": "ワインを絞った後のぶどうの皮を、 新たな資源として有効活用するために生まれた“ぶどうのワンピース“のブランドサイト",
+  "bg": [
+    {
+      "hex": "#d6c5ab",
+      "pct": 51.9
+    },
+    {
+      "hex": "#f4ebce",
+      "pct": 26
+    },
+    {
+      "hex": "#f9f9f9",
+      "pct": 14.7
+    },
+    {
+      "hex": "#69285a",
+      "pct": 7.4
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#69285a",
+      "pct": 93.4
+    },
+    {
+      "hex": "#f4ebce",
+      "pct": 5.6
+    },
+    {
+      "hex": "#9b927e",
+      "pct": 0.6
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 0.4
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "YakuHanMP",
+      "w": 1104
+    },
+    {
+      "family": "YakuHanJP",
+      "w": 217
+    },
+    {
+      "family": "ryo-gothic-plusn",
+      "w": 122
+    },
+    {
+      "family": "mr-eaves-modern",
+      "w": 84
+    }
+  ],
+  "sizes": [
+    {
+      "px": 23,
+      "w": 44
+    },
+    {
+      "px": 20,
+      "w": 222
+    },
+    {
+      "px": 18,
+      "w": 496
+    },
+    {
+      "px": 16,
+      "w": 274
+    },
+    {
+      "px": 14,
+      "w": 246
+    },
+    {
+      "px": 13,
+      "w": 122
+    }
+  ],
+  "body": {
+    "fs": 18,
+    "lh": 2.25,
+    "ls": "0.025em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 40,
+        "weight": "400",
+        "lh": 1.3,
+        "ls": "0.025em",
+        "family": "YakuHanJP"
+      },
+      {
+        "fs": 20,
+        "weight": "500",
+        "lh": 1.8,
+        "ls": "0.025em",
+        "family": "YakuHanMP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 23,
+        "weight": "500",
+        "lh": 1.75,
+        "ls": "0.025em",
+        "family": "YakuHanMP"
+      },
+      {
+        "fs": 22,
+        "weight": "500",
+        "lh": 1.75,
+        "ls": "0.025em",
+        "family": "YakuHanMP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 5
+    },
+    {
+      "px": 7,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 160,
+      "n": 4
+    },
+    {
+      "px": 56,
+      "n": 3
+    },
+    {
+      "px": 64,
+      "n": 2
+    },
+    {
+      "px": 72,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1152,
+      "n": 7
+    },
+    {
+      "px": 816,
+      "n": 5
+    },
+    {
+      "px": 1100,
+      "n": 5
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#69285a",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "7px",
+      "pad": "0px 30px",
+      "fs": 15,
+      "weight": "400",
+      "h": 47,
+      "ls": "1px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 990,
+      "n": 15
+    },
+    {
+      "px": 768,
+      "n": 12
+    },
+    {
+      "px": 767,
+      "n": 57
+    },
+    {
+      "px": 750,
+      "n": 31
+    },
+    {
+      "px": 749,
+      "n": 7
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#d6c5ab",
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 2140,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 880,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1480,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1820,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 520,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 500,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": "#f9f9f9",
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1440,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#d6c5ab",
+      "n": 2
+    },
+    {
+      "hex": "#f4ebce",
+      "n": 1
+    },
+    {
+      "hex": "#f9f9f9",
+      "n": 1
+    },
+    {
+      "hex": "#69285a",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 20,
+    "fullBleed": 2,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 15
+      },
+      {
+        "ratio": "3:2",
+        "n": 5
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 20
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sizes": [
+      20,
+      16,
+      14,
+      13,
+      12
+    ],
+    "pad": 36,
+    "gap": null,
+    "sidePad": 25,
+    "h1": {
+      "fs": 28,
+      "lh": 1.3
+    }
+  },
+  "usage": [
+    {
+      "hex": "#d6c5ab",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f4ebce",
+      "面": 1,
+      "文字": 10,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f9f9f9",
+      "面": 1,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#69285a",
+      "面": 2,
+      "文字": 73,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#9b927e",
+      "面": 0,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#69285a",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}
