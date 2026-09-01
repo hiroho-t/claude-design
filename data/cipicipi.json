@@ -1,0 +1,492 @@
+{
+  "slug": "cipicipi",
+  "url": "https://cipicipi.jp/",
+  "title": "CipiCipi（シピシピ）",
+  "desc": "",
+  "bg": [
+    {
+      "hex": "#fdf9f7",
+      "pct": 45.2
+    },
+    {
+      "hex": "#f9dce8",
+      "pct": 10.2
+    },
+    {
+      "hex": "#eda4bb",
+      "pct": 10.2
+    },
+    {
+      "hex": "#fedef5",
+      "pct": 10.2
+    },
+    {
+      "hex": "#ea7aa2",
+      "pct": 10.2
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#ffffff",
+      "pct": 61
+    },
+    {
+      "hex": "#1c1c1c",
+      "pct": 39
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "classico-urw",
+      "w": 1055
+    },
+    {
+      "family": "ryo-gothic-plusn",
+      "w": 481
+    },
+    {
+      "family": "ryo-display-plusn",
+      "w": 462
+    }
+  ],
+  "sizes": [
+    {
+      "px": 21,
+      "w": 177
+    },
+    {
+      "px": 18,
+      "w": 633
+    },
+    {
+      "px": 14,
+      "w": 222
+    },
+    {
+      "px": 13,
+      "w": 541
+    },
+    {
+      "px": 11,
+      "w": 148
+    },
+    {
+      "px": 10,
+      "w": 112
+    }
+  ],
+  "body": {
+    "fs": 18,
+    "lh": 1.4,
+    "ls": "0.060em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 18,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.020em",
+        "family": "classico-urw"
+      },
+      {
+        "fs": 30,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.040em",
+        "family": "classico-urw"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 21,
+        "weight": "500",
+        "lh": 1.7,
+        "ls": "0.100em",
+        "family": "ryo-display-plusn"
+      },
+      {
+        "fs": 26,
+        "weight": "500",
+        "lh": null,
+        "ls": "0.100em",
+        "family": "ryo-display-plusn"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 19,
+        "weight": "500",
+        "lh": null,
+        "ls": "0.100em",
+        "family": "ryo-display-plusn"
+      },
+      {
+        "fs": 10,
+        "weight": "400",
+        "lh": 1.8,
+        "ls": "0.060em",
+        "family": "classico-urw"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 26
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 30,
+      "n": 3
+    },
+    {
+      "px": 50,
+      "n": 2
+    },
+    {
+      "px": 60,
+      "n": 2
+    },
+    {
+      "px": 12,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 200,
+      "n": 5
+    },
+    {
+      "px": 40,
+      "n": 1
+    },
+    {
+      "px": 80,
+      "n": 1
+    },
+    {
+      "px": 96,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 864,
+      "n": 4
+    },
+    {
+      "px": 904,
+      "n": 4
+    },
+    {
+      "px": 1280,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": "1px #ffffff",
+      "radius": "9999px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "400",
+      "h": 46,
+      "ls": "0.84px",
+      "n": 9
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 11,
+      "weight": "400",
+      "h": 82,
+      "ls": "0.66px",
+      "n": 1
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "400",
+      "h": 56,
+      "ls": "0.56px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1600,
+      "n": 2
+    },
+    {
+      "px": 1281,
+      "n": 4
+    },
+    {
+      "px": 1267,
+      "n": 2
+    },
+    {
+      "px": 1024,
+      "n": 72
+    },
+    {
+      "px": 1023,
+      "n": 2
+    }
+  ],
+  "sections": [
+    {
+      "h": 720,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "33:67"
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "33:67"
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "33:67"
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "33:67"
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "33:67"
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "33:67"
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "33:67"
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "33:67"
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "33:67"
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#fdf9f7",
+      "n": 4
+    },
+    {
+      "hex": "#ffffff",
+      "n": 3
+    },
+    {
+      "hex": "#f9dce8",
+      "n": 3
+    },
+    {
+      "hex": "#eda4bb",
+      "n": 3
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#f9dce8",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "#eda4bb",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 67,
+    "fullBleed": 6,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 60
+      },
+      {
+        "ratio": "3:2",
+        "n": 6
+      },
+      {
+        "ratio": "3:4",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 67
+      }
+    ]
+  },
+  "circles": {
+    "n": 5,
+    "sizes": [
+      {
+        "px": 40,
+        "n": 3
+      },
+      {
+        "px": 48,
+        "n": 1
+      },
+      {
+        "px": 56,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 12,
+    "bodyLh": 2,
+    "sizes": [
+      21,
+      15,
+      12,
+      11,
+      10
+    ],
+    "pad": 40,
+    "gap": 10,
+    "sidePad": 0,
+    "h1": {
+      "fs": 16,
+      "lh": 1
+    }
+  },
+  "usage": [
+    {
+      "hex": "#fdf9f7",
+      "面": 11,
+      "文字": 65,
+      "枠": 9,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f9dce8",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#eda4bb",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#fedef5",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ea7aa2",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#1c1c1c",
+      "面": 0,
+      "文字": 45,
+      "枠": 3,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#f9dce8",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

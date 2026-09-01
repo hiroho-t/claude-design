@@ -1,0 +1,415 @@
+{
+  "slug": "terradrone-aramco2023",
+  "url": "https://fundingwebsite2023.terra-drone.net/",
+  "title": "資金調達特設サイト | TerraDrone",
+  "desc": "ドローンサービスを提供するスタートアップ、テラドローンの資金調達特設サイト。アジア初となるサウジアラムコのVC「Wa'ed」からの資金調達とサウジアラビアでの事業展開、テラドローンの企業概要についてご紹介します。",
+  "bg": [
+    {
+      "hex": "#edf0f2",
+      "pct": 83.8
+    },
+    {
+      "hex": "#adbccc",
+      "pct": 6.5
+    },
+    {
+      "hex": "#e4e8ed",
+      "pct": 5.6
+    },
+    {
+      "hex": "#2e3033",
+      "pct": 3.7
+    },
+    {
+      "hex": "#c0c5cc",
+      "pct": 0.3
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#2e3033",
+      "pct": 67
+    },
+    {
+      "hex": "#5c6166",
+      "pct": 19.9
+    },
+    {
+      "hex": "#45484d",
+      "pct": 7.5
+    },
+    {
+      "hex": "#006ae4",
+      "pct": 2.6
+    }
+  ],
+  "pageBg": "#f7fafd",
+  "fonts": [
+    {
+      "family": "Hiragino Sans",
+      "w": 2640
+    },
+    {
+      "family": "Roboto2",
+      "w": 44
+    }
+  ],
+  "sizes": [
+    {
+      "px": 29,
+      "w": 117
+    },
+    {
+      "px": 22,
+      "w": 410
+    },
+    {
+      "px": 14,
+      "w": 1224
+    },
+    {
+      "px": 13,
+      "w": 574
+    },
+    {
+      "px": 12,
+      "w": 179
+    },
+    {
+      "px": 11,
+      "w": 132
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 2,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 22,
+        "weight": "500",
+        "lh": 2,
+        "ls": "0.033em",
+        "family": "Hiragino Sans"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 5
+    },
+    {
+      "px": 30,
+      "n": 1
+    },
+    {
+      "px": 40,
+      "n": 1
+    },
+    {
+      "px": 50,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 48,
+      "n": 11
+    },
+    {
+      "px": 2072,
+      "n": 4
+    },
+    {
+      "px": 128,
+      "n": 3
+    },
+    {
+      "px": 108,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1076,
+      "n": 58
+    },
+    {
+      "px": 1296,
+      "n": 16
+    },
+    {
+      "px": 968,
+      "n": 7
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#2e3033",
+      "border": "1px #c0c5cc",
+      "radius": "30px",
+      "pad": "13px 51px",
+      "fs": 14,
+      "weight": "500",
+      "h": 42,
+      "ls": "0.72px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 834,
+      "n": 11
+    },
+    {
+      "px": 769,
+      "n": 10
+    },
+    {
+      "px": 768,
+      "n": 185
+    },
+    {
+      "px": 560,
+      "n": 5
+    },
+    {
+      "px": 559,
+      "n": 28
+    }
+  ],
+  "sections": [
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1980,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "44:56"
+    },
+    {
+      "h": 9180,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1080,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1420,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1940,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "16:84"
+    },
+    {
+      "h": 940,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#adbccc",
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 500,
+      "full": true,
+      "cols": 2,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#edf0f2",
+      "n": 2
+    },
+    {
+      "hex": "#2e3033",
+      "n": 1
+    },
+    {
+      "hex": "#adbccc",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [
+    {
+      "bg": "transparent",
+      "color": "#5c6166",
+      "radius": "999px",
+      "pad": "4px 10px",
+      "fs": 11,
+      "border": "1px",
+      "n": 8
+    }
+  ],
+  "images": {
+    "n": 82,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "16:9",
+        "n": 53
+      },
+      {
+        "ratio": "1:1",
+        "n": 17
+      },
+      {
+        "ratio": "3:2",
+        "n": 7
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 82
+      }
+    ]
+  },
+  "circles": {
+    "n": 11,
+    "sizes": [
+      {
+        "px": 48,
+        "n": 9
+      },
+      {
+        "px": 56,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": 1.88,
+    "sizes": [
+      25,
+      16,
+      14,
+      12,
+      11
+    ],
+    "pad": 40,
+    "gap": null,
+    "sidePad": 20,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#edf0f2",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#adbccc",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#2e3033",
+      "面": 9,
+      "文字": 39,
+      "枠": 8,
+      "ボタン": 0
+    },
+    {
+      "hex": "#c0c5cc",
+      "面": 0,
+      "文字": 0,
+      "枠": 3,
+      "ボタン": 0
+    },
+    {
+      "hex": "#5c6166",
+      "面": 0,
+      "文字": 33,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#45484d",
+      "面": 0,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#006ae4",
+      "面": 0,
+      "文字": 11,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#006ae4",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

@@ -1,0 +1,469 @@
+{
+  "slug": "welzo",
+  "url": "https://www.welzo.co.jp/",
+  "title": "株式会社welzo",
+  "desc": "welzoは、暮らしの価値を創造するイノベーションカンパニーです。ひとびとの暮らしに根ざした多様な事業と挑戦を恐れない革新力で、未来のスタンダードを創っていきます。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 50
+    },
+    {
+      "hex": "#f4f4f4",
+      "pct": 32.8
+    },
+    {
+      "hex": "#168352",
+      "pct": 13.8
+    },
+    {
+      "hex": "#251e1c",
+      "pct": 2.7
+    },
+    {
+      "hex": "#473221",
+      "pct": 0.7
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#251e1c",
+      "pct": 69.4
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 8.3
+    },
+    {
+      "hex": "#168352",
+      "pct": 6
+    },
+    {
+      "hex": "#473221",
+      "pct": 5.3
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 948
+    },
+    {
+      "family": "Poppins",
+      "w": 394
+    },
+    {
+      "family": "Roboto",
+      "w": 147
+    }
+  ],
+  "sizes": [
+    {
+      "px": 20,
+      "w": 86
+    },
+    {
+      "px": 17,
+      "w": 159
+    },
+    {
+      "px": 16,
+      "w": 386
+    },
+    {
+      "px": 15,
+      "w": 75
+    },
+    {
+      "px": 14,
+      "w": 219
+    },
+    {
+      "px": 12,
+      "w": 200
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 2,
+    "ls": "0.040em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": 2.64,
+        "ls": "0",
+        "family": "Poppins"
+      },
+      {
+        "fs": 41,
+        "weight": "700",
+        "lh": 1.03,
+        "ls": "0.020em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 52,
+        "weight": "600",
+        "lh": 2.2,
+        "ls": "0",
+        "family": "Poppins"
+      },
+      {
+        "fs": 29,
+        "weight": "700",
+        "lh": 1.79,
+        "ls": "0.100em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 29,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 45,
+      "n": 11
+    },
+    {
+      "px": 0,
+      "n": 7
+    },
+    {
+      "px": 5,
+      "n": 1
+    },
+    {
+      "px": 23,
+      "n": 1
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.03) 0px 0px 56.25px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 19,
+      "n": 1
+    },
+    {
+      "px": 50,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 112,
+      "n": 7
+    },
+    {
+      "px": 32,
+      "n": 3
+    },
+    {
+      "px": 84,
+      "n": 3
+    },
+    {
+      "px": 92,
+      "n": 3
+    }
+  ],
+  "container": [
+    {
+      "px": 624,
+      "n": 8
+    },
+    {
+      "px": 1352,
+      "n": 8
+    },
+    {
+      "px": 652,
+      "n": 3
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#168352",
+      "color": "#ffffff",
+      "border": "2px #168352",
+      "radius": "45px",
+      "pad": "24px 62px",
+      "fs": 15,
+      "weight": "700",
+      "h": 68,
+      "ls": "0.585px",
+      "n": 7
+    },
+    {
+      "bg": "#f4f4f4",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "23px",
+      "pad": "0px 2px",
+      "fs": 11,
+      "weight": "700",
+      "h": 33,
+      "ls": "0.45px",
+      "n": 1
+    },
+    {
+      "bg": "#168352",
+      "color": "#ffffff",
+      "border": "2px #168352",
+      "radius": "45px",
+      "pad": "17px 24px",
+      "fs": 12,
+      "weight": "700",
+      "h": 56,
+      "ls": "0.495px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1680,
+      "n": 1
+    },
+    {
+      "px": 768,
+      "n": 11
+    },
+    {
+      "px": 767,
+      "n": 828
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 980,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 3420,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1020,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "12:88"
+    },
+    {
+      "h": 820,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 5
+    },
+    {
+      "hex": "#f4f4f4",
+      "n": 1
+    },
+    {
+      "hex": "#251e1c",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f4f4f4",
+      "bg": "transparent",
+      "radius": 45,
+      "pad": "0/0",
+      "border": null,
+      "shadow": "rgba(0, 0, 0, 0.03) 0px 0px 56.25px 0px",
+      "n": 3
+    },
+    {
+      "onBg": "#f4f4f4",
+      "bg": "#ffffff",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 28,
+    "fullBleed": 2,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 12
+      },
+      {
+        "ratio": "16:9",
+        "n": 8
+      },
+      {
+        "ratio": "4:3",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 28
+      }
+    ]
+  },
+  "circles": {
+    "n": 2,
+    "sizes": [
+      {
+        "px": 144,
+        "n": 1
+      },
+      {
+        "px": 320,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.7,
+    "sizes": [
+      21,
+      15,
+      14,
+      12,
+      10
+    ],
+    "pad": 32,
+    "gap": null,
+    "sidePad": 21,
+    "h1": {
+      "fs": 11,
+      "lh": 1.5
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 7,
+      "文字": 14,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f4f4f4",
+      "面": 2,
+      "文字": 1,
+      "枠": 2,
+      "ボタン": 1
+    },
+    {
+      "hex": "#168352",
+      "面": 9,
+      "文字": 5,
+      "枠": 8,
+      "ボタン": 8
+    },
+    {
+      "hex": "#251e1c",
+      "面": 1,
+      "文字": 65,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#473221",
+      "面": 1,
+      "文字": 4,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#168352",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角丸",
+    "色つき"
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "slug": "feetindesign",
+  "url": "https://feetindesign.jp/",
+  "title": "株式会社フィートインデザイン | オーソティクス、オーダーメイドインソール",
+  "desc": "オーソティクス、オーダーメイドインソール",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 53.2
+    },
+    {
+      "hex": "#0b0085",
+      "pct": 46.4
+    },
+    {
+      "hex": "#041182",
+      "pct": 0.4
+    },
+    {
+      "hex": "#f2f3f9",
+      "pct": 0.1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000b80",
+      "pct": 86.2
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 10.7
+    },
+    {
+      "hex": "#999dcc",
+      "pct": 3.1
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "tke",
+      "w": 2992
+    }
+  ],
+  "sizes": [
+    {
+      "px": 17,
+      "w": 303
+    },
+    {
+      "px": 16,
+      "w": 438
+    },
+    {
+      "px": 15,
+      "w": 203
+    },
+    {
+      "px": 14,
+      "w": 464
+    },
+    {
+      "px": 13,
+      "w": 1093
+    },
+    {
+      "px": 12,
+      "w": 131
+    }
+  ],
+  "body": {
+    "fs": 13,
+    "lh": 1.5,
+    "ls": "0.023em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 25,
+        "weight": "300",
+        "lh": 1.6,
+        "ls": "0.012em",
+        "family": "tke"
+      },
+      {
+        "fs": 84,
+        "weight": "300",
+        "lh": 1,
+        "ls": "0.004em",
+        "family": "tke"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 16,
+        "weight": "300",
+        "lh": 1.5,
+        "ls": "0.019em",
+        "family": "tke"
+      },
+      {
+        "fs": 14,
+        "weight": "300",
+        "lh": 1.6,
+        "ls": "0.021em",
+        "family": "tke"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 43
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 60,
+      "n": 2
+    },
+    {
+      "px": 120,
+      "n": 2
+    },
+    {
+      "px": 200,
+      "n": 2
+    },
+    {
+      "px": 48,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1192,
+      "n": 12
+    },
+    {
+      "px": 840,
+      "n": 6
+    },
+    {
+      "px": 1190,
+      "n": 6
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 15,
+      "weight": "700",
+      "h": 71,
+      "ls": "0.3px",
+      "n": 1
+    },
+    {
+      "bg": "#0b0085",
+      "color": "#ffffff",
+      "border": "1px #0b0085",
+      "radius": "0px",
+      "pad": "27px 0px",
+      "fs": 15,
+      "weight": "700",
+      "h": 71,
+      "ls": "0.3px",
+      "n": 1
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 13,
+      "weight": "700",
+      "h": 55,
+      "ls": "0.3px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 769,
+      "n": 2
+    },
+    {
+      "px": 768,
+      "n": 5
+    },
+    {
+      "px": 600,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "33:67"
+    },
+    {
+      "h": 820,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 2040,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#0b0085",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1000,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 660,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#070081",
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 800,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 19
+    },
+    {
+      "hex": "#0b0085",
+      "n": 1
+    },
+    {
+      "hex": "#070081",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#070081",
+      "bg": "#ffffff",
+      "radius": 0,
+      "pad": "58/40",
+      "border": "1px #ffffff",
+      "shadow": null,
+      "n": 10
+    },
+    {
+      "onBg": "#0b0085",
+      "bg": "#ffffff",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 9
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 18,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 9
+      },
+      {
+        "ratio": "3:4",
+        "n": 2
+      },
+      {
+        "ratio": "4:3",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 18
+      }
+    ]
+  },
+  "circles": {
+    "n": 1,
+    "sizes": [
+      {
+        "px": 136,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 12,
+    "bodyLh": 1.5,
+    "sizes": [
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "pad": 32,
+    "gap": null,
+    "sidePad": 30,
+    "h1": {
+      "fs": 20,
+      "lh": 1.3
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 23,
+      "文字": 26,
+      "枠": 14,
+      "ボタン": 0
+    },
+    {
+      "hex": "#0b0085",
+      "面": 6,
+      "文字": 0,
+      "枠": 16,
+      "ボタン": 2
+    },
+    {
+      "hex": "#041182",
+      "面": 1,
+      "文字": 104,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#999dcc",
+      "面": 0,
+      "文字": 16,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#000b80",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

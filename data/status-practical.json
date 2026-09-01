@@ -1334,5 +1334,195 @@
     "state": "skip",
     "why": "測定に失敗",
     "url": "https://nakatani-tac.jp/"
+  },
+  "nanatsuya-stay": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://nanatsuya-stay.com/"
+  },
+  "karteblocks": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://blocks.karte.io/"
+  },
+  "hpmusicschool": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://school.hpmusic.jp/"
+  },
+  "simplecheck": {
+    "state": "skip",
+    "why": "中身が空",
+    "url": "https://simplecheck.site/"
+  },
+  "demaecan-corporate": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://corporate.demae-can.co.jp/"
+  },
+  "welzo": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.welzo.co.jp/"
+  },
+  "fands-c": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.fands-c.com/"
+  },
+  "ideacloud": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://ideacloud.co.jp/"
+  },
+  "sakura-butudan": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://sakura-butudan.co.jp/"
+  },
+  "terradrone-aramco2023": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://fundingwebsite2023.terra-drone.net/"
+  },
+  "corp-penmark": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://corp.penmark.jp/"
+  },
+  "michi-kusa": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://michi-kusa.co.jp/"
+  },
+  "shonan-cloud": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.shonan-cloud.com/"
+  },
+  "unico-jp": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://unico-jp.net/"
+  },
+  "smart-sou": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://smart-sou.co.jp/"
+  },
+  "shouroutei": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://shouroutei.jp/"
+  },
+  "safesafe": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.safesafe.co.jp/"
+  },
+  "toutoucoco": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://toutoucoco.jp/"
+  },
+  "omorisakura-iwamiginzan": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://omori-sakura.iwamiginzan.jp/"
+  },
+  "ai-sols": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.ai-sols.co.jp/"
+  },
+  "45r": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://45r.jp/ja/"
+  },
+  "isshiki-law": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.isshiki-law.com/"
+  },
+  "fujioka-dental": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://fujioka-dental.jp/index.html"
+  },
+  "mitsui-career": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://career.mitsui.com/"
+  },
+  "hayakawa-lawoffices": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://hayakawa-lawoffice.com/"
+  },
+  "kajitsudotech": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.kajitsudotech.co.jp/"
+  },
+  "cipicipi": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://cipicipi.jp/"
+  },
+  "goodpatch-designpartnership": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://design-partnership.goodpatch.com/"
+  },
+  "ogami": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.ogami.co.jp/"
+  },
+  "cacco": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://cacco.co.jp/"
+  },
+  "hikarino-clinic": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://hikarino.clinic/"
+  },
+  "maruyama-urban": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://maruyama-urban.co.jp/"
+  },
+  "cosok": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://cosok.co.jp/"
+  },
+  "inuse": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://products.inuse.jp/"
+  },
+  "nihontechness": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.nihontechness.co.jp/"
+  },
+  "feetindesign": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://feetindesign.jp/"
+  },
+  "wallpapermagic": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://wallpapermagic.net/"
+  },
+  "nichiasteel": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.nichiasteel.co.jp/"
   }
 }

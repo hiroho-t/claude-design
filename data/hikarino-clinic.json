@@ -1,0 +1,430 @@
+{
+  "slug": "hikarino-clinic",
+  "url": "https://hikarino.clinic/",
+  "title": "ヒカリノ診療所",
+  "desc": "大分市のヒカリノ診療所です。在宅医療を受ける方々は複数の「プロブレム」を抱えていることが多くあります。それは「病気」であり、「不安・心配」であり、「ご家族のこと」だったり、「経済的なこと」だったりするかもしれません。私たちは「病気」を診るだけでなく、その方の「背景：コンテクスト」を含めて診ていきます。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 97.8
+    },
+    {
+      "hex": "#00367f",
+      "pct": 1.7
+    },
+    {
+      "hex": "#d8b5ed",
+      "pct": 0.6
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#00367f",
+      "pct": 67.3
+    },
+    {
+      "hex": "#e5ebf2",
+      "pct": 9.5
+    },
+    {
+      "hex": "#000000",
+      "pct": 4.8
+    },
+    {
+      "hex": "#cccccc",
+      "pct": 4.5
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Hiragino Kaku Gothic ProN",
+      "w": 664
+    },
+    {
+      "family": "cabin",
+      "w": 376
+    },
+    {
+      "family": "fot-tsukubrdgothic-std",
+      "w": 178
+    },
+    {
+      "family": "fot-tsukuardgothic-std",
+      "w": 123
+    }
+  ],
+  "sizes": [
+    {
+      "px": 17,
+      "w": 123
+    },
+    {
+      "px": 16,
+      "w": 578
+    },
+    {
+      "px": 15,
+      "w": 76
+    },
+    {
+      "px": 14,
+      "w": 155
+    },
+    {
+      "px": 12,
+      "w": 69
+    },
+    {
+      "px": 10,
+      "w": 125
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.8,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1.8,
+        "ls": "0.033em",
+        "family": "fot-tsukuardgothic-std"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 22,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.050em",
+        "family": "fot-tsukuardgothic-std"
+      },
+      {
+        "fs": 26,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.050em",
+        "family": "fot-tsukubrdgothic-std"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.033em",
+        "family": "fot-tsukuardgothic-std"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 20,
+      "n": 5
+    },
+    {
+      "px": 0,
+      "n": 3
+    },
+    {
+      "px": 6,
+      "n": 3
+    },
+    {
+      "px": 50,
+      "n": 3
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.08) 0px 2px 5px 0px",
+      "n": 3
+    }
+  ],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 36,
+      "n": 2
+    },
+    {
+      "px": 120,
+      "n": 2
+    },
+    {
+      "px": 160,
+      "n": 2
+    },
+    {
+      "px": 40,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1152,
+      "n": 6
+    },
+    {
+      "px": 576,
+      "n": 4
+    },
+    {
+      "px": 768,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#00367f",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "50px",
+      "pad": "18px 49px",
+      "fs": 16,
+      "weight": "700",
+      "h": 60,
+      "ls": "0.8px",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 5000,
+      "n": 5
+    },
+    {
+      "px": 1001,
+      "n": 4
+    },
+    {
+      "px": 1000,
+      "n": 4
+    },
+    {
+      "px": 600,
+      "n": 1
+    },
+    {
+      "px": 0,
+      "n": 5
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "51:49"
+    },
+    {
+      "h": 240,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 940,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1660,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 880,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "34:66"
+    },
+    {
+      "h": 460,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 5
+    },
+    {
+      "hex": "#f7f9fb",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "transparent",
+      "radius": 10,
+      "pad": "20/20",
+      "border": null,
+      "shadow": "rgba(0, 0, 0, 0.08) 0px 2px 5px 0px",
+      "n": 2
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#d8b5ed",
+      "color": "#000000",
+      "radius": "999px",
+      "pad": "1px 6px",
+      "fs": 0,
+      "border": "2px",
+      "n": 2
+    },
+    {
+      "bg": "transparent",
+      "color": "#00367f",
+      "radius": "999px",
+      "pad": "6px 10px",
+      "fs": 16,
+      "border": "2px",
+      "n": 2
+    }
+  ],
+  "images": {
+    "n": 11,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 4
+      },
+      {
+        "ratio": "3:2",
+        "n": 2
+      },
+      {
+        "ratio": "3:4",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 10,
+        "n": 6
+      },
+      {
+        "px": 0,
+        "n": 5
+      }
+    ]
+  },
+  "circles": {
+    "n": 6,
+    "sizes": [
+      {
+        "px": 40,
+        "n": 4
+      },
+      {
+        "px": 32,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.8,
+    "sizes": [
+      16,
+      15,
+      14,
+      12,
+      10
+    ],
+    "pad": 32,
+    "gap": null,
+    "sidePad": 21,
+    "h1": {
+      "fs": 20,
+      "lh": 1.8
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 9,
+      "文字": 6,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#00367f",
+      "面": 4,
+      "文字": 73,
+      "枠": 8,
+      "ボタン": 3
+    },
+    {
+      "hex": "#d8b5ed",
+      "面": 7,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#e5ebf2",
+      "面": 0,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#cccccc",
+      "面": 0,
+      "文字": 14,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#00367f",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角丸",
+    "色つき"
+  ]
+}

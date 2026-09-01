@@ -1,0 +1,435 @@
+{
+  "slug": "cosok",
+  "url": "https://cosok.co.jp/",
+  "title": "光束工業｜薄板金属のプレス・溶接加工・自動車部品受託製造",
+  "desc": "薄板金属のプレス・溶接加工なら光束（コウソク）工業におまかせください。自動車用排気部品の受託量産製造で培った経験を活かし、高品質なものづくりを支えます。",
+  "bg": [
+    {
+      "hex": "#ededed",
+      "pct": 38.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 26.9
+    },
+    {
+      "hex": "#222020",
+      "pct": 25.1
+    },
+    {
+      "hex": "#000000",
+      "pct": 9
+    },
+    {
+      "hex": "#0f0e0e",
+      "pct": 0.2
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#ffffff",
+      "pct": 47.7
+    },
+    {
+      "hex": "#222020",
+      "pct": 36.5
+    },
+    {
+      "hex": "#000000",
+      "pct": 7.9
+    },
+    {
+      "hex": "#e31e23",
+      "pct": 6.3
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "游ゴシック体",
+      "w": 1728
+    },
+    {
+      "family": "Poppins",
+      "w": 174
+    }
+  ],
+  "sizes": [
+    {
+      "px": 36,
+      "w": 60
+    },
+    {
+      "px": 24,
+      "w": 71
+    },
+    {
+      "px": 20,
+      "w": 159
+    },
+    {
+      "px": 16,
+      "w": 601
+    },
+    {
+      "px": 15,
+      "w": 157
+    },
+    {
+      "px": 14,
+      "w": 725
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 2,
+    "ls": "0"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1.67,
+        "ls": "0",
+        "family": "游ゴシック体"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": null,
+        "ls": "0.050em",
+        "family": "游ゴシック体"
+      },
+      {
+        "fs": 16,
+        "weight": "400",
+        "lh": null,
+        "ls": "0.050em",
+        "family": "游ゴシック体"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 36,
+        "weight": "700",
+        "lh": 1.7,
+        "ls": "0.050em",
+        "family": "游ゴシック体"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 24,
+      "n": 10
+    },
+    {
+      "px": 0,
+      "n": 9
+    },
+    {
+      "px": 30,
+      "n": 7
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 72,
+      "n": 2
+    },
+    {
+      "px": 120,
+      "n": 2
+    },
+    {
+      "px": 260,
+      "n": 2
+    },
+    {
+      "px": 56,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1230,
+      "n": 8
+    },
+    {
+      "px": 856,
+      "n": 7
+    },
+    {
+      "px": 1232,
+      "n": 7
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#222020",
+      "border": "1px #afafaf",
+      "radius": "24px",
+      "pad": "0px 15px",
+      "fs": 12,
+      "weight": "500",
+      "h": 28,
+      "ls": "0.6px",
+      "n": 5
+    },
+    {
+      "bg": "transparent",
+      "color": "#e31e23",
+      "border": "1px #e31e23",
+      "radius": "30px",
+      "pad": "0px 50px",
+      "fs": 16,
+      "weight": "500",
+      "h": 60,
+      "ls": "0",
+      "n": 3
+    },
+    {
+      "bg": "transparent",
+      "color": "#000000",
+      "border": "1px #afafaf",
+      "radius": "24px",
+      "pad": "0px 20px",
+      "fs": 12,
+      "weight": "500",
+      "h": 28,
+      "ls": "0",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 1220,
+      "n": 1
+    },
+    {
+      "px": 1160,
+      "n": 1
+    },
+    {
+      "px": 1024,
+      "n": 1
+    },
+    {
+      "px": 768,
+      "n": 1
+    },
+    {
+      "px": 600,
+      "n": 2
+    }
+  ],
+  "sections": [
+    {
+      "h": 1300,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1620,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#ededed",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1400,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "右",
+      "split": "33:67"
+    },
+    {
+      "h": 1660,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#222020",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1560,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#ededed",
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 400,
+      "full": true,
+      "cols": 2,
+      "img": false,
+      "bg": "#222020",
+      "align": "中央",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ededed",
+      "n": 2
+    },
+    {
+      "hex": "#ffffff",
+      "n": 2
+    },
+    {
+      "hex": "#222020",
+      "n": 2
+    },
+    {
+      "hex": "#000000",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [
+    {
+      "bg": "transparent",
+      "color": "#222020",
+      "radius": "999px",
+      "pad": "0px 15px",
+      "fs": 12,
+      "border": "1px",
+      "n": 5
+    },
+    {
+      "bg": "transparent",
+      "color": "#000000",
+      "radius": "999px",
+      "pad": "0px 20px",
+      "fs": 12,
+      "border": "1px",
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 22,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 16
+      },
+      {
+        "ratio": "4:3",
+        "n": 4
+      },
+      {
+        "ratio": "3:4",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 22
+      }
+    ]
+  },
+  "circles": {
+    "n": 2,
+    "sizes": [
+      {
+        "px": 64,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sizes": [
+      24,
+      20,
+      16,
+      15,
+      14
+    ],
+    "pad": 32,
+    "gap": null,
+    "sidePad": 20,
+    "h1": {
+      "fs": 19,
+      "lh": 1.67
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ededed",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 3,
+      "文字": 49,
+      "枠": 6,
+      "ボタン": 0
+    },
+    {
+      "hex": "#222020",
+      "面": 3,
+      "文字": 67,
+      "枠": 1,
+      "ボタン": 1
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 5,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#0f0e0e",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 2
+    },
+    {
+      "hex": "#e31e23",
+      "面": 1,
+      "文字": 6,
+      "枠": 4,
+      "ボタン": 1
+    }
+  ],
+  "accent": "#e31e23",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角丸",
+    "色つき"
+  ]
+}

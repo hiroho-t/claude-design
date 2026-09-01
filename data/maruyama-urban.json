@@ -1,0 +1,380 @@
+{
+  "slug": "maruyama-urban",
+  "url": "https://maruyama-urban.co.jp/",
+  "title": "株式会社丸山アーバン｜神奈川県 湘南の建築・不動産事業",
+  "desc": "丸山アーバンは、ユーミーらいふグループにおける建設・不動産開発事業統括を通じて、時代を超えていつまでも続く、湘南における不動産価値創造をめざし、この場所にしかない充実した暮らしを提供することで、魅力あるまちづくりを推進します。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 77
+    },
+    {
+      "hex": "#1e1f23",
+      "pct": 15.6
+    },
+    {
+      "hex": "#f8f8f8",
+      "pct": 6.4
+    },
+    {
+      "hex": "#cccccc",
+      "pct": 0.8
+    },
+    {
+      "hex": "#282823",
+      "pct": 0.1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#282823",
+      "pct": 61.6
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 28.3
+    },
+    {
+      "hex": "#b5b5b5",
+      "pct": 5.7
+    },
+    {
+      "hex": "#a5a8b8",
+      "pct": 4.3
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "DM Sans",
+      "w": 1794
+    },
+    {
+      "family": "Zen Old Mincho",
+      "w": 536
+    }
+  ],
+  "sizes": [
+    {
+      "px": 18,
+      "w": 284
+    },
+    {
+      "px": 16,
+      "w": 535
+    },
+    {
+      "px": 15,
+      "w": 281
+    },
+    {
+      "px": 14,
+      "w": 437
+    },
+    {
+      "px": 13,
+      "w": 189
+    },
+    {
+      "px": 12,
+      "w": 353
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 2.5,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 72,
+        "weight": "600",
+        "lh": 1.45,
+        "ls": "0.450em",
+        "family": "Zen Old Mincho"
+      },
+      {
+        "fs": 50,
+        "weight": "600",
+        "lh": 1.3,
+        "ls": "0",
+        "family": "Zen Old Mincho"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 13,
+        "weight": "600",
+        "lh": 1.2,
+        "ls": "0",
+        "family": "Zen Old Mincho"
+      },
+      {
+        "fs": 15,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "DM Sans"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 6
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 11
+    },
+    {
+      "px": 60,
+      "n": 7
+    },
+    {
+      "px": 100,
+      "n": 5
+    },
+    {
+      "px": 80,
+      "n": 3
+    }
+  ],
+  "container": [
+    {
+      "px": 1360,
+      "n": 11
+    },
+    {
+      "px": 1320,
+      "n": 8
+    },
+    {
+      "px": 640,
+      "n": 7
+    }
+  ],
+  "buttons": [],
+  "bp": [
+    {
+      "px": 1199,
+      "n": 35
+    },
+    {
+      "px": 991,
+      "n": 94
+    },
+    {
+      "px": 767,
+      "n": 114
+    },
+    {
+      "px": 575,
+      "n": 112
+    },
+    {
+      "px": 374,
+      "n": 24
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1260,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "左",
+      "split": "38:62"
+    },
+    {
+      "h": 1120,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "62:38"
+    },
+    {
+      "h": 940,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 980,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 940,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "10:90"
+    },
+    {
+      "h": 1300,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "60:40"
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 3
+    },
+    {
+      "hex": "#1e1f23",
+      "n": 1
+    },
+    {
+      "hex": "#f8f8f8",
+      "n": 1
+    },
+    {
+      "hex": "#262626",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [
+    {
+      "bg": "transparent",
+      "color": "#282823",
+      "radius": "999px",
+      "pad": "5px 15px",
+      "fs": 12,
+      "border": "1px",
+      "n": 4
+    }
+  ],
+  "images": {
+    "n": 30,
+    "fullBleed": 5,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 24
+      },
+      {
+        "ratio": "3:4",
+        "n": 6
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 30
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 12,
+    "bodyLh": 1.4,
+    "sizes": [
+      18,
+      16,
+      15,
+      14,
+      12
+    ],
+    "pad": 204,
+    "gap": null,
+    "sidePad": 45,
+    "h1": {
+      "fs": 43,
+      "lh": 1.2
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 3,
+      "文字": 31,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#1e1f23",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f8f8f8",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#282823",
+      "面": 0,
+      "文字": 118,
+      "枠": 16,
+      "ボタン": 0
+    },
+    {
+      "hex": "#b5b5b5",
+      "面": 0,
+      "文字": 22,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#a5a8b8",
+      "面": 0,
+      "文字": 17,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "モノトーン"
+  ]
+}

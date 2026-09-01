@@ -1,0 +1,437 @@
+{
+  "slug": "ai-sols",
+  "url": "https://www.ai-sols.co.jp/",
+  "title": "Aiソリューションズ | CAD/CAMシステムのお悩み解決",
+  "desc": "3～5軸加工機、複合加工機を導入し、付加価値の高い加工を目指す企業へのコンサルティング業務、技術支援のほか、CAD/CAMシステム、シミュレーションシステム及び関連機器の販売、サポートを行っています。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 45.5
+    },
+    {
+      "hex": "#f3f4f5",
+      "pct": 37.4
+    },
+    {
+      "hex": "#232729",
+      "pct": 13.4
+    },
+    {
+      "hex": "#db1a1a",
+      "pct": 3.3
+    },
+    {
+      "hex": "#111111",
+      "pct": 0.4
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#999999",
+      "pct": 60.7
+    },
+    {
+      "hex": "#111111",
+      "pct": 26.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 10.4
+    },
+    {
+      "hex": "#cccccc",
+      "pct": 0.9
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Yu Gothic Medium",
+      "w": 5170
+    },
+    {
+      "family": "Work Sans",
+      "w": 308
+    }
+  ],
+  "sizes": [
+    {
+      "px": 20,
+      "w": 158
+    },
+    {
+      "px": 18,
+      "w": 261
+    },
+    {
+      "px": 16,
+      "w": 742
+    },
+    {
+      "px": 14,
+      "w": 3762
+    },
+    {
+      "px": 13,
+      "w": 132
+    },
+    {
+      "px": 12,
+      "w": 149
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 2.02,
+    "ls": "0.056em"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 18,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0.044em",
+        "family": "Yu Gothic Medium"
+      },
+      {
+        "fs": 16,
+        "weight": "500",
+        "lh": 1.8,
+        "ls": "0.050em",
+        "family": "Yu Gothic Medium"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 20,
+        "weight": "700",
+        "lh": 1.7,
+        "ls": "0.040em",
+        "family": "Yu Gothic Medium"
+      },
+      {
+        "fs": 18,
+        "weight": "700",
+        "lh": 1.7,
+        "ls": "0.044em",
+        "family": "Yu Gothic Medium"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 59
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 140,
+      "n": 6
+    },
+    {
+      "px": 92,
+      "n": 3
+    },
+    {
+      "px": 120,
+      "n": 3
+    },
+    {
+      "px": 32,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1156,
+      "n": 12
+    },
+    {
+      "px": 784,
+      "n": 6
+    },
+    {
+      "px": 1064,
+      "n": 6
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 12,
+      "weight": "500",
+      "h": 93,
+      "ls": "0.786939px",
+      "n": 22
+    },
+    {
+      "bg": "transparent",
+      "color": "#999999",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "500",
+      "h": 28,
+      "ls": "0.786939px",
+      "n": 12
+    },
+    {
+      "bg": "#111111",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 12px",
+      "fs": 12,
+      "weight": "500",
+      "h": 28,
+      "ls": "0.786939px",
+      "n": 11
+    }
+  ],
+  "bp": [
+    {
+      "px": 1599,
+      "n": 569
+    },
+    {
+      "px": 1023,
+      "n": 36
+    },
+    {
+      "px": 767,
+      "n": 212
+    },
+    {
+      "px": 600,
+      "n": 11
+    },
+    {
+      "px": 567,
+      "n": 8
+    }
+  ],
+  "sections": [
+    {
+      "h": 5500,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 760,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "左",
+      "split": "16:84"
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "39:61"
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 260,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#232729",
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 12
+    },
+    {
+      "hex": "#f3f4f5",
+      "n": 1
+    },
+    {
+      "hex": "#f5f6f7",
+      "n": 1
+    },
+    {
+      "hex": "#db1a1a",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f5f6f7",
+      "bg": "#ffffff",
+      "radius": 0,
+      "pad": "46/52",
+      "border": "1px #ffffff",
+      "shadow": null,
+      "n": 11
+    },
+    {
+      "onBg": "#f5f6f7",
+      "bg": "#ffffff",
+      "radius": 0,
+      "pad": "28/28",
+      "border": null,
+      "shadow": null,
+      "n": 7
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 18,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 2
+      },
+      {
+        "ratio": "3:2",
+        "n": 1
+      },
+      {
+        "ratio": "4:3",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 18
+      }
+    ]
+  },
+  "circles": {
+    "n": 9,
+    "sizes": [
+      {
+        "px": 48,
+        "n": 6
+      },
+      {
+        "px": 56,
+        "n": 2
+      },
+      {
+        "px": 64,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.8,
+    "sizes": [
+      18,
+      16,
+      15,
+      14,
+      12
+    ],
+    "pad": 24,
+    "gap": null,
+    "sidePad": 20,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 34,
+      "文字": 46,
+      "枠": 11,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f3f4f5",
+      "面": 20,
+      "文字": 0,
+      "枠": 19,
+      "ボタン": 5
+    },
+    {
+      "hex": "#232729",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#db1a1a",
+      "面": 8,
+      "文字": 6,
+      "枠": 0,
+      "ボタン": 2
+    },
+    {
+      "hex": "#111111",
+      "面": 11,
+      "文字": 90,
+      "枠": 1,
+      "ボタン": 11
+    },
+    {
+      "hex": "#999999",
+      "面": 0,
+      "文字": 40,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#cccccc",
+      "面": 0,
+      "文字": 7,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#db1a1a",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

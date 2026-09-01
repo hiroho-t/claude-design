@@ -1,0 +1,416 @@
+{
+  "slug": "sakura-butudan",
+  "url": "https://sakura-butudan.co.jp/",
+  "title": "おぶつだんの佐倉 和歌山にあるお仏壇お仏具専門店",
+  "desc": "創業130余年。和歌山でお仏壇・お仏具・お位牌の販売をしています。お客さまの安心・満足を第一に、お仏壇の品質表示、永年保証などのサービスをご提供しております。お仏壇・お仏具のことなら、お気軽にご相談ください。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 94.2
+    },
+    {
+      "hex": "#3b3529",
+      "pct": 4.8
+    },
+    {
+      "hex": "#000000",
+      "pct": 1
+    },
+    {
+      "hex": "#e6e4d0",
+      "pct": 0.1
+    },
+    {
+      "hex": "#726d60",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 58.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 41.2
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Zen Kaku Gothic New",
+      "w": 1856
+    },
+    {
+      "family": "Shippori Mincho",
+      "w": 851
+    }
+  ],
+  "sizes": [
+    {
+      "px": 20,
+      "w": 244
+    },
+    {
+      "px": 17,
+      "w": 243
+    },
+    {
+      "px": 16,
+      "w": 1133
+    },
+    {
+      "px": 15,
+      "w": 403
+    },
+    {
+      "px": 14,
+      "w": 216
+    },
+    {
+      "px": 10,
+      "w": 98
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 2.13,
+    "ls": "0.040em"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 20,
+        "weight": "500",
+        "lh": 1.6,
+        "ls": "0",
+        "family": "Shippori Mincho"
+      },
+      {
+        "fs": 22,
+        "weight": "500",
+        "lh": 1.15,
+        "ls": "0.040em",
+        "family": "Shippori Mincho"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 28,
+        "weight": "500",
+        "lh": 1.15,
+        "ls": "0.150em",
+        "family": "Shippori Mincho"
+      },
+      {
+        "fs": 33,
+        "weight": "400",
+        "lh": 1.15,
+        "ls": "0.100em",
+        "family": "Shippori Mincho"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 24
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 10
+    },
+    {
+      "px": 72,
+      "n": 3
+    },
+    {
+      "px": 80,
+      "n": 3
+    },
+    {
+      "px": 112,
+      "n": 3
+    }
+  ],
+  "container": [
+    {
+      "px": 1000,
+      "n": 14
+    },
+    {
+      "px": 800,
+      "n": 5
+    },
+    {
+      "px": 1088,
+      "n": 5
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#000000",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 67px",
+      "fs": 15,
+      "weight": "400",
+      "h": 32,
+      "ls": "0.45px",
+      "n": 5
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 67px",
+      "fs": 15,
+      "weight": "400",
+      "h": 32,
+      "ls": "0.45px",
+      "n": 3
+    },
+    {
+      "bg": "#e6e4d0",
+      "color": "#000000",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 30px",
+      "fs": 15,
+      "weight": "400",
+      "h": 70,
+      "ls": "1.5px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1024,
+      "n": 1
+    },
+    {
+      "px": 768,
+      "n": 199
+    },
+    {
+      "px": 767,
+      "n": 173
+    },
+    {
+      "px": 600,
+      "n": 1
+    },
+    {
+      "px": 320,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": "#fffef5",
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 2220,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "56:44"
+    },
+    {
+      "h": 1900,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 980,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 2140,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1040,
+      "full": false,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 160,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "48:52"
+    },
+    {
+      "h": 260,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#fffef5",
+      "n": 5
+    },
+    {
+      "hex": "#000000",
+      "n": 3
+    },
+    {
+      "hex": "#ffffff",
+      "n": 1
+    },
+    {
+      "hex": "#3b3529",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#fffef5",
+      "bg": "#000000",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 113,
+    "fullBleed": 3,
+    "ratios": [
+      {
+        "ratio": "4:3",
+        "n": 44
+      },
+      {
+        "ratio": "1:1",
+        "n": 26
+      },
+      {
+        "ratio": "2:3",
+        "n": 18
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 113
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": 1.88,
+    "sizes": [
+      20,
+      17,
+      16,
+      15,
+      14
+    ],
+    "pad": 32,
+    "gap": null,
+    "sidePad": 20,
+    "h1": {
+      "fs": 15,
+      "lh": 1.15
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 14,
+      "文字": 90,
+      "枠": 1,
+      "ボタン": 2
+    },
+    {
+      "hex": "#3b3529",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 3,
+      "文字": 98,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#e6e4d0",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#726d60",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "モノトーン"
+  ]
+}

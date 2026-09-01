@@ -1,0 +1,461 @@
+{
+  "slug": "safesafe",
+  "url": "https://www.safesafe.co.jp/",
+  "title": "賃貸住宅保険の専門会社｜SBI常口セーフティ少額短期保険",
+  "desc": "賃貸住宅保険の専門会社｜SBI常口セーフティ少額短期保険は、日本のインターネット金融のパイオニアであるSBIグループの保険事業を担う企業の一員です。わたしたちは、最新のテクノロジーを活用し、保険商品・サービスのイノベーションに取り組んでいます。",
+  "bg": [
+    {
+      "hex": "#f4f3f2",
+      "pct": 66.4
+    },
+    {
+      "hex": "#10263c",
+      "pct": 16.5
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 8.8
+    },
+    {
+      "hex": "#005ba8",
+      "pct": 7.4
+    },
+    {
+      "hex": "#e6e3dc",
+      "pct": 0.8
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#ffffff",
+      "pct": 74
+    },
+    {
+      "hex": "#000000",
+      "pct": 14.5
+    },
+    {
+      "hex": "#1a1a1a",
+      "pct": 8.2
+    },
+    {
+      "hex": "#a0a0a0",
+      "pct": 2
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "游ゴシック体",
+      "w": 2076
+    },
+    {
+      "family": "Lexend",
+      "w": 198
+    }
+  ],
+  "sizes": [
+    {
+      "px": 44,
+      "w": 50
+    },
+    {
+      "px": 18,
+      "w": 501
+    },
+    {
+      "px": 17,
+      "w": 66
+    },
+    {
+      "px": 16,
+      "w": 396
+    },
+    {
+      "px": 15,
+      "w": 50
+    },
+    {
+      "px": 14,
+      "w": 1156
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.86,
+    "ls": "0.030em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 44,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0.030em",
+        "family": "游ゴシック体"
+      },
+      {
+        "fs": 44,
+        "weight": "700",
+        "lh": 1.59,
+        "ls": "0.090em",
+        "family": "游ゴシック体"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 9
+    },
+    {
+      "px": 12,
+      "n": 4
+    },
+    {
+      "px": 19,
+      "n": 2
+    },
+    {
+      "px": 15,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 3,
+      "n": 1
+    },
+    {
+      "px": 18,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 96,
+      "n": 2
+    },
+    {
+      "px": 60,
+      "n": 1
+    },
+    {
+      "px": 72,
+      "n": 1
+    },
+    {
+      "px": 80,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1152,
+      "n": 16
+    },
+    {
+      "px": 1080,
+      "n": 10
+    },
+    {
+      "px": 988,
+      "n": 7
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ededed",
+      "color": "#000000",
+      "border": null,
+      "radius": "12px",
+      "pad": "20px 0px",
+      "fs": 18,
+      "weight": "700",
+      "h": 62,
+      "ls": "0",
+      "n": 3
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#005ba8",
+      "border": "1px #ffffff",
+      "radius": "24px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "700",
+      "h": 48,
+      "ls": "0",
+      "n": 1
+    },
+    {
+      "bg": "#005ba8",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "12px",
+      "pad": "20px 0px",
+      "fs": 18,
+      "weight": "700",
+      "h": 62,
+      "ls": "0",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1600,
+      "n": 13
+    },
+    {
+      "px": 1025,
+      "n": 19
+    },
+    {
+      "px": 1024,
+      "n": 103
+    },
+    {
+      "px": 768,
+      "n": 55
+    },
+    {
+      "px": 600,
+      "n": 208
+    }
+  ],
+  "sections": [
+    {
+      "h": 860,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#f4f3f2",
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1340,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#f4f3f2",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1160,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": "#f9f8f7",
+      "align": "右",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1060,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#005ba8",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 400,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f4f3f2",
+      "n": 3
+    },
+    {
+      "hex": "#0d2134",
+      "n": 2
+    },
+    {
+      "hex": "#ffffff",
+      "n": 1
+    },
+    {
+      "hex": "#f9f8f7",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#10263c",
+      "bg": "#0d2134",
+      "radius": 19,
+      "pad": "0/160",
+      "border": "2px #ffffff",
+      "shadow": null,
+      "n": 2
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#e41a24",
+      "color": "#ffffff",
+      "radius": "999px",
+      "pad": "0px 11px",
+      "fs": 14,
+      "border": "1px",
+      "n": 4
+    }
+  ],
+  "images": {
+    "n": 8,
+    "fullBleed": 2,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 5
+      },
+      {
+        "ratio": "1:1",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 8
+      }
+    ]
+  },
+  "circles": {
+    "n": 5,
+    "sizes": [
+      {
+        "px": 56,
+        "n": 5
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.75,
+    "sizes": [
+      17,
+      16,
+      15,
+      14,
+      12
+    ],
+    "pad": 24,
+    "gap": 3,
+    "sidePad": 23,
+    "h1": {
+      "fs": 32,
+      "lh": 1.6
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f4f3f2",
+      "面": 7,
+      "文字": 0,
+      "枠": 6,
+      "ボタン": 3
+    },
+    {
+      "hex": "#10263c",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 7,
+      "文字": 103,
+      "枠": 3,
+      "ボタン": 1
+    },
+    {
+      "hex": "#005ba8",
+      "面": 2,
+      "文字": 4,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#e6e3dc",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 8,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#1a1a1a",
+      "面": 0,
+      "文字": 7,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#a0a0a0",
+      "面": 0,
+      "文字": 5,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#10263c",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

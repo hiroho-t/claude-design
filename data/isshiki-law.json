@@ -1,0 +1,354 @@
+{
+  "slug": "isshiki-law",
+  "url": "https://www.isshiki-law.com/",
+  "title": "一色法律事務所・外国法共同事業 ISSHIKI & PARTNERS",
+  "desc": "当事務所は、日本国内及び海外における訴訟及び仲裁を中心とした紛争解決案件を幅広く対応しております。日本国内における訴訟では、例えば、日本法のみならず外国法や外国の手続が問題となるような国際紛争案件への対応を強みとしております。さらには、国際仲裁、米国訴訟における代理業務等も行っております。",
+  "bg": [
+    {
+      "hex": "#e3e2e0",
+      "pct": 61.4
+    },
+    {
+      "hex": "#ebeae9",
+      "pct": 36
+    },
+    {
+      "hex": "#444444",
+      "pct": 1.3
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 1.3
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#444444",
+      "pct": 78.2
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 21.8
+    }
+  ],
+  "pageBg": "#ebeae9",
+  "fonts": [
+    {
+      "family": "FP-KoburinaGoStdN-W3",
+      "w": 453
+    },
+    {
+      "family": "NHaasGroteskDSPro-55Rg",
+      "w": 307
+    }
+  ],
+  "sizes": [
+    {
+      "px": 24,
+      "w": 94
+    },
+    {
+      "px": 14,
+      "w": 230
+    },
+    {
+      "px": 13,
+      "w": 26
+    },
+    {
+      "px": 12,
+      "w": 203
+    },
+    {
+      "px": 11,
+      "w": 46
+    },
+    {
+      "px": 10,
+      "w": 161
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.86,
+    "ls": "0.100em"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 24,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "FP-KoburinaGoStdN-W3"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 24,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "FP-KoburinaGoStdN-W3"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 13
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.16) 0px 10px 5px 0px",
+      "n": 4
+    }
+  ],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 152,
+      "n": 3
+    },
+    {
+      "px": 80,
+      "n": 2
+    },
+    {
+      "px": 44,
+      "n": 1
+    },
+    {
+      "px": 84,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 700,
+      "n": 7
+    },
+    {
+      "px": 768,
+      "n": 3
+    },
+    {
+      "px": 1160,
+      "n": 3
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#444444",
+      "border": "1px #999999",
+      "radius": "0px",
+      "pad": "7px 0px",
+      "fs": 14,
+      "weight": "400",
+      "h": 43,
+      "ls": "1.4px",
+      "n": 3
+    },
+    {
+      "bg": "#444444",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "8px 16px",
+      "fs": 12,
+      "weight": "400",
+      "h": 38,
+      "ls": "1.2px",
+      "n": 2
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#444444",
+      "border": null,
+      "radius": "0px",
+      "pad": "8px 16px",
+      "fs": 12,
+      "weight": "400",
+      "h": 38,
+      "ls": "1.2px",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1440,
+      "n": 1
+    },
+    {
+      "px": 1280,
+      "n": 5
+    },
+    {
+      "px": 1024,
+      "n": 1
+    },
+    {
+      "px": 767,
+      "n": 102
+    },
+    {
+      "px": 600,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 200,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#ebeae9",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "92:8"
+    },
+    {
+      "h": 360,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 420,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "48:52"
+    },
+    {
+      "h": 420,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "48:52"
+    },
+    {
+      "h": 620,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ebeae9",
+      "n": 1
+    },
+    {
+      "hex": "#e3e2e0",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 4,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 2
+      },
+      {
+        "ratio": "21:9",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 4
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 15,
+    "bodyLh": 1.86,
+    "sizes": [
+      23,
+      15,
+      12,
+      11,
+      10
+    ],
+    "pad": 92,
+    "gap": null,
+    "sidePad": 21,
+    "h1": {
+      "fs": 22,
+      "lh": 1.52
+    }
+  },
+  "usage": [
+    {
+      "hex": "#e3e2e0",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ebeae9",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#444444",
+      "面": 2,
+      "文字": 39,
+      "枠": 0,
+      "ボタン": 2
+    },
+    {
+      "hex": "#ffffff",
+      "面": 2,
+      "文字": 8,
+      "枠": 0,
+      "ボタン": 2
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "モノトーン"
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "slug": "michi-kusa",
+  "url": "https://michi-kusa.co.jp/",
+  "title": "ミチクサ醸造所 - 海のほとりの小さな手造りビール工房 - 福岡県",
+  "desc": "ミチクサ醸造所は、築100年を超える元旅館にあるビール醸造所です。さまざまな食事のシーンに寄り添うビール「FOC（フォク）」の販売のほか、オリジナルビールの製造支援（ミチクサOEM）や手作りビール体験などをしています。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 82.7
+    },
+    {
+      "hex": "#eeedea",
+      "pct": 8.8
+    },
+    {
+      "hex": "#e1dcd3",
+      "pct": 8.4
+    },
+    {
+      "hex": "#1779b3",
+      "pct": 0.2
+    },
+    {
+      "hex": "#000000",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#333333",
+      "pct": 48.2
+    },
+    {
+      "hex": "#000000",
+      "pct": 21.3
+    },
+    {
+      "hex": "#4f4f4f",
+      "pct": 15.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 11.7
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "A1ゴシック R JIS2004",
+      "w": 1298
+    },
+    {
+      "family": "A1明朝",
+      "w": 257
+    },
+    {
+      "family": "Work Sans",
+      "w": 235
+    },
+    {
+      "family": "Material Icons",
+      "w": 165
+    }
+  ],
+  "sizes": [
+    {
+      "px": 24,
+      "w": 273
+    },
+    {
+      "px": 18,
+      "w": 74
+    },
+    {
+      "px": 16,
+      "w": 1143
+    },
+    {
+      "px": 14,
+      "w": 140
+    },
+    {
+      "px": 13,
+      "w": 150
+    },
+    {
+      "px": 12,
+      "w": 118
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": null,
+    "ls": "0"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 32,
+        "weight": "400",
+        "lh": 1.6,
+        "ls": "0.100em",
+        "family": "A1明朝"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 12,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.050em",
+        "family": "Work Sans"
+      },
+      {
+        "fs": 36,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.100em",
+        "family": "A1明朝"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 22,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0",
+        "family": "A1明朝"
+      },
+      {
+        "fs": 24,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "A1明朝"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 22
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 140,
+      "n": 7
+    },
+    {
+      "px": 80,
+      "n": 2
+    },
+    {
+      "px": 120,
+      "n": 2
+    },
+    {
+      "px": 52,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 960,
+      "n": 8
+    },
+    {
+      "px": 620,
+      "n": 6
+    },
+    {
+      "px": 1200,
+      "n": 5
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#1779b3",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "50%",
+      "pad": "0px 0px",
+      "fs": 24,
+      "weight": "400",
+      "h": 70,
+      "ls": "0",
+      "n": 4
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#000000",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 20px",
+      "fs": 22,
+      "weight": "400",
+      "h": 60,
+      "ls": "0",
+      "n": 2
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#000000",
+      "border": null,
+      "radius": "0px",
+      "pad": "18px 30px",
+      "fs": 22,
+      "weight": "400",
+      "h": 64,
+      "ls": "2.2px",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1140,
+      "n": 20
+    },
+    {
+      "px": 840,
+      "n": 103
+    },
+    {
+      "px": 540,
+      "n": 211
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 2,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 140,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 120,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 4,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1400,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 2600,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1060,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "33:67"
+    },
+    {
+      "h": 1240,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "35:65"
+    },
+    {
+      "h": 1180,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 800,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "33:67"
+    },
+    {
+      "h": 620,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 560,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": "#e1dcd3",
+      "align": "右",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 360,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#eeedea",
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 4
+    },
+    {
+      "hex": "#e1dcd3",
+      "n": 2
+    },
+    {
+      "hex": "#eeedea",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#ffffff",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 2
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 17,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "4:3",
+        "n": 6
+      },
+      {
+        "ratio": "1:1",
+        "n": 5
+      },
+      {
+        "ratio": "3:2",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 17
+      }
+    ]
+  },
+  "circles": {
+    "n": 9,
+    "sizes": [
+      {
+        "px": 48,
+        "n": 4
+      },
+      {
+        "px": 72,
+        "n": 4
+      },
+      {
+        "px": 40,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2.2,
+    "sizes": [
+      24,
+      18,
+      14,
+      13,
+      12
+    ],
+    "pad": 100,
+    "gap": null,
+    "sidePad": 0,
+    "h1": {
+      "fs": 20,
+      "lh": 1.6
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 15,
+      "文字": 10,
+      "枠": 0,
+      "ボタン": 6
+    },
+    {
+      "hex": "#eeedea",
+      "面": 3,
+      "文字": 0,
+      "枠": 1,
+      "ボタン": 1
+    },
+    {
+      "hex": "#e1dcd3",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#1779b3",
+      "面": 8,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 4
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 29,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#333333",
+      "面": 0,
+      "文字": 48,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#4f4f4f",
+      "面": 0,
+      "文字": 6,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#1779b3",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}
