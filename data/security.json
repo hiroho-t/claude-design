@@ -1,0 +1,453 @@
+{
+  "slug": "security",
+  "url": "https://security-himeji.jp/",
+  "title": "防犯カメラ・セキュリティシステムの導入なら株式会社セキュリティ【セキュリティハウス姫路】",
+  "desc": "セキュリティのことなら株式会社セキュリティ。 防犯カメラの設置・メンテナンス、AIカメラで遠隔監視・侵入警戒、等幅広いサービスをご用意しております。",
+  "bg": [
+    {
+      "hex": "#003894",
+      "pct": 34.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 33
+    },
+    {
+      "hex": "#f7f7f7",
+      "pct": 21.3
+    },
+    {
+      "hex": "#e6ecec",
+      "pct": 9.1
+    },
+    {
+      "hex": "#df3101",
+      "pct": 1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 65.5
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 22.3
+    },
+    {
+      "hex": "#003894",
+      "pct": 11.2
+    },
+    {
+      "hex": "#df3101",
+      "pct": 1.1
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Zen Kaku Gothic New",
+      "w": 2351
+    },
+    {
+      "family": "Lexend",
+      "w": 143
+    }
+  ],
+  "sizes": [
+    {
+      "px": 18,
+      "w": 95
+    },
+    {
+      "px": 17,
+      "w": 369
+    },
+    {
+      "px": 16,
+      "w": 334
+    },
+    {
+      "px": 15,
+      "w": 540
+    },
+    {
+      "px": 14,
+      "w": 573
+    },
+    {
+      "px": 12,
+      "w": 327
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 2,
+    "ls": "0.020em"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 15,
+        "weight": "400",
+        "lh": null,
+        "ls": "0",
+        "family": "Zen Kaku Gothic New"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 30,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0.020em",
+        "family": "Zen Kaku Gothic New"
+      },
+      {
+        "fs": 42,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.020em",
+        "family": "Zen Kaku Gothic New"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 12,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0.020em",
+        "family": "Zen Kaku Gothic New"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 17,
+        "weight": "500",
+        "lh": 1.6,
+        "ls": "0",
+        "family": "Zen Kaku Gothic New"
+      },
+      {
+        "fs": 30,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0.020em",
+        "family": "Zen Kaku Gothic New"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 26
+    },
+    {
+      "px": 8,
+      "n": 12
+    },
+    {
+      "px": 6,
+      "n": 9
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 11,
+      "n": 54
+    },
+    {
+      "px": 8,
+      "n": 42
+    },
+    {
+      "px": 23,
+      "n": 27
+    },
+    {
+      "px": 5,
+      "n": 19
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 3
+    },
+    {
+      "px": 44,
+      "n": 3
+    },
+    {
+      "px": 52,
+      "n": 3
+    },
+    {
+      "px": 68,
+      "n": 3
+    }
+  ],
+  "container": [
+    {
+      "px": 1380,
+      "n": 8
+    },
+    {
+      "px": 1164,
+      "n": 5
+    },
+    {
+      "px": 720,
+      "n": 3
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "4px 4px",
+      "fs": 30,
+      "weight": "700",
+      "h": 61,
+      "ls": "0.590476px",
+      "n": 1
+    },
+    {
+      "bg": "#003894",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "6px",
+      "pad": "0px 0px",
+      "fs": 30,
+      "weight": "700",
+      "h": 53,
+      "ls": "0.590476px",
+      "n": 1
+    },
+    {
+      "bg": "#bc2900",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "95px",
+      "pad": "4px 4px",
+      "fs": 17,
+      "weight": "700",
+      "h": 61,
+      "ls": "0.342857px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 800,
+      "n": 2
+    },
+    {
+      "px": 768,
+      "n": 17
+    },
+    {
+      "px": 640,
+      "n": 4
+    },
+    {
+      "px": 480,
+      "n": 4
+    },
+    {
+      "px": 450,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 1940,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1960,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#003894",
+      "align": "左",
+      "media": "右",
+      "split": "35:65"
+    },
+    {
+      "h": 920,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1700,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": "#f7f7f7",
+      "align": "中央",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 500,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 7
+    },
+    {
+      "hex": "#003894",
+      "n": 3
+    },
+    {
+      "hex": "#e6ecec",
+      "n": 2
+    },
+    {
+      "hex": "#2e3737",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": null,
+      "bg": "#ffffff",
+      "radius": 0,
+      "pad": "4/4",
+      "border": null,
+      "shadow": null,
+      "n": 6
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "#000000",
+      "radius": 0,
+      "pad": "4/4",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 63,
+    "fullBleed": 2,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 35
+      },
+      {
+        "ratio": "4:3",
+        "n": 10
+      },
+      {
+        "ratio": "3:2",
+        "n": 6
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 63
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": null,
+    "sizes": [
+      18,
+      17,
+      16,
+      15,
+      13
+    ],
+    "pad": 48,
+    "gap": 8,
+    "sidePad": 31,
+    "h1": {
+      "fs": 16,
+      "lh": null
+    }
+  },
+  "usage": [
+    {
+      "hex": "#003894",
+      "面": 13,
+      "文字": 68,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#ffffff",
+      "面": 20,
+      "文字": 44,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#f7f7f7",
+      "面": 4,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#e6ecec",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#df3101",
+      "面": 2,
+      "文字": 4,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#000000",
+      "面": 6,
+      "文字": 130,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#003894",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}
