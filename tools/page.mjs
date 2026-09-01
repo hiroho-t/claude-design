@@ -296,9 +296,7 @@ export function detailPage({ d, palette, md, name, industry, ja, en, alt, ladder
 </div>
 
 <footer>
-  <p>掲載しているのは、各サイトを計測して得た色・寸法などの数値と、参考として添えたスクリーンショットです。
-     文言・写真・ロゴは含めていません。著作権は各サイトの権利者に帰属します。
-     スクリーンショットの掲載を希望されない場合はご連絡ください、確認のうえ削除します。</p>
+  <p>スクリーンショットの掲載を希望されない場合はご連絡ください、確認のうえ削除します。</p>
   <p style="margin-top:12px">運営：<a href="https://startwith.org/" target="_blank" rel="noopener">合同会社StartWith</a></p>
 </footer>
 

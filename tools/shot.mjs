@@ -11,6 +11,8 @@ const b = await puppeteer.launch({ protocolTimeout: 600000, executablePath: CHRO
   args: ['--hide-scrollbars', '--force-device-scale-factor=1', '--no-sandbox'] });
 const p = await b.newPage();
 await p.setViewport({ width: 1440, height: 900, deviceScaleFactor: 1 });
+// UAを名乗らないと弾くサイトがある（弾かれると Access Denied の画面を撮ってしまう）
+await p.setUserAgent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36');
 await p.goto(url, { waitUntil: 'networkidle2', timeout: 120000 }).catch(() => {});
 await new Promise(r => setTimeout(r, 3000));
 // アニメーションを止めてから撮る（途中の状態で写らないように）
