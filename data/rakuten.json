@@ -1,0 +1,404 @@
+{
+  "slug": "rakuten",
+  "url": "https://corp.rakuten.co.jp/",
+  "title": "楽天グループ株式会社コーポレートサイト",
+  "desc": "楽天グループ株式会社のコーポレートサイトです。企業情報や投資家情報、プレスリリース、サステナビリティ情報、採用情報などを掲載しています。楽天グループは、イノベーションを通じて、人々と社会をエンパワーメントすることを目指しています。",
+  "bg": [
+    {
+      "hex": "#f6f6f6",
+      "pct": 86.6
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 6.2
+    },
+    {
+      "hex": "#313036",
+      "pct": 2.7
+    },
+    {
+      "hex": "#bf0000",
+      "pct": 2.7
+    },
+    {
+      "hex": "#000000",
+      "pct": 1.7
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 74.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 19.6
+    },
+    {
+      "hex": "#bf0000",
+      "pct": 2.2
+    },
+    {
+      "hex": "#636363",
+      "pct": 1.8
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "RakutenSansJP2_W",
+      "w": 2409
+    },
+    {
+      "family": "RakutenSansUI",
+      "w": 46
+    }
+  ],
+  "sizes": [
+    {
+      "px": 18,
+      "w": 260
+    },
+    {
+      "px": 16,
+      "w": 147
+    },
+    {
+      "px": 15,
+      "w": 296
+    },
+    {
+      "px": 14,
+      "w": 1272
+    },
+    {
+      "px": 13,
+      "w": 72
+    },
+    {
+      "px": 11,
+      "w": 211
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.46,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 18,
+        "weight": "600",
+        "lh": 1.4,
+        "ls": "0.020em",
+        "family": "RakutenSansJP2_W"
+      },
+      {
+        "fs": 14,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0.020em",
+        "family": "RakutenSansJP2_W"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 22,
+        "weight": "600",
+        "lh": 1.4,
+        "ls": "0.020em",
+        "family": "RakutenSansJP2_W"
+      },
+      {
+        "fs": 30,
+        "weight": "600",
+        "lh": 1.2,
+        "ls": "0.020em",
+        "family": "RakutenSansJP2_W"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 24
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.05) 0px 2px 20px 0px",
+      "n": 6
+    },
+    {
+      "css": "rgba(0, 0, 0, 0.2) 0px 0px 10px 3px",
+      "n": 1
+    }
+  ],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 7
+    },
+    {
+      "px": 80,
+      "n": 3
+    },
+    {
+      "px": 60,
+      "n": 2
+    },
+    {
+      "px": 44,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1095,
+      "n": 22
+    },
+    {
+      "px": 1124,
+      "n": 10
+    },
+    {
+      "px": 1096,
+      "n": 9
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#bf0000",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 13,
+      "weight": "300",
+      "h": 30,
+      "ls": "0.26px",
+      "n": 2
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#bf0000",
+      "border": "1px #bf0000",
+      "radius": "200px",
+      "pad": "20px 50px",
+      "fs": 13,
+      "weight": "300",
+      "h": 62,
+      "ls": "0.26px",
+      "n": 2
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": "1px #ffffff",
+      "radius": "200px",
+      "pad": "16px 40px",
+      "fs": 13,
+      "weight": "300",
+      "h": 54,
+      "ls": "0.26px",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 769,
+      "n": 25
+    },
+    {
+      "px": 768,
+      "n": 30
+    },
+    {
+      "px": 640,
+      "n": 3
+    },
+    {
+      "px": 480,
+      "n": 3
+    },
+    {
+      "px": 479,
+      "n": 17
+    }
+  ],
+  "sections": [
+    {
+      "h": 180,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "右",
+      "split": "23:77"
+    },
+    {
+      "h": 3760,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#f6f6f6",
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f6f6f6",
+      "n": 10
+    },
+    {
+      "hex": "#bf0000",
+      "n": 2
+    },
+    {
+      "hex": "#313036",
+      "n": 2
+    },
+    {
+      "hex": "#ffffff",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#f6f6f6",
+      "radius": 0,
+      "pad": "26/26",
+      "border": null,
+      "shadow": null,
+      "n": 2
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "#bf0000",
+      "radius": 0,
+      "pad": "26/26",
+      "border": null,
+      "shadow": null,
+      "n": 2
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 16,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 11
+      },
+      {
+        "ratio": "16:9",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 16
+      }
+    ]
+  },
+  "circles": {
+    "n": 2,
+    "sizes": [
+      {
+        "px": 32,
+        "n": 1
+      },
+      {
+        "px": 40,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.5,
+    "sizes": [
+      22,
+      20,
+      15,
+      14,
+      11
+    ],
+    "pad": 40,
+    "gap": null,
+    "sidePad": 0,
+    "h1": {
+      "fs": 24,
+      "lh": 1.2
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f6f6f6",
+      "面": 10,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 8,
+      "文字": 24,
+      "枠": 2,
+      "ボタン": 2
+    },
+    {
+      "hex": "#313036",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#bf0000",
+      "面": 2,
+      "文字": 9,
+      "枠": 2,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 3,
+      "文字": 191,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#636363",
+      "面": 0,
+      "文字": 5,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#bf0000",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

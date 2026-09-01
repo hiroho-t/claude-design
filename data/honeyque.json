@@ -1,0 +1,358 @@
+{
+  "slug": "honeyque",
+  "url": "https://honeyque.jp/",
+  "title": "【公式】HONEYQUE（ハニーク）｜髪の芯から鍛える蜜髪へ。",
+  "desc": "髪の三大悩みであるうねり·広がり·パサつきもケアし、毛先まで素直にまとまる蜜髪へ。インナードライ髪の水分量に着目した、新発想の本格はちみつシャンプー。",
+  "bg": [
+    {
+      "hex": "#f3f1e7",
+      "pct": 87.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 11.6
+    },
+    {
+      "hex": "#222222",
+      "pct": 0.7
+    },
+    {
+      "hex": "#000000",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#232323",
+      "pct": 98.2
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 1.8
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 1918
+    },
+    {
+      "family": "TTNorms-pro-Bold",
+      "w": 825
+    }
+  ],
+  "sizes": [
+    {
+      "px": 30,
+      "w": 78
+    },
+    {
+      "px": 24,
+      "w": 239
+    },
+    {
+      "px": 18,
+      "w": 275
+    },
+    {
+      "px": 16,
+      "w": 1432
+    },
+    {
+      "px": 15,
+      "w": 121
+    },
+    {
+      "px": 14,
+      "w": 481
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.88,
+    "ls": "0.094em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 24,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0.050em",
+        "family": "TTNorms-pro-Bold"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 18,
+        "weight": "300",
+        "lh": 1.5,
+        "ls": "0.042em",
+        "family": "TTNorms-pro-Bold"
+      }
+    ],
+    "h1": [
+      {
+        "fs": 16,
+        "weight": "400",
+        "lh": 1.88,
+        "ls": "0.094em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 30,
+      "n": 12
+    },
+    {
+      "px": 0,
+      "n": 3
+    },
+    {
+      "px": 24,
+      "n": 3
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 40,
+      "n": 2
+    },
+    {
+      "px": 55,
+      "n": 2
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 120,
+      "n": 4
+    },
+    {
+      "px": 140,
+      "n": 2
+    },
+    {
+      "px": 160,
+      "n": 2
+    },
+    {
+      "px": 200,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 600,
+      "n": 8
+    },
+    {
+      "px": 1240,
+      "n": 3
+    },
+    {
+      "px": 1340,
+      "n": 1
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#232323",
+      "border": "2px #000000",
+      "radius": "30px",
+      "pad": "0px 0px",
+      "fs": 18,
+      "weight": "400",
+      "h": 60,
+      "ls": "0.9px",
+      "n": 12
+    }
+  ],
+  "bp": [
+    {
+      "px": 769,
+      "n": 42
+    },
+    {
+      "px": 768,
+      "n": 248
+    }
+  ],
+  "sections": [
+    {
+      "h": 120,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 820,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1480,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 5780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#f3f1e7",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 760,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "左",
+      "split": "27:73"
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 640,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#ffffff",
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 2
+    },
+    {
+      "hex": "#f3f1e7",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 43,
+    "fullBleed": 4,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 25
+      },
+      {
+        "ratio": "1:1",
+        "n": 13
+      },
+      {
+        "ratio": "16:9",
+        "n": 3
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 43
+      }
+    ]
+  },
+  "circles": {
+    "n": 3,
+    "sizes": [
+      {
+        "px": 48,
+        "n": 3
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 12,
+    "bodyLh": 2.5,
+    "sizes": [
+      15,
+      14,
+      13,
+      12,
+      10
+    ],
+    "pad": 52,
+    "gap": null,
+    "sidePad": 0,
+    "h1": {
+      "fs": 12,
+      "lh": 1.67
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f3f1e7",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 2,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#222222",
+      "面": 0,
+      "文字": 121,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 0,
+      "枠": 15,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角丸",
+    "モノトーン"
+  ]
+}

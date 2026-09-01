@@ -1784,5 +1784,55 @@
     "state": "skip",
     "why": "測定に失敗",
     "url": "https://kinswith-vet.com/"
+  },
+  "matsushitahome": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://matsushitahome.com/"
+  },
+  "seisa": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://seisa.ac.jp/"
+  },
+  "ichica": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://tenri-ichica.com/"
+  },
+  "acesinc": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://acesinc.co.jp/"
+  },
+  "honeyque": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://honeyque.jp/"
+  },
+  "mirai-works": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://mirai-works.co.jp/"
+  },
+  "koyama-houmu": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://koyama-houmu.com/"
+  },
+  "rakuten": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://corp.rakuten.co.jp/"
+  },
+  "nyle": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://nyle.co.jp/"
+  },
+  "sakurajyuji": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://sakurajuji.or.jp/"
   }
 }

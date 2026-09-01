@@ -1,0 +1,312 @@
+{
+  "slug": "mirai-works",
+  "url": "https://mirai-works.co.jp/",
+  "title": "みらいワークス | プロ人材のマッチングサービス・転職支援",
+  "desc": "みらいワークスは、プロ人材の独立や起業、転職支援事業などを通じて、日本のみらいのために挑戦する人を増やします。",
+  "bg": [
+    {
+      "hex": "#2c2c2c",
+      "pct": 64.1
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 21.8
+    },
+    {
+      "hex": "#f5f2f2",
+      "pct": 8
+    },
+    {
+      "hex": "#111111",
+      "pct": 2.3
+    },
+    {
+      "hex": "#dbdbdb",
+      "pct": 1.8
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#2c2c2c",
+      "pct": 52.6
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 22.4
+    },
+    {
+      "hex": "#bc0900",
+      "pct": 22.2
+    },
+    {
+      "hex": "#000000",
+      "pct": 2.9
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans Japanese",
+      "w": 468
+    },
+    {
+      "family": "CrimsonText",
+      "w": 285
+    }
+  ],
+  "sizes": [
+    {
+      "px": 50,
+      "w": 36
+    },
+    {
+      "px": 24,
+      "w": 75
+    },
+    {
+      "px": 14,
+      "w": 365
+    },
+    {
+      "px": 12,
+      "w": 100
+    },
+    {
+      "px": 11,
+      "w": 44
+    },
+    {
+      "px": 10,
+      "w": 103
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.5,
+    "ls": "0.120em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 21,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.080em",
+        "family": "Noto Sans Japanese"
+      },
+      {
+        "fs": 50,
+        "weight": "400",
+        "lh": 1.3,
+        "ls": "0.080em",
+        "family": "CrimsonText"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 14,
+        "weight": "400",
+        "lh": 1.75,
+        "ls": "0.120em",
+        "family": "Noto Sans Japanese"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 8
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 56,
+      "n": 2
+    },
+    {
+      "px": 84,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 760,
+      "n": 20
+    },
+    {
+      "px": 780,
+      "n": 7
+    },
+    {
+      "px": 568,
+      "n": 2
+    }
+  ],
+  "buttons": [],
+  "bp": [
+    {
+      "px": 980,
+      "n": 115
+    },
+    {
+      "px": 979,
+      "n": 98
+    },
+    {
+      "px": 960,
+      "n": 68
+    },
+    {
+      "px": 959,
+      "n": 916
+    },
+    {
+      "px": 374,
+      "n": 12
+    }
+  ],
+  "sections": [
+    {
+      "h": 3960,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 3
+    },
+    {
+      "hex": "#2c2c2c",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f5f2f2",
+      "bg": "transparent",
+      "radius": 0,
+      "pad": "0/0",
+      "border": "1px #e2dfdf",
+      "shadow": null,
+      "n": 3
+    },
+    {
+      "onBg": "#f5f2f2",
+      "bg": "#ffffff",
+      "radius": 0,
+      "pad": "0/40",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 5,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 5
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.5,
+    "sizes": [
+      40,
+      20,
+      14,
+      12,
+      10
+    ],
+    "pad": 80,
+    "gap": null,
+    "sidePad": 31,
+    "h1": {
+      "fs": 21,
+      "lh": 1.5
+    }
+  },
+  "usage": [
+    {
+      "hex": "#2c2c2c",
+      "面": 1,
+      "文字": 36,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 3,
+      "文字": 14,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f5f2f2",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#dbdbdb",
+      "面": 0,
+      "文字": 0,
+      "枠": 3,
+      "ボタン": 0
+    },
+    {
+      "hex": "#bc0900",
+      "面": 0,
+      "文字": 16,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#bc0900",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

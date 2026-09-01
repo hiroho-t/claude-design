@@ -1,0 +1,404 @@
+{
+  "slug": "ichica",
+  "url": "https://tenri-ichica.com/",
+  "title": "イチカ - 天理市から、あたらしい地域の通貨が始まります",
+  "desc": "天理市から、あたらしい地域の通貨が始まります",
+  "bg": [
+    {
+      "hex": "#d9e5d4",
+      "pct": 93.5
+    },
+    {
+      "hex": "#316043",
+      "pct": 3.1
+    },
+    {
+      "hex": "#f5f3ee",
+      "pct": 3
+    },
+    {
+      "hex": "#e94709",
+      "pct": 0.4
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#316043",
+      "pct": 88.9
+    },
+    {
+      "hex": "#fd816a",
+      "pct": 10
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 1.1
+    }
+  ],
+  "pageBg": "#f5f3ee",
+  "fonts": [
+    {
+      "family": "Zen Kaku Gothic New",
+      "w": 1218
+    },
+    {
+      "family": "Zen Maru Gothic",
+      "w": 324
+    }
+  ],
+  "sizes": [
+    {
+      "px": 45,
+      "w": 23
+    },
+    {
+      "px": 39,
+      "w": 61
+    },
+    {
+      "px": 32,
+      "w": 26
+    },
+    {
+      "px": 22,
+      "w": 469
+    },
+    {
+      "px": 19,
+      "w": 237
+    },
+    {
+      "px": 17,
+      "w": 711
+    }
+  ],
+  "body": {
+    "fs": 17,
+    "lh": 1.5,
+    "ls": "0"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 39,
+        "weight": "400",
+        "lh": 1.62,
+        "ls": "0",
+        "family": "Zen Maru Gothic"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 32,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Zen Maru Gothic"
+      },
+      {
+        "fs": 52,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0",
+        "family": "Zen Maru Gothic"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 22,
+        "weight": "700",
+        "lh": 2,
+        "ls": "0",
+        "family": "Zen Maru Gothic"
+      },
+      {
+        "fs": 45,
+        "weight": "400",
+        "lh": 1.63,
+        "ls": "0",
+        "family": "Zen Maru Gothic"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 52,
+      "n": 16
+    },
+    {
+      "px": 0,
+      "n": 9
+    },
+    {
+      "px": 9,
+      "n": 2
+    },
+    {
+      "px": 13,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 69,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 208,
+      "n": 10
+    },
+    {
+      "px": 36,
+      "n": 6
+    },
+    {
+      "px": 44,
+      "n": 1
+    },
+    {
+      "px": 68,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 800,
+      "n": 10
+    },
+    {
+      "px": 960,
+      "n": 4
+    },
+    {
+      "px": 600,
+      "n": 3
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#316043",
+      "color": "#ffffff",
+      "border": "2px #316043",
+      "radius": "13px",
+      "pad": "26px 26px",
+      "fs": 17,
+      "weight": "400",
+      "h": 82,
+      "ls": "0",
+      "n": 1
+    },
+    {
+      "bg": "transparent",
+      "color": "#316043",
+      "border": "2px #316043",
+      "radius": "9px",
+      "pad": "22px 43px",
+      "fs": 19,
+      "weight": "400",
+      "h": 67,
+      "ls": "0",
+      "n": 1
+    },
+    {
+      "bg": "transparent",
+      "color": "#316043",
+      "border": "2px #316043",
+      "radius": "9px",
+      "pad": "26px 60px",
+      "fs": 19,
+      "weight": "400",
+      "h": 75,
+      "ls": "0",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1024,
+      "n": 1
+    },
+    {
+      "px": 960,
+      "n": 1
+    },
+    {
+      "px": 768,
+      "n": 1
+    },
+    {
+      "px": 640,
+      "n": 1
+    },
+    {
+      "px": 600,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 820,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "53:47"
+    },
+    {
+      "h": 460,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 540,
+      "full": false,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 2280,
+      "full": false,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1180,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 760,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "11:89"
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#d9e5d4",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 25,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 16
+      },
+      {
+        "ratio": "1:1",
+        "n": 8
+      },
+      {
+        "ratio": "4:3",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 52,
+        "n": 16
+      },
+      {
+        "px": 26,
+        "n": 6
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 12,
+    "bodyLh": 1.5,
+    "sizes": [
+      28,
+      23,
+      16,
+      14,
+      12
+    ],
+    "pad": 148,
+    "gap": 50,
+    "sidePad": 33,
+    "h1": {
+      "fs": 28,
+      "lh": 1.63
+    }
+  },
+  "usage": [
+    {
+      "hex": "#d9e5d4",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#316043",
+      "面": 1,
+      "文字": 54,
+      "枠": 19,
+      "ボタン": 1
+    },
+    {
+      "hex": "#f5f3ee",
+      "面": 6,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#fd816a",
+      "面": 0,
+      "文字": 6,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 0,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#316043",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角丸",
+    "色つき"
+  ]
+}
