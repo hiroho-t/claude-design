@@ -1,0 +1,511 @@
+{
+  "slug": "surugabank-recruitment",
+  "url": "https://www.surugabank.co.jp/surugabank/recruitment/",
+  "title": "スルガ銀行 Recruiting Site",
+  "desc": "1895年の創業から、新しいこと、違うことへ挑戦し、「あってよかった、出会えてよかった」を創造してきたスルガ銀行。私たちは、お客さまの想いを聞き、課題に真摯に向き合い、必要とされる価値を提供するために、当事者意識をもって取り組むことができる人を求めています。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 40.2
+    },
+    {
+      "hex": "#60adf9",
+      "pct": 26.6
+    },
+    {
+      "hex": "#036dd6",
+      "pct": 12.9
+    },
+    {
+      "hex": "#fdf6ee",
+      "pct": 20.3
+    },
+    {
+      "hex": "#111111",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#111111",
+      "pct": 57.7
+    },
+    {
+      "hex": "#000000",
+      "pct": 31.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 5.4
+    },
+    {
+      "hex": "#036dd6",
+      "pct": 3.9
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Zen Kaku Gothic New",
+      "w": 2699
+    },
+    {
+      "family": "Poppins",
+      "w": 156
+    },
+    {
+      "family": "Inter",
+      "w": 10
+    }
+  ],
+  "sizes": [
+    {
+      "px": 24,
+      "w": 61
+    },
+    {
+      "px": 22,
+      "w": 406
+    },
+    {
+      "px": 18,
+      "w": 315
+    },
+    {
+      "px": 16,
+      "w": 589
+    },
+    {
+      "px": 15,
+      "w": 162
+    },
+    {
+      "px": 14,
+      "w": 1103
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.75,
+    "ls": "0.020em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 14,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "0.020em",
+        "family": "Zen Kaku Gothic New"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 22,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "-0.010em",
+        "family": "Zen Kaku Gothic New"
+      },
+      {
+        "fs": 38,
+        "weight": "500",
+        "lh": 1.6,
+        "ls": "-0.040em",
+        "family": "Zen Kaku Gothic New"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 20
+    },
+    {
+      "px": 8,
+      "n": 11
+    },
+    {
+      "px": 4,
+      "n": 6
+    },
+    {
+      "px": 16,
+      "n": 3
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 10,
+      "n": 40
+    },
+    {
+      "px": 20,
+      "n": 24
+    },
+    {
+      "px": 32,
+      "n": 12
+    },
+    {
+      "px": 2,
+      "n": 11
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 72,
+      "n": 9
+    },
+    {
+      "px": 120,
+      "n": 5
+    },
+    {
+      "px": 36,
+      "n": 4
+    },
+    {
+      "px": 96,
+      "n": 4
+    }
+  ],
+  "container": [
+    {
+      "px": 1040,
+      "n": 32
+    },
+    {
+      "px": 1132,
+      "n": 5
+    },
+    {
+      "px": 1280,
+      "n": 3
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#036dd6",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "1440px",
+      "pad": "1px 15px",
+      "fs": 14,
+      "weight": "500",
+      "h": 29,
+      "ls": "-0.14px",
+      "n": 40
+    },
+    {
+      "bg": "#036dd6",
+      "color": "#ffffff",
+      "border": "2px #036dd6",
+      "radius": "1440px",
+      "pad": "7px 42px",
+      "fs": 15,
+      "weight": "600",
+      "h": 42,
+      "ls": "0.6px",
+      "n": 1
+    },
+    {
+      "bg": "#036dd6",
+      "color": "#ffffff",
+      "border": "2px #036dd6",
+      "radius": "1440px",
+      "pad": "8px 48px",
+      "fs": 15,
+      "weight": "600",
+      "h": 40,
+      "ls": "0.6px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1024,
+      "n": 69
+    },
+    {
+      "px": 1023,
+      "n": 37
+    },
+    {
+      "px": 768,
+      "n": 919
+    },
+    {
+      "px": 767,
+      "n": 22
+    }
+  ],
+  "sections": [
+    {
+      "h": 680,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1220,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#fdf6ee",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 660,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 740,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#60adf9",
+      "align": "左",
+      "media": "右",
+      "split": "28:72"
+    },
+    {
+      "h": 960,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": "#60adf9",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 440,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#f7f7f7",
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 640,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 220,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 240,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#036dd6",
+      "align": "中央",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 9
+    },
+    {
+      "hex": "#fffaf5",
+      "n": 6
+    },
+    {
+      "hex": "#60adf9",
+      "n": 2
+    },
+    {
+      "hex": "#036dd6",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#ffffff",
+      "radius": 8,
+      "pad": "4/20",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    },
+    {
+      "onBg": "#fdf6ee",
+      "bg": "#ffffff",
+      "radius": 16,
+      "pad": "40/32",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#036dd6",
+      "color": "#ffffff",
+      "radius": "999px",
+      "pad": "1px 15px",
+      "fs": 14,
+      "border": null,
+      "n": 40
+    }
+  ],
+  "images": {
+    "n": 50,
+    "fullBleed": 2,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 40
+      },
+      {
+        "ratio": "1:1",
+        "n": 3
+      },
+      {
+        "ratio": "3:4",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 48
+      },
+      {
+        "px": 8,
+        "n": 2
+      }
+    ]
+  },
+  "circles": {
+    "n": 2,
+    "sizes": [
+      {
+        "px": 40,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.75,
+    "sizes": [
+      18,
+      16,
+      14,
+      12,
+      10
+    ],
+    "pad": 24,
+    "gap": 2,
+    "sidePad": 24,
+    "h1": {
+      "fs": 16,
+      "lh": 1.5
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 22,
+      "文字": 47,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#60adf9",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#036dd6",
+      "面": 44,
+      "文字": 14,
+      "枠": 4,
+      "ボタン": 42
+    },
+    {
+      "hex": "#fdf6ee",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#111111",
+      "面": 0,
+      "文字": 181,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 26,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#036dd6",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

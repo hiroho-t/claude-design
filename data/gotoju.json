@@ -1,0 +1,493 @@
+{
+  "slug": "gotoju",
+  "url": "https://www.gotoju.co.jp/",
+  "title": "純国産てづくりランドセル工房 ごとうじゅうランドセル",
+  "desc": "純国産てづくりランドセル工房「ごとうじゅうランドセル」の公式サイトです。愛知県清須市に工房を構え、創業100年の歴史で培われた熟練職人による手仕事で、安全性と使いやすさを重視し、一つひとつ丁寧に仕上げています。",
+  "bg": [
+    {
+      "hex": "#f3eee6",
+      "pct": 67.6
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 29.2
+    },
+    {
+      "hex": "#b8a78c",
+      "pct": 1.1
+    },
+    {
+      "hex": "#60451b",
+      "pct": 1
+    },
+    {
+      "hex": "#ea5514",
+      "pct": 0.3
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#60451b",
+      "pct": 44.6
+    },
+    {
+      "hex": "#000000",
+      "pct": 29.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 15.6
+    },
+    {
+      "hex": "#f3eee6",
+      "pct": 5.2
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Zen Kaku Gothic New",
+      "w": 2788
+    },
+    {
+      "family": "Jost",
+      "w": 27
+    }
+  ],
+  "sizes": [
+    {
+      "px": 33,
+      "w": 107
+    },
+    {
+      "px": 22,
+      "w": 155
+    },
+    {
+      "px": 18,
+      "w": 700
+    },
+    {
+      "px": 17,
+      "w": 670
+    },
+    {
+      "px": 13,
+      "w": 749
+    },
+    {
+      "px": 12,
+      "w": 236
+    }
+  ],
+  "body": {
+    "fs": 13,
+    "lh": 2,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 33,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0",
+        "family": "Zen Kaku Gothic New"
+      },
+      {
+        "fs": 22,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0.100em",
+        "family": "Zen Kaku Gothic New"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 11,
+      "n": 17
+    },
+    {
+      "px": 0,
+      "n": 13
+    },
+    {
+      "px": 55,
+      "n": 2
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 11,
+      "n": 76
+    },
+    {
+      "px": 22,
+      "n": 17
+    },
+    {
+      "px": 6,
+      "n": 12
+    },
+    {
+      "px": 9,
+      "n": 10
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 88,
+      "n": 12
+    },
+    {
+      "px": 56,
+      "n": 4
+    },
+    {
+      "px": 112,
+      "n": 3
+    },
+    {
+      "px": 32,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1108,
+      "n": 32
+    },
+    {
+      "px": 1408,
+      "n": 9
+    },
+    {
+      "px": 940,
+      "n": 3
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#60451b",
+      "border": "1px #b8a78c",
+      "radius": "33554400px",
+      "pad": "5px 33px",
+      "fs": 17,
+      "weight": "700",
+      "h": 61,
+      "ls": "0",
+      "n": 20
+    },
+    {
+      "bg": "transparent",
+      "color": "#60451b",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 17,
+      "weight": "700",
+      "h": 61,
+      "ls": "0",
+      "n": 16
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#60451b",
+      "border": "1px #b8a78c",
+      "radius": "11px",
+      "pad": "0px 0px",
+      "fs": 17,
+      "weight": "700",
+      "h": 85,
+      "ls": "0",
+      "n": 7
+    }
+  ],
+  "bp": [
+    {
+      "px": 1300,
+      "n": 1
+    },
+    {
+      "px": 768,
+      "n": 44
+    },
+    {
+      "px": 767,
+      "n": 627
+    }
+  ],
+  "sections": [
+    {
+      "h": 560,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 340,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": "#f3eee6",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 880,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": "#f3eee6",
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 640,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 640,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 560,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 3340,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "24:76"
+    },
+    {
+      "h": 560,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1520,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 620,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 440,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 620,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": "#ffffff",
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f3eee6",
+      "n": 6
+    },
+    {
+      "hex": "#ffffff",
+      "n": 3
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 122,
+    "fullBleed": 9,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 57
+      },
+      {
+        "ratio": "3:2",
+        "n": 15
+      },
+      {
+        "ratio": "2:3",
+        "n": 8
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 122
+      }
+    ]
+  },
+  "circles": {
+    "n": 4,
+    "sizes": [
+      {
+        "px": 104,
+        "n": 3
+      },
+      {
+        "px": 40,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 11,
+    "bodyLh": 1.7,
+    "sizes": [
+      21,
+      17,
+      15,
+      14,
+      11
+    ],
+    "pad": 52,
+    "gap": 5,
+    "sidePad": 16,
+    "h1": {
+      "fs": 21,
+      "lh": 1.7
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f3eee6",
+      "面": 10,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#ffffff",
+      "面": 31,
+      "文字": 41,
+      "枠": 1,
+      "ボタン": 27
+    },
+    {
+      "hex": "#b8a78c",
+      "面": 1,
+      "文字": 9,
+      "枠": 30,
+      "ボタン": 0
+    },
+    {
+      "hex": "#60451b",
+      "面": 2,
+      "文字": 118,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ea5514",
+      "面": 1,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 45,
+      "枠": 0,
+      "ボタン": 1
+    }
+  ],
+  "accent": "#60451b",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

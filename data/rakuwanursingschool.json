@@ -1,0 +1,552 @@
+{
+  "slug": "rakuwanursingschool",
+  "url": "https://rakuwa-nursingschool.ac.jp/",
+  "title": "洛和会京都看護学校",
+  "desc": "京都市山科区にある学校法人洛和学園 洛和会京都看護学校（旧 洛和会京都厚生学校）は、看護学科・助産学科を有し、洛和会ヘルスケアシステムのバックアップのもと「命への感性を磨いて、あたたかな存在感のある医療従事者を育てたい」思いで、地域医療を担う看護師、助産師の育成支援を目指しています。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 43.7
+    },
+    {
+      "hex": "#e3f7ec",
+      "pct": 22.4
+    },
+    {
+      "hex": "#ebf6ff",
+      "pct": 14.5
+    },
+    {
+      "hex": "#00205b",
+      "pct": 7.9
+    },
+    {
+      "hex": "#fcf4f0",
+      "pct": 7.7
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#333333",
+      "pct": 43.9
+    },
+    {
+      "hex": "#00205b",
+      "pct": 30
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 23.3
+    },
+    {
+      "hex": "#737373",
+      "pct": 1.9
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 1913
+    },
+    {
+      "family": "Zen Kaku Gothic New",
+      "w": 682
+    },
+    {
+      "family": "Lato",
+      "w": 487
+    },
+    {
+      "family": "Shippori Mincho",
+      "w": 363
+    }
+  ],
+  "sizes": [
+    {
+      "px": 40,
+      "w": 38
+    },
+    {
+      "px": 28,
+      "w": 86
+    },
+    {
+      "px": 16,
+      "w": 988
+    },
+    {
+      "px": 14,
+      "w": 2079
+    },
+    {
+      "px": 13,
+      "w": 101
+    },
+    {
+      "px": 12,
+      "w": 106
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.75,
+    "ls": "0.040em"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 32,
+        "weight": "600",
+        "lh": 1.5,
+        "ls": "0.080em",
+        "family": "Shippori Mincho"
+      },
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": 1.75,
+        "ls": "0.060em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 28,
+        "weight": "600",
+        "lh": 1.5,
+        "ls": "0.080em",
+        "family": "Shippori Mincho"
+      },
+      {
+        "fs": 18,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Zen Kaku Gothic New"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 46
+    },
+    {
+      "px": 50,
+      "n": 7
+    },
+    {
+      "px": 4,
+      "n": 3
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 8,
+      "n": 39
+    },
+    {
+      "px": 12,
+      "n": 27
+    },
+    {
+      "px": 20,
+      "n": 20
+    },
+    {
+      "px": 16,
+      "n": 13
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 56,
+      "n": 8
+    },
+    {
+      "px": 120,
+      "n": 5
+    },
+    {
+      "px": 140,
+      "n": 4
+    },
+    {
+      "px": 80,
+      "n": 3
+    }
+  ],
+  "container": [
+    {
+      "px": 616,
+      "n": 34
+    },
+    {
+      "px": 1200,
+      "n": 22
+    },
+    {
+      "px": 680,
+      "n": 21
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#00205b",
+      "border": "1px #00205b",
+      "radius": "33554400px",
+      "pad": "10px 10px",
+      "fs": 14,
+      "weight": "500",
+      "h": 50,
+      "ls": "0.56px",
+      "n": 8
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": "1px #ffffff",
+      "radius": "50px",
+      "pad": "8px 16px",
+      "fs": 16,
+      "weight": "400",
+      "h": 42,
+      "ls": "0",
+      "n": 7
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#00205b",
+      "border": "1px",
+      "radius": "33554400px",
+      "pad": "17px 20px",
+      "fs": 16,
+      "weight": "500",
+      "h": 68,
+      "ls": "0.64px",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1120,
+      "n": 416
+    },
+    {
+      "px": 1119,
+      "n": 19
+    },
+    {
+      "px": 1024,
+      "n": 9
+    },
+    {
+      "px": 768,
+      "n": 1483
+    },
+    {
+      "px": 767,
+      "n": 11
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1020,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "49:51"
+    },
+    {
+      "h": 180,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "左",
+      "split": "58:42"
+    },
+    {
+      "h": 2120,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 240,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 660,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "左",
+      "split": "58:42"
+    },
+    {
+      "h": 420,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#ebf6ff",
+      "align": "左",
+      "media": "右",
+      "split": "42:58"
+    },
+    {
+      "h": 1000,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": "#e3f7ec",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 560,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 580,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "左",
+      "split": "58:42"
+    },
+    {
+      "h": 380,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 9
+    },
+    {
+      "hex": "#ebf6ff",
+      "n": 2
+    },
+    {
+      "hex": "#fcf4f0",
+      "n": 1
+    },
+    {
+      "hex": "#fcf5f5",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#e3f7ec",
+      "bg": "#ffffff",
+      "radius": 0,
+      "pad": "40/40",
+      "border": null,
+      "shadow": null,
+      "n": 5
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "#ffffff",
+      "radius": 0,
+      "pad": "12/24",
+      "border": null,
+      "shadow": null,
+      "n": 4
+    }
+  ],
+  "chips": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "radius": "999px",
+      "pad": "8px 16px",
+      "fs": 16,
+      "border": "1px",
+      "n": 7
+    },
+    {
+      "bg": "#ebf6ff",
+      "color": "#333333",
+      "radius": "999px",
+      "pad": "2px 12px",
+      "fs": 12,
+      "border": null,
+      "n": 5
+    }
+  ],
+  "images": {
+    "n": 43,
+    "fullBleed": 8,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 15
+      },
+      {
+        "ratio": "1:1",
+        "n": 14
+      },
+      {
+        "ratio": "4:3",
+        "n": 8
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 43
+      }
+    ]
+  },
+  "circles": {
+    "n": 46,
+    "sizes": [
+      {
+        "px": 48,
+        "n": 24
+      },
+      {
+        "px": 24,
+        "n": 16
+      },
+      {
+        "px": 32,
+        "n": 5
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.75,
+    "sizes": [
+      28,
+      16,
+      14,
+      13,
+      12
+    ],
+    "pad": 28,
+    "gap": 8,
+    "sidePad": 24,
+    "h1": {
+      "fs": 26,
+      "lh": 1.5
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 24,
+      "文字": 74,
+      "枠": 9,
+      "ボタン": 2
+    },
+    {
+      "hex": "#e3f7ec",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ebf6ff",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#00205b",
+      "面": 5,
+      "文字": 94,
+      "枠": 31,
+      "ボタン": 2
+    },
+    {
+      "hex": "#fcf4f0",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#333333",
+      "面": 0,
+      "文字": 72,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#737373",
+      "面": 0,
+      "文字": 5,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#00205b",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "slug": "kakumagumi",
+  "url": "https://kakumagumi.com/",
+  "title": "長野県長野市の総合建設会社 ｜ 鹿熊組",
+  "desc": "鹿熊組は、長野県長野市を拠点とする総合建設会社です。注文住宅、集合住宅、医療・福祉施設、社寺、商業施設、公共施設・学校などの建築工事から、河川、道路、ライフラインなどの土木工事まで、幅広くお任せください。",
+  "bg": [
+    {
+      "hex": "#1d2577",
+      "pct": 54.2
+    },
+    {
+      "hex": "#101760",
+      "pct": 30.9
+    },
+    {
+      "hex": "#eaeaea",
+      "pct": 8.3
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 6.3
+    },
+    {
+      "hex": "#fff000",
+      "pct": 0.2
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#ffffff",
+      "pct": 54
+    },
+    {
+      "hex": "#000000",
+      "pct": 45.4
+    },
+    {
+      "hex": "#a7a7a7",
+      "pct": 0.5
+    }
+  ],
+  "pageBg": "#f5f5f5",
+  "fonts": [
+    {
+      "family": "FOT-筑紫Aオールド明朝 Pr6 M",
+      "w": 1439
+    },
+    {
+      "family": "FOT-筑紫Aオールド明朝 Pr6 B",
+      "w": 95
+    }
+  ],
+  "sizes": [
+    {
+      "px": 19,
+      "w": 161
+    },
+    {
+      "px": 18,
+      "w": 648
+    },
+    {
+      "px": 17,
+      "w": 71
+    },
+    {
+      "px": 14,
+      "w": 222
+    },
+    {
+      "px": 13,
+      "w": 83
+    },
+    {
+      "px": 12,
+      "w": 132
+    }
+  ],
+  "body": {
+    "fs": 18,
+    "lh": null,
+    "ls": "0"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 29,
+        "weight": "400",
+        "lh": null,
+        "ls": "0",
+        "family": "FOT-筑紫Aオールド明朝 Pr6 B"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 38,
+        "weight": "400",
+        "lh": null,
+        "ls": "0.085em",
+        "family": "FOT-筑紫Aオールド明朝 Pr6 B"
+      },
+      {
+        "fs": 30,
+        "weight": "400",
+        "lh": null,
+        "ls": "0",
+        "family": "FOT-筑紫Aオールド明朝 Pr6 M"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 6
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 6,
+      "n": 7
+    },
+    {
+      "px": 3,
+      "n": 2
+    },
+    {
+      "px": 16,
+      "n": 2
+    },
+    {
+      "px": 38,
+      "n": 2
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 48,
+      "n": 4
+    },
+    {
+      "px": 124,
+      "n": 4
+    },
+    {
+      "px": 64,
+      "n": 2
+    },
+    {
+      "px": 96,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 652,
+      "n": 7
+    },
+    {
+      "px": 1204,
+      "n": 7
+    },
+    {
+      "px": 736,
+      "n": 5
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#000000",
+      "border": "1px #a7a7a7",
+      "radius": "9999px",
+      "pad": "6px 16px",
+      "fs": 14,
+      "weight": "400",
+      "h": 29,
+      "ls": "0",
+      "n": 6
+    },
+    {
+      "bg": "transparent",
+      "color": "#000000",
+      "border": "1px #a7a7a7",
+      "radius": "9999px",
+      "pad": "0px 24px",
+      "fs": 17,
+      "weight": "400",
+      "h": 55,
+      "ls": "0",
+      "n": 4
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": "1px #ffffff",
+      "radius": "9999px",
+      "pad": "0px 24px",
+      "fs": 17,
+      "weight": "400",
+      "h": 55,
+      "ls": "0",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 1440,
+      "n": 2
+    },
+    {
+      "px": 1160,
+      "n": 54
+    },
+    {
+      "px": 1080,
+      "n": 28
+    },
+    {
+      "px": 768,
+      "n": 47
+    },
+    {
+      "px": 600,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 1000,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#1d2577",
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 560,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#1d2577",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 180,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 520,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "41:59"
+    },
+    {
+      "h": 660,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#1d2577",
+      "n": 2
+    },
+    {
+      "hex": "#ffffff",
+      "n": 1
+    },
+    {
+      "hex": "#eaeaea",
+      "n": 1
+    },
+    {
+      "hex": "#101760",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [
+    {
+      "bg": "transparent",
+      "color": "#000000",
+      "radius": "999px",
+      "pad": "5px 13px",
+      "fs": 12,
+      "border": "1px",
+      "n": 12
+    },
+    {
+      "bg": "transparent",
+      "color": "#000000",
+      "radius": "999px",
+      "pad": "6px 16px",
+      "fs": 14,
+      "border": "1px",
+      "n": 6
+    }
+  ],
+  "images": {
+    "n": 16,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 10
+      },
+      {
+        "ratio": "1:1",
+        "n": 4
+      },
+      {
+        "ratio": "4:3",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 16
+      }
+    ]
+  },
+  "circles": {
+    "n": 3,
+    "sizes": [
+      {
+        "px": 40,
+        "n": 2
+      },
+      {
+        "px": 24,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 15,
+    "bodyLh": null,
+    "sizes": [
+      16,
+      15,
+      14,
+      13,
+      12
+    ],
+    "pad": 32,
+    "gap": 6,
+    "sidePad": 23,
+    "h1": {
+      "fs": 26,
+      "lh": null
+    }
+  },
+  "usage": [
+    {
+      "hex": "#1d2577",
+      "面": 7,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 3
+    },
+    {
+      "hex": "#101760",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#eaeaea",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 3,
+      "文字": 59,
+      "枠": 3,
+      "ボタン": 1
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 65,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#a7a7a7",
+      "面": 0,
+      "文字": 3,
+      "枠": 24,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#1d2577",
+  "tags": [
+    "明朝",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}
