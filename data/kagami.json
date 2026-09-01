@@ -1,0 +1,457 @@
+{
+  "slug": "kagami",
+  "url": "https://jp.is-kagami.com/",
+  "title": "KAGAMI - 1人で100人をフォローアップできる教育DX",
+  "desc": "KAGAMIは、1人で100人を手厚くフォローアップできる教育DXです。教育＆フォローアップにおける「マンネリ化」「やりっぱなし」の問題を解決し、離職防止と人材強化を同時に実現します。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 72.1
+    },
+    {
+      "hex": "#c3e6ff",
+      "pct": 21.5
+    },
+    {
+      "hex": "#ebf8fd",
+      "pct": 4.5
+    },
+    {
+      "hex": "#e0f2fe",
+      "pct": 1.9
+    },
+    {
+      "hex": "#0086cc",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#0f1419",
+      "pct": 73.6
+    },
+    {
+      "hex": "#0086cc",
+      "pct": 9.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 7.8
+    },
+    {
+      "hex": "#304c5c",
+      "pct": 2.5
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 2538
+    },
+    {
+      "family": "Hiragino Kaku Gothic ProN",
+      "w": 40
+    }
+  ],
+  "sizes": [
+    {
+      "px": 32,
+      "w": 300
+    },
+    {
+      "px": 24,
+      "w": 138
+    },
+    {
+      "px": 20,
+      "w": 251
+    },
+    {
+      "px": 18,
+      "w": 800
+    },
+    {
+      "px": 16,
+      "w": 656
+    },
+    {
+      "px": 14,
+      "w": 147
+    }
+  ],
+  "body": {
+    "fs": 18,
+    "lh": 1.4,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 18,
+        "weight": "600",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 16,
+      "n": 23
+    },
+    {
+      "px": 8,
+      "n": 20
+    },
+    {
+      "px": 0,
+      "n": 9
+    },
+    {
+      "px": 32,
+      "n": 5
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(95, 131, 175, 0.1) 0px 0px 8px 0px",
+      "n": 21
+    },
+    {
+      "css": "rgba(87, 186, 253, 0.4) 0px 4px 50px 0px",
+      "n": 17
+    }
+  ],
+  "gap": [
+    {
+      "px": 16,
+      "n": 70
+    },
+    {
+      "px": 24,
+      "n": 52
+    },
+    {
+      "px": 12,
+      "n": 26
+    },
+    {
+      "px": 40,
+      "n": 26
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 32,
+      "n": 3
+    },
+    {
+      "px": 48,
+      "n": 3
+    },
+    {
+      "px": 80,
+      "n": 3
+    },
+    {
+      "px": 240,
+      "n": 3
+    }
+  ],
+  "container": [
+    {
+      "px": 680,
+      "n": 21
+    },
+    {
+      "px": 1224,
+      "n": 21
+    },
+    {
+      "px": 720,
+      "n": 7
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "16px",
+      "pad": "0px 17px",
+      "fs": 16,
+      "weight": "700",
+      "h": 64,
+      "ls": "0",
+      "n": 4
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#0086cc",
+      "border": "1px #0086cc",
+      "radius": "16px",
+      "pad": "0px 17px",
+      "fs": 16,
+      "weight": "700",
+      "h": 64,
+      "ls": "0",
+      "n": 2
+    },
+    {
+      "bg": "transparent",
+      "color": "#0086cc",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "700",
+      "h": 34,
+      "ls": "0",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1140,
+      "n": 147
+    },
+    {
+      "px": 840,
+      "n": 219
+    },
+    {
+      "px": 540,
+      "n": 290
+    },
+    {
+      "px": 320,
+      "n": 18
+    }
+  ],
+  "sections": [
+    {
+      "h": 760,
+      "full": false,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 160,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 940,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 8300,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 400,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1440,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "71:29"
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 28
+    },
+    {
+      "hex": "#e0f2fe",
+      "n": 2
+    },
+    {
+      "hex": "#ebf8fd",
+      "n": 1
+    },
+    {
+      "hex": "#c3e6ff",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "transparent",
+      "radius": 8,
+      "pad": "0/0",
+      "border": "10px #ffffff",
+      "shadow": "rgba(95, 131, 175, 0.1) 0px 0px 8px 0px",
+      "n": 7
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "#ffffff",
+      "radius": 8,
+      "pad": "8/8",
+      "border": null,
+      "shadow": "rgba(95, 131, 175, 0.1) 0px 0px 8px 0px",
+      "n": 6
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#e0f2fe",
+      "color": "#333333",
+      "radius": "999px",
+      "pad": "2px 16px",
+      "fs": 16,
+      "border": null,
+      "n": 6
+    }
+  ],
+  "images": {
+    "n": 33,
+    "fullBleed": 3,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 10
+      },
+      {
+        "ratio": "16:9",
+        "n": 8
+      },
+      {
+        "ratio": "4:3",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 27
+      },
+      {
+        "px": 8,
+        "n": 6
+      }
+    ]
+  },
+  "circles": {
+    "n": 8,
+    "sizes": [
+      {
+        "px": 16,
+        "n": 8
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.9,
+    "sizes": [
+      32,
+      20,
+      16,
+      14,
+      12
+    ],
+    "pad": 24,
+    "gap": 16,
+    "sidePad": 24,
+    "h1": {
+      "fs": 16,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 56,
+      "文字": 27,
+      "枠": 7,
+      "ボタン": 3
+    },
+    {
+      "hex": "#c3e6ff",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ebf8fd",
+      "面": 5,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#e0f2fe",
+      "面": 8,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#0086cc",
+      "面": 0,
+      "文字": 34,
+      "枠": 2,
+      "ボタン": 0
+    },
+    {
+      "hex": "#0f1419",
+      "面": 0,
+      "文字": 68,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#304c5c",
+      "面": 0,
+      "文字": 14,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#0086cc",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角丸",
+    "色つき"
+  ]
+}

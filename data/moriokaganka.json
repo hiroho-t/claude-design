@@ -1,0 +1,475 @@
+{
+  "slug": "moriokaganka",
+  "url": "https://morioka-ganka.com/",
+  "title": "もりおか眼科 | 福井市森田地区",
+  "desc": "福井市森田地区の眼科なら「もりおか眼科」へ。目に関する不安や日々の困りごとから、白内障手術・網膜硝子体手術などの専門的な治療まで幅広く対応。「予防とケア」を大切にし、目の健康寿命をのばすことを目指しています。",
+  "bg": [
+    {
+      "hex": "#fbfcf7",
+      "pct": 85.3
+    },
+    {
+      "hex": "#f3f4ec",
+      "pct": 12.4
+    },
+    {
+      "hex": "#014373",
+      "pct": 2.3
+    },
+    {
+      "hex": "#423e3e",
+      "pct": 0
+    },
+    {
+      "hex": "#e5e5e5",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#423e3e",
+      "pct": 80.9
+    },
+    {
+      "hex": "#0000f9",
+      "pct": 7.3
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 4.9
+    },
+    {
+      "hex": "#b2b1b1",
+      "pct": 3.9
+    }
+  ],
+  "pageBg": "#fbfcf7",
+  "fonts": [
+    {
+      "family": "あおとゴシック R",
+      "w": 1130
+    },
+    {
+      "family": "あおとゴシック M",
+      "w": 639
+    },
+    {
+      "family": "Roboto",
+      "w": 144
+    },
+    {
+      "family": "Material Symbols Outlined",
+      "w": 37
+    }
+  ],
+  "sizes": [
+    {
+      "px": 24,
+      "w": 112
+    },
+    {
+      "px": 20,
+      "w": 127
+    },
+    {
+      "px": 17,
+      "w": 683
+    },
+    {
+      "px": 16,
+      "w": 291
+    },
+    {
+      "px": 15,
+      "w": 329
+    },
+    {
+      "px": 14,
+      "w": 210
+    }
+  ],
+  "body": {
+    "fs": 17,
+    "lh": 1.8,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 26,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0.050em",
+        "family": "あおとゴシック R"
+      },
+      {
+        "fs": 28,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0.050em",
+        "family": "あおとゴシック R"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0.050em",
+        "family": "あおとゴシック M"
+      },
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0.050em",
+        "family": "あおとゴシック R"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 15
+    },
+    {
+      "px": 8,
+      "n": 4
+    },
+    {
+      "px": 5,
+      "n": 3
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 8,
+      "n": 16
+    },
+    {
+      "px": 24,
+      "n": 14
+    },
+    {
+      "px": 40,
+      "n": 13
+    },
+    {
+      "px": 12,
+      "n": 9
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 132,
+      "n": 5
+    },
+    {
+      "px": 112,
+      "n": 4
+    },
+    {
+      "px": 300,
+      "n": 3
+    },
+    {
+      "px": 60,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 632,
+      "n": 3
+    },
+    {
+      "px": 856,
+      "n": 3
+    },
+    {
+      "px": 1100,
+      "n": 3
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#423e3e",
+      "border": "1px #423e3e",
+      "radius": "9999px",
+      "pad": "6px 18px",
+      "fs": 16,
+      "weight": "400",
+      "h": 36,
+      "ls": "0.8px",
+      "n": 1
+    },
+    {
+      "bg": "#423e3e",
+      "color": "#ffffff",
+      "border": "1px #423e3e",
+      "radius": "9999px",
+      "pad": "6px 18px",
+      "fs": 16,
+      "weight": "400",
+      "h": 36,
+      "ls": "1.6px",
+      "n": 1
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#0000f9",
+      "border": "1px #0000f9",
+      "radius": "64px",
+      "pad": "8px 20px",
+      "fs": 15,
+      "weight": "400",
+      "h": 39,
+      "ls": "0.75px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1140,
+      "n": 77
+    },
+    {
+      "px": 840,
+      "n": 114
+    },
+    {
+      "px": 540,
+      "n": 145
+    },
+    {
+      "px": 320,
+      "n": 55
+    }
+  ],
+  "sections": [
+    {
+      "h": 760,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 960,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 520,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1420,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": "#f3f4ec",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 3100,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#fbfcf7",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 820,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#f3f4ec",
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#fbfcf7",
+      "align": "中央",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#fbfcf7",
+      "n": 7
+    },
+    {
+      "hex": "#ffffff",
+      "n": 7
+    },
+    {
+      "hex": "#014373",
+      "n": 4
+    },
+    {
+      "hex": "#f3f4ec",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f3f4ec",
+      "bg": "#ffffff",
+      "radius": 0,
+      "pad": "66/66",
+      "border": null,
+      "shadow": null,
+      "n": 4
+    },
+    {
+      "onBg": "#f3f4ec",
+      "bg": "#ffffff",
+      "radius": 5,
+      "pad": "40/40",
+      "border": "1px #e5e5e5",
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 15,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 3
+      },
+      {
+        "ratio": "4:3",
+        "n": 3
+      },
+      {
+        "ratio": "3:2",
+        "n": 3
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 15
+      }
+    ]
+  },
+  "circles": {
+    "n": 18,
+    "sizes": [
+      {
+        "px": 32,
+        "n": 17
+      },
+      {
+        "px": 80,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 15,
+    "bodyLh": 1.4,
+    "sizes": [
+      17,
+      16,
+      15,
+      14,
+      12
+    ],
+    "pad": 40,
+    "gap": 16,
+    "sidePad": 0,
+    "h1": {
+      "fs": 26,
+      "lh": 1.6
+    }
+  },
+  "usage": [
+    {
+      "hex": "#fbfcf7",
+      "面": 20,
+      "文字": 16,
+      "枠": 9,
+      "ボタン": 4
+    },
+    {
+      "hex": "#f3f4ec",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#014373",
+      "面": 4,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#423e3e",
+      "面": 1,
+      "文字": 76,
+      "枠": 5,
+      "ボタン": 1
+    },
+    {
+      "hex": "#e5e5e5",
+      "面": 0,
+      "文字": 0,
+      "枠": 4,
+      "ボタン": 0
+    },
+    {
+      "hex": "#0000f9",
+      "面": 0,
+      "文字": 20,
+      "枠": 8,
+      "ボタン": 0
+    },
+    {
+      "hex": "#b2b1b1",
+      "面": 0,
+      "文字": 10,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#0000f9",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

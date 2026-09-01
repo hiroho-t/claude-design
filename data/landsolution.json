@@ -1,0 +1,410 @@
+{
+  "slug": "landsolution",
+  "url": "https://www.landsolution.co.jp/",
+  "title": "ランドソリューション株式会社",
+  "desc": "「もっといい土、もっといい水。」土壌・地下水汚染の目に見えないリスクに対し、ランドソリューションはクリタグループの環境技術と豊富な経験で調査・対策から土地活用までワンストップで支援します。",
+  "bg": [
+    {
+      "hex": "#3b673d",
+      "pct": 94.1
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 5.9
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#2f4243",
+      "pct": 90.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 9
+    },
+    {
+      "hex": "#3b673d",
+      "pct": 0.2
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 1792
+    },
+    {
+      "family": "Crimson Text",
+      "w": 156
+    }
+  ],
+  "sizes": [
+    {
+      "px": 24,
+      "w": 130
+    },
+    {
+      "px": 20,
+      "w": 184
+    },
+    {
+      "px": 18,
+      "w": 346
+    },
+    {
+      "px": 16,
+      "w": 574
+    },
+    {
+      "px": 14,
+      "w": 213
+    },
+    {
+      "px": 12,
+      "w": 163
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 48,
+        "weight": "500",
+        "lh": 1.14,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 40,
+        "weight": "500",
+        "lh": 1,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 20,
+        "weight": "500",
+        "lh": 1.6,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 2
+    },
+    {
+      "px": 8,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 20,
+      "n": 20
+    },
+    {
+      "px": 13,
+      "n": 12
+    },
+    {
+      "px": 16,
+      "n": 7
+    },
+    {
+      "px": 60,
+      "n": 5
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 60,
+      "n": 5
+    },
+    {
+      "px": 80,
+      "n": 4
+    },
+    {
+      "px": 120,
+      "n": 4
+    },
+    {
+      "px": 92,
+      "n": 3
+    }
+  ],
+  "container": [
+    {
+      "px": 1200,
+      "n": 16
+    },
+    {
+      "px": 1248,
+      "n": 9
+    },
+    {
+      "px": 780,
+      "n": 6
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#2f4243",
+      "border": "1px #000000",
+      "radius": "1440px",
+      "pad": "0px 18px",
+      "fs": 18,
+      "weight": "500",
+      "h": 56,
+      "ls": "0",
+      "n": 7
+    },
+    {
+      "bg": "#3b673d",
+      "color": "#ffffff",
+      "border": "1px #3b673d",
+      "radius": "1440px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "500",
+      "h": 43,
+      "ls": "0",
+      "n": 1
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": "1px #ffffff",
+      "radius": "1440px",
+      "pad": "0px 18px",
+      "fs": 18,
+      "weight": "500",
+      "h": 56,
+      "ls": "0",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1248,
+      "n": 3
+    },
+    {
+      "px": 1100,
+      "n": 4
+    },
+    {
+      "px": 940,
+      "n": 448
+    },
+    {
+      "px": 767,
+      "n": 70
+    },
+    {
+      "px": 374,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 1120,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 440,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "20:80"
+    },
+    {
+      "h": 1960,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "左",
+      "split": "10:90"
+    },
+    {
+      "h": 760,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 240,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1040,
+      "full": true,
+      "cols": 6,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "13:87"
+    },
+    {
+      "h": 1040,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "右",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 18,
+    "fullBleed": 6,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 9
+      },
+      {
+        "ratio": "3:2",
+        "n": 3
+      },
+      {
+        "ratio": "16:9",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 14
+      },
+      {
+        "px": 4,
+        "n": 2
+      }
+    ]
+  },
+  "circles": {
+    "n": 8,
+    "sizes": [
+      {
+        "px": 24,
+        "n": 8
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": 1,
+    "sizes": [
+      18,
+      16,
+      14,
+      13,
+      12
+    ],
+    "pad": 40,
+    "gap": 20,
+    "sidePad": 24,
+    "h1": {
+      "fs": 34,
+      "lh": 1.14
+    }
+  },
+  "usage": [
+    {
+      "hex": "#3b673d",
+      "面": 8,
+      "文字": 1,
+      "枠": 1,
+      "ボタン": 1
+    },
+    {
+      "hex": "#ffffff",
+      "面": 1,
+      "文字": 13,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#2f4243",
+      "面": 0,
+      "文字": 91,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#3b673d",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

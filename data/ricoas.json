@@ -1,0 +1,593 @@
+{
+  "slug": "ricoas",
+  "url": "https://ricoas.co.jp/",
+  "title": "リコアス株式会社｜太陽光発電・蓄電池・V2H｜千葉県",
+  "desc": "千葉県千葉市の太陽光発電・蓄電池・V2Hの専門店・リコアス株式会社は、千葉県を中心とした首都圏で太陽光発電システムや蓄電池、V2H、オール電化など住宅向けの環境商品を販売・施工する専門店です。省エネ・創エネ・蓄エネの相談ならリコアスにお気軽にご相談ください。",
+  "bg": [
+    {
+      "hex": "#10ad5e",
+      "pct": 33.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 24.1
+    },
+    {
+      "hex": "#d3f0ef",
+      "pct": 15.8
+    },
+    {
+      "hex": "#faf7e6",
+      "pct": 13.6
+    },
+    {
+      "hex": "#000000",
+      "pct": 5.8
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#10ad5e",
+      "pct": 51.6
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 33.7
+    },
+    {
+      "hex": "#000000",
+      "pct": 12.1
+    },
+    {
+      "hex": "#eb5c38",
+      "pct": 2
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 4581
+    },
+    {
+      "family": "Inter",
+      "w": 320
+    }
+  ],
+  "sizes": [
+    {
+      "px": 18,
+      "w": 920
+    },
+    {
+      "px": 16,
+      "w": 564
+    },
+    {
+      "px": 15,
+      "w": 182
+    },
+    {
+      "px": 14,
+      "w": 1833
+    },
+    {
+      "px": 12,
+      "w": 456
+    },
+    {
+      "px": 11,
+      "w": 208
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.6,
+    "ls": "0"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 11,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 41,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.020em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 28,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 28,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.100em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 15,
+      "n": 70
+    },
+    {
+      "px": 8,
+      "n": 33
+    },
+    {
+      "px": 0,
+      "n": 30
+    },
+    {
+      "px": 12,
+      "n": 20
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 8,
+      "n": 58
+    },
+    {
+      "px": 12,
+      "n": 23
+    },
+    {
+      "px": 14,
+      "n": 10
+    },
+    {
+      "px": 30,
+      "n": 9
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 100,
+      "n": 7
+    },
+    {
+      "px": 76,
+      "n": 6
+    },
+    {
+      "px": 36,
+      "n": 5
+    },
+    {
+      "px": 40,
+      "n": 5
+    }
+  ],
+  "container": [
+    {
+      "px": 1120,
+      "n": 44
+    },
+    {
+      "px": 1254,
+      "n": 26
+    },
+    {
+      "px": 1256,
+      "n": 13
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#10ad5e",
+      "border": "1px #10ad5e",
+      "radius": "15px",
+      "pad": "0px 12px",
+      "fs": 14,
+      "weight": "700",
+      "h": 30,
+      "ls": "0",
+      "n": 27
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#10ad5e",
+      "border": "1px #10ad5e",
+      "radius": "15px",
+      "pad": "0px 16px",
+      "fs": 12,
+      "weight": "700",
+      "h": 30,
+      "ls": "0",
+      "n": 21
+    },
+    {
+      "bg": "transparent",
+      "color": "#10ad5e",
+      "border": "1px #10ad5e",
+      "radius": "15px",
+      "pad": "0px 16px",
+      "fs": 12,
+      "weight": "700",
+      "h": 30,
+      "ls": "0",
+      "n": 18
+    }
+  ],
+  "bp": [
+    {
+      "px": 1280,
+      "n": 9
+    },
+    {
+      "px": 1024,
+      "n": 17
+    },
+    {
+      "px": 960,
+      "n": 854
+    },
+    {
+      "px": 959,
+      "n": 66
+    },
+    {
+      "px": 640,
+      "n": 19
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 360,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#10ad5e",
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1440,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#d3f0ef",
+      "align": "中央",
+      "media": "右",
+      "split": "16:84"
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "右",
+      "split": "22:78"
+    },
+    {
+      "h": 1700,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#10ad5e",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 360,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#10ad5e",
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 740,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": "#10ad5e",
+      "align": "右",
+      "media": "左",
+      "split": "31:69"
+    },
+    {
+      "h": 760,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#d3f0ef",
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 800,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#d3f0ef",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "右",
+      "split": "22:78"
+    },
+    {
+      "h": 2000,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#faf7e6",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1040,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#10ad5e",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 540,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#10ad5e",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "右",
+      "split": "22:78"
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 23
+    },
+    {
+      "hex": "#10ad5e",
+      "n": 6
+    },
+    {
+      "hex": "#d3f0ef",
+      "n": 3
+    },
+    {
+      "hex": "#000000",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#d3f0ef",
+      "bg": "#ffffff",
+      "radius": 12,
+      "pad": "30/30",
+      "border": null,
+      "shadow": null,
+      "n": 9
+    },
+    {
+      "onBg": "#d3f0ef",
+      "bg": "#ffffff",
+      "radius": 12,
+      "pad": "20/20",
+      "border": null,
+      "shadow": null,
+      "n": 9
+    }
+  ],
+  "chips": [
+    {
+      "bg": "transparent",
+      "color": "#10ad5e",
+      "radius": "999px",
+      "pad": "0px 12px",
+      "fs": 14,
+      "border": "1px",
+      "n": 27
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#10ad5e",
+      "radius": "999px",
+      "pad": "0px 16px",
+      "fs": 12,
+      "border": "1px",
+      "n": 21
+    }
+  ],
+  "images": {
+    "n": 55,
+    "fullBleed": 10,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 32
+      },
+      {
+        "ratio": "1:1",
+        "n": 6
+      },
+      {
+        "ratio": "4:3",
+        "n": 6
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 51
+      },
+      {
+        "px": 12,
+        "n": 3
+      }
+    ]
+  },
+  "circles": {
+    "n": 20,
+    "sizes": [
+      {
+        "px": 64,
+        "n": 9
+      },
+      {
+        "px": 40,
+        "n": 8
+      },
+      {
+        "px": 56,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.8,
+    "sizes": [
+      16,
+      15,
+      14,
+      13,
+      12
+    ],
+    "pad": 32,
+    "gap": 8,
+    "sidePad": 20,
+    "h1": {
+      "fs": 24,
+      "lh": 1.5
+    }
+  },
+  "usage": [
+    {
+      "hex": "#10ad5e",
+      "面": 23,
+      "文字": 183,
+      "枠": 112,
+      "ボタン": 15
+    },
+    {
+      "hex": "#ffffff",
+      "面": 78,
+      "文字": 82,
+      "枠": 17,
+      "ボタン": 27
+    },
+    {
+      "hex": "#d3f0ef",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#faf7e6",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 56,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#eb5c38",
+      "面": 4,
+      "文字": 9,
+      "枠": 0,
+      "ボタン": 4
+    }
+  ],
+  "accent": "#10ad5e",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角丸",
+    "色つき"
+  ]
+}

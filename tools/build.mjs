@@ -8,8 +8,14 @@
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { detailPage } from './page.mjs';
 
-const [slug, industry = ''] = process.argv.slice(2);
+const [slug, industryArg = ''] = process.argv.slice(2);
 const d = JSON.parse(readFileSync(`data/${slug}.json`, 'utf8'));
+// SANKOU! から引き継いだカテゴリー（あれば業種の代わりに使う）
+const sank = existsSync(`data/${slug}.cats.json`)
+  ? JSON.parse(readFileSync(`data/${slug}.cats.json`, 'utf8')) : null;
+const industry = industryArg
+  || (sank ? sank.filter(c => c.slug !== 'web').slice(0, 3).map(c => c.name).join('／') : '');
+
 const palette = existsSync(`data/${slug}.palette.json`)
   ? JSON.parse(readFileSync(`data/${slug}.palette.json`, 'utf8')) : d.bg;
 
@@ -318,7 +324,9 @@ writeFileSync(`p/${slug}.html`, detailPage({
 
 // 一覧用
 const list = existsSync('data.json') ? JSON.parse(readFileSync('data.json', 'utf8')) : [];
-const entry = { slug, name, url: d.url, industry, tags: d.tags, accent: main.hex, palette: palette.slice(0, 4).map(c => ({ hex: c.hex, pct: c.pct })) };
+const entry = { slug, name, url: d.url, industry, tags: d.tags, accent: main.hex,
+  palette: palette.slice(0, 4).map(c => ({ hex: c.hex, pct: c.pct })),
+  ...(sank ? { cats: sank.map(c => ({ slug: c.slug, name: c.name })) } : {}) };
 const i = list.findIndex(x => x.slug === slug);
 i < 0 ? list.push(entry) : (list[i] = entry);
 writeFileSync('data.json', JSON.stringify(list, null, 2));

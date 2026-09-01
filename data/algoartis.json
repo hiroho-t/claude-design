@@ -1,0 +1,414 @@
+{
+  "slug": "algoartis",
+  "url": "https://www.algo-artis.com/",
+  "title": "ALGO ARTIS（アルゴ・アーティス）｜計画最適化で意思決定を高度化",
+  "desc": "ALGO ARTIS は、複雑な意思決定を「計画」として再構築し、企業の持続的な成長を支えるAIソリューション企業です。実行可能な計画を高速に策定し、業務の高度化とDX・GXを推進します。",
+  "bg": [
+    {
+      "hex": "#0031d3",
+      "pct": 57.2
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 42.2
+    },
+    {
+      "hex": "#c9e1f2",
+      "pct": 0.6
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#2c2c2c",
+      "pct": 41.3
+    },
+    {
+      "hex": "#474747",
+      "pct": 37
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 16.8
+    },
+    {
+      "hex": "#0031d3",
+      "pct": 3.3
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 1645
+    },
+    {
+      "family": "Inter",
+      "w": 153
+    }
+  ],
+  "sizes": [
+    {
+      "px": 34,
+      "w": 50
+    },
+    {
+      "px": 28,
+      "w": 51
+    },
+    {
+      "px": 18,
+      "w": 846
+    },
+    {
+      "px": 15,
+      "w": 446
+    },
+    {
+      "px": 14,
+      "w": 205
+    },
+    {
+      "px": 13,
+      "w": 66
+    }
+  ],
+  "body": {
+    "fs": 18,
+    "lh": 2.1,
+    "ls": "0.020em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 15,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.020em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 10,
+      "n": 21
+    },
+    {
+      "px": 4,
+      "n": 11
+    },
+    {
+      "px": 0,
+      "n": 6
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 10,
+      "n": 14
+    },
+    {
+      "px": 3,
+      "n": 12
+    },
+    {
+      "px": 16,
+      "n": 8
+    },
+    {
+      "px": 4,
+      "n": 6
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 96,
+      "n": 7
+    },
+    {
+      "px": 64,
+      "n": 2
+    },
+    {
+      "px": 84,
+      "n": 2
+    },
+    {
+      "px": 112,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1360,
+      "n": 21
+    },
+    {
+      "px": 628,
+      "n": 9
+    },
+    {
+      "px": 604,
+      "n": 5
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 15,
+      "weight": "700",
+      "h": 70,
+      "ls": "0.3088px",
+      "n": 4
+    },
+    {
+      "bg": "#0031d3",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "4px",
+      "pad": "0px 20px",
+      "fs": 15,
+      "weight": "700",
+      "h": 70,
+      "ls": "0.3088px",
+      "n": 4
+    },
+    {
+      "bg": "transparent",
+      "color": "#2c2c2c",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 18,
+      "weight": "700",
+      "h": 35,
+      "ls": "0.3576px",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1920,
+      "n": 11
+    },
+    {
+      "px": 1536,
+      "n": 3
+    },
+    {
+      "px": 1280,
+      "n": 3
+    },
+    {
+      "px": 1024,
+      "n": 43
+    },
+    {
+      "px": 768,
+      "n": 11
+    }
+  ],
+  "sections": [
+    {
+      "h": 1520,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1220,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1120,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 160,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 980,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "48:52"
+    },
+    {
+      "h": 740,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 880,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 20
+    },
+    {
+      "hex": "#0031d3",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": null,
+      "bg": "#ffffff",
+      "radius": 10,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 20
+    }
+  ],
+  "chips": [
+    {
+      "bg": "transparent",
+      "color": "#0031d3",
+      "radius": "4px",
+      "pad": "2px 10px",
+      "fs": 14,
+      "border": "1px",
+      "n": 6
+    }
+  ],
+  "images": {
+    "n": 21,
+    "fullBleed": 2,
+    "ratios": [
+      {
+        "ratio": "3:4",
+        "n": 13
+      },
+      {
+        "ratio": "4:3",
+        "n": 2
+      },
+      {
+        "ratio": "3:2",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 10,
+        "n": 13
+      },
+      {
+        "px": 0,
+        "n": 8
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2.1,
+    "sizes": [
+      16,
+      15,
+      14,
+      13,
+      12
+    ],
+    "pad": 60,
+    "gap": 10,
+    "sidePad": 20,
+    "h1": {
+      "fs": 15,
+      "lh": 1.5
+    }
+  },
+  "usage": [
+    {
+      "hex": "#0031d3",
+      "面": 9,
+      "文字": 13,
+      "枠": 0,
+      "ボタン": 5
+    },
+    {
+      "hex": "#ffffff",
+      "面": 23,
+      "文字": 33,
+      "枠": 1,
+      "ボタン": 1
+    },
+    {
+      "hex": "#c9e1f2",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#2c2c2c",
+      "面": 0,
+      "文字": 40,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#474747",
+      "面": 0,
+      "文字": 7,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#0031d3",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

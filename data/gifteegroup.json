@@ -1,0 +1,382 @@
+{
+  "slug": "gifteegroup",
+  "url": "https://giftee-group.com/",
+  "title": "ギフティグループ株式会社",
+  "desc": "ギフティグループ株式会社の企業情報サイトです。「この世界に存在する あらゆる関係性をより良くし、新しい関係性をつくる。」をグループパーパスに、様々な事業を展開しています。",
+  "bg": [
+    {
+      "hex": "#3f3f3f",
+      "pct": 60.1
+    },
+    {
+      "hex": "#f6f6f6",
+      "pct": 22.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 16.9
+    },
+    {
+      "hex": "#eeeeee",
+      "pct": 0.3
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#232323",
+      "pct": 82.6
+    },
+    {
+      "hex": "#6c6c6c",
+      "pct": 9.5
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 7.9
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 952
+    },
+    {
+      "family": "Geist",
+      "w": 104
+    }
+  ],
+  "sizes": [
+    {
+      "px": 32,
+      "w": 33
+    },
+    {
+      "px": 20,
+      "w": 48
+    },
+    {
+      "px": 16,
+      "w": 729
+    },
+    {
+      "px": 14,
+      "w": 72
+    },
+    {
+      "px": 12,
+      "w": 114
+    },
+    {
+      "px": 11,
+      "w": 35
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.75,
+    "ls": "0.040em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 32,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "0.040em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 5,
+      "n": 20
+    },
+    {
+      "px": 10,
+      "n": 12
+    },
+    {
+      "px": 0,
+      "n": 3
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgb(221, 221, 221) 0px 0px 0px 1px inset",
+      "n": 10
+    }
+  ],
+  "gap": [
+    {
+      "px": 10,
+      "n": 25
+    },
+    {
+      "px": 20,
+      "n": 20
+    },
+    {
+      "px": 40,
+      "n": 16
+    },
+    {
+      "px": 60,
+      "n": 13
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 120,
+      "n": 5
+    },
+    {
+      "px": 80,
+      "n": 2
+    },
+    {
+      "px": 92,
+      "n": 1
+    },
+    {
+      "px": 160,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 960,
+      "n": 23
+    },
+    {
+      "px": 1360,
+      "n": 11
+    },
+    {
+      "px": 660,
+      "n": 2
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#3f3f3f",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "10px",
+      "pad": "15px 20px",
+      "fs": 16,
+      "weight": "600",
+      "h": 58,
+      "ls": "0.64px",
+      "n": 1
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#232323",
+      "border": null,
+      "radius": "10px",
+      "pad": "15px 20px",
+      "fs": 16,
+      "weight": "600",
+      "h": 58,
+      "ls": "0.64px",
+      "n": 1
+    }
+  ],
+  "bp": [],
+  "sections": [
+    {
+      "h": 720,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 660,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "67:33"
+    },
+    {
+      "h": 740,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 660,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "67:33"
+    },
+    {
+      "h": 560,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "46:54"
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f6f6f6",
+      "n": 4
+    },
+    {
+      "hex": "#3f3f3f",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": null,
+      "bg": "#f6f6f6",
+      "radius": 5,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 20
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#eeeeee",
+      "color": "#6c6c6c",
+      "radius": "999px",
+      "pad": "1px 10px",
+      "fs": 11,
+      "border": null,
+      "n": 7
+    }
+  ],
+  "images": {
+    "n": 50,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 46
+      },
+      {
+        "ratio": "16:9",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 25
+      },
+      {
+        "px": 5,
+        "n": 25
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 15,
+    "bodyLh": 1.75,
+    "sizes": [
+      16,
+      15,
+      13,
+      12,
+      11
+    ],
+    "pad": 80,
+    "gap": 20,
+    "sidePad": 20,
+    "h1": {
+      "fs": 22,
+      "lh": 1.5
+    }
+  },
+  "usage": [
+    {
+      "hex": "#3f3f3f",
+      "面": 4,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#f6f6f6",
+      "面": 20,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 11,
+      "文字": 12,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#232323",
+      "面": 0,
+      "文字": 46,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#6c6c6c",
+      "面": 0,
+      "文字": 20,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "モノトーン"
+  ]
+}

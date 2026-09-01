@@ -1,0 +1,68 @@
+{
+  "landsolution": {
+    "state": "done"
+  },
+  "gifteegroup": {
+    "state": "done"
+  },
+  "zoff-recruit": {
+    "state": "done"
+  },
+  "typography": {
+    "state": "done"
+  },
+  "beforward-recruit": {
+    "state": "done"
+  },
+  "buyo": {
+    "state": "done"
+  },
+  "algoartis": {
+    "state": "done"
+  },
+  "uniformnet": {
+    "state": "done"
+  },
+  "ricoas": {
+    "state": "done"
+  },
+  "moriokaganka": {
+    "state": "done"
+  },
+  "meikei": {
+    "state": "done"
+  },
+  "kobewomensuniversity": {
+    "state": "done"
+  },
+  "hiragino": {
+    "state": "done"
+  },
+  "meibi": {
+    "state": "done"
+  },
+  "studio-business": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://studio.design/ja/business"
+  },
+  "thepokemoncompany": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://corporate.pokemon.co.jp/"
+  },
+  "jinsholdings": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://jinsholdings.com/"
+  },
+  "kagami": {
+    "state": "done"
+  },
+  "janu": {
+    "state": "done"
+  },
+  "clinicmorinosato": {
+    "state": "done"
+  }
+}

@@ -63,7 +63,7 @@ export function detailPage({ d, palette, md, name, industry, ja, en, alt, ladder
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${esc(name)} のスタイル｜日本のサイトのデザインを DESIGN.md に</title>
+<title>${esc(name)} のスタイル｜Claude Code用のデザイン参考集</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?${gf}&display=swap" rel="stylesheet">
 <style>

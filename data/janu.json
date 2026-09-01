@@ -1,0 +1,408 @@
+{
+  "slug": "janu",
+  "url": "https://www.janu.jp/",
+  "title": "国立大学協会",
+  "desc": "国立大学協会（国大協）のオフィシャルサイトです。国立大学協会の情報や、入試、職員への就職など各国立大学の様々な情報をご覧いただけます。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 51.2
+    },
+    {
+      "hex": "#f3f2ed",
+      "pct": 48.4
+    },
+    {
+      "hex": "#0068b7",
+      "pct": 0.2
+    },
+    {
+      "hex": "#444444",
+      "pct": 0.1
+    },
+    {
+      "hex": "#e6f0f8",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#222222",
+      "pct": 84.8
+    },
+    {
+      "hex": "#0068b7",
+      "pct": 13.5
+    },
+    {
+      "hex": "#888888",
+      "pct": 1.1
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 0.6
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 1498
+    }
+  ],
+  "sizes": [
+    {
+      "px": 36,
+      "w": 59
+    },
+    {
+      "px": 16,
+      "w": 582
+    },
+    {
+      "px": 15,
+      "w": 458
+    },
+    {
+      "px": 14,
+      "w": 227
+    },
+    {
+      "px": 13,
+      "w": 18
+    },
+    {
+      "px": 12,
+      "w": 129
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 36,
+        "weight": "700",
+        "lh": 1.2,
+        "ls": "0.050em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 52,
+        "weight": "700",
+        "lh": 1.46,
+        "ls": "0.050em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": 1.93,
+        "ls": "0.050em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 15,
+        "weight": "700",
+        "lh": 1.8,
+        "ls": "0.050em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 16
+    },
+    {
+      "px": 5,
+      "n": 16
+    },
+    {
+      "px": 10,
+      "n": 1
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.05) 0px 0px 5px 0px",
+      "n": 15
+    },
+    {
+      "css": "rgba(0, 0, 0, 0) 0px 0px 5px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 20,
+      "n": 16
+    },
+    {
+      "px": 25,
+      "n": 3
+    },
+    {
+      "px": 6,
+      "n": 2
+    },
+    {
+      "px": 55,
+      "n": 2
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 1
+    },
+    {
+      "px": 44,
+      "n": 1
+    },
+    {
+      "px": 52,
+      "n": 1
+    },
+    {
+      "px": 60,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 604,
+      "n": 20
+    },
+    {
+      "px": 1280,
+      "n": 7
+    },
+    {
+      "px": 1440,
+      "n": 3
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#0068b7",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 12,
+      "weight": "700",
+      "h": 80,
+      "ls": "0.6px",
+      "n": 1
+    },
+    {
+      "bg": "#0068b7",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "9999px",
+      "pad": "5px 20px",
+      "fs": 15,
+      "weight": "700",
+      "h": 26,
+      "ls": "0",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1200,
+      "n": 1
+    },
+    {
+      "px": 1180,
+      "n": 1
+    },
+    {
+      "px": 1000,
+      "n": 56
+    },
+    {
+      "px": 750,
+      "n": 10
+    },
+    {
+      "px": 600,
+      "n": 2
+    }
+  ],
+  "sections": [
+    {
+      "h": 800,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "右",
+      "split": "94:6"
+    },
+    {
+      "h": 1620,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 640,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 16
+    },
+    {
+      "hex": "#f3f2ed",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f3f2ed",
+      "bg": "#ffffff",
+      "radius": 5,
+      "pad": "6/6",
+      "border": null,
+      "shadow": "rgba(0, 0, 0, 0.05) 0px 0px 5px 0px",
+      "n": 15
+    },
+    {
+      "onBg": null,
+      "bg": "transparent",
+      "radius": 0,
+      "pad": "0/0",
+      "border": "1px #dddddd",
+      "shadow": null,
+      "n": 6
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 42,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 25
+      },
+      {
+        "ratio": "4:3",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 42
+      }
+    ]
+  },
+  "circles": {
+    "n": 11,
+    "sizes": [
+      {
+        "px": 40,
+        "n": 6
+      },
+      {
+        "px": 24,
+        "n": 5
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.85,
+    "sizes": [
+      28,
+      15,
+      14,
+      13,
+      12
+    ],
+    "pad": 24,
+    "gap": 20,
+    "sidePad": 0,
+    "h1": {
+      "fs": 28,
+      "lh": 1.2
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 18,
+      "文字": 3,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f3f2ed",
+      "面": 4,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#0068b7",
+      "面": 2,
+      "文字": 32,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#222222",
+      "面": 0,
+      "文字": 69,
+      "枠": 10,
+      "ボタン": 0
+    },
+    {
+      "hex": "#888888",
+      "面": 0,
+      "文字": 4,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#0068b7",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

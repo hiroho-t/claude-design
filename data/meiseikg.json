@@ -1,0 +1,516 @@
+{
+  "slug": "meiseikg",
+  "url": "https://www.meisei.ac.jp/kg/",
+  "title": "明星幼稚園",
+  "desc": "明星学苑 明星幼稚園（東京都府中市）の公式ウェブサイトです。",
+  "bg": [
+    {
+      "hex": "#f9f3f3",
+      "pct": 48.2
+    },
+    {
+      "hex": "#7f3033",
+      "pct": 26.5
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 25.1
+    },
+    {
+      "hex": "#7bc8bd",
+      "pct": 0.1
+    },
+    {
+      "hex": "#ee84b2",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#222222",
+      "pct": 74.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 14.6
+    },
+    {
+      "hex": "#7f3033",
+      "pct": 4.7
+    },
+    {
+      "hex": "#666666",
+      "pct": 4.2
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Inter",
+      "w": 1758
+    },
+    {
+      "family": "Zen Maru Gothic",
+      "w": 618
+    },
+    {
+      "family": "Montserrat",
+      "w": 59
+    }
+  ],
+  "sizes": [
+    {
+      "px": 18,
+      "w": 288
+    },
+    {
+      "px": 16,
+      "w": 863
+    },
+    {
+      "px": 15,
+      "w": 398
+    },
+    {
+      "px": 14,
+      "w": 222
+    },
+    {
+      "px": 13,
+      "w": 256
+    },
+    {
+      "px": 12,
+      "w": 250
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.8,
+    "ls": "0.030em"
+  },
+  "headings": {
+    "h4": [
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Zen Maru Gothic"
+      },
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0",
+        "family": "Zen Maru Gothic"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 16,
+        "weight": "500",
+        "lh": 1.3,
+        "ls": "0",
+        "family": "Zen Maru Gothic"
+      },
+      {
+        "fs": 18,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Zen Maru Gothic"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 13
+    },
+    {
+      "px": 19,
+      "n": 3
+    },
+    {
+      "px": 8,
+      "n": 1
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.05) 9.52381px 13.3333px 51.4286px 0px",
+      "n": 1
+    },
+    {
+      "css": "rgba(69, 27, 27, 0.08) 0px 0px 47.619px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 10,
+      "n": 22
+    },
+    {
+      "px": 11,
+      "n": 20
+    },
+    {
+      "px": 8,
+      "n": 16
+    },
+    {
+      "px": 15,
+      "n": 15
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 48,
+      "n": 4
+    },
+    {
+      "px": 56,
+      "n": 4
+    },
+    {
+      "px": 144,
+      "n": 3
+    },
+    {
+      "px": 40,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1144,
+      "n": 18
+    },
+    {
+      "px": 1440,
+      "n": 14
+    },
+    {
+      "px": 812,
+      "n": 10
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ee84b2",
+      "color": "#222222",
+      "border": null,
+      "radius": "9999px",
+      "pad": "10px 16px",
+      "fs": 16,
+      "weight": "500",
+      "h": 40,
+      "ls": "0",
+      "n": 1
+    },
+    {
+      "bg": "#f4aa8a",
+      "color": "#222222",
+      "border": null,
+      "radius": "9999px",
+      "pad": "10px 16px",
+      "fs": 16,
+      "weight": "500",
+      "h": 40,
+      "ls": "0",
+      "n": 1
+    },
+    {
+      "bg": "#7bc8bd",
+      "color": "#222222",
+      "border": null,
+      "radius": "9999px",
+      "pad": "10px 16px",
+      "fs": 16,
+      "weight": "500",
+      "h": 40,
+      "ls": "0",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1201,
+      "n": 70
+    },
+    {
+      "px": 1200,
+      "n": 390
+    },
+    {
+      "px": 1024,
+      "n": 4
+    },
+    {
+      "px": 769,
+      "n": 1123
+    },
+    {
+      "px": 768,
+      "n": 697
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1580,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#7f3033",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 340,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "左",
+      "split": "9:91"
+    },
+    {
+      "h": 1240,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#f9f3f3",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1320,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "72:28"
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "32:68"
+    },
+    {
+      "h": 1000,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#f9f3f3",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 240,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 6
+    },
+    {
+      "hex": "#f9f3f3",
+      "n": 3
+    },
+    {
+      "hex": "#7f3033",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f9f3f3",
+      "bg": "#ffffff",
+      "radius": 19,
+      "pad": "20/20",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#f9f3f3",
+      "color": "#7f3033",
+      "radius": "999px",
+      "pad": "4px 11px",
+      "fs": 14,
+      "border": null,
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 48,
+    "fullBleed": 8,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 15
+      },
+      {
+        "ratio": "1:1",
+        "n": 14
+      },
+      {
+        "ratio": "4:3",
+        "n": 9
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 32
+      },
+      {
+        "px": 11,
+        "n": 11
+      }
+    ]
+  },
+  "circles": {
+    "n": 6,
+    "sizes": [
+      {
+        "px": 112,
+        "n": 3
+      },
+      {
+        "px": 80,
+        "n": 2
+      },
+      {
+        "px": 256,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.8,
+    "sizes": [
+      16,
+      15,
+      14,
+      12,
+      11
+    ],
+    "pad": 64,
+    "gap": 10,
+    "sidePad": 21,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#f9f3f3",
+      "面": 7,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#7f3033",
+      "面": 7,
+      "文字": 18,
+      "枠": 3,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 8,
+      "文字": 18,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#7bc8bd",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#ee84b2",
+      "面": 1,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#222222",
+      "面": 0,
+      "文字": 107,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#666666",
+      "面": 0,
+      "文字": 13,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#7f3033",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

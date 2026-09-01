@@ -1,0 +1,464 @@
+{
+  "slug": "buyo",
+  "url": "https://buyo.jp/",
+  "title": "和歌山市の整形外科｜ぶよう整形外科",
+  "desc": "関節痛や骨折、ねんざ、巻き爪など幅広い症状に対応しています。交通事故・労災の診療も行っております。丁寧な診察と対話を大切にし、一人ひとりに合わせた治療とリハビリを提供しています。",
+  "bg": [
+    {
+      "hex": "#fff3e4",
+      "pct": 42.2
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 22.6
+    },
+    {
+      "hex": "#ff9f1c",
+      "pct": 29.7
+    },
+    {
+      "hex": "#eff4f7",
+      "pct": 3.7
+    },
+    {
+      "hex": "#00a24e",
+      "pct": 0.9
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 88.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 5
+    },
+    {
+      "hex": "#ea5504",
+      "pct": 3
+    },
+    {
+      "hex": "#595757",
+      "pct": 1.9
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 1611
+    },
+    {
+      "family": "Zen Kaku Gothic Antique",
+      "w": 309
+    },
+    {
+      "family": "Inter",
+      "w": 149
+    }
+  ],
+  "sizes": [
+    {
+      "px": 17,
+      "w": 151
+    },
+    {
+      "px": 16,
+      "w": 717
+    },
+    {
+      "px": 15,
+      "w": 331
+    },
+    {
+      "px": 14,
+      "w": 252
+    },
+    {
+      "px": 13,
+      "w": 343
+    },
+    {
+      "px": 10,
+      "w": 81
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": null,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 19,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0",
+        "family": "Zen Kaku Gothic Antique"
+      },
+      {
+        "fs": 23,
+        "weight": "700",
+        "lh": 1.05,
+        "ls": "0",
+        "family": "Zen Kaku Gothic Antique"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 21,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0",
+        "family": "Zen Kaku Gothic Antique"
+      },
+      {
+        "fs": 19,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0",
+        "family": "Zen Kaku Gothic Antique"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 10,
+      "n": 17
+    },
+    {
+      "px": 0,
+      "n": 14
+    },
+    {
+      "px": 5,
+      "n": 6
+    },
+    {
+      "px": 8,
+      "n": 6
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 8,
+      "n": 26
+    },
+    {
+      "px": 4,
+      "n": 19
+    },
+    {
+      "px": 11,
+      "n": 19
+    },
+    {
+      "px": 6,
+      "n": 18
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 76,
+      "n": 3
+    },
+    {
+      "px": 44,
+      "n": 2
+    },
+    {
+      "px": 96,
+      "n": 2
+    },
+    {
+      "px": 172,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 600,
+      "n": 7
+    },
+    {
+      "px": 864,
+      "n": 7
+    },
+    {
+      "px": 784,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#ea5504",
+      "border": "1px",
+      "radius": "5px",
+      "pad": "11px 19px",
+      "fs": 15,
+      "weight": "700",
+      "h": 40,
+      "ls": "0",
+      "n": 4
+    },
+    {
+      "bg": "#ea5504",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "4px",
+      "pad": "8px 8px",
+      "fs": 15,
+      "weight": "700",
+      "h": 46,
+      "ls": "0",
+      "n": 2
+    },
+    {
+      "bg": "#fff3e4",
+      "color": "#000000",
+      "border": null,
+      "radius": "4px",
+      "pad": "8px 8px",
+      "fs": 15,
+      "weight": "500",
+      "h": 46,
+      "ls": "0",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 960,
+      "n": 14
+    },
+    {
+      "px": 959,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 1840,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1640,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1360,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "16:84"
+    },
+    {
+      "h": 640,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 660,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "90:10"
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#fff3e4",
+      "n": 17
+    },
+    {
+      "hex": "#ffffff",
+      "n": 3
+    },
+    {
+      "hex": "#ff9d18",
+      "n": 3
+    },
+    {
+      "hex": "#eff4f7",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ff9f1c",
+      "bg": "#fff3e4",
+      "radius": 10,
+      "pad": "18/22",
+      "border": "1px #000000",
+      "shadow": null,
+      "n": 8
+    },
+    {
+      "onBg": null,
+      "bg": "#eff4f7",
+      "radius": 11,
+      "pad": "16/22",
+      "border": null,
+      "shadow": null,
+      "n": 2
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#8ba6b8",
+      "radius": "999px",
+      "pad": "10px 16px",
+      "fs": 13,
+      "border": null,
+      "n": 2
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#ea5504",
+      "radius": "5px",
+      "pad": "11px 19px",
+      "fs": 16,
+      "border": "1px",
+      "n": 2
+    }
+  ],
+  "images": {
+    "n": 39,
+    "fullBleed": 8,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 18
+      },
+      {
+        "ratio": "4:3",
+        "n": 8
+      },
+      {
+        "ratio": "1:1",
+        "n": 6
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 39
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 15,
+    "bodyLh": 1.6,
+    "sizes": [
+      16,
+      15,
+      14,
+      12,
+      10
+    ],
+    "pad": 48,
+    "gap": 8,
+    "sidePad": 23,
+    "h1": {
+      "fs": 18,
+      "lh": 1
+    }
+  },
+  "usage": [
+    {
+      "hex": "#fff3e4",
+      "面": 25,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 3
+    },
+    {
+      "hex": "#ffffff",
+      "面": 11,
+      "文字": 18,
+      "枠": 0,
+      "ボタン": 4
+    },
+    {
+      "hex": "#ff9f1c",
+      "面": 8,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#eff4f7",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#00a24e",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 203,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ea5504",
+      "面": 4,
+      "文字": 11,
+      "枠": 0,
+      "ボタン": 4
+    },
+    {
+      "hex": "#595757",
+      "面": 0,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#ea5504",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}
