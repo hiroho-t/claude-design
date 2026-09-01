@@ -1,0 +1,402 @@
+{
+  "slug": "amano-heartful",
+  "url": "https://heartful.hiroshima.jp/",
+  "title": "医療法人ハートフル",
+  "desc": "地域のために、地域とともに。医療法人ハートフルは、リハビリテーション、地域リハビリテーション、在宅医療に主軸を置いた総合福祉医療グループです。",
+  "bg": [
+    {
+      "hex": "#fafaf2",
+      "pct": 88.3
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 6.6
+    },
+    {
+      "hex": "#aa9900",
+      "pct": 4.9
+    },
+    {
+      "hex": "#009644",
+      "pct": 0.3
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#555555",
+      "pct": 71.2
+    },
+    {
+      "hex": "#777777",
+      "pct": 19.4
+    },
+    {
+      "hex": "#000000",
+      "pct": 5.1
+    },
+    {
+      "hex": "#009644",
+      "pct": 2.8
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "FP-HiraginoUDSansFStdN-W4",
+      "w": 1282
+    },
+    {
+      "family": "UDKakugoC80Pro-R",
+      "w": 216
+    },
+    {
+      "family": "Roboto",
+      "w": 82
+    },
+    {
+      "family": "FP-HiraginoUDSansFStdN-W5",
+      "w": 39
+    }
+  ],
+  "sizes": [
+    {
+      "px": 18,
+      "w": 118
+    },
+    {
+      "px": 16,
+      "w": 98
+    },
+    {
+      "px": 15,
+      "w": 517
+    },
+    {
+      "px": 14,
+      "w": 303
+    },
+    {
+      "px": 13,
+      "w": 244
+    },
+    {
+      "px": 12,
+      "w": 180
+    }
+  ],
+  "body": {
+    "fs": 15,
+    "lh": 1.87,
+    "ls": "0.020em"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 15,
+        "weight": "400",
+        "lh": 1.67,
+        "ls": "0",
+        "family": "FP-HiraginoUDSansFStdN-W4"
+      },
+      {
+        "fs": 46,
+        "weight": "400",
+        "lh": 1.88,
+        "ls": "0",
+        "family": "UDKakugoC80Pro-R"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 28,
+        "weight": "400",
+        "lh": 1.67,
+        "ls": "0",
+        "family": "UDKakugoC80Pro-R"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 22
+    },
+    {
+      "px": 10,
+      "n": 6
+    },
+    {
+      "px": 5,
+      "n": 1
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.1) 0px 4px 14px 0px",
+      "n": 2
+    }
+  ],
+  "gap": [
+    {
+      "px": 20,
+      "n": 43
+    },
+    {
+      "px": 10,
+      "n": 17
+    },
+    {
+      "px": 4,
+      "n": 11
+    },
+    {
+      "px": 5,
+      "n": 7
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 4
+    },
+    {
+      "px": 32,
+      "n": 2
+    },
+    {
+      "px": 52,
+      "n": 2
+    },
+    {
+      "px": 180,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1120,
+      "n": 7
+    },
+    {
+      "px": 1116,
+      "n": 6
+    },
+    {
+      "px": 1160,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#555555",
+      "border": "1px",
+      "radius": "0px",
+      "pad": "10px 0px",
+      "fs": 12,
+      "weight": "400",
+      "h": 41,
+      "ls": "0",
+      "n": 20
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#009644",
+      "border": null,
+      "radius": "900px",
+      "pad": "8px 80px",
+      "fs": 17,
+      "weight": "600",
+      "h": 48,
+      "ls": "0",
+      "n": 1
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#009644",
+      "border": "2px #009644",
+      "radius": "5px",
+      "pad": "6px 15px",
+      "fs": 14,
+      "weight": "600",
+      "h": 36,
+      "ls": "0.27px",
+      "n": 1
+    }
+  ],
+  "bp": [],
+  "sections": [
+    {
+      "h": 1000,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "右",
+      "split": "73:27"
+    },
+    {
+      "h": 260,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 3660,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 420,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "左",
+      "split": "39:61"
+    },
+    {
+      "h": 540,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "87:13"
+    },
+    {
+      "h": 500,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#ffffff",
+      "radius": 10,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 6
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 25,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 10
+      },
+      {
+        "ratio": "16:9",
+        "n": 6
+      },
+      {
+        "ratio": "3:2",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 19
+      },
+      {
+        "px": 10,
+        "n": 6
+      }
+    ]
+  },
+  "circles": {
+    "n": 2,
+    "sizes": [
+      {
+        "px": 48,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.67,
+    "sizes": [
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "pad": 60,
+    "gap": 20,
+    "sidePad": 20,
+    "h1": {
+      "fs": 20,
+      "lh": 1.67
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 10,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 2
+    },
+    {
+      "hex": "#009644",
+      "面": 0,
+      "文字": 7,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#555555",
+      "面": 0,
+      "文字": 114,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#777777",
+      "面": 0,
+      "文字": 16,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 10,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#009644",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

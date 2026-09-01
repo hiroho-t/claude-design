@@ -1,0 +1,430 @@
+{
+  "slug": "takizumi-recruit",
+  "url": "https://www.takizumi.com/recruit/",
+  "title": "タキズミ採用サイト｜東京都内を中心としたオフィス・住空間のソリューションプロバイダー",
+  "desc": "株式会社タキズミの採用情報サイトです。事業紹介、社員インタビュー、仕事の流れ、募集要項などを掲載しています。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 61
+    },
+    {
+      "hex": "#f6f6f6",
+      "pct": 15.2
+    },
+    {
+      "hex": "#161f43",
+      "pct": 14.8
+    },
+    {
+      "hex": "#cccccc",
+      "pct": 4.7
+    },
+    {
+      "hex": "#ecedf6",
+      "pct": 3.6
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#ffffff",
+      "pct": 69
+    },
+    {
+      "hex": "#222222",
+      "pct": 24.4
+    },
+    {
+      "hex": "#1c2993",
+      "pct": 6.6
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "YakuHanJP",
+      "w": 1562
+    },
+    {
+      "family": "Poppins",
+      "w": 331
+    }
+  ],
+  "sizes": [
+    {
+      "px": 44,
+      "w": 48
+    },
+    {
+      "px": 24,
+      "w": 336
+    },
+    {
+      "px": 18,
+      "w": 739
+    },
+    {
+      "px": 16,
+      "w": 211
+    },
+    {
+      "px": 15,
+      "w": 204
+    },
+    {
+      "px": 14,
+      "w": 228
+    }
+  ],
+  "body": {
+    "fs": 18,
+    "lh": 2.88,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 18,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0.100em",
+        "family": "Poppins"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 40,
+        "weight": "700",
+        "lh": 1.8,
+        "ls": "0",
+        "family": "YakuHanJP"
+      },
+      {
+        "fs": 30,
+        "weight": "700",
+        "lh": 1.8,
+        "ls": "0",
+        "family": "YakuHanJP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 26
+    },
+    {
+      "px": 30,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 52,
+      "n": 3
+    },
+    {
+      "px": 40,
+      "n": 2
+    },
+    {
+      "px": 72,
+      "n": 1
+    },
+    {
+      "px": 100,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1220,
+      "n": 12
+    },
+    {
+      "px": 700,
+      "n": 6
+    },
+    {
+      "px": 720,
+      "n": 6
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "700",
+      "h": 50,
+      "ls": "0",
+      "n": 1
+    },
+    {
+      "bg": "#1c2993",
+      "color": "#ffffff",
+      "border": "1px #1c2993",
+      "radius": "30px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "700",
+      "h": 50,
+      "ls": "0",
+      "n": 1
+    },
+    {
+      "bg": "transparent",
+      "color": "#1c2993",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 18,
+      "weight": "500",
+      "h": 64,
+      "ls": "1.8px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1200,
+      "n": 33
+    },
+    {
+      "px": 1000,
+      "n": 26
+    },
+    {
+      "px": 930,
+      "n": 107
+    },
+    {
+      "px": 768,
+      "n": 103
+    },
+    {
+      "px": 767,
+      "n": 333
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 4
+    },
+    {
+      "hex": "#161f43",
+      "n": 4
+    },
+    {
+      "hex": "#ecedf6",
+      "n": 2
+    },
+    {
+      "hex": "#4953a8",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#4953a8",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 2
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 35,
+    "fullBleed": 7,
+    "ratios": [
+      {
+        "ratio": "3:4",
+        "n": 12
+      },
+      {
+        "ratio": "3:2",
+        "n": 7
+      },
+      {
+        "ratio": "1:1",
+        "n": 3
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 35
+      }
+    ]
+  },
+  "circles": {
+    "n": 7,
+    "sizes": [
+      {
+        "px": 64,
+        "n": 5
+      },
+      {
+        "px": 88,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sizes": [
+      29,
+      24,
+      16,
+      14,
+      12
+    ],
+    "pad": 32,
+    "gap": null,
+    "sidePad": 70,
+    "h1": {
+      "fs": 18,
+      "lh": 1
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 7,
+      "文字": 67,
+      "枠": 2,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f6f6f6",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#161f43",
+      "面": 4,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#cccccc",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ecedf6",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#222222",
+      "面": 0,
+      "文字": 21,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#1c2993",
+      "面": 16,
+      "文字": 10,
+      "枠": 1,
+      "ボタン": 1
+    }
+  ],
+  "accent": "#1c2993",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

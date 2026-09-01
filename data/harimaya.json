@@ -1,0 +1,367 @@
+{
+  "slug": "harimaya",
+  "url": "https://www.harimaya-co.com/",
+  "title": "高知・土産物の地域総合商社｜株式会社はりま家",
+  "desc": "1904年創業、はりま家は土産物を中心に企業や消費者、地域への思い出づくりをお手伝いする企業です。土産物の卸売から販売を高知・四国・全国と展開し、オリジナル商品の企画開発もお任せください。2022年より桂浜公園「海のテラス」の運営を開始。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 99.6
+    },
+    {
+      "hex": "#242424",
+      "pct": 0.4
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#1f1b1b",
+      "pct": 71
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 24.4
+    },
+    {
+      "hex": "#9d9d9d",
+      "pct": 4.6
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "YakuHanMP",
+      "w": 1236
+    },
+    {
+      "family": "Zen Old Mincho",
+      "w": 238
+    },
+    {
+      "family": "Georgia",
+      "w": 10
+    }
+  ],
+  "sizes": [
+    {
+      "px": 32,
+      "w": 55
+    },
+    {
+      "px": 27,
+      "w": 24
+    },
+    {
+      "px": 19,
+      "w": 44
+    },
+    {
+      "px": 17,
+      "w": 336
+    },
+    {
+      "px": 15,
+      "w": 896
+    },
+    {
+      "px": 13,
+      "w": 82
+    }
+  ],
+  "body": {
+    "fs": 15,
+    "lh": 2,
+    "ls": "0"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 15,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0",
+        "family": "YakuHanMP"
+      },
+      {
+        "fs": 32,
+        "weight": "400",
+        "lh": 1.6,
+        "ls": "0.060em",
+        "family": "YakuHanMP"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 127,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.050em",
+        "family": "YakuHanMP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 8
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 164,
+      "n": 4
+    },
+    {
+      "px": 120,
+      "n": 2
+    },
+    {
+      "px": 148,
+      "n": 2
+    },
+    {
+      "px": 116,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1200,
+      "n": 13
+    },
+    {
+      "px": 1202,
+      "n": 10
+    },
+    {
+      "px": 600,
+      "n": 6
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#242424",
+      "color": "#1f1b1b",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 15,
+      "weight": "400",
+      "h": 61,
+      "ls": "0",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 1024,
+      "n": 165
+    },
+    {
+      "px": 880,
+      "n": 129
+    },
+    {
+      "px": 768,
+      "n": 106
+    },
+    {
+      "px": 640,
+      "n": 87
+    },
+    {
+      "px": 430,
+      "n": 86
+    }
+  ],
+  "sections": [
+    {
+      "h": 860,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 2
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 60,
+    "fullBleed": 10,
+    "ratios": [
+      {
+        "ratio": "4:3",
+        "n": 28
+      },
+      {
+        "ratio": "16:9",
+        "n": 22
+      },
+      {
+        "ratio": "3:2",
+        "n": 5
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 60
+      }
+    ]
+  },
+  "circles": {
+    "n": 7,
+    "sizes": [
+      {
+        "px": 32,
+        "n": 7
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sizes": [
+      16,
+      15,
+      14,
+      12,
+      10
+    ],
+    "pad": 32,
+    "gap": 9,
+    "sidePad": 47,
+    "h1": {
+      "fs": 47,
+      "lh": 1
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 2,
+      "文字": 16,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#242424",
+      "面": 3,
+      "文字": 0,
+      "枠": 2,
+      "ボタン": 3
+    },
+    {
+      "hex": "#1f1b1b",
+      "面": 0,
+      "文字": 86,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#9d9d9d",
+      "面": 0,
+      "文字": 9,
+      "枠": 5,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "モノトーン"
+  ]
+}

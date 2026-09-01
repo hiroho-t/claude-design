@@ -1,0 +1,487 @@
+{
+  "slug": "cure-vas",
+  "url": "https://cure-vas.jp/",
+  "title": "難治性血管腫・血管奇形薬物療法研究班情報サイト｜AMED小関班運営",
+  "desc": "研究班が監修する『血管腫・血管奇形の専門情報サイト』です。血管腫、あざ、リンパ管腫などの種類やシロリムス含めた最新の薬物法など専門医にしか提供できない豊富な情報を掲載。病気について正しい知識を身につけていただける情報提供を行なっていきます。",
+  "bg": [
+    {
+      "hex": "#f8eded",
+      "pct": 43.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 23.4
+    },
+    {
+      "hex": "#ff8f8f",
+      "pct": 11.9
+    },
+    {
+      "hex": "#ffcaca",
+      "pct": 5.5
+    },
+    {
+      "hex": "#998877",
+      "pct": 5.4
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#6d553d",
+      "pct": 74.9
+    },
+    {
+      "hex": "#ff8f8f",
+      "pct": 11.5
+    },
+    {
+      "hex": "#998877",
+      "pct": 6.4
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 4.9
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "秀英丸ゴシック L",
+      "w": 1519
+    },
+    {
+      "family": "秀英にじみ丸ゴシック B JIS2004",
+      "w": 898
+    },
+    {
+      "family": "Montserrat",
+      "w": 221
+    }
+  ],
+  "sizes": [
+    {
+      "px": 32,
+      "w": 100
+    },
+    {
+      "px": 24,
+      "w": 219
+    },
+    {
+      "px": 18,
+      "w": 160
+    },
+    {
+      "px": 16,
+      "w": 1682
+    },
+    {
+      "px": 14,
+      "w": 138
+    },
+    {
+      "px": 12,
+      "w": 218
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.88,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 56,
+        "weight": "700",
+        "lh": 1.25,
+        "ls": "0.050em",
+        "family": "秀英にじみ丸ゴシック B JIS2004"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 1.25,
+        "ls": "0.025em",
+        "family": "秀英にじみ丸ゴシック B JIS2004"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1.25,
+        "ls": "0.033em",
+        "family": "秀英にじみ丸ゴシック B JIS2004"
+      },
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1.33,
+        "ls": "0.050em",
+        "family": "秀英にじみ丸ゴシック B JIS2004"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 4,
+      "n": 19
+    },
+    {
+      "px": 16,
+      "n": 15
+    },
+    {
+      "px": 0,
+      "n": 8
+    },
+    {
+      "px": 8,
+      "n": 8
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(153, 136, 119, 0.2) 0px 5px 5px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 5,
+      "n": 1
+    },
+    {
+      "px": 32,
+      "n": 1
+    },
+    {
+      "px": 48,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 6
+    },
+    {
+      "px": 36,
+      "n": 4
+    },
+    {
+      "px": 44,
+      "n": 3
+    },
+    {
+      "px": 80,
+      "n": 3
+    }
+  ],
+  "container": [
+    {
+      "px": 1200,
+      "n": 12
+    },
+    {
+      "px": 1080,
+      "n": 8
+    },
+    {
+      "px": 1112,
+      "n": 6
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffe7d8",
+      "color": "#6d553d",
+      "border": null,
+      "radius": "4px",
+      "pad": "14px 4px",
+      "fs": 12,
+      "weight": "500",
+      "h": 45,
+      "ls": "0.8px",
+      "n": 7
+    },
+    {
+      "bg": "transparent",
+      "color": "#998877",
+      "border": "1px #998877",
+      "radius": "8px",
+      "pad": "16px 40px",
+      "fs": 16,
+      "weight": "500",
+      "h": 64,
+      "ls": "0.8px",
+      "n": 7
+    },
+    {
+      "bg": "#ebffde",
+      "color": "#6d553d",
+      "border": null,
+      "radius": "4px",
+      "pad": "14px 4px",
+      "fs": 12,
+      "weight": "500",
+      "h": 45,
+      "ls": "0.8px",
+      "n": 5
+    }
+  ],
+  "bp": [
+    {
+      "px": 768,
+      "n": 3
+    },
+    {
+      "px": 767,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 480,
+      "full": true,
+      "cols": 3,
+      "img": false,
+      "bg": "#f8eded",
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 320,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 2280,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#f8eded",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 2360,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1080,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#f8eded",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1040,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 340,
+      "full": true,
+      "cols": 2,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 12
+    },
+    {
+      "hex": "#f8eded",
+      "n": 3
+    },
+    {
+      "hex": "#ffecec",
+      "n": 2
+    },
+    {
+      "hex": "#ff8f8f",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f8eded",
+      "bg": "#ffffff",
+      "radius": 16,
+      "pad": "76/28",
+      "border": null,
+      "shadow": null,
+      "n": 7
+    },
+    {
+      "onBg": "#f8eded",
+      "bg": "#ffffff",
+      "radius": 32,
+      "pad": "40/40",
+      "border": null,
+      "shadow": null,
+      "n": 2
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 28,
+    "fullBleed": 9,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 9
+      },
+      {
+        "ratio": "2:3",
+        "n": 6
+      },
+      {
+        "ratio": "1:1",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 28
+      }
+    ]
+  },
+  "circles": {
+    "n": 24,
+    "sizes": [
+      {
+        "px": 88,
+        "n": 12
+      },
+      {
+        "px": 104,
+        "n": 7
+      },
+      {
+        "px": 184,
+        "n": 5
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.88,
+    "sizes": [
+      24,
+      18,
+      16,
+      14,
+      11
+    ],
+    "pad": 28,
+    "gap": 1,
+    "sidePad": 27,
+    "h1": {
+      "fs": 24,
+      "lh": 1.25
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f8eded",
+      "面": 6,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 12,
+      "文字": 12,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ff8f8f",
+      "面": 12,
+      "文字": 23,
+      "枠": 0,
+      "ボタン": 7
+    },
+    {
+      "hex": "#ffcaca",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#998877",
+      "面": 1,
+      "文字": 16,
+      "枠": 7,
+      "ボタン": 0
+    },
+    {
+      "hex": "#6d553d",
+      "面": 6,
+      "文字": 130,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#6d553d",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

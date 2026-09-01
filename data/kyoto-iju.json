@@ -1,0 +1,445 @@
+{
+  "slug": "kyoto-iju",
+  "url": "https://kyoto-iju.com/",
+  "title": "京都移住計画 | 移り住む先の暮らしをつくろう",
+  "desc": "移り住む先の暮らしをつくろう",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 55.1
+    },
+    {
+      "hex": "#f5f18d",
+      "pct": 40.6
+    },
+    {
+      "hex": "#f5f5f0",
+      "pct": 4.2
+    },
+    {
+      "hex": "#a4ccea",
+      "pct": 0.1
+    },
+    {
+      "hex": "#333333",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#333333",
+      "pct": 99.4
+    },
+    {
+      "hex": "#6f6f6f",
+      "pct": 0.5
+    },
+    {
+      "hex": "#888888",
+      "pct": 0
+    }
+  ],
+  "pageBg": "#f5f5f0",
+  "fonts": [
+    {
+      "family": "Zen Kaku Gothic New",
+      "w": 5105
+    },
+    {
+      "family": "Poppins",
+      "w": 169
+    },
+    {
+      "family": "sans-serif",
+      "w": 2
+    }
+  ],
+  "sizes": [
+    {
+      "px": 32,
+      "w": 239
+    },
+    {
+      "px": 28,
+      "w": 329
+    },
+    {
+      "px": 24,
+      "w": 557
+    },
+    {
+      "px": 18,
+      "w": 376
+    },
+    {
+      "px": 16,
+      "w": 3113
+    },
+    {
+      "px": 14,
+      "w": 336
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.6,
+    "ls": "0"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0",
+        "family": "Zen Kaku Gothic New"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Zen Kaku Gothic New"
+      },
+      {
+        "fs": 18,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Zen Kaku Gothic New"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 20,
+      "n": 20
+    },
+    {
+      "px": 3,
+      "n": 6
+    },
+    {
+      "px": 0,
+      "n": 4
+    },
+    {
+      "px": 12,
+      "n": 3
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 19
+    },
+    {
+      "px": 100,
+      "n": 6
+    },
+    {
+      "px": 52,
+      "n": 3
+    },
+    {
+      "px": 44,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 900,
+      "n": 15
+    },
+    {
+      "px": 820,
+      "n": 14
+    },
+    {
+      "px": 1080,
+      "n": 11
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#333333",
+      "border": null,
+      "radius": "900px",
+      "pad": "7px 14px",
+      "fs": 14,
+      "weight": "400",
+      "h": 27,
+      "ls": "0",
+      "n": 24
+    },
+    {
+      "bg": "transparent",
+      "color": "#333333",
+      "border": "1px #333333",
+      "radius": "900px",
+      "pad": "7px 14px",
+      "fs": 14,
+      "weight": "400",
+      "h": 31,
+      "ls": "0",
+      "n": 11
+    },
+    {
+      "bg": "transparent",
+      "color": "#333333",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "400",
+      "h": 36,
+      "ls": "1.6px",
+      "n": 9
+    }
+  ],
+  "bp": [
+    {
+      "px": 1201,
+      "n": 16
+    },
+    {
+      "px": 901,
+      "n": 53
+    },
+    {
+      "px": 900,
+      "n": 8
+    },
+    {
+      "px": 641,
+      "n": 52
+    },
+    {
+      "px": 640,
+      "n": 14
+    }
+  ],
+  "sections": [
+    {
+      "h": 640,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 4280,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": false,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 920,
+      "full": false,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1680,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#f5f18d",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 540,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "左",
+      "split": "22:78"
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 20
+    },
+    {
+      "hex": "#f5f18d",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f5f5f0",
+      "bg": "#ffffff",
+      "radius": 20,
+      "pad": "30/30",
+      "border": null,
+      "shadow": null,
+      "n": 20
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#333333",
+      "radius": "999px",
+      "pad": "7px 14px",
+      "fs": 14,
+      "border": null,
+      "n": 24
+    },
+    {
+      "bg": "#f5f18d",
+      "color": "#333333",
+      "radius": "999px",
+      "pad": "5px 11px",
+      "fs": 13,
+      "border": null,
+      "n": 16
+    }
+  ],
+  "images": {
+    "n": 60,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 47
+      },
+      {
+        "ratio": "1:1",
+        "n": 6
+      },
+      {
+        "ratio": "2:3",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 59
+      },
+      {
+        "px": 900,
+        "n": 1
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.5,
+    "sizes": [
+      18,
+      16,
+      14,
+      13,
+      12
+    ],
+    "pad": 28,
+    "gap": null,
+    "sidePad": 30,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 44,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 24
+    },
+    {
+      "hex": "#f5f18d",
+      "面": 15,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 7
+    },
+    {
+      "hex": "#f5f5f0",
+      "面": 0,
+      "文字": 0,
+      "枠": 2,
+      "ボタン": 0
+    },
+    {
+      "hex": "#a4ccea",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 2
+    },
+    {
+      "hex": "#333333",
+      "面": 0,
+      "文字": 255,
+      "枠": 23,
+      "ボタン": 0
+    },
+    {
+      "hex": "#6f6f6f",
+      "面": 0,
+      "文字": 5,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#888888",
+      "面": 0,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#f5f18d",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角丸",
+    "色つき"
+  ]
+}

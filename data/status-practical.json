@@ -1149,5 +1149,190 @@
     "state": "skip",
     "why": "測定に失敗",
     "url": "https://www.nagano-cgc.or.jp/"
+  },
+  "osakau-liaison": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://liaison-office.eng.osaka-u.ac.jp/"
+  },
+  "unbalance": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.unbalance.co.jp/"
+  },
+  "harimaya": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.harimaya-co.com/"
+  },
+  "inadani-sees": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://inadani-sees.jp/"
+  },
+  "lifeandcom": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.life-and-com.jp/"
+  },
+  "classmethod": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://classmethod.jp/"
+  },
+  "yasudayuko": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://yasudayuko.com/"
+  },
+  "amano-heartful": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://heartful.hiroshima.jp/"
+  },
+  "linie-schule": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://schule.linie-group.jp/"
+  },
+  "kajoanimalcenter": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://kajo-animal.center/"
+  },
+  "amanohospital": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://amanohospital.jp/"
+  },
+  "mpn": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.mpn.or.jp/"
+  },
+  "wtbl": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://wtbl.co.jp/"
+  },
+  "oneplanet": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://1planet.co.jp/"
+  },
+  "kobeurbanfarming": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://satoumikobe.jp/"
+  },
+  "yuridenki": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.yuridenki.co.jp/"
+  },
+  "cloudsoft": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.cloudsoft.co.jp/"
+  },
+  "tono-jingisukan": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://tono-jingisukan.com/"
+  },
+  "jiraku": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://jiraku.or.jp/"
+  },
+  "wellulu": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://wellulu.com/"
+  },
+  "dazaifutenmangu": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.dazaifutenmangu.or.jp/"
+  },
+  "orbis": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.orbis.co.jp/brand/"
+  },
+  "bousai-fukushi": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://bousai-fukushi.org/"
+  },
+  "golfdigest": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://company.golfdigest.co.jp/"
+  },
+  "theo": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://theo.blue/"
+  },
+  "6mi-dental": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://6mi-dental.com/"
+  },
+  "kyoto-iju": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://kyoto-iju.com/"
+  },
+  "nomurakougei": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.nomurakougei.co.jp/"
+  },
+  "cure-vas": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://cure-vas.jp/"
+  },
+  "cygames": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.cygames.co.jp/"
+  },
+  "agatajapan-tokyo": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://agatajapan.com/tokyo/"
+  },
+  "studyinshizuoka": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://studyinshizuoka.jp/"
+  },
+  "hatanokoumuten": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://hatanokoumuten.site/"
+  },
+  "st-is": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://dept.tus.ac.jp/st-is/"
+  },
+  "muice": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://muice.jp/"
+  },
+  "takizumi-recruit": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.takizumi.com/recruit/"
+  },
+  "nakatani-tac": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://nakatani-tac.jp/"
   }
 }

@@ -1,0 +1,399 @@
+{
+  "slug": "mpn",
+  "url": "https://www.mpn.or.jp/",
+  "title": "MPN［一般社団法人 MPN］",
+  "desc": "MPNは、アーティストやミュージシャンに著作隣接権使用料等の分配を行っている団体です。演奏家団体に加盟するミュージシャンを中心に設立され、会員の権利に加えて、実演家全体の権利行使とその拡充をサポートするための活動を行っています。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 83.9
+    },
+    {
+      "hex": "#edeae5",
+      "pct": 9.1
+    },
+    {
+      "hex": "#faf8f6",
+      "pct": 6.9
+    },
+    {
+      "hex": "#014099",
+      "pct": 0
+    },
+    {
+      "hex": "#dddddd",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#212121",
+      "pct": 51.9
+    },
+    {
+      "hex": "#333333",
+      "pct": 32.4
+    },
+    {
+      "hex": "#000000",
+      "pct": 7.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 4.8
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "ヒラギノ角ゴ W4 JIS2004",
+      "w": 816
+    },
+    {
+      "family": "ヒラギノ角ゴ W2 JIS2004",
+      "w": 462
+    },
+    {
+      "family": "Montserrat",
+      "w": 201
+    },
+    {
+      "family": "Hiragino Kaku Gothic ProN",
+      "w": 24
+    }
+  ],
+  "sizes": [
+    {
+      "px": 18,
+      "w": 105
+    },
+    {
+      "px": 16,
+      "w": 151
+    },
+    {
+      "px": 15,
+      "w": 114
+    },
+    {
+      "px": 14,
+      "w": 843
+    },
+    {
+      "px": 13,
+      "w": 121
+    },
+    {
+      "px": 12,
+      "w": 95
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.4,
+    "ls": "0"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 28,
+        "weight": "400",
+        "lh": 1.8,
+        "ls": "0.180em",
+        "family": "ヒラギノ角ゴ W2 JIS2004"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 42,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "-0.020em",
+        "family": "Montserrat"
+      },
+      {
+        "fs": 24,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "ヒラギノ角ゴ W4 JIS2004"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 29
+    },
+    {
+      "px": 30,
+      "n": 3
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 20,
+      "n": 1
+    },
+    {
+      "px": 24,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 80,
+      "n": 5
+    },
+    {
+      "px": 100,
+      "n": 4
+    },
+    {
+      "px": 40,
+      "n": 3
+    },
+    {
+      "px": 140,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 864,
+      "n": 12
+    },
+    {
+      "px": 1432,
+      "n": 5
+    },
+    {
+      "px": 1152,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#212121",
+      "border": "1px #cdcdcd",
+      "radius": "0px",
+      "pad": "30px 0px",
+      "fs": 14,
+      "weight": "400",
+      "h": 82,
+      "ls": "0",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1140,
+      "n": 58
+    },
+    {
+      "px": 840,
+      "n": 149
+    },
+    {
+      "px": 540,
+      "n": 257
+    },
+    {
+      "px": 320,
+      "n": 69
+    }
+  ],
+  "sections": [
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 13
+    },
+    {
+      "hex": "#edeae5",
+      "n": 1
+    },
+    {
+      "hex": "#faf8f6",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "transparent",
+      "radius": 0,
+      "pad": "0/0",
+      "border": "1px #555555",
+      "shadow": null,
+      "n": 6
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 29,
+    "fullBleed": 13,
+    "ratios": [
+      {
+        "ratio": "21:9",
+        "n": 13
+      },
+      {
+        "ratio": "1:1",
+        "n": 8
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 29
+      }
+    ]
+  },
+  "circles": {
+    "n": 4,
+    "sizes": [
+      {
+        "px": 32,
+        "n": 2
+      },
+      {
+        "px": 64,
+        "n": 1
+      },
+      {
+        "px": 112,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 13,
+    "bodyLh": 1.7,
+    "sizes": [
+      20,
+      15,
+      14,
+      13,
+      12
+    ],
+    "pad": 64,
+    "gap": 10,
+    "sidePad": 0,
+    "h1": {
+      "fs": 20,
+      "lh": 1.8
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 14,
+      "文字": 4,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#edeae5",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#faf8f6",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#014099",
+      "面": 1,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#212121",
+      "面": 0,
+      "文字": 57,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#333333",
+      "面": 0,
+      "文字": 49,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#014099",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

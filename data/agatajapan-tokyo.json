@@ -1,0 +1,472 @@
+{
+  "slug": "agatajapan-tokyo",
+  "url": "https://agatajapan.com/tokyo/",
+  "title": "東京都に関する記事一覧 | agatajapan",
+  "desc": "日本のよいものを世界へ",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 52.2
+    },
+    {
+      "hex": "#f1f1f1",
+      "pct": 26
+    },
+    {
+      "hex": "#b71503",
+      "pct": 17.8
+    },
+    {
+      "hex": "#fff5f5",
+      "pct": 3.4
+    },
+    {
+      "hex": "#999999",
+      "pct": 0.3
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#333333",
+      "pct": 65.4
+    },
+    {
+      "hex": "#b61503",
+      "pct": 18.3
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 11.5
+    },
+    {
+      "hex": "#6d6d6d",
+      "pct": 4.8
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 3341
+    },
+    {
+      "family": "Times New Roman",
+      "w": 705
+    }
+  ],
+  "sizes": [
+    {
+      "px": 24,
+      "w": 67
+    },
+    {
+      "px": 18,
+      "w": 325
+    },
+    {
+      "px": 16,
+      "w": 143
+    },
+    {
+      "px": 14,
+      "w": 1614
+    },
+    {
+      "px": 12,
+      "w": 893
+    },
+    {
+      "px": 11,
+      "w": 948
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.6,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 24,
+        "weight": "400",
+        "lh": 1.2,
+        "ls": "0.500em",
+        "family": "Times New Roman"
+      },
+      {
+        "fs": 32,
+        "weight": "400",
+        "lh": 1.2,
+        "ls": "0.125em",
+        "family": "Times New Roman"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 18,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0.222em",
+        "family": "Times New Roman"
+      },
+      {
+        "fs": 18,
+        "weight": "400",
+        "lh": 1.2,
+        "ls": "0.222em",
+        "family": "Times New Roman"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 14,
+        "weight": "400",
+        "lh": 1.2,
+        "ls": "0.286em",
+        "family": "Times New Roman"
+      },
+      {
+        "fs": 18,
+        "weight": "400",
+        "lh": 1.2,
+        "ls": "0.222em",
+        "family": "Times New Roman"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 75
+    },
+    {
+      "px": 13,
+      "n": 4
+    },
+    {
+      "px": 3,
+      "n": 1
+    },
+    {
+      "px": 20,
+      "n": 1
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.14) 0px 2px 14px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 15,
+      "n": 5
+    },
+    {
+      "px": 3,
+      "n": 3
+    },
+    {
+      "px": 32,
+      "n": 3
+    },
+    {
+      "px": 5,
+      "n": 2
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 6
+    },
+    {
+      "px": 44,
+      "n": 2
+    },
+    {
+      "px": 52,
+      "n": 2
+    },
+    {
+      "px": 48,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1200,
+      "n": 21
+    },
+    {
+      "px": 860,
+      "n": 13
+    },
+    {
+      "px": 1080,
+      "n": 1
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 11,
+      "weight": "400",
+      "h": 26,
+      "ls": "0",
+      "n": 22
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "400",
+      "h": 48,
+      "ls": "0",
+      "n": 3
+    },
+    {
+      "bg": "#b71503",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "100px",
+      "pad": "12px 28px",
+      "fs": 16,
+      "weight": "400",
+      "h": 48,
+      "ls": "0",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1400,
+      "n": 24
+    },
+    {
+      "px": 1200,
+      "n": 42
+    },
+    {
+      "px": 992,
+      "n": 40
+    },
+    {
+      "px": 768,
+      "n": 34
+    },
+    {
+      "px": 576,
+      "n": 43
+    }
+  ],
+  "sections": [
+    {
+      "h": 120,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 140,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": "#ffffff",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 7380,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "右",
+      "split": "83:17"
+    },
+    {
+      "h": 1060,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f7f7f7",
+      "n": 12
+    },
+    {
+      "hex": "#fff5f5",
+      "n": 6
+    },
+    {
+      "hex": "#ffffff",
+      "n": 2
+    },
+    {
+      "hex": "#f1f1f1",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#f1f1f1",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 15
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "#f7f7f7",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 12
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#999999",
+      "color": "#ffffff",
+      "radius": "999px",
+      "pad": "0px 8px",
+      "fs": 11,
+      "border": null,
+      "n": 23
+    },
+    {
+      "bg": "#000000",
+      "color": "#ffffff",
+      "radius": "999px",
+      "pad": "0px 8px",
+      "fs": 11,
+      "border": null,
+      "n": 11
+    }
+  ],
+  "images": {
+    "n": 34,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 16
+      },
+      {
+        "ratio": "4:3",
+        "n": 16
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 34
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 12,
+    "bodyLh": 1.5,
+    "sizes": [
+      18,
+      16,
+      14,
+      12,
+      11
+    ],
+    "pad": 124,
+    "gap": 15,
+    "sidePad": 20,
+    "h1": {
+      "fs": 20,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 11,
+      "文字": 82,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f1f1f1",
+      "面": 30,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#b71503",
+      "面": 17,
+      "文字": 56,
+      "枠": 0,
+      "ボタン": 3
+    },
+    {
+      "hex": "#fff5f5",
+      "面": 6,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#999999",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#333333",
+      "面": 0,
+      "文字": 153,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#6d6d6d",
+      "面": 0,
+      "文字": 29,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#b61503",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

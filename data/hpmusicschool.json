@@ -1,0 +1,492 @@
+{
+  "slug": "hpmusicschool",
+  "url": "https://school.hpmusic.jp/",
+  "title": "H.P. Music School | 洋光台駅より徒歩3分 たのしく学べる音楽教室",
+  "desc": "広がる世界、繋がる未来。音楽でスタートする新しい生活。楽しく上達するをテーマにお子様からシニアの方まで、一人ひとりのペースに合わせたレッスンを心掛けています。生徒さんの成長を第一に考え、毎回のレッスンに満足していただけるよう講師一同、やさしくていねいに皆さんをサポートいたします。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 27.3
+    },
+    {
+      "hex": "#43bdea",
+      "pct": 18.4
+    },
+    {
+      "hex": "#f48fb7",
+      "pct": 18.1
+    },
+    {
+      "hex": "#eebc0b",
+      "pct": 18.1
+    },
+    {
+      "hex": "#479cd7",
+      "pct": 16.4
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#ffffff",
+      "pct": 60.2
+    },
+    {
+      "hex": "#222222",
+      "pct": 19.3
+    },
+    {
+      "hex": "#479cd7",
+      "pct": 19.1
+    },
+    {
+      "hex": "#555555",
+      "pct": 1.4
+    }
+  ],
+  "pageBg": "#f0f7fc",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 4887
+    },
+    {
+      "family": "Zen Maru Gothic",
+      "w": 745
+    },
+    {
+      "family": "Barlow",
+      "w": 35
+    }
+  ],
+  "sizes": [
+    {
+      "px": 240,
+      "w": 36
+    },
+    {
+      "px": 24,
+      "w": 377
+    },
+    {
+      "px": 18,
+      "w": 84
+    },
+    {
+      "px": 16,
+      "w": 1519
+    },
+    {
+      "px": 14,
+      "w": 3230
+    },
+    {
+      "px": 12,
+      "w": 290
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.5,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Zen Maru Gothic"
+      },
+      {
+        "fs": 40,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Zen Maru Gothic"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Zen Maru Gothic"
+      },
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Zen Maru Gothic"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": null,
+        "ls": "0",
+        "family": "Zen Maru Gothic"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 16,
+      "n": 85
+    },
+    {
+      "px": 40,
+      "n": 55
+    },
+    {
+      "px": 0,
+      "n": 11
+    },
+    {
+      "px": 8,
+      "n": 6
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(25, 44, 63, 0.08) 0px 16px 40px 0px",
+      "n": 48
+    },
+    {
+      "css": "rgba(0, 0, 0, 0.06) 0px 0px 12px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 8,
+      "n": 22
+    },
+    {
+      "px": 16,
+      "n": 10
+    },
+    {
+      "px": 24,
+      "n": 10
+    },
+    {
+      "px": 40,
+      "n": 5
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 12
+    },
+    {
+      "px": 80,
+      "n": 3
+    },
+    {
+      "px": 68,
+      "n": 1
+    },
+    {
+      "px": 100,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 840,
+      "n": 21
+    },
+    {
+      "px": 1000,
+      "n": 18
+    },
+    {
+      "px": 920,
+      "n": 8
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "700",
+      "h": 48,
+      "ls": "0",
+      "n": 7
+    },
+    {
+      "bg": "#479cd7",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "16px",
+      "pad": "8px 16px",
+      "fs": 16,
+      "weight": "700",
+      "h": 48,
+      "ls": "0",
+      "n": 6
+    },
+    {
+      "bg": "#ffa723",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "16px",
+      "pad": "8px 16px",
+      "fs": 16,
+      "weight": "700",
+      "h": 64,
+      "ls": "0",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 1920,
+      "n": 11
+    },
+    {
+      "px": 1000,
+      "n": 20
+    },
+    {
+      "px": 960,
+      "n": 81
+    },
+    {
+      "px": 768,
+      "n": 21
+    },
+    {
+      "px": 640,
+      "n": 9
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1060,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 2280,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1060,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "右",
+      "split": "52:48"
+    },
+    {
+      "h": 1320,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#eebc0b",
+      "n": 16
+    },
+    {
+      "hex": "#43bdea",
+      "n": 16
+    },
+    {
+      "hex": "#f48fb7",
+      "n": 16
+    },
+    {
+      "hex": "#ffffff",
+      "n": 7
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f0f7fc",
+      "bg": "#eebc0b",
+      "radius": 40,
+      "pad": "0/0",
+      "border": null,
+      "shadow": "rgba(25, 44, 63, 0.08) 0px 16px 40px 0px",
+      "n": 16
+    },
+    {
+      "onBg": "#f0f7fc",
+      "bg": "#43bdea",
+      "radius": 40,
+      "pad": "0/0",
+      "border": null,
+      "shadow": "rgba(25, 44, 63, 0.08) 0px 16px 40px 0px",
+      "n": 16
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#f0f7fc",
+      "color": "#479cd7",
+      "radius": "8px",
+      "pad": "8px 16px",
+      "fs": 18,
+      "border": null,
+      "n": 2
+    },
+    {
+      "bg": "#479cd7",
+      "color": "#ffffff",
+      "radius": "8px",
+      "pad": "2px 8px",
+      "fs": 12,
+      "border": null,
+      "n": 2
+    }
+  ],
+  "images": {
+    "n": 52,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "16:9",
+        "n": 50
+      },
+      {
+        "ratio": "1:1",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 52
+      }
+    ]
+  },
+  "circles": {
+    "n": 9,
+    "sizes": [
+      {
+        "px": 56,
+        "n": 7
+      },
+      {
+        "px": 24,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 13,
+    "bodyLh": 2.46,
+    "sizes": [
+      24,
+      14,
+      13,
+      12,
+      11
+    ],
+    "pad": 24,
+    "gap": 8,
+    "sidePad": 67,
+    "h1": {
+      "fs": 24,
+      "lh": 1.5
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 32,
+      "文字": 146,
+      "枠": 9,
+      "ボタン": 1
+    },
+    {
+      "hex": "#43bdea",
+      "面": 35,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 3
+    },
+    {
+      "hex": "#f48fb7",
+      "面": 33,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#eebc0b",
+      "面": 33,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#479cd7",
+      "面": 9,
+      "文字": 69,
+      "枠": 0,
+      "ボタン": 7
+    },
+    {
+      "hex": "#222222",
+      "面": 0,
+      "文字": 40,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#555555",
+      "面": 0,
+      "文字": 4,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#479cd7",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角丸",
+    "色つき"
+  ]
+}

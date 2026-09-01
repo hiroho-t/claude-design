@@ -1,0 +1,376 @@
+{
+  "slug": "wtbl",
+  "url": "https://wtbl.co.jp/",
+  "title": "静岡東部の土木・解体工事会社 | 渡辺ブルドーザ工事株式会社",
+  "desc": "渡辺ブルドーザ工事株式会社は、静岡県富士市にある土木工事の会社です。土木工事、建物の解体、産業廃棄物中間処理、重量運搬までを一気通貫して行い、皆様の足元から生活をつくります。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 79.3
+    },
+    {
+      "hex": "#eeeeee",
+      "pct": 12.4
+    },
+    {
+      "hex": "#212121",
+      "pct": 8.3
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#212121",
+      "pct": 67.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 19.8
+    },
+    {
+      "hex": "#333333",
+      "pct": 6.2
+    },
+    {
+      "hex": "#000000",
+      "pct": 3.6
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "ゴシックMB101 R JIS2004",
+      "w": 512
+    },
+    {
+      "family": "ゴシックMB101 DB JIS2004",
+      "w": 107
+    },
+    {
+      "family": "Material Icons",
+      "w": 80
+    },
+    {
+      "family": "Anton",
+      "w": 49
+    }
+  ],
+  "sizes": [
+    {
+      "px": 55,
+      "w": 29
+    },
+    {
+      "px": 43,
+      "w": 34
+    },
+    {
+      "px": 24,
+      "w": 85
+    },
+    {
+      "px": 18,
+      "w": 66
+    },
+    {
+      "px": 16,
+      "w": 39
+    },
+    {
+      "px": 15,
+      "w": 468
+    }
+  ],
+  "body": {
+    "fs": 15,
+    "lh": 2,
+    "ls": "0.030em"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 68,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0.030em",
+        "family": "ゴシックMB101 DB JIS2004"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 55,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "Anton"
+      },
+      {
+        "fs": 68,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0.030em",
+        "family": "ゴシックMB101 DB JIS2004"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 43,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0.030em",
+        "family": "ゴシックMB101 DB JIS2004"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 20
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 32,
+      "n": 2
+    },
+    {
+      "px": 52,
+      "n": 2
+    },
+    {
+      "px": 156,
+      "n": 2
+    },
+    {
+      "px": 180,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 664,
+      "n": 4
+    },
+    {
+      "px": 960,
+      "n": 2
+    },
+    {
+      "px": 580,
+      "n": 1
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#212121",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 18,
+      "weight": "400",
+      "h": 76,
+      "ls": "0",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1280,
+      "n": 43
+    },
+    {
+      "px": 840,
+      "n": 65
+    },
+    {
+      "px": 540,
+      "n": 118
+    },
+    {
+      "px": 320,
+      "n": 29
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": "#ffffff",
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 3220,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1740,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 820,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 560,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 8
+    },
+    {
+      "hex": "#eeeeee",
+      "n": 4
+    },
+    {
+      "hex": "#212121",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#eeeeee",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 2
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 5,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 3
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 5
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sizes": [
+      24,
+      16,
+      14,
+      13,
+      10
+    ],
+    "pad": 52,
+    "gap": null,
+    "sidePad": 0,
+    "h1": {
+      "fs": 26,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 8,
+      "文字": 10,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#eeeeee",
+      "面": 4,
+      "文字": 0,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#212121",
+      "面": 5,
+      "文字": 24,
+      "枠": 2,
+      "ボタン": 1
+    },
+    {
+      "hex": "#333333",
+      "面": 0,
+      "文字": 4,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "モノトーン"
+  ]
+}

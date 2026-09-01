@@ -1,0 +1,466 @@
+{
+  "slug": "cloudsoft",
+  "url": "https://www.cloudsoft.co.jp/",
+  "title": "クラウド株式会社｜名古屋のシステム・ソフトウェア開発",
+  "desc": "",
+  "bg": [
+    {
+      "hex": "#04a7fc",
+      "pct": 62.3
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 24.3
+    },
+    {
+      "hex": "#f7f7f8",
+      "pct": 5.8
+    },
+    {
+      "hex": "#0b41a0",
+      "pct": 7
+    },
+    {
+      "hex": "#008840",
+      "pct": 0.3
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#2f3c3f",
+      "pct": 51.2
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 29.7
+    },
+    {
+      "hex": "#778092",
+      "pct": 10
+    },
+    {
+      "hex": "#0b41a0",
+      "pct": 4
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 2353
+    },
+    {
+      "family": "Lato",
+      "w": 149
+    },
+    {
+      "family": "Poppins",
+      "w": 12
+    }
+  ],
+  "sizes": [
+    {
+      "px": 56,
+      "w": 49
+    },
+    {
+      "px": 36,
+      "w": 72
+    },
+    {
+      "px": 16,
+      "w": 1274
+    },
+    {
+      "px": 15,
+      "w": 143
+    },
+    {
+      "px": 14,
+      "w": 837
+    },
+    {
+      "px": 12,
+      "w": 65
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.7,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 56,
+        "weight": "700",
+        "lh": 1.3,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 36,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 36,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 30,
+      "n": 14
+    },
+    {
+      "px": 0,
+      "n": 11
+    },
+    {
+      "px": 50,
+      "n": 5
+    },
+    {
+      "px": 4,
+      "n": 1
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.1) 0px 6px 10px 0px",
+      "n": 14
+    },
+    {
+      "css": "rgba(0, 0, 0, 0.16) 0px 3px 20px 0px",
+      "n": 3
+    }
+  ],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 100,
+      "n": 5
+    },
+    {
+      "px": 60,
+      "n": 3
+    },
+    {
+      "px": 44,
+      "n": 2
+    },
+    {
+      "px": 52,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 960,
+      "n": 16
+    },
+    {
+      "px": 1100,
+      "n": 6
+    },
+    {
+      "px": 860,
+      "n": 5
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "700",
+      "h": 58,
+      "ls": "0",
+      "n": 3
+    },
+    {
+      "bg": "#0b41a0",
+      "color": "#ffffff",
+      "border": "2px #0b41a0",
+      "radius": "100px",
+      "pad": "18px 40px",
+      "fs": 16,
+      "weight": "700",
+      "h": 58,
+      "ls": "0",
+      "n": 2
+    },
+    {
+      "bg": "transparent",
+      "color": "#0b41a0",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "700",
+      "h": 58,
+      "ls": "0",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1300,
+      "n": 18
+    },
+    {
+      "px": 1140,
+      "n": 39
+    },
+    {
+      "px": 960,
+      "n": 124
+    },
+    {
+      "px": 768,
+      "n": 155
+    },
+    {
+      "px": 550,
+      "n": 40
+    }
+  ],
+  "sections": [
+    {
+      "h": 960,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#04a7fc",
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 120,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 580,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1420,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "59:41"
+    },
+    {
+      "h": 920,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1360,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1000,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": "#04a7fc",
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 800,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#04a7fc",
+      "n": 4
+    },
+    {
+      "hex": "#ffffff",
+      "n": 2
+    },
+    {
+      "hex": "#f7f7f8",
+      "n": 1
+    },
+    {
+      "hex": "#0b41a0",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#04a7fc",
+      "bg": "#ffffff",
+      "radius": 30,
+      "pad": "10/16",
+      "border": null,
+      "shadow": "rgba(0, 0, 0, 0.1) 0px 6px 10px 0px",
+      "n": 14
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#04a7fc",
+      "color": "#ffffff",
+      "radius": "999px",
+      "pad": "4px 18px",
+      "fs": 14,
+      "border": null,
+      "n": 9
+    }
+  ],
+  "images": {
+    "n": 45,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 28
+      },
+      {
+        "ratio": "16:9",
+        "n": 7
+      },
+      {
+        "ratio": "1:1",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 45
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": 1.7,
+    "sizes": [
+      24,
+      16,
+      15,
+      14,
+      12
+    ],
+    "pad": 32,
+    "gap": null,
+    "sidePad": 0,
+    "h1": {
+      "fs": 36,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#04a7fc",
+      "面": 4,
+      "文字": 4,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 21,
+      "文字": 38,
+      "枠": 2,
+      "ボタン": 5
+    },
+    {
+      "hex": "#f7f7f8",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#0b41a0",
+      "面": 4,
+      "文字": 5,
+      "枠": 4,
+      "ボタン": 2
+    },
+    {
+      "hex": "#008840",
+      "面": 4,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#2f3c3f",
+      "面": 0,
+      "文字": 39,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#778092",
+      "面": 0,
+      "文字": 14,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#778092",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角丸",
+    "色つき"
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "slug": "kobeurbanfarming",
+  "url": "https://satoumikobe.jp/",
+  "title": "sato/umi KOBE",
+  "desc": "「sato/umi KOBE」は、農家や漁師の方、食にまつわる事業をされている事業者、神戸市内で暮らす生活者の視点、それぞれから都市の中での食を通した新たな営みについて取材記事やコラム情報を掲載します。",
+  "bg": [
+    {
+      "hex": "#f6f6f6",
+      "pct": 99.7
+    },
+    {
+      "hex": "#dee1e3",
+      "pct": 0.3
+    },
+    {
+      "hex": "#000000",
+      "pct": 0
+    },
+    {
+      "hex": "#151515",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#151515",
+      "pct": 92.7
+    },
+    {
+      "hex": "#f6f6f6",
+      "pct": 5.1
+    },
+    {
+      "hex": "#898989",
+      "pct": 1.7
+    },
+    {
+      "hex": "#3e82ff",
+      "pct": 0.6
+    }
+  ],
+  "pageBg": "#f6f6f6",
+  "fonts": [
+    {
+      "family": "Barlow",
+      "w": 961
+    },
+    {
+      "family": "Zen Kaku Gothic New",
+      "w": 545
+    }
+  ],
+  "sizes": [
+    {
+      "px": 17,
+      "w": 195
+    },
+    {
+      "px": 15,
+      "w": 28
+    },
+    {
+      "px": 14,
+      "w": 654
+    },
+    {
+      "px": 13,
+      "w": 491
+    },
+    {
+      "px": 11,
+      "w": 60
+    },
+    {
+      "px": 10,
+      "w": 31
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.4,
+    "ls": "0"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 56,
+        "weight": "700",
+        "lh": 1.2,
+        "ls": "0",
+        "family": "Barlow"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 10
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 80,
+      "n": 9
+    },
+    {
+      "px": 40,
+      "n": 2
+    },
+    {
+      "px": 100,
+      "n": 2
+    },
+    {
+      "px": 52,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 576,
+      "n": 45
+    },
+    {
+      "px": 572,
+      "n": 26
+    },
+    {
+      "px": 840,
+      "n": 26
+    }
+  ],
+  "buttons": [],
+  "bp": [
+    {
+      "px": 992,
+      "n": 13
+    },
+    {
+      "px": 991,
+      "n": 67
+    },
+    {
+      "px": 767,
+      "n": 63
+    },
+    {
+      "px": 576,
+      "n": 12
+    },
+    {
+      "px": 575,
+      "n": 47
+    }
+  ],
+  "sections": [
+    {
+      "h": 620,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 340,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "17:83"
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 660,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "40:60"
+    },
+    {
+      "h": 880,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1160,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 6,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f6f6f6",
+      "n": 7
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f6f6f6",
+      "bg": "#f6f6f6",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 6
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#dee1e3",
+      "color": "#151515",
+      "radius": "999px",
+      "pad": "5px 18px",
+      "fs": 11,
+      "border": null,
+      "n": 24
+    }
+  ],
+  "images": {
+    "n": 33,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 29
+      },
+      {
+        "ratio": "4:3",
+        "n": 2
+      },
+      {
+        "ratio": "16:9",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 33
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 12,
+    "bodyLh": 1.4,
+    "sizes": [
+      42,
+      12,
+      11,
+      10,
+      9
+    ],
+    "pad": 40,
+    "gap": null,
+    "sidePad": 39,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#f6f6f6",
+      "面": 7,
+      "文字": 8,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#151515",
+      "面": 0,
+      "文字": 113,
+      "枠": 3,
+      "ボタン": 0
+    },
+    {
+      "hex": "#898989",
+      "面": 0,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#3e82ff",
+      "面": 0,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#3e82ff",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

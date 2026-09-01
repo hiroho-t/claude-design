@@ -1,0 +1,500 @@
+{
+  "slug": "bousai-fukushi",
+  "url": "https://bousai-fukushi.org/",
+  "title": "介護施設の防災・減災ガイド –",
+  "desc": "本サイトは、介護施設の管理者と介護職員が「防災・減災」についてともに学ぶWebサイトです。ここから防災・減災について学んでいきましょう。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 51.2
+    },
+    {
+      "hex": "#f8eb77",
+      "pct": 21.1
+    },
+    {
+      "hex": "#ebe9df",
+      "pct": 14.1
+    },
+    {
+      "hex": "#272724",
+      "pct": 6.1
+    },
+    {
+      "hex": "#f8f0ad",
+      "pct": 5.6
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#272724",
+      "pct": 92
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 6.9
+    },
+    {
+      "hex": "#99914d",
+      "pct": 0.7
+    },
+    {
+      "hex": "#99978a",
+      "pct": 0.5
+    }
+  ],
+  "pageBg": "#f8eb77",
+  "fonts": [
+    {
+      "family": "Zen Kaku Gothic New",
+      "w": 2290
+    },
+    {
+      "family": "Arvo",
+      "w": 54
+    }
+  ],
+  "sizes": [
+    {
+      "px": 21,
+      "w": 176
+    },
+    {
+      "px": 19,
+      "w": 102
+    },
+    {
+      "px": 18,
+      "w": 158
+    },
+    {
+      "px": 16,
+      "w": 779
+    },
+    {
+      "px": 14,
+      "w": 833
+    },
+    {
+      "px": 12,
+      "w": 129
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.86,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 42,
+        "weight": "700",
+        "lh": 1.57,
+        "ls": "0.019em",
+        "family": "Zen Kaku Gothic New"
+      },
+      {
+        "fs": 26,
+        "weight": "700",
+        "lh": 1.54,
+        "ls": "0.031em",
+        "family": "Zen Kaku Gothic New"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 14,
+        "weight": "500",
+        "lh": 1.86,
+        "ls": "0.050em",
+        "family": "Zen Kaku Gothic New"
+      },
+      {
+        "fs": 26,
+        "weight": "700",
+        "lh": 1.54,
+        "ls": "0.031em",
+        "family": "Zen Kaku Gothic New"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 19,
+        "weight": "600",
+        "lh": 2,
+        "ls": "0.050em",
+        "family": "Zen Kaku Gothic New"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 13
+    },
+    {
+      "px": 20,
+      "n": 11
+    },
+    {
+      "px": 8,
+      "n": 8
+    },
+    {
+      "px": 6,
+      "n": 5
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(39, 39, 36, 0.3) 3px 4px 0px 0px",
+      "n": 15
+    }
+  ],
+  "gap": [
+    {
+      "px": 8,
+      "n": 6
+    },
+    {
+      "px": 14,
+      "n": 6
+    },
+    {
+      "px": 15,
+      "n": 5
+    },
+    {
+      "px": 6,
+      "n": 3
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 72,
+      "n": 6
+    },
+    {
+      "px": 160,
+      "n": 6
+    },
+    {
+      "px": 80,
+      "n": 4
+    },
+    {
+      "px": 100,
+      "n": 4
+    }
+  ],
+  "container": [
+    {
+      "px": 1120,
+      "n": 32
+    },
+    {
+      "px": 692,
+      "n": 8
+    },
+    {
+      "px": 1000,
+      "n": 7
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#272724",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "8px",
+      "pad": "13px 10px",
+      "fs": 16,
+      "weight": "700",
+      "h": 60,
+      "ls": "0.8px",
+      "n": 8
+    },
+    {
+      "bg": "transparent",
+      "color": "#272724",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "700",
+      "h": 35,
+      "ls": "0.8px",
+      "n": 6
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "19px 20px",
+      "fs": 12,
+      "weight": "600",
+      "h": 75,
+      "ls": "0",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 840,
+      "n": 3
+    },
+    {
+      "px": 839,
+      "n": 4
+    },
+    {
+      "px": 782,
+      "n": 6
+    },
+    {
+      "px": 781,
+      "n": 1
+    },
+    {
+      "px": 600,
+      "n": 8
+    }
+  ],
+  "sections": [
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1660,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1000,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 3380,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1180,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1020,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": false,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 380,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 6
+    },
+    {
+      "hex": "#f8eb77",
+      "n": 1
+    },
+    {
+      "hex": "#cfe6f4",
+      "n": 1
+    },
+    {
+      "hex": "#f8f0ad",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f8eb77",
+      "bg": "#ffffff",
+      "radius": 20,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 4
+    }
+  ],
+  "chips": [
+    {
+      "bg": "transparent",
+      "color": "#272724",
+      "radius": "6px",
+      "pad": "0px 10px",
+      "fs": 14,
+      "border": "1px",
+      "n": 4
+    }
+  ],
+  "images": {
+    "n": 35,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "4:3",
+        "n": 16
+      },
+      {
+        "ratio": "16:9",
+        "n": 7
+      },
+      {
+        "ratio": "1:1",
+        "n": 7
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 35
+      }
+    ]
+  },
+  "circles": {
+    "n": 10,
+    "sizes": [
+      {
+        "px": 16,
+        "n": 6
+      },
+      {
+        "px": 32,
+        "n": 4
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.86,
+    "sizes": [
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "pad": 40,
+    "gap": 8,
+    "sidePad": 21,
+    "h1": {
+      "fs": 33,
+      "lh": 1.52
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 8,
+      "文字": 17,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f8eb77",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ebe9df",
+      "面": 5,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#272724",
+      "面": 19,
+      "文字": 86,
+      "枠": 6,
+      "ボタン": 8
+    },
+    {
+      "hex": "#f8f0ad",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#99914d",
+      "面": 0,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#99978a",
+      "面": 0,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#99914d",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}
