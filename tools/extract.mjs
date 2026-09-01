@@ -261,12 +261,38 @@ const shape = await page.evaluate(() => {
       const r = el.getBoundingClientRect();
       if (r.height < 120) continue;
       const bg = rgb(getComputedStyle(el).backgroundColor);
+
+      // セクションの中の組み方（見出しと画像がどこにあるか）
+      const head = [...el.querySelectorAll('h1,h2,h3')].find(h => {
+        const hr = h.getBoundingClientRect(); return hr.width > 0 && (h.innerText || '').trim().length > 1;
+      });
+      let align = null, media = 'none', split = null;
+      if (head) {
+        const hr = head.getBoundingClientRect();
+        const c = (hr.left + hr.right) / 2 - r.left, mid = r.width / 2;
+        align = Math.abs(c - mid) < r.width * 0.06 ? '中央' : (c < mid ? '左' : '右');
+      }
+      const pics = [...el.querySelectorAll('img,picture,video,svg')]
+        .map(i => i.getBoundingClientRect()).filter(b => b.width > 120 && b.height > 80)
+        .sort((a, b) => b.width * b.height - a.width * a.height);
+      if (pics.length) {
+        const b = pics[0];
+        if (b.width >= r.width * 0.95) media = '全幅';
+        else if (head) {
+          const hr = head.getBoundingClientRect();
+          const overlap = b.top < hr.bottom && b.bottom > hr.top;   // 見出しと同じ高さに並ぶか
+          if (!overlap) media = '見出しの下';
+          else media = (b.left + b.right) / 2 < (hr.left + hr.right) / 2 ? '左' : '右';
+          if (overlap) split = `${Math.round(b.width / r.width * 100)}:${100 - Math.round(b.width / r.width * 100)}`;
+        } else media = '全面';
+      }
       sections.push({
         h: round(r.height, 20),
         full: r.width >= V.w * 0.95,
         cols: colsIn(el),
         img: !!el.querySelector('img,picture,video,svg'),
         bg: bg ? hex(bg) : null,
+        align, media, split,
       });
     }
   }

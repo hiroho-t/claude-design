@@ -223,70 +223,100 @@
       "full": true,
       "cols": 0,
       "img": true,
-      "bg": null
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
     },
     {
       "h": 1220,
       "full": true,
       "cols": 2,
       "img": true,
-      "bg": "#ffffff"
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
     },
     {
       "h": 620,
       "full": true,
       "cols": 0,
       "img": false,
-      "bg": null
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
     },
     {
       "h": 940,
       "full": true,
       "cols": 0,
       "img": true,
-      "bg": "#096fca"
+      "bg": "#096fca",
+      "align": null,
+      "media": "全面",
+      "split": null
     },
     {
       "h": 1940,
       "full": true,
       "cols": 6,
       "img": true,
-      "bg": "#096fca"
+      "bg": "#096fca",
+      "align": "左",
+      "media": "左",
+      "split": "31:69"
     },
     {
       "h": 1220,
       "full": true,
       "cols": 2,
       "img": true,
-      "bg": "#096fca"
+      "bg": "#096fca",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
     },
     {
       "h": 480,
       "full": true,
       "cols": 0,
       "img": false,
-      "bg": null
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
     },
     {
       "h": 1000,
       "full": true,
       "cols": 0,
       "img": true,
-      "bg": "#f9f7f7"
+      "bg": "#f9f7f7",
+      "align": "左",
+      "media": "右",
+      "split": "57:43"
     },
     {
       "h": 980,
       "full": true,
       "cols": 6,
       "img": true,
-      "bg": null
+      "bg": null,
+      "align": "右",
+      "media": "none",
+      "split": null
     },
     {
       "h": 820,
       "full": true,
       "cols": 2,
       "img": true,
-      "bg": null
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
     }
   ],
   "surfaces": [

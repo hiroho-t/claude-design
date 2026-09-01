@@ -208,12 +208,21 @@ ${d.buttons.map((b, i) => `.btn${i ? '-sub' : ''}{
 
 上から順に、実際に並んでいたセクション。
 
-| # | 高さ | 地色 | 中身 |
-|---|---|---|---|
-${secs.map((x, i) => `| ${i + 1} | ${x.h}px | ${x.bg ? `\`${x.bg}\`` : '—'} | ${secName(x, i)} |`).join('\n')}
+| # | 高さ | 地色 | 中身 | 見出し | 画像 |
+|---|---|---|---|---|---|
+${secs.map((x, i) => `| ${i + 1} | ${x.h}px | ${x.bg ? `\`${x.bg}\`` : '—'} | ${secName(x, i)} | ${x.align || '—'} | ${x.media === 'none' ? '—' : x.media}${x.split ? `（${x.split}）` : ''} |`).join('\n')}
 
 - 全${secs.length}セクション${allFull ? '、すべて全幅' : ''}。${allFull ? '中央に寄せた箱を積むのではなく、色面を全幅で切り替えながら進む。' : ''}
 ${mainSurf ? `- 主色 \`${main.hex}\` の面が ${mainSurf.n} 箇所。地色と主色の面を交互に置くのがリズムのつくり方。\n` : ''}- 使われている面の色: ${(d.surfaces || []).map(s2 => `\`${s2.hex}\`（${s2.n}）`).join(' / ')}
+${(() => {
+  const al = secs.map(x => x.align).filter(Boolean);
+  const c = al.filter(a => a === '中央').length;
+  if (!al.length) return '';
+  return `- 見出しは${c === 0 ? '**全部左寄せ**。中央寄せは1つもない' : `左${al.filter(a => a === '左').length}／中央${c}`}。\n`;
+})()}${(() => {
+  const sp = secs.map(x => x.split).filter(Boolean);
+  return sp.length ? `- 2カラムの分け方は ${sp.join(' / ')}。半分ずつには割らない。\n` : '';
+})()}
 
 ## 部品
 
