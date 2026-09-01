@@ -1,0 +1,442 @@
+{
+  "slug": "aoaosapporo",
+  "url": "https://aoao-sapporo.blue/",
+  "title": "AOAO SAPPORO | 生命のワンダー 〜みえないものがみえてくる〜",
+  "desc": "札幌の中心地「狸小路商店街」に面したmoyuk SAPPORO内にある水族館『AOAO SAPPORO（アオアオ サッポロ）』。「まちなかにある自然の入り口」として、青々とした地球を感じられる展示施設です。観光や仕事、学びや癒しなど、思い思いの時間をお過ごしください。",
+  "bg": [
+    {
+      "hex": "#f2f2f2",
+      "pct": 47.4
+    },
+    {
+      "hex": "#d2d2d2",
+      "pct": 34.2
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 14.6
+    },
+    {
+      "hex": "#21348c",
+      "pct": 2
+    },
+    {
+      "hex": "#333333",
+      "pct": 1.9
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#333333",
+      "pct": 93.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 3.6
+    },
+    {
+      "hex": "#4d4d4d",
+      "pct": 2.4
+    },
+    {
+      "hex": "#21348c",
+      "pct": 0.1
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "League Spartan",
+      "w": 3084
+    },
+    {
+      "family": "TazuganeGothicStdN-Regular",
+      "w": 487
+    },
+    {
+      "family": "TazuganeGothicStdN-Medium",
+      "w": 73
+    },
+    {
+      "family": "TazuganeGothicStdN-Book",
+      "w": 65
+    }
+  ],
+  "sizes": [
+    {
+      "px": 24,
+      "w": 135
+    },
+    {
+      "px": 16,
+      "w": 2091
+    },
+    {
+      "px": 14,
+      "w": 488
+    },
+    {
+      "px": 12,
+      "w": 180
+    },
+    {
+      "px": 11,
+      "w": 49
+    },
+    {
+      "px": 10,
+      "w": 638
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 48,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0",
+        "family": "League Spartan"
+      },
+      {
+        "fs": 16,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0",
+        "family": "League Spartan"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 16,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "League Spartan"
+      },
+      {
+        "fs": 24,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "League Spartan"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 31
+    },
+    {
+      "px": 30,
+      "n": 10
+    },
+    {
+      "px": 5,
+      "n": 2
+    },
+    {
+      "px": 15,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 15,
+      "n": 10
+    },
+    {
+      "px": 30,
+      "n": 5
+    },
+    {
+      "px": 45,
+      "n": 5
+    },
+    {
+      "px": 10,
+      "n": 4
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 60,
+      "n": 6
+    },
+    {
+      "px": 80,
+      "n": 4
+    },
+    {
+      "px": 44,
+      "n": 3
+    },
+    {
+      "px": 92,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1176,
+      "n": 28
+    },
+    {
+      "px": 652,
+      "n": 6
+    },
+    {
+      "px": 1088,
+      "n": 5
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#333333",
+      "border": "1px #333333",
+      "radius": "30px",
+      "pad": "0px 0px",
+      "fs": 11,
+      "weight": "400",
+      "h": 27,
+      "ls": "0",
+      "n": 2
+    },
+    {
+      "bg": "transparent",
+      "color": "#333333",
+      "border": "1px #333333",
+      "radius": "30px",
+      "pad": "0px 0px",
+      "fs": 12,
+      "weight": "400",
+      "h": 39,
+      "ls": "0",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1024,
+      "n": 8
+    },
+    {
+      "px": 1023,
+      "n": 11
+    },
+    {
+      "px": 768,
+      "n": 18
+    },
+    {
+      "px": 767,
+      "n": 54
+    },
+    {
+      "px": 480,
+      "n": 3
+    }
+  ],
+  "sections": [
+    {
+      "h": 860,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 320,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 920,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 300,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 540,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1300,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": "#f2f2f2",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 380,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#f2f2f2",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#d2d2d2",
+      "n": 3
+    },
+    {
+      "hex": "#f2f2f2",
+      "n": 2
+    }
+  ],
+  "cards": [],
+  "chips": [
+    {
+      "bg": "transparent",
+      "color": "#4d4d4d",
+      "radius": "999px",
+      "pad": "5px 15px",
+      "fs": 10,
+      "border": "1px",
+      "n": 34
+    }
+  ],
+  "images": {
+    "n": 61,
+    "fullBleed": 6,
+    "ratios": [
+      {
+        "ratio": "4:3",
+        "n": 38
+      },
+      {
+        "ratio": "1:1",
+        "n": 10
+      },
+      {
+        "ratio": "16:9",
+        "n": 6
+      }
+    ],
+    "radius": [
+      {
+        "px": 5,
+        "n": 39
+      },
+      {
+        "px": 0,
+        "n": 22
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": 1,
+    "sizes": [
+      18,
+      16,
+      13,
+      12,
+      10
+    ],
+    "pad": 60,
+    "gap": 15,
+    "sidePad": 68,
+    "h1": {
+      "fs": 42,
+      "lh": 1
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f2f2f2",
+      "面": 4,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#d2d2d2",
+      "面": 3,
+      "文字": 0,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 24,
+      "文字": 11,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#21348c",
+      "面": 3,
+      "文字": 1,
+      "枠": 4,
+      "ボタン": 0
+    },
+    {
+      "hex": "#333333",
+      "面": 1,
+      "文字": 183,
+      "枠": 5,
+      "ボタン": 0
+    },
+    {
+      "hex": "#4d4d4d",
+      "面": 0,
+      "文字": 39,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#21348c",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

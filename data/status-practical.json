@@ -369,5 +369,505 @@
     "state": "skip",
     "why": "測定に失敗",
     "url": "https://www.sanwa-paint.jp/"
+  },
+  "sur": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.sur.co.jp/"
+  },
+  "winfieldjapan": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://winfieldjapan.com/"
+  },
+  "nobel": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.nobel.co.jp/"
+  },
+  "rakuwaotowa": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://rakuwa-otowa.jp/"
+  },
+  "shops": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.sho-ps.co.jp/"
+  },
+  "karimokucommonsshop": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://commons-shop.karimoku.com/"
+  },
+  "estie": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.estie.jp/"
+  },
+  "enecloud": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://enecloud.co.jp/"
+  },
+  "nonoichimedicalclinic": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.nono-medtown.com/"
+  },
+  "bakuraku": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://bakuraku.jp/"
+  },
+  "muji-recruit": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://careers.muji.com/jp/recruit"
+  },
+  "kininaru": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://hirakata-elcl.jp/"
+  },
+  "classia": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://classia.biz/"
+  },
+  "kawata": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.kawata.org/"
+  },
+  "lakesideac": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.lakeside-ac.com/"
+  },
+  "kichinan": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.kichinan.co.jp/"
+  },
+  "famit": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.famit.info/"
+  },
+  "partners": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://partners-re.co.jp/"
+  },
+  "demaecan-recruit": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://recruit.demae-can.co.jp/"
+  },
+  "retroinsatsu": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://retroinsatsu.com/"
+  },
+  "kyowa": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.kyowa-ei.com/"
+  },
+  "matsudaiyaku": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://matsudaiyaku.shop/"
+  },
+  "toei": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.toei.co.jp/index.html"
+  },
+  "axxzia": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://axxzia.co.jp/"
+  },
+  "msb": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://ms-b.jp/"
+  },
+  "jt": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.jti.co.jp/"
+  },
+  "shoei": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.glory-shoei.ac.jp/"
+  },
+  "sankido": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://sankido-kumamoto.com/"
+  },
+  "speeda": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://jp.ub-speeda.com/"
+  },
+  "mebukiya": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.mebukiya.co.jp/"
+  },
+  "honda-jobs": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.honda-jobs.com/"
+  },
+  "nature": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://nature.global/"
+  },
+  "powerx": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://power-x.jp/"
+  },
+  "alphadrive": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://alphadrive.co.jp/"
+  },
+  "maeni": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://maeni.co.jp/"
+  },
+  "rekihaku": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.rekihaku.ac.jp/"
+  },
+  "saginomiya": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.saginomiya.co.jp/"
+  },
+  "kobesumaseaworld": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.kobesuma-seaworld.jp/"
+  },
+  "daigakumegane": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://daigakumegane.com/"
+  },
+  "nemuli": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://nemuli.co.jp/"
+  },
+  "neutralworks-recruit": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://n-works.link/recruit/"
+  },
+  "douraku": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://douraku.co.jp/"
+  },
+  "moshiyado": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://moshiyado.com/"
+  },
+  "evoworx": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.evoworx.co.jp/"
+  },
+  "kotaeru": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://trust.kotaeru.co.jp/"
+  },
+  "minerva-sleep": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://minerva-sleep.jp/"
+  },
+  "pawpark": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://pawpark.jp/"
+  },
+  "haa": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://haajapan.com/"
+  },
+  "kimurasoap": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.kimurasoap.co.jp/"
+  },
+  "showakogyo": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://showa-kogyo.com/"
+  },
+  "takedahp-topic": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://topic.takedahp.jp/"
+  },
+  "superstudio-careers": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://careers.super-studio.jp/"
+  },
+  "shinzankinosaki": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://shinzan-kinosaki.jp/"
+  },
+  "ceremonyhall-shion": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://ceremonyhall-shion.com/"
+  },
+  "sakuracopy": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://sakura-copy.co.jp/"
+  },
+  "jdex": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://j-dex.co.jp/"
+  },
+  "beeworks": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://beeworks.co.jp/"
+  },
+  "hotelalpage": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://hotelalpage.com/"
+  },
+  "bitbeans": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://bitbeans.com/"
+  },
+  "kkimanufacture": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://manufacture.v-kki.co.jp/"
+  },
+  "aoaosapporo": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://aoao-sapporo.blue/"
+  },
+  "hagumuakari": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://hagumu-akari.com/"
+  },
+  "lycomm-career": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://career.lycomm.co.jp/ja/"
+  },
+  "sososya": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://sososya.com/"
+  },
+  "fca": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.fca.ac.jp/"
+  },
+  "jbn": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.jbnet.jp/"
+  },
+  "stmn": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://stmn.co.jp/"
+  },
+  "cuebic-newgrads": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://cuebic.co.jp/recruit/newgrads/"
+  },
+  "ikeihospitality": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.jikei-hospitality.ac.jp/"
+  },
+  "bonx-work": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://bonx.co/work/"
+  },
+  "sakurafudousan": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://sakurafudousan.jp/"
+  },
+  "shunsukesatake": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://shunsukesatake.com/"
+  },
+  "ikutarandsel": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.randsel.jp/"
+  },
+  "daytolife": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.daytolife.co.jp/"
+  },
+  "spainryugaku": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://spainryugaku.jp/"
+  },
+  "arc-pds": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://arc-pds.com/"
+  },
+  "miyamotokanagata": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://miyamoto-kanagata.co.jp/"
+  },
+  "modernca-online": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://modernca-online.com/"
+  },
+  "alphadrive-corp": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://corp.alphadrive.co.jp/"
+  },
+  "venect": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.venect.jp/"
+  },
+  "naganoanzen": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://naganoanzen.jp/"
+  },
+  "gotonotsubaki": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://gotonotsubaki.co.jp/"
+  },
+  "iamas": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.iamas.ac.jp/"
+  },
+  "wannamanna": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://wanna-manna.com/"
+  },
+  "fukoku": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.fukoku-life.co.jp/"
+  },
+  "teienartmuseum": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.teien-art-museum.ne.jp/"
+  },
+  "endeal": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://endeal.net/"
+  },
+  "shiwakamotsu": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://shiwakamotsu.co.jp/"
+  },
+  "skkenshin": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://sk-kenshin.jp/"
+  },
+  "dely-careers": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://kurashiru.co.jp/careers"
+  },
+  "monex-recruit": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.monexgroup.jp/recruit/index.html"
+  },
+  "risetax-accountant": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://rise-tax.com/accountant/"
+  },
+  "shibuya": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.city.shibuya.tokyo.jp/"
+  },
+  "sun-hope": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.sun-hope.co.jp/"
+  },
+  "studio246": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://widewindows.com/"
+  },
+  "harmonieswithkumon": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://harmonies.kumon.ne.jp/"
+  },
+  "sisi": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://sisi.tokyo/shop"
+  },
+  "yamamotocoffeekan": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://yamamotocoffeekan.jp/"
+  },
+  "jorganic-coffee": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.jorganic-coffee.jp/"
+  },
+  "mujuu": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://mujuu.jp/"
   }
 }

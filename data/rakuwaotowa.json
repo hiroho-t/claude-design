@@ -1,0 +1,480 @@
+{
+  "slug": "rakuwaotowa",
+  "url": "https://rakuwa-otowa.jp/",
+  "title": "洛和会音羽病院 | 洛和会音羽病院",
+  "desc": "洛和会音羽病院（京都市山科区）は、地域の医療機関と密接な連携をとりながら、急性期を中心に、高度な医療を一貫して提供しています。救急やほかの医療機関からの紹介診療をはじめとする多彩な診療、患者さまの受け入れ態勢を充実させ断らない医療体制を実現しています。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 36
+    },
+    {
+      "hex": "#f7f4f2",
+      "pct": 30.9
+    },
+    {
+      "hex": "#fffdf2",
+      "pct": 27.8
+    },
+    {
+      "hex": "#00aa5c",
+      "pct": 3.3
+    },
+    {
+      "hex": "#0490cc",
+      "pct": 0.9
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#262626",
+      "pct": 62.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 24.3
+    },
+    {
+      "hex": "#00aa5c",
+      "pct": 10.7
+    },
+    {
+      "hex": "#737373",
+      "pct": 2
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Zen Kaku Gothic New",
+      "w": 3233
+    },
+    {
+      "family": "Inter",
+      "w": 234
+    }
+  ],
+  "sizes": [
+    {
+      "px": 40,
+      "w": 81
+    },
+    {
+      "px": 30,
+      "w": 35
+    },
+    {
+      "px": 18,
+      "w": 219
+    },
+    {
+      "px": 16,
+      "w": 1997
+    },
+    {
+      "px": 14,
+      "w": 948
+    },
+    {
+      "px": 12,
+      "w": 87
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.5,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 70,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Zen Kaku Gothic New"
+      },
+      {
+        "fs": 30,
+        "weight": "700",
+        "lh": 1.2,
+        "ls": "0",
+        "family": "Zen Kaku Gothic New"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 16,
+        "weight": "500",
+        "lh": 1.75,
+        "ls": "0",
+        "family": "Zen Kaku Gothic New"
+      },
+      {
+        "fs": 16,
+        "weight": "400",
+        "lh": 1.75,
+        "ls": "0",
+        "family": "Zen Kaku Gothic New"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 30,
+        "weight": "700",
+        "lh": 1.2,
+        "ls": "0",
+        "family": "Zen Kaku Gothic New"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 4,
+      "n": 20
+    },
+    {
+      "px": 20,
+      "n": 15
+    },
+    {
+      "px": 10,
+      "n": 11
+    },
+    {
+      "px": 0,
+      "n": 7
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 12,
+      "n": 31
+    },
+    {
+      "px": 16,
+      "n": 24
+    },
+    {
+      "px": 8,
+      "n": 14
+    },
+    {
+      "px": 10,
+      "n": 9
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 56,
+      "n": 13
+    },
+    {
+      "px": 104,
+      "n": 3
+    },
+    {
+      "px": 120,
+      "n": 3
+    },
+    {
+      "px": 48,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1040,
+      "n": 15
+    },
+    {
+      "px": 1352,
+      "n": 11
+    },
+    {
+      "px": 928,
+      "n": 9
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": "1px #ffffff",
+      "radius": "50px",
+      "pad": "8px 16px",
+      "fs": 16,
+      "weight": "400",
+      "h": 42,
+      "ls": "0",
+      "n": 7
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#262626",
+      "border": null,
+      "radius": "33554400px",
+      "pad": "2px 16px",
+      "fs": 14,
+      "weight": "500",
+      "h": 29,
+      "ls": "0",
+      "n": 5
+    },
+    {
+      "bg": "#00aa5c",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "4px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "400",
+      "h": 64,
+      "ls": "0",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1024,
+      "n": 81
+    },
+    {
+      "px": 1023,
+      "n": 27
+    },
+    {
+      "px": 768,
+      "n": 289
+    },
+    {
+      "px": 767,
+      "n": 67
+    },
+    {
+      "px": 360,
+      "n": 2
+    }
+  ],
+  "sections": [
+    {
+      "h": 660,
+      "full": false,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1480,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1460,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#f7f4f2",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1560,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 760,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": "#f7f4f2",
+      "align": "左",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#fffdf2",
+      "n": 15
+    },
+    {
+      "hex": "#ffffff",
+      "n": 7
+    },
+    {
+      "hex": "#00aa5c",
+      "n": 2
+    },
+    {
+      "hex": "#f7f4f2",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": null,
+      "bg": "#fffdf2",
+      "radius": 20,
+      "pad": "44/44",
+      "border": "1px #cccccc",
+      "shadow": null,
+      "n": 15
+    }
+  ],
+  "chips": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "radius": "999px",
+      "pad": "8px 16px",
+      "fs": 16,
+      "border": "1px",
+      "n": 7
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#262626",
+      "radius": "999px",
+      "pad": "2px 16px",
+      "fs": 14,
+      "border": null,
+      "n": 5
+    }
+  ],
+  "images": {
+    "n": 24,
+    "fullBleed": 4,
+    "ratios": [
+      {
+        "ratio": "4:3",
+        "n": 9
+      },
+      {
+        "ratio": "16:9",
+        "n": 5
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 24
+      }
+    ]
+  },
+  "circles": {
+    "n": 3,
+    "sizes": [
+      {
+        "px": 24,
+        "n": 2
+      },
+      {
+        "px": 56,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.43,
+    "sizes": [
+      28,
+      24,
+      18,
+      16,
+      14
+    ],
+    "pad": 24,
+    "gap": 12,
+    "sidePad": 24,
+    "h1": {
+      "fs": 37,
+      "lh": 1.5
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 13,
+      "文字": 83,
+      "枠": 8,
+      "ボタン": 5
+    },
+    {
+      "hex": "#f7f4f2",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#fffdf2",
+      "面": 15,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#00aa5c",
+      "面": 10,
+      "文字": 57,
+      "枠": 1,
+      "ボタン": 2
+    },
+    {
+      "hex": "#0490cc",
+      "面": 1,
+      "文字": 0,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#262626",
+      "面": 8,
+      "文字": 133,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#737373",
+      "面": 0,
+      "文字": 6,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#00aa5c",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

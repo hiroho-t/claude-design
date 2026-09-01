@@ -1,0 +1,505 @@
+{
+  "slug": "classia",
+  "url": "https://classia.biz/",
+  "title": "クラシア訪問看護ステーション｜介護タクシー｜居宅介護支援｜和歌山市",
+  "desc": "クラシアは和歌山市を拠点に、 住み慣れたご自宅であんしんして 暮らしていただけるようサポートする訪問看護、要介護の方や体が不自由な方の目的地までの移送を行う介護タクシーなどのサービスを提供しています。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 73.9
+    },
+    {
+      "hex": "#fff8d3",
+      "pct": 11
+    },
+    {
+      "hex": "#eeeeee",
+      "pct": 7.2
+    },
+    {
+      "hex": "#fdfcf3",
+      "pct": 2.7
+    },
+    {
+      "hex": "#f6f2e4",
+      "pct": 2.7
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#4f4844",
+      "pct": 40.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 28.7
+    },
+    {
+      "hex": "#333333",
+      "pct": 10
+    },
+    {
+      "hex": "#a7a49d",
+      "pct": 5.8
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "UD新丸ゴ M JIS2004",
+      "w": 416
+    },
+    {
+      "family": "UD新丸ゴ B JIS2004",
+      "w": 398
+    },
+    {
+      "family": "UD新丸ゴ DB JIS2004",
+      "w": 359
+    },
+    {
+      "family": "新丸ゴ B JIS2004",
+      "w": 51
+    }
+  ],
+  "sizes": [
+    {
+      "px": 38,
+      "w": 48
+    },
+    {
+      "px": 24,
+      "w": 90
+    },
+    {
+      "px": 20,
+      "w": 193
+    },
+    {
+      "px": 16,
+      "w": 308
+    },
+    {
+      "px": 15,
+      "w": 256
+    },
+    {
+      "px": 14,
+      "w": 239
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": null,
+    "ls": "0"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 20,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "UD新丸ゴ DB JIS2004"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 0,
+        "weight": "400",
+        "lh": null,
+        "ls": "0",
+        "family": "UD新丸ゴ DB JIS2004"
+      },
+      {
+        "fs": 34,
+        "weight": "800",
+        "lh": null,
+        "ls": "0.080em",
+        "family": "UD新丸ゴ B JIS2004"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 1.24,
+        "ls": "0.060em",
+        "family": "UD新丸ゴ B JIS2004"
+      },
+      {
+        "fs": 36,
+        "weight": "700",
+        "lh": 1.24,
+        "ls": "0.060em",
+        "family": "UD新丸ゴ B JIS2004"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 22
+    },
+    {
+      "px": 20,
+      "n": 3
+    },
+    {
+      "px": 9,
+      "n": 2
+    },
+    {
+      "px": 19,
+      "n": 2
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(218, 218, 218, 0.3) 0px 2px 25px 0px",
+      "n": 1
+    },
+    {
+      "css": "rgba(0, 0, 0, 0.05) 0px 2px 30px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 10,
+      "n": 17
+    },
+    {
+      "px": 4,
+      "n": 12
+    },
+    {
+      "px": 6,
+      "n": 10
+    },
+    {
+      "px": 7,
+      "n": 10
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 92,
+      "n": 2
+    },
+    {
+      "px": 132,
+      "n": 2
+    },
+    {
+      "px": 164,
+      "n": 2
+    },
+    {
+      "px": 172,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 852,
+      "n": 13
+    },
+    {
+      "px": 1220,
+      "n": 7
+    },
+    {
+      "px": 580,
+      "n": 6
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#4f4844",
+      "border": "1px #e9e9e9",
+      "radius": "300px",
+      "pad": "0px 25px",
+      "fs": 16,
+      "weight": "700",
+      "h": 56,
+      "ls": "1.6px",
+      "n": 4
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#4f4844",
+      "border": "1px #e9e9e9",
+      "radius": "300px",
+      "pad": "15px 30px",
+      "fs": 16,
+      "weight": "700",
+      "h": 58,
+      "ls": "1.6px",
+      "n": 4
+    },
+    {
+      "bg": "transparent",
+      "color": "#4f4844",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "700",
+      "h": 58,
+      "ls": "1.6px",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1513,
+      "n": 1
+    },
+    {
+      "px": 1280,
+      "n": 134
+    },
+    {
+      "px": 990,
+      "n": 293
+    },
+    {
+      "px": 540,
+      "n": 467
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#fff8d3",
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 2680,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 300,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#ffffff",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 580,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 740,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 7
+    },
+    {
+      "hex": "#eeeeee",
+      "n": 5
+    },
+    {
+      "hex": "#fff8d3",
+      "n": 1
+    },
+    {
+      "hex": "#fd8399",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#333333",
+      "radius": "9px",
+      "pad": "1px 10px",
+      "fs": 16,
+      "border": null,
+      "n": 2
+    }
+  ],
+  "images": {
+    "n": 4,
+    "fullBleed": 3,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 3
+      },
+      {
+        "px": 50,
+        "n": 1
+      }
+    ]
+  },
+  "circles": {
+    "n": 19,
+    "sizes": [
+      {
+        "px": 72,
+        "n": 11
+      },
+      {
+        "px": 40,
+        "n": 3
+      },
+      {
+        "px": 160,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.7,
+    "sizes": [
+      24,
+      16,
+      15,
+      14,
+      13
+    ],
+    "pad": 24,
+    "gap": 24,
+    "sidePad": 20,
+    "h1": {
+      "fs": 20,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 31,
+      "文字": 19,
+      "枠": 0,
+      "ボタン": 10
+    },
+    {
+      "hex": "#fff8d3",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#eeeeee",
+      "面": 6,
+      "文字": 0,
+      "枠": 12,
+      "ボタン": 0
+    },
+    {
+      "hex": "#fdfcf3",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f6f2e4",
+      "面": 5,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#4f4844",
+      "面": 2,
+      "文字": 63,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#333333",
+      "面": 0,
+      "文字": 8,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#a7a49d",
+      "面": 0,
+      "文字": 10,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#fff8d3",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

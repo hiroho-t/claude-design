@@ -1,0 +1,388 @@
+{
+  "slug": "sososya",
+  "url": "https://sososya.com/",
+  "title": "福岡･朝倉 工務店とつくる注文住宅なら想創舎（株）手嶋組｜リフォーム・リノベーション",
+  "desc": "福岡・朝倉を中心に注文住宅やリフォーム、リノベーションまで。想創舎は100年続く地場工務店。自社大工・自社設計で作る家は全て長期優良住宅仕様です。土地探しでお悩みの方もご相談ください。",
+  "bg": [
+    {
+      "hex": "#f9f8f5",
+      "pct": 98.4
+    },
+    {
+      "hex": "#c6a648",
+      "pct": 0.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 0.8
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#524b40",
+      "pct": 89.7
+    },
+    {
+      "hex": "#c6a648",
+      "pct": 9.1
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 1.2
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "FOT-筑紫Aオールド明朝 Pr6N M{pm}",
+      "w": 779
+    },
+    {
+      "family": "acumin-pro-wide",
+      "w": 203
+    },
+    {
+      "family": "FOT-筑紫Aオールド明朝 Pr6N R{pm}",
+      "w": 171
+    },
+    {
+      "family": "Adobe Garamond Pro",
+      "w": 29
+    }
+  ],
+  "sizes": [
+    {
+      "px": 17,
+      "w": 105
+    },
+    {
+      "px": 16,
+      "w": 393
+    },
+    {
+      "px": 15,
+      "w": 180
+    },
+    {
+      "px": 13,
+      "w": 106
+    },
+    {
+      "px": 12,
+      "w": 92
+    },
+    {
+      "px": 10,
+      "w": 170
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 2.1,
+    "ls": "0.100em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 15,
+        "weight": "400",
+        "lh": 1.6,
+        "ls": "0.080em",
+        "family": "FOT-筑紫Aオールド明朝 Pr6N M{pm}"
+      },
+      {
+        "fs": 11,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.100em",
+        "family": "FOT-筑紫Aオールド明朝 Pr6N M{pm}"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 16,
+        "weight": "400",
+        "lh": 1.6,
+        "ls": "0.100em",
+        "family": "FOT-筑紫Aオールド明朝 Pr6N R{pm}"
+      },
+      {
+        "fs": 17,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.140em",
+        "family": "FOT-筑紫Aオールド明朝 Pr6N R{pm}"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 10,
+        "weight": "300",
+        "lh": 1,
+        "ls": "0.130em",
+        "family": "acumin-pro-wide"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 30,
+      "n": 5
+    },
+    {
+      "px": 0,
+      "n": 1
+    },
+    {
+      "px": 50,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 100,
+      "n": 2
+    },
+    {
+      "px": 64,
+      "n": 1
+    },
+    {
+      "px": 76,
+      "n": 1
+    },
+    {
+      "px": 80,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1124,
+      "n": 4
+    },
+    {
+      "px": 572,
+      "n": 3
+    },
+    {
+      "px": 848,
+      "n": 2
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#524b40",
+      "border": "1px #d1cdbf",
+      "radius": "30px",
+      "pad": "13px 0px",
+      "fs": 15,
+      "weight": "400",
+      "h": 46,
+      "ls": "1.8px",
+      "n": 4
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 21,
+      "weight": "400",
+      "h": 61,
+      "ls": "2.1px",
+      "n": 1
+    },
+    {
+      "bg": "#c6a648",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "50px",
+      "pad": "19px 26px",
+      "fs": 21,
+      "weight": "400",
+      "h": 61,
+      "ls": "2.1px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1380,
+      "n": 6
+    },
+    {
+      "px": 1340,
+      "n": 4
+    },
+    {
+      "px": 1320,
+      "n": 4
+    },
+    {
+      "px": 1300,
+      "n": 4
+    },
+    {
+      "px": 1240,
+      "n": 8
+    }
+  ],
+  "sections": [
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f9f8f5",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 40,
+    "fullBleed": 12,
+    "ratios": [
+      {
+        "ratio": "21:9",
+        "n": 12
+      },
+      {
+        "ratio": "3:2",
+        "n": 11
+      },
+      {
+        "ratio": "4:3",
+        "n": 8
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 40
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 13,
+    "bodyLh": 2.05,
+    "sizes": [
+      16,
+      14,
+      13,
+      12,
+      10
+    ],
+    "pad": 32,
+    "gap": null,
+    "sidePad": 0,
+    "h1": {
+      "fs": 10,
+      "lh": 1
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f9f8f5",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#c6a648",
+      "面": 1,
+      "文字": 7,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#ffffff",
+      "面": 1,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#524b40",
+      "面": 0,
+      "文字": 71,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#c6a648",
+  "tags": [
+    "明朝",
+    "余白ふつう",
+    "角丸",
+    "色つき"
+  ]
+}

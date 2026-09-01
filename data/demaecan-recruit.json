@@ -1,0 +1,461 @@
+{
+  "slug": "demaecan-recruit",
+  "url": "https://recruit.demae-can.co.jp/",
+  "title": "株式会社出前館 採用情報",
+  "desc": "東京都渋谷区に本社のある株式会社。出前・宅配を行う店舗を仲介するサイト運営など 。全国の出前＆デリバリー店にすぐ注文できる デリバリー総合サイト 出前館。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 66.6
+    },
+    {
+      "hex": "#f5f5f5",
+      "pct": 21.8
+    },
+    {
+      "hex": "#da3734",
+      "pct": 9.4
+    },
+    {
+      "hex": "#000000",
+      "pct": 2.1
+    },
+    {
+      "hex": "#202020",
+      "pct": 0.1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 54
+    },
+    {
+      "hex": "#333333",
+      "pct": 16.6
+    },
+    {
+      "hex": "#212121",
+      "pct": 13.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 10.6
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "LINE Seed JP",
+      "w": 1994
+    }
+  ],
+  "sizes": [
+    {
+      "px": 22,
+      "w": 41
+    },
+    {
+      "px": 20,
+      "w": 61
+    },
+    {
+      "px": 18,
+      "w": 105
+    },
+    {
+      "px": 16,
+      "w": 1378
+    },
+    {
+      "px": 14,
+      "w": 242
+    },
+    {
+      "px": 12,
+      "w": 48
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 2,
+    "ls": "0"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 18,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "LINE Seed JP"
+      },
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": 1.75,
+        "ls": "0",
+        "family": "LINE Seed JP"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 48,
+        "weight": "700",
+        "lh": 1.75,
+        "ls": "0.030em",
+        "family": "LINE Seed JP"
+      },
+      {
+        "fs": 35,
+        "weight": "700",
+        "lh": 1.7,
+        "ls": "0.050em",
+        "family": "LINE Seed JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 16,
+      "n": 18
+    },
+    {
+      "px": 0,
+      "n": 11
+    },
+    {
+      "px": 4,
+      "n": 6
+    },
+    {
+      "px": 8,
+      "n": 4
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.05) 0px 2px 10px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 8,
+      "n": 21
+    },
+    {
+      "px": 40,
+      "n": 7
+    },
+    {
+      "px": 16,
+      "n": 6
+    },
+    {
+      "px": 24,
+      "n": 5
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 152,
+      "n": 6
+    },
+    {
+      "px": 40,
+      "n": 3
+    },
+    {
+      "px": 120,
+      "n": 3
+    },
+    {
+      "px": 72,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1220,
+      "n": 9
+    },
+    {
+      "px": 920,
+      "n": 3
+    },
+    {
+      "px": 1180,
+      "n": 3
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#f5f5f5",
+      "color": "#333333",
+      "border": null,
+      "radius": "4px",
+      "pad": "0px 16px",
+      "fs": 16,
+      "weight": "700",
+      "h": 80,
+      "ls": "0",
+      "n": 6
+    },
+    {
+      "bg": "transparent",
+      "color": "#212121",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "700",
+      "h": 28,
+      "ls": "0",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1024,
+      "n": 4
+    },
+    {
+      "px": 1020,
+      "n": 6
+    },
+    {
+      "px": 768,
+      "n": 33
+    },
+    {
+      "px": 767,
+      "n": 155
+    },
+    {
+      "px": 500,
+      "n": 5
+    }
+  ],
+  "sections": [
+    {
+      "h": 800,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1380,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 940,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1520,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1060,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#f5f5f5",
+      "align": "中央",
+      "media": "右",
+      "split": "46:54"
+    },
+    {
+      "h": 1080,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "中央",
+      "media": "右",
+      "split": "32:68"
+    },
+    {
+      "h": 760,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 23
+    },
+    {
+      "hex": "#f5f5f5",
+      "n": 4
+    },
+    {
+      "hex": "#da3734",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f5f5f5",
+      "bg": "#ffffff",
+      "radius": 16,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 18
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "#f5f5f5",
+      "radius": 0,
+      "pad": "16/32",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 36,
+    "fullBleed": 2,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 23
+      },
+      {
+        "ratio": "16:9",
+        "n": 4
+      },
+      {
+        "ratio": "4:3",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 33
+      },
+      {
+        "px": 8,
+        "n": 2
+      }
+    ]
+  },
+  "circles": {
+    "n": 38,
+    "sizes": [
+      {
+        "px": 24,
+        "n": 35
+      },
+      {
+        "px": 32,
+        "n": 2
+      },
+      {
+        "px": 16,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2.3,
+    "sizes": [
+      24,
+      18,
+      16,
+      14,
+      12
+    ],
+    "pad": 56,
+    "gap": 16,
+    "sidePad": 20,
+    "h1": {
+      "fs": 32,
+      "lh": 1.75
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 27,
+      "文字": 14,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f5f5f5",
+      "面": 10,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 6
+    },
+    {
+      "hex": "#da3734",
+      "面": 42,
+      "文字": 5,
+      "枠": 2,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 13,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#202020",
+      "面": 0,
+      "文字": 17,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#333333",
+      "面": 0,
+      "文字": 28,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#da3734",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角丸",
+    "色つき"
+  ]
+}

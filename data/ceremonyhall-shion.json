@@ -1,0 +1,431 @@
+{
+  "slug": "ceremonyhall-shion",
+  "url": "https://ceremonyhall-shion.com/",
+  "title": "大台町・大紀町の水と緑に囲まれた安らぎの葬儀会館｜セレモニーホールしおん",
+  "desc": "【公式】セレモニーホールしおんは大台町と大紀町のちょうど間にある水と緑に囲まれた葬儀会館です。シンプルかつ明瞭な葬儀プランでご縁を大切に、誠心誠意お手伝いさせていただきます。大台町・大紀町の葬式・葬儀の事なら「セレモニーホールしおん」にお任せください。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 88.8
+    },
+    {
+      "hex": "#beaac5",
+      "pct": 11.2
+    },
+    {
+      "hex": "#ac88b9",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#151515",
+      "pct": 76.3
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 11.6
+    },
+    {
+      "hex": "#b78cc5",
+      "pct": 9
+    },
+    {
+      "hex": "#000000",
+      "pct": 2.7
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Serif JP",
+      "w": 1648
+    },
+    {
+      "family": "Cormorant Garamond",
+      "w": 104
+    },
+    {
+      "family": "Hiragino Kaku Gothic ProN",
+      "w": 45
+    }
+  ],
+  "sizes": [
+    {
+      "px": 18,
+      "w": 122
+    },
+    {
+      "px": 16,
+      "w": 161
+    },
+    {
+      "px": 15,
+      "w": 440
+    },
+    {
+      "px": 14,
+      "w": 103
+    },
+    {
+      "px": 13,
+      "w": 589
+    },
+    {
+      "px": 12,
+      "w": 151
+    }
+  ],
+  "body": {
+    "fs": 13,
+    "lh": 2,
+    "ls": "0.030em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 32,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.320em",
+        "family": "Noto Serif JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 30,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.160em",
+        "family": "Noto Serif JP"
+      },
+      {
+        "fs": 30,
+        "weight": "400",
+        "lh": 1.75,
+        "ls": "0.140em",
+        "family": "Noto Serif JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 10,
+      "n": 7
+    },
+    {
+      "px": 0,
+      "n": 6
+    },
+    {
+      "px": 6,
+      "n": 5
+    },
+    {
+      "px": 24,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 35,
+      "n": 16
+    },
+    {
+      "px": 30,
+      "n": 6
+    },
+    {
+      "px": 8,
+      "n": 5
+    },
+    {
+      "px": 25,
+      "n": 4
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 88,
+      "n": 7
+    },
+    {
+      "px": 72,
+      "n": 2
+    },
+    {
+      "px": 100,
+      "n": 2
+    },
+    {
+      "px": 212,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1136,
+      "n": 12
+    },
+    {
+      "px": 596,
+      "n": 8
+    },
+    {
+      "px": 660,
+      "n": 1
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#151515",
+      "border": "1px #161515",
+      "radius": "0px",
+      "pad": "0px 15px",
+      "fs": 16,
+      "weight": "400",
+      "h": 48,
+      "ls": "0.64px",
+      "n": 5
+    },
+    {
+      "bg": "transparent",
+      "color": "#151515",
+      "border": "1px #161515",
+      "radius": "6px",
+      "pad": "12px 24px",
+      "fs": 14,
+      "weight": "400",
+      "h": 40,
+      "ls": "0.42px",
+      "n": 1
+    },
+    {
+      "bg": "#ac88b9",
+      "color": "#ffffff",
+      "border": "1px #ffffff",
+      "radius": "6px",
+      "pad": "12px 24px",
+      "fs": 14,
+      "weight": "400",
+      "h": 40,
+      "ls": "0.42px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1180,
+      "n": 95
+    },
+    {
+      "px": 865,
+      "n": 146
+    },
+    {
+      "px": 540,
+      "n": 155
+    },
+    {
+      "px": 330,
+      "n": 32
+    }
+  ],
+  "sections": [
+    {
+      "h": 580,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 580,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 580,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 580,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 580,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 580,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 580,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 8
+    },
+    {
+      "hex": "#beaac5",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#ffffff",
+      "radius": 10,
+      "pad": "40/40",
+      "border": null,
+      "shadow": null,
+      "n": 7
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 25,
+    "fullBleed": 8,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 11
+      },
+      {
+        "ratio": "3:4",
+        "n": 2
+      },
+      {
+        "ratio": "3:2",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 22
+      },
+      {
+        "px": 10,
+        "n": 3
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 13,
+    "bodyLh": 2,
+    "sizes": [
+      24,
+      16,
+      14,
+      13,
+      12
+    ],
+    "pad": 24,
+    "gap": 14,
+    "sidePad": 20,
+    "h1": {
+      "fs": 27,
+      "lh": 1.75
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 16,
+      "文字": 22,
+      "枠": 1,
+      "ボタン": 8
+    },
+    {
+      "hex": "#beaac5",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ac88b9",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#151515",
+      "面": 0,
+      "文字": 53,
+      "枠": 6,
+      "ボタン": 0
+    },
+    {
+      "hex": "#b78cc5",
+      "面": 0,
+      "文字": 13,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#b78cc5",
+  "tags": [
+    "明朝",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

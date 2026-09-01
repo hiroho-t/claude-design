@@ -1,0 +1,591 @@
+{
+  "slug": "karte",
+  "url": "https://karte.io/",
+  "title": "CXプラットフォーム KARTE（カルテ）| データとAIで事業成長を加速",
+  "desc": "KARTEは、独自のリアルタイムデータ解析基盤とAIを掛け合わせたCXプラットフォームです。カスタマーデータ活用を貴社に最適な形で支援。戦略策定から実行まで、一貫したデータ利活用と顧客体験の向上を通じて、事業成長を加速させます。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 53
+    },
+    {
+      "hex": "#02211e",
+      "pct": 32.2
+    },
+    {
+      "hex": "#2aab9f",
+      "pct": 10.1
+    },
+    {
+      "hex": "#f0f1f1",
+      "pct": 4.2
+    },
+    {
+      "hex": "#1a1a1a",
+      "pct": 0.5
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#00100e",
+      "pct": 51.9
+    },
+    {
+      "hex": "#fafafa",
+      "pct": 40.9
+    },
+    {
+      "hex": "#1a1a1a",
+      "pct": 5.9
+    },
+    {
+      "hex": "#0e8989",
+      "pct": 0.7
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "HCo Gotham SSm",
+      "w": 4362
+    }
+  ],
+  "sizes": [
+    {
+      "px": 48,
+      "w": 133
+    },
+    {
+      "px": 32,
+      "w": 233
+    },
+    {
+      "px": 22,
+      "w": 171
+    },
+    {
+      "px": 16,
+      "w": 1883
+    },
+    {
+      "px": 14,
+      "w": 577
+    },
+    {
+      "px": 12,
+      "w": 990
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.75,
+    "ls": "0.018em"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 56,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0.005em",
+        "family": "HCo Gotham SSm"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 48,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0.006em",
+        "family": "HCo Gotham SSm"
+      },
+      {
+        "fs": 20,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0",
+        "family": "HCo Gotham SSm"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 14,
+        "weight": "700",
+        "lh": 1.43,
+        "ls": "0",
+        "family": "HCo Gotham SSm"
+      },
+      {
+        "fs": 22,
+        "weight": "700",
+        "lh": 1.65,
+        "ls": "0.013em",
+        "family": "HCo Gotham SSm"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": 1.19,
+        "ls": "0.020em",
+        "family": "HCo Gotham SSm"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 8,
+      "n": 9
+    },
+    {
+      "px": 0,
+      "n": 6
+    },
+    {
+      "px": 16,
+      "n": 6
+    },
+    {
+      "px": 4,
+      "n": 1
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 16, 14, 0.01) 0px 4px 20px 8px, rgba(0, 16, 14, 0.02) 0px 4px 10px -2px",
+      "n": 6
+    },
+    {
+      "css": "color(srgb 0.0706 0.6275 0.6275 / 0.0784) 0px 16px 68px 32px, color(srgb 0.0706 0.6275 0.6275 / 0.239) 0px 16px 34px -4px",
+      "n": 2
+    }
+  ],
+  "gap": [
+    {
+      "px": 4,
+      "n": 50
+    },
+    {
+      "px": 8,
+      "n": 18
+    },
+    {
+      "px": 12,
+      "n": 13
+    },
+    {
+      "px": 16,
+      "n": 13
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 140,
+      "n": 9
+    },
+    {
+      "px": 40,
+      "n": 8
+    },
+    {
+      "px": 80,
+      "n": 5
+    },
+    {
+      "px": 192,
+      "n": 4
+    }
+  ],
+  "container": [
+    {
+      "px": 584,
+      "n": 16
+    },
+    {
+      "px": 1276,
+      "n": 16
+    },
+    {
+      "px": 1200,
+      "n": 13
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#1a1a1a",
+      "border": "1px",
+      "radius": "999px",
+      "pad": "0px 16px",
+      "fs": 12,
+      "weight": "700",
+      "h": 40,
+      "ls": "0.24px",
+      "n": 3
+    },
+    {
+      "bg": "transparent",
+      "color": null,
+      "border": "1px",
+      "radius": "999px",
+      "pad": "0px 16px",
+      "fs": 12,
+      "weight": "700",
+      "h": 40,
+      "ls": "0.28px",
+      "n": 3
+    },
+    {
+      "bg": "transparent",
+      "color": null,
+      "border": "1px",
+      "radius": "999px",
+      "pad": "0px 28px",
+      "fs": 16,
+      "weight": "700",
+      "h": 64,
+      "ls": "0.28px",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1200,
+      "n": 24
+    },
+    {
+      "px": 1023,
+      "n": 13
+    },
+    {
+      "px": 768,
+      "n": 237
+    },
+    {
+      "px": 767,
+      "n": 232
+    },
+    {
+      "px": 640,
+      "n": 11
+    }
+  ],
+  "sections": [
+    {
+      "h": 660,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 260,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1180,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1140,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 720,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "40:60"
+    },
+    {
+      "h": 880,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1200,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "36:64"
+    },
+    {
+      "h": 1020,
+      "full": true,
+      "cols": 3,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 800,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "33:67"
+    },
+    {
+      "h": 960,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 320,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1200,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 880,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#fafafa",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 7
+    },
+    {
+      "hex": "#fafafa",
+      "n": 2
+    },
+    {
+      "hex": "#2aab9f",
+      "n": 1
+    },
+    {
+      "hex": "#02211e",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#fafafa",
+      "bg": "#ffffff",
+      "radius": 16,
+      "pad": "12/12",
+      "border": null,
+      "shadow": "rgba(0, 16, 14, 0.01) 0px 4px 20px 8px, rgba(0, 16, 14, 0.02) 0px 4px 10px -2px",
+      "n": 6
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "transparent",
+      "radius": 8,
+      "pad": "0/0",
+      "border": "1px #000000",
+      "shadow": null,
+      "n": 6
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#1a1a1a",
+      "radius": "999px",
+      "pad": "0px 16px",
+      "fs": 12,
+      "border": "1px",
+      "n": 3
+    },
+    {
+      "bg": "transparent",
+      "color": "#000000",
+      "radius": "8px",
+      "pad": "4px 18px",
+      "fs": 14,
+      "border": "1px",
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 37,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 10
+      },
+      {
+        "ratio": "16:9",
+        "n": 10
+      },
+      {
+        "ratio": "4:3",
+        "n": 8
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 33
+      },
+      {
+        "px": 12,
+        "n": 4
+      }
+    ]
+  },
+  "circles": {
+    "n": 5,
+    "sizes": [
+      {
+        "px": 40,
+        "n": 4
+      },
+      {
+        "px": 32,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 12,
+    "bodyLh": 1.67,
+    "sizes": [
+      18,
+      16,
+      14,
+      12,
+      10
+    ],
+    "pad": 48,
+    "gap": 4,
+    "sidePad": 18,
+    "h1": {
+      "fs": 32,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 15,
+      "文字": 67,
+      "枠": 0,
+      "ボタン": 4
+    },
+    {
+      "hex": "#02211e",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#2aab9f",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#f0f1f1",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#1a1a1a",
+      "面": 3,
+      "文字": 16,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#00100e",
+      "面": 1,
+      "文字": 32,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#0e8989",
+      "面": 0,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#0e8989",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

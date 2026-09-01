@@ -1,0 +1,460 @@
+{
+  "slug": "shoei",
+  "url": "https://www.glory-shoei.ac.jp/",
+  "title": "頌栄短期大学｜保育と幼児教育の単科短期大学",
+  "desc": "頌栄（しょうえい）短期大学は「こども・こころ・そだてる」をスクールモットーにキリスト教精神を土台として保育者を養成します。1889年（明治22年）頌栄保育学院は神戸ではじめてのキリスト教主義幼稚園・保育者育成機関として生まれました。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 76.6
+    },
+    {
+      "hex": "#f5f5fa",
+      "pct": 23.3
+    },
+    {
+      "hex": "#504894",
+      "pct": 0
+    },
+    {
+      "hex": "#c1add0",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#222222",
+      "pct": 46.4
+    },
+    {
+      "hex": "#000000",
+      "pct": 36.9
+    },
+    {
+      "hex": "#514496",
+      "pct": 11.1
+    },
+    {
+      "hex": "#02276e",
+      "pct": 3.4
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 1362
+    },
+    {
+      "family": "Zen Kaku Gothic New",
+      "w": 323
+    },
+    {
+      "family": "Lato",
+      "w": 92
+    },
+    {
+      "family": "Poppins",
+      "w": 13
+    }
+  ],
+  "sizes": [
+    {
+      "px": 24,
+      "w": 87
+    },
+    {
+      "px": 22,
+      "w": 34
+    },
+    {
+      "px": 16,
+      "w": 1207
+    },
+    {
+      "px": 15,
+      "w": 34
+    },
+    {
+      "px": 14,
+      "w": 216
+    },
+    {
+      "px": 12,
+      "w": 93
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.6,
+    "ls": "0.030em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 62,
+        "weight": "400",
+        "lh": 1.08,
+        "ls": "0.200em",
+        "family": "Lato"
+      },
+      {
+        "fs": 16,
+        "weight": "600",
+        "lh": 1.31,
+        "ls": "0.200em",
+        "family": "Poppins"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0.020em",
+        "family": "Zen Kaku Gothic New"
+      },
+      {
+        "fs": 50,
+        "weight": "700",
+        "lh": 1.1,
+        "ls": "0.050em",
+        "family": "Zen Kaku Gothic New"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 10,
+      "n": 9
+    },
+    {
+      "px": 0,
+      "n": 8
+    },
+    {
+      "px": 20,
+      "n": 5
+    },
+    {
+      "px": 30,
+      "n": 4
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 20,
+      "n": 8
+    },
+    {
+      "px": 8,
+      "n": 1
+    },
+    {
+      "px": 30,
+      "n": 1
+    },
+    {
+      "px": 40,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 100,
+      "n": 3
+    },
+    {
+      "px": 80,
+      "n": 2
+    },
+    {
+      "px": 36,
+      "n": 1
+    },
+    {
+      "px": 40,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 700,
+      "n": 7
+    },
+    {
+      "px": 800,
+      "n": 7
+    },
+    {
+      "px": 1100,
+      "n": 7
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#534098",
+      "border": "1px #534098",
+      "radius": "10px",
+      "pad": "0px 35px",
+      "fs": 16,
+      "weight": "400",
+      "h": 54,
+      "ls": "0.479693px",
+      "n": 3
+    },
+    {
+      "bg": "#504894",
+      "color": "#ffffff",
+      "border": "1px #504894",
+      "radius": "5px",
+      "pad": "10px 20px",
+      "fs": 13,
+      "weight": "500",
+      "h": 35,
+      "ls": "0.479693px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 769,
+      "n": 1041
+    },
+    {
+      "px": 768,
+      "n": 1029
+    },
+    {
+      "px": 600,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 680,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 200,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 520,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 340,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "45:55"
+    },
+    {
+      "h": 1560,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": "#f5f5fa",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1360,
+      "full": false,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 740,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "左",
+      "split": "36:64"
+    },
+    {
+      "h": 500,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 120,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f5f5fa",
+      "n": 2
+    },
+    {
+      "hex": "#ffffff",
+      "n": 1
+    },
+    {
+      "hex": "#f9f9fc",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f5f5fa",
+      "bg": "transparent",
+      "radius": 30,
+      "pad": "0/0",
+      "border": "4px #f5f5fa",
+      "shadow": null,
+      "n": 4
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 43,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 20
+      },
+      {
+        "ratio": "16:9",
+        "n": 10
+      },
+      {
+        "ratio": "1:1",
+        "n": 5
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 43
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.6,
+    "sizes": [
+      17,
+      14,
+      12,
+      11,
+      10
+    ],
+    "pad": 40,
+    "gap": 21,
+    "sidePad": 21,
+    "h1": {
+      "fs": 33,
+      "lh": 1.16
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 8,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f5f5fa",
+      "面": 11,
+      "文字": 0,
+      "枠": 4,
+      "ボタン": 0
+    },
+    {
+      "hex": "#504894",
+      "面": 1,
+      "文字": 13,
+      "枠": 4,
+      "ボタン": 1
+    },
+    {
+      "hex": "#222222",
+      "面": 0,
+      "文字": 18,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 59,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#02276e",
+      "面": 0,
+      "文字": 14,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#514496",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

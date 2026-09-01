@@ -1,0 +1,535 @@
+{
+  "slug": "matsudaiyaku",
+  "url": "https://matsudaiyaku.shop/",
+  "title": "松田医薬品の入浴剤・石鹸",
+  "desc": "1948年設立の松田医薬品株式会社の公式オンラインショップへようこそ。天然素材を最大限に活かし、自社開発のこだわり抜いた成分と独自の製法の “おふろの芯体験”シリーズで心身ともにリラックスできるひとときを提供します。",
+  "bg": [
+    {
+      "hex": "#fcfaf7",
+      "pct": 93.1
+    },
+    {
+      "hex": "#e9e3d8",
+      "pct": 6.3
+    },
+    {
+      "hex": "#141414",
+      "pct": 0.4
+    },
+    {
+      "hex": "#c84f4f",
+      "pct": 0.1
+    },
+    {
+      "hex": "#f1ece4",
+      "pct": 0.1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#141414",
+      "pct": 81
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 9.9
+    },
+    {
+      "hex": "#000000",
+      "pct": 7.6
+    },
+    {
+      "hex": "#005f98",
+      "pct": 0.6
+    }
+  ],
+  "pageBg": "#fcfaf7",
+  "fonts": [
+    {
+      "family": "Noto Serif JP",
+      "w": 1609
+    },
+    {
+      "family": "Zen Kaku Gothic Antique",
+      "w": 524
+    },
+    {
+      "family": "Noto Sans JP",
+      "w": 96
+    },
+    {
+      "family": "Shippori Mincho",
+      "w": 5
+    }
+  ],
+  "sizes": [
+    {
+      "px": 21,
+      "w": 122
+    },
+    {
+      "px": 20,
+      "w": 373
+    },
+    {
+      "px": 18,
+      "w": 256
+    },
+    {
+      "px": 17,
+      "w": 342
+    },
+    {
+      "px": 16,
+      "w": 426
+    },
+    {
+      "px": 13,
+      "w": 289
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.8,
+    "ls": "0.037em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1.3,
+        "ls": "0.025em",
+        "family": "Noto Serif JP"
+      },
+      {
+        "fs": 32,
+        "weight": "500",
+        "lh": 1.3,
+        "ls": "0.019em",
+        "family": "Noto Serif JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 36,
+        "weight": "500",
+        "lh": 1.3,
+        "ls": "0.017em",
+        "family": "Noto Serif JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 23
+    },
+    {
+      "px": 4,
+      "n": 14
+    },
+    {
+      "px": 24,
+      "n": 6
+    },
+    {
+      "px": 9,
+      "n": 2
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0) 0px 0px 0px 2px",
+      "n": 6
+    },
+    {
+      "css": "rgba(0, 0, 0, 0.05) 0px 0px 8px 0px",
+      "n": 1
+    }
+  ],
+  "gap": [
+    {
+      "px": 8,
+      "n": 1
+    },
+    {
+      "px": 20,
+      "n": 1
+    },
+    {
+      "px": 27,
+      "n": 1
+    },
+    {
+      "px": 40,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 120,
+      "n": 5
+    },
+    {
+      "px": 140,
+      "n": 4
+    },
+    {
+      "px": 52,
+      "n": 3
+    },
+    {
+      "px": 160,
+      "n": 3
+    }
+  ],
+  "container": [
+    {
+      "px": 1380,
+      "n": 30
+    },
+    {
+      "px": 1280,
+      "n": 13
+    },
+    {
+      "px": 1236,
+      "n": 12
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#141414",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "4px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "500",
+      "h": 58,
+      "ls": "0.6px",
+      "n": 7
+    },
+    {
+      "bg": "#c84f4f",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "9px",
+      "pad": "0px 30px",
+      "fs": 15,
+      "weight": "400",
+      "h": 55,
+      "ls": "1px",
+      "n": 2
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#005f98",
+      "border": "1px #e9e3d8",
+      "radius": "4px",
+      "pad": "6px 6px",
+      "fs": 12,
+      "weight": "500",
+      "h": 30,
+      "ls": "1.5px",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 990,
+      "n": 39
+    },
+    {
+      "px": 989,
+      "n": 25
+    },
+    {
+      "px": 959,
+      "n": 34
+    },
+    {
+      "px": 750,
+      "n": 96
+    },
+    {
+      "px": 749,
+      "n": 66
+    }
+  ],
+  "sections": [
+    {
+      "h": 580,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 1600,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 140,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 980,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "右",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 5240,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "左",
+      "split": "9:91"
+    },
+    {
+      "h": 1440,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 660,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1180,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 560,
+      "full": true,
+      "cols": 2,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 520,
+      "full": true,
+      "cols": 4,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 6
+    },
+    {
+      "hex": "#fcfaf7",
+      "n": 4
+    },
+    {
+      "hex": "#e9e3d8",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#fcfaf7",
+      "bg": "transparent",
+      "radius": 0,
+      "pad": "8/10",
+      "border": "1px #000000",
+      "shadow": null,
+      "n": 4
+    },
+    {
+      "onBg": "#fcfaf7",
+      "bg": "transparent",
+      "radius": 0,
+      "pad": "0/0",
+      "border": "1px #e9e3d8",
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#005f98",
+      "radius": "4px",
+      "pad": "6px 6px",
+      "fs": 12,
+      "border": "1px",
+      "n": 2
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#805c00",
+      "radius": "4px",
+      "pad": "6px 6px",
+      "fs": 12,
+      "border": "1px",
+      "n": 2
+    }
+  ],
+  "images": {
+    "n": 16,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 10
+      },
+      {
+        "ratio": "1:1",
+        "n": 2
+      },
+      {
+        "ratio": "4:3",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 11
+      },
+      {
+        "px": 4,
+        "n": 5
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 17,
+    "bodyLh": 1.4,
+    "sizes": [
+      17,
+      16,
+      15,
+      12,
+      10
+    ],
+    "pad": 40,
+    "gap": 4,
+    "sidePad": 0,
+    "h1": {
+      "fs": 25,
+      "lh": 1.3
+    }
+  },
+  "usage": [
+    {
+      "hex": "#fcfaf7",
+      "面": 20,
+      "文字": 15,
+      "枠": 0,
+      "ボタン": 5
+    },
+    {
+      "hex": "#e9e3d8",
+      "面": 3,
+      "文字": 0,
+      "枠": 10,
+      "ボタン": 1
+    },
+    {
+      "hex": "#141414",
+      "面": 8,
+      "文字": 109,
+      "枠": 0,
+      "ボタン": 8
+    },
+    {
+      "hex": "#c84f4f",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 2
+    },
+    {
+      "hex": "#f1ece4",
+      "面": 6,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 2
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 20,
+      "枠": 4,
+      "ボタン": 0
+    },
+    {
+      "hex": "#005f98",
+      "面": 0,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#005f98",
+  "tags": [
+    "明朝",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

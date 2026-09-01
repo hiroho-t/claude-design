@@ -1,0 +1,417 @@
+{
+  "slug": "shops",
+  "url": "https://www.sho-ps.co.jp/",
+  "title": "小学館パブリッシング・サービス",
+  "desc": "私たちの仕事は、小学館の本と未来の読者になるであろう方々との接点を創ることです。そのための手法はさまざまで、編集部や書店様、ときには読者の方々とコミュニケーションを取り、それぞれの想いを汲み取りながら試行錯誤しています。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 85.6
+    },
+    {
+      "hex": "#edf2f0",
+      "pct": 13.6
+    },
+    {
+      "hex": "#f7f7f7",
+      "pct": 0.5
+    },
+    {
+      "hex": "#333333",
+      "pct": 0.2
+    },
+    {
+      "hex": "#009f5d",
+      "pct": 0.1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#333333",
+      "pct": 83.1
+    },
+    {
+      "hex": "#9e9e9e",
+      "pct": 10.7
+    },
+    {
+      "hex": "#009f5d",
+      "pct": 4.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 1.5
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 1306
+    },
+    {
+      "family": "Almarai",
+      "w": 116
+    }
+  ],
+  "sizes": [
+    {
+      "px": 18,
+      "w": 217
+    },
+    {
+      "px": 16,
+      "w": 58
+    },
+    {
+      "px": 15,
+      "w": 55
+    },
+    {
+      "px": 14,
+      "w": 491
+    },
+    {
+      "px": 12,
+      "w": 122
+    },
+    {
+      "px": 10,
+      "w": 255
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 2,
+    "ls": "0.040em"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 50,
+        "weight": "500",
+        "lh": 1.34,
+        "ls": "0.200em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 24,
+        "weight": "600",
+        "lh": 1.2,
+        "ls": "0.040em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 14,
+        "weight": "500",
+        "lh": 1.8,
+        "ls": "0.060em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 40,
+        "weight": "600",
+        "lh": 1.2,
+        "ls": "0.080em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 24,
+        "weight": "600",
+        "lh": 1.2,
+        "ls": "0.040em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 29
+    },
+    {
+      "px": 1,
+      "n": 7
+    },
+    {
+      "px": 2,
+      "n": 3
+    },
+    {
+      "px": 4,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 8,
+      "n": 15
+    },
+    {
+      "px": 6,
+      "n": 14
+    },
+    {
+      "px": 10,
+      "n": 5
+    },
+    {
+      "px": 16,
+      "n": 5
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 3
+    },
+    {
+      "px": 32,
+      "n": 2
+    },
+    {
+      "px": 100,
+      "n": 2
+    },
+    {
+      "px": 64,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 880,
+      "n": 18
+    },
+    {
+      "px": 864,
+      "n": 11
+    },
+    {
+      "px": 600,
+      "n": 6
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#333333",
+      "border": "1px #f0f0f0",
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 10,
+      "weight": "500",
+      "h": 34,
+      "ls": "0.8px",
+      "n": 1
+    }
+  ],
+  "bp": [],
+  "sections": [
+    {
+      "h": 740,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "61:39"
+    },
+    {
+      "h": 1040,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "右",
+      "split": "21:79"
+    },
+    {
+      "h": 440,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "39:61"
+    },
+    {
+      "h": 620,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "31:69"
+    },
+    {
+      "h": 740,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 660,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#edf2f0",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 3
+    },
+    {
+      "hex": "#f2f2f2",
+      "n": 1
+    },
+    {
+      "hex": "#edf2f0",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "transparent",
+      "radius": 0,
+      "pad": "48/0",
+      "border": "1px #e6e6e6",
+      "shadow": null,
+      "n": 2
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 26,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "4:3",
+        "n": 18
+      },
+      {
+        "ratio": "3:2",
+        "n": 5
+      },
+      {
+        "ratio": "3:4",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 24
+      },
+      {
+        "px": 4,
+        "n": 2
+      }
+    ]
+  },
+  "circles": {
+    "n": 18,
+    "sizes": [
+      {
+        "px": 32,
+        "n": 7
+      },
+      {
+        "px": 16,
+        "n": 4
+      },
+      {
+        "px": 48,
+        "n": 4
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 13,
+    "bodyLh": 2,
+    "sizes": [
+      16,
+      14,
+      13,
+      12,
+      10
+    ],
+    "pad": 36,
+    "gap": 6,
+    "sidePad": 24,
+    "h1": {
+      "fs": 32,
+      "lh": 1.3
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 24,
+      "文字": 7,
+      "枠": 2,
+      "ボタン": 1
+    },
+    {
+      "hex": "#edf2f0",
+      "面": 5,
+      "文字": 0,
+      "枠": 7,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f7f7f7",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#333333",
+      "面": 7,
+      "文字": 93,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#009f5d",
+      "面": 6,
+      "文字": 9,
+      "枠": 6,
+      "ボタン": 0
+    },
+    {
+      "hex": "#9e9e9e",
+      "面": 0,
+      "文字": 73,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#009f5d",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

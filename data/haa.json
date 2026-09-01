@@ -1,0 +1,486 @@
+{
+  "slug": "haa",
+  "url": "https://haajapan.com/",
+  "title": "HAA 公式オンラインストア｜ギフトに人気な別府温泉発の入浴剤",
+  "desc": "",
+  "bg": [
+    {
+      "hex": "#fafafd",
+      "pct": 53.5
+    },
+    {
+      "hex": "#e8ecef",
+      "pct": 25.4
+    },
+    {
+      "hex": "#f2f2f2",
+      "pct": 10.1
+    },
+    {
+      "hex": "#26282b",
+      "pct": 6
+    },
+    {
+      "hex": "#000000",
+      "pct": 4.5
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#1a1a1a",
+      "pct": 85.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 10.4
+    },
+    {
+      "hex": "#000000",
+      "pct": 3.1
+    },
+    {
+      "hex": "#976f22",
+      "pct": 0.3
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "MFW-GJGothicBBBProN-Medium",
+      "w": 4086
+    },
+    {
+      "family": "A P-OTF Kasumi Seiran Min2",
+      "w": 473
+    }
+  ],
+  "sizes": [
+    {
+      "px": 17,
+      "w": 77
+    },
+    {
+      "px": 16,
+      "w": 673
+    },
+    {
+      "px": 15,
+      "w": 636
+    },
+    {
+      "px": 14,
+      "w": 2301
+    },
+    {
+      "px": 13,
+      "w": 199
+    },
+    {
+      "px": 12,
+      "w": 300
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 2,
+    "ls": "0.092em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 26,
+        "weight": "400",
+        "lh": 1.75,
+        "ls": "0.040em",
+        "family": "A P-OTF Kasumi Seiran Min2"
+      },
+      {
+        "fs": 22,
+        "weight": "400",
+        "lh": 1.75,
+        "ls": "0.040em",
+        "family": "A P-OTF Kasumi Seiran Min2"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 2,
+      "n": 59
+    },
+    {
+      "px": 0,
+      "n": 37
+    },
+    {
+      "px": 4,
+      "n": 2
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 8,
+      "n": 12
+    },
+    {
+      "px": 6,
+      "n": 10
+    },
+    {
+      "px": 4,
+      "n": 3
+    },
+    {
+      "px": 11,
+      "n": 3
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 100,
+      "n": 14
+    },
+    {
+      "px": 84,
+      "n": 9
+    },
+    {
+      "px": 68,
+      "n": 3
+    },
+    {
+      "px": 60,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1212,
+      "n": 22
+    },
+    {
+      "px": 1012,
+      "n": 14
+    },
+    {
+      "px": 633,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#1a1a1a",
+      "border": "1px #808080",
+      "radius": "2px",
+      "pad": "12px 34px",
+      "fs": 17,
+      "weight": "500",
+      "h": 51,
+      "ls": "2.53001px",
+      "n": 6
+    },
+    {
+      "bg": "#fafafd",
+      "color": "#1a1a1a",
+      "border": "1px #000000",
+      "radius": "2px",
+      "pad": "0px 17px",
+      "fs": 12,
+      "weight": "500",
+      "h": 37,
+      "ls": "1.15959px",
+      "n": 1
+    },
+    {
+      "bg": "transparent",
+      "color": "#1a1a1a",
+      "border": "1px #808080",
+      "radius": "2px",
+      "pad": "12px 0px",
+      "fs": 17,
+      "weight": "500",
+      "h": 51,
+      "ls": "2.53001px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1600,
+      "n": 3
+    },
+    {
+      "px": 1366,
+      "n": 4
+    },
+    {
+      "px": 992,
+      "n": 6
+    },
+    {
+      "px": 768,
+      "n": 10
+    },
+    {
+      "px": 576,
+      "n": 3
+    }
+  ],
+  "sections": [
+    {
+      "h": 860,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "67:33"
+    },
+    {
+      "h": 740,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#fafafd",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#e8ecef",
+      "align": "右",
+      "media": "左",
+      "split": "39:61"
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#fafafd",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 760,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#e8ecef",
+      "align": "左",
+      "media": "右",
+      "split": "84:16"
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#fafafd",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 760,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#edf0ee",
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 2080,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": "#f2efeb",
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 500,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 400,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": "#fdf9f2",
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#fafafd",
+      "n": 21
+    },
+    {
+      "hex": "#f2f2f2",
+      "n": 14
+    },
+    {
+      "hex": "#e8ecef",
+      "n": 2
+    },
+    {
+      "hex": "#edf0ee",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#edf0ee",
+      "bg": "#fafafd",
+      "radius": 2,
+      "pad": "34/42",
+      "border": null,
+      "shadow": null,
+      "n": 18
+    },
+    {
+      "onBg": "#fafafd",
+      "bg": "#f5f5f5",
+      "radius": 2,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 12
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 27,
+    "fullBleed": 2,
+    "ratios": [
+      {
+        "ratio": "3:4",
+        "n": 13
+      },
+      {
+        "ratio": "1:1",
+        "n": 9
+      },
+      {
+        "ratio": "3:2",
+        "n": 3
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 27
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 12,
+    "bodyLh": 2,
+    "sizes": [
+      14,
+      13,
+      12,
+      11,
+      10
+    ],
+    "pad": 56,
+    "gap": 6,
+    "sidePad": 25,
+    "h1": {
+      "fs": 23,
+      "lh": 1.75
+    }
+  },
+  "usage": [
+    {
+      "hex": "#fafafd",
+      "面": 66,
+      "文字": 65,
+      "枠": 2,
+      "ボタン": 1
+    },
+    {
+      "hex": "#e8ecef",
+      "面": 4,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f2f2f2",
+      "面": 14,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#26282b",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 40,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#1a1a1a",
+      "面": 0,
+      "文字": 148,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#976f22",
+      "面": 0,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#976f22",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

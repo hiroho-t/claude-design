@@ -1,0 +1,515 @@
+{
+  "slug": "kimurasoap",
+  "url": "https://www.kimurasoap.co.jp/",
+  "title": "木村石鹸 公式サイト／本店オンラインストア – 木村石鹸 公式サイト／本店オンラインストア",
+  "desc": "木村石鹸の商品情報やお買い物ができる本店オンラインストアと、読み物コンテンツや企業情報、採用情報などを掲載する公式サイトです。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 90.5
+    },
+    {
+      "hex": "#faf7e8",
+      "pct": 7.3
+    },
+    {
+      "hex": "#cccabd",
+      "pct": 1.3
+    },
+    {
+      "hex": "#373635",
+      "pct": 0.6
+    },
+    {
+      "hex": "#000000",
+      "pct": 0.3
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#373635",
+      "pct": 77.2
+    },
+    {
+      "hex": "#747369",
+      "pct": 11.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 9.9
+    },
+    {
+      "hex": "#1989f0",
+      "pct": 0.8
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "YakuHanJPs",
+      "w": 2924
+    },
+    {
+      "family": "heebo",
+      "w": 95
+    }
+  ],
+  "sizes": [
+    {
+      "px": 16,
+      "w": 82
+    },
+    {
+      "px": 15,
+      "w": 77
+    },
+    {
+      "px": 14,
+      "w": 756
+    },
+    {
+      "px": 13,
+      "w": 762
+    },
+    {
+      "px": 12,
+      "w": 904
+    },
+    {
+      "px": 11,
+      "w": 246
+    }
+  ],
+  "body": {
+    "fs": 12,
+    "lh": 1.42,
+    "ls": "0.020em"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 15,
+        "weight": "500",
+        "lh": 1.45,
+        "ls": "0.030em",
+        "family": "YakuHanJPs"
+      },
+      {
+        "fs": 14,
+        "weight": "500",
+        "lh": 1.45,
+        "ls": "0.020em",
+        "family": "YakuHanJPs"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 11,
+        "weight": "500",
+        "lh": 1.36,
+        "ls": "0.040em",
+        "family": "YakuHanJPs"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 38
+    },
+    {
+      "px": 6,
+      "n": 10
+    },
+    {
+      "px": 10,
+      "n": 4
+    },
+    {
+      "px": 20,
+      "n": 1
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgb(204, 202, 189) 0px 0px 0px 1px",
+      "n": 2
+    }
+  ],
+  "gap": [
+    {
+      "px": 10,
+      "n": 16
+    },
+    {
+      "px": 4,
+      "n": 4
+    },
+    {
+      "px": 16,
+      "n": 4
+    },
+    {
+      "px": 2,
+      "n": 3
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 5
+    },
+    {
+      "px": 120,
+      "n": 5
+    },
+    {
+      "px": 64,
+      "n": 3
+    },
+    {
+      "px": 80,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1120,
+      "n": 19
+    },
+    {
+      "px": 1024,
+      "n": 14
+    },
+    {
+      "px": 1168,
+      "n": 7
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#373635",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "10px",
+      "pad": "0px 16px",
+      "fs": 13,
+      "weight": "400",
+      "h": 44,
+      "ls": "0.26px",
+      "n": 3
+    },
+    {
+      "bg": "#373635",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 30px",
+      "fs": 15,
+      "weight": "400",
+      "h": 47,
+      "ls": "1px",
+      "n": 1
+    },
+    {
+      "bg": "#373635",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "6px",
+      "pad": "0px 16px",
+      "fs": 13,
+      "weight": "400",
+      "h": 40,
+      "ls": "0.26px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 990,
+      "n": 14
+    },
+    {
+      "px": 989,
+      "n": 9
+    },
+    {
+      "px": 768,
+      "n": 4
+    },
+    {
+      "px": 750,
+      "n": 53
+    },
+    {
+      "px": 749,
+      "n": 35
+    }
+  ],
+  "sections": [
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 13
+    },
+    {
+      "hex": "#fcfbf5",
+      "n": 2
+    },
+    {
+      "hex": "#faf7e8",
+      "n": 2
+    },
+    {
+      "hex": "#cccabd",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#fcfbf5",
+      "radius": 6,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 8
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 81,
+    "fullBleed": 13,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 57
+      },
+      {
+        "ratio": "16:9",
+        "n": 13
+      },
+      {
+        "ratio": "4:3",
+        "n": 6
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 81
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 13,
+    "bodyLh": 1.54,
+    "sizes": [
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "pad": 40,
+    "gap": 10,
+    "sidePad": 0,
+    "h1": {
+      "fs": 12,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 27,
+      "文字": 25,
+      "枠": 13,
+      "ボタン": 0
+    },
+    {
+      "hex": "#faf7e8",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#cccabd",
+      "面": 1,
+      "文字": 0,
+      "枠": 3,
+      "ボタン": 0
+    },
+    {
+      "hex": "#373635",
+      "面": 6,
+      "文字": 241,
+      "枠": 0,
+      "ボタン": 5
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#747369",
+      "面": 0,
+      "文字": 30,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#1989f0",
+      "面": 0,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#1989f0",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

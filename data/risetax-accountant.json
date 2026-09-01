@@ -1,0 +1,449 @@
+{
+  "slug": "risetax-accountant",
+  "url": "https://rise-tax.com/accountant/",
+  "title": "税理士法人ライズ - ライズグループ｜RISE Consulting & Tax Accountant Office",
+  "desc": "税理士法人ライズは、会社設立・創業融資・医業経営支援をはじめ会計・相続・DX・IT導入支援・労務管理・M＆A組織再編コンサルティングサービスを提供しています。",
+  "bg": [
+    {
+      "hex": "#f0f0f0",
+      "pct": 53
+    },
+    {
+      "hex": "#4b89ab",
+      "pct": 25.5
+    },
+    {
+      "hex": "#2d3243",
+      "pct": 8.2
+    },
+    {
+      "hex": "#d9dadc",
+      "pct": 7.1
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 5.2
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#2d3243",
+      "pct": 59.2
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 40.1
+    },
+    {
+      "hex": "#239ccf",
+      "pct": 0.4
+    },
+    {
+      "hex": "#7b7e89",
+      "pct": 0.3
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 1420
+    },
+    {
+      "family": "Outfit",
+      "w": 170
+    }
+  ],
+  "sizes": [
+    {
+      "px": 28,
+      "w": 73
+    },
+    {
+      "px": 19,
+      "w": 66
+    },
+    {
+      "px": 18,
+      "w": 78
+    },
+    {
+      "px": 17,
+      "w": 129
+    },
+    {
+      "px": 16,
+      "w": 711
+    },
+    {
+      "px": 15,
+      "w": 261
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 2,
+    "ls": "0.100em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 17,
+        "weight": "500",
+        "lh": 2,
+        "ls": "0.094em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 28,
+        "weight": "500",
+        "lh": 1.6,
+        "ls": "0.100em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 39,
+        "weight": "500",
+        "lh": 1.6,
+        "ls": "0.100em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 13
+    },
+    {
+      "px": 5,
+      "n": 4
+    },
+    {
+      "px": 10,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 14,
+      "n": 6
+    },
+    {
+      "px": 8,
+      "n": 3
+    },
+    {
+      "px": 15,
+      "n": 3
+    },
+    {
+      "px": 40,
+      "n": 3
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 56,
+      "n": 3
+    },
+    {
+      "px": 60,
+      "n": 3
+    },
+    {
+      "px": 120,
+      "n": 3
+    },
+    {
+      "px": 52,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1260,
+      "n": 19
+    },
+    {
+      "px": 1100,
+      "n": 15
+    },
+    {
+      "px": 1400,
+      "n": 12
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#2d3243",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 23px",
+      "fs": 15,
+      "weight": "400",
+      "h": 30,
+      "ls": "0",
+      "n": 3
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "400",
+      "h": 28,
+      "ls": "1.6px",
+      "n": 3
+    },
+    {
+      "bg": "#239ccf",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "5px",
+      "pad": "0px 9px",
+      "fs": 14,
+      "weight": "400",
+      "h": 28,
+      "ls": "1.6px",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 1440,
+      "n": 20
+    },
+    {
+      "px": 782,
+      "n": 6
+    },
+    {
+      "px": 768,
+      "n": 153
+    },
+    {
+      "px": 767,
+      "n": 18
+    },
+    {
+      "px": 600,
+      "n": 10
+    }
+  ],
+  "sections": [
+    {
+      "h": 1520,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1840,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#4b89ab",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 820,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 940,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 760,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1500,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#4b89ab",
+      "n": 2
+    },
+    {
+      "hex": "#ffffff",
+      "n": 2
+    },
+    {
+      "hex": "#f0f0f0",
+      "n": 1
+    },
+    {
+      "hex": "#d9dadc",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [
+    {
+      "bg": "#239ccf",
+      "color": "#ffffff",
+      "radius": "5px",
+      "pad": "0px 9px",
+      "fs": 14,
+      "border": null,
+      "n": 4
+    }
+  ],
+  "images": {
+    "n": 23,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 13
+      },
+      {
+        "ratio": "16:9",
+        "n": 3
+      },
+      {
+        "ratio": "1:1",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 23
+      }
+    ]
+  },
+  "circles": {
+    "n": 13,
+    "sizes": [
+      {
+        "px": 136,
+        "n": 5
+      },
+      {
+        "px": 40,
+        "n": 4
+      },
+      {
+        "px": 144,
+        "n": 3
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sizes": [
+      37,
+      24,
+      16,
+      14,
+      13
+    ],
+    "pad": 60,
+    "gap": 8,
+    "sidePad": 25,
+    "h1": {
+      "fs": 13,
+      "lh": 2
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f0f0f0",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#4b89ab",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#2d3243",
+      "面": 5,
+      "文字": 59,
+      "枠": 5,
+      "ボタン": 1
+    },
+    {
+      "hex": "#d9dadc",
+      "面": 5,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 13,
+      "文字": 62,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#239ccf",
+      "面": 4,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 3
+    },
+    {
+      "hex": "#7b7e89",
+      "面": 1,
+      "文字": 1,
+      "枠": 2,
+      "ボタン": 1
+    }
+  ],
+  "accent": "#239ccf",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

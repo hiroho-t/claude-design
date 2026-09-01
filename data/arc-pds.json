@@ -1,0 +1,514 @@
+{
+  "slug": "arc-pds",
+  "url": "https://arc-pds.com/",
+  "title": "アーク ペーパードライバースクール｜名古屋・愛知・岐阜・三重の運転講習",
+  "desc": "ペーパードライバーの運転講習はARC（アーク）：名古屋市を中心に愛知・岐阜・三重に対応している出張型ペーパードライバースクールです。教習車・マイカーどちらでも受講できます。自宅の車庫入れ、給油の仕方、縦列駐車など不安なポイントを重点的に指導します。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 80.2
+    },
+    {
+      "hex": "#f7e9cf",
+      "pct": 8.4
+    },
+    {
+      "hex": "#4082c4",
+      "pct": 3.8
+    },
+    {
+      "hex": "#74b3e2",
+      "pct": 1.5
+    },
+    {
+      "hex": "#f28851",
+      "pct": 1.4
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#111111",
+      "pct": 90.2
+    },
+    {
+      "hex": "#4d5859",
+      "pct": 4.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 3.9
+    },
+    {
+      "hex": "#4082c4",
+      "pct": 0.7
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "M PLUS 1p",
+      "w": 4822
+    },
+    {
+      "family": "Outfit",
+      "w": 234
+    }
+  ],
+  "sizes": [
+    {
+      "px": 43,
+      "w": 47
+    },
+    {
+      "px": 25,
+      "w": 42
+    },
+    {
+      "px": 19,
+      "w": 658
+    },
+    {
+      "px": 16,
+      "w": 3758
+    },
+    {
+      "px": 15,
+      "w": 72
+    },
+    {
+      "px": 14,
+      "w": 385
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.88,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 66,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "M PLUS 1p"
+      },
+      {
+        "fs": 41,
+        "weight": "700",
+        "lh": 2,
+        "ls": "0",
+        "family": "Outfit"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 16,
+        "weight": "500",
+        "lh": 2,
+        "ls": "0.080em",
+        "family": "M PLUS 1p"
+      },
+      {
+        "fs": 25,
+        "weight": "500",
+        "lh": 2,
+        "ls": "0",
+        "family": "M PLUS 1p"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 26,
+      "n": 25
+    },
+    {
+      "px": 21,
+      "n": 24
+    },
+    {
+      "px": 16,
+      "n": 11
+    },
+    {
+      "px": 14,
+      "n": 9
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgb(77, 88, 89) 0px 3.08571px 0px 0px",
+      "n": 35
+    }
+  ],
+  "gap": [
+    {
+      "px": 10,
+      "n": 66
+    },
+    {
+      "px": 21,
+      "n": 11
+    },
+    {
+      "px": 8,
+      "n": 8
+    },
+    {
+      "px": 5,
+      "n": 6
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 52,
+      "n": 2
+    },
+    {
+      "px": 60,
+      "n": 2
+    },
+    {
+      "px": 144,
+      "n": 2
+    },
+    {
+      "px": 156,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 624,
+      "n": 9
+    },
+    {
+      "px": 712,
+      "n": 9
+    },
+    {
+      "px": 952,
+      "n": 8
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#111111",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "500",
+      "h": 29,
+      "ls": "0",
+      "n": 9
+    },
+    {
+      "bg": "#f4bb3e",
+      "color": "#111111",
+      "border": null,
+      "radius": "14px",
+      "pad": "1px 13px",
+      "fs": 14,
+      "weight": "700",
+      "h": 31,
+      "ls": "0",
+      "n": 6
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#111111",
+      "border": "2px #4d5859",
+      "radius": "26px",
+      "pad": "2px 0px",
+      "fs": 16,
+      "weight": "500",
+      "h": 51,
+      "ls": "0",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 768,
+      "n": 2
+    },
+    {
+      "px": 767,
+      "n": 3
+    },
+    {
+      "px": 640,
+      "n": 1
+    },
+    {
+      "px": 600,
+      "n": 1
+    },
+    {
+      "px": 480,
+      "n": 4
+    }
+  ],
+  "sections": [
+    {
+      "h": 220,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 220,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 220,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 220,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 220,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 220,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 220,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 220,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 220,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 21
+    },
+    {
+      "hex": "#f7e9cf",
+      "n": 10
+    },
+    {
+      "hex": "#74b3e2",
+      "n": 1
+    },
+    {
+      "hex": "#4082c4",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#fff7e8",
+      "bg": "#ffffff",
+      "radius": 16,
+      "pad": "42/42",
+      "border": "2px #4d5859",
+      "shadow": "rgb(77, 88, 89) 0px 3.08571px 0px 0px",
+      "n": 9
+    },
+    {
+      "onBg": "#fff7e8",
+      "bg": "#ffffff",
+      "radius": 26,
+      "pad": "0/0",
+      "border": "2px #4d5859",
+      "shadow": "rgb(77, 88, 89) 0px 3.08571px 0px 0px",
+      "n": 3
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#f4bb3e",
+      "color": "#111111",
+      "radius": "14px",
+      "pad": "1px 13px",
+      "fs": 14,
+      "border": null,
+      "n": 5
+    }
+  ],
+  "images": {
+    "n": 121,
+    "fullBleed": 4,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 90
+      },
+      {
+        "ratio": "3:2",
+        "n": 24
+      },
+      {
+        "ratio": "4:3",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 121
+      }
+    ]
+  },
+  "circles": {
+    "n": 20,
+    "sizes": [
+      {
+        "px": 16,
+        "n": 9
+      },
+      {
+        "px": 24,
+        "n": 9
+      },
+      {
+        "px": 40,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sizes": [
+      27,
+      20,
+      16,
+      15,
+      14
+    ],
+    "pad": 28,
+    "gap": 10,
+    "sidePad": 65,
+    "h1": {
+      "fs": 34,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 43,
+      "文字": 15,
+      "枠": 15,
+      "ボタン": 4
+    },
+    {
+      "hex": "#f7e9cf",
+      "面": 15,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#4082c4",
+      "面": 1,
+      "文字": 5,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#74b3e2",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f28851",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#111111",
+      "面": 0,
+      "文字": 116,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#4d5859",
+      "面": 0,
+      "文字": 26,
+      "枠": 39,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#4082c4",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角丸",
+    "色つき"
+  ]
+}

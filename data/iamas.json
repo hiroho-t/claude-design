@@ -1,0 +1,396 @@
+{
+  "slug": "iamas",
+  "url": "https://www.iamas.ac.jp/",
+  "title": "情報科学芸術大学院大学 [IAMAS] ｜ Institute of Advanced Media Arts and Sciences",
+  "desc": "",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 71
+    },
+    {
+      "hex": "#e6e6e6",
+      "pct": 28.9
+    },
+    {
+      "hex": "#2641f0",
+      "pct": 0.1
+    },
+    {
+      "hex": "#000000",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 77
+    },
+    {
+      "hex": "#838587",
+      "pct": 8.2
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 6.1
+    },
+    {
+      "hex": "#c0c4c9",
+      "pct": 4.6
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Inter",
+      "w": 2910
+    }
+  ],
+  "sizes": [
+    {
+      "px": 48,
+      "w": 80
+    },
+    {
+      "px": 18,
+      "w": 565
+    },
+    {
+      "px": 16,
+      "w": 582
+    },
+    {
+      "px": 15,
+      "w": 39
+    },
+    {
+      "px": 14,
+      "w": 1481
+    },
+    {
+      "px": 13,
+      "w": 132
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.43,
+    "ls": "0.050em"
+  },
+  "headings": {},
+  "radius": [
+    {
+      "px": 0,
+      "n": 10
+    },
+    {
+      "px": 16,
+      "n": 3
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 120,
+      "n": 10
+    },
+    {
+      "px": 52,
+      "n": 4
+    },
+    {
+      "px": 40,
+      "n": 3
+    },
+    {
+      "px": 60,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 600,
+      "n": 7
+    },
+    {
+      "px": 800,
+      "n": 7
+    },
+    {
+      "px": 920,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#2641f0",
+      "color": "#ffffff",
+      "border": "1px #2641f0",
+      "radius": "16px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "700",
+      "h": 32,
+      "ls": "0.7px",
+      "n": 1
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#000000",
+      "border": "1px #000000",
+      "radius": "16px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "700",
+      "h": 32,
+      "ls": "0.7px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1440,
+      "n": 16
+    },
+    {
+      "px": 1340,
+      "n": 3
+    },
+    {
+      "px": 1280,
+      "n": 12
+    },
+    {
+      "px": 1024,
+      "n": 5
+    },
+    {
+      "px": 1023,
+      "n": 55
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 120,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#ffffff",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 660,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1620,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1200,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 620,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "44:56"
+    },
+    {
+      "h": 1400,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 580,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 5
+    },
+    {
+      "hex": "#e4e6eb",
+      "n": 4
+    },
+    {
+      "hex": "#e6e6e6",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#000000",
+      "radius": "999px",
+      "pad": "0px 10px",
+      "fs": 13,
+      "border": null,
+      "n": 5
+    }
+  ],
+  "images": {
+    "n": 44,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 15
+      },
+      {
+        "ratio": "4:3",
+        "n": 12
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 44
+      }
+    ]
+  },
+  "circles": {
+    "n": 1,
+    "sizes": [
+      {
+        "px": 48,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": 1.5,
+    "sizes": [
+      36,
+      16,
+      14,
+      13,
+      12
+    ],
+    "pad": 32,
+    "gap": null,
+    "sidePad": 24,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 13,
+      "文字": 19,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#e6e6e6",
+      "面": 5,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#2641f0",
+      "面": 1,
+      "文字": 29,
+      "枠": 1,
+      "ボタン": 1
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 161,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#838587",
+      "面": 0,
+      "文字": 31,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#c0c4c9",
+      "面": 0,
+      "文字": 4,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#2641f0",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

@@ -1,0 +1,601 @@
+{
+  "slug": "endeal",
+  "url": "https://endeal.net/",
+  "title": "大阪の遺品整理・生前整理・買取ならエンディール｜遺品整理士在籍の専門業者",
+  "desc": "大阪の遺品整理・生前整理・遺品買取は年中無休・即日対応のエンディールへ。実績件数関西No.1！故人様の思い出の品を誠実、丁寧に仕分けから対応いたします。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 58.2
+    },
+    {
+      "hex": "#fce9d7",
+      "pct": 27.9
+    },
+    {
+      "hex": "#f67e7c",
+      "pct": 2.3
+    },
+    {
+      "hex": "#f6f3cd",
+      "pct": 3.1
+    },
+    {
+      "hex": "#0eb88a",
+      "pct": 1.8
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#482607",
+      "pct": 68.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 11.6
+    },
+    {
+      "hex": "#0068b7",
+      "pct": 5.7
+    },
+    {
+      "hex": "#f76a0c",
+      "pct": 4.3
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "YakuHanJP",
+      "w": 5974
+    },
+    {
+      "family": "新丸ゴ DB",
+      "w": 1915
+    },
+    {
+      "family": "新丸ゴ B",
+      "w": 664
+    },
+    {
+      "family": "新ゴ DB",
+      "w": 57
+    }
+  ],
+  "sizes": [
+    {
+      "px": 21,
+      "w": 460
+    },
+    {
+      "px": 20,
+      "w": 481
+    },
+    {
+      "px": 18,
+      "w": 1058
+    },
+    {
+      "px": 17,
+      "w": 1095
+    },
+    {
+      "px": 16,
+      "w": 1990
+    },
+    {
+      "px": 13,
+      "w": 953
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1,
+    "ls": "0"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 11,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.040em",
+        "family": "YakuHanJP"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 17,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.010em",
+        "family": "YakuHanJP"
+      },
+      {
+        "fs": 28,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0.050em",
+        "family": "新丸ゴ DB"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 28,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.020em",
+        "family": "新丸ゴ B"
+      },
+      {
+        "fs": 37,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0.050em",
+        "family": "新丸ゴ B"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 18,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0",
+        "family": "YakuHanJP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 179
+    },
+    {
+      "px": 16,
+      "n": 14
+    },
+    {
+      "px": 10,
+      "n": 7
+    },
+    {
+      "px": 8,
+      "n": 3
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(179, 59, 15, 0.2) 0px 3px 10px 0px",
+      "n": 12
+    },
+    {
+      "css": "rgba(127, 87, 75, 0.4) 0px 3px 10px 0px",
+      "n": 5
+    }
+  ],
+  "gap": [
+    {
+      "px": 8,
+      "n": 18
+    },
+    {
+      "px": 12,
+      "n": 10
+    },
+    {
+      "px": 20,
+      "n": 2
+    },
+    {
+      "px": 10,
+      "n": 1
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 56,
+      "n": 11
+    },
+    {
+      "px": 76,
+      "n": 8
+    },
+    {
+      "px": 96,
+      "n": 8
+    },
+    {
+      "px": 60,
+      "n": 6
+    }
+  ],
+  "container": [
+    {
+      "px": 1100,
+      "n": 93
+    },
+    {
+      "px": 616,
+      "n": 45
+    },
+    {
+      "px": 996,
+      "n": 24
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#482607",
+      "border": "2px #b6a89c",
+      "radius": "1440px",
+      "pad": "8px 10px",
+      "fs": 14,
+      "weight": "400",
+      "h": 34,
+      "ls": "0",
+      "n": 17
+    },
+    {
+      "bg": "#ffffc2",
+      "color": "#482607",
+      "border": "3px #f76a0c",
+      "radius": "1440px",
+      "pad": "0px 0px",
+      "fs": 18,
+      "weight": "400",
+      "h": 70,
+      "ls": "0.36px",
+      "n": 5
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#482607",
+      "border": "3px #f76a0c",
+      "radius": "1440px",
+      "pad": "0px 0px",
+      "fs": 17,
+      "weight": "400",
+      "h": 70,
+      "ls": "0.34px",
+      "n": 4
+    }
+  ],
+  "bp": [
+    {
+      "px": 1024,
+      "n": 542
+    },
+    {
+      "px": 880,
+      "n": 607
+    },
+    {
+      "px": 768,
+      "n": 242
+    },
+    {
+      "px": 640,
+      "n": 590
+    },
+    {
+      "px": 430,
+      "n": 462
+    }
+  ],
+  "sections": [
+    {
+      "h": 120,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1320,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "右",
+      "split": "23:77"
+    },
+    {
+      "h": 2400,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 640,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "左",
+      "split": "31:69"
+    },
+    {
+      "h": 1420,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 420,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 10140,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#fce9d7",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 520,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1540,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 2020,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1300,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "14:86"
+    },
+    {
+      "h": 1380,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1000,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1160,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 24
+    },
+    {
+      "hex": "#f7ecdf",
+      "n": 7
+    },
+    {
+      "hex": "#f67e7c",
+      "n": 3
+    },
+    {
+      "hex": "#ff6511",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#ffffff",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 10
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "transparent",
+      "radius": 0,
+      "pad": "16/0",
+      "border": "2px #95cc4d",
+      "shadow": null,
+      "n": 6
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#482607",
+      "radius": "999px",
+      "pad": "8px 10px",
+      "fs": 14,
+      "border": "2px",
+      "n": 17
+    }
+  ],
+  "images": {
+    "n": 78,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 35
+      },
+      {
+        "ratio": "3:4",
+        "n": 18
+      },
+      {
+        "ratio": "2:3",
+        "n": 14
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 78
+      }
+    ]
+  },
+  "circles": {
+    "n": 38,
+    "sizes": [
+      {
+        "px": 24,
+        "n": 8
+      },
+      {
+        "px": 32,
+        "n": 6
+      },
+      {
+        "px": 56,
+        "n": 6
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1,
+    "sizes": [
+      16,
+      15,
+      14,
+      13,
+      9
+    ],
+    "pad": 32,
+    "gap": 7,
+    "sidePad": 26,
+    "h1": {
+      "fs": 14,
+      "lh": 1
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 109,
+      "文字": 91,
+      "枠": 9,
+      "ボタン": 27
+    },
+    {
+      "hex": "#fce9d7",
+      "面": 25,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f67e7c",
+      "面": 3,
+      "文字": 2,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f6f3cd",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#0eb88a",
+      "面": 1,
+      "文字": 7,
+      "枠": 3,
+      "ボタン": 0
+    },
+    {
+      "hex": "#482607",
+      "面": 0,
+      "文字": 408,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#0068b7",
+      "面": 0,
+      "文字": 147,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f76a0c",
+      "面": 23,
+      "文字": 46,
+      "枠": 48,
+      "ボタン": 5
+    }
+  ],
+  "accent": "#482607",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

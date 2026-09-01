@@ -1,0 +1,418 @@
+{
+  "slug": "powerx",
+  "url": "https://power-x.jp/",
+  "title": "株式会社パワーエックス",
+  "desc": "パワーエックスは、大型蓄電池の開発・製造から、量産型コンテナデータセンター、超急速EV充電ステーション、法人向けの電力供給・アグリゲーションサービスまでを手がけています。系統用・産業用の蓄電システムを国内最大級の自社工場より製造・出荷しています。",
+  "bg": [
+    {
+      "hex": "#000000",
+      "pct": 33.2
+    },
+    {
+      "hex": "#f6f8fc",
+      "pct": 51.3
+    },
+    {
+      "hex": "#262626",
+      "pct": 9.5
+    },
+    {
+      "hex": "#f1f1f1",
+      "pct": 6.1
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 84.6
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 15.4
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "powerXSans",
+      "w": 655
+    },
+    {
+      "family": "ui-sans-serif",
+      "w": 377
+    }
+  ],
+  "sizes": [
+    {
+      "px": 72,
+      "w": 23
+    },
+    {
+      "px": 40,
+      "w": 54
+    },
+    {
+      "px": 24,
+      "w": 10
+    },
+    {
+      "px": 16,
+      "w": 374
+    },
+    {
+      "px": 14,
+      "w": 405
+    },
+    {
+      "px": 12,
+      "w": 166
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.43,
+    "ls": "0"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 40,
+        "weight": "500",
+        "lh": 1.25,
+        "ls": "0",
+        "family": "powerXSans"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 72,
+        "weight": "500",
+        "lh": 1.25,
+        "ls": "0",
+        "family": "powerXSans"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 40,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "powerXSans"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 29
+    },
+    {
+      "px": 4,
+      "n": 14
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 8,
+      "n": 16
+    },
+    {
+      "px": 12,
+      "n": 11
+    },
+    {
+      "px": 4,
+      "n": 7
+    },
+    {
+      "px": 16,
+      "n": 6
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 32,
+      "n": 6
+    },
+    {
+      "px": 112,
+      "n": 4
+    },
+    {
+      "px": 176,
+      "n": 2
+    },
+    {
+      "px": 72,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1024,
+      "n": 35
+    },
+    {
+      "px": 672,
+      "n": 18
+    },
+    {
+      "px": 720,
+      "n": 7
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#000000",
+      "border": "1px #404040",
+      "radius": "4px",
+      "pad": "8px 16px",
+      "fs": 14,
+      "weight": "400",
+      "h": 39,
+      "ls": "0",
+      "n": 8
+    },
+    {
+      "bg": "#262626",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "4px",
+      "pad": "4px 0px",
+      "fs": 14,
+      "weight": "600",
+      "h": 28,
+      "ls": "0",
+      "n": 2
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#ffffff",
+      "border": "1px #ffffff",
+      "radius": "4px",
+      "pad": "8px 16px",
+      "fs": 14,
+      "weight": "400",
+      "h": 39,
+      "ls": "0",
+      "n": 2
+    }
+  ],
+  "bp": [
+    {
+      "px": 1920,
+      "n": 1
+    },
+    {
+      "px": 1440,
+      "n": 2
+    },
+    {
+      "px": 1080,
+      "n": 23
+    },
+    {
+      "px": 720,
+      "n": 28
+    }
+  ],
+  "sections": [
+    {
+      "h": 820,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 520,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 540,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 520,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1280,
+      "full": true,
+      "cols": 6,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 460,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 460,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f6f8fc",
+      "n": 7
+    },
+    {
+      "hex": "#000000",
+      "n": 5
+    },
+    {
+      "hex": "#ffffff",
+      "n": 5
+    },
+    {
+      "hex": "#262626",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f6f8fc",
+      "bg": "transparent",
+      "radius": 0,
+      "pad": "24/24",
+      "border": "1px #000000",
+      "shadow": null,
+      "n": 5
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#000000",
+      "radius": "4px",
+      "pad": "8px 16px",
+      "fs": 14,
+      "border": "1px",
+      "n": 8
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#ffffff",
+      "radius": "4px",
+      "pad": "8px 16px",
+      "fs": 14,
+      "border": "1px",
+      "n": 2
+    }
+  ],
+  "images": {
+    "n": 4,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "16:9",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 4
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": 1.5,
+    "sizes": [
+      40,
+      24,
+      16,
+      14,
+      12
+    ],
+    "pad": 24,
+    "gap": 12,
+    "sidePad": 24,
+    "h1": {
+      "fs": 24,
+      "lh": 1.25
+    }
+  },
+  "usage": [
+    {
+      "hex": "#000000",
+      "面": 5,
+      "文字": 80,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f6f8fc",
+      "面": 23,
+      "文字": 9,
+      "枠": 2,
+      "ボタン": 10
+    },
+    {
+      "hex": "#262626",
+      "面": 3,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 2
+    },
+    {
+      "hex": "#f1f1f1",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "モノトーン"
+  ]
+}

@@ -1,0 +1,534 @@
+{
+  "slug": "mujuu",
+  "url": "https://mujuu.jp/",
+  "title": "香りで睡眠をケアするアロマシリーズ｜MUJUU",
+  "desc": "あなたの眠りを上質にする、睡眠アロマブランドMUJUU（ムジュウ）公式サイト。香りによる、無重力の解放。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 79.6
+    },
+    {
+      "hex": "#2c423b",
+      "pct": 8.9
+    },
+    {
+      "hex": "#344842",
+      "pct": 6.3
+    },
+    {
+      "hex": "#dbdbda",
+      "pct": 4.4
+    },
+    {
+      "hex": "#000000",
+      "pct": 0.8
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#ffffff",
+      "pct": 31.2
+    },
+    {
+      "hex": "#000000",
+      "pct": 27.1
+    },
+    {
+      "hex": "#191919",
+      "pct": 27.1
+    },
+    {
+      "hex": "#333333",
+      "pct": 8.5
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Zen Old Mincho",
+      "w": 1517
+    },
+    {
+      "family": "Material Icons",
+      "w": 312
+    },
+    {
+      "family": "Inter",
+      "w": 139
+    },
+    {
+      "family": "Hiragino Kaku Gothic ProN",
+      "w": 32
+    }
+  ],
+  "sizes": [
+    {
+      "px": 24,
+      "w": 149
+    },
+    {
+      "px": 21,
+      "w": 96
+    },
+    {
+      "px": 20,
+      "w": 361
+    },
+    {
+      "px": 18,
+      "w": 550
+    },
+    {
+      "px": 16,
+      "w": 326
+    },
+    {
+      "px": 14,
+      "w": 425
+    }
+  ],
+  "body": {
+    "fs": 18,
+    "lh": 1.4,
+    "ls": "0.300em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 24,
+        "weight": "500",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "Inter"
+      },
+      {
+        "fs": 24,
+        "weight": "500",
+        "lh": 1.4,
+        "ls": "0.100em",
+        "family": "Inter"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 48,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0.050em",
+        "family": "Zen Old Mincho"
+      },
+      {
+        "fs": 28,
+        "weight": "600",
+        "lh": 2,
+        "ls": "0.400em",
+        "family": "Zen Old Mincho"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 30
+    },
+    {
+      "px": 24,
+      "n": 12
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 60,
+      "n": 6
+    },
+    {
+      "px": 120,
+      "n": 6
+    },
+    {
+      "px": 180,
+      "n": 3
+    },
+    {
+      "px": 100,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1224,
+      "n": 14
+    },
+    {
+      "px": 720,
+      "n": 7
+    },
+    {
+      "px": 888,
+      "n": 6
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#000000",
+      "border": "1px #000000",
+      "radius": "24px",
+      "pad": "0px 0px",
+      "fs": 21,
+      "weight": "500",
+      "h": 40,
+      "ls": "0",
+      "n": 8
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": "1px #ffffff",
+      "radius": "24px",
+      "pad": "0px 0px",
+      "fs": 21,
+      "weight": "500",
+      "h": 40,
+      "ls": "0",
+      "n": 4
+    }
+  ],
+  "bp": [
+    {
+      "px": 1180,
+      "n": 154
+    },
+    {
+      "px": 840,
+      "n": 319
+    },
+    {
+      "px": 690,
+      "n": 449
+    },
+    {
+      "px": 360,
+      "n": 261
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": "#344842",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1060,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 360,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "42:58"
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "50:50"
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "47:53"
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "47:53"
+    },
+    {
+      "h": 840,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 580,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "33:67"
+    },
+    {
+      "h": 400,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1180,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1380,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 640,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#dbdbda",
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 440,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 200,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#2c423b",
+      "n": 2
+    },
+    {
+      "hex": "#ffffff",
+      "n": 1
+    },
+    {
+      "hex": "#344842",
+      "n": 1
+    },
+    {
+      "hex": "#dbdbda",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 28,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 13
+      },
+      {
+        "ratio": "3:2",
+        "n": 4
+      },
+      {
+        "ratio": "4:3",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 28
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2.4,
+    "sizes": [
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "pad": 32,
+    "gap": null,
+    "sidePad": 20,
+    "h1": {
+      "fs": 16,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 1,
+      "文字": 63,
+      "枠": 5,
+      "ボタン": 0
+    },
+    {
+      "hex": "#2c423b",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#344842",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#dbdbda",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 1,
+      "文字": 27,
+      "枠": 31,
+      "ボタン": 0
+    },
+    {
+      "hex": "#191919",
+      "面": 0,
+      "文字": 24,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#333333",
+      "面": 0,
+      "文字": 5,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "明朝",
+    "余白つまった",
+    "角ばった",
+    "モノトーン"
+  ]
+}

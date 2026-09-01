@@ -1,0 +1,574 @@
+{
+  "slug": "msb",
+  "url": "https://ms-b.jp/",
+  "title": "民泊清掃代行のM's B（エムズビー）",
+  "desc": "M's Bは全国の都道府県で、品質にこだわった民泊清掃代行サービスを提供しています。業界随一の清掃クオリティでお客様から高い評価をいただき、契約継続率は約98％。物件オーナー様に安心してお任せいただける、充実のサポート体制も整えております。",
+  "bg": [
+    {
+      "hex": "#f5f4f4",
+      "pct": 50
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 34.2
+    },
+    {
+      "hex": "#f38089",
+      "pct": 6.6
+    },
+    {
+      "hex": "#e60012",
+      "pct": 4.9
+    },
+    {
+      "hex": "#d8d5d5",
+      "pct": 3.9
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#231815",
+      "pct": 84.8
+    },
+    {
+      "hex": "#e60012",
+      "pct": 10.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 4.4
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 3628
+    },
+    {
+      "family": "Inter",
+      "w": 189
+    }
+  ],
+  "sizes": [
+    {
+      "px": 24,
+      "w": 194
+    },
+    {
+      "px": 20,
+      "w": 116
+    },
+    {
+      "px": 18,
+      "w": 582
+    },
+    {
+      "px": 16,
+      "w": 766
+    },
+    {
+      "px": 15,
+      "w": 1661
+    },
+    {
+      "px": 14,
+      "w": 286
+    }
+  ],
+  "body": {
+    "fs": 15,
+    "lh": 1.87,
+    "ls": "0"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 10,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 1.25,
+        "ls": "0.050em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1.25,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": 2,
+        "ls": "0.100em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 63
+    },
+    {
+      "px": 8,
+      "n": 26
+    },
+    {
+      "px": 16,
+      "n": 23
+    },
+    {
+      "px": 24,
+      "n": 22
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 24,
+      "n": 45
+    },
+    {
+      "px": 16,
+      "n": 22
+    },
+    {
+      "px": 8,
+      "n": 15
+    },
+    {
+      "px": 40,
+      "n": 8
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 136,
+      "n": 20
+    },
+    {
+      "px": 40,
+      "n": 7
+    },
+    {
+      "px": 64,
+      "n": 5
+    },
+    {
+      "px": 120,
+      "n": 5
+    }
+  ],
+  "container": [
+    {
+      "px": 1232,
+      "n": 41
+    },
+    {
+      "px": 596,
+      "n": 29
+    },
+    {
+      "px": 784,
+      "n": 13
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#e60012",
+      "border": "1px #e60012",
+      "radius": "15px",
+      "pad": "8px 16px",
+      "fs": 12,
+      "weight": "700",
+      "h": 32,
+      "ls": "0",
+      "n": 20
+    },
+    {
+      "bg": "transparent",
+      "color": "#231815",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "700",
+      "h": 72,
+      "ls": "0",
+      "n": 3
+    },
+    {
+      "bg": "#f5f4f4",
+      "color": "#231815",
+      "border": null,
+      "radius": "36px",
+      "pad": "20px 24px",
+      "fs": 14,
+      "weight": "700",
+      "h": 72,
+      "ls": "0",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 1160,
+      "n": 5
+    },
+    {
+      "px": 769,
+      "n": 455
+    },
+    {
+      "px": 768,
+      "n": 462
+    },
+    {
+      "px": 767,
+      "n": 5
+    },
+    {
+      "px": 479,
+      "n": 4
+    }
+  ],
+  "sections": [
+    {
+      "h": 1040,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "右",
+      "split": "36:64"
+    },
+    {
+      "h": 200,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 940,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1780,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#f5f4f4",
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 820,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 540,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": "#f5f4f4",
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 560,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 2780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1380,
+      "full": true,
+      "cols": 2,
+      "img": false,
+      "bg": "#f5f4f4",
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1980,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1340,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#f5f4f4",
+      "align": "左",
+      "media": "右",
+      "split": "35:65"
+    },
+    {
+      "h": 940,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#f5f4f4",
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#e60012",
+      "align": "左",
+      "media": "右",
+      "split": "28:72"
+    },
+    {
+      "h": 640,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#d8d5d5",
+      "align": "中央",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#ffffff",
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f5f4f4",
+      "n": 17
+    },
+    {
+      "hex": "#ffffff",
+      "n": 13
+    },
+    {
+      "hex": "#f38089",
+      "n": 10
+    },
+    {
+      "hex": "#e60012",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#f5f4f4",
+      "radius": 24,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 10
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "#f5f4f4",
+      "radius": 16,
+      "pad": "24/24",
+      "border": null,
+      "shadow": null,
+      "n": 10
+    }
+  ],
+  "chips": [
+    {
+      "bg": "transparent",
+      "color": "#e60012",
+      "radius": "15px",
+      "pad": "8px 16px",
+      "fs": 12,
+      "border": "1px",
+      "n": 20
+    }
+  ],
+  "images": {
+    "n": 88,
+    "fullBleed": 3,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 43
+      },
+      {
+        "ratio": "16:9",
+        "n": 23
+      },
+      {
+        "ratio": "3:2",
+        "n": 12
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 86
+      },
+      {
+        "px": 16,
+        "n": 2
+      }
+    ]
+  },
+  "circles": {
+    "n": 23,
+    "sizes": [
+      {
+        "px": 64,
+        "n": 12
+      },
+      {
+        "px": 120,
+        "n": 6
+      },
+      {
+        "px": 40,
+        "n": 4
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.79,
+    "sizes": [
+      20,
+      16,
+      15,
+      14,
+      13
+    ],
+    "pad": 80,
+    "gap": 16,
+    "sidePad": 24,
+    "h1": {
+      "fs": 24,
+      "lh": 1.33
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f5f4f4",
+      "面": 47,
+      "文字": 0,
+      "枠": 1,
+      "ボタン": 3
+    },
+    {
+      "hex": "#ffffff",
+      "面": 58,
+      "文字": 20,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f38089",
+      "面": 16,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#e60012",
+      "面": 12,
+      "文字": 94,
+      "枠": 41,
+      "ボタン": 0
+    },
+    {
+      "hex": "#d8d5d5",
+      "面": 1,
+      "文字": 0,
+      "枠": 51,
+      "ボタン": 0
+    },
+    {
+      "hex": "#231815",
+      "面": 3,
+      "文字": 211,
+      "枠": 0,
+      "ボタン": 2
+    }
+  ],
+  "accent": "#e60012",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

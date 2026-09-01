@@ -1,0 +1,429 @@
+{
+  "slug": "shunsukesatake",
+  "url": "https://shunsukesatake.com/",
+  "title": "サタケシュンスケ / イラストレーター・キャラクターデザイナー",
+  "desc": "イラストレーター・キャラクターデザイナーサタケシュンスケのポートフォリオサイトです。イラストレーションを通して人と社会を繋ぐ仕事をしています。動物や人物をデフォルメし平面的に構成し表現するのが得意です。",
+  "bg": [
+    {
+      "hex": "#666666",
+      "pct": 87
+    },
+    {
+      "hex": "#2d1001",
+      "pct": 12.1
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 0.6
+    },
+    {
+      "hex": "#fceede",
+      "pct": 0.3
+    },
+    {
+      "hex": "#261a11",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#2d1001",
+      "pct": 70.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 22
+    },
+    {
+      "hex": "#6d6c69",
+      "pct": 6.5
+    },
+    {
+      "hex": "#000000",
+      "pct": 0.5
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "YakuHanJP",
+      "w": 1151
+    }
+  ],
+  "sizes": [
+    {
+      "px": 22,
+      "w": 75
+    },
+    {
+      "px": 18,
+      "w": 369
+    },
+    {
+      "px": 16,
+      "w": 269
+    },
+    {
+      "px": 15,
+      "w": 72
+    },
+    {
+      "px": 14,
+      "w": 127
+    },
+    {
+      "px": 13,
+      "w": 143
+    }
+  ],
+  "body": {
+    "fs": 18,
+    "lh": 1.6,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 16,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0",
+        "family": "YakuHanJP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 20,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "YakuHanJP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 13
+    },
+    {
+      "px": 10,
+      "n": 12
+    },
+    {
+      "px": 11,
+      "n": 3
+    },
+    {
+      "px": 13,
+      "n": 3
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 8,
+      "n": 17
+    },
+    {
+      "px": 15,
+      "n": 8
+    },
+    {
+      "px": 20,
+      "n": 3
+    },
+    {
+      "px": 32,
+      "n": 3
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 36,
+      "n": 4
+    },
+    {
+      "px": 92,
+      "n": 3
+    },
+    {
+      "px": 48,
+      "n": 2
+    },
+    {
+      "px": 120,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1304,
+      "n": 17
+    },
+    {
+      "px": 680,
+      "n": 4
+    },
+    {
+      "px": 1084,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 13,
+      "weight": "400",
+      "h": 35,
+      "ls": "0.65px",
+      "n": 5
+    },
+    {
+      "bg": "transparent",
+      "color": "#2d1001",
+      "border": "1px #dfdcd9",
+      "radius": "1440px",
+      "pad": "11px 15px",
+      "fs": 16,
+      "weight": "400",
+      "h": 38,
+      "ls": "0.64px",
+      "n": 3
+    },
+    {
+      "bg": "transparent",
+      "color": "#2d1001",
+      "border": "1px #dfdcd9",
+      "radius": "1440px",
+      "pad": "15px 25px",
+      "fs": 16,
+      "weight": "500",
+      "h": 60,
+      "ls": "0.64px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1150,
+      "n": 14
+    },
+    {
+      "px": 1024,
+      "n": 47
+    },
+    {
+      "px": 880,
+      "n": 32
+    },
+    {
+      "px": 768,
+      "n": 338
+    },
+    {
+      "px": 430,
+      "n": 18
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#666666",
+      "n": 12
+    },
+    {
+      "hex": "#f0f0f0",
+      "n": 3
+    },
+    {
+      "hex": "#2d1001",
+      "n": 3
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#fffefd",
+      "bg": "transparent",
+      "radius": 10,
+      "pad": "0/0",
+      "border": "1px #eeeeee",
+      "shadow": null,
+      "n": 12
+    },
+    {
+      "onBg": "#fffefd",
+      "bg": "#666666",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 12
+    }
+  ],
+  "chips": [
+    {
+      "bg": "transparent",
+      "color": "#2d1001",
+      "radius": "999px",
+      "pad": "11px 15px",
+      "fs": 16,
+      "border": "1px",
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 28,
+    "fullBleed": 5,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 26
+      },
+      {
+        "ratio": "3:4",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 28
+      }
+    ]
+  },
+  "circles": {
+    "n": 9,
+    "sizes": [
+      {
+        "px": 24,
+        "n": 5
+      },
+      {
+        "px": 32,
+        "n": 2
+      },
+      {
+        "px": 56,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 15,
+    "bodyLh": 1.7,
+    "sizes": [
+      16,
+      15,
+      14,
+      12,
+      11
+    ],
+    "pad": 32,
+    "gap": 8,
+    "sidePad": 26,
+    "h1": {
+      "fs": 17,
+      "lh": 1
+    }
+  },
+  "usage": [
+    {
+      "hex": "#666666",
+      "面": 12,
+      "文字": 21,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#2d1001",
+      "面": 6,
+      "文字": 82,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 2,
+      "文字": 28,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#fceede",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#2d1001",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

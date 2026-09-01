@@ -1,0 +1,346 @@
+{
+  "slug": "gotonotsubaki",
+  "url": "https://gotonotsubaki.co.jp/",
+  "title": "五島の椿オンラインショップ",
+  "desc": "日々あたらしく肌に、咲く。五島の椿の、その溢れ出る生命力をスキンケアへ。日本一の自生本数を誇る五島の椿。その花や種、葉、果皮、酵母を使用して、私たち五島の椿は商品開発を行っています。",
+  "bg": [
+    {
+      "hex": "#f0eeec",
+      "pct": 81.4
+    },
+    {
+      "hex": "#cf000e",
+      "pct": 9.8
+    },
+    {
+      "hex": "#003723",
+      "pct": 7.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 1
+    },
+    {
+      "hex": "#d9d9d9",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#cf000e",
+      "pct": 61.5
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 37.8
+    },
+    {
+      "hex": "#003723",
+      "pct": 0.7
+    }
+  ],
+  "pageBg": "#f0eeec",
+  "fonts": [
+    {
+      "family": "荳ｸ譏弱が繝ｼ繝ｫ繝� StdN R",
+      "w": 1098
+    },
+    {
+      "family": "AGaramondPro-Italic",
+      "w": 121
+    }
+  ],
+  "sizes": [
+    {
+      "px": 28,
+      "w": 24
+    },
+    {
+      "px": 24,
+      "w": 23
+    },
+    {
+      "px": 20,
+      "w": 581
+    },
+    {
+      "px": 16,
+      "w": 354
+    },
+    {
+      "px": 14,
+      "w": 78
+    },
+    {
+      "px": 12,
+      "w": 122
+    }
+  ],
+  "body": {
+    "fs": 20,
+    "lh": 2,
+    "ls": "0.035em"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 20,
+        "weight": "400",
+        "lh": 1.55,
+        "ls": "0.080em",
+        "family": "荳ｸ譏弱が繝ｼ繝ｫ繝� StdN R"
+      },
+      {
+        "fs": 20,
+        "weight": "400",
+        "lh": 1.55,
+        "ls": "0.035em",
+        "family": "荳ｸ譏弱が繝ｼ繝ｫ繝� StdN R"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 24,
+        "weight": "400",
+        "lh": 1.55,
+        "ls": "0.029em",
+        "family": "荳ｸ譏弱が繝ｼ繝ｫ繝� StdN R"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 4,
+      "n": 26
+    },
+    {
+      "px": 0,
+      "n": 9
+    }
+  ],
+  "shadow": [],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 160,
+      "n": 9
+    },
+    {
+      "px": 48,
+      "n": 2
+    },
+    {
+      "px": 60,
+      "n": 1
+    },
+    {
+      "px": 64,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1152,
+      "n": 15
+    },
+    {
+      "px": 744,
+      "n": 5
+    },
+    {
+      "px": 800,
+      "n": 3
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#cf000e",
+      "border": "1px #cf000e",
+      "radius": "4px",
+      "pad": "0px 0px",
+      "fs": 20,
+      "weight": "400",
+      "h": 50,
+      "ls": "2.4px",
+      "n": 5
+    },
+    {
+      "bg": "#cf000e",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "4px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "400",
+      "h": 40,
+      "ls": "1.92px",
+      "n": 3
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#003723",
+      "border": null,
+      "radius": "4px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "400",
+      "h": 40,
+      "ls": "1.92px",
+      "n": 2
+    }
+  ],
+  "bp": [],
+  "sections": [
+    {
+      "h": 2100,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1160,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": "#f0eeec",
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1620,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#f0eeec",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1220,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#003723",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 940,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#f0eeec",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#f0eeec",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f0eeec",
+      "n": 5
+    },
+    {
+      "hex": "#cf000e",
+      "n": 2
+    },
+    {
+      "hex": "#003723",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 18,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 12
+      },
+      {
+        "ratio": "16:9",
+        "n": 5
+      },
+      {
+        "ratio": "21:9",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 18
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": null,
+    "bodyLh": null,
+    "sizes": [],
+    "pad": null,
+    "gap": null,
+    "sidePad": null,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#f0eeec",
+      "面": 5,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#cf000e",
+      "面": 9,
+      "文字": 58,
+      "枠": 5,
+      "ボタン": 4
+    },
+    {
+      "hex": "#003723",
+      "面": 1,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 10,
+      "文字": 38,
+      "枠": 5,
+      "ボタン": 3
+    }
+  ],
+  "accent": "#cf000e",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

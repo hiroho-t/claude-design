@@ -1,0 +1,432 @@
+{
+  "slug": "speeda",
+  "url": "https://jp.ub-speeda.com/",
+  "title": "経済情報プラットフォーム スピーダ(Speeda)",
+  "desc": "AI時代の意思決定を支える経済情報プラットフォームです。世界中の企業・業界データとエキスパートの知見をベースに、経済特化型のAIエージェントが、あらゆる調査・分析を深く、正しく、簡単にします。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 72.2
+    },
+    {
+      "hex": "#f5f5f5",
+      "pct": 15.9
+    },
+    {
+      "hex": "#cbcbcb",
+      "pct": 11
+    },
+    {
+      "hex": "#ededed",
+      "pct": 0.5
+    },
+    {
+      "hex": "#e60f3d",
+      "pct": 0.4
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#191919",
+      "pct": 43.3
+    },
+    {
+      "hex": "#6f6f6f",
+      "pct": 39.2
+    },
+    {
+      "hex": "#f72a48",
+      "pct": 10.5
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 3.3
+    }
+  ],
+  "pageBg": "#f5f5f5",
+  "fonts": [
+    {
+      "family": "Shorai Sans StdN Medium",
+      "w": 1403
+    },
+    {
+      "family": "Shorai Sans StdN Demi",
+      "w": 1126
+    },
+    {
+      "family": "Noto Sans JP",
+      "w": 351
+    }
+  ],
+  "sizes": [
+    {
+      "px": 24,
+      "w": 244
+    },
+    {
+      "px": 16,
+      "w": 272
+    },
+    {
+      "px": 14,
+      "w": 808
+    },
+    {
+      "px": 13,
+      "w": 269
+    },
+    {
+      "px": 12,
+      "w": 528
+    },
+    {
+      "px": 11,
+      "w": 387
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.75,
+    "ls": "0.015em"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 24,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0.030em",
+        "family": "Shorai Sans StdN Demi"
+      },
+      {
+        "fs": 20,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0.030em",
+        "family": "Shorai Sans StdN Demi"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 16,
+        "weight": "400",
+        "lh": 1.75,
+        "ls": "0.030em",
+        "family": "Shorai Sans StdN Demi"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 10,
+      "n": 34
+    },
+    {
+      "px": 0,
+      "n": 17
+    },
+    {
+      "px": 7,
+      "n": 9
+    },
+    {
+      "px": 12,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 10,
+      "n": 9
+    },
+    {
+      "px": 5,
+      "n": 5
+    },
+    {
+      "px": 15,
+      "n": 5
+    },
+    {
+      "px": 4,
+      "n": 4
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 120,
+      "n": 11
+    },
+    {
+      "px": 80,
+      "n": 10
+    },
+    {
+      "px": 40,
+      "n": 3
+    },
+    {
+      "px": 60,
+      "n": 3
+    }
+  ],
+  "container": [
+    {
+      "px": 880,
+      "n": 22
+    },
+    {
+      "px": 1200,
+      "n": 22
+    },
+    {
+      "px": 1040,
+      "n": 14
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffe8e8",
+      "color": "#d30030",
+      "border": null,
+      "radius": "9999px",
+      "pad": "10px 18px",
+      "fs": 16,
+      "weight": "400",
+      "h": 44,
+      "ls": "0.48px",
+      "n": 1
+    },
+    {
+      "bg": "#e60f3d",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "9999px",
+      "pad": "10px 18px",
+      "fs": 16,
+      "weight": "400",
+      "h": 44,
+      "ls": "0.48px",
+      "n": 1
+    },
+    {
+      "bg": "#e60f3d",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "9999px",
+      "pad": "11px 22px",
+      "fs": 16,
+      "weight": "400",
+      "h": 46,
+      "ls": "0.48px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1440,
+      "n": 4
+    },
+    {
+      "px": 1280,
+      "n": 16
+    },
+    {
+      "px": 1024,
+      "n": 52
+    },
+    {
+      "px": 768,
+      "n": 10
+    },
+    {
+      "px": 640,
+      "n": 3
+    }
+  ],
+  "sections": [
+    {
+      "h": 9340,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "36:64"
+    },
+    {
+      "h": 1040,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": "#cbcbcb",
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 22
+    },
+    {
+      "hex": "#f5f5f5",
+      "n": 2
+    },
+    {
+      "hex": "#cbcbcb",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f5f5f5",
+      "bg": "#ffffff",
+      "radius": 10,
+      "pad": "40/30",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    },
+    {
+      "onBg": "#cbcbcb",
+      "bg": "#ffffff",
+      "radius": 10,
+      "pad": "60/40",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#ffe8e8",
+      "color": "#d30030",
+      "radius": "999px",
+      "pad": "0px 12px",
+      "fs": 12,
+      "border": null,
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 18,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 8
+      },
+      {
+        "ratio": "16:9",
+        "n": 8
+      },
+      {
+        "ratio": "4:3",
+        "n": 2
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 15
+      },
+      {
+        "px": 18,
+        "n": 3
+      }
+    ]
+  },
+  "circles": {
+    "n": 11,
+    "sizes": [
+      {
+        "px": 32,
+        "n": 11
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 12,
+    "bodyLh": 1.75,
+    "sizes": [
+      20,
+      14,
+      13,
+      12,
+      11
+    ],
+    "pad": 40,
+    "gap": 10,
+    "sidePad": 20,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 35,
+      "文字": 11,
+      "枠": 5,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f5f5f5",
+      "面": 16,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#cbcbcb",
+      "面": 1,
+      "文字": 0,
+      "枠": 17,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ededed",
+      "面": 4,
+      "文字": 0,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#e60f3d",
+      "面": 4,
+      "文字": 1,
+      "枠": 0,
+      "ボタン": 2
+    },
+    {
+      "hex": "#191919",
+      "面": 0,
+      "文字": 107,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#6f6f6f",
+      "面": 0,
+      "文字": 57,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f72a48",
+      "面": 0,
+      "文字": 31,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#f72a48",
+  "tags": [
+    "ゴシック",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

@@ -1,0 +1,438 @@
+{
+  "slug": "douraku",
+  "url": "https://douraku.co.jp/",
+  "title": "かに道楽 | かに道楽グループのホームページ。全国にあるかに道楽グループの店舗情報や詳しいメニュー紹介を掲載。通販サイトではかに道楽オリジナル商品も購入できます。",
+  "desc": "かに道楽グループのホームページ。全国にあるかに道楽グループの店舗情報や詳しいメニュー紹介を掲載。通販サイトではかに道楽オリジナル商品も購入できます。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 97.1
+    },
+    {
+      "hex": "#f5e7de",
+      "pct": 2.1
+    },
+    {
+      "hex": "#cb2f26",
+      "pct": 0.6
+    },
+    {
+      "hex": "#000000",
+      "pct": 0.3
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#000000",
+      "pct": 69.4
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 17.7
+    },
+    {
+      "hex": "#d04537",
+      "pct": 4.6
+    },
+    {
+      "hex": "#7f7e7e",
+      "pct": 3.5
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Shippori Mincho",
+      "w": 1537
+    },
+    {
+      "family": "Crimson Pro",
+      "w": 188
+    }
+  ],
+  "sizes": [
+    {
+      "px": 20,
+      "w": 94
+    },
+    {
+      "px": 18,
+      "w": 216
+    },
+    {
+      "px": 15,
+      "w": 756
+    },
+    {
+      "px": 14,
+      "w": 237
+    },
+    {
+      "px": 13,
+      "w": 153
+    },
+    {
+      "px": 12,
+      "w": 123
+    }
+  ],
+  "body": {
+    "fs": 15,
+    "lh": 1.8,
+    "ls": "0.040em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 40,
+        "weight": "600",
+        "lh": null,
+        "ls": "0",
+        "family": "Shippori Mincho"
+      },
+      {
+        "fs": 48,
+        "weight": "600",
+        "lh": 1.63,
+        "ls": "0.050em",
+        "family": "Shippori Mincho"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 20,
+        "weight": "600",
+        "lh": null,
+        "ls": "0.040em",
+        "family": "Shippori Mincho"
+      },
+      {
+        "fs": 20,
+        "weight": "600",
+        "lh": null,
+        "ls": "0.100em",
+        "family": "Shippori Mincho"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 4,
+      "n": 21
+    },
+    {
+      "px": 0,
+      "n": 9
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.1) 0px 20px 40px 0px",
+      "n": 17
+    }
+  ],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 140,
+      "n": 7
+    },
+    {
+      "px": 124,
+      "n": 2
+    },
+    {
+      "px": 104,
+      "n": 1
+    },
+    {
+      "px": 136,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 824,
+      "n": 6
+    },
+    {
+      "px": 1140,
+      "n": 6
+    },
+    {
+      "px": 1180,
+      "n": 6
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#000000",
+      "border": "1px #cccccc",
+      "radius": "4px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "400",
+      "h": 31,
+      "ls": "0",
+      "n": 1
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 15,
+      "weight": "600",
+      "h": 60,
+      "ls": "0.3px",
+      "n": 1
+    },
+    {
+      "bg": "#cb2f26",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "4px",
+      "pad": "0px 0px",
+      "fs": 15,
+      "weight": "600",
+      "h": 60,
+      "ls": "0.3px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1280,
+      "n": 3
+    },
+    {
+      "px": 1080,
+      "n": 1
+    },
+    {
+      "px": 768,
+      "n": 5
+    },
+    {
+      "px": 375,
+      "n": 1
+    },
+    {
+      "px": 320,
+      "n": 1
+    }
+  ],
+  "sections": [
+    {
+      "h": 800,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1560,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "62:38"
+    },
+    {
+      "h": 1720,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "35:65"
+    },
+    {
+      "h": 820,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "右",
+      "split": "74:26"
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#ffffff",
+      "align": "左",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 16
+    }
+  ],
+  "cards": [
+    {
+      "onBg": null,
+      "bg": "#ffffff",
+      "radius": 4,
+      "pad": "26/26",
+      "border": null,
+      "shadow": "rgba(0, 0, 0, 0.1) 0px 20px 40px 0px",
+      "n": 10
+    },
+    {
+      "onBg": null,
+      "bg": "#ffffff",
+      "radius": 4,
+      "pad": "10/10",
+      "border": null,
+      "shadow": "rgba(0, 0, 0, 0.1) 0px 20px 40px 0px",
+      "n": 4
+    }
+  ],
+  "chips": [
+    {
+      "bg": "transparent",
+      "color": "#d04537",
+      "radius": "999px",
+      "pad": "0px 10px",
+      "fs": 12,
+      "border": "1px",
+      "n": 5
+    }
+  ],
+  "images": {
+    "n": 32,
+    "fullBleed": 1,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 10
+      },
+      {
+        "ratio": "16:9",
+        "n": 7
+      },
+      {
+        "ratio": "3:4",
+        "n": 6
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 32
+      }
+    ]
+  },
+  "circles": {
+    "n": 3,
+    "sizes": [
+      {
+        "px": 40,
+        "n": 3
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.7,
+    "sizes": [
+      16,
+      15,
+      14,
+      12,
+      11
+    ],
+    "pad": 24,
+    "gap": null,
+    "sidePad": 40,
+    "h1": {
+      "fs": 32,
+      "lh": null
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 26,
+      "文字": 22,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f5e7de",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#cb2f26",
+      "面": 1,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 86,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#d04537",
+      "面": 0,
+      "文字": 19,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#7f7e7e",
+      "面": 0,
+      "文字": 3,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#d04537",
+  "tags": [
+    "明朝",
+    "余白ひろい",
+    "角ばった",
+    "色つき"
+  ]
+}

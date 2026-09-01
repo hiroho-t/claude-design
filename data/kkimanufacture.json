@@ -1,0 +1,431 @@
+{
+  "slug": "kkimanufacture",
+  "url": "https://manufacture.v-kki.co.jp/",
+  "title": "有限会社KKI製造部｜パンのパッケージ等食品包装材製造業",
+  "desc": "有限会社KKI製造部は食品パッケージを製造する会社です。拠点は豊山、厚木、摂津の3工場です。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 99.7
+    },
+    {
+      "hex": "#006dd2",
+      "pct": 0.3
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#465059",
+      "pct": 66.6
+    },
+    {
+      "hex": "#006dd2",
+      "pct": 11
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 8.3
+    },
+    {
+      "hex": "#8c8d8d",
+      "pct": 6.8
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 1006
+    },
+    {
+      "family": "Roboto",
+      "w": 94
+    }
+  ],
+  "sizes": [
+    {
+      "px": 28,
+      "w": 23
+    },
+    {
+      "px": 18,
+      "w": 58
+    },
+    {
+      "px": 16,
+      "w": 84
+    },
+    {
+      "px": 15,
+      "w": 791
+    },
+    {
+      "px": 13,
+      "w": 43
+    },
+    {
+      "px": 11,
+      "w": 55
+    }
+  ],
+  "body": {
+    "fs": 15,
+    "lh": 2.3,
+    "ls": "0.080em"
+  },
+  "headings": {
+    "h1": [
+      {
+        "fs": 15,
+        "weight": "400",
+        "lh": 2.3,
+        "ls": "0.080em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 40,
+        "weight": "300",
+        "lh": 1.7,
+        "ls": "0.080em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 15,
+        "weight": "400",
+        "lh": 2.2,
+        "ls": "0.080em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 28,
+      "n": 4
+    },
+    {
+      "px": 20,
+      "n": 2
+    },
+    {
+      "px": 40,
+      "n": 2
+    },
+    {
+      "px": 0,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 8,
+      "n": 5
+    },
+    {
+      "px": 40,
+      "n": 5
+    },
+    {
+      "px": 10,
+      "n": 4
+    },
+    {
+      "px": 16,
+      "n": 4
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 32,
+      "n": 1
+    },
+    {
+      "px": 36,
+      "n": 1
+    },
+    {
+      "px": 40,
+      "n": 1
+    },
+    {
+      "px": 76,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1192,
+      "n": 3
+    },
+    {
+      "px": 1360,
+      "n": 3
+    },
+    {
+      "px": 1048,
+      "n": 2
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#006dd2",
+      "border": "1px #88c8ff",
+      "radius": "40px",
+      "pad": "20px 30px",
+      "fs": 16,
+      "weight": "350",
+      "h": 74,
+      "ls": "1.28px",
+      "n": 2
+    },
+    {
+      "bg": "transparent",
+      "color": "#006dd2",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "400",
+      "h": 66,
+      "ls": "1.28px",
+      "n": 1
+    }
+  ],
+  "bp": [],
+  "sections": [
+    {
+      "h": 1540,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 260,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1120,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 1000,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 120,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 760,
+      "full": false,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1040,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1080,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "31:69"
+    },
+    {
+      "h": 560,
+      "full": false,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 500,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 420,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 520,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 6
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#ffffff",
+      "bg": "#ffffff",
+      "radius": 28,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 3
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 9,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "2:3",
+        "n": 3
+      },
+      {
+        "ratio": "3:4",
+        "n": 2
+      },
+      {
+        "ratio": "1:1",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 7
+      },
+      {
+        "px": 40,
+        "n": 2
+      }
+    ]
+  },
+  "circles": {
+    "n": 5,
+    "sizes": [
+      {
+        "px": 64,
+        "n": 5
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 2.3,
+    "sizes": [
+      20,
+      16,
+      14,
+      13,
+      11
+    ],
+    "pad": 32,
+    "gap": 24,
+    "sidePad": 24,
+    "h1": {
+      "fs": 14,
+      "lh": 2.3
+    }
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 10,
+      "文字": 6,
+      "枠": 4,
+      "ボタン": 0
+    },
+    {
+      "hex": "#006dd2",
+      "面": 5,
+      "文字": 15,
+      "枠": 5,
+      "ボタン": 0
+    },
+    {
+      "hex": "#465059",
+      "面": 0,
+      "文字": 8,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#8c8d8d",
+      "面": 0,
+      "文字": 10,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#006dd2",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角丸",
+    "色つき"
+  ]
+}

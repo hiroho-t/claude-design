@@ -1,0 +1,455 @@
+{
+  "slug": "jorganic-coffee",
+  "url": "https://www.jorganic-coffee.jp/",
+  "title": "j.organic coffee",
+  "desc": "J.オーガニックコーヒーは、長野県初のオーガニックコーヒー焙煎所です。自分にも、他人にも、自然にもやさしくなれるコーヒーをつくりました。",
+  "bg": [
+    {
+      "hex": "#ffffff",
+      "pct": 69.1
+    },
+    {
+      "hex": "#ede4e1",
+      "pct": 25.5
+    },
+    {
+      "hex": "#cac1b9",
+      "pct": 5.2
+    },
+    {
+      "hex": "#4e4b49",
+      "pct": 0.2
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#4e4b49",
+      "pct": 84.8
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 11.1
+    },
+    {
+      "hex": "#000000",
+      "pct": 2.3
+    },
+    {
+      "hex": "#cac1b9",
+      "pct": 1.8
+    }
+  ],
+  "pageBg": "#f6f1ed",
+  "fonts": [
+    {
+      "family": "Zen Kaku Gothic New",
+      "w": 3188
+    },
+    {
+      "family": "Klee One",
+      "w": 27
+    }
+  ],
+  "sizes": [
+    {
+      "px": 76,
+      "w": 46
+    },
+    {
+      "px": 21,
+      "w": 297
+    },
+    {
+      "px": 20,
+      "w": 66
+    },
+    {
+      "px": 17,
+      "w": 2408
+    },
+    {
+      "px": 16,
+      "w": 86
+    },
+    {
+      "px": 13,
+      "w": 187
+    }
+  ],
+  "body": {
+    "fs": 17,
+    "lh": 2,
+    "ls": "0.050em"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 59,
+        "weight": "400",
+        "lh": 2,
+        "ls": "0.014em",
+        "family": "Klee One"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 33,
+        "weight": "400",
+        "lh": 2,
+        "ls": "0.026em",
+        "family": "Zen Kaku Gothic New"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 1
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 72,
+      "n": 5
+    },
+    {
+      "px": 24,
+      "n": 4
+    },
+    {
+      "px": 144,
+      "n": 4
+    },
+    {
+      "px": 25,
+      "n": 3
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 72,
+      "n": 6
+    },
+    {
+      "px": 160,
+      "n": 5
+    },
+    {
+      "px": 36,
+      "n": 1
+    },
+    {
+      "px": 48,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1108,
+      "n": 9
+    },
+    {
+      "px": 1368,
+      "n": 5
+    },
+    {
+      "px": 1196,
+      "n": 3
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#cac1b9",
+      "color": "#4e4b49",
+      "border": null,
+      "radius": "720px",
+      "pad": "0px 0px",
+      "fs": 17,
+      "weight": "400",
+      "h": 67,
+      "ls": "0.84px",
+      "n": 7
+    },
+    {
+      "bg": "transparent",
+      "color": "#4e4b49",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 17,
+      "weight": "400",
+      "h": 34,
+      "ls": "0.84px",
+      "n": 4
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#4e4b49",
+      "border": null,
+      "radius": "720px",
+      "pad": "4px 13px",
+      "fs": 13,
+      "weight": "400",
+      "h": 28,
+      "ls": "0.84px",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 1700,
+      "n": 6
+    },
+    {
+      "px": 1568,
+      "n": 5
+    },
+    {
+      "px": 1200,
+      "n": 8
+    },
+    {
+      "px": 1024,
+      "n": 60
+    },
+    {
+      "px": 768,
+      "n": 23
+    }
+  ],
+  "sections": [
+    {
+      "h": 120,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1240,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 680,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "中央",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 760,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 340,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1300,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 500,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 600,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1080,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 1180,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 1
+    },
+    {
+      "hex": "#ede4e1",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#4e4b49",
+      "radius": "999px",
+      "pad": "4px 13px",
+      "fs": 13,
+      "border": null,
+      "n": 3
+    }
+  ],
+  "images": {
+    "n": 27,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 8
+      },
+      {
+        "ratio": "3:4",
+        "n": 4
+      },
+      {
+        "ratio": "21:9",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 18
+      },
+      {
+        "px": 42,
+        "n": 8
+      }
+    ]
+  },
+  "circles": {
+    "n": 2,
+    "sizes": [
+      {
+        "px": 24,
+        "n": 1
+      },
+      {
+        "px": 72,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 12,
+    "bodyLh": 2,
+    "sizes": [
+      17,
+      16,
+      14,
+      12,
+      11
+    ],
+    "pad": 80,
+    "gap": 20,
+    "sidePad": 35,
+    "h1": null
+  },
+  "usage": [
+    {
+      "hex": "#ffffff",
+      "面": 5,
+      "文字": 47,
+      "枠": 0,
+      "ボタン": 3
+    },
+    {
+      "hex": "#ede4e1",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#cac1b9",
+      "面": 7,
+      "文字": 2,
+      "枠": 0,
+      "ボタン": 7
+    },
+    {
+      "hex": "#4e4b49",
+      "面": 1,
+      "文字": 129,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#000000",
+      "面": 0,
+      "文字": 14,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": null,
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "モノトーン"
+  ]
+}

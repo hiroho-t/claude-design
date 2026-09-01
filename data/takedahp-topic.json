@@ -1,0 +1,419 @@
+{
+  "slug": "takedahp-topic",
+  "url": "https://topic.takedahp.jp/",
+  "title": "武田病院画像診断センター | がん・認知症の早期発見、早期治療",
+  "desc": "京都駅前「武田病院画像診断センター」は、先進のPET-CT検査でがん・認知症の早期発見、早期治療にアプローチ。あなたの「未来」を支え続けます。",
+  "bg": [
+    {
+      "hex": "#0f3991",
+      "pct": 53.1
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 33.2
+    },
+    {
+      "hex": "#0633a7",
+      "pct": 13.6
+    },
+    {
+      "hex": "#444444",
+      "pct": 0
+    },
+    {
+      "hex": "#eaeaea",
+      "pct": 0
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#4c5662",
+      "pct": 40.5
+    },
+    {
+      "hex": "#f4f4f4",
+      "pct": 27.1
+    },
+    {
+      "hex": "#23364c",
+      "pct": 13.3
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 9.3
+    }
+  ],
+  "pageBg": "#f8f8f8",
+  "fonts": [
+    {
+      "family": "MFW-UDShinGoPr6-Regular",
+      "w": 522
+    },
+    {
+      "family": "MFW-UDShinGoCOeizPr6-Med",
+      "w": 512
+    },
+    {
+      "family": "MFW-UDShinGoPr6-Light",
+      "w": 412
+    },
+    {
+      "family": "MFW-UDShinGoCOeizPr6-Lig",
+      "w": 183
+    }
+  ],
+  "sizes": [
+    {
+      "px": 20,
+      "w": 134
+    },
+    {
+      "px": 16,
+      "w": 160
+    },
+    {
+      "px": 14,
+      "w": 473
+    },
+    {
+      "px": 13,
+      "w": 352
+    },
+    {
+      "px": 12,
+      "w": 325
+    },
+    {
+      "px": 11,
+      "w": 106
+    }
+  ],
+  "body": {
+    "fs": 14,
+    "lh": 1.8,
+    "ls": "0.040em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 12,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.080em",
+        "family": "MFW-UDShinGoCOeizPr6-Reg"
+      },
+      {
+        "fs": 18,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.080em",
+        "family": "MFW-UDShinGoCOeizPr6-Reg"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 18,
+        "weight": "300",
+        "lh": 1.6,
+        "ls": "0",
+        "family": "MFW-UDShinGoCOeizPr6-Lig"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 0,
+      "n": 33
+    },
+    {
+      "px": 4,
+      "n": 4
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.05) 0px 4px 16px 0px",
+      "n": 4
+    }
+  ],
+  "gap": [
+    {
+      "px": 16,
+      "n": 29
+    },
+    {
+      "px": 24,
+      "n": 10
+    },
+    {
+      "px": 48,
+      "n": 9
+    },
+    {
+      "px": 32,
+      "n": 7
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 80,
+      "n": 3
+    },
+    {
+      "px": 100,
+      "n": 3
+    },
+    {
+      "px": 48,
+      "n": 2
+    },
+    {
+      "px": 64,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1088,
+      "n": 33
+    },
+    {
+      "px": 576,
+      "n": 8
+    },
+    {
+      "px": 960,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#444444",
+      "border": "1px #444444",
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 14,
+      "weight": "400",
+      "h": 54,
+      "ls": "0",
+      "n": 5
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": "1px #ffffff",
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "400",
+      "h": 56,
+      "ls": "0",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 1920,
+      "n": 9
+    },
+    {
+      "px": 1023,
+      "n": 17
+    },
+    {
+      "px": 1022,
+      "n": 38
+    },
+    {
+      "px": 769,
+      "n": 21
+    },
+    {
+      "px": 768,
+      "n": 203
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 880,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": "#ffffff",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 3
+    },
+    {
+      "hex": "#0633a7",
+      "n": 2
+    },
+    {
+      "hex": "#0f3991",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f8f8f8",
+      "bg": "transparent",
+      "radius": 0,
+      "pad": "80/32",
+      "border": "1px #bfbfbf",
+      "shadow": null,
+      "n": 5
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 26,
+    "fullBleed": 2,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 15
+      },
+      {
+        "ratio": "1:1",
+        "n": 2
+      },
+      {
+        "ratio": "2:3",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 26
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 14,
+    "bodyLh": 1.7,
+    "sizes": [
+      25,
+      15,
+      14,
+      12,
+      11
+    ],
+    "pad": 32,
+    "gap": 17,
+    "sidePad": 21,
+    "h1": {
+      "fs": 12,
+      "lh": 1
+    }
+  },
+  "usage": [
+    {
+      "hex": "#0f3991",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 11,
+      "文字": 25,
+      "枠": 4,
+      "ボタン": 0
+    },
+    {
+      "hex": "#0633a7",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#444444",
+      "面": 0,
+      "文字": 5,
+      "枠": 8,
+      "ボタン": 0
+    },
+    {
+      "hex": "#4c5662",
+      "面": 0,
+      "文字": 59,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f4f4f4",
+      "面": 0,
+      "文字": 29,
+      "枠": 1,
+      "ボタン": 0
+    },
+    {
+      "hex": "#23364c",
+      "面": 0,
+      "文字": 21,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#23364c",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角ばった",
+    "色つき"
+  ]
+}

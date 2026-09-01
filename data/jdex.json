@@ -1,0 +1,403 @@
+{
+  "slug": "jdex",
+  "url": "https://j-dex.co.jp/",
+  "title": "株式会社Jdex | データを使ったブレイクスルーをあなたの会社にも",
+  "desc": "日本中のデータ利活用をサポートする「株式会社Jdex」の公式サイトです。データビジネスの戦略策定から実践まで幅広く伴走支援します。",
+  "bg": [
+    {
+      "hex": "#353031",
+      "pct": 42
+    },
+    {
+      "hex": "#57669e",
+      "pct": 20.7
+    },
+    {
+      "hex": "#b7282e",
+      "pct": 18.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 15.7
+    },
+    {
+      "hex": "#f5f5f5",
+      "pct": 3
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#ffffff",
+      "pct": 69.7
+    },
+    {
+      "hex": "#b7282e",
+      "pct": 14.5
+    },
+    {
+      "hex": "#353031",
+      "pct": 15.7
+    }
+  ],
+  "pageBg": "#353031",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 1401
+    },
+    {
+      "family": "Outfit",
+      "w": 179
+    }
+  ],
+  "sizes": [
+    {
+      "px": 20,
+      "w": 314
+    },
+    {
+      "px": 16,
+      "w": 433
+    },
+    {
+      "px": 15,
+      "w": 53
+    },
+    {
+      "px": 14,
+      "w": 166
+    },
+    {
+      "px": 13,
+      "w": 200
+    },
+    {
+      "px": 11,
+      "w": 112
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 2,
+    "ls": "0.031em"
+  },
+  "headings": {
+    "h3": [
+      {
+        "fs": 16,
+        "weight": "500",
+        "lh": 1.87,
+        "ls": "0.031em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 20,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "0.025em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 12,
+        "weight": "400",
+        "lh": 2,
+        "ls": "0.042em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 20,
+      "n": 6
+    },
+    {
+      "px": 25,
+      "n": 4
+    },
+    {
+      "px": 0,
+      "n": 3
+    },
+    {
+      "px": 10,
+      "n": 3
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.25) 0px 4px 4px 0px",
+      "n": 3
+    },
+    {
+      "css": "rgba(0, 0, 0, 0.25) 0px 2px 2px 0px",
+      "n": 2
+    }
+  ],
+  "gap": [],
+  "sectionPad": [
+    {
+      "px": 68,
+      "n": 3
+    },
+    {
+      "px": 60,
+      "n": 2
+    },
+    {
+      "px": 112,
+      "n": 2
+    },
+    {
+      "px": 36,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 616,
+      "n": 6
+    },
+    {
+      "px": 1264,
+      "n": 5
+    },
+    {
+      "px": 880,
+      "n": 4
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#b7282e",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "25px",
+      "pad": "0px 0px",
+      "fs": 20,
+      "weight": "400",
+      "h": 46,
+      "ls": "0.5px",
+      "n": 4
+    },
+    {
+      "bg": "#b7282e",
+      "color": "#ffffff",
+      "border": "1px #b7282e",
+      "radius": "10px",
+      "pad": "0px 0px",
+      "fs": 20,
+      "weight": "400",
+      "h": 75,
+      "ls": "0.5px",
+      "n": 1
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#353031",
+      "border": null,
+      "radius": "5px",
+      "pad": "7px 0px",
+      "fs": 11,
+      "weight": "500",
+      "h": 36,
+      "ls": "0.5px",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1250,
+      "n": 2
+    },
+    {
+      "px": 1200,
+      "n": 2
+    },
+    {
+      "px": 1100,
+      "n": 2
+    },
+    {
+      "px": 1024,
+      "n": 13
+    },
+    {
+      "px": 768,
+      "n": 18
+    }
+  ],
+  "sections": [
+    {
+      "h": 1000,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": "#353031",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 5860,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": "#b7282e",
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": "#353031",
+      "align": null,
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 4
+    },
+    {
+      "hex": "#57669e",
+      "n": 2
+    },
+    {
+      "hex": "#353031",
+      "n": 2
+    },
+    {
+      "hex": "#f5f5f5",
+      "n": 1
+    }
+  ],
+  "cards": [],
+  "chips": [],
+  "images": {
+    "n": 13,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 6
+      },
+      {
+        "ratio": "1:1",
+        "n": 2
+      },
+      {
+        "ratio": "4:3",
+        "n": 1
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 7
+      },
+      {
+        "px": 10,
+        "n": 6
+      }
+    ]
+  },
+  "circles": {
+    "n": 2,
+    "sizes": [
+      {
+        "px": 40,
+        "n": 2
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 13,
+    "bodyLh": 2,
+    "sizes": [
+      15,
+      14,
+      13,
+      11,
+      10
+    ],
+    "pad": 32,
+    "gap": null,
+    "sidePad": 26,
+    "h1": {
+      "fs": 10,
+      "lh": 2
+    }
+  },
+  "usage": [
+    {
+      "hex": "#353031",
+      "面": 2,
+      "文字": 10,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#57669e",
+      "面": 2,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#b7282e",
+      "面": 9,
+      "文字": 11,
+      "枠": 2,
+      "ボタン": 5
+    },
+    {
+      "hex": "#ffffff",
+      "面": 5,
+      "文字": 80,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#f5f5f5",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#b7282e",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角丸",
+    "色つき"
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "slug": "pawpark",
+  "url": "https://pawpark.jp/",
+  "title": "Paw Park｜犬のための幼稚園（保育園）",
+  "desc": "犬のようちえん、PawPark（パウパーク）では家族や他のワンちゃんとより良い関係性を築き、幸せに暮らせるようにドッグトレーナーがサポートします。",
+  "bg": [
+    {
+      "hex": "#f2eeea",
+      "pct": 71.8
+    },
+    {
+      "hex": "#f7f6f5",
+      "pct": 19.6
+    },
+    {
+      "hex": "#ece6dc",
+      "pct": 7.8
+    },
+    {
+      "hex": "#e2c16f",
+      "pct": 0.5
+    },
+    {
+      "hex": "#4a81a3",
+      "pct": 0.3
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#333333",
+      "pct": 44.7
+    },
+    {
+      "hex": "#7e7c7a",
+      "pct": 20
+    },
+    {
+      "hex": "#f7f6f5",
+      "pct": 14.4
+    },
+    {
+      "hex": "#e2c16f",
+      "pct": 12.4
+    }
+  ],
+  "pageBg": "#f2eeea",
+  "fonts": [
+    {
+      "family": "Zen Maru Gothic",
+      "w": 770
+    },
+    {
+      "family": "Material Icons",
+      "w": 205
+    },
+    {
+      "family": "Montserrat",
+      "w": 190
+    },
+    {
+      "family": "Hiragino Kaku Gothic ProN",
+      "w": 31
+    }
+  ],
+  "sizes": [
+    {
+      "px": 36,
+      "w": 32
+    },
+    {
+      "px": 28,
+      "w": 148
+    },
+    {
+      "px": 18,
+      "w": 93
+    },
+    {
+      "px": 16,
+      "w": 672
+    },
+    {
+      "px": 15,
+      "w": 80
+    },
+    {
+      "px": 14,
+      "w": 87
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": null,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0.100em",
+        "family": "Zen Maru Gothic"
+      },
+      {
+        "fs": 28,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0.100em",
+        "family": "Zen Maru Gothic"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 38,
+      "n": 7
+    },
+    {
+      "px": 0,
+      "n": 6
+    },
+    {
+      "px": 40,
+      "n": 5
+    },
+    {
+      "px": 24,
+      "n": 2
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 8,
+      "n": 27
+    },
+    {
+      "px": 12,
+      "n": 22
+    },
+    {
+      "px": 16,
+      "n": 21
+    },
+    {
+      "px": 20,
+      "n": 10
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 88,
+      "n": 7
+    },
+    {
+      "px": 72,
+      "n": 1
+    },
+    {
+      "px": 80,
+      "n": 1
+    },
+    {
+      "px": 132,
+      "n": 1
+    }
+  ],
+  "container": [
+    {
+      "px": 1120,
+      "n": 20
+    },
+    {
+      "px": 1160,
+      "n": 15
+    },
+    {
+      "px": 1280,
+      "n": 5
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#333333",
+      "border": null,
+      "radius": "2px",
+      "pad": "0px 0px",
+      "fs": 16,
+      "weight": "500",
+      "h": 46,
+      "ls": "0",
+      "n": 4
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 17,
+      "weight": "500",
+      "h": 56,
+      "ls": "0",
+      "n": 1
+    }
+  ],
+  "bp": [
+    {
+      "px": 1200,
+      "n": 103
+    },
+    {
+      "px": 840,
+      "n": 145
+    },
+    {
+      "px": 540,
+      "n": 163
+    }
+  ],
+  "sections": [
+    {
+      "h": 900,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": false,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 900,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 200,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "右",
+      "split": "52:48"
+    },
+    {
+      "h": 200,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 820,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "19:81"
+    },
+    {
+      "h": 920,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "左",
+      "split": "19:81"
+    },
+    {
+      "h": 200,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 540,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 200,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 860,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 200,
+      "full": false,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 980,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#f7f6f5",
+      "n": 2
+    },
+    {
+      "hex": "#f2eeea",
+      "n": 1
+    },
+    {
+      "hex": "#ece6dc",
+      "n": 1
+    },
+    {
+      "hex": "#e2c16f",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#f7f6f5",
+      "bg": "transparent",
+      "radius": 0,
+      "pad": "20/0",
+      "border": "1px #ece6dc",
+      "shadow": null,
+      "n": 2
+    }
+  ],
+  "chips": [],
+  "images": {
+    "n": 32,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "1:1",
+        "n": 18
+      },
+      {
+        "ratio": "3:4",
+        "n": 8
+      },
+      {
+        "ratio": "4:3",
+        "n": 4
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 28
+      },
+      {
+        "px": 200,
+        "n": 4
+      }
+    ]
+  },
+  "circles": {
+    "n": 0,
+    "sizes": []
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": null,
+    "sizes": [
+      24,
+      22,
+      16,
+      15,
+      14
+    ],
+    "pad": 88,
+    "gap": 16,
+    "sidePad": 0,
+    "h1": {
+      "fs": 22,
+      "lh": 1.4
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f2eeea",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#f7f6f5",
+      "面": 16,
+      "文字": 21,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ece6dc",
+      "面": 1,
+      "文字": 0,
+      "枠": 2,
+      "ボタン": 0
+    },
+    {
+      "hex": "#e2c16f",
+      "面": 3,
+      "文字": 20,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#4a81a3",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#333333",
+      "面": 0,
+      "文字": 47,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#7e7c7a",
+      "面": 0,
+      "文字": 7,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#e2c16f",
+  "tags": [
+    "ゴシック",
+    "余白ふつう",
+    "角丸",
+    "色つき"
+  ]
+}

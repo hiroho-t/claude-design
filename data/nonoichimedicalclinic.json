@@ -1,0 +1,513 @@
+{
+  "slug": "nonoichimedicalclinic",
+  "url": "https://www.nono-medtown.com/",
+  "title": "ののいちメディカルクリニック｜金沢市・野々市市",
+  "desc": "ののいちメディカルクリニックは、消化器・内視鏡（胃カメラ・大腸カメラ）・循環器専門の内科や脳神経外科、整形外科など10の診療科と専門医が集まり一カ所で全身のケアができる北陸最大の複合型医療施設です。",
+  "bg": [
+    {
+      "hex": "#faf9f7",
+      "pct": 92.7
+    },
+    {
+      "hex": "#6abbe8",
+      "pct": 1.8
+    },
+    {
+      "hex": "#ffecf0",
+      "pct": 1.7
+    },
+    {
+      "hex": "#6683a4",
+      "pct": 1.2
+    },
+    {
+      "hex": "#83c2be",
+      "pct": 0.9
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#454545",
+      "pct": 58.1
+    },
+    {
+      "hex": "#7e8c8d",
+      "pct": 19.9
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 10.4
+    },
+    {
+      "hex": "#fe1f54",
+      "pct": 4.9
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "w": 1739
+    },
+    {
+      "family": "Montserrat",
+      "w": 236
+    }
+  ],
+  "sizes": [
+    {
+      "px": 20,
+      "w": 183
+    },
+    {
+      "px": 16,
+      "w": 586
+    },
+    {
+      "px": 15,
+      "w": 453
+    },
+    {
+      "px": 14,
+      "w": 365
+    },
+    {
+      "px": 13,
+      "w": 83
+    },
+    {
+      "px": 12,
+      "w": 171
+    }
+  ],
+  "body": {
+    "fs": 16,
+    "lh": 1.6,
+    "ls": "0.020em"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 68,
+        "weight": "400",
+        "lh": 1.6,
+        "ls": "0.012em",
+        "family": "Noto Sans JP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 16,
+        "weight": "400",
+        "lh": 1.6,
+        "ls": "0.050em",
+        "family": "Noto Sans JP"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 5,
+      "n": 31
+    },
+    {
+      "px": 0,
+      "n": 19
+    },
+    {
+      "px": 10,
+      "n": 13
+    },
+    {
+      "px": 50,
+      "n": 2
+    }
+  ],
+  "shadow": [
+    {
+      "css": "rgba(0, 0, 0, 0.08) 0px 2px 5px 0px",
+      "n": 10
+    }
+  ],
+  "gap": [
+    {
+      "px": 5,
+      "n": 21
+    },
+    {
+      "px": 10,
+      "n": 13
+    },
+    {
+      "px": 15,
+      "n": 10
+    },
+    {
+      "px": 20,
+      "n": 5
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 3
+    },
+    {
+      "px": 160,
+      "n": 3
+    },
+    {
+      "px": 52,
+      "n": 2
+    },
+    {
+      "px": 80,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 924,
+      "n": 36
+    },
+    {
+      "px": 1120,
+      "n": 12
+    },
+    {
+      "px": 1320,
+      "n": 6
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "transparent",
+      "color": "#454545",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 15,
+      "weight": "400",
+      "h": 62,
+      "ls": "0.8px",
+      "n": 12
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#454545",
+      "border": "1px #dde5e6",
+      "radius": "5px",
+      "pad": "10px 18px",
+      "fs": 15,
+      "weight": "400",
+      "h": 62,
+      "ls": "0.8px",
+      "n": 10
+    },
+    {
+      "bg": "transparent",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 18,
+      "weight": "700",
+      "h": 60,
+      "ls": "0.8px",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 1701,
+      "n": 11
+    },
+    {
+      "px": 1441,
+      "n": 7
+    },
+    {
+      "px": 1081,
+      "n": 356
+    },
+    {
+      "px": 1080,
+      "n": 33
+    },
+    {
+      "px": 769,
+      "n": 76
+    }
+  ],
+  "sections": [
+    {
+      "h": 820,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "中央",
+      "media": "左",
+      "split": "38:62"
+    },
+    {
+      "h": 200,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": "右",
+      "media": "右",
+      "split": "42:58"
+    },
+    {
+      "h": 940,
+      "full": true,
+      "cols": 3,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1040,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 300,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 780,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 160,
+      "full": true,
+      "cols": 2,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全面",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 2,
+      "img": false,
+      "bg": null,
+      "align": null,
+      "media": "none",
+      "split": null
+    },
+    {
+      "h": 580,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#faf9f7",
+      "n": 10
+    },
+    {
+      "hex": "#6abbe8",
+      "n": 4
+    },
+    {
+      "hex": "#ffffff",
+      "n": 2
+    },
+    {
+      "hex": "#6683a4",
+      "n": 2
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#faf9f7",
+      "bg": "#6abbe8",
+      "radius": 10,
+      "pad": "0/146",
+      "border": null,
+      "shadow": null,
+      "n": 4
+    },
+    {
+      "onBg": "#faf9f7",
+      "bg": "#6683a4",
+      "radius": 10,
+      "pad": "0/146",
+      "border": null,
+      "shadow": null,
+      "n": 2
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#0abab5",
+      "color": "#ffffff",
+      "radius": "999px",
+      "pad": "5px 15px",
+      "fs": 12,
+      "border": null,
+      "n": 5
+    }
+  ],
+  "images": {
+    "n": 89,
+    "fullBleed": 2,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 40
+      },
+      {
+        "ratio": "2:3",
+        "n": 36
+      },
+      {
+        "ratio": "1:1",
+        "n": 7
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 79
+      },
+      {
+        "px": 10,
+        "n": 10
+      }
+    ]
+  },
+  "circles": {
+    "n": 12,
+    "sizes": [
+      {
+        "px": 40,
+        "n": 12
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sizes": [
+      16,
+      15,
+      14,
+      12,
+      11
+    ],
+    "pad": 32,
+    "gap": 10,
+    "sidePad": 21,
+    "h1": {
+      "fs": 35,
+      "lh": 1.3
+    }
+  },
+  "usage": [
+    {
+      "hex": "#faf9f7",
+      "面": 57,
+      "文字": 20,
+      "枠": 0,
+      "ボタン": 11
+    },
+    {
+      "hex": "#6abbe8",
+      "面": 4,
+      "文字": 6,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffecf0",
+      "面": 1,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#6683a4",
+      "面": 2,
+      "文字": 6,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#83c2be",
+      "面": 2,
+      "文字": 6,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#454545",
+      "面": 0,
+      "文字": 87,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#7e8c8d",
+      "面": 0,
+      "文字": 24,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#fe1f54",
+      "面": 0,
+      "文字": 4,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#fe1f54",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}

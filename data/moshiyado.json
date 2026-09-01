@@ -1,0 +1,462 @@
+{
+  "slug": "moshiyado",
+  "url": "https://moshiyado.com/",
+  "title": "ホテル・旅館のお仕事探し｜もしも、この宿ではたらいたら",
+  "desc": "「もし宿」は、編集部が一つずつセレクトした情報のみが掲載される、宿泊業専門のセレクト型求人サイト。 はたらく施設、暮らす場所、そしてともにはたらく人たちを実際に訪ねて、そこで見聞きしたリアルな情報をお届けします。",
+  "bg": [
+    {
+      "hex": "#f5f4ea",
+      "pct": 37.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 30
+    },
+    {
+      "hex": "#338751",
+      "pct": 19.5
+    },
+    {
+      "hex": "#2e2e2e",
+      "pct": 7.4
+    },
+    {
+      "hex": "#ddedce",
+      "pct": 5.3
+    }
+  ],
+  "ink": [
+    {
+      "hex": "#2e2e2e",
+      "pct": 67.8
+    },
+    {
+      "hex": "#666666",
+      "pct": 14.1
+    },
+    {
+      "hex": "#8a8a8a",
+      "pct": 8.2
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 8
+    }
+  ],
+  "pageBg": "#ffffff",
+  "fonts": [
+    {
+      "family": "Zen Kaku Gothic New",
+      "w": 2757
+    },
+    {
+      "family": "Public Sans",
+      "w": 395
+    }
+  ],
+  "sizes": [
+    {
+      "px": 20,
+      "w": 365
+    },
+    {
+      "px": 16,
+      "w": 763
+    },
+    {
+      "px": 15,
+      "w": 82
+    },
+    {
+      "px": 14,
+      "w": 306
+    },
+    {
+      "px": 13,
+      "w": 453
+    },
+    {
+      "px": 12,
+      "w": 1143
+    }
+  ],
+  "body": {
+    "fs": 12,
+    "lh": 1.5,
+    "ls": "0"
+  },
+  "headings": {
+    "h2": [
+      {
+        "fs": 20,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Zen Kaku Gothic New"
+      },
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Zen Kaku Gothic New"
+      }
+    ]
+  },
+  "radius": [
+    {
+      "px": 4,
+      "n": 24
+    },
+    {
+      "px": 0,
+      "n": 18
+    },
+    {
+      "px": 24,
+      "n": 8
+    },
+    {
+      "px": 13,
+      "n": 7
+    }
+  ],
+  "shadow": [],
+  "gap": [
+    {
+      "px": 4,
+      "n": 36
+    },
+    {
+      "px": 6,
+      "n": 36
+    },
+    {
+      "px": 8,
+      "n": 13
+    },
+    {
+      "px": 40,
+      "n": 7
+    }
+  ],
+  "sectionPad": [
+    {
+      "px": 40,
+      "n": 5
+    },
+    {
+      "px": 100,
+      "n": 4
+    },
+    {
+      "px": 48,
+      "n": 2
+    },
+    {
+      "px": 80,
+      "n": 2
+    }
+  ],
+  "container": [
+    {
+      "px": 1120,
+      "n": 10
+    },
+    {
+      "px": 900,
+      "n": 7
+    },
+    {
+      "px": 1360,
+      "n": 7
+    }
+  ],
+  "buttons": [
+    {
+      "bg": "#ffffff",
+      "color": "#2e2e2e",
+      "border": "1px #e1e1d0",
+      "radius": "4px",
+      "pad": "1px 7px",
+      "fs": 14,
+      "weight": "500",
+      "h": 29,
+      "ls": "0",
+      "n": 20
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#2e2e2e",
+      "border": "1px #2e2c29",
+      "radius": "24px",
+      "pad": "0px 18px",
+      "fs": 15,
+      "weight": "700",
+      "h": 48,
+      "ls": "0",
+      "n": 8
+    },
+    {
+      "bg": "transparent",
+      "color": "#666666",
+      "border": null,
+      "radius": "0px",
+      "pad": "0px 0px",
+      "fs": 12,
+      "weight": "700",
+      "h": 26,
+      "ls": "0",
+      "n": 3
+    }
+  ],
+  "bp": [
+    {
+      "px": 1025,
+      "n": 17
+    },
+    {
+      "px": 1024,
+      "n": 19
+    },
+    {
+      "px": 768,
+      "n": 64
+    },
+    {
+      "px": 767,
+      "n": 109
+    },
+    {
+      "px": 576,
+      "n": 9
+    }
+  ],
+  "sections": [
+    {
+      "h": 800,
+      "full": true,
+      "cols": 4,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 2200,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": "#338751",
+      "align": "中央",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 1540,
+      "full": true,
+      "cols": 6,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 700,
+      "full": true,
+      "cols": 5,
+      "img": true,
+      "bg": null,
+      "align": "左",
+      "media": "見出しの下",
+      "split": null
+    },
+    {
+      "h": 620,
+      "full": true,
+      "cols": 0,
+      "img": false,
+      "bg": null,
+      "align": "左",
+      "media": "none",
+      "split": null
+    }
+  ],
+  "surfaces": [
+    {
+      "hex": "#ffffff",
+      "n": 14
+    },
+    {
+      "hex": "#f5f4ea",
+      "n": 5
+    },
+    {
+      "hex": "#338751",
+      "n": 1
+    },
+    {
+      "hex": "#2e2e2e",
+      "n": 1
+    }
+  ],
+  "cards": [
+    {
+      "onBg": "#338751",
+      "bg": "#ffffff",
+      "radius": 8,
+      "pad": "24/24",
+      "border": null,
+      "shadow": null,
+      "n": 6
+    },
+    {
+      "onBg": "#ffffff",
+      "bg": "#ffffff",
+      "radius": 0,
+      "pad": "0/0",
+      "border": null,
+      "shadow": null,
+      "n": 6
+    }
+  ],
+  "chips": [
+    {
+      "bg": "#ffffff",
+      "color": "#2e2e2e",
+      "radius": "4px",
+      "pad": "0px 7px",
+      "fs": 12,
+      "border": "1px",
+      "n": 72
+    },
+    {
+      "bg": "#ffffff",
+      "color": "#2e2e2e",
+      "radius": "4px",
+      "pad": "1px 7px",
+      "fs": 14,
+      "border": "1px",
+      "n": 20
+    }
+  ],
+  "images": {
+    "n": 23,
+    "fullBleed": 0,
+    "ratios": [
+      {
+        "ratio": "3:2",
+        "n": 16
+      },
+      {
+        "ratio": "1:1",
+        "n": 5
+      }
+    ],
+    "radius": [
+      {
+        "px": 0,
+        "n": 19
+      },
+      {
+        "px": 8,
+        "n": 4
+      }
+    ]
+  },
+  "circles": {
+    "n": 5,
+    "sizes": [
+      {
+        "px": 48,
+        "n": 3
+      },
+      {
+        "px": 24,
+        "n": 1
+      },
+      {
+        "px": 40,
+        "n": 1
+      }
+    ]
+  },
+  "mobile": {
+    "bodyFs": 12,
+    "bodyLh": 1.5,
+    "sizes": [
+      18,
+      15,
+      14,
+      12,
+      10
+    ],
+    "pad": 24,
+    "gap": 4,
+    "sidePad": 20,
+    "h1": {
+      "fs": 18,
+      "lh": 1.5
+    }
+  },
+  "usage": [
+    {
+      "hex": "#f5f4ea",
+      "面": 9,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ffffff",
+      "面": 45,
+      "文字": 34,
+      "枠": 5,
+      "ボタン": 28
+    },
+    {
+      "hex": "#338751",
+      "面": 2,
+      "文字": 9,
+      "枠": 0,
+      "ボタン": 1
+    },
+    {
+      "hex": "#2e2e2e",
+      "面": 2,
+      "文字": 200,
+      "枠": 8,
+      "ボタン": 0
+    },
+    {
+      "hex": "#ddedce",
+      "面": 7,
+      "文字": 0,
+      "枠": 0,
+      "ボタン": 3
+    },
+    {
+      "hex": "#666666",
+      "面": 0,
+      "文字": 58,
+      "枠": 0,
+      "ボタン": 0
+    },
+    {
+      "hex": "#8a8a8a",
+      "面": 0,
+      "文字": 52,
+      "枠": 0,
+      "ボタン": 0
+    }
+  ],
+  "accent": "#338751",
+  "tags": [
+    "ゴシック",
+    "余白つまった",
+    "角ばった",
+    "色つき"
+  ]
+}
