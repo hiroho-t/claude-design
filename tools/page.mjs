@@ -8,7 +8,7 @@ const PANGRAM = 'あのイーハトーヴォのすきとおった風';
 const EXT = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7h-1.5V5.56L5.06 12 4 10.94 10.44 4.5H6V3Z"/><path d="M3 5h2v1.5H4.5v5H10V11h1.5v2H3V5Z"/></svg>';
 const REPO = 'https://github.com/hiroho-t/jp-styles/blob/main';
 
-export function detailPage({ d, palette, md, name, industry, ja, en, alt, ladder, lhOf, cont, read, pad, rad, gaps, main, secs = [], secName, allFull, img = {}, usage = [], mob = {}, usageNote, sidePad }) {
+export function detailPage({ d, palette, md, name, industry, ja, en, alt, ladder, lhOf, cont, read, pad, rad, gaps, main, secs = [], secName, allFull, img = {}, usage = [], mob = {}, usageNote, sidePad, circles = { n: 0, sizes: [] }, surfaces = [], inkRev }) {
   const font = alt ? alt[0] : 'Noto Sans JP';
   const gf = [...new Set([font, 'Noto Sans JP'])].map(f => `family=${f.replace(/ /g, '+')}:wght@400;500;700`).join('&');
   const roles = ['地', '主色', '副色', '差し色', '差し色'];
@@ -228,7 +228,17 @@ export function detailPage({ d, palette, md, name, industry, ja, en, alt, ladder
         <span class="sech">${x.h}px${x.bg ? ` ・ ${esc(x.bg)}` : ''}</span>
       </div>`;
     }).join('')}</div>
-    <p class="note">全${secs.length}セクション${allFull ? '、すべて全幅' : ''}。面の色は ${(d.surfaces || []).map(s2 => `<code>${esc(s2.hex)}</code>（${s2.n}）`).join(' / ')}。</p>
+    <p class="note">全${secs.length}セクション${allFull ? '、すべて全幅' : ''}。</p>
+    ${surfaces.length > 1 ? `<h3 class="sub">面と、その上に置く線・文字</h3>
+    <table class="usage">
+      <tr><th>面</th><td>使用箇所</td><td>線と文字</td></tr>
+      ${surfaces.map(s2 => `<tr>
+        <th><i style="background:${esc(s2.hex)}"></i><code>${esc(s2.hex)}</code></th>
+        <td>${s2.n}</td>
+        <td><i style="background:${esc(s2.on)};display:inline-block;width:12px;height:12px;border-radius:3px;border:1px solid var(--line);vertical-align:-2px;margin-right:6px"></i><code>${esc(s2.on)}</code></td>
+      </tr>`).join('')}
+    </table>
+    <p class="note">線と文字の色は固定ではなく、乗っている面で入れ替える。</p>` : ''}
   </section>` : ''}
 
   ${(d.cards.length || d.chips.length) ? `<section>
@@ -243,6 +253,7 @@ export function detailPage({ d, palette, md, name, industry, ja, en, alt, ladder
         </div>
       </div>
       <p class="note">同じ形が ${c.n} 箇所。角丸 ${c.radius}px${c.border ? ` ／ ${esc(c.border)} の線` : ''}${c.shadow ? '' : ' ／ 影なし'}</p>` })() : '<p class="note">囲みらしい繰り返しの箱はなかった。枠で囲まず、余白だけで区切っている。</p>'}
+    ${circles.n ? `<p class="note">角丸は ${rad}px だが、完全な円は別扱いで ${circles.n} 箇所（${circles.sizes.map(c => `${c.px}px×${c.n}`).join('、')}）。角を丸めないことと、円のモチーフは両立する。</p>` : ''}
     ${d.chips.length ? (() => { const c = d.chips[0]; const light = lum(c.bg === 'transparent' ? '#ffffff' : c.bg) > .7;
       return `<div class="stage" style="background:${light ? 'var(--field)' : '#fff'}">
         <span class="chipdemo" style="background:${esc(c.bg)};color:${esc(c.color)};border-radius:${esc(c.radius)};

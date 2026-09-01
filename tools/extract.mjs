@@ -292,7 +292,14 @@ const shape = await page.evaluate(() => {
     const painted = own && (!par || hex(own) !== hex(par));
     if (!painted && bd === 0 && cs.boxShadow === 'none') continue;
     if (!el.querySelector('img,p,h1,h2,h3,h4,span,div')) continue;
+    // その囲みが乗っている面の色（線の色は面によって変わるため）
+    let onBg = null;
+    for (let a = el.parentElement; a; a = a.parentElement) {
+      const c = rgb(getComputedStyle(a).backgroundColor);
+      if (c) { onBg = hex(c); break; }
+    }
     const key = JSON.stringify({
+      onBg,
       bg: own ? hex(own) : 'transparent',
       radius: round(parseFloat(cs.borderTopLeftRadius) || 0, 1),
       pad: [cs.paddingTop, cs.paddingLeft].map(v => round(parseFloat(v) || 0, 2)).join('/'),
@@ -341,7 +348,20 @@ const shape = await page.evaluate(() => {
     bump(imgRadius, round(parseFloat(getComputedStyle(el).borderTopLeftRadius) || 0, 1));
   }
 
-  return { sections: sections.slice(0, 20), surfaces, cards, chips, ratios, imgRadius, fullBleed, imgs };
+  // 完全な円（角を丸めないルールとは別扱い。丸のモチーフとして使われる）
+  const circles = {};
+  for (const el of document.querySelectorAll('body *')) {
+    if (!vis(el)) continue;
+    const cs = getComputedStyle(el), r = el.getBoundingClientRect();
+    if (r.width < 16 || r.width > 360 || Math.abs(r.width - r.height) > 2) continue;
+    const rad = cs.borderTopLeftRadius;
+    const isCircle = /%/.test(rad) ? parseFloat(rad) >= 45 : (parseFloat(rad) || 0) >= r.width / 2 - 1;
+    if (!isCircle) continue;
+    if (!rgb(cs.backgroundColor) && (parseFloat(cs.borderTopWidth) || 0) === 0) continue;
+    bump(circles, round(r.width, 8));
+  }
+
+  return { sections: sections.slice(0, 20), surfaces, cards, chips, ratios, imgRadius, fullBleed, imgs, circles };
 });
 
 /* ---- 3巡目：スマホ幅（390px）で本文まわりだけ測り直す ---- */
@@ -457,6 +477,10 @@ const out = {
     ratios: top(shape.ratios, 3).map(([r, n]) => ({ ratio: r, n })),
     radius: top(shape.imgRadius, 2).map(([r, n]) => ({ px: +r, n })),
   },
+  circles: (() => {
+    const e = Object.entries(shape.circles).sort((a, b) => b[1] - a[1]);
+    return { n: e.reduce((t, [, n]) => t + n, 0), sizes: e.slice(0, 3).map(([px, n]) => ({ px: +px, n })) };
+  })(),
   mobile,
 };
 

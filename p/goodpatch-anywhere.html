@@ -259,7 +259,25 @@
         <span class="secname">2カラム・画像あり</span>
         <span class="sech">820px</span>
       </div></div>
-    <p class="note">全10セクション、すべて全幅。面の色は <code>#ffffff</code>（6） / <code>#096fca</code>（3） / <code>#f9f7f7</code>（1）。</p>
+    <p class="note">全10セクション、すべて全幅。</p>
+    <h3 class="sub">面と、その上に置く線・文字</h3>
+    <table class="usage">
+      <tr><th>面</th><td>使用箇所</td><td>線と文字</td></tr>
+      <tr>
+        <th><i style="background:#ffffff"></i><code>#ffffff</code></th>
+        <td>6</td>
+        <td><i style="background:#096fca;display:inline-block;width:12px;height:12px;border-radius:3px;border:1px solid var(--line);vertical-align:-2px;margin-right:6px"></i><code>#096fca</code></td>
+      </tr><tr>
+        <th><i style="background:#096fca"></i><code>#096fca</code></th>
+        <td>3</td>
+        <td><i style="background:#ffffff;display:inline-block;width:12px;height:12px;border-radius:3px;border:1px solid var(--line);vertical-align:-2px;margin-right:6px"></i><code>#ffffff</code></td>
+      </tr><tr>
+        <th><i style="background:#f9f7f7"></i><code>#f9f7f7</code></th>
+        <td>1</td>
+        <td><i style="background:#096fca;display:inline-block;width:12px;height:12px;border-radius:3px;border:1px solid var(--line);vertical-align:-2px;margin-right:6px"></i><code>#096fca</code></td>
+      </tr>
+    </table>
+    <p class="note">線と文字の色は固定ではなく、乗っている面で入れ替える。</p>
   </section>
 
   <section>
@@ -272,6 +290,7 @@
         </div>
       </div>
       <p class="note">同じ形が 8 箇所。角丸 32px ／ 1px #ffffff の線 ／ 影なし</p>
+    <p class="note">角丸は 0px だが、完全な円は別扱いで 8 箇所（16px×8）。角を丸めないことと、円のモチーフは両立する。</p>
     
   </section>
 
@@ -325,6 +344,7 @@
   --sub: #e3d7d5;
   --ink: #096fca;
   --ink-rev: #ffffff;
+  --on: #096fca;   /* いま乗っている面の上で使う線と文字の色。面ごとに入れ替える */
   --font-ja: &quot;Zen Kaku Gothic New&quot;, &quot;Noto Sans JP&quot;, sans-serif;
   --font-en: &quot;Helvetica Neue&quot;, sans-serif;
   --fs-body: 20px;
@@ -362,6 +382,26 @@
 | `#000000` | 0 | 1 | 0 | 0 |
 
 - `#096fca` は文字色として62箇所で使うのが主。面としては4箇所しかないが、1枚が大きく画面の38%を占める。ボタンの地にも使う。枠線にも4箇所。
+
+## 面と線の関係
+
+線・文字・囲みの色は固定ではない。**乗っている面によって入れ替える。**
+
+| 面 | その上に置く線と文字 |
+|---|---|
+| `#ffffff`（地） | `#096fca` |
+| `#096fca`（主色） | `#ffffff` |
+| `#f9f7f7` | `#096fca` |
+
+```css
+.section{ --on:#096fca }                     /* 地の面 */
+.section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
+.card{ border:1px solid var(--on) }
+.btn--fill{ background:var(--main); color:#ffffff }
+.section--main .btn--fill{ background:#ffffff; color:var(--main) }   /* 主色の面では反転 */
+```
+
+- 実測した囲みの線は `#ffffff`。ただしその囲みは `#096fca` の面の上にしか無かった。**別の面に置くときは、その面の反対色にする。**
 
 ## 文字
 
@@ -448,12 +488,17 @@
 ```css
 .card{
   background: transparent;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--on);   /* 実測は #ffffff。面によって入れ替える */
   border-radius: 32px;
   padding: 64px 0px;
 }
 ```
 
+
+## 丸いもの
+
+角丸は 0px だが、**完全な円は別扱い**で 8 箇所ある（16px×8）。
+アイコンの地・点・装飾に使う。角を丸めないルールと、円のモチーフは両立する。
 
 ## 画像
 
@@ -469,13 +514,14 @@
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
 
-.section{ padding:var(--section-y) 0 }
+.section{ padding:var(--section-y) 0; --on:#096fca }
 .container{ width:min(100% - 32px, var(--container)); margin-inline:auto }
 .read{ max-width:var(--read) }
 
 .hero{ min-height:540px; display:grid; align-content:center }
-.section--main{ background:var(--main); color:#ffffff }
-.card{ background:transparent; border:1px solid #ffffff;
+.section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
+.section--main .btn--fill{ background:#ffffff; color:var(--main) }
+.card{ background:transparent; border:1px solid var(--on);
   border-radius:32px; padding:64px 0px }
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:#096fca; color:#ffffff; border-radius:4px;
@@ -497,6 +543,7 @@ img{ width:100%; height:auto; border-radius:0px; aspect-ratio:16/9; object-fit:c
 - 地色と主色 `#096fca` の面を全幅で交互に置く。主色は画面の38%を占めるだけ使う。
 - 余白 120px と行間 2 を先に決めてから中身を入れる。
 - 画像は 16:9 に統一し、角丸は 0px。
+- 線と文字の色は面ごとに入れ替える（`--on` を面のクラスで上書きする）。固定色で書かない。
 - 囲みは 1px の線＋角丸 32px でそろえる。
 
 やらないこと
@@ -504,7 +551,7 @@ img{ width:100%; height:auto; border-radius:0px; aspect-ratio:16/9; object-fit:c
 - 影をつけない（このサイトには1つもない）。
 - 主色を線やボタンだけの差し色に使わない。面で使わないと別物になる。
 - 本文の行間を 2 より詰めない。角を丸めない。
-- 中途半端な角丸（0px と 32px 以外）を混ぜない。
+- 中途半端な角丸（0px と 32px 以外）を混ぜない。完全な円は別枠なので、消さなくてよい。
 </pre>
 </aside>
 </div>

@@ -67,6 +67,15 @@ const allFull = secs.length > 0 && secs.every(x => x.full);
 const mainSurf = (d.surfaces || []).find(s2 => s2.hex.toLowerCase() === main.hex.toLowerCase());
 const img = d.images || { n: 0, ratios: [], radius: [] };
 const usage = d.usage || [];
+const circles = d.circles || { n: 0, sizes: [] };
+
+/** 面の上に置く線と文字の色（明暗のコントラストで決まる） */
+const lum = h => { if (!/^#[0-9a-f]{6}$/i.test(h || '')) return 1;
+  const [r, g, b] = [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16) / 255);
+  return .2126 * r + .7152 * g + .0722 * b; };
+const inkRev = d.ink[1]?.hex || '#ffffff';
+const onOf = hex => (lum(hex) > .55 ? main.hex : inkRev);
+const surfaces = (d.surfaces || []).map(s2 => ({ ...s2, on: onOf(s2.hex) }));
 const mob = d.mobile || {};
 const uMain = usage.find(u => u.hex.toLowerCase() === main.hex.toLowerCase());
 const sidePad = mob.sidePad ?? 20;
@@ -101,6 +110,7 @@ ${describe(d, palette, main)}
   --bg: ${palette[0].hex};
   --main: ${main.hex};${palette[2] ? `\n  --sub: ${palette[2].hex};` : ''}
   --ink: ${d.ink[0].hex};${d.ink[1] ? `\n  --ink-rev: ${d.ink[1].hex};` : ''}
+  --on: ${main.hex};   /* いま乗っている面の上で使う線と文字の色。面ごとに入れ替える */
   --font-ja: ${(alt || [ja?.family]).map(f => `"${f}"`).join(', ')}, sans-serif;
   --font-en: ${en ? `"${en.family}", ` : ''}sans-serif;
   --fs-body: ${d.body.fs}px;
@@ -133,6 +143,24 @@ ${usage.map(u => `| \`${u.hex}\` | ${u.面} | ${u.文字} | ${u.枠} | ${u.ボ�
 
 - \`${main.hex}\` は${usageNote()}
 
+` : ''}${surfaces.length > 1 ? `## 面と線の関係
+
+線・文字・囲みの色は固定ではない。**乗っている面によって入れ替える。**
+
+| 面 | その上に置く線と文字 |
+|---|---|
+${surfaces.map(s2 => `| \`${s2.hex}\`${s2.hex.toLowerCase() === palette[0].hex.toLowerCase() ? '（地）' : s2.hex.toLowerCase() === main.hex.toLowerCase() ? '（主色）' : ''} | \`${s2.on}\` |`).join('\n')}
+
+\`\`\`css
+.section{ --on:${onOf(palette[0].hex)} }                     /* 地の面 */
+.section--main{ background:var(--main); color:${inkRev}; --on:${inkRev} }
+.card{ border:1px solid var(--on) }
+.btn--fill{ background:var(--main); color:${inkRev} }
+.section--main .btn--fill{ background:${inkRev}; color:var(--main) }   /* 主色の面では反転 */
+\`\`\`
+${d.cards[0]?.onBg ? `
+- 実測した囲みの線は \`${d.cards[0].border?.split(' ')[1] || ''}\`。ただしその囲みは \`${d.cards[0].onBg}\` の面の上にしか無かった。**別の面に置くときは、その面の反対色にする。**
+` : ''}
 ` : ''}## 文字
 
 - 和文: ${ja?.family}${alt ? `（有料）→ 無料で近いのは **${alt[0]}**、なければ ${alt[1] || 'Noto Sans JP'}` : ''}
@@ -193,7 +221,7 @@ ${d.cards.length ? `囲み（${d.cards[0].n}箇所で同じ形）
 
 \`\`\`css
 .card{
-  background: ${d.cards[0].bg};${d.cards[0].border ? `\n  border: ${d.cards[0].border.replace(' ', ' solid ')};` : ''}
+  background: ${d.cards[0].bg};${d.cards[0].border ? `\n  border: ${d.cards[0].border.split(' ')[0]} solid var(--on);   /* 実測は ${d.cards[0].border.split(' ')[1]}。面によって入れ替える */` : ''}
   border-radius: ${d.cards[0].radius}px;
   padding: ${d.cards[0].pad.split('/')[0]}px ${d.cards[0].pad.split('/')[1]}px;${d.cards[0].shadow ? `\n  box-shadow: ${d.cards[0].shadow};` : ''}
 }
@@ -208,7 +236,12 @@ ${d.chips.length ? `ラベル・タグ
 }
 \`\`\`
 ` : ''}
-## 画像
+${circles.n ? `## 丸いもの
+
+角丸は ${rad}px だが、**完全な円は別扱い**で ${circles.n} 箇所ある（${circles.sizes.map(c => `${c.px}px×${c.n}`).join('、')}）。
+アイコンの地・点・装飾に使う。角を丸めないルールと、円のモチーフは両立する。
+
+` : ''}## 画像
 
 - ${img.n}枚使っている${img.fullBleed ? `。うち ${img.fullBleed} 枚は画面いっぱいに置く` : ''}
 - 比率は ${img.ratios.map(r => `${r.ratio}（${r.n}枚）`).join('、') || '一定しない'}
@@ -222,11 +255,12 @@ ${d.chips.length ? `ラベル・タグ
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
 
-.section{ padding:var(--section-y) 0 }
+.section{ padding:var(--section-y) 0; --on:${onOf(palette[0].hex)} }
 .container{ width:min(100% - ${sidePad * 2}px, var(--container)); margin-inline:auto }
 ${read ? `.read{ max-width:var(--read) }\n` : ''}
 .hero{ ${secs[0] ? `min-height:${secs[0].h}px;` : ''} display:grid; align-content:center }
-${(d.surfaces || []).length > 1 ? `.section--main{ background:var(--main); color:${d.ink[1]?.hex || '#fff'} }\n` : ''}${d.cards.length ? `.card{ background:${d.cards[0].bg};${d.cards[0].border ? ` border:${d.cards[0].border.replace(' ', ' solid ')};` : ''}
+${surfaces.length > 1 ? `.section--main{ background:var(--main); color:${inkRev}; --on:${inkRev} }
+.section--main .btn--fill{ background:${inkRev}; color:var(--main) }\n` : ''}${d.cards.length ? `.card{ background:${d.cards[0].bg};${d.cards[0].border ? ` border:${d.cards[0].border.split(' ')[0]} solid var(--on);` : ''}
   border-radius:${d.cards[0].radius}px; padding:${d.cards[0].pad.split('/')[0]}px ${d.cards[0].pad.split('/')[1]}px }\n` : ''}${d.buttons[0] ? `.btn{ display:inline-flex; align-items:center; justify-content:center;
   background:${d.buttons[0].bg}; color:${d.buttons[0].color}; border-radius:${d.buttons[0].radius};
   padding:${d.buttons[0].pad}; min-height:${d.buttons[0].h}px;
@@ -246,13 +280,14 @@ img{ width:100%; height:auto; border-radius:${img.radius?.[0]?.px ?? 0}px; aspec
 - 地色と主色 \`${main.hex}\` の面を${allFull ? '全幅で' : ''}交互に置く。主色は画面の${Math.round(main.pct)}%を占めるだけ使う。
 - 余白 ${pad}px と行間 ${d.body.lh} を先に決めてから中身を入れる。
 - 画像は ${img.ratios[0]?.ratio || '16:9'} に統一し、角丸は ${img.radius[0]?.px ?? 0}px。
+- 線と文字の色は面ごとに入れ替える（\`--on\` を面のクラスで上書きする）。固定色で書かない。
 ${d.cards.length ? `- 囲みは ${d.cards[0].border ? `${d.cards[0].border.split(' ')[0]} の線` : '塗り'}＋角丸 ${d.cards[0].radius}px でそろえる。\n` : ''}
 やらないこと
 
 - ${d.shadow.length ? '指定以外の影を足さない' : '影をつけない（このサイトには1つもない）'}。
 - 主色を線やボタンだけの差し色に使わない。面で使わないと別物になる。
 - 本文の行間を ${d.body.lh} より詰めない。${rad === 0 ? '角を丸めない。' : ''}
-- 中途半端な角丸（${rad}px と ${d.radius[1]?.px ?? 32}px 以外）を混ぜない。
+- 中途半端な角丸（${rad}px と ${d.radius[1]?.px ?? 32}px 以外）を混ぜない。${circles.n ? '完全な円は別枠なので、消さなくてよい。' : ''}
 `;
 
 writeFileSync(`s/${slug}.md`, md);
@@ -260,7 +295,7 @@ writeFileSync(`s/${slug}.md`, md);
 // 詳細ページ（実物のサイズ・色・角丸でそのまま見せる）
 writeFileSync(`p/${slug}.html`, detailPage({
   d, palette, md, name, industry, ja, en, alt, ladder, lhOf, cont, read, pad, rad, gaps, main,
-  secs, secName, allFull, img, usage, mob, usageNote, sidePad,
+  secs, secName, allFull, img, usage, mob, usageNote, sidePad, circles, surfaces, inkRev,
 }));
 
 // 一覧用

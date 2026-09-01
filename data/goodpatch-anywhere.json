@@ -305,6 +305,7 @@
   ],
   "cards": [
     {
+      "onBg": "#096fca",
       "bg": "transparent",
       "radius": 32,
       "pad": "64/0",
@@ -313,6 +314,7 @@
       "n": 8
     },
     {
+      "onBg": "#096fca",
       "bg": "transparent",
       "radius": 32,
       "pad": "32/32",
@@ -343,6 +345,15 @@
       {
         "px": 0,
         "n": 37
+      }
+    ]
+  },
+  "circles": {
+    "n": 8,
+    "sizes": [
+      {
+        "px": 16,
+        "n": 8
       }
     ]
   },
