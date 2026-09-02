@@ -204,7 +204,7 @@
       "bg": null,
       "align": "中央",
       "media": "左",
-      "split": "94:6"
+      "split": "92:8"
     },
     {
       "h": 1220,
@@ -330,18 +330,18 @@
     "sizes": []
   },
   "mobile": {
-    "bodyFs": 17,
-    "bodyLh": 1.88,
+    "bodyFs": 16,
+    "bodyLh": 1.87,
     "sizes": [
-      19,
       17,
       16,
       15,
+      12,
       11
     ],
-    "pad": 32,
+    "pad": 40,
     "gap": null,
-    "sidePad": 21,
+    "sidePad": 0,
     "h1": {
       "fs": 21,
       "lh": 1.7

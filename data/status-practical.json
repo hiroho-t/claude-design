@@ -1,4 +1,7 @@
 {
+  "2016": {
+    "state": "done"
+  },
   "landsolution": {
     "state": "done"
   },
@@ -701,6 +704,129 @@
     "state": "done"
   },
   "koushou": {
+    "state": "done"
+  },
+  "ntt-linkeeth": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.ntt.com/business/services/linkeeth/lp/linkeeth.html"
+  },
+  "proni": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.proni.co.jp/"
+  },
+  "ohno": {
+    "state": "done"
+  },
+  "axxis": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://axxis.co.jp/"
+  },
+  "gcs-tc-school": {
+    "state": "done"
+  },
+  "studio-tremo": {
+    "state": "done"
+  },
+  "kawara-museum": {
+    "state": "done"
+  },
+  "vansay-kumamoto": {
+    "state": "done"
+  },
+  "readycrew": {
+    "state": "done"
+  },
+  "hatonosato": {
+    "state": "done"
+  },
+  "gentosha": {
+    "state": "done"
+  },
+  "musashishinjo-shika": {
+    "state": "done"
+  },
+  "takedacpta": {
+    "state": "done"
+  },
+  "values": {
+    "state": "done"
+  },
+  "newt": {
+    "state": "done"
+  },
+  "recruit": {
+    "state": "done"
+  },
+  "garage-recruit": {
+    "state": "done"
+  },
+  "koyama-gr": {
+    "state": "done"
+  },
+  "syodorin": {
+    "state": "done"
+  },
+  "sekisui": {
+    "state": "done"
+  },
+  "infomart": {
+    "state": "done"
+  },
+  "nishiokatent": {
+    "state": "done"
+  },
+  "roboti": {
+    "state": "done"
+  },
+  "hacobu": {
+    "state": "done"
+  },
+  "isaka": {
+    "state": "done"
+  },
+  "artscouncil-kanazawa": {
+    "state": "done"
+  },
+  "fiore-flower": {
+    "state": "done"
+  },
+  "yamashin": {
+    "state": "done"
+  },
+  "ghraicho": {
+    "state": "done"
+  },
+  "kidssnacklab": {
+    "state": "done"
+  },
+  "tsunoru": {
+    "state": "done"
+  },
+  "bright": {
+    "state": "done"
+  },
+  "fuji-koeki": {
+    "state": "done"
+  },
+  "office-pits": {
+    "state": "done"
+  },
+  "nagano-cgc": {
+    "state": "done"
+  },
+  "osakau-liaison": {
+    "state": "done"
+  },
+  "unbalance": {
+    "state": "done"
+  },
+  "harimaya": {
+    "state": "done"
+  },
+  "inadani-sees": {
     "state": "done"
   }
 }
