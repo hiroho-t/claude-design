@@ -337,12 +337,12 @@
   ],
   "chips": [],
   "images": {
-    "n": 36,
-    "fullBleed": 7,
+    "n": 35,
+    "fullBleed": 6,
     "ratios": [
       {
         "ratio": "3:2",
-        "n": 15
+        "n": 14
       },
       {
         "ratio": "2:3",
@@ -356,7 +356,7 @@
     "radius": [
       {
         "px": 0,
-        "n": 36
+        "n": 35
       }
     ]
   },

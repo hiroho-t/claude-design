@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Goodpatch Anywhere のスタイル｜日本のサイトのデザインを DESIGN.md に</title>
+<title>Goodpatch Anywhere のスタイル｜Claude Code用のデザイン参考集</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
@@ -142,7 +142,7 @@
     <a class="shot" href="https://anywhere.goodpatch.com/" target="_blank" rel="noopener"><img src="../shot/goodpatch-anywhere.jpg" alt="Goodpatch Anywhere のトップページ"></a>
     <h1>Goodpatch Anywhere</h1>
     <p class="lead">白地に #096fca を大きな面で置く配色。影も枠線もほとんど使わない。本文 20px・行間 2、セクション間 120px。</p>
-    <div class="tags"><span>ゴシック</span><span>余白ひろい</span><span>角ばった</span><span>色つき</span><span>デザイン会社・採用</span></div>
+    <div class="tags"><span>ゴシック</span><span>余白ひろい</span><span>角ばった</span><span>色つき</span></div>
     <p class="src"><a href="https://anywhere.goodpatch.com/" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7h-1.5V5.56L5.06 12 4 10.94 10.44 4.5H6V3Z"/><path d="M3 5h2v1.5H4.5v5H10V11h1.5v2H3V5Z"/></svg>anywhere.goodpatch.com<span>参考サイトを開く</span></a></p>
   </section>
 
@@ -354,7 +354,6 @@
 - 出典: https://anywhere.goodpatch.com/
 - 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
-- 業種: デザイン会社・採用
 
 白地に `#096fca` を大きな面で置く配色。影も枠線もほとんど使わない。本文 20px・行間 2、セクション間 120px。
 
@@ -644,6 +643,7 @@ document.querySelectorAll('[data-copy]').forEach(b => b.addEventListener('click'
           .map(c => `<a href="../index.html#c=${encodeURIComponent(c.slug)}">${esc(c.name)}<b>${c.n}</b></a>`).join('')).join('');
   } catch (e) { catlist.innerHTML = '<p class="catnav__g">読み込めませんでした</p>'; }
 })();
+
 </script>
 </body>
 </html>
