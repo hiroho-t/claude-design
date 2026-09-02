@@ -244,13 +244,13 @@
       "split": null
     },
     {
-      "h": 700,
+      "h": 880,
       "full": true,
       "cols": 0,
       "img": true,
       "bg": null,
       "align": null,
-      "media": "none",
+      "media": "全面",
       "split": null
     }
   ],
@@ -271,7 +271,7 @@
   "cards": [],
   "chips": [],
   "images": {
-    "n": 15,
+    "n": 16,
     "fullBleed": 0,
     "ratios": [
       {
@@ -290,7 +290,7 @@
     "radius": [
       {
         "px": 0,
-        "n": 15
+        "n": 16
       }
     ]
   },
