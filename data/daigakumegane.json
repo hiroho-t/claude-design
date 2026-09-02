@@ -219,7 +219,7 @@
       "img": true,
       "bg": "#080808",
       "align": "中央",
-      "media": "見出しの下",
+      "media": "全幅",
       "split": null
     },
     {
@@ -229,7 +229,7 @@
       "img": true,
       "bg": "#b49646",
       "align": "中央",
-      "media": "none",
+      "media": "見出しの下",
       "split": null
     },
     {
@@ -322,22 +322,26 @@
     }
   ],
   "images": {
-    "n": 3,
-    "fullBleed": 0,
+    "n": 7,
+    "fullBleed": 1,
     "ratios": [
+      {
+        "ratio": "4:3",
+        "n": 2
+      },
       {
         "ratio": "16:9",
         "n": 1
       },
       {
-        "ratio": "21:9",
+        "ratio": "3:2",
         "n": 1
       }
     ],
     "radius": [
       {
         "px": 0,
-        "n": 3
+        "n": 7
       }
     ]
   },

@@ -32,7 +32,7 @@
     },
     {
       "hex": "#666666",
-      "pct": 10.1
+      "pct": 10
     },
     {
       "hex": "#00b1cb",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 2007
+      "w": 2010
     },
     {
       "family": "Shippori Antique",
@@ -226,7 +226,7 @@
       "split": null
     },
     {
-      "h": 1360,
+      "h": 1400,
       "full": true,
       "cols": 4,
       "img": true,
