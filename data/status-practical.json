@@ -571,5 +571,136 @@
   },
   "modernca-online": {
     "state": "done"
+  },
+  "wannamanna": {
+    "state": "done"
+  },
+  "miyamotokanagata": {
+    "state": "done"
+  },
+  "venect": {
+    "state": "done"
+  },
+  "naganoanzen": {
+    "state": "done"
+  },
+  "iamas": {
+    "state": "done"
+  },
+  "gotonotsubaki": {
+    "state": "done"
+  },
+  "alphadrive-corp": {
+    "state": "done"
+  },
+  "skkenshin": {
+    "state": "done"
+  },
+  "fukoku": {
+    "state": "done"
+  },
+  "shiwakamotsu": {
+    "state": "done"
+  },
+  "endeal": {
+    "state": "done"
+  },
+  "teienartmuseum": {
+    "state": "done"
+  },
+  "risetax-accountant": {
+    "state": "done"
+  },
+  "studio246": {
+    "state": "done"
+  },
+  "dely-careers": {
+    "state": "done"
+  },
+  "monex-recruit": {
+    "state": "done"
+  },
+  "shibuya": {
+    "state": "done"
+  },
+  "sun-hope": {
+    "state": "done"
+  },
+  "mujuu": {
+    "state": "done"
+  },
+  "yamamotocoffeekan": {
+    "state": "done"
+  },
+  "jorganic-coffee": {
+    "state": "done"
+  },
+  "sisi": {
+    "state": "done"
+  },
+  "karte": {
+    "state": "done"
+  },
+  "harmonieswithkumon": {
+    "state": "done"
+  },
+  "freee-jobs": {
+    "state": "done"
+  },
+  "foodison": {
+    "state": "done"
+  },
+  "ventureforjapan": {
+    "state": "done"
+  },
+  "learningware": {
+    "state": "done"
+  },
+  "satsukikai": {
+    "state": "done"
+  },
+  "housousha": {
+    "state": "done"
+  },
+  "michinoeki-ashigakubo": {
+    "state": "done"
+  },
+  "cartaholdings": {
+    "state": "done"
+  },
+  "lee": {
+    "state": "done"
+  },
+  "nakamurabrace": {
+    "state": "done"
+  },
+  "shikikodomodc": {
+    "state": "done"
+  },
+  "uchida-bs": {
+    "state": "done"
+  },
+  "splashtop": {
+    "state": "done"
+  },
+  "webstaff": {
+    "state": "done"
+  },
+  "r-reha": {
+    "state": "done"
+  },
+  "fil-toyama": {
+    "state": "done"
+  },
+  "lycorp": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.lycorp.co.jp/ja/"
+  },
+  "ha-ru": {
+    "state": "done"
+  },
+  "koushou": {
+    "state": "done"
   }
 }

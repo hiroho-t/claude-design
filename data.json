@@ -16070,5 +16070,3015 @@
         "name": "落ち着いた配色"
       }
     ]
+  },
+  {
+    "slug": "wannamanna",
+    "name": "wanna manna（ワナマナ）台灣早餐〜台湾朝食の新習慣〜",
+    "url": "https://wanna-manna.com/",
+    "industry": "ブランドサイト･サービスサイト／カフェ･飲食店･テイクアウト／料理･食べ物･飲み物･食品製造",
+    "tags": [
+      "ゴシック",
+      "余白ひろい",
+      "角丸",
+      "色つき"
+    ],
+    "accent": "#1d462f",
+    "palette": [
+      {
+        "hex": "#f9f6f4",
+        "pct": 62
+      },
+      {
+        "hex": "#1a1e1a",
+        "pct": 5.9
+      },
+      {
+        "hex": "#1d462f",
+        "pct": 5.8
+      },
+      {
+        "hex": "#804f2b",
+        "pct": 5.4
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "cafe-restaurant-tavern",
+        "name": "カフェ･飲食店･テイクアウト"
+      },
+      {
+        "slug": "cooking-food-beverage",
+        "name": "料理･食べ物･飲み物･食品製造"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "green",
+        "name": "グリーン･イエローグリーン･緑色"
+      },
+      {
+        "slug": "beige",
+        "name": "ベージュ･グレージュ･アイボリー･クリーム･薄茶色"
+      },
+      {
+        "slug": "warm-color",
+        "name": "暖色"
+      },
+      {
+        "slug": "calmdown-color",
+        "name": "落ち着いた配色"
+      },
+      {
+        "slug": "friendly-color",
+        "name": "やさしい･やわらかい配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      },
+      {
+        "slug": "combination-color",
+        "name": "組み合わせが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "miyamotokanagata",
+    "name": "宮本金型製作所",
+    "url": "https://miyamoto-kanagata.co.jp/",
+    "industry": "コーポレートサイト／製造業･工業･メーカー･商社･物流／レスポンシブ",
+    "tags": [
+      "ゴシック",
+      "余白ひろい",
+      "角ばった",
+      "モノトーン"
+    ],
+    "accent": "#776354",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 56.1
+      },
+      {
+        "hex": "#192126",
+        "pct": 8.3
+      },
+      {
+        "hex": "#776354",
+        "pct": 4
+      },
+      {
+        "hex": "#147cd6",
+        "pct": 3.9
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "corporatesite",
+        "name": "コーポレートサイト"
+      },
+      {
+        "slug": "life-infrastructure-industry",
+        "name": "製造業･工業･メーカー･商社･物流"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "white",
+        "name": "ホワイト･白色"
+      },
+      {
+        "slug": "blue",
+        "name": "ブルー･青色"
+      },
+      {
+        "slug": "cool-color",
+        "name": "寒色"
+      },
+      {
+        "slug": "stylish-intellect-color",
+        "name": "クール･知的な配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "venect",
+    "name": "VENECT（ヴェネクト）",
+    "url": "https://www.venect.jp/",
+    "industry": "コーポレートサイト／企画･開発･マーケティング･コンサルティング／レスポンシブ",
+    "tags": [
+      "ゴシック",
+      "余白ひろい",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#4b5165",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 62.1
+      },
+      {
+        "hex": "#000000",
+        "pct": 15
+      },
+      {
+        "hex": "#dbdbe1",
+        "pct": 11.8
+      },
+      {
+        "hex": "#4b5165",
+        "pct": 5.7
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "corporatesite",
+        "name": "コーポレートサイト"
+      },
+      {
+        "slug": "business-support",
+        "name": "企画･開発･マーケティング･コンサルティング"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "white",
+        "name": "ホワイト･白色"
+      },
+      {
+        "slug": "grey",
+        "name": "グレー･灰色"
+      },
+      {
+        "slug": "navy",
+        "name": "ネイビー･紺色"
+      },
+      {
+        "slug": "cool-color",
+        "name": "寒色"
+      },
+      {
+        "slug": "stylish-intellect-color",
+        "name": "クール･知的な配色"
+      },
+      {
+        "slug": "calmdown-color",
+        "name": "落ち着いた配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "naganoanzen",
+    "name": "長野安全自動車",
+    "url": "https://naganoanzen.jp/",
+    "industry": "コーポレートサイト／暮らし･生活／車･乗り物･モビリティ",
+    "tags": [
+      "ゴシック",
+      "余白つまった",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#0b318f",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 69.3
+      },
+      {
+        "hex": "#0b318f",
+        "pct": 21.9
+      },
+      {
+        "hex": "#fdc201",
+        "pct": 1.5
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "corporatesite",
+        "name": "コーポレートサイト"
+      },
+      {
+        "slug": "life",
+        "name": "暮らし･生活"
+      },
+      {
+        "slug": "car-bike-vehicle-airplane",
+        "name": "車･乗り物･モビリティ"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "white",
+        "name": "ホワイト･白色"
+      },
+      {
+        "slug": "blue",
+        "name": "ブルー･青色"
+      },
+      {
+        "slug": "navy",
+        "name": "ネイビー･紺色"
+      },
+      {
+        "slug": "cool-color",
+        "name": "寒色"
+      },
+      {
+        "slug": "stylish-intellect-color",
+        "name": "クール･知的な配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "iamas",
+    "name": "情報科学芸術大学院大学 [IAMAS]",
+    "url": "https://www.iamas.ac.jp/",
+    "industry": "ブランドサイト･サービスサイト／学校･教育／レスポンシブ",
+    "tags": [
+      "ゴシック",
+      "余白ひろい",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#7c5e4e",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 72
+      },
+      {
+        "hex": "#e4e6eb",
+        "pct": 8.2
+      },
+      {
+        "hex": "#cbcbcd",
+        "pct": 3.7
+      },
+      {
+        "hex": "#131112",
+        "pct": 2.7
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "school-education",
+        "name": "学校･教育"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "white",
+        "name": "ホワイト･白色"
+      },
+      {
+        "slug": "blue",
+        "name": "ブルー･青色"
+      },
+      {
+        "slug": "cool-color",
+        "name": "寒色"
+      },
+      {
+        "slug": "vivid-color",
+        "name": "強い･あざやかな配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "gotonotsubaki",
+    "name": "五島の椿オンラインショップ",
+    "url": "https://gotonotsubaki.co.jp/",
+    "industry": "ブランドサイト･サービスサイト／ECサイト･オンラインショップ／美容･化粧品･コスメ･ケア用品",
+    "tags": [
+      "ゴシック",
+      "余白ひろい",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#003723",
+    "palette": [
+      {
+        "hex": "#f0eeec",
+        "pct": 73.6
+      },
+      {
+        "hex": "#003723",
+        "pct": 12.4
+      },
+      {
+        "hex": "#cf000e",
+        "pct": 4.7
+      },
+      {
+        "hex": "#9b6f65",
+        "pct": 1.6
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "ec-onlineshop",
+        "name": "ECサイト･オンラインショップ"
+      },
+      {
+        "slug": "beauty-cosmetics-caregoods",
+        "name": "美容･化粧品･コスメ･ケア用品"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "grey",
+        "name": "グレー･灰色"
+      },
+      {
+        "slug": "red",
+        "name": "レッド･ワインレッド･バーミリオン･赤色"
+      },
+      {
+        "slug": "warm-color",
+        "name": "暖色"
+      },
+      {
+        "slug": "japanesestyle-retro-color",
+        "name": "和･伝統的･レトロな配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "alphadrive-corp",
+    "name": "AlphaDrive（アルファドライブ）",
+    "url": "https://corp.alphadrive.co.jp/",
+    "industry": "コーポレートサイト／企画･開発･マーケティング･コンサルティング／レスポンシブ",
+    "tags": [
+      "ゴシック",
+      "余白ひろい",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#9bf5c5",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 87
+      },
+      {
+        "hex": "#e8f0f4",
+        "pct": 5.6
+      },
+      {
+        "hex": "#222c33",
+        "pct": 3.9
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "corporatesite",
+        "name": "コーポレートサイト"
+      },
+      {
+        "slug": "business-support",
+        "name": "企画･開発･マーケティング･コンサルティング"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "blue",
+        "name": "ブルー･青色"
+      },
+      {
+        "slug": "cool-color",
+        "name": "寒色"
+      }
+    ]
+  },
+  {
+    "slug": "skkenshin",
+    "name": "済生会熊本予防医療センター",
+    "url": "https://sk-kenshin.jp/",
+    "industry": "ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／レスポンシブ",
+    "tags": [
+      "ゴシック",
+      "余白ふつう",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#0c212b",
+    "palette": [
+      {
+        "hex": "#0c212b",
+        "pct": 48.2
+      },
+      {
+        "hex": "#dedece",
+        "pct": 12.4
+      },
+      {
+        "hex": "#8b6421",
+        "pct": 11.5
+      },
+      {
+        "hex": "#3c5249",
+        "pct": 4.9
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "hospital-clinic-medicalcare-dentist",
+        "name": "病院･クリニック･歯医者･医療･薬"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "navy",
+        "name": "ネイビー･紺色"
+      },
+      {
+        "slug": "beige",
+        "name": "ベージュ･グレージュ･アイボリー･クリーム･薄茶色"
+      },
+      {
+        "slug": "stylish-intellect-color",
+        "name": "クール･知的な配色"
+      },
+      {
+        "slug": "calmdown-color",
+        "name": "落ち着いた配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      },
+      {
+        "slug": "combination-color",
+        "name": "組み合わせが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "fukoku",
+    "name": "【公式】フコク生命",
+    "url": "https://www.fukoku-life.co.jp/",
+    "industry": "コーポレートサイト／ブランドサイト･サービスサイト／金融･投資･保険･士業",
+    "tags": [
+      "ゴシック",
+      "余白つまった",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#760b24",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 76.7
+      },
+      {
+        "hex": "#f7e2e4",
+        "pct": 7.9
+      },
+      {
+        "hex": "#760b24",
+        "pct": 3.1
+      },
+      {
+        "hex": "#f8d5c9",
+        "pct": 3
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "corporatesite",
+        "name": "コーポレートサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "bank-insurance-finance-law",
+        "name": "金融･投資･保険･士業"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "red",
+        "name": "レッド･ワインレッド･バーミリオン･赤色"
+      },
+      {
+        "slug": "warm-color",
+        "name": "暖色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "shiwakamotsu",
+    "name": "志和貨物自動車株式会社",
+    "url": "https://shiwakamotsu.co.jp/",
+    "industry": "コーポレートサイト／製造業･工業･メーカー･商社･物流／1カラム",
+    "tags": [
+      "ゴシック",
+      "余白ふつう",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#102028",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 58.8
+      },
+      {
+        "hex": "#102028",
+        "pct": 7.4
+      },
+      {
+        "hex": "#020405",
+        "pct": 5.1
+      },
+      {
+        "hex": "#c8e0e7",
+        "pct": 4
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "corporatesite",
+        "name": "コーポレートサイト"
+      },
+      {
+        "slug": "life-infrastructure-industry",
+        "name": "製造業･工業･メーカー･商社･物流"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "white",
+        "name": "ホワイト･白色"
+      }
+    ]
+  },
+  {
+    "slug": "endeal",
+    "name": "大阪の遺品整理・生前整理・買取ならエンディール",
+    "url": "https://endeal.net/",
+    "industry": "ブランドサイト･サービスサイト／サービス･アプリ･ツール･SaaS／暮らし･生活",
+    "tags": [
+      "ゴシック",
+      "余白つまった",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#fce9d7",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 44.9
+      },
+      {
+        "hex": "#fce9d7",
+        "pct": 28.4
+      },
+      {
+        "hex": "#60433a",
+        "pct": 4.5
+      },
+      {
+        "hex": "#f87444",
+        "pct": 4.4
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "service-application",
+        "name": "サービス･アプリ･ツール･SaaS"
+      },
+      {
+        "slug": "life",
+        "name": "暮らし･生活"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "orange",
+        "name": "オレンジ･橙色"
+      },
+      {
+        "slug": "warm-color",
+        "name": "暖色"
+      },
+      {
+        "slug": "colorful",
+        "name": "多色"
+      }
+    ]
+  },
+  {
+    "slug": "teienartmuseum",
+    "name": "東京都庭園美術館",
+    "url": "https://www.teien-art-museum.ne.jp/",
+    "industry": "ブランドサイト･サービスサイト／商業施設･レジャー施設･文化施設／カルチャー･アート",
+    "tags": [
+      "ゴシック",
+      "余白ふつう",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#7fbaaa",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 45.7
+      },
+      {
+        "hex": "#ede8e2",
+        "pct": 24.9
+      },
+      {
+        "hex": "#7fbaaa",
+        "pct": 14.4
+      },
+      {
+        "hex": "#00695b",
+        "pct": 8.9
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "facility-leisure-themepark",
+        "name": "商業施設･レジャー施設･文化施設"
+      },
+      {
+        "slug": "culture-art",
+        "name": "カルチャー･アート"
+      },
+      {
+        "slug": "history-culturalproperty",
+        "name": "歴史･文化財･伝統"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "green",
+        "name": "グリーン･イエローグリーン･緑色"
+      },
+      {
+        "slug": "beige",
+        "name": "ベージュ･グレージュ･アイボリー･クリーム･薄茶色"
+      },
+      {
+        "slug": "neutral-color",
+        "name": "中性色"
+      },
+      {
+        "slug": "calmdown-color",
+        "name": "落ち着いた配色"
+      },
+      {
+        "slug": "friendly-color",
+        "name": "やさしい･やわらかい配色"
+      }
+    ]
+  },
+  {
+    "slug": "risetax-accountant",
+    "name": "税理士法人ライズ",
+    "url": "https://rise-tax.com/accountant/",
+    "industry": "コーポレートサイト／ブランドサイト･サービスサイト／金融･投資･保険･士業",
+    "tags": [
+      "ゴシック",
+      "余白つまった",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#4b89ab",
+    "palette": [
+      {
+        "hex": "#f0f0f0",
+        "pct": 61.5
+      },
+      {
+        "hex": "#4b89ab",
+        "pct": 22.9
+      },
+      {
+        "hex": "#2d3243",
+        "pct": 8
+      },
+      {
+        "hex": "#dbdddf",
+        "pct": 4.5
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "corporatesite",
+        "name": "コーポレートサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "bank-insurance-finance-law",
+        "name": "金融･投資･保険･士業"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "grey",
+        "name": "グレー･灰色"
+      },
+      {
+        "slug": "blue",
+        "name": "ブルー･青色"
+      },
+      {
+        "slug": "cool-color",
+        "name": "寒色"
+      },
+      {
+        "slug": "calmdown-color",
+        "name": "落ち着いた配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "studio246",
+    "name": "大阪・神戸・京都・名古屋の音楽スタジオ・バンド練習は【スタジオ246】",
+    "url": "https://widewindows.com/",
+    "industry": "ブランドサイト･サービスサイト／スタジオ･レンタルスペース･シェアオフィス／音楽･芸能･映画･テレビ･配信",
+    "tags": [
+      "ゴシック",
+      "余白ふつう",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#db2020",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 46
+      },
+      {
+        "hex": "#db2020",
+        "pct": 18.6
+      },
+      {
+        "hex": "#222222",
+        "pct": 17.3
+      },
+      {
+        "hex": "#b3ae9e",
+        "pct": 7.6
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "studio-rentalspace",
+        "name": "スタジオ･レンタルスペース･シェアオフィス"
+      },
+      {
+        "slug": "music",
+        "name": "音楽･芸能･映画･テレビ･配信"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "red",
+        "name": "レッド･ワインレッド･バーミリオン･赤色"
+      },
+      {
+        "slug": "warm-color",
+        "name": "暖色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "dely-careers",
+    "name": "採用情報 クラシル株式会社",
+    "url": "https://kurashiru.co.jp/careers",
+    "industry": "採用サイト／企画･開発･マーケティング･コンサルティング／レスポンシブ",
+    "tags": [
+      "ゴシック",
+      "余白ふつう",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#60727f",
+    "palette": [
+      {
+        "hex": "#2d3139",
+        "pct": 52.3
+      },
+      {
+        "hex": "#4a505f",
+        "pct": 19.1
+      },
+      {
+        "hex": "#1b1d22",
+        "pct": 14.6
+      },
+      {
+        "hex": "#eceef4",
+        "pct": 5.5
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "recruit",
+        "name": "採用サイト"
+      },
+      {
+        "slug": "business-support",
+        "name": "企画･開発･マーケティング･コンサルティング"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "black",
+        "name": "ブラック･黒色"
+      },
+      {
+        "slug": "grey",
+        "name": "グレー･灰色"
+      },
+      {
+        "slug": "dark-color",
+        "name": "ダークな配色"
+      }
+    ]
+  },
+  {
+    "slug": "monex-recruit",
+    "name": "マネックス証券株式会社 採用サイト",
+    "url": "https://www.monexgroup.jp/recruit/index.html",
+    "industry": "採用サイト／金融･投資･保険･士業／レスポンシブ",
+    "tags": [
+      "ゴシック",
+      "余白ひろい",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#976f26",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 62.6
+      },
+      {
+        "hex": "#ccced1",
+        "pct": 10.3
+      },
+      {
+        "hex": "#000000",
+        "pct": 5.5
+      },
+      {
+        "hex": "#b1b4b5",
+        "pct": 4.1
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "recruit",
+        "name": "採用サイト"
+      },
+      {
+        "slug": "bank-insurance-finance-law",
+        "name": "金融･投資･保険･士業"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "white",
+        "name": "ホワイト･白色"
+      },
+      {
+        "slug": "gold",
+        "name": "ゴールド･金色"
+      },
+      {
+        "slug": "warm-color",
+        "name": "暖色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "shibuya",
+    "name": "渋谷区公式サイト",
+    "url": "https://www.city.shibuya.tokyo.jp/",
+    "industry": "ブランドサイト･サービスサイト／ポータルサイト･メディア･情報サイト／地域･地方創生･政治･行政･自治体･NPO",
+    "tags": [
+      "ゴシック",
+      "余白つまった",
+      "角丸",
+      "色つき"
+    ],
+    "accent": "#4d65cb",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 50.3
+      },
+      {
+        "hex": "#e6e6f0",
+        "pct": 28.5
+      },
+      {
+        "hex": "#74748a",
+        "pct": 11.8
+      },
+      {
+        "hex": "#b5a7ab",
+        "pct": 2.2
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "portalsite-media",
+        "name": "ポータルサイト･メディア･情報サイト"
+      },
+      {
+        "slug": "charity-npo",
+        "name": "地域･地方創生･政治･行政･自治体･NPO"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "white",
+        "name": "ホワイト･白色"
+      },
+      {
+        "slug": "grey",
+        "name": "グレー･灰色"
+      }
+    ]
+  },
+  {
+    "slug": "sun-hope",
+    "name": "株式会社サンアンドホープ",
+    "url": "https://www.sun-hope.co.jp/",
+    "industry": "コーポレートサイト／製造業･工業･メーカー･商社･物流／農業･畜産業･林業･漁業･園芸",
+    "tags": [
+      "ゴシック",
+      "余白ふつう",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#a3b093",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 68
+      },
+      {
+        "hex": "#deecea",
+        "pct": 11.4
+      },
+      {
+        "hex": "#0f0c0b",
+        "pct": 6
+      },
+      {
+        "hex": "#a3b093",
+        "pct": 3.6
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "corporatesite",
+        "name": "コーポレートサイト"
+      },
+      {
+        "slug": "life-infrastructure-industry",
+        "name": "製造業･工業･メーカー･商社･物流"
+      },
+      {
+        "slug": "agriculture-farm-nature-dairy",
+        "name": "農業･畜産業･林業･漁業･園芸"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "white",
+        "name": "ホワイト･白色"
+      },
+      {
+        "slug": "green",
+        "name": "グリーン･イエローグリーン･緑色"
+      },
+      {
+        "slug": "neutral-color",
+        "name": "中性色"
+      },
+      {
+        "slug": "refreshing-color",
+        "name": "さわやか･フレッシュな配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "mujuu",
+    "name": "香りで睡眠をケアするアロマシリーズ",
+    "url": "https://mujuu.jp/",
+    "industry": "ブランドサイト･サービスサイト／美容･化粧品･コスメ･ケア用品／レスポンシブ",
+    "tags": [
+      "明朝",
+      "余白つまった",
+      "角ばった",
+      "モノトーン"
+    ],
+    "accent": "#bbcbad",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 70.4
+      },
+      {
+        "hex": "#2c423b",
+        "pct": 13
+      },
+      {
+        "hex": "#dbdbda",
+        "pct": 7.8
+      },
+      {
+        "hex": "#bbcbad",
+        "pct": 1.9
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "beauty-cosmetics-caregoods",
+        "name": "美容･化粧品･コスメ･ケア用品"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "green",
+        "name": "グリーン･イエローグリーン･緑色"
+      },
+      {
+        "slug": "beige",
+        "name": "ベージュ･グレージュ･アイボリー･クリーム･薄茶色"
+      },
+      {
+        "slug": "calmdown-color",
+        "name": "落ち着いた配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "yamamotocoffeekan",
+    "name": "【公式】山本珈琲 オンラインショップ",
+    "url": "https://yamamotocoffeekan.jp/",
+    "industry": "ECサイト･オンラインショップ／料理･食べ物･飲み物･食品製造／レスポンシブ",
+    "tags": [
+      "ゴシック",
+      "余白ふつう",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#62352d",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 83.7
+      },
+      {
+        "hex": "#e4dad3",
+        "pct": 6.4
+      },
+      {
+        "hex": "#62352d",
+        "pct": 2.1
+      },
+      {
+        "hex": "#efefef",
+        "pct": 2
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "ec-onlineshop",
+        "name": "ECサイト･オンラインショップ"
+      },
+      {
+        "slug": "cooking-food-beverage",
+        "name": "料理･食べ物･飲み物･食品製造"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "beige",
+        "name": "ベージュ･グレージュ･アイボリー･クリーム･薄茶色"
+      },
+      {
+        "slug": "brown",
+        "name": "ブラウン･キャメル･茶色"
+      },
+      {
+        "slug": "warm-color",
+        "name": "暖色"
+      },
+      {
+        "slug": "calmdown-color",
+        "name": "落ち着いた配色"
+      },
+      {
+        "slug": "friendly-color",
+        "name": "やさしい･やわらかい配色"
+      }
+    ]
+  },
+  {
+    "slug": "jorganic-coffee",
+    "name": "j.organic coffee",
+    "url": "https://www.jorganic-coffee.jp/",
+    "industry": "ブランドサイト･サービスサイト／カフェ･飲食店･テイクアウト／料理･食べ物･飲み物･食品製造",
+    "tags": [
+      "ゴシック",
+      "余白ふつう",
+      "角ばった",
+      "モノトーン"
+    ],
+    "accent": "#d0beb7",
+    "palette": [
+      {
+        "hex": "#f6f1ed",
+        "pct": 85.7
+      },
+      {
+        "hex": "#d0beb7",
+        "pct": 4.5
+      },
+      {
+        "hex": "#d8dbdc",
+        "pct": 2.1
+      },
+      {
+        "hex": "#a9a7a2",
+        "pct": 1.8
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "cafe-restaurant-tavern",
+        "name": "カフェ･飲食店･テイクアウト"
+      },
+      {
+        "slug": "cooking-food-beverage",
+        "name": "料理･食べ物･飲み物･食品製造"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "beige",
+        "name": "ベージュ･グレージュ･アイボリー･クリーム･薄茶色"
+      },
+      {
+        "slug": "warm-color",
+        "name": "暖色"
+      },
+      {
+        "slug": "calmdown-color",
+        "name": "落ち着いた配色"
+      },
+      {
+        "slug": "friendly-color",
+        "name": "やさしい･やわらかい配色"
+      }
+    ]
+  },
+  {
+    "slug": "sisi",
+    "name": "SISI（シシ）",
+    "url": "https://sisi.tokyo/shop",
+    "industry": "ブランドサイト･サービスサイト／ECサイト･オンラインショップ／美容･化粧品･コスメ･ケア用品",
+    "tags": [
+      "ゴシック",
+      "余白ふつう",
+      "角ばった",
+      "モノトーン"
+    ],
+    "accent": "#fcede1",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 66.6
+      },
+      {
+        "hex": "#000000",
+        "pct": 6.6
+      },
+      {
+        "hex": "#dfe8e5",
+        "pct": 5.6
+      },
+      {
+        "hex": "#fcede1",
+        "pct": 4.4
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "ec-onlineshop",
+        "name": "ECサイト･オンラインショップ"
+      },
+      {
+        "slug": "beauty-cosmetics-caregoods",
+        "name": "美容･化粧品･コスメ･ケア用品"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "white",
+        "name": "ホワイト･白色"
+      }
+    ]
+  },
+  {
+    "slug": "karte",
+    "name": "CXプラットフォーム KARTE（カルテ）",
+    "url": "https://karte.io/",
+    "industry": "ブランドサイト･サービスサイト／Web･IT･XR･デジタル･テクノロジー／サービス･アプリ･ツール･SaaS",
+    "tags": [
+      "ゴシック",
+      "余白ひろい",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#02211e",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 57.5
+      },
+      {
+        "hex": "#02211e",
+        "pct": 11.5
+      },
+      {
+        "hex": "#22a29c",
+        "pct": 5.7
+      },
+      {
+        "hex": "#2e2e2e",
+        "pct": 5.2
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "computer-web",
+        "name": "Web･IT･XR･デジタル･テクノロジー"
+      },
+      {
+        "slug": "service-application",
+        "name": "サービス･アプリ･ツール･SaaS"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "green",
+        "name": "グリーン･イエローグリーン･緑色"
+      },
+      {
+        "slug": "neutral-color",
+        "name": "中性色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "harmonieswithkumon",
+    "name": "Harmonies with KUMON",
+    "url": "https://harmonies.kumon.ne.jp/",
+    "industry": "ポータルサイト･メディア･情報サイト／学校･教育／ベビー･子ども･子育て",
+    "tags": [
+      "ゴシック",
+      "余白つまった",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#c9e2e8",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 81.6
+      },
+      {
+        "hex": "#c9e2e8",
+        "pct": 5.5
+      },
+      {
+        "hex": "#e0d7da",
+        "pct": 2.7
+      },
+      {
+        "hex": "#b3aa9e",
+        "pct": 2.2
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "portalsite-media",
+        "name": "ポータルサイト･メディア･情報サイト"
+      },
+      {
+        "slug": "school-education",
+        "name": "学校･教育"
+      },
+      {
+        "slug": "baby-kids-mom",
+        "name": "ベビー･子ども･子育て"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "2column",
+        "name": "2カラム"
+      }
+    ]
+  },
+  {
+    "slug": "freee-jobs",
+    "name": "採用情報",
+    "url": "https://jobs.freee.co.jp/",
+    "industry": "採用サイト／Web･IT･XR･デジタル･テクノロジー／自社プロダクト･サービス運営",
+    "tags": [
+      "ゴシック",
+      "余白ふつう",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#bea896",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 84.6
+      },
+      {
+        "hex": "#bcc7d1",
+        "pct": 3.9
+      },
+      {
+        "hex": "#e2e3e0",
+        "pct": 3.1
+      },
+      {
+        "hex": "#837374",
+        "pct": 2.3
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "recruit",
+        "name": "採用サイト"
+      },
+      {
+        "slug": "computer-web",
+        "name": "Web･IT･XR･デジタル･テクノロジー"
+      },
+      {
+        "slug": "product-service",
+        "name": "自社プロダクト･サービス運営"
+      },
+      {
+        "slug": "bank-insurance-finance-law",
+        "name": "金融･投資･保険･士業"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "white",
+        "name": "ホワイト･白色"
+      },
+      {
+        "slug": "blue",
+        "name": "ブルー･青色"
+      },
+      {
+        "slug": "refreshing-color",
+        "name": "さわやか･フレッシュな配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "foodison",
+    "name": "生鮮流通に新しい循環を",
+    "url": "https://foodison.jp/",
+    "industry": "コーポレートサイト／Web･IT･XR･デジタル･テクノロジー／企画･開発･マーケティング･コンサルティング",
+    "tags": [
+      "ゴシック",
+      "余白ふつう",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#000a41",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 71
+      },
+      {
+        "hex": "#000a41",
+        "pct": 21.3
+      },
+      {
+        "hex": "#ecd3c3",
+        "pct": 1.9
+      },
+      {
+        "hex": "#eeedee",
+        "pct": 1.6
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "corporatesite",
+        "name": "コーポレートサイト"
+      },
+      {
+        "slug": "computer-web",
+        "name": "Web･IT･XR･デジタル･テクノロジー"
+      },
+      {
+        "slug": "business-support",
+        "name": "企画･開発･マーケティング･コンサルティング"
+      },
+      {
+        "slug": "joboffer-matching",
+        "name": "求人･マッチング･転職･人材ビジネス"
+      },
+      {
+        "slug": "cooking-food-beverage",
+        "name": "料理･食べ物･飲み物･食品製造"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "red",
+        "name": "レッド･ワインレッド･バーミリオン･赤色"
+      },
+      {
+        "slug": "navy",
+        "name": "ネイビー･紺色"
+      },
+      {
+        "slug": "cool-color",
+        "name": "寒色"
+      },
+      {
+        "slug": "stylish-intellect-color",
+        "name": "クール･知的な配色"
+      },
+      {
+        "slug": "calmdown-color",
+        "name": "落ち着いた配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      },
+      {
+        "slug": "combination-color",
+        "name": "組み合わせが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "ventureforjapan",
+    "name": "VENTURE FOR JAPAN",
+    "url": "https://ventureforjapan.or.jp/",
+    "industry": "ブランドサイト･サービスサイト／求人･マッチング･転職･人材ビジネス／レスポンシブ",
+    "tags": [
+      "ゴシック",
+      "余白ふつう",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#b29e93",
+    "palette": [
+      {
+        "hex": "#f3f3f4",
+        "pct": 86.2
+      },
+      {
+        "hex": "#cfc8c1",
+        "pct": 1.9
+      },
+      {
+        "hex": "#464342",
+        "pct": 1.6
+      },
+      {
+        "hex": "#b29e93",
+        "pct": 1.6
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "joboffer-matching",
+        "name": "求人･マッチング･転職･人材ビジネス"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "grey",
+        "name": "グレー･灰色"
+      },
+      {
+        "slug": "red",
+        "name": "レッド･ワインレッド･バーミリオン･赤色"
+      },
+      {
+        "slug": "warm-color",
+        "name": "暖色"
+      },
+      {
+        "slug": "stylish-intellect-color",
+        "name": "クール･知的な配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "learningware",
+    "name": "eラーニングシステム LearningWare（ラーニングウェア）",
+    "url": "https://www.pro-seeds.com/learningware/",
+    "industry": "ブランドサイト･サービスサイト／Web･IT･XR･デジタル･テクノロジー／サービス･アプリ･ツール･SaaS",
+    "tags": [
+      "ゴシック",
+      "余白ひろい",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#01418e",
+    "palette": [
+      {
+        "hex": "#f2f4f5",
+        "pct": 88
+      },
+      {
+        "hex": "#01418e",
+        "pct": 6.2
+      },
+      {
+        "hex": "#cfd5da",
+        "pct": 1.8
+      },
+      {
+        "hex": "#aaa9a6",
+        "pct": 1.5
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "computer-web",
+        "name": "Web･IT･XR･デジタル･テクノロジー"
+      },
+      {
+        "slug": "service-application",
+        "name": "サービス･アプリ･ツール･SaaS"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "blue",
+        "name": "ブルー･青色"
+      },
+      {
+        "slug": "navy",
+        "name": "ネイビー･紺色"
+      },
+      {
+        "slug": "cool-color",
+        "name": "寒色"
+      },
+      {
+        "slug": "stylish-intellect-color",
+        "name": "クール･知的な配色"
+      },
+      {
+        "slug": "calmdown-color",
+        "name": "落ち着いた配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "satsukikai",
+    "name": "社会福祉法人さつき会",
+    "url": "https://satsukikai-oshima.com/",
+    "industry": "コーポレートサイト／ブランドサイト･サービスサイト／福祉･介護",
+    "tags": [
+      "ゴシック",
+      "余白ふつう",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#f39800",
+    "palette": [
+      {
+        "hex": "#faf4ea",
+        "pct": 96.1
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "corporatesite",
+        "name": "コーポレートサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "care-old",
+        "name": "福祉･介護"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "beige",
+        "name": "ベージュ･グレージュ･アイボリー･クリーム･薄茶色"
+      },
+      {
+        "slug": "warm-color",
+        "name": "暖色"
+      },
+      {
+        "slug": "calmdown-color",
+        "name": "落ち着いた配色"
+      },
+      {
+        "slug": "friendly-color",
+        "name": "やさしい･やわらかい配色"
+      }
+    ]
+  },
+  {
+    "slug": "housousha",
+    "name": "有限会社包装社",
+    "url": "https://housousha.co.jp/",
+    "industry": "コーポレートサイト／製造業･工業･メーカー･商社･物流／レスポンシブ",
+    "tags": [
+      "ゴシック",
+      "余白ふつう",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#4b6aa5",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 62.5
+      },
+      {
+        "hex": "#4b6aa5",
+        "pct": 12.9
+      },
+      {
+        "hex": "#a9afb7",
+        "pct": 12
+      },
+      {
+        "hex": "#e9ecee",
+        "pct": 5.1
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "corporatesite",
+        "name": "コーポレートサイト"
+      },
+      {
+        "slug": "life-infrastructure-industry",
+        "name": "製造業･工業･メーカー･商社･物流"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "white",
+        "name": "ホワイト･白色"
+      },
+      {
+        "slug": "navy",
+        "name": "ネイビー･紺色"
+      },
+      {
+        "slug": "cool-color",
+        "name": "寒色"
+      },
+      {
+        "slug": "calmdown-color",
+        "name": "落ち着いた配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "michinoeki-ashigakubo",
+    "name": "【公式】道の駅 果樹公園あしがくぼ",
+    "url": "https://michinoeki-ashigakubo.com/",
+    "industry": "ブランドサイト･サービスサイト／旅行･観光･遊び／体験･交流",
+    "tags": [
+      "ゴシック",
+      "余白ひろい",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#99a8b3",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 72.6
+      },
+      {
+        "hex": "#99a8b3",
+        "pct": 7.8
+      },
+      {
+        "hex": "#827f6e",
+        "pct": 4.1
+      },
+      {
+        "hex": "#4b4c3f",
+        "pct": 3
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "travel-sightseeing-region",
+        "name": "旅行･観光･遊び"
+      },
+      {
+        "slug": "experience-interact-play",
+        "name": "体験･交流"
+      },
+      {
+        "slug": "facility-leisure-themepark",
+        "name": "商業施設･レジャー施設･文化施設"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "2column",
+        "name": "2カラム"
+      },
+      {
+        "slug": "green",
+        "name": "グリーン･イエローグリーン･緑色"
+      },
+      {
+        "slug": "refreshing-color",
+        "name": "さわやか･フレッシュな配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      },
+      {
+        "slug": "combination-color",
+        "name": "組み合わせが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "cartaholdings",
+    "name": "株式会社CARTA HOLDINGS",
+    "url": "https://cartaholdings.co.jp/",
+    "industry": "コーポレートサイト／Web･IT･XR･デジタル･テクノロジー／企画･開発･マーケティング･コンサルティング",
+    "tags": [
+      "ゴシック",
+      "余白つまった",
+      "角ばった",
+      "モノトーン"
+    ],
+    "accent": "#000000",
+    "palette": [
+      {
+        "hex": "#000000",
+        "pct": 36.9
+      },
+      {
+        "hex": "#f5f5f5",
+        "pct": 35.5
+      },
+      {
+        "hex": "#959791",
+        "pct": 8.5
+      },
+      {
+        "hex": "#716f66",
+        "pct": 4.1
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "corporatesite",
+        "name": "コーポレートサイト"
+      },
+      {
+        "slug": "computer-web",
+        "name": "Web･IT･XR･デジタル･テクノロジー"
+      },
+      {
+        "slug": "business-support",
+        "name": "企画･開発･マーケティング･コンサルティング"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "black",
+        "name": "ブラック･黒色"
+      },
+      {
+        "slug": "grey",
+        "name": "グレー･灰色"
+      },
+      {
+        "slug": "monotone-color",
+        "name": "白黒･モノトーンな配色"
+      },
+      {
+        "slug": "stylish-intellect-color",
+        "name": "クール･知的な配色"
+      }
+    ]
+  },
+  {
+    "slug": "lee",
+    "name": "「LEE（リー）」",
+    "url": "https://lee.hpplus.jp/",
+    "industry": "ポータルサイト･メディア･情報サイト／生活用品･雑貨･インテリア･家具／ファッション･アパレル･アクセサリー･ジュエリー",
+    "tags": [
+      "ゴシック",
+      "余白ふつう",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#e66a4f",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 72.9
+      },
+      {
+        "hex": "#e66a4f",
+        "pct": 6.2
+      },
+      {
+        "hex": "#ebe6dd",
+        "pct": 5.5
+      },
+      {
+        "hex": "#d6d0c9",
+        "pct": 5.2
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "portalsite-media",
+        "name": "ポータルサイト･メディア･情報サイト"
+      },
+      {
+        "slug": "life-goods-stationery-furniture",
+        "name": "生活用品･雑貨･インテリア･家具"
+      },
+      {
+        "slug": "fashion-accessories-jewelry",
+        "name": "ファッション･アパレル･アクセサリー･ジュエリー"
+      },
+      {
+        "slug": "beauty-cosmetics-caregoods",
+        "name": "美容･化粧品･コスメ･ケア用品"
+      },
+      {
+        "slug": "cooking-food-beverage",
+        "name": "料理･食べ物･飲み物･食品製造"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "orange",
+        "name": "オレンジ･橙色"
+      },
+      {
+        "slug": "yellow",
+        "name": "イエロー･黄色"
+      },
+      {
+        "slug": "warm-color",
+        "name": "暖色"
+      },
+      {
+        "slug": "calmdown-color",
+        "name": "落ち着いた配色"
+      },
+      {
+        "slug": "friendly-color",
+        "name": "やさしい･やわらかい配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "nakamurabrace",
+    "name": "中村ブレイス株式会社",
+    "url": "https://www.nakamura-brace.co.jp/",
+    "industry": "コーポレートサイト／製造業･工業･メーカー･商社･物流／レスポンシブ",
+    "tags": [
+      "ゴシック",
+      "余白つまった",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#87d2d2",
+    "palette": [
+      {
+        "hex": "#87d2d2",
+        "pct": 32.4
+      },
+      {
+        "hex": "#bedcb4",
+        "pct": 14.3
+      },
+      {
+        "hex": "#c8aa8c",
+        "pct": 11.3
+      },
+      {
+        "hex": "#ebb4b4",
+        "pct": 9.5
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "corporatesite",
+        "name": "コーポレートサイト"
+      },
+      {
+        "slug": "life-infrastructure-industry",
+        "name": "製造業･工業･メーカー･商社･物流"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "beige",
+        "name": "ベージュ･グレージュ･アイボリー･クリーム･薄茶色"
+      },
+      {
+        "slug": "friendly-color",
+        "name": "やさしい･やわらかい配色"
+      }
+    ]
+  },
+  {
+    "slug": "shikikodomodc",
+    "name": "愛媛 松前 歯医者 小児専門",
+    "url": "https://shiki-kodomo-dc.com/",
+    "industry": "ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／ベビー･子ども･子育て",
+    "tags": [
+      "ゴシック",
+      "余白ふつう",
+      "角丸",
+      "色つき"
+    ],
+    "accent": "#dcb582",
+    "palette": [
+      {
+        "hex": "#fdfdfd",
+        "pct": 86.3
+      },
+      {
+        "hex": "#d3d6d1",
+        "pct": 3.9
+      },
+      {
+        "hex": "#eaebe9",
+        "pct": 2.1
+      },
+      {
+        "hex": "#dcb582",
+        "pct": 2
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "hospital-clinic-medicalcare-dentist",
+        "name": "病院･クリニック･歯医者･医療･薬"
+      },
+      {
+        "slug": "baby-kids-mom",
+        "name": "ベビー･子ども･子育て"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "blue",
+        "name": "ブルー･青色"
+      },
+      {
+        "slug": "cool-color",
+        "name": "寒色"
+      },
+      {
+        "slug": "refreshing-color",
+        "name": "さわやか･フレッシュな配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      },
+      {
+        "slug": "combination-color",
+        "name": "組み合わせが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "uchida-bs",
+    "name": "ウチダビジネスソリューションズ",
+    "url": "https://www.uchida-bs.co.jp/",
+    "industry": "コーポレートサイト／建築･住宅･不動産･空間設計･エクステリア／レスポンシブ",
+    "tags": [
+      "ゴシック",
+      "余白ひろい",
+      "角ばった",
+      "モノトーン"
+    ],
+    "accent": "#5897ab",
+    "palette": [
+      {
+        "hex": "#f7f6f1",
+        "pct": 62.6
+      },
+      {
+        "hex": "#4f4f4f",
+        "pct": 16.2
+      },
+      {
+        "hex": "#2b2b2b",
+        "pct": 10.6
+      },
+      {
+        "hex": "#5897ab",
+        "pct": 3.7
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "corporatesite",
+        "name": "コーポレートサイト"
+      },
+      {
+        "slug": "architecture-construction-realestate-home-garden",
+        "name": "建築･住宅･不動産･空間設計･エクステリア"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "beige",
+        "name": "ベージュ･グレージュ･アイボリー･クリーム･薄茶色"
+      },
+      {
+        "slug": "calmdown-color",
+        "name": "落ち着いた配色"
+      }
+    ]
+  },
+  {
+    "slug": "splashtop",
+    "name": "スプラッシュトップ株式会社（Splashtop Inc.）",
+    "url": "https://company.splashtop.co.jp/",
+    "industry": "コーポレートサイト／Web･IT･XR･デジタル･テクノロジー／自社プロダクト･サービス運営",
+    "tags": [
+      "ゴシック",
+      "余白つまった",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#f5f17a",
+    "palette": [
+      {
+        "hex": "#fafaf5",
+        "pct": 67.7
+      },
+      {
+        "hex": "#333333",
+        "pct": 11.4
+      },
+      {
+        "hex": "#f5f17a",
+        "pct": 8.8
+      },
+      {
+        "hex": "#e3e3d0",
+        "pct": 3.2
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "corporatesite",
+        "name": "コーポレートサイト"
+      },
+      {
+        "slug": "computer-web",
+        "name": "Web･IT･XR･デジタル･テクノロジー"
+      },
+      {
+        "slug": "product-service",
+        "name": "自社プロダクト･サービス運営"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "orange",
+        "name": "オレンジ･橙色"
+      },
+      {
+        "slug": "beige",
+        "name": "ベージュ･グレージュ･アイボリー･クリーム･薄茶色"
+      },
+      {
+        "slug": "warm-color",
+        "name": "暖色"
+      },
+      {
+        "slug": "colorful",
+        "name": "多色"
+      },
+      {
+        "slug": "pop-lively-color",
+        "name": "ポップ･カラフルな配色"
+      }
+    ]
+  },
+  {
+    "slug": "webstaff",
+    "name": "ウェブスタッフ",
+    "url": "https://www.webstaff.jp/",
+    "industry": "ブランドサイト･サービスサイト／プラットフォーム･コミュニティサイト／サービス･アプリ･ツール･SaaS",
+    "tags": [
+      "ゴシック",
+      "余白つまった",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#dabbbe",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 61.3
+      },
+      {
+        "hex": "#222222",
+        "pct": 15.9
+      },
+      {
+        "hex": "#ecedf2",
+        "pct": 6.8
+      },
+      {
+        "hex": "#dcdee4",
+        "pct": 4.2
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "platform-communitysite",
+        "name": "プラットフォーム･コミュニティサイト"
+      },
+      {
+        "slug": "service-application",
+        "name": "サービス･アプリ･ツール･SaaS"
+      },
+      {
+        "slug": "joboffer-matching",
+        "name": "求人･マッチング･転職･人材ビジネス"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "pink",
+        "name": "ピンク･桃色"
+      },
+      {
+        "slug": "warm-color",
+        "name": "暖色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "r-reha",
+    "name": "自費リハビリ施設",
+    "url": "https://r-reha.jp/",
+    "industry": "ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／レスポンシブ",
+    "tags": [
+      "ゴシック",
+      "余白ひろい",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#577082",
+    "palette": [
+      {
+        "hex": "#f8f8f8",
+        "pct": 90.6
+      },
+      {
+        "hex": "#e1e7e9",
+        "pct": 2.3
+      },
+      {
+        "hex": "#cdcece",
+        "pct": 2.1
+      },
+      {
+        "hex": "#7b8c87",
+        "pct": 1.8
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "hospital-clinic-medicalcare-dentist",
+        "name": "病院･クリニック･歯医者･医療･薬"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "grey",
+        "name": "グレー･灰色"
+      },
+      {
+        "slug": "stylish-intellect-color",
+        "name": "クール･知的な配色"
+      },
+      {
+        "slug": "calmdown-color",
+        "name": "落ち着いた配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "fil-toyama",
+    "name": "fil",
+    "url": "https://fil-toyama.com/index.html",
+    "industry": "ブランドサイト･サービスサイト／カフェ･飲食店･テイクアウト／体験･交流",
+    "tags": [
+      "ゴシック",
+      "余白ひろい",
+      "角ばった",
+      "モノトーン"
+    ],
+    "accent": "#4e3c2f",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 68.9
+      },
+      {
+        "hex": "#b3b9b1",
+        "pct": 4.8
+      },
+      {
+        "hex": "#c8cec7",
+        "pct": 3.8
+      },
+      {
+        "hex": "#dadcdb",
+        "pct": 3.2
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "cafe-restaurant-tavern",
+        "name": "カフェ･飲食店･テイクアウト"
+      },
+      {
+        "slug": "experience-interact-play",
+        "name": "体験･交流"
+      },
+      {
+        "slug": "studio-rentalspace",
+        "name": "スタジオ･レンタルスペース･シェアオフィス"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "white",
+        "name": "ホワイト･白色"
+      },
+      {
+        "slug": "monotone-color",
+        "name": "白黒･モノトーンな配色"
+      }
+    ]
+  },
+  {
+    "slug": "ha-ru",
+    "name": "株式会社HA",
+    "url": "https://ha-ru2017.co.jp/",
+    "industry": "コーポレートサイト／建設･インフラ･土木･設備／レスポンシブ",
+    "tags": [
+      "ゴシック",
+      "余白つまった",
+      "角ばった",
+      "モノトーン"
+    ],
+    "accent": "#9bbfd4",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 51.9
+      },
+      {
+        "hex": "#1c1c1c",
+        "pct": 19.1
+      },
+      {
+        "hex": "#eaeaea",
+        "pct": 8.4
+      },
+      {
+        "hex": "#465052",
+        "pct": 6.5
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "corporatesite",
+        "name": "コーポレートサイト"
+      },
+      {
+        "slug": "construction",
+        "name": "建設･インフラ･土木･設備"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "monotone-color",
+        "name": "白黒･モノトーンな配色"
+      }
+    ]
+  },
+  {
+    "slug": "koushou",
+    "name": "株式会社 工匠",
+    "url": "https://koushou-inc.com/",
+    "industry": "コーポレートサイト／建築･住宅･不動産･空間設計･エクステリア／レスポンシブ",
+    "tags": [
+      "明朝",
+      "余白ひろい",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#fff0de",
+    "palette": [
+      {
+        "hex": "#fff0de",
+        "pct": 87.7
+      },
+      {
+        "hex": "#008742",
+        "pct": 6.8
+      },
+      {
+        "hex": "#3e9e71",
+        "pct": 3.3
+      },
+      {
+        "hex": "#cbdcba",
+        "pct": 1.6
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "corporatesite",
+        "name": "コーポレートサイト"
+      },
+      {
+        "slug": "architecture-construction-realestate-home-garden",
+        "name": "建築･住宅･不動産･空間設計･エクステリア"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "green",
+        "name": "グリーン･イエローグリーン･緑色"
+      },
+      {
+        "slug": "beige",
+        "name": "ベージュ･グレージュ･アイボリー･クリーム･薄茶色"
+      },
+      {
+        "slug": "neutral-color",
+        "name": "中性色"
+      },
+      {
+        "slug": "calmdown-color",
+        "name": "落ち着いた配色"
+      },
+      {
+        "slug": "friendly-color",
+        "name": "やさしい･やわらかい配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
   }
 ]
