@@ -37,7 +37,7 @@ async function alive(url) {
 }
 
 const run = (args) => new Promise(res => {
-  execFile('sh', args, { timeout: 300000, maxBuffer: 1 << 24 }, (err, so, se) =>
+  execFile('sh', args, { timeout: 900000, maxBuffer: 1 << 24 }, (err, so, se) =>
     res({ ok: !err, out: (so || '') + (se || '') }));
 });
 

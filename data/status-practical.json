@@ -282,11 +282,6 @@
   "studio-business": {
     "state": "done"
   },
-  "tokyobouhan": {
-    "state": "skip",
-    "why": "測定に失敗",
-    "url": "https://www.bouhan.metro.tokyo.lg.jp/"
-  },
   "saikazo": {
     "state": "done"
   },
@@ -326,11 +321,6 @@
   "elematec": {
     "state": "done"
   },
-  "maruigroup": {
-    "state": "skip",
-    "why": "測定に失敗",
-    "url": "https://www.0101maruigroup.co.jp/"
-  },
   "diamondrealtymanagement": {
     "state": "done"
   },
@@ -367,11 +357,6 @@
   "bakuraku": {
     "state": "done"
   },
-  "sur": {
-    "state": "skip",
-    "why": "測定に失敗",
-    "url": "https://www.sur.co.jp/"
-  },
   "muji-recruit": {
     "state": "done"
   },
@@ -386,11 +371,6 @@
   },
   "classia": {
     "state": "done"
-  },
-  "matsudaiyaku": {
-    "state": "skip",
-    "why": "測定に失敗",
-    "url": "https://matsudaiyaku.shop/"
   },
   "lakesideac": {
     "state": "done"
@@ -695,34 +675,14 @@
   "fil-toyama": {
     "state": "done"
   },
-  "lycorp": {
-    "state": "skip",
-    "why": "測定に失敗",
-    "url": "https://www.lycorp.co.jp/ja/"
-  },
   "ha-ru": {
     "state": "done"
   },
   "koushou": {
     "state": "done"
   },
-  "ntt-linkeeth": {
-    "state": "skip",
-    "why": "測定に失敗",
-    "url": "https://www.ntt.com/business/services/linkeeth/lp/linkeeth.html"
-  },
-  "proni": {
-    "state": "skip",
-    "why": "測定に失敗",
-    "url": "https://www.proni.co.jp/"
-  },
   "ohno": {
     "state": "done"
-  },
-  "axxis": {
-    "state": "skip",
-    "why": "測定に失敗",
-    "url": "https://axxis.co.jp/"
   },
   "gcs-tc-school": {
     "state": "done"
@@ -831,11 +791,6 @@
   },
   "lifeandcom": {
     "state": "done"
-  },
-  "kajoanimalcenter": {
-    "state": "skip",
-    "why": "測定に失敗",
-    "url": "https://kajo-animal.center/"
   },
   "yasudayuko": {
     "state": "done"
@@ -1029,11 +984,6 @@
   "wallpapermagic": {
     "state": "done"
   },
-  "hikarino-clinic": {
-    "state": "skip",
-    "why": "測定に失敗",
-    "url": "https://hikarino.clinic/"
-  },
   "nihontechness": {
     "state": "done"
   },
@@ -1078,11 +1028,6 @@
   },
   "midori-no-mori": {
     "state": "done"
-  },
-  "lion": {
-    "state": "skip",
-    "why": "測定に失敗",
-    "url": "https://www.lion.co.jp/ja/"
   },
   "sta": {
     "state": "done"
@@ -1229,6 +1174,21 @@
     "state": "done"
   },
   "rakuten": {
+    "state": "done"
+  },
+  "tokyobouhan": {
+    "state": "done"
+  },
+  "proni": {
+    "state": "done"
+  },
+  "axxis": {
+    "state": "done"
+  },
+  "kajoanimalcenter": {
+    "state": "done"
+  },
+  "hikarino-clinic": {
     "state": "done"
   }
 }

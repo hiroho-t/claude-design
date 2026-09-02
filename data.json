@@ -3,7 +3,7 @@
     "slug": "goodpatch-anywhere",
     "name": "Goodpatch Anywhere",
     "url": "https://anywhere.goodpatch.com/",
-    "industry": "",
+    "industry": "デザイン会社・採用",
     "tags": [
       "ゴシック",
       "余白ひろい",
@@ -30719,6 +30719,371 @@
       {
         "slug": "key-color",
         "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "tokyobouhan",
+    "name": "東京都防犯ネットワーク",
+    "url": "https://www.bouhan.metro.tokyo.lg.jp/",
+    "industry": "ポータルサイト･メディア･情報サイト／ベビー･子ども･子育て／地域･地方創生･政治･行政･自治体･NPO",
+    "tags": [
+      "ゴシック",
+      "余白つまった",
+      "角丸",
+      "色つき"
+    ],
+    "accent": "#d3edf5",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 46.4
+      },
+      {
+        "hex": "#d3edf5",
+        "pct": 18
+      },
+      {
+        "hex": "#abe29c",
+        "pct": 11.9
+      },
+      {
+        "hex": "#fff2c3",
+        "pct": 8.7
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "portalsite-media",
+        "name": "ポータルサイト･メディア･情報サイト"
+      },
+      {
+        "slug": "baby-kids-mom",
+        "name": "ベビー･子ども･子育て"
+      },
+      {
+        "slug": "charity-npo",
+        "name": "地域･地方創生･政治･行政･自治体･NPO"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "colorful",
+        "name": "多色"
+      },
+      {
+        "slug": "friendly-color",
+        "name": "やさしい･やわらかい配色"
+      }
+    ]
+  },
+  {
+    "slug": "proni",
+    "name": "PRONI株式会社",
+    "url": "https://www.proni.co.jp/",
+    "industry": "コーポレートサイト／Web･IT･XR･デジタル･テクノロジー／自社プロダクト･サービス運営",
+    "tags": [
+      "ゴシック",
+      "余白つまった",
+      "角丸",
+      "色つき"
+    ],
+    "accent": "#e10000",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 71.6
+      },
+      {
+        "hex": "#e10000",
+        "pct": 14.6
+      },
+      {
+        "hex": "#c3d6e5",
+        "pct": 2.8
+      },
+      {
+        "hex": "#e2e7ec",
+        "pct": 2.5
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "corporatesite",
+        "name": "コーポレートサイト"
+      },
+      {
+        "slug": "computer-web",
+        "name": "Web･IT･XR･デジタル･テクノロジー"
+      },
+      {
+        "slug": "product-service",
+        "name": "自社プロダクト･サービス運営"
+      },
+      {
+        "slug": "joboffer-matching",
+        "name": "求人･マッチング･転職･人材ビジネス"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "white",
+        "name": "ホワイト･白色"
+      },
+      {
+        "slug": "red",
+        "name": "レッド･ワインレッド･バーミリオン･赤色"
+      },
+      {
+        "slug": "warm-color",
+        "name": "暖色"
+      },
+      {
+        "slug": "stylish-intellect-color",
+        "name": "クール･知的な配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "axxis",
+    "name": "アクシス株式会社(Axxis inc.)",
+    "url": "https://axxis.co.jp/",
+    "industry": "コーポレートサイト／自社プロダクト･サービス運営／求人･マッチング･転職･人材ビジネス",
+    "tags": [
+      "ゴシック",
+      "余白ふつう",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#0553dd",
+    "palette": [
+      {
+        "hex": "#f4f4f5",
+        "pct": 61.2
+      },
+      {
+        "hex": "#202733",
+        "pct": 24
+      },
+      {
+        "hex": "#0553dd",
+        "pct": 13.5
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "corporatesite",
+        "name": "コーポレートサイト"
+      },
+      {
+        "slug": "product-service",
+        "name": "自社プロダクト･サービス運営"
+      },
+      {
+        "slug": "joboffer-matching",
+        "name": "求人･マッチング･転職･人材ビジネス"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "grey",
+        "name": "グレー･灰色"
+      },
+      {
+        "slug": "blue",
+        "name": "ブルー･青色"
+      },
+      {
+        "slug": "cool-color",
+        "name": "寒色"
+      },
+      {
+        "slug": "stylish-intellect-color",
+        "name": "クール･知的な配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "kajoanimalcenter",
+    "name": "山形霞城どうぶつ医療センター",
+    "url": "https://kajo-animal.center/",
+    "industry": "ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／ペット･動物･生き物",
+    "tags": [
+      "ゴシック",
+      "余白ひろい",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#00a5be",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 52.6
+      },
+      {
+        "hex": "#00a5be",
+        "pct": 32.3
+      },
+      {
+        "hex": "#104d56",
+        "pct": 5.7
+      },
+      {
+        "hex": "#e1e1dc",
+        "pct": 1.5
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "hospital-clinic-medicalcare-dentist",
+        "name": "病院･クリニック･歯医者･医療･薬"
+      },
+      {
+        "slug": "animal",
+        "name": "ペット･動物･生き物"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "bluegreen",
+        "name": "ブルーグリーン･青緑"
+      },
+      {
+        "slug": "cool-color",
+        "name": "寒色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "hikarino-clinic",
+    "name": "ヒカリノ診療所",
+    "url": "https://hikarino.clinic/",
+    "industry": "ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／レスポンシブ",
+    "tags": [
+      "ゴシック",
+      "余白つまった",
+      "角丸",
+      "色つき"
+    ],
+    "accent": "#c9dce2",
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 71.5
+      },
+      {
+        "hex": "#c9dce2",
+        "pct": 9.6
+      },
+      {
+        "hex": "#eceef4",
+        "pct": 4.5
+      },
+      {
+        "hex": "#243340",
+        "pct": 2.5
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "brandsite",
+        "name": "ブランドサイト･サービスサイト"
+      },
+      {
+        "slug": "hospital-clinic-medicalcare-dentist",
+        "name": "病院･クリニック･歯医者･医療･薬"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "white",
+        "name": "ホワイト･白色"
+      },
+      {
+        "slug": "navy",
+        "name": "ネイビー･紺色"
+      },
+      {
+        "slug": "purple",
+        "name": "パープル･ラベンダー･紫色"
+      },
+      {
+        "slug": "calmdown-color",
+        "name": "落ち着いた配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      },
+      {
+        "slug": "combination-color",
+        "name": "組み合わせが効いてる配色"
       }
     ]
   }
