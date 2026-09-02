@@ -307,13 +307,22 @@
     "sizes": []
   },
   "mobile": {
-    "bodyFs": null,
-    "bodyLh": null,
-    "sizes": [],
-    "pad": null,
+    "bodyFs": 16,
+    "bodyLh": 1.5,
+    "sizes": [
+      35,
+      22,
+      16,
+      15,
+      14
+    ],
+    "pad": 32,
     "gap": null,
-    "sidePad": null,
-    "h1": null
+    "sidePad": 20,
+    "h1": {
+      "fs": 18,
+      "lh": 1
+    }
   },
   "usage": [
     {
