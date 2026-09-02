@@ -992,5 +992,171 @@
   },
   "omorisakura-iwamiginzan": {
     "state": "done"
+  },
+  "mitsui-career": {
+    "state": "done"
+  },
+  "fujioka-dental": {
+    "state": "done"
+  },
+  "hayakawa-lawoffices": {
+    "state": "done"
+  },
+  "goodpatch-designpartnership": {
+    "state": "done"
+  },
+  "kajitsudotech": {
+    "state": "done"
+  },
+  "cipicipi": {
+    "state": "done"
+  },
+  "cacco": {
+    "state": "done"
+  },
+  "ogami": {
+    "state": "done"
+  },
+  "maruyama-urban": {
+    "state": "done"
+  },
+  "inuse": {
+    "state": "done"
+  },
+  "cosok": {
+    "state": "done"
+  },
+  "wallpapermagic": {
+    "state": "done"
+  },
+  "hikarino-clinic": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://hikarino.clinic/"
+  },
+  "nihontechness": {
+    "state": "done"
+  },
+  "yukiyasu": {
+    "state": "done"
+  },
+  "feetindesign": {
+    "state": "done"
+  },
+  "nichiasteel": {
+    "state": "done"
+  },
+  "baigie": {
+    "state": "done"
+  },
+  "tomatec": {
+    "state": "done"
+  },
+  "r-equal": {
+    "state": "done"
+  },
+  "soto": {
+    "state": "done"
+  },
+  "gris": {
+    "state": "done"
+  },
+  "belmo": {
+    "state": "done"
+  },
+  "mixi": {
+    "state": "done"
+  },
+  "yubihari": {
+    "state": "done"
+  },
+  "i-tech-muramoto": {
+    "state": "done"
+  },
+  "ppc-wonder": {
+    "state": "done"
+  },
+  "midori-no-mori": {
+    "state": "done"
+  },
+  "lion": {
+    "state": "skip",
+    "why": "測定に失敗",
+    "url": "https://www.lion.co.jp/ja/"
+  },
+  "sta": {
+    "state": "done"
+  },
+  "arjuna": {
+    "state": "done"
+  },
+  "talkme": {
+    "state": "done"
+  },
+  "kiboufudousan": {
+    "state": "done"
+  },
+  "denso-drivenbase": {
+    "state": "done"
+  },
+  "nissin-store": {
+    "state": "done"
+  },
+  "chagocoro": {
+    "state": "done"
+  },
+  "hozantei": {
+    "state": "done"
+  },
+  "sr-comodo": {
+    "state": "done"
+  },
+  "invox": {
+    "state": "done"
+  },
+  "saintparts": {
+    "state": "done"
+  },
+  "decencia": {
+    "state": "done"
+  },
+  "plazmark-craypas": {
+    "state": "done"
+  },
+  "accorder-recruit": {
+    "state": "done"
+  },
+  "nagaoyouchien": {
+    "state": "done"
+  },
+  "nishi-itami-k": {
+    "state": "done"
+  },
+  "eco-pork": {
+    "state": "done"
+  },
+  "shiroyamakumano-jinja": {
+    "state": "done"
+  },
+  "juhmokusha": {
+    "state": "done"
+  },
+  "sugoyose": {
+    "state": "done"
+  },
+  "swc-aiwakai": {
+    "state": "done"
+  },
+  "moneyforward-design": {
+    "state": "done"
+  },
+  "kaitori-studiocbr": {
+    "state": "done"
+  },
+  "careplus-staff": {
+    "state": "done"
+  },
+  "robotpayment-recruit": {
+    "state": "done"
   }
 }

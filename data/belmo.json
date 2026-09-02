@@ -6,19 +6,19 @@
   "bg": [
     {
       "hex": "#000000",
-      "pct": 30
+      "pct": 30.1
     },
     {
       "hex": "#f4ede5",
-      "pct": 27.8
+      "pct": 28
     },
     {
       "hex": "#1e2021",
-      "pct": 12
+      "pct": 12.1
     },
     {
       "hex": "#ffffff",
-      "pct": 11.2
+      "pct": 11.3
     },
     {
       "hex": "#faf6f2",
@@ -260,7 +260,7 @@
       "img": true,
       "bg": "#f2f3f4",
       "align": null,
-      "media": "全面",
+      "media": "none",
       "split": null
     }
   ],
@@ -314,7 +314,7 @@
     }
   ],
   "images": {
-    "n": 5,
+    "n": 4,
     "fullBleed": 0,
     "ratios": [
       {
@@ -324,16 +324,12 @@
       {
         "ratio": "3:2",
         "n": 2
-      },
-      {
-        "ratio": "16:9",
-        "n": 1
       }
     ],
     "radius": [
       {
         "px": 0,
-        "n": 5
+        "n": 4
       }
     ]
   },
