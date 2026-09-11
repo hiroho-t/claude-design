@@ -1,7 +1,7 @@
 # ゆびはり ふうのデザイン
 
 - 出典: https://yubihari.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／レスポンシブ
 
@@ -90,7 +90,7 @@
 | 本文 | 15px | 1.6 |
 | 補助 | 14px | — |
 | 注記 | 13px | — |
-| 注記 | 12px | — |
+
 
 - 本文は 15px・行間 1.87。
 
@@ -172,6 +172,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:460px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#644630; --on:#644630 }
 .section--main .btn--fill{ background:#644630; color:var(--main) }
 .card{ background:#ffffff;

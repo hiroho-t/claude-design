@@ -1,7 +1,7 @@
 # 三井物産 採用ポータルサイト ふうのデザイン
 
 - 出典: https://career.mitsui.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
 - 業種: 採用サイト／製造業･工業･メーカー･商社･物流／レスポンシブ
 
@@ -72,9 +72,9 @@
 | 見出し | 29px | 1 |
 | 小見出し | 23px | — |
 | リード | 17px | — |
-| リード | 14px | — |
 | 本文 | 13px | 1 |
 | 補助 | 12px | — |
+
 
 - 本文は 13px・行間 1.6。
 
@@ -174,6 +174,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:160px; display:grid; align-content:center }
+
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:transparent; color:#1e1e1e; border-radius:5px;
   padding:0px 19px; min-height:49px;

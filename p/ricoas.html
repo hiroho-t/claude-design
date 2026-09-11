@@ -227,14 +227,14 @@
       <p class="spmeta">リード<span>24px / 行間 1.5</span></p>
       <p class="spdemo" style="font-size:24px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">リード<span>18px</span></p>
-      <p class="spdemo" style="font-size:18px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">本文<span>14px / 行間 1.6</span></p>
+      <p class="spdemo" style="font-size:14px;line-height:1.6">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">リード<span>16px</span></p>
-      <p class="spdemo" style="font-size:16px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">補助<span>12px</span></p>
+      <p class="spdemo" style="font-size:12px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">リード<span>15px</span></p>
-      <p class="spdemo" style="font-size:15px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">注記<span>11px / 行間 1.4</span></p>
+      <p class="spdemo" style="font-size:11px;line-height:1.4">あのイーハトーヴォのすきとおった風</p>
     </div>
   </section>
 
@@ -411,7 +411,7 @@
   <pre id="md"># リコアス株式会社 ふうのデザイン
 
 - 出典: https://ricoas.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角丸 / 色つき
 - 業種: コーポレートサイト／ブランドサイト･サービスサイト／BtoCのサイト
 
@@ -505,9 +505,10 @@
 | 見出し | 32px | 1.5 |
 | 小見出し | 28px | 1.6 |
 | リード | 24px | 1.5 |
-| リード | 18px | — |
-| リード | 16px | — |
-| リード | 15px | — |
+| 本文 | 14px | 1.6 |
+| 補助 | 12px | — |
+| 注記 | 11px | 1.4 |
+
 
 - 本文は 14px・行間 1.6。
 
@@ -632,6 +633,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:#ffffff;
@@ -729,6 +731,7 @@ document.querySelectorAll('[data-copy]').forEach(b => b.addEventListener('click'
           .map(c => `<a href="../index.html#c=${encodeURIComponent(c.slug)}">${esc(c.name)}<b>${c.n}</b></a>`).join('')).join('');
   } catch (e) { catlist.innerHTML = '<p class="catnav__g">読み込めませんでした</p>'; }
 })();
+
 </script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 # ホテル・旅館のお仕事探し ふうのデザイン
 
 - 出典: https://moshiyado.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: ポータルサイト･メディア･情報サイト／求人･マッチング･転職･人材ビジネス／ホテル･旅館･温泉
 
@@ -96,8 +96,8 @@
 | 見出し | 16px | 1.5 |
 | 小見出し | 15px | — |
 | リード | 14px | — |
-| リード | 13px | — |
 | 本文 | 12px | 1.5 |
+
 
 - 本文は 12px・行間 1.5。
 
@@ -210,6 +210,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:800px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#666666; --on:#666666 }
 .section--main .btn--fill{ background:#666666; color:var(--main) }
 .card{ background:#ffffff;

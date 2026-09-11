@@ -1,7 +1,7 @@
 # Happy Holidays！（with）LOWRYS FARM ふうのデザイン
 
 - 出典: https://www.dot-st.com/lowrysfarm/cp/2024holiday
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: 特設サイト･キャンペーンサイト･プロモーションサイト／ファッション･アパレル･アクセサリー･ジュエリー／レスポンシブ
 
@@ -72,6 +72,7 @@
 | 見出し | 10px | — |
 | 本文 | 9px | — |
 | 補助 | 7px | — |
+
 
 - 本文は 9px・行間 null。
 
@@ -152,6 +153,7 @@ body{ background:var(--bg); color:var(--ink);
 .container{ width:min(100% - 0px, var(--container)); margin-inline:auto }
 
 .hero{  display:grid; align-content:center }
+
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:transparent; color:#ffffff; border-radius:0px;
   padding:0px 0px; min-height:31px;

@@ -1,9 +1,9 @@
 # 国立大学協会 ふうのデザイン
 
 - 出典: https://www.janu.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
-- 業種: 学校･教育／オーソドックス／シンプル
+- 業種: 学校･教育／レスポンシブ／1カラム
 
 白地に `#d0d3b8` を文字と細部だけで効かせる配色。影を使って浮かせる。本文 16px・行間 1、セクション間 40px。
 
@@ -92,8 +92,7 @@
 | 本文 | 16px | 1.93 |
 | 補助 | 15px | 1.8 |
 | 注記 | 14px | — |
-| 注記 | 13px | — |
-| 注記 | 12px | — |
+
 
 - 本文は 16px・行間 1。
 
@@ -190,6 +189,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:800px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#0068b7; --on:#0068b7 }
 .section--main .btn--fill{ background:#0068b7; color:var(--main) }
 .card{ background:#ffffff;

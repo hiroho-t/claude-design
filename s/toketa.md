@@ -1,7 +1,7 @@
 # フォスタリングカードキット TOKETA ふうのデザイン
 
 - 出典: https://toketa.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: LP（ランディングページ）／特設サイト･キャンペーンサイト･プロモーションサイト／生活用品･雑貨･インテリア･家具
 
@@ -91,9 +91,9 @@
 | 見出し | 24px | 1 |
 | 小見出し | 20px | — |
 | リード | 18px | 1.6 |
-| リード | 17px | 1.6 |
 | 本文 | 16px | 1.8 |
 | 補助 | 14px | — |
+
 
 - 本文は 16px・行間 1.8。
 
@@ -186,6 +186,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:380px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#53403b; --on:#53403b }
 .section--main .btn--fill{ background:#53403b; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

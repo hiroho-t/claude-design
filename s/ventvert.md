@@ -1,9 +1,9 @@
 # 新築分譲マンションブランド「バンベール」 ふうのデザイン
 
 - 出典: https://www.yahagijisyo.co.jp/ventvert/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
-- 業種: ブランドサイト･サービスサイト／建築･住宅･不動産･空間設計･エクステリア／オーソドックス
+- 業種: ブランドサイト･サービスサイト／建築･住宅･不動産･空間設計･エクステリア／レスポンシブ
 
 #001524 の地に `#001524` を大きな面で置く配色。影も枠線もほとんど使わない。本文 16px・行間 1、セクション間 40px。
 
@@ -72,6 +72,7 @@
 | 本文 | 16px | 1 |
 | 補助 | 14px | — |
 | 注記 | 12px | — |
+
 
 - 本文は 16px・行間 1。
 
@@ -152,6 +153,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:480px; display:grid; align-content:center }
+
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:transparent; color:#ffffff; border-radius:0px;
   padding:0px 0px; min-height:29px;

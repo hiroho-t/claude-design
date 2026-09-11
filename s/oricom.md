@@ -1,7 +1,7 @@
 # 株式会社オリコム ORICOM CO.,LTD. ふうのデザイン
 
 - 出典: https://www.oricom.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / モノトーン
 - 業種: コーポレートサイト／デザイン･イラスト･写真･映像･制作／企画･開発･マーケティング･コンサルティング
 
@@ -89,9 +89,10 @@
 | 見出し | 64px | 1.2 |
 | 小見出し | 24px | 1.75 |
 | リード | 20px | — |
-| リード | 18px | 1.75 |
 | 本文 | 16px | 2 |
 | 補助 | 14px | — |
+| 注記 | 13px | — |
+
 
 - 本文は 16px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -205,6 +206,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:240px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:transparent; border:1px solid var(--on);

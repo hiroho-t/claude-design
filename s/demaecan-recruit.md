@@ -1,7 +1,7 @@
 # 株式会社出前館 採用情報 ふうのデザイン
 
 - 出典: https://recruit.demae-can.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角丸 / 色つき
 - 業種: 採用サイト／Web･IT･XR･デジタル･テクノロジー／サービス･アプリ･ツール･SaaS
 
@@ -91,9 +91,10 @@
 | 見出し | 35px | 1.7 |
 | 小見出し | 22px | — |
 | リード | 20px | — |
-| リード | 18px | 1.5 |
 | 本文 | 16px | 1.75 |
 | 補助 | 14px | — |
+| 注記 | 12px | — |
+
 
 - 本文は 16px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -192,6 +193,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:800px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#333333; --on:#333333 }
 .section--main .btn--fill{ background:#333333; color:var(--main) }
 .card{ background:#ffffff;

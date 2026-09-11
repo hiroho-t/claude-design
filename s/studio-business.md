@@ -1,7 +1,7 @@
 # Webサイトを、成果を生む基盤へ。 ふうのデザイン
 
 - 出典: https://studio.design/ja/business
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: LP（ランディングページ）／BtoBのサイト／Web･IT･XR･デジタル･テクノロジー
 
@@ -98,6 +98,7 @@
 | 本文 | 16px | 1 |
 | 補助 | 15px | — |
 | 注記 | 14px | — |
+
 
 - 本文は 16px・行間 1。
 
@@ -218,6 +219,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#f7f7f7; --on:#f7f7f7 }
 .section--main .btn--fill{ background:#f7f7f7; color:var(--main) }
 .card{ background:transparent; border:1px solid var(--on);

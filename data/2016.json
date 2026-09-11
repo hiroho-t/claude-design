@@ -16,18 +16,18 @@
   "ink": [
     {
       "hex": "#222222",
-      "pct": 87.5
+      "pct": 88.2
     },
     {
       "hex": "#ffffff",
-      "pct": 12.5
+      "pct": 11.8
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "nimbus-sans",
-      "w": 865
+      "w": 860
     },
     {
       "family": "source-han-sans-japanese",
@@ -41,7 +41,7 @@
     },
     {
       "px": 24,
-      "w": 44
+      "w": 39
     },
     {
       "px": 15,
@@ -66,6 +66,15 @@
     "ls": "0.013em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 20,
+        "weight": "400",
+        "lh": 1.2,
+        "ls": "0.010em",
+        "family": "nimbus-sans"
+      }
+    ],
     "h2": [
       {
         "fs": 30,
@@ -76,6 +85,19 @@
       }
     ]
   },
+  "headSpace": {
+    "20": {
+      "above": 17,
+      "below": 337,
+      "n": 1
+    },
+    "30": {
+      "above": 252,
+      "below": 280,
+      "n": 2
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

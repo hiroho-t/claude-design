@@ -1,7 +1,7 @@
 # Studio Tremo ふうのデザイン
 
 - 出典: https://studio-tremo.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / モノトーン
 - 業種: ブランドサイト･サービスサイト／デザイン･イラスト･写真･映像･制作／レスポンシブ
 
@@ -72,8 +72,7 @@
 | 本文 | 14px | 3.4 |
 | 補助 | 13px | — |
 | 注記 | 12px | — |
-| 注記 | 11px | — |
-| 注記 | 10px | — |
+
 
 - 本文は 14px・行間 3.4。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -154,6 +153,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:680px; display:grid; align-content:center }
+
 .card{ background:#ffffff;
   border-radius:0px; padding:60px 50px }
 

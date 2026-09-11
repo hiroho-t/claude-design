@@ -1,7 +1,7 @@
 # 株式会社SUPER STUDIO 採用特設サイト ふうのデザイン
 
 - 出典: https://careers.super-studio.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: 採用サイト／Web･IT･XR･デジタル･テクノロジー／企画･開発･マーケティング･コンサルティング
 
@@ -91,7 +91,7 @@
 | 本文 | 16px | 2 |
 | 補助 | 14px | — |
 | 注記 | 12px | — |
-| 注記 | 10px | — |
+
 
 - 本文は 16px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -201,6 +201,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:700px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#aab4c0; --on:#aab4c0 }
 .section--main .btn--fill{ background:#aab4c0; color:var(--main) }
 .card{ background:#ffffff;

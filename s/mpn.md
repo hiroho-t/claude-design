@@ -1,7 +1,7 @@
 # MPN［一般社団法人 MPN］ ふうのデザイン
 
 - 出典: https://www.mpn.or.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: コーポレートサイト／音楽･芸能･映画･テレビ･配信／レスポンシブ
 
@@ -92,9 +92,10 @@
 | 見出し | 28px | 1.8 |
 | 小見出し | 24px | 1.4 |
 | リード | 18px | — |
-| リード | 16px | — |
-| リード | 15px | — |
 | 本文 | 14px | 1.4 |
+| 補助 | 13px | — |
+| 注記 | 12px | — |
+
 
 - 本文は 14px・行間 1.4。
 
@@ -186,6 +187,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:600px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#333333; --on:#333333 }
 .section--main .btn--fill{ background:#333333; color:var(--main) }
 .card{ background:transparent; border:1px solid var(--on);

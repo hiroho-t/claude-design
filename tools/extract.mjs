@@ -159,14 +159,116 @@ const raw = await page.evaluate(() => {
       });
     }
 
-    // 見出し
-    if (/^h[1-4]$/.test(tag) && own.length > 1) {
-      const lh = parseFloat(cs.lineHeight);
-      (headings[tag] ||= []).push({
-        fs: round(fs, 1), weight: cs.fontWeight,
-        lh: lh ? +(lh / fs).toFixed(2) : null,
-        ls: cs.letterSpacing === 'normal' ? '0' : (parseFloat(cs.letterSpacing) / fs).toFixed(3) + 'em',
-        family: cs.fontFamily.split(',')[0].replace(/["']/g, '').trim(),
+  }
+
+  /* ---- 見出し：大きさ・行間と、前後の余白 ---- */
+  // 字が実際に入っている要素から取る。<h2><span>…</span></h2> のような組み方があるため
+  const inner = el => {
+    const hasOwn = [...el.childNodes].some(n => n.nodeType === 3 && n.textContent.trim());
+    return hasOwn ? el : ([...el.querySelectorAll('*')].find(k =>
+      [...k.childNodes].some(n => n.nodeType === 3 && n.textContent.trim())) || el);
+  };
+  const headEls = [];
+  for (const el of all) {
+    if (!/^h[1-4]$/.test(el.tagName.toLowerCase())) continue;
+    const cs = getComputedStyle(el), r = el.getBoundingClientRect();
+    if (!visible(el, cs, r)) continue;
+    const txt = (el.innerText || '').trim();
+    if (txt.length < 2) continue;
+    headEls.push({ el, r, txt, tag: el.tagName.toLowerCase(), cs: getComputedStyle(inner(el)) });
+  }
+  for (const h of headEls) {
+    const fs = parseFloat(h.cs.fontSize) || 0;
+    if (!fs) continue;
+    const lh = parseFloat(h.cs.lineHeight);
+    (headings[h.tag] ||= []).push({
+      fs: round(fs, 1), weight: h.cs.fontWeight,
+      lh: lh ? +(lh / fs).toFixed(2) : null,
+      ls: h.cs.letterSpacing === 'normal' ? '0' : (parseFloat(h.cs.letterSpacing) / fs).toFixed(3) + 'em',
+      family: h.cs.fontFamily.split(',')[0].replace(/["']/g, '').trim(),
+    });
+  }
+
+  /* ---- 見出しの前後の余白と「ラベル付き見出し」の型 ---- */
+  // margin ではなく、実際に描かれた位置どうしの間隔で取る（相殺や gap があるため）
+  const textEls = [];
+  for (const el of all) {
+    const cs = getComputedStyle(el), r = el.getBoundingClientRect();
+    if (!visible(el, cs, r)) continue;
+    const own = [...el.childNodes].filter(n => n.nodeType === 3).map(n => n.textContent.trim()).join('');
+    if (own.length < 1) continue;
+    textEls.push({ el, r, own, cs, fs: parseFloat(cs.fontSize) || 0 });
+  }
+  // 同じ縦の列に並んでいるか（横に並んだ別カラムの文字を「上」と見なさないため）
+  const sameColumn = (a, b) => {
+    const w = Math.min(a.right, b.right) - Math.max(a.left, b.left);
+    return w / Math.max(1, Math.min(a.width, b.width)) >= 0.3;
+  };
+  // その要素の真上（dir=-1）／真下（dir=+1）で、いちばん近い文字要素
+  const neighbour = (self, dir) => {
+    let best = null;
+    for (const t of textEls) {
+      if (t.el === self.el || t.el.contains(self.el) || self.el.contains(t.el)) continue;
+      if (!sameColumn(self.r, t.r)) continue;
+      if (dir < 0) {
+        if (t.r.bottom > self.r.top + 1) continue;
+        if (!best || t.r.bottom > best.r.bottom) best = t;
+      } else {
+        if (t.r.top < self.r.bottom - 1) continue;
+        if (!best || t.r.top < best.r.top) best = t;
+      }
+    }
+    return best;
+  };
+  // ラベルの「かたまり」を取る（<p><span>SERVICE</span></p> なら p のほう）
+  const blockOf = (el, txt) => {
+    let b = el;
+    while (b.parentElement && (b.parentElement.innerText || '').trim() === txt) b = b.parentElement;
+    return b;
+  };
+  const edge = (el, side) => {
+    if (!el) return null;
+    const c = getComputedStyle(el);
+    const n = parseFloat(side === 'bottom' ? c.borderBottomWidth : c.borderTopWidth) || 0;
+    if (!(n > 0 && n <= 8)) return null;
+    const col = rgb(side === 'bottom' ? c.borderBottomColor : c.borderTopColor);
+    return `${round(n, 1)}px ${col ? hex(col) : ''}`.trim();
+  };
+
+  const headBox = {};    // 文字サイズごとの、上の余白と下の余白
+  const labelled = [];   // ラベル付き見出しの実測
+
+  for (const h of headEls) {
+    const fs = round(parseFloat(h.cs.fontSize) || 0, 1);
+    if (!fs) continue;
+    const self = { el: h.el, r: h.r };
+    const up = neighbour(self, -1), dn = neighbour(self, +1);
+    const above = up ? Math.round(h.r.top - up.r.bottom) : null;
+    const below = dn ? Math.round(dn.r.top - h.r.bottom) : null;
+    (headBox[fs] ||= { above: [], below: [] });
+    if (above != null && above >= 0 && above <= 400) headBox[fs].above.push(above);
+    if (below != null && below >= 0 && below <= 400) headBox[fs].below.push(below);
+
+    // 見出しのすぐ上にある、短くて小さい文字＝ラベル
+    if (up && up.own.length <= 24 && up.fs && up.fs <= Math.min(fs * 0.62, 22)
+        && above != null && above >= 0 && above <= 48) {
+      const lb = blockOf(up.el, up.own);
+      const par = lb.parentElement;
+      // ラベルと見出しが1つの箱に入っているか（外から見て「ひとまとまり」と分かるか）
+      const wrapped = !!par && par === h.el.parentElement && par.children.length <= 3
+        && (par.innerText || '').trim().length <= up.own.length + h.txt.length + 6;
+      const c = rgb(up.cs.color);
+      labelled.push({
+        fs: round(up.fs, 1),
+        weight: up.cs.fontWeight,
+        ls: up.cs.letterSpacing === 'normal' ? 0 : +(parseFloat(up.cs.letterSpacing) / up.fs).toFixed(3),
+        color: c ? hex(c) : null,
+        latin: /^[\x20-\x7E]+$/.test(up.own),      // 英字ラベルか、和文ラベルか
+        upper: /^[^a-z]*$/.test(up.own) && /[A-Z]/.test(up.own),
+        gap: above,
+        wrapped,
+        rule: edge(h.el, 'bottom') || edge(par, 'bottom'),
+        headFs: fs,
       });
     }
   }
@@ -207,6 +309,7 @@ const raw = await page.evaluate(() => {
     desc: document.querySelector('meta[name=description]')?.content || '',
     htmlBg, bgArea, inkWeight, sizeWeight, faceWeight, useBg, useText, useBorder, useBtn,
     radius, shadow, gaps, sectionPad, containers, buttons, headings,
+    headBox, labelled,
     bodyFs: bodyFs ? +bodyFs : null, bodyLh, bodyLs, bp,
   };
 });
@@ -453,6 +556,8 @@ const mobile = await page.evaluate(() => {
 await browser.close();
 
 /* ---- ここから整理（近い色をまとめ、上位だけ残す） ---- */
+const median = a => { if (!a || !a.length) return null; const v = [...a].sort((x, y) => x - y), m = v.length >> 1;
+  return v.length % 2 ? v[m] : Math.round((v[m - 1] + v[m]) / 2); };
 const top = (o, n) => Object.entries(o).sort((a, b) => b[1] - a[1]).slice(0, n);
 const toRgb = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
 const near = (a, b) => { const [x, y, z] = toRgb(a), [p, q, r] = toRgb(b); return Math.hypot(x - p, y - q, z - r) < 12; };
@@ -485,6 +590,21 @@ const out = {
     const c = {}; for (const h of v) (c[JSON.stringify(h)] ||= { h, n: 0 }).n++;
     return [k, Object.values(c).sort((a, b) => b.n - a.n).slice(0, 2).map(x => x.h)];
   })),
+  headSpace: Object.fromEntries(Object.entries(raw.headBox)
+    .map(([px, v]) => [px, { above: median(v.above), below: median(v.below), n: Math.max(v.above.length, v.below.length) }])
+    .filter(([, v]) => v.above != null || v.below != null)),
+  labelHead: (() => {
+    const c = {};
+    for (const l of raw.labelled) {
+      const key = JSON.stringify({ fs: l.fs, ls: l.ls, latin: l.latin, upper: l.upper,
+        weight: l.weight, color: l.color, wrapped: l.wrapped, rule: l.rule });
+      (c[key] ||= { l, n: 0, gaps: [], heads: [] });
+      c[key].n++; c[key].gaps.push(l.gap); c[key].heads.push(l.headFs);
+    }
+    const e = Object.values(c).sort((a, b) => b.n - a.n)[0];
+    if (!e) return null;
+    return { ...e.l, gap: median(e.gaps), headFs: median(e.heads), n: e.n, total: raw.labelled.length };
+  })(),
   radius: top(raw.radius, 4).map(([r, n]) => ({ px: +r, n })),
   shadow: top(raw.shadow, 2).map(([s, n]) => ({ css: s, n })),
   gap: top(raw.gaps, 4).map(([g, n]) => ({ px: +g, n })),

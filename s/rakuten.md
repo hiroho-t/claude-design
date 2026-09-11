@@ -1,7 +1,7 @@
 # 楽天グループ株式会社コーポレートサイト ふうのデザイン
 
 - 出典: https://corp.rakuten.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: コーポレートサイト／Web･IT･XR･デジタル･テクノロジー／自社プロダクト･サービス運営
 
@@ -95,9 +95,10 @@
 | 見出し | 22px | 1.4 |
 | 小見出し | 18px | 1.4 |
 | リード | 16px | — |
-| リード | 15px | — |
 | 本文 | 14px | 1.4 |
 | 補助 | 13px | — |
+| 注記 | 11px | — |
+
 
 - 本文は 14px・行間 1.46。
 
@@ -199,6 +200,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:180px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:#f6f6f6;

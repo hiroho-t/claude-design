@@ -1,9 +1,9 @@
 # 株式会社ベンナーズ ふうのデザイン
 
 - 出典: https://www.benners.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
-- 業種: コーポレートサイト／料理･食べ物･飲み物･食品製造／角丸
+- 業種: コーポレートサイト／料理･食べ物･飲み物･食品製造／レスポンシブ
 
 白地に `#1fabe8` を大きな面で置く配色。影も枠線もほとんど使わない。本文 18px・行間 1.8、セクション間 100px。
 
@@ -98,7 +98,7 @@
 | 本文 | 18px | 1.8 |
 | 補助 | 16px | — |
 | 注記 | 14px | 1.4 |
-| 注記 | 13px | — |
+
 
 - 本文は 18px・行間 1.8。
 
@@ -212,6 +212,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:880px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#0071bc; --on:#0071bc }
 .section--main .btn--fill{ background:#0071bc; color:var(--main) }
 .card{ background:#ffffff; border:1px solid var(--on);

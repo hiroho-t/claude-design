@@ -1,9 +1,9 @@
 # Goodpatch グッドパッチ採用サイト ふうのデザイン
 
 - 出典: https://careers.goodpatch.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角丸 / 色つき
-- 業種: 採用サイト／デザイン･イラスト･写真･映像･制作／オーソドックス
+- 業種: 採用サイト／デザイン･イラスト･写真･映像･制作／レスポンシブ
 
 #f7f7f7 の地に `#096fc8` を文字と細部だけで効かせる配色。影を使って浮かせる。本文 15px・行間 1.7、セクション間 100px。
 
@@ -94,6 +94,7 @@
 | 本文 | 15px | 1.7 |
 | 補助 | 14px | — |
 | 注記 | 13px | — |
+
 
 - 本文は 15px・行間 1.7。
 
@@ -208,6 +209,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#096fc8; --on:#096fc8 }
 .section--main .btn--fill{ background:#096fc8; color:var(--main) }
 .card{ background:#ffffff;

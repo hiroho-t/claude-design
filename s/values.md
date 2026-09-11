@@ -1,7 +1,7 @@
 # データインテリジェンス×マーケティングで価値創造をともに ふうのデザイン
 
 - 出典: https://www.valuesccg.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: コーポレートサイト／Web･IT･XR･デジタル･テクノロジー／企画･開発･マーケティング･コンサルティング
 
@@ -91,7 +91,7 @@
 | 本文 | 16px | 1.5 |
 | 補助 | 14px | — |
 | 注記 | 12px | — |
-| 注記 | 10px | — |
+
 
 - 本文は 16px・行間 1.5。
 
@@ -209,6 +209,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:380px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#d0d6d3; --on:#d0d6d3 }
 .section--main .btn--fill{ background:#d0d6d3; color:var(--main) }
 .card{ background:#26554c;

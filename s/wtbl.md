@@ -1,7 +1,7 @@
 # 静岡東部の土木・解体工事会社 ふうのデザイン
 
 - 出典: https://wtbl.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / モノトーン
 - 業種: コーポレートサイト／建設･インフラ･土木･設備／レスポンシブ
 
@@ -90,9 +90,8 @@
 | 見出し | 55px | 1.4 |
 | 小見出し | 43px | 1.4 |
 | リード | 24px | — |
-| リード | 18px | — |
-| リード | 16px | — |
 | 本文 | 15px | 2 |
+
 
 - 本文は 15px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -180,6 +179,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:#eeeeee;

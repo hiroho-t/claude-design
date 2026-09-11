@@ -1,7 +1,7 @@
 # 中村ブレイス株式会社 ふうのデザイン
 
 - 出典: https://www.nakamura-brace.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: コーポレートサイト／製造業･工業･メーカー･商社･物流／レスポンシブ
 
@@ -97,6 +97,7 @@
 | 本文 | 15px | 2.5 |
 | 補助 | 13px | — |
 | 注記 | 11px | — |
+
 
 - 本文は 15px・行間 2.5。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -196,6 +197,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:840px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

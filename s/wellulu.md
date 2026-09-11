@@ -1,7 +1,7 @@
 # Wellulu ふうのデザイン
 
 - 出典: https://wellulu.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: ポータルサイト･メディア･情報サイト／体験･交流／レスポンシブ
 
@@ -94,9 +94,7 @@
 | 本文 | 18px | 1.5 |
 | 補助 | 16px | 1.6 |
 | 注記 | 15px | — |
-| 注記 | 14px | — |
-| 注記 | 13px | — |
-| 注記 | 11px | — |
+
 
 - 本文は 18px・行間 1.5。
 
@@ -202,6 +200,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:720px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#888888; --on:#888888 }
 .section--main .btn--fill{ background:#888888; color:var(--main) }
 .card{ background:#96d3e5;

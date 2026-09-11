@@ -1,9 +1,9 @@
 # 社会福祉法人グリーンコープ ふうのデザイン
 
 - 出典: https://www.fukushi-greencoop.or.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: 明朝 / 余白つまった / 角丸 / 色つき
-- 業種: コーポレートサイト／福祉･介護／オーソドックス
+- 業種: コーポレートサイト／福祉･介護／レスポンシブ
 
 #f7f4e9 の地に `#d9ccb5` を文字と細部だけで効かせる配色。影を使って浮かせる。本文 14px・行間 1.6、セクション間 52px。
 
@@ -76,9 +76,9 @@
 | 見出し | 22px | 1.4 |
 | 小見出し | 18px | — |
 | リード | 17px | 1.55 |
-| リード | 16px | 1 |
 | 本文 | 14px | 1 |
 | 補助 | 12px | — |
+
 
 - 本文は 14px・行間 1.6。
 
@@ -184,6 +184,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:960px; display:grid; align-content:center }
+
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:transparent; color:#453112; border-radius:0px;
   padding:0px 0px; min-height:39px;

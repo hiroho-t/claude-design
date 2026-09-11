@@ -1,7 +1,7 @@
 # 賃貸住宅保険の専門会社 ふうのデザイン
 
 - 出典: https://www.safesafe.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: コーポレートサイト／金融･投資･保険･士業／レスポンシブ
 
@@ -97,8 +97,8 @@
 | 見出し | 18px | — |
 | 小見出し | 17px | — |
 | リード | 16px | — |
-| リード | 15px | — |
 | 本文 | 14px | 1.86 |
+
 
 - 本文は 14px・行間 1.86。
 
@@ -213,6 +213,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:860px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#000000; --on:#000000 }
 .section--main .btn--fill{ background:#000000; color:var(--main) }
 .card{ background:#0d2134; border:2px solid var(--on);

@@ -1,7 +1,7 @@
 # 大阪大学大学院工学研究科 社会連携室 ふうのデザイン
 
 - 出典: https://liaison-office.eng.osaka-u.ac.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: 学校･教育／科学･研究／レスポンシブ
 
@@ -94,6 +94,7 @@
 | 本文 | 16px | 1.8 |
 | 補助 | 15px | — |
 | 注記 | 14px | — |
+
 
 - 本文は 16px・行間 1.8。
 
@@ -190,6 +191,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:transparent; border:1px solid var(--on);

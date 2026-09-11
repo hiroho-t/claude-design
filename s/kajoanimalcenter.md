@@ -1,7 +1,7 @@
 # 山形霞城どうぶつ医療センター ふうのデザイン
 
 - 出典: https://kajo-animal.center/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／ペット･動物･生き物
 
@@ -92,9 +92,9 @@
 | 見出し | 30px | — |
 | 小見出し | 21px | 1.45 |
 | リード | 19px | 2.22 |
-| リード | 17px | 1.75 |
 | 本文 | 15px | 1.4 |
 | 補助 | 13px | — |
+
 
 - 本文は 15px・行間 1.4。
 
@@ -215,6 +215,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#1a1311; --on:#1a1311 }
 .section--main .btn--fill{ background:#1a1311; color:var(--main) }
 .card{ background:#0098b3;

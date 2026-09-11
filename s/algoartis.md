@@ -1,7 +1,7 @@
 # ALGO ARTIS（アルゴ・アーティス） ふうのデザイン
 
 - 出典: https://www.algo-artis.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: コーポレートサイト／BtoBのサイト／Web･IT･XR･デジタル･テクノロジー
 
@@ -89,7 +89,7 @@
 | 本文 | 18px | 2.1 |
 | 補助 | 15px | 1.5 |
 | 注記 | 14px | — |
-| 注記 | 13px | — |
+
 
 - 本文は 18px・行間 2.1。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -197,6 +197,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:1520px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#474747; --on:#474747 }
 .section--main .btn--fill{ background:#474747; color:var(--main) }
 .card{ background:#ffffff;

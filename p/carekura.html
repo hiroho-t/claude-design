@@ -227,14 +227,14 @@
       <p class="spmeta">リード<span>22px / 行間 1.5</span></p>
       <p class="spdemo" style="font-size:22px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">リード<span>20px</span></p>
-      <p class="spdemo" style="font-size:20px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
-    </div><div class="sp">
       <p class="spmeta">本文<span>16px / 行間 2.2</span></p>
       <p class="spdemo" style="font-size:16px;line-height:2.2">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">補助<span>15px / 行間 2</span></p>
       <p class="spdemo" style="font-size:15px;line-height:2">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">注記<span>14px</span></p>
+      <p class="spdemo" style="font-size:14px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div>
   </section>
 
@@ -375,7 +375,7 @@
   <pre id="md"># 一般社団法人ケアと暮らしの編集社 ふうのデザイン
 
 - 出典: https://carekura.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
 - 業種: コーポレートサイト／地域･地方創生･政治･行政･自治体･NPO／レスポンシブ
 
@@ -469,9 +469,10 @@
 | 見出し | 44px | — |
 | 小見出し | 36px | 2 |
 | リード | 22px | 1.5 |
-| リード | 20px | — |
 | 本文 | 16px | 2.2 |
 | 補助 | 15px | 2 |
+| 注記 | 14px | — |
+
 
 - 本文は 16px・行間 2.2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -587,6 +588,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:1000px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#34a9ee; --on:#34a9ee }
 .section--main .btn--fill{ background:#34a9ee; color:var(--main) }
 .card{ background:#f9f9f9; border:1px solid var(--on);
@@ -684,6 +686,7 @@ document.querySelectorAll('[data-copy]').forEach(b => b.addEventListener('click'
           .map(c => `<a href="../index.html#c=${encodeURIComponent(c.slug)}">${esc(c.name)}<b>${c.n}</b></a>`).join('')).join('');
   } catch (e) { catlist.innerHTML = '<p class="catnav__g">読み込めませんでした</p>'; }
 })();
+
 </script>
 </body>
 </html>

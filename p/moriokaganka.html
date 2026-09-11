@@ -142,7 +142,7 @@
     <a class="shot" href="https://morioka-ganka.com/" target="_blank" rel="noopener"><img src="../shot/moriokaganka.jpg" alt="もりおか眼科 のトップページ"></a>
     <h1>もりおか眼科</h1>
     <p class="lead">#fbfcf7 の地に #0000f9 を大きな面で置く配色。影も枠線もほとんど使わない。本文 17px・行間 1.8、セクション間 132px。</p>
-    <div class="tags"><span>ゴシック</span><span>余白ひろい</span><span>角ばった</span><span>色つき</span><span>ブランドサイト･サービスサイト／BtoCのサイト／ノーコードツールで制作されたサイト</span></div>
+    <div class="tags"><span>ゴシック</span><span>余白ひろい</span><span>角ばった</span><span>色つき</span><span>ブランドサイト･サービスサイト／BtoCのサイト／病院･クリニック･歯医者･医療･薬</span></div>
     <p class="src"><a href="https://morioka-ganka.com/" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7h-1.5V5.56L5.06 12 4 10.94 10.44 4.5H6V3Z"/><path d="M3 5h2v1.5H4.5v5H10V11h1.5v2H3V5Z"/></svg>morioka-ganka.com<span>参考サイトを開く</span></a></p>
   </section>
 
@@ -340,9 +340,9 @@
   <pre id="md"># もりおか眼科 ふうのデザイン
 
 - 出典: https://morioka-ganka.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
-- 業種: ブランドサイト･サービスサイト／BtoCのサイト／ノーコードツールで制作されたサイト
+- 業種: ブランドサイト･サービスサイト／BtoCのサイト／病院･クリニック･歯医者･医療･薬
 
 #fbfcf7 の地に `#0000f9` を文字と細部だけで効かせる配色。影も枠線もほとんど使わない。本文 17px・行間 1.8、セクション間 132px。
 
@@ -433,6 +433,7 @@
 | 本文 | 17px | 1.8 |
 | 補助 | 16px | — |
 | 注記 | 15px | — |
+
 
 - 本文は 17px・行間 1.8。
 
@@ -538,6 +539,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:760px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#0000f9; --on:#0000f9 }
 .section--main .btn--fill{ background:#0000f9; color:var(--main) }
 .card{ background:#ffffff;
@@ -635,6 +637,7 @@ document.querySelectorAll('[data-copy]').forEach(b => b.addEventListener('click'
           .map(c => `<a href="../index.html#c=${encodeURIComponent(c.slug)}">${esc(c.name)}<b>${c.n}</b></a>`).join('')).join('');
   } catch (e) { catlist.innerHTML = '<p class="catnav__g">読み込めませんでした</p>'; }
 })();
+
 </script>
 </body>
 </html>

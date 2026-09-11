@@ -10,7 +10,7 @@
     },
     {
       "hex": "#1c2940",
-      "pct": 2.8
+      "pct": 2.9
     },
     {
       "hex": "#ffffff",
@@ -28,22 +28,22 @@
   "ink": [
     {
       "hex": "#1c2940",
-      "pct": 81.9
+      "pct": 81.2
     },
     {
       "hex": "#838994",
-      "pct": 12.8
+      "pct": 13.4
     },
     {
       "hex": "#ffffff",
-      "pct": 5.3
+      "pct": 5.4
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "A1 Gothic R",
-      "w": 1403
+      "w": 1419
     },
     {
       "family": "A1 Gothic M",
@@ -69,7 +69,7 @@
     },
     {
       "px": 20,
-      "w": 79
+      "w": 61
     },
     {
       "px": 16,
@@ -77,11 +77,11 @@
     },
     {
       "px": 14,
-      "w": 884
+      "w": 904
     },
     {
       "px": 12,
-      "w": 455
+      "w": 469
     }
   ],
   "body": {
@@ -107,6 +107,24 @@
       }
     ]
   },
+  "headSpace": {
+    "32": {
+      "above": null,
+      "below": 31,
+      "n": 1
+    },
+    "50": {
+      "above": null,
+      "below": 360,
+      "n": 1
+    },
+    "60": {
+      "above": null,
+      "below": 26,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 6,
@@ -240,7 +258,7 @@
       "split": null
     },
     {
-      "h": 11600,
+      "h": 11540,
       "full": true,
       "cols": 6,
       "img": true,
@@ -279,7 +297,7 @@
   "cards": [],
   "chips": [],
   "images": {
-    "n": 67,
+    "n": 72,
     "fullBleed": 0,
     "ratios": [
       {
@@ -298,7 +316,7 @@
     "radius": [
       {
         "px": 0,
-        "n": 67
+        "n": 72
       }
     ]
   },

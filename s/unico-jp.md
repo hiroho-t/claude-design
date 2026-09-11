@@ -1,7 +1,7 @@
 # unico 児童発達支援・放課後等デイサービス ふうのデザイン
 
 - 出典: https://unico-jp.net/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／福祉･介護／ベビー･子ども･子育て
 
@@ -93,9 +93,10 @@
 | 見出し | 32px | 1 |
 | 小見出し | 24px | 1 |
 | リード | 21px | 1 |
-| リード | 18px | — |
 | 本文 | 15px | 2.13 |
 | 補助 | 12px | — |
+| 注記 | 10px | — |
+
 
 - 本文は 15px・行間 1。
 
@@ -196,6 +197,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:1480px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:#ffffff;

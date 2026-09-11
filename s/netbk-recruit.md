@@ -1,7 +1,7 @@
 # ドコモSMTBネット銀行 採用サイト ふうのデザイン
 
 - 出典: https://recruit.netbk.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
 - 業種: 採用サイト／Web･IT･XR･デジタル･テクノロジー／金融･投資･保険･士業
 
@@ -96,7 +96,7 @@
 | 本文 | 20px | 1.75 |
 | 補助 | 18px | — |
 | 注記 | 16px | — |
-| 注記 | 14px | — |
+
 
 - 本文は 20px・行間 1.75。
 
@@ -206,6 +206,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:520px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#6e6e6e; --on:#6e6e6e }
 .section--main .btn--fill{ background:#6e6e6e; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

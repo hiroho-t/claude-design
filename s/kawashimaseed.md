@@ -1,9 +1,9 @@
 # 滋賀のガーデニング・家庭菜園・農業資材専門店 ふうのデザイン
 
 - 出典: https://kawashimaseed.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
-- 業種: ブランドサイト･サービスサイト／農業･畜産業･林業･漁業･園芸／オーソドックス
+- 業種: ブランドサイト･サービスサイト／農業･畜産業･林業･漁業･園芸／レスポンシブ
 
 #ececec の地に `#75c5d3` を文字と細部だけで効かせる配色。影も枠線もほとんど使わない。本文 15px・行間 null、セクション間 132px。
 
@@ -96,6 +96,7 @@
 | 本文 | 15px | 1.7 |
 | 補助 | 13px | — |
 | 注記 | 11px | 1.8 |
+
 
 - 本文は 15px・行間 null。
 
@@ -197,6 +198,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:6320px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:#67c7f2;

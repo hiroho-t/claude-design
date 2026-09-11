@@ -1,7 +1,7 @@
 # 乗鞍高原 温泉の宿 Raicho ふうのデザイン
 
 - 出典: https://ghraicho.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／ホテル･旅館･温泉／旅行･観光･遊び
 
@@ -94,7 +94,7 @@
 | 本文 | 14px | 2 |
 | 補助 | 12px | — |
 | 注記 | 11px | — |
-| 注記 | 10px | — |
+
 
 - 本文は 14px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -188,6 +188,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#032621; --on:#032621 }
 .section--main .btn--fill{ background:#032621; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

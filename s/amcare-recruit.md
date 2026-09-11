@@ -1,7 +1,7 @@
 # amcare ふうのデザイン
 
 - 出典: https://www.amcare.co.jp/recruit/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
 - 業種: 採用サイト／製造業･工業･メーカー･商社･物流／病院･クリニック･歯医者･医療･薬
 
@@ -93,9 +93,10 @@
 | 見出し | 46px | 1.6 |
 | 小見出し | 45px | 1.6 |
 | リード | 22px | — |
-| リード | 20px | — |
-| リード | 18px | — |
 | 本文 | 16px | 1.8 |
+| 補助 | 14px | — |
+| 注記 | 12px | — |
+
 
 - 本文は 16px・行間 1.8。
 
@@ -204,6 +205,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:740px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#2a2a2a; --on:#2a2a2a }
 .section--main .btn--fill{ background:#2a2a2a; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

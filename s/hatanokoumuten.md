@@ -1,7 +1,7 @@
 # 株式会社波多野工務店 採用サイト ふうのデザイン
 
 - 出典: https://hatanokoumuten.site/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: 採用サイト／建築･住宅･不動産･空間設計･エクステリア／レスポンシブ
 
@@ -89,6 +89,7 @@
 | 本文 | 16px | 2 |
 | 補助 | 14px | — |
 | 注記 | 12px | — |
+
 
 - 本文は 16px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -202,6 +203,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#476c53; --on:#476c53 }
 .section--main .btn--fill{ background:#476c53; color:var(--main) }
 .card{ background:#ffffff;

@@ -1,9 +1,9 @@
 # 採用情報 ふうのデザイン
 
 - 出典: https://studio.inc/career
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / モノトーン
-- 業種: 採用サイト／ノーコードツールで制作されたサイト／ノーコードツール｢Studio｣で制作されたサイト
+- 業種: 採用サイト／Web･IT･XR･デジタル･テクノロジー／自社プロダクト･サービス運営
 
 #eaeaea の地に `#eaeaea` を文字と細部だけで効かせる配色。影も枠線もほとんど使わない。本文 13px・行間 1.6、セクション間 40px。
 
@@ -93,9 +93,9 @@
 | 見出し | 42px | 1.4 |
 | 小見出し | 20px | 1.4 |
 | リード | 18px | — |
-| リード | 16px | — |
-| リード | 15px | — |
-| リード | 14px | — |
+| 本文 | 13px | 1.6 |
+| 補助 | 12px | 1.4 |
+
 
 - 本文は 13px・行間 1.6。
 
@@ -189,6 +189,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#000000; --on:#000000 }
 .section--main .btn--fill{ background:#000000; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

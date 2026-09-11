@@ -1,7 +1,7 @@
 # ヒカリノ診療所 ふうのデザイン
 
 - 出典: https://hikarino.clinic/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角丸 / 色つき
 - 業種: ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／レスポンシブ
 
@@ -96,6 +96,7 @@
 | 本文 | 16px | 1.8 |
 | 補助 | 15px | — |
 | 注記 | 14px | — |
+
 
 - 本文は 16px・行間 1.8。
 
@@ -198,6 +199,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#e5ebf2; --on:#e5ebf2 }
 .section--main .btn--fill{ background:#e5ebf2; color:var(--main) }
 .card{ background:transparent;

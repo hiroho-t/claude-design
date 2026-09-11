@@ -1,7 +1,7 @@
 # 西伊丹幼稚園・認定こども園 西伊丹保育園 ふうのデザイン
 
 - 出典: https://nishi-itami-k.ed.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／保育園･幼稚園･こども園／ベビー･子ども･子育て
 
@@ -95,7 +95,7 @@
 | 本文 | 16px | 1.57 |
 | 補助 | 14px | — |
 | 注記 | 12px | — |
-| 注記 | 11px | — |
+
 
 - 本文は 16px・行間 1.57。
 
@@ -192,6 +192,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:740px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

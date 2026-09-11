@@ -1,7 +1,7 @@
 # sato/umi KOBE ふうのデザイン
 
 - 出典: https://satoumikobe.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: ポータルサイト･メディア･情報サイト／旅行･観光･遊び／体験･交流
 
@@ -74,7 +74,7 @@
 | 本文 | 14px | 1.4 |
 | 補助 | 13px | — |
 | 注記 | 11px | — |
-| 注記 | 10px | — |
+
 
 - 本文は 14px・行間 1.4。
 
@@ -166,6 +166,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:620px; display:grid; align-content:center }
+
 .card{ background:#f6f6f6;
   border-radius:0px; padding:0px 0px }
 

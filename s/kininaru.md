@@ -1,7 +1,7 @@
 # 枚方市立生涯学習交流センター・枚方市立市駅前図書館 ふうのデザイン
 
 - 出典: https://hirakata-elcl.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／体験･交流／商業施設･レジャー施設･文化施設
 
@@ -98,7 +98,7 @@
 | 本文 | 16px | 1.8 |
 | 補助 | 15px | — |
 | 注記 | 14px | — |
-| 注記 | 12px | — |
+
 
 - 本文は 16px・行間 1.8。
 
@@ -206,6 +206,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:7000px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#f2f2f2; --on:#f2f2f2 }
 .section--main .btn--fill{ background:#f2f2f2; color:var(--main) }
 .card{ background:#fdfbfa;

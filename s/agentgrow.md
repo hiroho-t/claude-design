@@ -1,7 +1,7 @@
 # エージェントグロー ふうのデザイン
 
 - 出典: https://www.agent-grow.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: コーポレートサイト／企画･開発･マーケティング･コンサルティング／自社プロダクト･サービス運営
 
@@ -89,17 +89,54 @@
 - 欧文: Inter
 - ウェイトは 700 / 500 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 48px | 1.5 |
-| 見出し | 32px | 1.5 |
-| 小見出し | 21px | — |
-| リード | 18px | 1.5 |
-| リード | 16px | — |
-| 本文 | 14px | — |
-| 補助 | 12px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 48px | 1.5 | 5px | 53px |
+| 見出し | 32px | 1.5 | 18px | 0px |
+| 小見出し | 21px | — | 250px | 0px |
+| リード | 18px | 1.5 | 10px | 32px |
+| 本文 | 14px | — | 146px | 6px |
+| 補助 | 12px | — | — | — |
+| 注記 | 11px | — | — | — |
+
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（96px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 14px・行間 null。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 4箇所で使っている（見出し11箇所のうち）。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 和文 |
+| ラベルのサイズ | 16px |
+| ラベルの字間 | 0（詰めも空けもしない） |
+| ラベルの太さ | 700 |
+| ラベルの色 | `#162532` |
+| ラベル → 見出し | 18px |
+| 見出しのサイズ | 32px |
+| 見出し → 本文 | 0px |
+| 罫線 | なし |
+| 組み方 | **兄弟に並べる**（囲まずに続けて置く） |
+
+```html
+<p class="c-head__label">SERVICE</p>
+<h2 class="c-head__title">サービス</h2>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:16px; font-weight:700;
+  color:#162532 }
+.c-head__title{ font-size:32px; line-height:1.5; margin-top:18px }
+.c-head__title + *{ margin-top:0px }
+```
+
+- ラベルと見出しの間は 18px、見出しと本文の間は 0px。この2つを同じにしない。
 
 ## レイアウト
 
@@ -199,6 +236,16 @@
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
 
+```html
+<section class="section">
+  <div class="container">
+    <p class="c-head__label">SERVICE</p>
+    <h2 class="c-head__title">サービス</h2>
+    <p>本文…</p>
+  </div>
+</section>
+```
+
 ```css
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
@@ -208,6 +255,10 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:980px; display:grid; align-content:center }
+.c-head__label{ font-size:16px; font-weight:700; color:#162532 }
+.c-head__title{ font-size:32px; line-height:1.5; margin-top:18px }
+.c-head__title + *{ margin-top:0px }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:transparent; border:1px solid var(--on);

@@ -1,7 +1,7 @@
 # 日本自然保護協会オフィシャルサイト ふうのデザイン
 
 - 出典: https://www.nacsj.or.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／地域･地方創生･政治･行政･自治体･NPO／エコ･SDGs･サステナビリティ･脱炭素
 
@@ -95,9 +95,10 @@
 | 見出し | 30px | 1 |
 | 小見出し | 20px | — |
 | リード | 18px | 1.5 |
-| リード | 16px | 1.5 |
 | 本文 | 14px | 1 |
 | 補助 | 12px | — |
+| 注記 | 11px | — |
+
 
 - 本文は 14px・行間 1。
 
@@ -217,6 +218,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:800px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:#ffffff;

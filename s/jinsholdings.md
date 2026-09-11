@@ -1,7 +1,7 @@
 # JINS HOLDINGS ふうのデザイン
 
 - 出典: https://jinsholdings.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: コーポレートサイト／小売･製造小売（SPA）／ファッション･アパレル･アクセサリー･ジュエリー
 
@@ -96,7 +96,7 @@
 | 本文 | 18px | 1.7 |
 | 補助 | 14px | — |
 | 注記 | 13px | — |
-| 注記 | 12px | — |
+
 
 - 本文は 18px・行間 1.7。
 
@@ -210,6 +210,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:720px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:transparent;

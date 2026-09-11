@@ -1,7 +1,7 @@
 # 株式会社UNBALANCE ふうのデザイン
 
 - 出典: https://www.unbalance.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: コーポレートサイト／Web･IT･XR･デジタル･テクノロジー／漫画･アニメ･ゲーム
 
@@ -90,7 +90,7 @@
 | 本文 | 17px | 2.25 |
 | 補助 | 15px | 1.43 |
 | 注記 | 12px | — |
-| 注記 | 11px | — |
+
 
 - 本文は 17px・行間 2.25。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -172,6 +172,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:620px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ee7800; --on:#ee7800 }
 .section--main .btn--fill{ background:#ee7800; color:var(--main) }
 

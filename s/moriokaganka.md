@@ -1,9 +1,9 @@
 # もりおか眼科 ふうのデザイン
 
 - 出典: https://morioka-ganka.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
-- 業種: ブランドサイト･サービスサイト／BtoCのサイト／ノーコードツールで制作されたサイト
+- 業種: ブランドサイト･サービスサイト／BtoCのサイト／病院･クリニック･歯医者･医療･薬
 
 #fbfcf7 の地に `#0000f9` を文字と細部だけで効かせる配色。影も枠線もほとんど使わない。本文 17px・行間 1.8、セクション間 132px。
 
@@ -94,6 +94,7 @@
 | 本文 | 17px | 1.8 |
 | 補助 | 16px | — |
 | 注記 | 15px | — |
+
 
 - 本文は 17px・行間 1.8。
 
@@ -199,6 +200,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:760px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#0000f9; --on:#0000f9 }
 .section--main .btn--fill{ background:#0000f9; color:var(--main) }
 .card{ background:#ffffff;

@@ -1,7 +1,7 @@
 # 株式会社Jdex ふうのデザイン
 
 - 出典: https://j-dex.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角丸 / 色つき
 - 業種: コーポレートサイト／Web･IT･XR･デジタル･テクノロジー／企画･開発･マーケティング･コンサルティング
 
@@ -89,9 +89,7 @@
 | 本文 | 16px | 1.87 |
 | 補助 | 15px | — |
 | 注記 | 14px | — |
-| 注記 | 13px | — |
-| 注記 | 12px | 2 |
-| 注記 | 11px | — |
+
 
 - 本文は 16px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -185,6 +183,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:1000px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#b7282e; --on:#b7282e }
 .section--main .btn--fill{ background:#b7282e; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

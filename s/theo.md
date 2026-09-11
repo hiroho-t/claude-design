@@ -1,7 +1,7 @@
 # THEO [テオ] by お金のデザイン ふうのデザイン
 
 - 出典: https://theo.blue/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角丸 / 色つき
 - 業種: ブランドサイト･サービスサイト／Web･IT･XR･デジタル･テクノロジー／サービス･アプリ･ツール･SaaS
 
@@ -96,7 +96,7 @@
 | 本文 | 16px | — |
 | 補助 | 14px | 1.71 |
 | 注記 | 13px | — |
-| 注記 | 12px | — |
+
 
 - 本文は 16px・行間 null。
 
@@ -215,6 +215,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:660px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:#f2f2f2;

@@ -1,7 +1,7 @@
 # 一色法律事務所・外国法共同事業 ISSHIKI & PARTNERS ふうのデザイン
 
 - 出典: https://www.isshiki-law.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / モノトーン
 - 業種: コーポレートサイト／金融･投資･保険･士業／レスポンシブ
 
@@ -89,8 +89,7 @@
 | 本文 | 14px | 1.86 |
 | 補助 | 13px | — |
 | 注記 | 12px | — |
-| 注記 | 11px | — |
-| 注記 | 10px | — |
+
 
 - 本文は 14px・行間 1.86。
 
@@ -181,6 +180,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:200px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

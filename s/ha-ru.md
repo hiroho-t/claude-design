@@ -1,7 +1,7 @@
 # 株式会社HA ふうのデザイン
 
 - 出典: https://ha-ru2017.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / モノトーン
 - 業種: コーポレートサイト／建設･インフラ･土木･設備／レスポンシブ
 
@@ -91,8 +91,8 @@
 | 見出し | 32px | — |
 | 小見出し | 20px | — |
 | リード | 18px | — |
-| リード | 15px | — |
 | 本文 | 14px | 1.2 |
+
 
 - 本文は 14px・行間 1.8。
 
@@ -169,6 +169,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:1920px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 

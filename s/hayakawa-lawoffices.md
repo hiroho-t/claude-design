@@ -1,7 +1,7 @@
 # Hayakawa Law Offices ふうのデザイン
 
 - 出典: https://hayakawa-lawoffice.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / モノトーン
 - 業種: コーポレートサイト／金融･投資･保険･士業／レスポンシブ
 
@@ -75,7 +75,7 @@
 | 本文 | 14px | 2.6 |
 | 補助 | 13px | — |
 | 注記 | 12px | — |
-| 注記 | 11px | — |
+
 
 - 本文は 14px・行間 2.6。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -172,6 +172,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:1000px; display:grid; align-content:center }
+
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:#f5f5f5; color:#111111; border-radius:0px;
   padding:40px 45px; min-height:74px;

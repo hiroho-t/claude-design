@@ -142,7 +142,7 @@
     <a class="shot" href="https://www.yahagijisyo.co.jp/ventvert/" target="_blank" rel="noopener"><img src="../shot/ventvert.jpg" alt="新築分譲マンションブランド「バンベール」 のトップページ"></a>
     <h1>新築分譲マンションブランド「バンベール」</h1>
     <p class="lead">#001524 の地に #001524 を大きな面で置く配色。影も枠線もほとんど使わない。本文 16px・行間 1、セクション間 40px。</p>
-    <div class="tags"><span>ゴシック</span><span>余白つまった</span><span>角ばった</span><span>色つき</span><span>ブランドサイト･サービスサイト／建築･住宅･不動産･空間設計･エクステリア／オーソドックス</span></div>
+    <div class="tags"><span>ゴシック</span><span>余白つまった</span><span>角ばった</span><span>色つき</span><span>ブランドサイト･サービスサイト／建築･住宅･不動産･空間設計･エクステリア／レスポンシブ</span></div>
     <p class="src"><a href="https://www.yahagijisyo.co.jp/ventvert/" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7h-1.5V5.56L5.06 12 4 10.94 10.44 4.5H6V3Z"/><path d="M3 5h2v1.5H4.5v5H10V11h1.5v2H3V5Z"/></svg>www.yahagijisyo.co.jp/ventvert<span>参考サイトを開く</span></a></p>
   </section>
 
@@ -269,9 +269,9 @@
   <pre id="md"># 新築分譲マンションブランド「バンベール」 ふうのデザイン
 
 - 出典: https://www.yahagijisyo.co.jp/ventvert/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
-- 業種: ブランドサイト･サービスサイト／建築･住宅･不動産･空間設計･エクステリア／オーソドックス
+- 業種: ブランドサイト･サービスサイト／建築･住宅･不動産･空間設計･エクステリア／レスポンシブ
 
 #001524 の地に `#001524` を大きな面で置く配色。影も枠線もほとんど使わない。本文 16px・行間 1、セクション間 40px。
 
@@ -340,6 +340,7 @@
 | 本文 | 16px | 1 |
 | 補助 | 14px | — |
 | 注記 | 12px | — |
+
 
 - 本文は 16px・行間 1。
 
@@ -420,6 +421,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:480px; display:grid; align-content:center }
+
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:transparent; color:#ffffff; border-radius:0px;
   padding:0px 0px; min-height:29px;
@@ -512,6 +514,7 @@ document.querySelectorAll('[data-copy]').forEach(b => b.addEventListener('click'
           .map(c => `<a href="../index.html#c=${encodeURIComponent(c.slug)}">${esc(c.name)}<b>${c.n}</b></a>`).join('')).join('');
   } catch (e) { catlist.innerHTML = '<p class="catnav__g">読み込めませんでした</p>'; }
 })();
+
 </script>
 </body>
 </html>

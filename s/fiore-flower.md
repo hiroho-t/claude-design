@@ -1,7 +1,7 @@
 # 大阪府和泉市の葬儀用花・フラワーインテリアの販売 ふうのデザイン
 
 - 出典: https://www.fiore-flower.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: 明朝 / 余白つまった / 角丸 / 色つき
 - 業種: コーポレートサイト／農業･畜産業･林業･漁業･園芸／寺･神社･葬儀･仏壇
 
@@ -90,8 +90,7 @@
 | 本文 | 17px | 2 |
 | 補助 | 15px | — |
 | 注記 | 14px | — |
-| 注記 | 13px | — |
-| 注記 | 12px | — |
+
 
 - 本文は 17px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -193,6 +192,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

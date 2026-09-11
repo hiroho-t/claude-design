@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "nulab-careers",
+    "url": "https://careers.nulab.com/",
+    "blocked": true,
+    "why": "ボット避けで断られた",
+    "raw": "HTTP 403"
+  },
+  {
+    "slug": "simplecheck",
+    "url": "https://simplecheck.site/",
+    "blocked": true,
+    "why": "中身が取れない（JSで組んでいる等）",
+    "raw": "中身が空"
+  }
+]

@@ -1,7 +1,7 @@
 # かに道楽 ふうのデザイン
 
 - 出典: https://douraku.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: 明朝 / 余白ひろい / 角ばった / 色つき
 - 業種: コーポレートサイト／ブランドサイト･サービスサイト／カフェ･飲食店･テイクアウト
 
@@ -77,6 +77,7 @@
 | 本文 | 15px | 1.8 |
 | 補助 | 14px | — |
 | 注記 | 13px | — |
+
 
 - 本文は 15px・行間 1.8。
 
@@ -191,6 +192,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:800px; display:grid; align-content:center }
+
 .card{ background:#ffffff;
   border-radius:4px; padding:26px 26px }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

@@ -1,7 +1,7 @@
 # 採用サイト ふうのデザイン
 
 - 出典: https://corporate.beforward.jp/recruit/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: 採用サイト／製造業･工業･メーカー･商社･物流／車･乗り物･モビリティ
 
@@ -73,9 +73,10 @@
 | 見出し | 54px | 1.1 |
 | 小見出し | 32px | 1.1 |
 | リード | 24px | — |
-| リード | 18px | — |
 | 本文 | 16px | 1.5 |
 | 補助 | 15px | — |
+| 注記 | 14px | — |
+
 
 - 本文は 16px・行間 1.5。
 
@@ -171,6 +172,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:760px; display:grid; align-content:center }
+
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:#e66b02; color:#ffffff; border-radius:0px;
   padding:6px 14px; min-height:36px;

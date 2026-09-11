@@ -1,7 +1,7 @@
 # マネックス証券株式会社 採用サイト ふうのデザイン
 
 - 出典: https://www.monexgroup.jp/recruit/index.html
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
 - 業種: 採用サイト／金融･投資･保険･士業／レスポンシブ
 
@@ -94,9 +94,10 @@
 | 見出し | 36px | — |
 | 小見出し | 30px | — |
 | リード | 24px | 1.9 |
-| リード | 20px | — |
 | 本文 | 18px | 1.9 |
 | 補助 | 16px | — |
+| 注記 | 14px | — |
+
 
 - 本文は 18px・行間 1.9。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -202,6 +203,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:780px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#595959; --on:#595959 }
 .section--main .btn--fill{ background:#595959; color:var(--main) }
 .card{ background:#ffffff; border:4px solid var(--on);

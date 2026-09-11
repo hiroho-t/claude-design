@@ -142,7 +142,7 @@
     <a class="shot" href="https://www.kobe-wu.ac.jp/" target="_blank" rel="noopener"><img src="../shot/kobewomensuniversity.jpg" alt="神戸女子大学 のトップページ"></a>
     <h1>神戸女子大学</h1>
     <p class="lead">白地に #4996b6 を大きな面で置く配色。影も枠線もほとんど使わない。本文 15px・行間 1.75、セクション間 112px。</p>
-    <div class="tags"><span>ゴシック</span><span>余白ふつう</span><span>角ばった</span><span>色つき</span><span>ブランドサイト･サービスサイト／BtoCのサイト／女性向け･女性的なテイスト</span></div>
+    <div class="tags"><span>ゴシック</span><span>余白ふつう</span><span>角ばった</span><span>色つき</span><span>ブランドサイト･サービスサイト／BtoCのサイト／学校･教育</span></div>
     <p class="src"><a href="https://www.kobe-wu.ac.jp/" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7h-1.5V5.56L5.06 12 4 10.94 10.44 4.5H6V3Z"/><path d="M3 5h2v1.5H4.5v5H10V11h1.5v2H3V5Z"/></svg>www.kobe-wu.ac.jp<span>参考サイトを開く</span></a></p>
   </section>
 
@@ -233,9 +233,6 @@
     </div><div class="sp">
       <p class="spmeta">注記<span>12px / 行間 1.22</span></p>
       <p class="spdemo" style="font-size:12px;line-height:1.22">あのイーハトーヴォのすきとおった風</p>
-    </div><div class="sp">
-      <p class="spmeta">注記<span>10px</span></p>
-      <p class="spdemo" style="font-size:10px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div>
   </section>
 
@@ -382,9 +379,9 @@
   <pre id="md"># 神戸女子大学 ふうのデザイン
 
 - 出典: https://www.kobe-wu.ac.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
-- 業種: ブランドサイト･サービスサイト／BtoCのサイト／女性向け･女性的なテイスト
+- 業種: ブランドサイト･サービスサイト／BtoCのサイト／学校･教育
 
 白地に `#4996b6` を大きな面で置く配色。影も枠線もほとんど使わない。本文 15px・行間 1.75、セクション間 112px。
 
@@ -479,7 +476,7 @@
 | 本文 | 15px | 1.22 |
 | 補助 | 13px | — |
 | 注記 | 12px | 1.22 |
-| 注記 | 10px | — |
+
 
 - 本文は 15px・行間 1.75。
 
@@ -594,6 +591,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:740px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#1486ad; --on:#1486ad }
 .section--main .btn--fill{ background:#1486ad; color:var(--main) }
 .card{ background:#eef7fb;
@@ -691,6 +689,7 @@ document.querySelectorAll('[data-copy]').forEach(b => b.addEventListener('click'
           .map(c => `<a href="../index.html#c=${encodeURIComponent(c.slug)}">${esc(c.name)}<b>${c.n}</b></a>`).join('')).join('');
   } catch (e) { catlist.innerHTML = '<p class="catnav__g">読み込めませんでした</p>'; }
 })();
+
 </script>
 </body>
 </html>

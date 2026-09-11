@@ -1,7 +1,7 @@
 # Ready Crew（レディクル） ふうのデザイン
 
 - 出典: https://readycrew.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／サービス･アプリ･ツール･SaaS／求人･マッチング･転職･人材ビジネス
 
@@ -91,9 +91,10 @@
 | 見出し | 34px | 1.2 |
 | 小見出し | 30px | 1.4 |
 | リード | 28px | 1.4 |
-| リード | 18px | — |
 | 本文 | 16px | 1.5 |
 | 補助 | 14px | — |
+| 注記 | 12px | — |
+
 
 - 本文は 16px・行間 1.5。
 
@@ -198,6 +199,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:800px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#e10029; --on:#e10029 }
 .section--main .btn--fill{ background:#e10029; color:var(--main) }
 .card{ background:#fcf8f7;

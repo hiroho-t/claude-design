@@ -1,7 +1,7 @@
 # 東京都に関する記事一覧 ふうのデザイン
 
 - 出典: https://agatajapan.com/tokyo/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: ポータルサイト･メディア･情報サイト／旅行･観光･遊び／体験･交流
 
@@ -99,6 +99,7 @@
 | 本文 | 14px | 1.2 |
 | 補助 | 12px | — |
 | 注記 | 11px | — |
+
 
 - 本文は 14px・行間 1.6。
 
@@ -202,6 +203,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:120px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#b61503; --on:#b61503 }
 .section--main .btn--fill{ background:#b61503; color:var(--main) }
 .card{ background:#f1f1f1;

@@ -1,7 +1,7 @@
 # 山進産業はステンレスをはじめとした特殊鋼を扱う金属専門商社 ふうのデザイン
 
 - 出典: https://yamashin.yamco.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
 - 業種: コーポレートサイト／製造業･工業･メーカー･商社･物流／レスポンシブ
 
@@ -76,7 +76,7 @@
 | 本文 | 16px | 1 |
 | 補助 | 15px | — |
 | 注記 | 14px | — |
-| 注記 | 12px | — |
+
 
 - 本文は 16px・行間 2.5。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -177,6 +177,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:#f6f6f4; color:#002c45; border-radius:0px;
   padding:0px 0px; min-height:70px;

@@ -1,7 +1,7 @@
 # 5歳児健診ポータル ふうのデザイン
 
 - 出典: https://gosaiji-kenshin.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: ポータルサイト･メディア･情報サイト／病院･クリニック･歯医者･医療･薬／ベビー･子ども･子育て
 
@@ -96,7 +96,7 @@
 | 本文 | 20px | 1.55 |
 | 補助 | 18px | — |
 | 注記 | 16px | 1.55 |
-| 注記 | 12px | — |
+
 
 - 本文は 20px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -207,6 +207,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:920px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:#ffffff; border:3px solid var(--on);

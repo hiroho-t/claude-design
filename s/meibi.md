@@ -1,7 +1,7 @@
 # 【公式】名美興業株式会社 ふうのデザイン
 
 - 出典: https://meibi.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
 - 業種: コーポレートサイト／BtoBのサイト／ビルメンテナンス･清掃･警備
 
@@ -91,6 +91,7 @@
 | 本文 | 18px | 1.5 |
 | 補助 | 16px | — |
 | 注記 | 14px | — |
+
 
 - 本文は 18px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -187,6 +188,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:12960px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

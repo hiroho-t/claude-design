@@ -31,7 +31,7 @@
     },
     {
       "family": "AGaramondPro-Regular",
-      "w": 194
+      "w": 193
     },
     {
       "family": "Work Sans",
@@ -53,7 +53,7 @@
     },
     {
       "px": 14,
-      "w": 376
+      "w": 375
     },
     {
       "px": 12,
@@ -72,18 +72,18 @@
   "headings": {
     "h2": [
       {
+        "fs": 18,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.100em",
+        "family": "游明朝体"
+      },
+      {
         "fs": 14,
         "weight": "400",
         "lh": 1,
         "ls": "0.100em",
         "family": "FP-こぶりなゴシック StdN W6"
-      },
-      {
-        "fs": 30,
-        "weight": "400",
-        "lh": 1.75,
-        "ls": "0.120em",
-        "family": "游明朝体"
       }
     ],
     "h3": [
@@ -105,6 +105,39 @@
       }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": null,
+      "below": 17,
+      "n": 1
+    },
+    "15": {
+      "above": 61,
+      "below": 61,
+      "n": 3
+    },
+    "17": {
+      "above": 180,
+      "below": 180,
+      "n": 2
+    },
+    "18": {
+      "above": 247,
+      "below": 24,
+      "n": 4
+    },
+    "19": {
+      "above": null,
+      "below": 18,
+      "n": 1
+    },
+    "30": {
+      "above": 179,
+      "below": null,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

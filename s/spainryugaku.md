@@ -1,7 +1,7 @@
 # スペイン・中南米への留学ならスペイン留学.jp ふうのデザイン
 
 - 出典: https://spainryugaku.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／サービス･アプリ･ツール･SaaS／スクール･習い事･教材
 
@@ -97,6 +97,7 @@
 | 本文 | 16px | 2 |
 | 補助 | 15px | — |
 | 注記 | 14px | — |
+
 
 - 本文は 16px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -211,6 +212,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#333333; --on:#333333 }
 .section--main .btn--fill{ background:#333333; color:var(--main) }
 .card{ background:transparent; border:5px solid var(--on);

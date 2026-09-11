@@ -11,6 +11,7 @@
  */
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { execFile } from 'node:child_process';
+import { writeBlocked } from './blocked.mjs';
 
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
 const cat = process.argv[2] || 'practical';
@@ -69,3 +70,4 @@ await Promise.all(Array.from({ length: LIMIT }, async () => {
 }));
 process.stderr.write('\n');
 console.log(`完了: 追加 ${added}件／飛ばし ${skipped}件`);
+console.log(`測れなかったサイト ${writeBlocked()}件を blocked.json に記録`);

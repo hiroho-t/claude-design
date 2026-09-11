@@ -1,7 +1,7 @@
 # 和歌山市の整形外科 ふうのデザイン
 
 - 出典: https://buyo.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／BtoCのサイト／病院･クリニック･歯医者･医療･薬
 
@@ -100,6 +100,7 @@
 | 本文 | 16px | — |
 | 補助 | 15px | — |
 | 注記 | 14px | — |
+
 
 - 本文は 16px・行間 null。
 
@@ -206,6 +207,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:1840px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:#fff3e4; border:1px solid var(--on);

@@ -1,7 +1,7 @@
 # 採用情報 クラシル株式会社 ふうのデザイン
 
 - 出典: https://kurashiru.co.jp/careers
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: 採用サイト／企画･開発･マーケティング･コンサルティング／レスポンシブ
 
@@ -96,9 +96,10 @@
 | 見出し | 67px | 1.3 |
 | 小見出し | 28px | 1.8 |
 | リード | 24px | — |
-| リード | 22px | 1.5 |
-| リード | 18px | — |
 | 本文 | 16px | 1.8 |
+| 補助 | 14px | — |
+| 注記 | 12px | — |
+
 
 - 本文は 16px・行間 1.8。
 
@@ -203,6 +204,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:760px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#1b1d22; --on:#1b1d22 }
 .section--main .btn--fill{ background:#1b1d22; color:var(--main) }
 .card{ background:#1b1d22;

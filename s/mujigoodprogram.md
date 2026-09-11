@@ -1,9 +1,9 @@
 # MUJI GOOD PROGRAM ふうのデザイン
 
 - 出典: https://www.muji.com/jp/ja/service/goodprogram/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
-- 業種: コンテンツページ／サービス･アプリ･ツール･SaaS／オーソドックス
+- 業種: コンテンツページ／サービス･アプリ･ツール･SaaS／レスポンシブ
 
 白地に `#7f0019` を文字と細部だけで効かせる配色。影も枠線もほとんど使わない。本文 16px・行間 1.6、セクション間 32px。
 
@@ -93,9 +93,10 @@
 | 見出し | 32px | 1.6 |
 | 小見出し | 26px | 1.6 |
 | リード | 22px | — |
-| リード | 20px | — |
-| リード | 18px | 1.6 |
 | 本文 | 16px | 1.6 |
+| 補助 | 14px | — |
+| 注記 | 12px | — |
+
 
 - 本文は 16px・行間 1.6。
 
@@ -190,6 +191,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:1240px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#1d1d1f; --on:#1d1d1f }
 .section--main .btn--fill{ background:#1d1d1f; color:var(--main) }
 .card{ background:#f4eede; border:3px solid var(--on);

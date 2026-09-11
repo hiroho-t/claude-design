@@ -1,7 +1,7 @@
 # 太宰府天満宮 ふうのデザイン
 
 - 出典: https://www.dazaifutenmangu.or.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: 明朝 / 余白ひろい / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／旅行･観光･遊び／体験･交流
 
@@ -77,6 +77,7 @@
 | 補助 | 14px | — |
 | 注記 | 13px | — |
 
+
 - 本文は 15px・行間 1.7。
 
 ## レイアウト
@@ -147,6 +148,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:800px; display:grid; align-content:center }
+
 
 img{ width:100%; height:auto; border-radius:0px; aspect-ratio:1/1; object-fit:cover }
 

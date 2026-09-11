@@ -142,7 +142,7 @@
     <a class="shot" href="https://www.muji.com/jp/ja/service/goodprogram/" target="_blank" rel="noopener"><img src="../shot/mujigoodprogram.jpg" alt="MUJI GOOD PROGRAM のトップページ"></a>
     <h1>MUJI GOOD PROGRAM</h1>
     <p class="lead">白地に #7f0019 を大きな面で置く配色。影も枠線もほとんど使わない。本文 16px・行間 1.6、セクション間 32px。</p>
-    <div class="tags"><span>ゴシック</span><span>余白つまった</span><span>角ばった</span><span>色つき</span><span>コンテンツページ／サービス･アプリ･ツール･SaaS／オーソドックス</span></div>
+    <div class="tags"><span>ゴシック</span><span>余白つまった</span><span>角ばった</span><span>色つき</span><span>コンテンツページ／サービス･アプリ･ツール･SaaS／レスポンシブ</span></div>
     <p class="src"><a href="https://www.muji.com/jp/ja/service/goodprogram/" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7h-1.5V5.56L5.06 12 4 10.94 10.44 4.5H6V3Z"/><path d="M3 5h2v1.5H4.5v5H10V11h1.5v2H3V5Z"/></svg>www.muji.com/jp/ja/service/goodprogram<span>参考サイトを開く</span></a></p>
   </section>
 
@@ -202,14 +202,14 @@
       <p class="spmeta">リード<span>22px</span></p>
       <p class="spdemo" style="font-size:22px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">リード<span>20px</span></p>
-      <p class="spdemo" style="font-size:20px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
-    </div><div class="sp">
-      <p class="spmeta">リード<span>18px / 行間 1.6</span></p>
-      <p class="spdemo" style="font-size:18px;line-height:1.6">あのイーハトーヴォのすきとおった風</p>
-    </div><div class="sp">
       <p class="spmeta">本文<span>16px / 行間 1.6</span></p>
       <p class="spdemo" style="font-size:16px;line-height:1.6">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">補助<span>14px</span></p>
+      <p class="spdemo" style="font-size:14px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">注記<span>12px</span></p>
+      <p class="spdemo" style="font-size:12px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div>
   </section>
 
@@ -328,9 +328,9 @@
   <pre id="md"># MUJI GOOD PROGRAM ふうのデザイン
 
 - 出典: https://www.muji.com/jp/ja/service/goodprogram/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
-- 業種: コンテンツページ／サービス･アプリ･ツール･SaaS／オーソドックス
+- 業種: コンテンツページ／サービス･アプリ･ツール･SaaS／レスポンシブ
 
 白地に `#7f0019` を文字と細部だけで効かせる配色。影も枠線もほとんど使わない。本文 16px・行間 1.6、セクション間 32px。
 
@@ -420,9 +420,10 @@
 | 見出し | 32px | 1.6 |
 | 小見出し | 26px | 1.6 |
 | リード | 22px | — |
-| リード | 20px | — |
-| リード | 18px | 1.6 |
 | 本文 | 16px | 1.6 |
+| 補助 | 14px | — |
+| 注記 | 12px | — |
+
 
 - 本文は 16px・行間 1.6。
 
@@ -517,6 +518,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:1240px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#1d1d1f; --on:#1d1d1f }
 .section--main .btn--fill{ background:#1d1d1f; color:var(--main) }
 .card{ background:#f4eede; border:3px solid var(--on);
@@ -614,6 +616,7 @@ document.querySelectorAll('[data-copy]').forEach(b => b.addEventListener('click'
           .map(c => `<a href="../index.html#c=${encodeURIComponent(c.slug)}">${esc(c.name)}<b>${c.n}</b></a>`).join('')).join('');
   } catch (e) { catlist.innerHTML = '<p class="catnav__g">読み込めませんでした</p>'; }
 })();
+
 </script>
 </body>
 </html>

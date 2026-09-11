@@ -1,7 +1,7 @@
 # 黒川温泉 源流の宿 帆山亭 ふうのデザイン
 
 - 出典: https://www.hozantei.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: 明朝 / 余白ふつう / 角ばった / モノトーン
 - 業種: ブランドサイト･サービスサイト／ホテル･旅館･温泉／レスポンシブ
 
@@ -71,7 +71,7 @@
 | 本文 | 16px | 1.2 |
 | 補助 | 15px | — |
 | 注記 | 14px | — |
-| 注記 | 13px | — |
+
 
 - 本文は 16px・行間 2.4。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -155,6 +155,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:transparent; color:#58574c; border-radius:0px;
   padding:0px 0px; min-height:60px;

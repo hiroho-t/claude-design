@@ -1,7 +1,7 @@
 # 福岡デザイン&テクノロジー専門学校 ふうのデザイン
 
 - 出典: https://www.fca.ac.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／Web･IT･XR･デジタル･テクノロジー／デザイン･イラスト･写真･映像･制作
 
@@ -89,9 +89,9 @@
 | 見出し | 29px | 1.3 |
 | 小見出し | 28px | 1.5 |
 | リード | 19px | — |
-| リード | 16px | 1.3 |
-| リード | 15px | — |
-| リード | 14px | — |
+| 本文 | 13px | 1.5 |
+| 補助 | 12px | — |
+
 
 - 本文は 13px・行間 1.5。
 
@@ -212,6 +212,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:880px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:transparent; border:1px solid var(--on);

@@ -1,7 +1,7 @@
 # NPO法人 日本タイポグラフィ協会 ふうのデザイン
 
 - 出典: https://typography.or.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / モノトーン
 - 業種: コーポレートサイト／デザイン･イラスト･写真･映像･制作／地域･地方創生･政治･行政･自治体･NPO
 
@@ -71,9 +71,8 @@
 | 見出し | 22px | — |
 | 小見出し | 16px | 1.4 |
 | リード | 14px | — |
-| リード | 13px | — |
-| リード | 12px | — |
 | 本文 | 11px | 1 |
+
 
 - 本文は 11px・行間 1。
 
@@ -165,6 +164,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:800px; display:grid; align-content:center }
+
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:transparent; color:#000000; border-radius:0px;
   padding:0px 0px; min-height:44px;

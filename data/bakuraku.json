@@ -28,15 +28,15 @@
   "ink": [
     {
       "hex": "#233447",
-      "pct": 57.7
+      "pct": 57.2
     },
     {
       "hex": "#ffffff",
-      "pct": 32.2
+      "pct": 32.5
     },
     {
       "hex": "#0e63c4",
-      "pct": 3.4
+      "pct": 3.5
     },
     {
       "hex": "#7e90a3",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 2340
+      "w": 2308
     },
     {
       "family": "Montserrat",
@@ -69,7 +69,7 @@
     },
     {
       "px": 16,
-      "w": 420
+      "w": 388
     },
     {
       "px": 14,
@@ -136,6 +136,72 @@
         "family": "Noto Sans JP"
       }
     ]
+  },
+  "headSpace": {
+    "16": {
+      "above": 12,
+      "below": 56,
+      "n": 4
+    },
+    "18": {
+      "above": 113,
+      "below": 138,
+      "n": 15
+    },
+    "20": {
+      "above": 74,
+      "below": 12,
+      "n": 9
+    },
+    "24": {
+      "above": 12,
+      "below": 12,
+      "n": 5
+    },
+    "28": {
+      "above": 64,
+      "below": 113,
+      "n": 5
+    },
+    "32": {
+      "above": 189,
+      "below": 16,
+      "n": 2
+    },
+    "40": {
+      "above": 24,
+      "below": 40,
+      "n": 5
+    },
+    "44": {
+      "above": 56,
+      "below": 48,
+      "n": 1
+    },
+    "56": {
+      "above": 168,
+      "below": 50,
+      "n": 2
+    },
+    "64": {
+      "above": 94,
+      "below": 48,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 15,
+    "weight": "600",
+    "ls": 0.02,
+    "color": "#233447",
+    "latin": true,
+    "upper": false,
+    "gap": 24,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 40,
+    "n": 5,
+    "total": 5
   },
   "radius": [
     {

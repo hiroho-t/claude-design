@@ -1,7 +1,7 @@
 # 株式会社belmo l 香水, アウトドア, スポーツ l ニッチなニーズに応える専門商社 ふうのデザイン
 
 - 出典: https://www.belmo.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: コーポレートサイト／製造業･工業･メーカー･商社･物流／レスポンシブ
 
@@ -99,6 +99,7 @@
 | 本文 | 13px | — |
 | 補助 | 12px | — |
 | 注記 | 11px | — |
+
 
 - 本文は 13px・行間 null。
 
@@ -208,6 +209,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:960px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#b9b8b8; --on:#b9b8b8 }
 .section--main .btn--fill{ background:#b9b8b8; color:var(--main) }
 .card{ background:#1e2021;

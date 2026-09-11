@@ -1,7 +1,7 @@
 # JSH大阪ホテル・観光＆ウェディング専門学校 ふうのデザイン
 
 - 出典: https://www.jikei-hospitality.ac.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／学校･教育／レスポンシブ
 
@@ -95,6 +95,7 @@
 | 本文 | 17px | 1.75 |
 | 補助 | 16px | — |
 | 注記 | 15px | — |
+
 
 - 本文は 17px・行間 1.75。
 
@@ -204,6 +205,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:740px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#4e4e4e; --on:#4e4e4e }
 .section--main .btn--fill{ background:#4e4e4e; color:var(--main) }
 .card{ background:#ffffff;

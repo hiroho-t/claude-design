@@ -3,7 +3,7 @@
     "slug": "goodpatch-anywhere",
     "name": "Goodpatch Anywhere",
     "url": "https://anywhere.goodpatch.com/",
-    "industry": "デザイン会社・採用",
+    "industry": "",
     "tags": [
       "ゴシック",
       "余白ひろい",
@@ -11,6 +11,12 @@
       "色つき"
     ],
     "accent": "#096fca",
+    "container": 1376,
+    "bodyFs": 20,
+    "bodyLh": 2,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -30,7 +36,7 @@
     "slug": "jins-holdings",
     "name": "JINS HOLDINGS",
     "url": "https://jinsholdings.com/jp/ja",
-    "industry": "アイウェア・コーポレート",
+    "industry": "",
     "tags": [
       "ゴシック",
       "余白つまった",
@@ -38,6 +44,12 @@
       "色つき"
     ],
     "accent": "#6a594e",
+    "container": 1344,
+    "bodyFs": 18,
+    "bodyLh": 1.7,
+    "sectionY": 52,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -61,7 +73,7 @@
     "slug": "zoff-recruit",
     "name": "Zoff Recruitment Site",
     "url": "https://recruit.zoff.com/",
-    "industry": "アイウェア・採用",
+    "industry": "",
     "tags": [
       "ゴシック",
       "余白ふつう",
@@ -69,6 +81,12 @@
       "色つき"
     ],
     "accent": "#2299e1",
+    "container": 744,
+    "bodyFs": 18,
+    "bodyLh": 1.5,
+    "sectionY": 92,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -92,7 +110,7 @@
     "slug": "goodpatch-careers",
     "name": "Goodpatch グッドパッチ採用サイト",
     "url": "https://careers.goodpatch.com/",
-    "industry": "デザイン会社・採用",
+    "industry": "",
     "tags": [
       "ゴシック",
       "余白ふつう",
@@ -100,6 +118,12 @@
       "色つき"
     ],
     "accent": "#096fc8",
+    "container": 1120,
+    "bodyFs": 15,
+    "bodyLh": 1.7,
+    "sectionY": 100,
+    "radius": 12,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f7f7f7",
@@ -123,6 +147,12 @@
       "色つき"
     ],
     "accent": "#508e64",
+    "container": 1200,
+    "bodyFs": 16,
+    "bodyLh": 1,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f5f8f3",
@@ -159,88 +189,12 @@
         "name": "企画･開発･マーケティング･コンサルティング"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "nonphoto-visuals",
-        "name": "写真少なめ･写真以外のビジュアル表現"
-      },
-      {
-        "slug": "texture-handle",
-        "name": "質感･柄"
-      },
-      {
-        "slug": "abstractgraphics",
-        "name": "抽象グラフィック"
-      },
-      {
-        "slug": "gradation",
-        "name": "グラデーション"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "glass",
-        "name": "透け感･ガラス風･グラスモーフィズム"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "footer",
-        "name": "ステキなフッター"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "parallax",
-        "name": "パララックス（視差効果）･スクロールエフェクト"
-      },
-      {
-        "slug": "hover",
-        "name": "ホバー"
-      },
-      {
-        "slug": "lottie",
-        "name": "Lottie"
       },
       {
         "slug": "green",
@@ -272,6 +226,12 @@
       "モノトーン"
     ],
     "accent": "#3f3f3f",
+    "container": 960,
+    "bodyFs": 16,
+    "bodyLh": 1.75,
+    "sectionY": 120,
+    "radius": 5,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -300,32 +260,8 @@
         "name": "自社プロダクト･サービス運営"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "simple",
-        "name": "シンプル"
-      },
-      {
         "slug": "thin-headings",
         "name": "見出し細め"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "layered",
-        "name": "重なり感･レイヤー感"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
       },
       {
         "slug": "responsive",
@@ -334,26 +270,6 @@
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "inbound-multilingual",
-        "name": "多言語対応"
-      },
-      {
-        "slug": "no-move",
-        "name": "ほぼ動きなし･動き少なめ"
-      },
-      {
-        "slug": "colorchange",
-        "name": "アクセス･遷移･日時に応じて変化"
-      },
-      {
-        "slug": "react-nextjs",
-        "name": "React / Next.js"
-      },
-      {
-        "slug": "astro",
-        "name": "Astro"
       },
       {
         "slug": "white",
@@ -373,6 +289,12 @@
       "モノトーン"
     ],
     "accent": "#fafafa",
+    "container": 1260,
+    "bodyFs": 11,
+    "bodyLh": 1,
+    "sectionY": 76,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fafafa",
@@ -409,32 +331,12 @@
         "name": "地域･地方創生･政治･行政･自治体･NPO"
       },
       {
-        "slug": "stylish",
-        "name": "スタイリッシュ"
-      },
-      {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "simple",
-        "name": "シンプル"
-      },
-      {
         "slug": "thin-headings",
         "name": "見出し細め"
       },
       {
-        "slug": "fv",
-        "name": "ステキなファーストビュー･ヒーローセクション"
-      },
-      {
         "slug": "card-list",
         "name": "ステキなカード型UI･一覧デザイン"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
       },
       {
         "slug": "responsive",
@@ -443,10 +345,6 @@
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "no-move",
-        "name": "ほぼ動きなし･動き少なめ"
       },
       {
         "slug": "grey",
@@ -470,6 +368,12 @@
       "色つき"
     ],
     "accent": "#d45608",
+    "container": 1200,
+    "bodyFs": 16,
+    "bodyLh": 1.5,
+    "sectionY": 52,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#d45608",
@@ -506,88 +410,12 @@
         "name": "車･乗り物･モビリティ"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "layered",
-        "name": "重なり感･レイヤー感"
-      },
-      {
-        "slug": "masking",
-        "name": "クリッピングマスク･マスキング"
-      },
-      {
-        "slug": "texture-handle",
-        "name": "質感･柄"
-      },
-      {
-        "slug": "watercolor-paints",
-        "name": "水彩･絵の具"
-      },
-      {
-        "slug": "decorationruled",
-        "name": "飾り罫･フレーム"
-      },
-      {
-        "slug": "gradation",
-        "name": "グラデーション"
-      },
-      {
-        "slug": "color-block",
-        "name": "色面構成･ベタ塗り"
-      },
-      {
-        "slug": "speechbubble",
-        "name": "ふきだし･会話表現"
-      },
-      {
-        "slug": "fv",
-        "name": "ステキなファーストビュー･ヒーローセクション"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
-        "slug": "numbers",
-        "name": "ステキな数字で見る･数値表現"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
       },
       {
         "slug": "orange",
@@ -619,6 +447,12 @@
       "色つき"
     ],
     "accent": "#ff9f1c",
+    "container": 600,
+    "bodyFs": 16,
+    "bodyLh": null,
+    "sectionY": 76,
+    "radius": 10,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -655,96 +489,12 @@
         "name": "病院･クリニック･歯医者･医療･薬"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "illustration-icon",
-        "name": "イラストを使用"
-      },
-      {
-        "slug": "verticaltext",
-        "name": "縦書き･縦組みあり"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "decorationruled",
-        "name": "飾り罫･フレーム"
-      },
-      {
-        "slug": "curve",
-        "name": "曲線"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "speechbubble",
-        "name": "ふきだし･会話表現"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "parallax",
-        "name": "パララックス（視差効果）･スクロールエフェクト"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "loading",
-        "name": "ローディング･オープニングアニメーション"
-      },
-      {
-        "slug": "illustration-move",
-        "name": "イラストが動く"
       },
       {
         "slug": "orange",
@@ -776,6 +526,12 @@
       "色つき"
     ],
     "accent": "#1054d6",
+    "container": 1360,
+    "bodyFs": 18,
+    "bodyLh": 2.1,
+    "sectionY": 96,
+    "radius": 10,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f2f4f6",
@@ -812,80 +568,12 @@
         "name": "Web･IT･XR･デジタル･テクノロジー"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "layered",
-        "name": "重なり感･レイヤー感"
-      },
-      {
-        "slug": "masking",
-        "name": "クリッピングマスク･マスキング"
-      },
-      {
-        "slug": "texture-handle",
-        "name": "質感･柄"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "inbound-multilingual",
-        "name": "多言語対応"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "parallax",
-        "name": "パララックス（視差効果）･スクロールエフェクト"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "text-animation",
-        "name": "文字が動く･文字に演出"
-      },
-      {
-        "slug": "astro",
-        "name": "Astro"
       },
       {
         "slug": "grey",
@@ -921,6 +609,12 @@
       "色つき"
     ],
     "accent": "#ff7f50",
+    "container": 1112,
+    "bodyFs": 14,
+    "bodyLh": 1.15,
+    "sectionY": 92,
+    "radius": 30,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f0f2f4",
@@ -957,72 +651,12 @@
         "name": "製造業･工業･メーカー･商社･物流"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "masking",
-        "name": "クリッピングマスク･マスキング"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "nice-menu",
-        "name": "ステキな全画面･ドロワーメニュー"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "loading",
-        "name": "ローディング･オープニングアニメーション"
-      },
-      {
-        "slug": "react-nextjs",
-        "name": "React / Next.js"
       },
       {
         "slug": "grey",
@@ -1042,6 +676,12 @@
       "色つき"
     ],
     "accent": "#10ad5e",
+    "container": 1120,
+    "bodyFs": 14,
+    "bodyLh": 1.6,
+    "sectionY": 100,
+    "radius": 15,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#10ad5e",
@@ -1082,80 +722,12 @@
         "name": "暮らし･生活"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "decorationruled",
-        "name": "飾り罫･フレーム"
-      },
-      {
-        "slug": "gradation",
-        "name": "グラデーション"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "parallax",
-        "name": "パララックス（視差効果）･スクロールエフェクト"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "loading",
-        "name": "ローディング･オープニングアニメーション"
       },
       {
         "slug": "green",
@@ -1183,7 +755,7 @@
     "slug": "moriokaganka",
     "name": "もりおか眼科",
     "url": "https://morioka-ganka.com/",
-    "industry": "ブランドサイト･サービスサイト／BtoCのサイト／ノーコードツールで制作されたサイト",
+    "industry": "ブランドサイト･サービスサイト／BtoCのサイト／病院･クリニック･歯医者･医療･薬",
     "tags": [
       "ゴシック",
       "余白ひろい",
@@ -1191,6 +763,12 @@
       "色つき"
     ],
     "accent": "#0000f9",
+    "container": 632,
+    "bodyFs": 17,
+    "bodyLh": 1.8,
+    "sectionY": 132,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fbfcf7",
@@ -1215,76 +793,8 @@
         "name": "BtoCのサイト"
       },
       {
-        "slug": "nocode",
-        "name": "ノーコードツールで制作されたサイト"
-      },
-      {
-        "slug": "studio",
-        "name": "ノーコードツール｢Studio｣で制作されたサイト"
-      },
-      {
         "slug": "hospital-clinic-medicalcare-dentist",
         "name": "病院･クリニック･歯医者･医療･薬"
-      },
-      {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "simple",
-        "name": "シンプル"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "verticaltext",
-        "name": "縦書き･縦組みあり"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "decorationruled",
-        "name": "飾り罫･フレーム"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "footer",
-        "name": "ステキなフッター"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
       },
       {
         "slug": "responsive",
@@ -1293,26 +803,6 @@
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "modal-popup",
-        "name": "モーダル･ポップアップ"
-      },
-      {
-        "slug": "vuejs-nuxtjs",
-        "name": "Vue.js / Nuxt.js"
       },
       {
         "slug": "blue",
@@ -1340,6 +830,12 @@
       "色つき"
     ],
     "accent": "#00175c",
+    "container": 1160,
+    "bodyFs": 17,
+    "bodyLh": 1,
+    "sectionY": 52,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -1376,80 +872,12 @@
         "name": "学校･教育"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "verticaltext",
-        "name": "縦書き･縦組みあり"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "inbound-multilingual",
-        "name": "多言語対応"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "parallax",
-        "name": "パララックス（視差効果）･スクロールエフェクト"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "loading",
-        "name": "ローディング･オープニングアニメーション"
-      },
-      {
-        "slug": "movie",
-        "name": "動画が流れる"
-      },
-      {
-        "slug": "canvas-webgl-threejs",
-        "name": "Canvas･WebGL･Three.js"
       },
       {
         "slug": "blue",
@@ -1481,7 +909,7 @@
     "slug": "kobewomensuniversity",
     "name": "神戸女子大学",
     "url": "https://www.kobe-wu.ac.jp/",
-    "industry": "ブランドサイト･サービスサイト／BtoCのサイト／女性向け･女性的なテイスト",
+    "industry": "ブランドサイト･サービスサイト／BtoCのサイト／学校･教育",
     "tags": [
       "ゴシック",
       "余白ふつう",
@@ -1489,6 +917,12 @@
       "色つき"
     ],
     "accent": "#4996b6",
+    "container": 568,
+    "bodyFs": 15,
+    "bodyLh": 1.75,
+    "sectionY": 112,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -1521,44 +955,8 @@
         "name": "BtoCのサイト"
       },
       {
-        "slug": "woman",
-        "name": "女性向け･女性的なテイスト"
-      },
-      {
         "slug": "school-education",
         "name": "学校･教育"
-      },
-      {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "refreshing",
-        "name": "さわやか"
-      },
-      {
-        "slug": "verticaltext",
-        "name": "縦書き･縦組みあり"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "gradation",
-        "name": "グラデーション"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
       },
       {
         "slug": "responsive",
@@ -1567,18 +965,6 @@
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "movie",
-        "name": "動画が流れる"
-      },
-      {
-        "slug": "vuejs-nuxtjs",
-        "name": "Vue.js / Nuxt.js"
       },
       {
         "slug": "blue",
@@ -1602,6 +988,12 @@
       "色つき"
     ],
     "accent": "#113da4",
+    "container": 1248,
+    "bodyFs": 16,
+    "bodyLh": 1.5,
+    "sectionY": 48,
+    "radius": 8,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fcfcfc",
@@ -1638,44 +1030,12 @@
         "name": "デザイン･イラスト･写真･映像･制作"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "simple",
-        "name": "シンプル"
-      },
-      {
-        "slug": "nonphoto-visuals",
-        "name": "写真少なめ･写真以外のビジュアル表現"
-      },
-      {
-        "slug": "decorationruled",
-        "name": "飾り罫･フレーム"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "no-move",
-        "name": "ほぼ動きなし･動き少なめ"
-      },
-      {
-        "slug": "react-nextjs",
-        "name": "React / Next.js"
       },
       {
         "slug": "grey",
@@ -1699,6 +1059,12 @@
       "色つき"
     ],
     "accent": "#fbefd6",
+    "container": 1320,
+    "bodyFs": 18,
+    "bodyLh": 2,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f5efe9",
@@ -1727,60 +1093,8 @@
         "name": "ビルメンテナンス･清掃･警備"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "typography",
-        "name": "魅力的な文字･タイポグラフィ"
-      },
-      {
         "slug": "jumprate",
         "name": "文字のジャンプ率が高い"
-      },
-      {
-        "slug": "verticaltext",
-        "name": "縦書き･縦組みあり"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "line",
-        "name": "線を多用"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "mincho",
-        "name": "明朝系のフォント"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
       },
       {
         "slug": "responsive",
@@ -1789,22 +1103,6 @@
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "partial-horizontalscroll",
-        "name": "一部横スクロール"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "loading",
-        "name": "ローディング･オープニングアニメーション"
       },
       {
         "slug": "beige",
@@ -1824,7 +1122,7 @@
     "slug": "kagami",
     "name": "KAGAMI",
     "url": "https://jp.is-kagami.com/",
-    "industry": "ブランドサイト･サービスサイト／BtoBのサイト／ノーコードツールで制作されたサイト",
+    "industry": "ブランドサイト･サービスサイト／BtoBのサイト／Web･IT･XR･デジタル･テクノロジー",
     "tags": [
       "ゴシック",
       "余白つまった",
@@ -1832,6 +1130,12 @@
       "色つき"
     ],
     "accent": "#c3e6ff",
+    "container": 680,
+    "bodyFs": 18,
+    "bodyLh": 1.4,
+    "sectionY": 32,
+    "radius": 16,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -1864,14 +1168,6 @@
         "name": "BtoBのサイト"
       },
       {
-        "slug": "nocode",
-        "name": "ノーコードツールで制作されたサイト"
-      },
-      {
-        "slug": "studio",
-        "name": "ノーコードツール｢Studio｣で制作されたサイト"
-      },
-      {
         "slug": "computer-web",
         "name": "Web･IT･XR･デジタル･テクノロジー"
       },
@@ -1880,104 +1176,12 @@
         "name": "サービス･アプリ･ツール･SaaS"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "refreshing",
-        "name": "さわやか"
-      },
-      {
-        "slug": "illustration-icon",
-        "name": "イラストを使用"
-      },
-      {
-        "slug": "3dcg",
-        "name": "3D表現･3Dイラストを使用"
-      },
-      {
-        "slug": "nonphoto-visuals",
-        "name": "写真少なめ･写真以外のビジュアル表現"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "elaborate",
-        "name": "遊び心がある･作り込まれている"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "form",
-        "name": "図形を多用･幾何学モチーフ"
-      },
-      {
-        "slug": "gradation",
-        "name": "グラデーション"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "parallax",
-        "name": "パララックス（視差効果）･スクロールエフェクト"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "illustration-move",
-        "name": "イラストが動く"
-      },
-      {
-        "slug": "vuejs-nuxtjs",
-        "name": "Vue.js / Nuxt.js"
       },
       {
         "slug": "blue",
@@ -2001,7 +1205,7 @@
     "slug": "janu",
     "name": "国立大学協会",
     "url": "https://www.janu.jp/",
-    "industry": "学校･教育／オーソドックス／シンプル",
+    "industry": "学校･教育／レスポンシブ／1カラム",
     "tags": [
       "ゴシック",
       "余白つまった",
@@ -2009,6 +1213,12 @@
       "色つき"
     ],
     "accent": "#d0d3b8",
+    "container": 604,
+    "bodyFs": 16,
+    "bodyLh": 1,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -2037,60 +1247,12 @@
         "name": "学校･教育"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "simple",
-        "name": "シンプル"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "illustration-icon",
-        "name": "イラストを使用"
-      },
-      {
-        "slug": "nonphoto-visuals",
-        "name": "写真少なめ･写真以外のビジュアル表現"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "inbound-multilingual",
-        "name": "多言語対応"
-      },
-      {
-        "slug": "no-move",
-        "name": "ほぼ動きなし･動き少なめ"
-      },
-      {
-        "slug": "illustration-move",
-        "name": "イラストが動く"
       },
       {
         "slug": "white",
@@ -2118,7 +1280,7 @@
     "slug": "clinicmorinosato",
     "name": "クリニック杜の里",
     "url": "https://c-morinosato.com/",
-    "industry": "ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／オーソドックス",
+    "industry": "ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白ひろい",
@@ -2126,6 +1288,12 @@
       "色つき"
     ],
     "accent": "#002a1d",
+    "container": 1200,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 120,
+    "radius": 10,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f5f5ee",
@@ -2146,100 +1314,12 @@
         "name": "病院･クリニック･歯医者･医療･薬"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "illustration-icon",
-        "name": "イラストを使用"
-      },
-      {
-        "slug": "portrait",
-        "name": "印象的な人物写真･動画を使用"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "elaborate",
-        "name": "遊び心がある･作り込まれている"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "handwriting-collage",
-        "name": "アナログ風･クラフト感･手書き･紙･コラージュ"
-      },
-      {
-        "slug": "gradation",
-        "name": "グラデーション"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "flower-tree-leaf-plant",
-        "name": "花･木･葉･植物を使用"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "parallax",
-        "name": "パララックス（視差効果）･スクロールエフェクト"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "illustration-move",
-        "name": "イラストが動く"
       },
       {
         "slug": "bluegreen",
@@ -2275,6 +1355,12 @@
       "色つき"
     ],
     "accent": "#7f3033",
+    "container": 1144,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 48,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -2311,84 +1397,12 @@
         "name": "ベビー･子ども･子育て"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "cute",
-        "name": "かわいい"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "portrait",
-        "name": "印象的な人物写真･動画を使用"
-      },
-      {
-        "slug": "verticaltext",
-        "name": "縦書き･縦組みあり"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "elaborate",
-        "name": "遊び心がある･作り込まれている"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "handwriting-collage",
-        "name": "アナログ風･クラフト感･手書き･紙･コラージュ"
-      },
-      {
-        "slug": "watercolor-paints",
-        "name": "水彩･絵の具"
-      },
-      {
-        "slug": "decorationruled",
-        "name": "飾り罫･フレーム"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
-      },
-      {
-        "slug": "marugothic",
-        "name": "丸ゴシック系のフォント"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "no-move",
-        "name": "ほぼ動きなし･動き少なめ"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
       },
       {
         "slug": "red",
@@ -2408,7 +1422,7 @@
     "slug": "mizotaarchitecturaldesign",
     "name": "溝田建築設計株式会社",
     "url": "https://mizota-ks.com/",
-    "industry": "コーポレートサイト／建築･住宅･不動産･空間設計･エクステリア／スタイリッシュ",
+    "industry": "コーポレートサイト／建築･住宅･不動産･空間設計･エクステリア／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白つまった",
@@ -2416,6 +1430,12 @@
       "色つき"
     ],
     "accent": "#51666c",
+    "container": 600,
+    "bodyFs": 16,
+    "bodyLh": 2.2,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#faf3e9",
@@ -2448,92 +1468,12 @@
         "name": "建築･住宅･不動産･空間設計･エクステリア"
       },
       {
-        "slug": "stylish",
-        "name": "スタイリッシュ"
-      },
-      {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "elegance",
-        "name": "上品"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "sizzlefeeling",
-        "name": "シズル感や訴求力のある写真･動画を使用"
-      },
-      {
-        "slug": "typography",
-        "name": "魅力的な文字･タイポグラフィ"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "gradation",
-        "name": "グラデーション"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "nice-menu",
-        "name": "ステキな全画面･ドロワーメニュー"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
-        "slug": "mincho",
-        "name": "明朝系のフォント"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "parallax",
-        "name": "パララックス（視差効果）･スクロールエフェクト"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
       },
       {
         "slug": "beige",
@@ -2569,6 +1509,12 @@
       "色つき"
     ],
     "accent": "#103381",
+    "container": 1248,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 240,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -2605,80 +1551,12 @@
         "name": "生活用品･雑貨･インテリア･家具"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "simple",
-        "name": "シンプル"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "sizzlefeeling",
-        "name": "シズル感や訴求力のある写真･動画を使用"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "form",
-        "name": "図形を多用･幾何学モチーフ"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "inbound-multilingual",
-        "name": "多言語対応"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "no-move",
-        "name": "ほぼ動きなし･動き少なめ"
-      },
-      {
-        "slug": "parallax",
-        "name": "パララックス（視差効果）･スクロールエフェクト"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "colorchange",
-        "name": "アクセス･遷移･日時に応じて変化"
       },
       {
         "slug": "white",
@@ -2690,7 +1568,7 @@
     "slug": "goodpat-chcareers",
     "name": "Goodpatch グッドパッチ採用サイト",
     "url": "https://careers.goodpatch.com/",
-    "industry": "採用サイト／デザイン･イラスト･写真･映像･制作／オーソドックス",
+    "industry": "採用サイト／デザイン･イラスト･写真･映像･制作／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白ふつう",
@@ -2698,6 +1576,12 @@
       "色つき"
     ],
     "accent": "#096fc8",
+    "container": 1120,
+    "bodyFs": 15,
+    "bodyLh": 1.7,
+    "sectionY": 100,
+    "radius": 12,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f7f7f7",
@@ -2722,48 +1606,12 @@
         "name": "デザイン･イラスト･写真･映像･制作"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "simple",
-        "name": "シンプル"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "portrait",
-        "name": "印象的な人物写真･動画を使用"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "movie",
-        "name": "動画が流れる"
       },
       {
         "slug": "grey",
@@ -2795,6 +1643,12 @@
       "色つき"
     ],
     "accent": "#0071b9",
+    "container": 1200,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 80,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -2835,92 +1689,12 @@
         "name": "本･出版･印刷"
       },
       {
-        "slug": "stylish",
-        "name": "スタイリッシュ"
-      },
-      {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "pop",
-        "name": "ポップ"
-      },
-      {
-        "slug": "illustration-icon",
-        "name": "イラストを使用"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "elaborate",
-        "name": "遊び心がある･作り込まれている"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "form",
-        "name": "図形を多用･幾何学モチーフ"
-      },
-      {
-        "slug": "gradation",
-        "name": "グラデーション"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "illustration-move",
-        "name": "イラストが動く"
       },
       {
         "slug": "blue",
@@ -2940,7 +1714,7 @@
     "slug": "fukujouniversity",
     "name": "福岡女学院大学・短期大学部",
     "url": "https://www.fukujo.ac.jp/university/",
-    "industry": "ブランドサイト･サービスサイト／女性向け･女性的なテイスト／学校･教育",
+    "industry": "ブランドサイト･サービスサイト／学校･教育／レスポンシブ",
     "tags": [
       "明朝",
       "余白ひろい",
@@ -2948,6 +1722,12 @@
       "色つき"
     ],
     "accent": "#a44858",
+    "container": 1360,
+    "bodyFs": 15,
+    "bodyLh": 1.8,
+    "sectionY": 160,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -2976,36 +1756,8 @@
         "name": "ブランドサイト･サービスサイト"
       },
       {
-        "slug": "woman",
-        "name": "女性向け･女性的なテイスト"
-      },
-      {
         "slug": "school-education",
         "name": "学校･教育"
-      },
-      {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "simple",
-        "name": "シンプル"
-      },
-      {
-        "slug": "elegance",
-        "name": "上品"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
       },
       {
         "slug": "responsive",
@@ -3014,14 +1766,6 @@
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "no-move",
-        "name": "ほぼ動きなし･動き少なめ"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
       },
       {
         "slug": "red",
@@ -3045,7 +1789,7 @@
     "slug": "tetopaint",
     "name": "tetopaint",
     "url": "https://tetopaint.jp/",
-    "industry": "ブランドサイト･サービスサイト／建築･住宅･不動産･空間設計･エクステリア／オーソドックス",
+    "industry": "ブランドサイト･サービスサイト／建築･住宅･不動産･空間設計･エクステリア／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白つまった",
@@ -3053,6 +1797,12 @@
       "モノトーン"
     ],
     "accent": "#61636a",
+    "container": 1360,
+    "bodyFs": 16,
+    "bodyLh": 2.3,
+    "sectionY": 52,
+    "radius": 5,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -3085,76 +1835,12 @@
         "name": "建築･住宅･不動産･空間設計･エクステリア"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "simple",
-        "name": "シンプル"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "verticaltext",
-        "name": "縦書き･縦組みあり"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "partial-horizontalscroll",
-        "name": "一部横スクロール"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "loading",
-        "name": "ローディング･オープニングアニメーション"
       },
       {
         "slug": "white",
@@ -3170,7 +1856,7 @@
     "slug": "saiseikai",
     "name": "埼玉県済生会川口総合病院",
     "url": "https://www.saiseikai.gr.jp/",
-    "industry": "ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／オーソドックス",
+    "industry": "ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白ふつう",
@@ -3178,6 +1864,12 @@
       "色つき"
     ],
     "accent": "#96b9c9",
+    "container": 1108,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 68,
+    "radius": 22,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -3210,72 +1902,12 @@
         "name": "病院･クリニック･歯医者･医療･薬"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "nice-menu",
-        "name": "ステキな全画面･ドロワーメニュー"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "no-move",
-        "name": "ほぼ動きなし･動き少なめ"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
       },
       {
         "slug": "blue",
@@ -3295,7 +1927,7 @@
     "slug": "yahagijisyo",
     "name": "矢作地所株式会社",
     "url": "https://www.yahagijisyo.co.jp/",
-    "industry": "コーポレートサイト／建築･住宅･不動産･空間設計･エクステリア／オーソドックス",
+    "industry": "コーポレートサイト／建築･住宅･不動産･空間設計･エクステリア／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白ふつう",
@@ -3303,6 +1935,12 @@
       "色つき"
     ],
     "accent": "#001524",
+    "container": 1280,
+    "bodyFs": 18,
+    "bodyLh": 1.63,
+    "sectionY": 64,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -3335,48 +1973,12 @@
         "name": "建築･住宅･不動産･空間設計･エクステリア"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "simple",
-        "name": "シンプル"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "no-move",
-        "name": "ほぼ動きなし･動き少なめ"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
       },
       {
         "slug": "white",
@@ -3412,7 +2014,7 @@
     "slug": "ventvert",
     "name": "新築分譲マンションブランド「バンベール」",
     "url": "https://www.yahagijisyo.co.jp/ventvert/",
-    "industry": "ブランドサイト･サービスサイト／建築･住宅･不動産･空間設計･エクステリア／オーソドックス",
+    "industry": "ブランドサイト･サービスサイト／建築･住宅･不動産･空間設計･エクステリア／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白つまった",
@@ -3420,6 +2022,12 @@
       "色つき"
     ],
     "accent": "#001524",
+    "container": 1200,
+    "bodyFs": 16,
+    "bodyLh": 1,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#001524",
@@ -3448,60 +2056,12 @@
         "name": "建築･住宅･不動産･空間設計･エクステリア"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "simple",
-        "name": "シンプル"
-      },
-      {
-        "slug": "luxury-rich-gorgeous",
-        "name": "高級感"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "sizzlefeeling",
-        "name": "シズル感や訴求力のある写真･動画を使用"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "no-move",
-        "name": "ほぼ動きなし･動き少なめ"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "movie",
-        "name": "動画が流れる"
       },
       {
         "slug": "grey",
@@ -3549,6 +2109,12 @@
       "色つき"
     ],
     "accent": "#ffe7c1",
+    "container": 716,
+    "bodyFs": 18,
+    "bodyLh": 2,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -3589,72 +2155,12 @@
         "name": "料理･食べ物･飲み物･食品製造"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "sizzlefeeling",
-        "name": "シズル感や訴求力のある写真･動画を使用"
-      },
-      {
-        "slug": "typography",
-        "name": "魅力的な文字･タイポグラフィ"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "decorationruled",
-        "name": "飾り罫･フレーム"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
       },
       {
         "slug": "red",
@@ -3686,6 +2192,17 @@
       "色つき"
     ],
     "accent": "#eb322d",
+    "container": 752,
+    "bodyFs": 14,
+    "bodyLh": null,
+    "sectionY": 96,
+    "radius": 4,
+    "labelHead": {
+      "fs": 16,
+      "gap": 18,
+      "headFs": 32,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -3726,60 +2243,8 @@
         "name": "求人･マッチング･転職･人材ビジネス"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "cool",
-        "name": "かっこいい"
-      },
-      {
         "slug": "jumprate",
         "name": "文字のジャンプ率が高い"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "texture-handle",
-        "name": "質感･柄"
-      },
-      {
-        "slug": "form",
-        "name": "図形を多用･幾何学モチーフ"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
       },
       {
         "slug": "responsive",
@@ -3788,18 +2253,6 @@
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "no-move",
-        "name": "ほぼ動きなし･動き少なめ"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "vuejs-nuxtjs",
-        "name": "Vue.js / Nuxt.js"
       },
       {
         "slug": "red",
@@ -3823,7 +2276,7 @@
     "slug": "rebitasumai",
     "name": "リビタの住まい",
     "url": "https://sumai.rebita.co.jp/",
-    "industry": "ブランドサイト･サービスサイト／建築･住宅･不動産･空間設計･エクステリア／スタイリッシュ",
+    "industry": "ブランドサイト･サービスサイト／建築･住宅･不動産･空間設計･エクステリア／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白ふつう",
@@ -3831,6 +2284,12 @@
       "色つき"
     ],
     "accent": "#10242e",
+    "container": 632,
+    "bodyFs": 14,
+    "bodyLh": 1.75,
+    "sectionY": 72,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -3863,80 +2322,12 @@
         "name": "建築･住宅･不動産･空間設計･エクステリア"
       },
       {
-        "slug": "stylish",
-        "name": "スタイリッシュ"
-      },
-      {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "simple",
-        "name": "シンプル"
-      },
-      {
-        "slug": "elegance",
-        "name": "上品"
-      },
-      {
-        "slug": "sizzlefeeling",
-        "name": "シズル感や訴求力のある写真･動画を使用"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "line",
-        "name": "線を多用"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
-        "slug": "mincho",
-        "name": "明朝系のフォント"
-      },
-      {
-        "slug": "gothic",
-        "name": "ゴシック系のフォント"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "no-move",
-        "name": "ほぼ動きなし･動き少なめ"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "loading",
-        "name": "ローディング･オープニングアニメーション"
-      },
-      {
-        "slug": "movie",
-        "name": "動画が流れる"
       },
       {
         "slug": "white",
@@ -3952,7 +2343,7 @@
     "slug": "jq",
     "name": "株式会社JQ",
     "url": "https://www.j-q.co.jp/",
-    "industry": "コーポレートサイト／企画･開発･マーケティング･コンサルティング／オーソドックス",
+    "industry": "コーポレートサイト／企画･開発･マーケティング･コンサルティング／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白ふつう",
@@ -3960,6 +2351,12 @@
       "色つき"
     ],
     "accent": "#00afaf",
+    "container": 1200,
+    "bodyFs": 14,
+    "bodyLh": 1.75,
+    "sectionY": 96,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#edf0ed",
@@ -3992,52 +2389,12 @@
         "name": "企画･開発･マーケティング･コンサルティング"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "simple",
-        "name": "シンプル"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "gradation",
-        "name": "グラデーション"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "no-move",
-        "name": "ほぼ動きなし･動き少なめ"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
       },
       {
         "slug": "bluegreen",
@@ -4053,7 +2410,7 @@
     "slug": "koseikai",
     "name": "康生会 武田病院",
     "url": "https://www.takedahp.or.jp/koseikai/",
-    "industry": "ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／スタイリッシュ",
+    "industry": "ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白ふつう",
@@ -4061,6 +2418,12 @@
       "色つき"
     ],
     "accent": "#946d69",
+    "container": 1344,
+    "bodyFs": 12,
+    "bodyLh": null,
+    "sectionY": 80,
+    "radius": 24,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -4093,52 +2456,12 @@
         "name": "病院･クリニック･歯医者･医療･薬"
       },
       {
-        "slug": "stylish",
-        "name": "スタイリッシュ"
-      },
-      {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "no-move",
-        "name": "ほぼ動きなし･動き少なめ"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
       },
       {
         "slug": "green",
@@ -4178,6 +2501,12 @@
       "色つき"
     ],
     "accent": "#003894",
+    "container": 1380,
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -4214,96 +2543,12 @@
         "name": "ビルメンテナンス･清掃･警備"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "cute",
-        "name": "かわいい"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "illustration-icon",
-        "name": "イラストを使用"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "elaborate",
-        "name": "遊び心がある･作り込まれている"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "decorationruled",
-        "name": "飾り罫･フレーム"
-      },
-      {
-        "slug": "form",
-        "name": "図形を多用･幾何学モチーフ"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "parallax",
-        "name": "パララックス（視差効果）･スクロールエフェクト"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "illustration-move",
-        "name": "イラストが動く"
       },
       {
         "slug": "red",
@@ -4331,7 +2576,7 @@
     "slug": "yadoriki",
     "name": "旅館・ホテル・宿泊業の集客・経営支援なら株式会社宿力",
     "url": "https://yado-riki.com/",
-    "industry": "コーポレートサイト／企画･開発･マーケティング･コンサルティング／オーソドックス",
+    "industry": "コーポレートサイト／企画･開発･マーケティング･コンサルティング／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白ふつう",
@@ -4339,6 +2584,12 @@
       "色つき"
     ],
     "accent": "#98794b",
+    "container": 1120,
+    "bodyFs": 19,
+    "bodyLh": 1.75,
+    "sectionY": 112,
+    "radius": 2,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -4371,56 +2622,12 @@
         "name": "企画･開発･マーケティング･コンサルティング"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "loading",
-        "name": "ローディング･オープニングアニメーション"
-      },
-      {
-        "slug": "lottie",
-        "name": "Lottie"
       },
       {
         "slug": "grey",
@@ -4448,7 +2655,7 @@
     "slug": "mujigoodprogram",
     "name": "MUJI GOOD PROGRAM",
     "url": "https://www.muji.com/jp/ja/service/goodprogram/",
-    "industry": "コンテンツページ／サービス･アプリ･ツール･SaaS／オーソドックス",
+    "industry": "コンテンツページ／サービス･アプリ･ツール･SaaS／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白つまった",
@@ -4456,6 +2663,12 @@
       "色つき"
     ],
     "accent": "#7f0019",
+    "container": 1104,
+    "bodyFs": 16,
+    "bodyLh": 1.6,
+    "sectionY": 32,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -4476,64 +2689,12 @@
         "name": "サービス･アプリ･ツール･SaaS"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "cute",
-        "name": "かわいい"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "illustration-icon",
-        "name": "イラストを使用"
-      },
-      {
-        "slug": "nonphoto-visuals",
-        "name": "写真少なめ･写真以外のビジュアル表現"
-      },
-      {
-        "slug": "typography",
-        "name": "魅力的な文字･タイポグラフィ"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
       },
       {
         "slug": "white",
@@ -4565,7 +2726,7 @@
     "slug": "yorisoi",
     "name": "ヨリソイ",
     "url": "https://yado-riki.com/yorisoi/",
-    "industry": "ブランドサイト･サービスサイト／企画･開発･マーケティング･コンサルティング／オーソドックス",
+    "industry": "ブランドサイト･サービスサイト／企画･開発･マーケティング･コンサルティング／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白ふつう",
@@ -4573,6 +2734,12 @@
       "色つき"
     ],
     "accent": "#d94933",
+    "container": 1120,
+    "bodyFs": 16,
+    "bodyLh": 1.75,
+    "sectionY": 76,
+    "radius": 7,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fffbed",
@@ -4601,88 +2768,12 @@
         "name": "企画･開発･マーケティング･コンサルティング"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "illustration-icon",
-        "name": "イラストを使用"
-      },
-      {
-        "slug": "nonphoto-visuals",
-        "name": "写真少なめ･写真以外のビジュアル表現"
-      },
-      {
-        "slug": "typography",
-        "name": "魅力的な文字･タイポグラフィ"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "elaborate",
-        "name": "遊び心がある･作り込まれている"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "texture-handle",
-        "name": "質感･柄"
-      },
-      {
-        "slug": "decorationruled",
-        "name": "飾り罫･フレーム"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "impressive-move",
-        "name": "印象的･細やかな動き"
-      },
-      {
-        "slug": "parallax",
-        "name": "パララックス（視差効果）･スクロールエフェクト"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
       },
       {
         "slug": "red",
@@ -4718,6 +2809,12 @@
       "モノトーン"
     ],
     "accent": "#d8a438",
+    "container": 1280,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 80,
+    "radius": 8,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -4750,68 +2847,12 @@
         "name": "企画･開発･マーケティング･コンサルティング"
       },
       {
-        "slug": "stylish",
-        "name": "スタイリッシュ"
-      },
-      {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "illustration-icon",
-        "name": "イラストを使用"
-      },
-      {
-        "slug": "nonphoto-visuals",
-        "name": "写真少なめ･写真以外のビジュアル表現"
-      },
-      {
-        "slug": "typography",
-        "name": "魅力的な文字･タイポグラフィ"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "impressive-move",
-        "name": "印象的･細やかな動き"
-      },
-      {
-        "slug": "parallax",
-        "name": "パララックス（視差効果）･スクロールエフェクト"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "loading",
-        "name": "ローディング･オープニングアニメーション"
       },
       {
         "slug": "white",
@@ -4827,7 +2868,7 @@
     "slug": "jiichiroshop",
     "name": "治一郎 公式オンラインショップ",
     "url": "https://www.jiichiro-shop.com/",
-    "industry": "ECサイト･オンラインショップ／料理･食べ物･飲み物･食品製造／オーソドックス",
+    "industry": "ECサイト･オンラインショップ／料理･食べ物･飲み物･食品製造／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白つまった",
@@ -4835,6 +2876,12 @@
       "モノトーン"
     ],
     "accent": "#ee8d97",
+    "container": 668,
+    "bodyFs": 14,
+    "bodyLh": 1.72,
+    "sectionY": 40,
+    "radius": 8,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -4867,48 +2914,12 @@
         "name": "料理･食べ物･飲み物･食品製造"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "simple",
-        "name": "シンプル"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "sizzlefeeling",
-        "name": "シズル感や訴求力のある写真･動画を使用"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "no-move",
-        "name": "ほぼ動きなし･動き少なめ"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
       },
       {
         "slug": "white",
@@ -4948,6 +2959,12 @@
       "色つき"
     ],
     "accent": "#8c7d6c",
+    "container": 1200,
+    "bodyFs": 14,
+    "bodyLh": 1,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -4984,80 +3001,8 @@
         "name": "エコ･SDGs･サステナビリティ･脱炭素"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "typography",
-        "name": "魅力的な文字･タイポグラフィ"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "elaborate",
-        "name": "遊び心がある･作り込まれている"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "handwriting-collage",
-        "name": "アナログ風･クラフト感･手書き･紙･コラージュ"
-      },
-      {
-        "slug": "texture-handle",
-        "name": "質感･柄"
-      },
-      {
-        "slug": "decorationruled",
-        "name": "飾り罫･フレーム"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "inbound-multilingual",
-        "name": "多言語対応"
-      },
-      {
-        "slug": "no-move",
-        "name": "ほぼ動きなし･動き少なめ"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "movie",
-        "name": "動画が流れる"
       },
       {
         "slug": "white",
@@ -5085,7 +3030,7 @@
     "slug": "kawashimaseed",
     "name": "滋賀のガーデニング・家庭菜園・農業資材専門店",
     "url": "https://kawashimaseed.jp/",
-    "industry": "ブランドサイト･サービスサイト／農業･畜産業･林業･漁業･園芸／オーソドックス",
+    "industry": "ブランドサイト･サービスサイト／農業･畜産業･林業･漁業･園芸／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白ひろい",
@@ -5093,6 +3038,12 @@
       "色つき"
     ],
     "accent": "#75c5d3",
+    "container": 760,
+    "bodyFs": 15,
+    "bodyLh": null,
+    "sectionY": 132,
+    "radius": 8,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ececec",
@@ -5125,88 +3076,12 @@
         "name": "農業･畜産業･林業･漁業･園芸"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "illustration-icon",
-        "name": "イラストを使用"
-      },
-      {
-        "slug": "sizzlefeeling",
-        "name": "シズル感や訴求力のある写真･動画を使用"
-      },
-      {
-        "slug": "typography",
-        "name": "魅力的な文字･タイポグラフィ"
-      },
-      {
-        "slug": "elaborate",
-        "name": "遊び心がある･作り込まれている"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "decorationruled",
-        "name": "飾り罫･フレーム"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "flower-tree-leaf-plant",
-        "name": "花･木･葉･植物を使用"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "parallax",
-        "name": "パララックス（視差効果）･スクロールエフェクト"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
       },
       {
         "slug": "grey",
@@ -5222,7 +3097,7 @@
     "slug": "studio-career",
     "name": "採用情報",
     "url": "https://studio.inc/career",
-    "industry": "採用サイト／ノーコードツールで制作されたサイト／ノーコードツール｢Studio｣で制作されたサイト",
+    "industry": "採用サイト／Web･IT･XR･デジタル･テクノロジー／自社プロダクト･サービス運営",
     "tags": [
       "ゴシック",
       "余白つまった",
@@ -5230,6 +3105,12 @@
       "モノトーン"
     ],
     "accent": "#eaeaea",
+    "container": 840,
+    "bodyFs": 13,
+    "bodyLh": 1.6,
+    "sectionY": 40,
+    "radius": 8,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#eaeaea",
@@ -5258,14 +3139,6 @@
         "name": "採用サイト"
       },
       {
-        "slug": "nocode",
-        "name": "ノーコードツールで制作されたサイト"
-      },
-      {
-        "slug": "studio",
-        "name": "ノーコードツール｢Studio｣で制作されたサイト"
-      },
-      {
         "slug": "computer-web",
         "name": "Web･IT･XR･デジタル･テクノロジー"
       },
@@ -5274,68 +3147,12 @@
         "name": "自社プロダクト･サービス運営"
       },
       {
-        "slug": "stylish",
-        "name": "スタイリッシュ"
-      },
-      {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "simple",
-        "name": "シンプル"
-      },
-      {
-        "slug": "cool",
-        "name": "かっこいい"
-      },
-      {
-        "slug": "portrait",
-        "name": "印象的な人物写真･動画を使用"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "no-move",
-        "name": "ほぼ動きなし･動き少なめ"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "movie",
-        "name": "動画が流れる"
-      },
-      {
-        "slug": "vuejs-nuxtjs",
-        "name": "Vue.js / Nuxt.js"
       },
       {
         "slug": "grey",
@@ -5363,6 +3180,12 @@
       "色つき"
     ],
     "accent": "#d6c5ab",
+    "container": 1152,
+    "bodyFs": 18,
+    "bodyLh": 2.25,
+    "sectionY": 160,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -5395,60 +3218,12 @@
         "name": "料理･食べ物･飲み物･食品製造"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "illustration-icon",
-        "name": "イラストを使用"
-      },
-      {
-        "slug": "sizzlefeeling",
-        "name": "シズル感や訴求力のある写真･動画を使用"
-      },
-      {
-        "slug": "typography",
-        "name": "魅力的な文字･タイポグラフィ"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "loading",
-        "name": "ローディング･オープニングアニメーション"
       },
       {
         "slug": "white",
@@ -5484,6 +3259,12 @@
       "色つき"
     ],
     "accent": "#7cd58a",
+    "container": 1160,
+    "bodyFs": 16,
+    "bodyLh": 1.6,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#edf3eb",
@@ -5520,92 +3301,12 @@
         "name": "金融･投資･保険･士業"
       },
       {
-        "slug": "stylish",
-        "name": "スタイリッシュ"
-      },
-      {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "elaborate",
-        "name": "遊び心がある･作り込まれている"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "texture-handle",
-        "name": "質感･柄"
-      },
-      {
-        "slug": "form",
-        "name": "図形を多用･幾何学モチーフ"
-      },
-      {
-        "slug": "gradation",
-        "name": "グラデーション"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "impressive-move",
-        "name": "印象的･細やかな動き"
-      },
-      {
-        "slug": "parallax",
-        "name": "パララックス（視差効果）･スクロールエフェクト"
-      },
-      {
-        "slug": "canvas-webgl-threejs",
-        "name": "Canvas･WebGL･Three.js"
-      },
-      {
-        "slug": "astro",
-        "name": "Astro"
       },
       {
         "slug": "green",
@@ -5637,6 +3338,12 @@
       "色つき"
     ],
     "accent": "#2a5c3f",
+    "container": 1088,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 112,
+    "radius": 10,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -5673,92 +3380,12 @@
         "name": "料理･食べ物･飲み物･食品製造"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "illustration-icon",
-        "name": "イラストを使用"
-      },
-      {
-        "slug": "nonphoto-visuals",
-        "name": "写真少なめ･写真以外のビジュアル表現"
-      },
-      {
-        "slug": "typography",
-        "name": "魅力的な文字･タイポグラフィ"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "elaborate",
-        "name": "遊び心がある･作り込まれている"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "decorationruled",
-        "name": "飾り罫･フレーム"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "impressive-move",
-        "name": "印象的･細やかな動き"
-      },
-      {
-        "slug": "parallax",
-        "name": "パララックス（視差効果）･スクロールエフェクト"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "illustration-move",
-        "name": "イラストが動く"
-      },
-      {
-        "slug": "lottie",
-        "name": "Lottie"
       },
       {
         "slug": "green",
@@ -5778,7 +3405,7 @@
     "slug": "kawatatec",
     "name": "大型旋盤チャックの株式会社カワタテック Kawatate Corp.",
     "url": "https://kawatatec.co.jp/",
-    "industry": "コーポレートサイト／男性向け･男性的なテイスト／製造業･工業･メーカー･商社･物流",
+    "industry": "コーポレートサイト／製造業･工業･メーカー･商社･物流／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白つまった",
@@ -5786,6 +3413,12 @@
       "色つき"
     ],
     "accent": "#002f7c",
+    "container": 1384,
+    "bodyFs": 15,
+    "bodyLh": null,
+    "sectionY": 40,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f1f1f1",
@@ -5814,44 +3447,8 @@
         "name": "コーポレートサイト"
       },
       {
-        "slug": "man",
-        "name": "男性向け･男性的なテイスト"
-      },
-      {
         "slug": "life-infrastructure-industry",
         "name": "製造業･工業･メーカー･商社･物流"
-      },
-      {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "cool",
-        "name": "かっこいい"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
       },
       {
         "slug": "responsive",
@@ -5860,26 +3457,6 @@
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "inbound-multilingual",
-        "name": "多言語対応"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "parallax",
-        "name": "パララックス（視差効果）･スクロールエフェクト"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
       },
       {
         "slug": "grey",
@@ -5919,6 +3496,12 @@
       "色つき"
     ],
     "accent": "#c4dce8",
+    "container": 1272,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -5955,64 +3538,12 @@
         "name": "病院･クリニック･歯医者･医療･薬"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "illustration-icon",
-        "name": "イラストを使用"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "gradation",
-        "name": "グラデーション"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "partial-horizontalscroll",
-        "name": "一部横スクロール"
-      },
-      {
-        "slug": "inbound-multilingual",
-        "name": "多言語対応"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "parallax",
-        "name": "パララックス（視差効果）･スクロールエフェクト"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
       },
       {
         "slug": "blue",
@@ -6044,6 +3575,12 @@
       "色つき"
     ],
     "accent": "#93d1ef",
+    "container": 1208,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 84,
+    "radius": 12,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -6080,64 +3617,12 @@
         "name": "デザイン･イラスト･写真･映像･制作"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "refreshing",
-        "name": "さわやか"
-      },
-      {
-        "slug": "illustration-icon",
-        "name": "イラストを使用"
-      },
-      {
-        "slug": "nonphoto-visuals",
-        "name": "写真少なめ･写真以外のビジュアル表現"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
       },
       {
         "slug": "white",
@@ -6165,7 +3650,7 @@
     "slug": "isobeunyusouko",
     "name": "磯部運輸倉庫株式会社",
     "url": "https://isobeunyu-souko.com/",
-    "industry": "コーポレートサイト／製造業･工業･メーカー･商社･物流／オーソドックス",
+    "industry": "コーポレートサイト／製造業･工業･メーカー･商社･物流／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白ふつう",
@@ -6173,6 +3658,12 @@
       "色つき"
     ],
     "accent": "#c4d7dd",
+    "container": 608,
+    "bodyFs": 11,
+    "bodyLh": 1.8,
+    "sectionY": 64,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -6205,72 +3696,12 @@
         "name": "製造業･工業･メーカー･商社･物流"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "texture-handle",
-        "name": "質感･柄"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "no-move",
-        "name": "ほぼ動きなし･動き少なめ"
-      },
-      {
-        "slug": "loading",
-        "name": "ローディング･オープニングアニメーション"
-      },
-      {
-        "slug": "movie",
-        "name": "動画が流れる"
       },
       {
         "slug": "white",
@@ -6298,7 +3729,7 @@
     "slug": "fujiwaraprinting",
     "name": "藤原印刷",
     "url": "https://www.fujiwara-i.com/",
-    "industry": "コーポレートサイト／ノーコードツールで制作されたサイト／ノーコードツール｢Studio｣で制作されたサイト",
+    "industry": "コーポレートサイト／本･出版･印刷／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白ひろい",
@@ -6306,6 +3737,12 @@
       "色つき"
     ],
     "accent": "#92b34b",
+    "container": 1200,
+    "bodyFs": 16,
+    "bodyLh": null,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f9f9f9",
@@ -6334,60 +3771,8 @@
         "name": "コーポレートサイト"
       },
       {
-        "slug": "nocode",
-        "name": "ノーコードツールで制作されたサイト"
-      },
-      {
-        "slug": "studio",
-        "name": "ノーコードツール｢Studio｣で制作されたサイト"
-      },
-      {
         "slug": "publication",
         "name": "本･出版･印刷"
-      },
-      {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "simple",
-        "name": "シンプル"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "decorationruled",
-        "name": "飾り罫･フレーム"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
       },
       {
         "slug": "responsive",
@@ -6396,26 +3781,6 @@
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "hover",
-        "name": "ホバー"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "vuejs-nuxtjs",
-        "name": "Vue.js / Nuxt.js"
       },
       {
         "slug": "grey",
@@ -6435,6 +3800,12 @@
       "色つき"
     ],
     "accent": "#2061ab",
+    "container": 1280,
+    "bodyFs": 22,
+    "bodyLh": 1.8,
+    "sectionY": 100,
+    "radius": 8,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -6471,68 +3842,12 @@
         "name": "求人･マッチング･転職･人材ビジネス"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "form",
-        "name": "図形を多用･幾何学モチーフ"
-      },
-      {
-        "slug": "gradation",
-        "name": "グラデーション"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
       },
       {
         "slug": "blue",
@@ -6556,7 +3871,7 @@
     "slug": "shinseidenki",
     "name": "新生電機",
     "url": "https://www.shinseidenki.co.jp/",
-    "industry": "コーポレートサイト／製造業･工業･メーカー･商社･物流／スタイリッシュ",
+    "industry": "コーポレートサイト／製造業･工業･メーカー･商社･物流／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白つまった",
@@ -6564,6 +3879,12 @@
       "色つき"
     ],
     "accent": "#022a60",
+    "container": 1240,
+    "bodyFs": 15,
+    "bodyLh": 2,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fcfcfc",
@@ -6596,80 +3917,12 @@
         "name": "製造業･工業･メーカー･商社･物流"
       },
       {
-        "slug": "stylish",
-        "name": "スタイリッシュ"
-      },
-      {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "cool",
-        "name": "かっこいい"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "decorationruled",
-        "name": "飾り罫･フレーム"
-      },
-      {
-        "slug": "gradation",
-        "name": "グラデーション"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "partial-horizontalscroll",
-        "name": "一部横スクロール"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "loading",
-        "name": "ローディング･オープニングアニメーション"
       },
       {
         "slug": "grey",
@@ -6697,7 +3950,7 @@
     "slug": "aksball",
     "name": "株式会社天辻鋼球製作所",
     "url": "https://www.aksball.co.jp/",
-    "industry": "コーポレートサイト／製造業･工業･メーカー･商社･物流／オーソドックス",
+    "industry": "コーポレートサイト／製造業･工業･メーカー･商社･物流／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白つまった",
@@ -6705,6 +3958,12 @@
       "色つき"
     ],
     "accent": "#1c2734",
+    "container": 936,
+    "bodyFs": 18,
+    "bodyLh": 1.8,
+    "sectionY": 56,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -6737,80 +3996,12 @@
         "name": "製造業･工業･メーカー･商社･物流"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "cool",
-        "name": "かっこいい"
-      },
-      {
-        "slug": "3dcg",
-        "name": "3D表現･3Dイラストを使用"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "elaborate",
-        "name": "遊び心がある･作り込まれている"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "inbound-multilingual",
-        "name": "多言語対応"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "movie",
-        "name": "動画が流れる"
       },
       {
         "slug": "grey",
@@ -6838,7 +4029,7 @@
     "slug": "greencoop",
     "name": "社会福祉法人グリーンコープ",
     "url": "https://www.fukushi-greencoop.or.jp/",
-    "industry": "コーポレートサイト／福祉･介護／オーソドックス",
+    "industry": "コーポレートサイト／福祉･介護／レスポンシブ",
     "tags": [
       "明朝",
       "余白つまった",
@@ -6846,6 +4037,12 @@
       "色つき"
     ],
     "accent": "#d9ccb5",
+    "container": 1200,
+    "bodyFs": 14,
+    "bodyLh": 1.6,
+    "sectionY": 52,
+    "radius": 30,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f7f4e9",
@@ -6878,80 +4075,12 @@
         "name": "福祉･介護"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "friendly-natural",
-        "name": "やさしい･親しみ･ナチュラル"
-      },
-      {
-        "slug": "portrait",
-        "name": "印象的な人物写真･動画を使用"
-      },
-      {
-        "slug": "typography",
-        "name": "魅力的な文字･タイポグラフィ"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "elaborate",
-        "name": "遊び心がある･作り込まれている"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "decorationruled",
-        "name": "飾り罫･フレーム"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "no-move",
-        "name": "ほぼ動きなし･動き少なめ"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
       },
       {
         "slug": "beige",
@@ -6971,7 +4100,7 @@
     "slug": "toyoenergy",
     "name": "TOP",
     "url": "https://www.toyo-e.co.jp/",
-    "industry": "コーポレートサイト／ノーコードツールで制作されたサイト／ノーコードツール｢Studio｣で制作されたサイト",
+    "industry": "コーポレートサイト／製造業･工業･メーカー･商社･物流／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白ふつう",
@@ -6979,6 +4108,12 @@
       "色つき"
     ],
     "accent": "#404460",
+    "container": 1356,
+    "bodyFs": 18,
+    "bodyLh": 2,
+    "sectionY": 80,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f6f7fa",
@@ -7007,80 +4142,8 @@
         "name": "コーポレートサイト"
       },
       {
-        "slug": "nocode",
-        "name": "ノーコードツールで制作されたサイト"
-      },
-      {
-        "slug": "studio",
-        "name": "ノーコードツール｢Studio｣で制作されたサイト"
-      },
-      {
         "slug": "life-infrastructure-industry",
         "name": "製造業･工業･メーカー･商社･物流"
-      },
-      {
-        "slug": "stylish",
-        "name": "スタイリッシュ"
-      },
-      {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "cool",
-        "name": "かっこいい"
-      },
-      {
-        "slug": "3dcg",
-        "name": "3D表現･3Dイラストを使用"
-      },
-      {
-        "slug": "elaborate",
-        "name": "遊び心がある･作り込まれている"
-      },
-      {
-        "slug": "magazine",
-        "name": "雑誌風なレイアウト･あしらい"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "decorationruled",
-        "name": "飾り罫･フレーム"
-      },
-      {
-        "slug": "form",
-        "name": "図形を多用･幾何学モチーフ"
-      },
-      {
-        "slug": "gradation",
-        "name": "グラデーション"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
       },
       {
         "slug": "responsive",
@@ -7089,22 +4152,6 @@
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "parallax",
-        "name": "パララックス（視差効果）･スクロールエフェクト"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
-      },
-      {
-        "slug": "vuejs-nuxtjs",
-        "name": "Vue.js / Nuxt.js"
       },
       {
         "slug": "grey",
@@ -7144,6 +4191,12 @@
       "色つき"
     ],
     "accent": "#99acb6",
+    "container": 1200,
+    "bodyFs": 16,
+    "bodyLh": 1.65,
+    "sectionY": 72,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -7180,60 +4233,12 @@
         "name": "サービス･アプリ･ツール･SaaS"
       },
       {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "gradation",
-        "name": "グラデーション"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
-      },
-      {
-        "slug": "slide",
-        "name": "スライド･カルーセル"
       },
       {
         "slug": "white",
@@ -7269,6 +4274,12 @@
       "色つき"
     ],
     "accent": "#db0026",
+    "container": 1348,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -7301,68 +4312,12 @@
         "name": "車･乗り物･モビリティ"
       },
       {
-        "slug": "stylish",
-        "name": "スタイリッシュ"
-      },
-      {
-        "slug": "practical",
-        "name": "オーソドックス"
-      },
-      {
-        "slug": "trust",
-        "name": "誠実･信頼感"
-      },
-      {
-        "slug": "cool",
-        "name": "かっこいい"
-      },
-      {
-        "slug": "japanese",
-        "name": "日本語主体･英語少なめ"
-      },
-      {
-        "slug": "nice-layout",
-        "name": "レイアウトに工夫あり"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
-        "slug": "nice-lowerlayer",
-        "name": "ステキな下層ページ"
-      },
-      {
-        "slug": "nice-banner-button-visual",
-        "name": "ステキなバナー･ボタン･メインビジュアル"
-      },
-      {
-        "slug": "photo",
-        "name": "ステキな写真"
-      },
-      {
-        "slug": "nice-infographics",
-        "name": "ステキなインフォグラフィック"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
       {
         "slug": "1column",
         "name": "1カラム"
-      },
-      {
-        "slug": "inbound-multilingual",
-        "name": "多言語対応"
-      },
-      {
-        "slug": "motion-effect",
-        "name": "動き･アニメーション･エフェクト"
-      },
-      {
-        "slug": "moderate-move",
-        "name": "やや動きあり"
       },
       {
         "slug": "white",
@@ -7402,6 +4357,12 @@
       "モノトーン"
     ],
     "accent": "#765e46",
+    "container": 1340,
+    "bodyFs": 15,
+    "bodyLh": 1.6,
+    "sectionY": 200,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f7f5f0",
@@ -7467,6 +4428,12 @@
       "色つき"
     ],
     "accent": "#47332f",
+    "container": 1800,
+    "bodyFs": 15,
+    "bodyLh": 1.5,
+    "sectionY": 32,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fcf2e5",
@@ -7548,6 +4515,12 @@
       "色つき"
     ],
     "accent": "#0058a2",
+    "container": 1340,
+    "bodyFs": 13,
+    "bodyLh": 1.8,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -7584,10 +4557,6 @@
         "name": "金融･投資･保険･士業"
       },
       {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
@@ -7621,6 +4590,12 @@
       "色つき"
     ],
     "accent": "#ffa600",
+    "container": 612,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -7674,7 +4649,7 @@
     "slug": "benners",
     "name": "株式会社ベンナーズ",
     "url": "https://www.benners.co.jp/",
-    "industry": "コーポレートサイト／料理･食べ物･飲み物･食品製造／角丸",
+    "industry": "コーポレートサイト／料理･食べ物･飲み物･食品製造／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白ふつう",
@@ -7682,6 +4657,12 @@
       "色つき"
     ],
     "accent": "#1fabe8",
+    "container": 1200,
+    "bodyFs": 18,
+    "bodyLh": 1.8,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -7712,10 +4693,6 @@
       {
         "slug": "cooking-food-beverage",
         "name": "料理･食べ物･飲み物･食品製造"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
       },
       {
         "slug": "responsive",
@@ -7751,7 +4728,7 @@
     "slug": "uedahifuka",
     "name": "長崎県大村市の皮膚科・小児皮膚科・美容皮膚科【上田皮ふ科】",
     "url": "https://uedahifuka.com/",
-    "industry": "ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／角丸",
+    "industry": "ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／レスポンシブ",
     "tags": [
       "ゴシック",
       "余白つまった",
@@ -7759,6 +4736,12 @@
       "色つき"
     ],
     "accent": "#eee7ca",
+    "container": 952,
+    "bodyFs": 14,
+    "bodyLh": 1,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f2f3f0",
@@ -7789,10 +4772,6 @@
       {
         "slug": "hospital-clinic-medicalcare-dentist",
         "name": "病院･クリニック･歯医者･医療･薬"
-      },
-      {
-        "slug": "roundedcorners",
-        "name": "角丸"
       },
       {
         "slug": "responsive",
@@ -7836,6 +4815,12 @@
       "色つき"
     ],
     "accent": "#987070",
+    "container": 632,
+    "bodyFs": 17,
+    "bodyLh": 1.5,
+    "sectionY": 84,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -7868,10 +4853,6 @@
         "name": "体験･交流"
       },
       {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
@@ -7897,6 +4878,12 @@
       "色つき"
     ],
     "accent": "#ff7360",
+    "container": 984,
+    "bodyFs": 14,
+    "bodyLh": 1.7,
+    "sectionY": 172,
+    "radius": 10,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -7954,6 +4941,12 @@
       "色つき"
     ],
     "accent": "#91764a",
+    "container": 1200,
+    "bodyFs": 13,
+    "bodyLh": 1.5,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f5f3ee",
@@ -8035,6 +5028,12 @@
       "色つき"
     ],
     "accent": "#ffd916",
+    "container": 1080,
+    "bodyFs": 12,
+    "bodyLh": 1.8,
+    "sectionY": 168,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -8071,10 +5070,6 @@
         "name": "漫画･アニメ･ゲーム"
       },
       {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
@@ -8104,6 +5099,12 @@
       "モノトーン"
     ],
     "accent": "#d6d6d6",
+    "container": 696,
+    "bodyFs": 16,
+    "bodyLh": 2.2,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -8157,6 +5158,12 @@
       "色つき"
     ],
     "accent": "#004ea2",
+    "container": 1120,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 132,
+    "radius": 5,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -8193,10 +5200,6 @@
         "name": "建築･住宅･不動産･空間設計･エクステリア"
       },
       {
-        "slug": "roundedcorners",
-        "name": "角丸"
-      },
-      {
         "slug": "responsive",
         "name": "レスポンシブ"
       },
@@ -8230,6 +5233,12 @@
       "色つき"
     ],
     "accent": "#89826e",
+    "container": 1104,
+    "bodyFs": 13,
+    "bodyLh": 1,
+    "sectionY": 32,
+    "radius": 8,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -8291,6 +5300,12 @@
       "色つき"
     ],
     "accent": "#00205b",
+    "container": 616,
+    "bodyFs": 14,
+    "bodyLh": 1.75,
+    "sectionY": 56,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -8348,6 +5363,12 @@
       "モノトーン"
     ],
     "accent": "#dfd3ce",
+    "container": 980,
+    "bodyFs": 15,
+    "bodyLh": 1.8,
+    "sectionY": 80,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -8393,6 +5414,12 @@
       "色つき"
     ],
     "accent": "#60adf9",
+    "container": 1040,
+    "bodyFs": 14,
+    "bodyLh": 1.75,
+    "sectionY": 72,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -8462,6 +5489,12 @@
       "色つき"
     ],
     "accent": "#b4a696",
+    "container": 1108,
+    "bodyFs": 13,
+    "bodyLh": 2,
+    "sectionY": 88,
+    "radius": 11,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -8539,6 +5572,12 @@
       "色つき"
     ],
     "accent": "#101760",
+    "container": 652,
+    "bodyFs": 18,
+    "bodyLh": null,
+    "sectionY": 48,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f5f5f5",
@@ -8620,6 +5659,12 @@
       "色つき"
     ],
     "accent": "#658aa2",
+    "container": 1292,
+    "bodyFs": 18,
+    "bodyLh": 2,
+    "sectionY": 52,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -8681,6 +5726,12 @@
       "色つき"
     ],
     "accent": "#d9f2f0",
+    "container": 1360,
+    "bodyFs": 16,
+    "bodyLh": 1.5,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -8750,6 +5801,12 @@
       "色つき"
     ],
     "accent": "#b0c0c8",
+    "container": 1060,
+    "bodyFs": 16,
+    "bodyLh": 2.5,
+    "sectionY": 56,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f6f6f8",
@@ -8819,6 +5876,12 @@
       "色つき"
     ],
     "accent": "#0044d1",
+    "container": 1240,
+    "bodyFs": 14,
+    "bodyLh": 1.4,
+    "sectionY": 64,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -8892,6 +5955,12 @@
       "色つき"
     ],
     "accent": "#0068b7",
+    "container": 1120,
+    "bodyFs": 13,
+    "bodyLh": 1.8,
+    "sectionY": 40,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -8957,6 +6026,12 @@
       "色つき"
     ],
     "accent": "#243149",
+    "container": 1100,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 140,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -9034,6 +6109,12 @@
       "色つき"
     ],
     "accent": "#82909b",
+    "container": 1382,
+    "bodyFs": 20,
+    "bodyLh": 2.6,
+    "sectionY": 172,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#e7eff5",
@@ -9107,6 +6188,12 @@
       "色つき"
     ],
     "accent": "#636e56",
+    "container": 1292,
+    "bodyFs": 16,
+    "bodyLh": 1.5,
+    "sectionY": 80,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f8f8f8",
@@ -9172,6 +6259,12 @@
       "色つき"
     ],
     "accent": "#00479d",
+    "container": 1200,
+    "bodyFs": 16,
+    "bodyLh": 1.9,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -9245,6 +6338,12 @@
       "色つき"
     ],
     "accent": "#9db7b6",
+    "container": 644,
+    "bodyFs": 14,
+    "bodyLh": 1.4,
+    "sectionY": 80,
+    "radius": 10,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -9314,6 +6413,12 @@
       "色つき"
     ],
     "accent": "#f5e6d2",
+    "container": 572,
+    "bodyFs": 12,
+    "bodyLh": null,
+    "sectionY": 80,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -9387,6 +6492,12 @@
       "色つき"
     ],
     "accent": "#34a9ee",
+    "container": 1224,
+    "bodyFs": 16,
+    "bodyLh": 2.2,
+    "sectionY": 128,
+    "radius": 8,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -9460,6 +6571,12 @@
       "色つき"
     ],
     "accent": "#f7edde",
+    "container": 876,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 92,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -9533,6 +6650,12 @@
       "モノトーン"
     ],
     "accent": "#292f32",
+    "container": 1168,
+    "bodyFs": 12,
+    "bodyLh": 1.5,
+    "sectionY": 68,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -9598,6 +6721,12 @@
       "色つき"
     ],
     "accent": "#6a594e",
+    "container": 1344,
+    "bodyFs": 18,
+    "bodyLh": 1.7,
+    "sectionY": 52,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -9663,6 +6792,12 @@
       "色つき"
     ],
     "accent": "#0766f4",
+    "container": 1312,
+    "bodyFs": 16,
+    "bodyLh": 1,
+    "sectionY": 80,
+    "radius": 8,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -9740,6 +6875,12 @@
       "色つき"
     ],
     "accent": "#626c7f",
+    "container": 996,
+    "bodyFs": 17,
+    "bodyLh": 1.6,
+    "sectionY": 88,
+    "radius": 11,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -9817,6 +6958,12 @@
       "色つき"
     ],
     "accent": "#161f2e",
+    "container": 1148,
+    "bodyFs": 16,
+    "bodyLh": 1.5,
+    "sectionY": 88,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -9890,6 +7037,12 @@
       "色つき"
     ],
     "accent": "#e0cdba",
+    "container": 1080,
+    "bodyFs": 16,
+    "bodyLh": 2.25,
+    "sectionY": 32,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f4f0ed",
@@ -9959,6 +7112,12 @@
       "色つき"
     ],
     "accent": "#fff4e3",
+    "container": 644,
+    "bodyFs": 20,
+    "bodyLh": 2,
+    "sectionY": 40,
+    "radius": 10,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fff4e3",
@@ -10028,6 +7187,12 @@
       "色つき"
     ],
     "accent": "#76785c",
+    "container": 616,
+    "bodyFs": 14,
+    "bodyLh": 1.8,
+    "sectionY": 48,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fefff5",
@@ -10093,6 +7258,12 @@
       "色つき"
     ],
     "accent": "#e91e24",
+    "container": 1150,
+    "bodyFs": 16,
+    "bodyLh": 1.15,
+    "sectionY": 80,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -10166,6 +7337,12 @@
       "色つき"
     ],
     "accent": "#e94709",
+    "container": 580,
+    "bodyFs": 15,
+    "bodyLh": 1.7,
+    "sectionY": 140,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -10227,6 +7404,12 @@
       "色つき"
     ],
     "accent": "#b4eff1",
+    "container": 1140,
+    "bodyFs": 16,
+    "bodyLh": 1.9,
+    "sectionY": 160,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -10300,6 +7483,12 @@
       "色つき"
     ],
     "accent": "#0487f0",
+    "container": 852,
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sectionY": 32,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -10381,6 +7570,12 @@
       "色つき"
     ],
     "accent": "#695e4d",
+    "container": 568,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 64,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -10438,6 +7633,12 @@
       "色つき"
     ],
     "accent": "#2e394c",
+    "container": 768,
+    "bodyFs": 9,
+    "bodyLh": null,
+    "sectionY": null,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#2e394c",
@@ -10495,6 +7696,12 @@
       "色つき"
     ],
     "accent": "#52aedf",
+    "container": 1040,
+    "bodyFs": 20,
+    "bodyLh": 1.75,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -10572,6 +7779,12 @@
       "色つき"
     ],
     "accent": "#7d919b",
+    "container": 1160,
+    "bodyFs": 16,
+    "bodyLh": 1.15,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -10645,6 +7858,12 @@
       "色つき"
     ],
     "accent": "#92d2e8",
+    "container": 1200,
+    "bodyFs": 14,
+    "bodyLh": 1.75,
+    "sectionY": 124,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -10722,6 +7941,12 @@
       "色つき"
     ],
     "accent": "#9ebac4",
+    "container": 1268,
+    "bodyFs": 15,
+    "bodyLh": 1.8,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f0f3f6",
@@ -10799,6 +8024,12 @@
       "色つき"
     ],
     "accent": "#f49c06",
+    "container": 1224,
+    "bodyFs": 16,
+    "bodyLh": null,
+    "sectionY": 80,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -10860,6 +8091,12 @@
       "色つき"
     ],
     "accent": "#b5e0f6",
+    "container": 732,
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sectionY": 32,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -10925,6 +8162,12 @@
       "色つき"
     ],
     "accent": "#0879be",
+    "container": 1060,
+    "bodyFs": 14,
+    "bodyLh": 1.5,
+    "sectionY": 60,
+    "radius": 30,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -10998,6 +8241,12 @@
       "色つき"
     ],
     "accent": "#f7ccd0",
+    "container": 1104,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 36,
+    "radius": 22,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fff7eb",
@@ -11063,6 +8312,12 @@
       "色つき"
     ],
     "accent": "#00aa63",
+    "container": 1040,
+    "bodyFs": 16,
+    "bodyLh": 1.5,
+    "sectionY": 56,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -11136,6 +8391,12 @@
       "色つき"
     ],
     "accent": "#009f5d",
+    "container": 880,
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -11213,6 +8474,12 @@
       "色つき"
     ],
     "accent": "#decfc3",
+    "container": 1280,
+    "bodyFs": 12,
+    "bodyLh": 1.75,
+    "sectionY": 48,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -11270,6 +8537,12 @@
       "色つき"
     ],
     "accent": "#194fff",
+    "container": 1000,
+    "bodyFs": 12,
+    "bodyLh": 1.67,
+    "sectionY": 80,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -11347,6 +8620,12 @@
       "色つき"
     ],
     "accent": "#fe1f54",
+    "container": 924,
+    "bodyFs": 16,
+    "bodyLh": 1.6,
+    "sectionY": 40,
+    "radius": 5,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -11412,6 +8691,17 @@
       "色つき"
     ],
     "accent": "#0e63c4",
+    "container": 1132,
+    "bodyFs": 12,
+    "bodyLh": 1.5,
+    "sectionY": 80,
+    "radius": 0,
+    "labelHead": {
+      "fs": 15,
+      "gap": 24,
+      "headFs": 40,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -11473,6 +8763,12 @@
       "モノトーン"
     ],
     "accent": "#d5c5b5",
+    "container": 1224,
+    "bodyFs": 14,
+    "bodyLh": 1.8,
+    "sectionY": 96,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -11534,6 +8830,12 @@
       "色つき"
     ],
     "accent": "#aaced8",
+    "container": 1216,
+    "bodyFs": 20,
+    "bodyLh": 1.6,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -11599,6 +8901,12 @@
       "色つき"
     ],
     "accent": "#4c3422",
+    "container": 1248,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 72,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#faf7f5",
@@ -11672,6 +8980,12 @@
       "色つき"
     ],
     "accent": "#3a75bb",
+    "container": 1200,
+    "bodyFs": 16,
+    "bodyLh": 1.75,
+    "sectionY": 64,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -11745,6 +9059,12 @@
       "色つき"
     ],
     "accent": "#fff8d3",
+    "container": 852,
+    "bodyFs": 16,
+    "bodyLh": null,
+    "sectionY": 92,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -11802,6 +9122,12 @@
       "色つき"
     ],
     "accent": "#c3dae9",
+    "container": 820,
+    "bodyFs": 16,
+    "bodyLh": 1.2,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -11871,6 +9197,12 @@
       "色つき"
     ],
     "accent": "#0f52a1",
+    "container": 1100,
+    "bodyFs": 15,
+    "bodyLh": 2,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f5f5f5",
@@ -11936,6 +9268,12 @@
       "色つき"
     ],
     "accent": "#da3734",
+    "container": 1220,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 152,
+    "radius": 16,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -12005,6 +9343,12 @@
       "色つき"
     ],
     "accent": "#0080d9",
+    "container": 1280,
+    "bodyFs": 14,
+    "bodyLh": 1.8,
+    "sectionY": 168,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -12086,6 +9430,12 @@
       "色つき"
     ],
     "accent": "#550e1c",
+    "container": 1120,
+    "bodyFs": 16,
+    "bodyLh": 1.5,
+    "sectionY": 124,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#000000",
@@ -12151,6 +9501,12 @@
       "色つき"
     ],
     "accent": "#f16a59",
+    "container": 1120,
+    "bodyFs": 15,
+    "bodyLh": 2,
+    "sectionY": 64,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -12204,6 +9560,12 @@
       "色つき"
     ],
     "accent": "#06513b",
+    "container": 1328,
+    "bodyFs": 14,
+    "bodyLh": 1.5,
+    "sectionY": 96,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -12269,6 +9631,12 @@
       "色つき"
     ],
     "accent": "#7492b9",
+    "container": 1260,
+    "bodyFs": 13,
+    "bodyLh": 1.38,
+    "sectionY": 72,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -12326,6 +9694,12 @@
       "色つき"
     ],
     "accent": "#0069bc",
+    "container": 1152,
+    "bodyFs": 12,
+    "bodyLh": 1.75,
+    "sectionY": 80,
+    "radius": 2,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -12395,6 +9769,12 @@
       "色つき"
     ],
     "accent": "#fec6c9",
+    "container": 1200,
+    "bodyFs": 17,
+    "bodyLh": 1.4,
+    "sectionY": 120,
+    "radius": 50,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -12464,6 +9844,12 @@
       "色つき"
     ],
     "accent": "#e60012",
+    "container": 1232,
+    "bodyFs": 15,
+    "bodyLh": 1.87,
+    "sectionY": 136,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -12529,6 +9915,12 @@
       "色つき"
     ],
     "accent": "#beb0a6",
+    "container": 700,
+    "bodyFs": 16,
+    "bodyLh": 1.6,
+    "sectionY": 100,
+    "radius": 10,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -12594,6 +9986,12 @@
       "色つき"
     ],
     "accent": "#f72a48",
+    "container": 880,
+    "bodyFs": 14,
+    "bodyLh": 1.75,
+    "sectionY": 120,
+    "radius": 10,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f5f5f5",
@@ -12667,6 +10065,12 @@
       "色つき"
     ],
     "accent": "#b0f2be",
+    "container": 1200,
+    "bodyFs": 14,
+    "bodyLh": 1.75,
+    "sectionY": 64,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -12744,6 +10148,12 @@
       "モノトーン"
     ],
     "accent": "#ecdbbb",
+    "container": 840,
+    "bodyFs": 18,
+    "bodyLh": 1.5,
+    "sectionY": 96,
+    "radius": 5,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -12805,6 +10215,12 @@
       "モノトーン"
     ],
     "accent": "#42412b",
+    "container": 1024,
+    "bodyFs": 14,
+    "bodyLh": 1.43,
+    "sectionY": 32,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -12878,6 +10294,12 @@
       "色つき"
     ],
     "accent": "#005abe",
+    "container": 636,
+    "bodyFs": 13,
+    "bodyLh": 1.5,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f1f3f5",
@@ -12951,6 +10373,12 @@
       "色つき"
     ],
     "accent": "#011c29",
+    "container": 1280,
+    "bodyFs": 12,
+    "bodyLh": 2,
+    "sectionY": 48,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -13012,6 +10440,12 @@
       "色つき"
     ],
     "accent": "#96b0c4",
+    "container": 576,
+    "bodyFs": 18,
+    "bodyLh": 1.5,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f5f5f5",
@@ -13089,6 +10523,12 @@
       "色つき"
     ],
     "accent": "#b49646",
+    "container": 1200,
+    "bodyFs": 14,
+    "bodyLh": 1,
+    "sectionY": 244,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fffaf1",
@@ -13162,6 +10602,12 @@
       "色つき"
     ],
     "accent": "#ffeb64",
+    "container": 1000,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 72,
+    "radius": 12,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -13231,6 +10677,12 @@
       "色つき"
     ],
     "accent": "#41536a",
+    "container": 572,
+    "bodyFs": 16,
+    "bodyLh": 1.75,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f5f5f5",
@@ -13296,6 +10748,12 @@
       "色つき"
     ],
     "accent": "#0071bc",
+    "container": 1000,
+    "bodyFs": 14,
+    "bodyLh": 1.65,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -13373,6 +10831,12 @@
       "色つき"
     ],
     "accent": "#345378",
+    "container": 1096,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f2f2f2",
@@ -13446,6 +10910,12 @@
       "色つき"
     ],
     "accent": "#9ca7b7",
+    "container": 604,
+    "bodyFs": 14,
+    "bodyLh": null,
+    "sectionY": 80,
+    "radius": 12,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -13523,6 +10993,12 @@
       "色つき"
     ],
     "accent": "#eae0cf",
+    "container": 824,
+    "bodyFs": 15,
+    "bodyLh": 1.8,
+    "sectionY": 140,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f2eee5",
@@ -13604,6 +11080,12 @@
       "色つき"
     ],
     "accent": "#338751",
+    "container": 1120,
+    "bodyFs": 12,
+    "bodyLh": 1.5,
+    "sectionY": 40,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -13681,6 +11163,12 @@
       "色つき"
     ],
     "accent": "#60cfe0",
+    "container": 1120,
+    "bodyFs": 18,
+    "bodyLh": 1.7,
+    "sectionY": 32,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -13738,6 +11226,12 @@
       "色つき"
     ],
     "accent": "#062d59",
+    "container": 888,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 84,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#062d59",
@@ -13819,6 +11313,12 @@
       "色つき"
     ],
     "accent": "#e2c16f",
+    "container": 1120,
+    "bodyFs": 16,
+    "bodyLh": null,
+    "sectionY": 88,
+    "radius": 38,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f2eeea",
@@ -13880,6 +11380,12 @@
       "モノトーン"
     ],
     "accent": "#61625f",
+    "container": 700,
+    "bodyFs": 16,
+    "bodyLh": 1,
+    "sectionY": 52,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -13941,6 +11447,12 @@
       "色つき"
     ],
     "accent": "#1989f0",
+    "container": 1120,
+    "bodyFs": 12,
+    "bodyLh": 1.42,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -14026,6 +11538,12 @@
       "色つき"
     ],
     "accent": "#922e41",
+    "container": 1184,
+    "bodyFs": 16,
+    "bodyLh": 1,
+    "sectionY": 72,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f5f5f5",
@@ -14095,6 +11613,12 @@
       "色つき"
     ],
     "accent": "#4b3624",
+    "container": 1212,
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sectionY": 100,
+    "radius": 2,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fafafd",
@@ -14164,6 +11688,12 @@
       "色つき"
     ],
     "accent": "#5bc0f4",
+    "container": 1272,
+    "bodyFs": 17,
+    "bodyLh": 1.9,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -14237,6 +11767,12 @@
       "色つき"
     ],
     "accent": "#113b92",
+    "container": 1088,
+    "bodyFs": 14,
+    "bodyLh": 1.8,
+    "sectionY": 80,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f8f8f8",
@@ -14310,6 +11846,12 @@
       "色つき"
     ],
     "accent": "#6e95ff",
+    "container": 1120,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 80,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -14387,6 +11929,12 @@
       "色つき"
     ],
     "accent": "#b78cc5",
+    "container": 1136,
+    "bodyFs": 13,
+    "bodyLh": 2,
+    "sectionY": 88,
+    "radius": 10,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -14448,6 +11996,12 @@
       "色つき"
     ],
     "accent": "#2e5a65",
+    "container": 676,
+    "bodyFs": 15,
+    "bodyLh": 2,
+    "sectionY": 104,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f2f2f2",
@@ -14509,6 +12063,12 @@
       "色つき"
     ],
     "accent": "#66707f",
+    "container": 1080,
+    "bodyFs": 14,
+    "bodyLh": 2.33,
+    "sectionY": 92,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -14566,6 +12126,12 @@
       "色つき"
     ],
     "accent": "#222b3c",
+    "container": 1292,
+    "bodyFs": 15,
+    "bodyLh": 2.1,
+    "sectionY": 60,
+    "radius": 14,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -14639,6 +12205,12 @@
       "色つき"
     ],
     "accent": "#aacdd7",
+    "container": 1192,
+    "bodyFs": 15,
+    "bodyLh": 2.3,
+    "sectionY": 32,
+    "radius": 28,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -14704,6 +12276,12 @@
       "色つき"
     ],
     "accent": "#ff8400",
+    "container": 1164,
+    "bodyFs": 18,
+    "bodyLh": 1.6,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -14765,6 +12343,12 @@
       "色つき"
     ],
     "accent": "#b7282e",
+    "container": 616,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 68,
+    "radius": 20,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#353031",
@@ -14834,6 +12418,12 @@
       "色つき"
     ],
     "accent": "#1839b1",
+    "container": 1200,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -14915,6 +12505,12 @@
       "色つき"
     ],
     "accent": "#1c3b73",
+    "container": 1020,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -14996,6 +12592,12 @@
       "色つき"
     ],
     "accent": "#e60012",
+    "container": 1296,
+    "bodyFs": 13,
+    "bodyLh": 1.5,
+    "sectionY": 48,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -15057,6 +12659,12 @@
       "色つき"
     ],
     "accent": "#c0b59a",
+    "container": 1124,
+    "bodyFs": 16,
+    "bodyLh": 2.1,
+    "sectionY": 100,
+    "radius": 30,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -15130,6 +12738,12 @@
       "色つき"
     ],
     "accent": "#21348c",
+    "container": 1176,
+    "bodyFs": 16,
+    "bodyLh": 1,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -15215,6 +12829,12 @@
       "色つき"
     ],
     "accent": "#003b85",
+    "container": 636,
+    "bodyFs": 16,
+    "bodyLh": 1.7,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -15296,6 +12916,12 @@
       "色つき"
     ],
     "accent": "#1888f0",
+    "container": 1116,
+    "bodyFs": 15,
+    "bodyLh": 1.92,
+    "sectionY": 96,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -15373,6 +12999,12 @@
       "モノトーン"
     ],
     "accent": "#111111",
+    "container": 1312,
+    "bodyFs": 18,
+    "bodyLh": 1.4,
+    "sectionY": 160,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -15450,6 +13082,12 @@
       "色つき"
     ],
     "accent": "#23b553",
+    "container": 1128,
+    "bodyFs": 15,
+    "bodyLh": 1.4,
+    "sectionY": 120,
+    "radius": 36,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -15527,6 +13165,12 @@
       "色つき"
     ],
     "accent": "#11429f",
+    "container": 1260,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 92,
+    "radius": 5,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#e9e5de",
@@ -15604,6 +13248,12 @@
       "色つき"
     ],
     "accent": "#155246",
+    "container": 1088,
+    "bodyFs": 17,
+    "bodyLh": 1.75,
+    "sectionY": 36,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fcfbf5",
@@ -15669,6 +13319,12 @@
       "色つき"
     ],
     "accent": "#2d190a",
+    "container": 1304,
+    "bodyFs": 18,
+    "bodyLh": 1.6,
+    "sectionY": 36,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fffefd",
@@ -15738,6 +13394,12 @@
       "色つき"
     ],
     "accent": "#2c6330",
+    "container": 1100,
+    "bodyFs": 14,
+    "bodyLh": 1,
+    "sectionY": 152,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -15827,6 +13489,12 @@
       "色つき"
     ],
     "accent": "#eb5c3c",
+    "container": 1248,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -15888,6 +13556,12 @@
       "色つき"
     ],
     "accent": "#ecccdf",
+    "container": 880,
+    "bodyFs": 12,
+    "bodyLh": 1.8,
+    "sectionY": 44,
+    "radius": 5,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -15957,6 +13631,12 @@
       "色つき"
     ],
     "accent": "#4082c4",
+    "container": 624,
+    "bodyFs": 16,
+    "bodyLh": 1.88,
+    "sectionY": 52,
+    "radius": 26,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fff7e8",
@@ -16018,6 +13698,12 @@
       "色つき"
     ],
     "accent": "#dcd2b6",
+    "container": 1280,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 160,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -16083,6 +13769,12 @@
       "色つき"
     ],
     "accent": "#1d462f",
+    "container": 1200,
+    "bodyFs": 15,
+    "bodyLh": 2.2,
+    "sectionY": 152,
+    "radius": 20,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f9f6f4",
@@ -16168,6 +13860,12 @@
       "モノトーン"
     ],
     "accent": "#776354",
+    "container": 1152,
+    "bodyFs": 14,
+    "bodyLh": 1.75,
+    "sectionY": 168,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -16241,6 +13939,12 @@
       "色つき"
     ],
     "accent": "#4b5165",
+    "container": 592,
+    "bodyFs": 14,
+    "bodyLh": 1.75,
+    "sectionY": 120,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -16322,6 +14026,12 @@
       "色つき"
     ],
     "accent": "#0b318f",
+    "container": 736,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -16399,6 +14109,12 @@
       "色つき"
     ],
     "accent": "#7c5e4e",
+    "container": 600,
+    "bodyFs": 14,
+    "bodyLh": 1.43,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -16472,6 +14188,12 @@
       "色つき"
     ],
     "accent": "#003723",
+    "container": 1152,
+    "bodyFs": 20,
+    "bodyLh": 2,
+    "sectionY": 160,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f0eeec",
@@ -16549,6 +14271,12 @@
       "色つき"
     ],
     "accent": "#9bf5c5",
+    "container": 1200,
+    "bodyFs": 15,
+    "bodyLh": 2,
+    "sectionY": 200,
+    "radius": 8,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -16606,6 +14334,12 @@
       "色つき"
     ],
     "accent": "#0c212b",
+    "container": 576,
+    "bodyFs": 13,
+    "bodyLh": 1.7,
+    "sectionY": 80,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#0c212b",
@@ -16683,6 +14417,12 @@
       "色つき"
     ],
     "accent": "#760b24",
+    "container": 1280,
+    "bodyFs": 14,
+    "bodyLh": 1.6,
+    "sectionY": 36,
+    "radius": 6,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -16752,6 +14492,12 @@
       "色つき"
     ],
     "accent": "#102028",
+    "container": 1100,
+    "bodyFs": 12,
+    "bodyLh": 1.5,
+    "sectionY": 112,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -16805,6 +14551,12 @@
       "色つき"
     ],
     "accent": "#fce9d7",
+    "container": 1100,
+    "bodyFs": 16,
+    "bodyLh": 1,
+    "sectionY": 56,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -16874,6 +14626,12 @@
       "色つき"
     ],
     "accent": "#7fbaaa",
+    "container": 1184,
+    "bodyFs": 11,
+    "bodyLh": 1.5,
+    "sectionY": 96,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -16955,6 +14713,12 @@
       "色つき"
     ],
     "accent": "#4b89ab",
+    "container": 1260,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 56,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f0f0f0",
@@ -17032,6 +14796,12 @@
       "色つき"
     ],
     "accent": "#db2020",
+    "container": 1088,
+    "bodyFs": 16,
+    "bodyLh": 1.75,
+    "sectionY": 84,
+    "radius": 5,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -17101,6 +14871,12 @@
       "色つき"
     ],
     "accent": "#60727f",
+    "container": 1208,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 80,
+    "radius": 10,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#2d3139",
@@ -17166,6 +14942,12 @@
       "色つき"
     ],
     "accent": "#976f26",
+    "container": 1320,
+    "bodyFs": 18,
+    "bodyLh": 1.9,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -17235,6 +15017,12 @@
       "色つき"
     ],
     "accent": "#4d65cb",
+    "container": 1368,
+    "bodyFs": 16,
+    "bodyLh": 1.6,
+    "sectionY": 40,
+    "radius": 20,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -17300,6 +15088,12 @@
       "色つき"
     ],
     "accent": "#a3b093",
+    "container": 1116,
+    "bodyFs": 16,
+    "bodyLh": 1.43,
+    "sectionY": 108,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -17377,6 +15171,12 @@
       "モノトーン"
     ],
     "accent": "#bbcbad",
+    "container": 1224,
+    "bodyFs": 18,
+    "bodyLh": 1.4,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -17446,6 +15246,12 @@
       "色つき"
     ],
     "accent": "#62352d",
+    "container": 692,
+    "bodyFs": 21,
+    "bodyLh": 1.5,
+    "sectionY": 64,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -17519,6 +15325,12 @@
       "モノトーン"
     ],
     "accent": "#d0beb7",
+    "container": 1108,
+    "bodyFs": 17,
+    "bodyLh": 2,
+    "sectionY": 72,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f6f1ed",
@@ -17592,6 +15404,12 @@
       "モノトーン"
     ],
     "accent": "#fcede1",
+    "container": 1360,
+    "bodyFs": 12,
+    "bodyLh": 1.5,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -17653,6 +15471,12 @@
       "色つき"
     ],
     "accent": "#02211e",
+    "container": 584,
+    "bodyFs": 16,
+    "bodyLh": 1.75,
+    "sectionY": 140,
+    "radius": 8,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -17722,6 +15546,12 @@
       "色つき"
     ],
     "accent": "#c9e2e8",
+    "container": 1080,
+    "bodyFs": 15,
+    "bodyLh": 1.6,
+    "sectionY": 40,
+    "radius": 10,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -17779,6 +15609,12 @@
       "色つき"
     ],
     "accent": "#bea896",
+    "container": 1288,
+    "bodyFs": 18,
+    "bodyLh": 2.2,
+    "sectionY": 80,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -17856,6 +15692,12 @@
       "色つき"
     ],
     "accent": "#000a41",
+    "container": 1200,
+    "bodyFs": 16,
+    "bodyLh": null,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -17949,6 +15791,12 @@
       "色つき"
     ],
     "accent": "#b29e93",
+    "container": 1088,
+    "bodyFs": 16,
+    "bodyLh": 1.4,
+    "sectionY": 64,
+    "radius": 3,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f3f3f4",
@@ -18022,6 +15870,12 @@
       "色つき"
     ],
     "accent": "#01418e",
+    "container": 1060,
+    "bodyFs": 16,
+    "bodyLh": 1.72,
+    "sectionY": 180,
+    "radius": 5,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f2f4f5",
@@ -18103,6 +15957,12 @@
       "色つき"
     ],
     "accent": "#f39800",
+    "container": 800,
+    "bodyFs": 16,
+    "bodyLh": null,
+    "sectionY": 88,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#faf4ea",
@@ -18164,6 +16024,12 @@
       "色つき"
     ],
     "accent": "#4b6aa5",
+    "container": 1140,
+    "bodyFs": 15,
+    "bodyLh": 2,
+    "sectionY": 92,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -18237,6 +16103,12 @@
       "色つき"
     ],
     "accent": "#99a8b3",
+    "container": 1060,
+    "bodyFs": 16,
+    "bodyLh": 1.75,
+    "sectionY": 124,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -18314,6 +16186,12 @@
       "モノトーン"
     ],
     "accent": "#000000",
+    "container": 800,
+    "bodyFs": 16,
+    "bodyLh": 1.5,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#000000",
@@ -18387,6 +16265,12 @@
       "色つき"
     ],
     "accent": "#e66a4f",
+    "container": 1120,
+    "bodyFs": 14,
+    "bodyLh": 1.6,
+    "sectionY": 80,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -18476,6 +16360,12 @@
       "色つき"
     ],
     "accent": "#87d2d2",
+    "container": 980,
+    "bodyFs": 15,
+    "bodyLh": 2.5,
+    "sectionY": 52,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#87d2d2",
@@ -18537,6 +16427,12 @@
       "色つき"
     ],
     "accent": "#dcb582",
+    "container": 1064,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 80,
+    "radius": 30,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fdfdfd",
@@ -18614,6 +16510,12 @@
       "モノトーン"
     ],
     "accent": "#5897ab",
+    "container": 1240,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 140,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f7f6f1",
@@ -18675,6 +16577,12 @@
       "色つき"
     ],
     "accent": "#f5f17a",
+    "container": 920,
+    "bodyFs": 16,
+    "bodyLh": 1.75,
+    "sectionY": 32,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fafaf5",
@@ -18752,6 +16660,12 @@
       "色つき"
     ],
     "accent": "#dabbbe",
+    "container": 1200,
+    "bodyFs": 14,
+    "bodyLh": 1.75,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -18825,6 +16739,12 @@
       "色つき"
     ],
     "accent": "#577082",
+    "container": 584,
+    "bodyFs": 17,
+    "bodyLh": 1.8,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f8f8f8",
@@ -18894,6 +16814,12 @@
       "モノトーン"
     ],
     "accent": "#4e3c2f",
+    "container": 720,
+    "bodyFs": 14,
+    "bodyLh": 1.8,
+    "sectionY": 136,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -18963,6 +16889,12 @@
       "モノトーン"
     ],
     "accent": "#9bbfd4",
+    "container": 608,
+    "bodyFs": 14,
+    "bodyLh": 1.8,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -19020,6 +16952,12 @@
       "色つき"
     ],
     "accent": "#fff0de",
+    "container": 1304,
+    "bodyFs": 20,
+    "bodyLh": 2,
+    "sectionY": 272,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fff0de",
@@ -19093,6 +17031,12 @@
       "色つき"
     ],
     "accent": "#5a7393",
+    "container": 864,
+    "bodyFs": 17,
+    "bodyLh": null,
+    "sectionY": 72,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -19158,6 +17102,12 @@
       "モノトーン"
     ],
     "accent": "#fafafa",
+    "container": 772,
+    "bodyFs": 15,
+    "bodyLh": 1.4,
+    "sectionY": 256,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fafafa",
@@ -19223,6 +17173,12 @@
       "色つき"
     ],
     "accent": "#4db6ac",
+    "container": 1176,
+    "bodyFs": 16,
+    "bodyLh": null,
+    "sectionY": 168,
+    "radius": 24,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -19300,6 +17256,12 @@
       "モノトーン"
     ],
     "accent": "#7a998e",
+    "container": 760,
+    "bodyFs": 14,
+    "bodyLh": 3.4,
+    "sectionY": 36,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -19357,6 +17319,12 @@
       "色つき"
     ],
     "accent": "#e3c29d",
+    "container": 604,
+    "bodyFs": 14,
+    "bodyLh": 1.88,
+    "sectionY": 80,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#eeebe5",
@@ -19442,6 +17410,12 @@
       "色つき"
     ],
     "accent": "#f8ae60",
+    "container": 796,
+    "bodyFs": 14,
+    "bodyLh": 1.7,
+    "sectionY": 48,
+    "radius": 20,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fbfaf6",
@@ -19515,6 +17489,12 @@
       "色つき"
     ],
     "accent": "#e10029",
+    "container": 1120,
+    "bodyFs": 16,
+    "bodyLh": 1.5,
+    "sectionY": 44,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -19588,6 +17568,12 @@
       "色つき"
     ],
     "accent": "#f87f5b",
+    "container": 1056,
+    "bodyFs": 16,
+    "bodyLh": 1.87,
+    "sectionY": 84,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -19653,6 +17639,12 @@
       "モノトーン"
     ],
     "accent": "#7e9993",
+    "container": 1200,
+    "bodyFs": 41,
+    "bodyLh": 1.5,
+    "sectionY": 72,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -19718,6 +17710,12 @@
       "色つき"
     ],
     "accent": "#03b2eb",
+    "container": 736,
+    "bodyFs": 17,
+    "bodyLh": 2.5,
+    "sectionY": 56,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f7f7f7",
@@ -19787,6 +17785,12 @@
       "色つき"
     ],
     "accent": "#1d4ed8",
+    "container": 1232,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 60,
+    "radius": 10,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f9f6f0",
@@ -19856,6 +17860,12 @@
       "色つき"
     ],
     "accent": "#173b35",
+    "container": 1200,
+    "bodyFs": 16,
+    "bodyLh": 1.5,
+    "sectionY": 56,
+    "radius": 2,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -19933,6 +17943,12 @@
       "色つき"
     ],
     "accent": "#7ee787",
+    "container": 616,
+    "bodyFs": 12,
+    "bodyLh": 1.6,
+    "sectionY": 100,
+    "radius": 5,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -19994,6 +18010,12 @@
       "色つき"
     ],
     "accent": "#0065bd",
+    "container": 1168,
+    "bodyFs": 20,
+    "bodyLh": 1.5,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -20071,6 +18093,12 @@
       "色つき"
     ],
     "accent": "#c2b3a9",
+    "container": 1200,
+    "bodyFs": 14,
+    "bodyLh": 1.75,
+    "sectionY": 120,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -20132,6 +18160,12 @@
       "色つき"
     ],
     "accent": "#619fbb",
+    "container": 1100,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -20209,6 +18243,12 @@
       "モノトーン"
     ],
     "accent": "#6d5847",
+    "container": 880,
+    "bodyFs": 14,
+    "bodyLh": 1.8,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fbfbfb",
@@ -20270,6 +18310,12 @@
       "色つき"
     ],
     "accent": "#a5d3e9",
+    "container": 964,
+    "bodyFs": 14,
+    "bodyLh": 1,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -20347,6 +18393,12 @@
       "色つき"
     ],
     "accent": "#025c54",
+    "container": 1120,
+    "bodyFs": 15,
+    "bodyLh": 1.6,
+    "sectionY": 80,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f8f8f8",
@@ -20412,6 +18464,12 @@
       "色つき"
     ],
     "accent": "#1955a6",
+    "container": 1200,
+    "bodyFs": 16,
+    "bodyLh": null,
+    "sectionY": 152,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -20485,6 +18543,12 @@
       "色つき"
     ],
     "accent": "#71a6b0",
+    "container": 1000,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 96,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f4f5f4",
@@ -20566,6 +18630,12 @@
       "色つき"
     ],
     "accent": "#ff0000",
+    "container": 1120,
+    "bodyFs": 16,
+    "bodyLh": 1,
+    "sectionY": 52,
+    "radius": 10,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fafafa",
@@ -20651,6 +18721,12 @@
       "色つき"
     ],
     "accent": "#e92627",
+    "container": 912,
+    "bodyFs": 18,
+    "bodyLh": 1.75,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -20720,6 +18796,12 @@
       "色つき"
     ],
     "accent": "#1cc18e",
+    "container": 640,
+    "bodyFs": 14,
+    "bodyLh": 1.8,
+    "sectionY": 120,
+    "radius": 2,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -20801,6 +18883,12 @@
       "色つき"
     ],
     "accent": "#93bb8f",
+    "container": 1348,
+    "bodyFs": 17,
+    "bodyLh": 2,
+    "sectionY": 56,
+    "radius": 20,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -20874,6 +18962,12 @@
       "色つき"
     ],
     "accent": "#d9000c",
+    "container": 1270,
+    "bodyFs": 16,
+    "bodyLh": 2.5,
+    "sectionY": 240,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -20947,6 +19041,12 @@
       "色つき"
     ],
     "accent": "#a0b8b0",
+    "container": 920,
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sectionY": 452,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#e4edf0",
@@ -21024,6 +19124,12 @@
       "色つき"
     ],
     "accent": "#f7ddcf",
+    "container": 1360,
+    "bodyFs": 14,
+    "bodyLh": 1,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -21101,6 +19207,12 @@
       "色つき"
     ],
     "accent": "#1d60cc",
+    "container": 996,
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sectionY": 52,
+    "radius": 10,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f5f5f5",
@@ -21174,6 +19286,12 @@
       "色つき"
     ],
     "accent": "#240f02",
+    "container": 632,
+    "bodyFs": 16,
+    "bodyLh": 1.88,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -21223,6 +19341,12 @@
       "色つき"
     ],
     "accent": "#0e264c",
+    "container": 1100,
+    "bodyFs": 15,
+    "bodyLh": 2,
+    "sectionY": 80,
+    "radius": 15,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -21300,6 +19424,12 @@
       "色つき"
     ],
     "accent": "#009b70",
+    "container": 712,
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sectionY": 252,
+    "radius": 15,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -21377,6 +19507,12 @@
       "色つき"
     ],
     "accent": "#00ad9b",
+    "container": 1120,
+    "bodyFs": 13,
+    "bodyLh": 2.87,
+    "sectionY": 72,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -21442,6 +19578,12 @@
       "色つき"
     ],
     "accent": "#d4e6ef",
+    "container": 1200,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f6f9fb",
@@ -21515,6 +19657,12 @@
       "色つき"
     ],
     "accent": "#ee7800",
+    "container": 736,
+    "bodyFs": 17,
+    "bodyLh": 2.25,
+    "sectionY": 96,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -21584,6 +19732,12 @@
       "モノトーン"
     ],
     "accent": "#b2a897",
+    "container": 1200,
+    "bodyFs": 15,
+    "bodyLh": 2,
+    "sectionY": 164,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -21653,6 +19807,12 @@
       "色つき"
     ],
     "accent": "#55a4c6",
+    "container": 1324,
+    "bodyFs": 14,
+    "bodyLh": 3,
+    "sectionY": 48,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f0f0f0",
@@ -21722,6 +19882,12 @@
       "モノトーン"
     ],
     "accent": "#fbfaf3",
+    "container": 1280,
+    "bodyFs": 15,
+    "bodyLh": 1.8,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fbfaf3",
@@ -21779,6 +19945,12 @@
       "色つき"
     ],
     "accent": "#b13f36",
+    "container": 824,
+    "bodyFs": 14,
+    "bodyLh": 2.5,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f5f5f5",
@@ -21832,6 +20004,12 @@
       "色つき"
     ],
     "accent": "#97bdbe",
+    "container": 1200,
+    "bodyFs": 16,
+    "bodyLh": 1.7,
+    "sectionY": 72,
+    "radius": 6,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -21913,6 +20091,12 @@
       "色つき"
     ],
     "accent": "#009644",
+    "container": 1360,
+    "bodyFs": 14,
+    "bodyLh": 1.87,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -21978,6 +20162,12 @@
       "色つき"
     ],
     "accent": "#dfcfb0",
+    "container": 920,
+    "bodyFs": 14,
+    "bodyLh": 1.5,
+    "sectionY": 76,
+    "radius": 14,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f4f4f4",
@@ -22059,6 +20249,12 @@
       "色つき"
     ],
     "accent": "#014099",
+    "container": 864,
+    "bodyFs": 14,
+    "bodyLh": 1.4,
+    "sectionY": 80,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -22120,6 +20316,12 @@
       "色つき"
     ],
     "accent": "#009644",
+    "container": 1120,
+    "bodyFs": 15,
+    "bodyLh": 1.87,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -22193,6 +20395,12 @@
       "モノトーン"
     ],
     "accent": "#212121",
+    "container": 664,
+    "bodyFs": 15,
+    "bodyLh": 2,
+    "sectionY": 32,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -22250,6 +20458,12 @@
       "色つき"
     ],
     "accent": "#505a10",
+    "container": 1280,
+    "bodyFs": 16,
+    "bodyLh": null,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -22331,6 +20545,12 @@
       "色つき"
     ],
     "accent": "#315960",
+    "container": 576,
+    "bodyFs": 14,
+    "bodyLh": 1.4,
+    "sectionY": 80,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f6f6f6",
@@ -22404,6 +20624,12 @@
       "色つき"
     ],
     "accent": "#04a7fc",
+    "container": 960,
+    "bodyFs": 16,
+    "bodyLh": 1.7,
+    "sectionY": 100,
+    "radius": 30,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -22473,6 +20699,12 @@
       "色つき"
     ],
     "accent": "#625137",
+    "container": 720,
+    "bodyFs": 15,
+    "bodyLh": 1.7,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -22534,6 +20766,12 @@
       "色つき"
     ],
     "accent": "#a6bb9d",
+    "container": 1264,
+    "bodyFs": 14,
+    "bodyLh": null,
+    "sectionY": 52,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f9f8f4",
@@ -22615,6 +20853,12 @@
       "色つき"
     ],
     "accent": "#a69a82",
+    "container": 1100,
+    "bodyFs": 14,
+    "bodyLh": 2.14,
+    "sectionY": 140,
+    "radius": 25,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fcf9e7",
@@ -22680,6 +20924,12 @@
       "モノトーン"
     ],
     "accent": "#e7eaeb",
+    "container": 1152,
+    "bodyFs": 10,
+    "bodyLh": 2,
+    "sectionY": 64,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -22733,6 +20983,12 @@
       "色つき"
     ],
     "accent": "#e7cc6c",
+    "container": 1268,
+    "bodyFs": 18,
+    "bodyLh": 1.5,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -22798,6 +21054,12 @@
       "色つき"
     ],
     "accent": "#f8eb77",
+    "container": 1120,
+    "bodyFs": 14,
+    "bodyLh": 1.86,
+    "sectionY": 72,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f8eb77",
@@ -22863,6 +21125,12 @@
       "色つき"
     ],
     "accent": "#065fe3",
+    "container": 1120,
+    "bodyFs": 16,
+    "bodyLh": null,
+    "sectionY": 56,
+    "radius": 15,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -22940,6 +21208,12 @@
       "色つき"
     ],
     "accent": "#02111b",
+    "container": 1200,
+    "bodyFs": 15,
+    "bodyLh": 1.6,
+    "sectionY": 40,
+    "radius": 5,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -23005,6 +21279,12 @@
       "色つき"
     ],
     "accent": "#2b414f",
+    "container": 932,
+    "bodyFs": 17,
+    "bodyLh": 2.2,
+    "sectionY": 56,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -23078,6 +21358,12 @@
       "色つき"
     ],
     "accent": "#f5f18d",
+    "container": 900,
+    "bodyFs": 16,
+    "bodyLh": 1.6,
+    "sectionY": 40,
+    "radius": 20,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f5f5f0",
@@ -23151,6 +21437,12 @@
       "モノトーン"
     ],
     "accent": "#8da6ad",
+    "container": 700,
+    "bodyFs": 14,
+    "bodyLh": 2.3,
+    "sectionY": 72,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -23220,6 +21512,12 @@
       "色つき"
     ],
     "accent": "#988878",
+    "container": 1200,
+    "bodyFs": 16,
+    "bodyLh": 1.88,
+    "sectionY": 40,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -23293,6 +21591,12 @@
       "モノトーン"
     ],
     "accent": "#b5b9d0",
+    "container": 1228,
+    "bodyFs": 14,
+    "bodyLh": 1.5,
+    "sectionY": 40,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -23354,6 +21658,12 @@
       "色つき"
     ],
     "accent": "#3e1f00",
+    "container": 1100,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 100,
+    "radius": 10,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f7f6f2",
@@ -23415,6 +21725,12 @@
       "色つき"
     ],
     "accent": "#3860be",
+    "container": 1236,
+    "bodyFs": 14,
+    "bodyLh": 1.78,
+    "sectionY": 60,
+    "radius": 5,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -23472,6 +21788,12 @@
       "色つき"
     ],
     "accent": "#d8eeff",
+    "container": 1200,
+    "bodyFs": 16,
+    "bodyLh": 1.75,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -23541,6 +21863,12 @@
       "色つき"
     ],
     "accent": "#e4cdbb",
+    "container": 1328,
+    "bodyFs": 100,
+    "bodyLh": 1,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -23602,6 +21930,12 @@
       "色つき"
     ],
     "accent": "#ae9abb",
+    "container": 1200,
+    "bodyFs": 12,
+    "bodyLh": 1.4,
+    "sectionY": 88,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -23671,6 +22005,12 @@
       "色つき"
     ],
     "accent": "#00d764",
+    "container": 652,
+    "bodyFs": 13,
+    "bodyLh": 2,
+    "sectionY": 112,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f7f7f7",
@@ -23740,6 +22080,12 @@
       "色つき"
     ],
     "accent": "#b71503",
+    "container": 1200,
+    "bodyFs": 14,
+    "bodyLh": 1.6,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -23813,6 +22159,12 @@
       "色つき"
     ],
     "accent": "#4953a8",
+    "container": 1220,
+    "bodyFs": 18,
+    "bodyLh": 2.88,
+    "sectionY": 52,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -23890,6 +22242,12 @@
       "モノトーン"
     ],
     "accent": "#e5e2d7",
+    "container": 1008,
+    "bodyFs": 14,
+    "bodyLh": 1.8,
+    "sectionY": 52,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -23963,6 +22321,12 @@
       "色つき"
     ],
     "accent": "#f23b3b",
+    "container": 964,
+    "bodyFs": 16,
+    "bodyLh": 1.75,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -24040,6 +22404,12 @@
       "色つき"
     ],
     "accent": "#12a0a0",
+    "container": 1040,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 64,
+    "radius": 12,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -24117,6 +22487,12 @@
       "色つき"
     ],
     "accent": "#192c55",
+    "container": 696,
+    "bodyFs": 15,
+    "bodyLh": 1.8,
+    "sectionY": 80,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -24190,6 +22566,12 @@
       "色つき"
     ],
     "accent": "#479cd7",
+    "container": 840,
+    "bodyFs": 14,
+    "bodyLh": 1.5,
+    "sectionY": 40,
+    "radius": 16,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f0f7fc",
@@ -24255,6 +22637,12 @@
       "色つき"
     ],
     "accent": "#c9dae6",
+    "container": 1076,
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sectionY": 48,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#edf0f2",
@@ -24336,6 +22724,12 @@
       "色つき"
     ],
     "accent": "#103769",
+    "container": 656,
+    "bodyFs": 16,
+    "bodyLh": 2.29,
+    "sectionY": 160,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -24397,6 +22791,12 @@
       "色つき"
     ],
     "accent": "#dfcfbe",
+    "container": 624,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 112,
+    "radius": 45,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -24474,6 +22874,12 @@
       "モノトーン"
     ],
     "accent": "#213647",
+    "container": 1000,
+    "bodyFs": 16,
+    "bodyLh": 2.13,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -24551,6 +22957,12 @@
       "色つき"
     ],
     "accent": "#1ac067",
+    "container": 564,
+    "bodyFs": 15,
+    "bodyLh": 2,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -24620,6 +23032,12 @@
       "色つき"
     ],
     "accent": "#4f3220",
+    "container": 1280,
+    "bodyFs": 14,
+    "bodyLh": 1.4,
+    "sectionY": 152,
+    "radius": 6,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f3f3f0",
@@ -24701,6 +23119,12 @@
       "色つき"
     ],
     "accent": "#1779b3",
+    "container": 960,
+    "bodyFs": 16,
+    "bodyLh": null,
+    "sectionY": 140,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -24774,6 +23198,12 @@
       "色つき"
     ],
     "accent": "#2773ba",
+    "container": 596,
+    "bodyFs": 14,
+    "bodyLh": 2.1,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -24863,6 +23293,12 @@
       "色つき"
     ],
     "accent": "#30a0bc",
+    "container": 1084,
+    "bodyFs": 16,
+    "bodyLh": null,
+    "sectionY": 52,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -24928,6 +23364,12 @@
       "モノトーン"
     ],
     "accent": "#ffffff",
+    "container": 764,
+    "bodyFs": 15,
+    "bodyLh": 2,
+    "sectionY": 52,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -24981,6 +23423,12 @@
       "色つき"
     ],
     "accent": "#f0e0c1",
+    "container": 932,
+    "bodyFs": 15,
+    "bodyLh": 1,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -25058,6 +23506,12 @@
       "色つき"
     ],
     "accent": "#10263c",
+    "container": 1152,
+    "bodyFs": 14,
+    "bodyLh": 1.86,
+    "sectionY": 96,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f4f3f2",
@@ -25139,6 +23593,12 @@
       "色つき"
     ],
     "accent": "#db1a1a",
+    "container": 1156,
+    "bodyFs": 14,
+    "bodyLh": 2.02,
+    "sectionY": 140,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -25212,6 +23672,12 @@
       "モノトーン"
     ],
     "accent": "#f5f2e9",
+    "container": 1312,
+    "bodyFs": 12,
+    "bodyLh": 1.65,
+    "sectionY": 160,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f5f2e9",
@@ -25289,6 +23755,12 @@
       "モノトーン"
     ],
     "accent": "#081b25",
+    "container": 700,
+    "bodyFs": 14,
+    "bodyLh": 1.86,
+    "sectionY": 152,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ebeae9",
@@ -25354,6 +23826,12 @@
       "色つき"
     ],
     "accent": "#0079c3",
+    "container": 1084,
+    "bodyFs": 16,
+    "bodyLh": 1.7,
+    "sectionY": 52,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fdfcf9",
@@ -25423,6 +23901,12 @@
       "色つき"
     ],
     "accent": "#3860be",
+    "container": 1052,
+    "bodyFs": 13,
+    "bodyLh": 1.6,
+    "sectionY": 200,
+    "radius": 5,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -25480,6 +23964,12 @@
       "色つき"
     ],
     "accent": "#2f6284",
+    "container": 1248,
+    "bodyFs": 16,
+    "bodyLh": 1.6,
+    "sectionY": 84,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -25557,6 +24047,12 @@
       "モノトーン"
     ],
     "accent": "#2c2c2c",
+    "container": 720,
+    "bodyFs": 14,
+    "bodyLh": 2.6,
+    "sectionY": 132,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -25618,6 +24114,12 @@
       "色つき"
     ],
     "accent": "#ba5333",
+    "container": 592,
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sectionY": 100,
+    "radius": 48,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -25687,6 +24189,12 @@
       "モノトーン"
     ],
     "accent": "#a3c97b",
+    "container": 1216,
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sectionY": 80,
+    "radius": 15,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -25756,6 +24264,12 @@
       "色つき"
     ],
     "accent": "#fbcce4",
+    "container": 864,
+    "bodyFs": 18,
+    "bodyLh": 1.4,
+    "sectionY": 200,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -25821,6 +24335,12 @@
       "色つき"
     ],
     "accent": "#3143cf",
+    "container": 1380,
+    "bodyFs": 15,
+    "bodyLh": 2.33,
+    "sectionY": 160,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -25894,6 +24414,12 @@
       "色つき"
     ],
     "accent": "#1b2465",
+    "container": 1160,
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sectionY": 64,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#1b2465",
@@ -25971,6 +24497,12 @@
       "モノトーン"
     ],
     "accent": "#9fbcc4",
+    "container": 1360,
+    "bodyFs": 16,
+    "bodyLh": 2.5,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -26032,6 +24564,12 @@
       "モノトーン"
     ],
     "accent": "#f2f1ed",
+    "container": 1000,
+    "bodyFs": 15,
+    "bodyLh": 1.8,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -26093,6 +24631,12 @@
       "色つき"
     ],
     "accent": "#e31e23",
+    "container": 1230,
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sectionY": 72,
+    "radius": 24,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -26166,6 +24710,12 @@
       "色つき"
     ],
     "accent": "#f2e2cb",
+    "container": 568,
+    "bodyFs": 14,
+    "bodyLh": 1.5,
+    "sectionY": 152,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f2e2cb",
@@ -26235,6 +24785,12 @@
       "色つき"
     ],
     "accent": "#0363c6",
+    "container": 600,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 72,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -26296,6 +24852,12 @@
       "色つき"
     ],
     "accent": "#1ebce2",
+    "container": 1264,
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#efefec",
@@ -26373,6 +24935,12 @@
       "色つき"
     ],
     "accent": "#0b0085",
+    "container": 1192,
+    "bodyFs": 13,
+    "bodyLh": 1.5,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -26450,6 +25018,12 @@
       "色つき"
     ],
     "accent": "#2b84b8",
+    "container": 1172,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 112,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -26519,6 +25093,12 @@
       "モノトーン"
     ],
     "accent": "#e6e6e6",
+    "container": 580,
+    "bodyFs": 19,
+    "bodyLh": 1.7,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -26588,6 +25168,12 @@
       "色つき"
     ],
     "accent": "#384153",
+    "container": 1240,
+    "bodyFs": 16,
+    "bodyLh": 1,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -26665,6 +25251,12 @@
       "色つき"
     ],
     "accent": "#3a9ac9",
+    "container": 600,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 52,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f8f8f8",
@@ -26742,6 +25334,12 @@
       "色つき"
     ],
     "accent": "#cac914",
+    "container": 1312,
+    "bodyFs": 16,
+    "bodyLh": 1.6,
+    "sectionY": 60,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -26803,6 +25401,12 @@
       "モノトーン"
     ],
     "accent": "#d8d8d8",
+    "container": 720,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 32,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#d8d8d8",
@@ -26876,6 +25480,12 @@
       "色つき"
     ],
     "accent": "#1b2839",
+    "container": 1280,
+    "bodyFs": 13,
+    "bodyLh": null,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f4ede5",
@@ -26941,6 +25551,12 @@
       "色つき"
     ],
     "accent": "#e5004d",
+    "container": 1280,
+    "bodyFs": 13,
+    "bodyLh": 1.4,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -27014,6 +25630,12 @@
       "色つき"
     ],
     "accent": "#b59b82",
+    "container": 588,
+    "bodyFs": 15,
+    "bodyLh": 1.87,
+    "sectionY": 52,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fcfaf6",
@@ -27079,6 +25701,12 @@
       "色つき"
     ],
     "accent": "#05b193",
+    "container": 1180,
+    "bodyFs": 16,
+    "bodyLh": null,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -27152,6 +25780,12 @@
       "色つき"
     ],
     "accent": "#b72335",
+    "container": 600,
+    "bodyFs": 13,
+    "bodyLh": 2,
+    "sectionY": 96,
+    "radius": 20,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -27237,6 +25871,12 @@
       "色つき"
     ],
     "accent": "#3fa037",
+    "container": 1200,
+    "bodyFs": 14,
+    "bodyLh": 1.5,
+    "sectionY": 80,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fefefb",
@@ -27318,6 +25958,12 @@
       "モノトーン"
     ],
     "accent": "#adadaf",
+    "container": 640,
+    "bodyFs": 12,
+    "bodyLh": 1.5,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#adadaf",
@@ -27395,6 +26041,12 @@
       "色つき"
     ],
     "accent": "#cdcdb5",
+    "container": 1248,
+    "bodyFs": 15,
+    "bodyLh": 1,
+    "sectionY": 76,
+    "radius": 16,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -27460,6 +26112,12 @@
       "色つき"
     ],
     "accent": "#799db3",
+    "container": 648,
+    "bodyFs": 15,
+    "bodyLh": 2,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#faf9f4",
@@ -27549,6 +26207,12 @@
       "色つき"
     ],
     "accent": "#fef7e6",
+    "container": 1112,
+    "bodyFs": 16,
+    "bodyLh": 1.6,
+    "sectionY": 96,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -27622,6 +26286,12 @@
       "色つき"
     ],
     "accent": "#dc0032",
+    "container": 684,
+    "bodyFs": 18,
+    "bodyLh": 1.6,
+    "sectionY": 92,
+    "radius": 24,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -27703,6 +26373,12 @@
       "色つき"
     ],
     "accent": "#ff0404",
+    "container": 836,
+    "bodyFs": 15,
+    "bodyLh": 1.65,
+    "sectionY": 72,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -27772,6 +26448,12 @@
       "色つき"
     ],
     "accent": "#6d643f",
+    "container": 1172,
+    "bodyFs": 10,
+    "bodyLh": 1,
+    "sectionY": 100,
+    "radius": 15,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -27845,6 +26527,12 @@
       "モノトーン"
     ],
     "accent": "#43678d",
+    "container": 1200,
+    "bodyFs": 16,
+    "bodyLh": 2.4,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -27906,6 +26594,12 @@
       "色つき"
     ],
     "accent": "#faeae0",
+    "container": 1152,
+    "bodyFs": 17,
+    "bodyLh": 2.5,
+    "sectionY": 72,
+    "radius": 36,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -27987,6 +26681,12 @@
       "色つき"
     ],
     "accent": "#0094ff",
+    "container": 1120,
+    "bodyFs": 14,
+    "bodyLh": 1.71,
+    "sectionY": 104,
+    "radius": 16,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -28048,6 +26748,12 @@
       "色つき"
     ],
     "accent": "#2b9494",
+    "container": 1104,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 92,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -28125,6 +26831,12 @@
       "モノトーン"
     ],
     "accent": "#c7c3aa",
+    "container": 780,
+    "bodyFs": 14,
+    "bodyLh": 1.5,
+    "sectionY": 116,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fafafa",
@@ -28190,6 +26902,12 @@
       "色つき"
     ],
     "accent": "#3cc2ca",
+    "container": 1088,
+    "bodyFs": 14,
+    "bodyLh": 2.04,
+    "sectionY": 112,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -28267,6 +26985,12 @@
       "色つき"
     ],
     "accent": "#69554b",
+    "container": 1240,
+    "bodyFs": 15,
+    "bodyLh": 2.3,
+    "sectionY": 52,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -28336,6 +27060,12 @@
       "色つき"
     ],
     "accent": "#e88c3e",
+    "container": 1000,
+    "bodyFs": 16,
+    "bodyLh": 1.88,
+    "sectionY": 56,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -28413,6 +27143,12 @@
       "色つき"
     ],
     "accent": "#f73636",
+    "container": 1000,
+    "bodyFs": 16,
+    "bodyLh": 1.57,
+    "sectionY": 80,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -28482,6 +27218,12 @@
       "色つき"
     ],
     "accent": "#0f3c3c",
+    "container": 1296,
+    "bodyFs": 14,
+    "bodyLh": 1.7,
+    "sectionY": null,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f4f1ef",
@@ -28547,6 +27289,12 @@
       "モノトーン"
     ],
     "accent": "#8da57a",
+    "container": 1292,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 200,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -28608,6 +27356,12 @@
       "モノトーン"
     ],
     "accent": "#252526",
+    "container": 1000,
+    "bodyFs": 14,
+    "bodyLh": 2,
+    "sectionY": 116,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -28669,6 +27423,12 @@
       "色つき"
     ],
     "accent": "#e7caba",
+    "container": 1120,
+    "bodyFs": 14,
+    "bodyLh": 1.43,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -28750,6 +27510,12 @@
       "色つき"
     ],
     "accent": "#fa863e",
+    "container": 576,
+    "bodyFs": 17,
+    "bodyLh": 2,
+    "sectionY": 128,
+    "radius": 16,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fdfcfa",
@@ -28835,6 +27601,12 @@
       "色つき"
     ],
     "accent": "#ed7100",
+    "container": 1100,
+    "bodyFs": 12,
+    "bodyLh": 1.6,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -28888,6 +27660,12 @@
       "色つき"
     ],
     "accent": "#6d513e",
+    "container": 1680,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f5f3ed",
@@ -28957,6 +27735,12 @@
       "色つき"
     ],
     "accent": "#69318e",
+    "container": 708,
+    "bodyFs": 12,
+    "bodyLh": 1,
+    "sectionY": 120,
+    "radius": 5,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -29038,6 +27822,12 @@
       "色つき"
     ],
     "accent": "#112d61",
+    "container": 1200,
+    "bodyFs": 20,
+    "bodyLh": 2,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -29131,6 +27921,12 @@
       "色つき"
     ],
     "accent": "#c7e7f6",
+    "container": 1360,
+    "bodyFs": 16,
+    "bodyLh": 2.5,
+    "sectionY": 80,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -29204,6 +28000,12 @@
       "色つき"
     ],
     "accent": "#182456",
+    "container": 1200,
+    "bodyFs": 16,
+    "bodyLh": 2,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -29269,6 +28071,12 @@
       "色つき"
     ],
     "accent": "#ffe9ac",
+    "container": 676,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 64,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -29346,6 +28154,12 @@
       "モノトーン"
     ],
     "accent": "#f7f7f7",
+    "container": 1320,
+    "bodyFs": 14,
+    "bodyLh": 1.8,
+    "sectionY": 92,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f7f7f7",
@@ -29415,6 +28229,12 @@
       "色つき"
     ],
     "accent": "#5a4620",
+    "container": 752,
+    "bodyFs": 18,
+    "bodyLh": 2.67,
+    "sectionY": 60,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fffbf2",
@@ -29472,6 +28292,12 @@
       "色つき"
     ],
     "accent": "#f9bd41",
+    "container": 800,
+    "bodyFs": 15,
+    "bodyLh": 1.87,
+    "sectionY": 80,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -29545,6 +28371,17 @@
       "色つき"
     ],
     "accent": "#f2e3d6",
+    "container": 568,
+    "bodyFs": 12,
+    "bodyLh": 1.4,
+    "sectionY": 112,
+    "radius": 0,
+    "labelHead": {
+      "fs": 12,
+      "gap": 20,
+      "headFs": 40,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#f9efe8",
@@ -29610,6 +28447,12 @@
       "モノトーン"
     ],
     "accent": "#1a1a1a",
+    "container": 1296,
+    "bodyFs": 16,
+    "bodyLh": 2.2,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -29671,6 +28514,12 @@
       "色つき"
     ],
     "accent": "#1e3044",
+    "container": 952,
+    "bodyFs": 14,
+    "bodyLh": 1.71,
+    "sectionY": 152,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -29732,6 +28581,12 @@
       "色つき"
     ],
     "accent": "#d23339",
+    "container": 1024,
+    "bodyFs": 14,
+    "bodyLh": 1,
+    "sectionY": 100,
+    "radius": 4,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -29809,6 +28664,12 @@
       "色つき"
     ],
     "accent": "#9a5149",
+    "container": 1168,
+    "bodyFs": 13,
+    "bodyLh": 2,
+    "sectionY": 116,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f7f6f4",
@@ -29886,6 +28747,12 @@
       "モノトーン"
     ],
     "accent": "#6d7b8f",
+    "container": 1324,
+    "bodyFs": 13,
+    "bodyLh": 1.92,
+    "sectionY": 84,
+    "radius": 5,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -29947,6 +28814,12 @@
       "モノトーン"
     ],
     "accent": "#e9e9e9",
+    "container": 828,
+    "bodyFs": 15,
+    "bodyLh": 1.6,
+    "sectionY": 48,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#e9e9e9",
@@ -30004,6 +28877,12 @@
       "色つき"
     ],
     "accent": "#665944",
+    "container": 800,
+    "bodyFs": 17,
+    "bodyLh": 1.5,
+    "sectionY": 208,
+    "radius": 52,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f5f3ee",
@@ -30085,6 +28964,12 @@
       "モノトーン"
     ],
     "accent": "#2d2d2d",
+    "container": 1280,
+    "bodyFs": 20,
+    "bodyLh": 1.6,
+    "sectionY": 160,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -30154,6 +29039,12 @@
       "モノトーン"
     ],
     "accent": "#24211e",
+    "container": 1200,
+    "bodyFs": 13,
+    "bodyLh": 1.92,
+    "sectionY": 100,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#24211e",
@@ -30223,6 +29114,12 @@
       "モノトーン"
     ],
     "accent": "#d84850",
+    "container": 600,
+    "bodyFs": 16,
+    "bodyLh": 1.88,
+    "sectionY": 120,
+    "radius": 30,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f3f1e7",
@@ -30284,6 +29181,12 @@
       "色つき"
     ],
     "accent": "#bc0900",
+    "container": 760,
+    "bodyFs": 14,
+    "bodyLh": 1.5,
+    "sectionY": 56,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f5f2f2",
@@ -30353,6 +29256,12 @@
       "色つき"
     ],
     "accent": "#1a3b56",
+    "container": 1040,
+    "bodyFs": 17,
+    "bodyLh": 2,
+    "sectionY": 56,
+    "radius": 29,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -30426,6 +29335,12 @@
       "色つき"
     ],
     "accent": "#ff1f54",
+    "container": 1700,
+    "bodyFs": 13,
+    "bodyLh": 1.6,
+    "sectionY": 72,
+    "radius": 5,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -30507,6 +29422,12 @@
       "色つき"
     ],
     "accent": "#93ff00",
+    "container": 1152,
+    "bodyFs": 15,
+    "bodyLh": 1.9,
+    "sectionY": 72,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f3f3f3",
@@ -30584,6 +29505,12 @@
       "色つき"
     ],
     "accent": "#d6cebd",
+    "container": 1092,
+    "bodyFs": 15,
+    "bodyLh": 1,
+    "sectionY": 56,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -30657,6 +29584,12 @@
       "色つき"
     ],
     "accent": "#cf032c",
+    "container": 1095,
+    "bodyFs": 14,
+    "bodyLh": 1.46,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f6f6f6",
@@ -30734,6 +29667,12 @@
       "色つき"
     ],
     "accent": "#d3edf5",
+    "container": 808,
+    "bodyFs": 17,
+    "bodyLh": 1.7,
+    "sectionY": 44,
+    "radius": 32,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -30799,6 +29738,12 @@
       "色つき"
     ],
     "accent": "#e10000",
+    "container": 1120,
+    "bodyFs": 16,
+    "bodyLh": 1.15,
+    "sectionY": 60,
+    "radius": 16,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -30880,6 +29825,12 @@
       "色つき"
     ],
     "accent": "#0553dd",
+    "container": 1184,
+    "bodyFs": 13,
+    "bodyLh": 1.5,
+    "sectionY": 80,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f4f4f5",
@@ -30953,6 +29904,12 @@
       "色つき"
     ],
     "accent": "#00a5be",
+    "container": 1244,
+    "bodyFs": 15,
+    "bodyLh": 1.4,
+    "sectionY": 148,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -31022,6 +29979,12 @@
       "色つき"
     ],
     "accent": "#c9dce2",
+    "container": 1152,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 36,
+    "radius": 20,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -31099,6 +30062,12 @@
       "モノトーン"
     ],
     "accent": "#b8cbdd",
+    "container": 560,
+    "bodyFs": 14,
+    "bodyLh": 1.24,
+    "sectionY": 40,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -31168,6 +30137,12 @@
       "色つき"
     ],
     "accent": "#02704c",
+    "container": 1280,
+    "bodyFs": 18,
+    "bodyLh": 1.55,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#f5f4f2",
@@ -31245,6 +30220,12 @@
       "色つき"
     ],
     "accent": "#acdac7",
+    "container": 788,
+    "bodyFs": 15,
+    "bodyLh": 1,
+    "sectionY": 104,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#acdac7",
@@ -31306,6 +30287,12 @@
       "色つき"
     ],
     "accent": "#082945",
+    "container": 1380,
+    "bodyFs": 16,
+    "bodyLh": 1.8,
+    "sectionY": 120,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#fcfaf7",
@@ -31371,6 +30358,12 @@
       "色つき"
     ],
     "accent": "#e4fcff",
+    "container": 1200,
+    "bodyFs": 15,
+    "bodyLh": 2,
+    "sectionY": 44,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -31452,6 +30445,12 @@
       "色つき"
     ],
     "accent": "#007a46",
+    "container": 1200,
+    "bodyFs": 16,
+    "bodyLh": 1.7,
+    "sectionY": 52,
+    "radius": 0,
+    "labelHead": null,
     "palette": [
       {
         "hex": "#ffffff",
@@ -31514,6 +30513,81 @@
       {
         "slug": "refreshing-color",
         "name": "さわやか･フレッシュな配色"
+      },
+      {
+        "slug": "key-color",
+        "name": "キーカラーが効いてる配色"
+      }
+    ]
+  },
+  {
+    "slug": "kyoei",
+    "name": "株式会社 協栄",
+    "url": "https://www.kyoei-corp.com/",
+    "industry": "コーポレートサイト／ビルメンテナンス･清掃･警備／レスポンシブ",
+    "tags": [
+      "ゴシック",
+      "余白ひろい",
+      "角ばった",
+      "色つき"
+    ],
+    "accent": "#fce7de",
+    "container": 1320,
+    "bodyFs": 17,
+    "bodyLh": 2,
+    "sectionY": 200,
+    "radius": 0,
+    "labelHead": null,
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "pct": 86.5
+      },
+      {
+        "hex": "#fce7de",
+        "pct": 6.7
+      },
+      {
+        "hex": "#2d4d59",
+        "pct": 2.3
+      },
+      {
+        "hex": "#808186",
+        "pct": 2.2
+      }
+    ],
+    "cats": [
+      {
+        "slug": "web",
+        "name": "Webサイト"
+      },
+      {
+        "slug": "corporatesite",
+        "name": "コーポレートサイト"
+      },
+      {
+        "slug": "maintenance",
+        "name": "ビルメンテナンス･清掃･警備"
+      },
+      {
+        "slug": "responsive",
+        "name": "レスポンシブ"
+      },
+      {
+        "slug": "1column",
+        "name": "1カラム"
+      },
+      {
+        "slug": "grey",
+        "name": "グレー･灰色"
+      },
+      {
+        "slug": "red",
+        "name": "レッド･ワインレッド･バーミリオン･赤色"
+      },
+      {
+        "slug": "stylish-intellect-color",
+        "name": "クール･知的な配色"
       },
       {
         "slug": "key-color",

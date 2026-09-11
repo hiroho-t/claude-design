@@ -1,7 +1,7 @@
 # 株式会社 協栄 ふうのデザイン
 
 - 出典: https://www.kyoei-corp.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
 - 業種: コーポレートサイト／ビルメンテナンス･清掃･警備／レスポンシブ
 
@@ -72,8 +72,7 @@
 | 本文 | 17px | 2 |
 | 補助 | 16px | — |
 | 注記 | 15px | — |
-| 注記 | 14px | — |
-| 注記 | 13px | — |
+
 
 - 本文は 17px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -178,6 +177,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .card{ background:transparent;
   border-radius:0px; padding:0px 0px }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

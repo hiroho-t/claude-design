@@ -1,7 +1,7 @@
 # 高知・土産物の地域総合商社 ふうのデザイン
 
 - 出典: https://www.harimaya-co.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / モノトーン
 - 業種: コーポレートサイト／料理･食べ物･飲み物･食品製造／地域･地方創生･政治･行政･自治体･NPO
 
@@ -71,9 +71,9 @@
 | 見出し | 32px | 1.6 |
 | 小見出し | 27px | — |
 | リード | 19px | — |
-| リード | 17px | — |
 | 本文 | 15px | 1 |
 | 補助 | 13px | — |
+
 
 - 本文は 15px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -159,6 +159,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:860px; display:grid; align-content:center }
+
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:#242424; color:#1f1b1b; border-radius:0px;
   padding:0px 0px; min-height:61px;

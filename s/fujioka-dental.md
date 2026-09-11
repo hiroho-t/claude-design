@@ -1,7 +1,7 @@
 # フジオカデンタルクリニック │ 三木市・北鈴蘭台の歯科医院 ふうのデザイン
 
 - 出典: https://fujioka-dental.jp/index.html
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／レスポンシブ
 
@@ -93,9 +93,8 @@
 | 見出し | 39px | 1.6 |
 | 小見出し | 36px | 1.6 |
 | リード | 32px | — |
-| リード | 20px | — |
-| リード | 18px | — |
 | 本文 | 16px | 1.6 |
+
 
 - 本文は 16px・行間 1.6。
 
@@ -191,6 +190,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:820px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#00406c; --on:#00406c }
 .section--main .btn--fill{ background:#00406c; color:var(--main) }
 .card{ background:transparent; border:1px solid var(--on);

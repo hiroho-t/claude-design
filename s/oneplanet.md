@@ -1,7 +1,7 @@
 # 株式会社OnePlanet ふうのデザイン
 
 - 出典: https://1planet.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: コーポレートサイト／Web･IT･XR･デジタル･テクノロジー／企画･開発･マーケティング･コンサルティング
 
@@ -93,9 +93,10 @@
 | 見出し | 140px | 1.4 |
 | 小見出し | 62px | 1.2 |
 | リード | 56px | 1.4 |
-| リード | 22px | 1.5 |
-| リード | 20px | — |
 | 本文 | 16px | 1.6 |
+| 補助 | 15px | — |
+| 注記 | 14px | — |
+
 
 - 本文は 16px・行間 null。
 
@@ -189,6 +190,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#f7f7f7; --on:#f7f7f7 }
 .section--main .btn--fill{ background:#f7f7f7; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

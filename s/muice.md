@@ -1,7 +1,7 @@
 # muice（ミュアイス） ふうのデザイン
 
 - 出典: https://muice.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／美容･化粧品･コスメ･ケア用品／レスポンシブ
 
@@ -93,9 +93,9 @@
 | 見出し | 42px | — |
 | 小見出し | 18px | — |
 | リード | 16px | — |
-| リード | 14px | 2.57 |
 | 本文 | 12px | 1.4 |
 | 補助 | 11px | — |
+
 
 - 本文は 12px・行間 1.4。
 
@@ -188,6 +188,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:860px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

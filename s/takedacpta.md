@@ -1,7 +1,7 @@
 # たけだ税理士事務所 ふうのデザイン
 
 - 出典: https://takedacpta.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: コーポレートサイト／ブランドサイト･サービスサイト／金融･投資･保険･士業
 
@@ -94,6 +94,7 @@
 | 補助 | 14px | — |
 | 注記 | 12px | — |
 
+
 - 本文は 16px・行間 1.8。
 
 ## レイアウト
@@ -183,6 +184,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:700px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#1d4ed8; --on:#1d4ed8 }
 .section--main .btn--fill{ background:#1d4ed8; color:var(--main) }
 .card{ background:#ffffff; border:2px solid var(--on);

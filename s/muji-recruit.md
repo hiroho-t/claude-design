@@ -1,7 +1,7 @@
 # 新卒採用 ふうのデザイン
 
 - 出典: https://careers.muji.com/jp/recruit
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / モノトーン
 - 業種: 採用サイト／生活用品･雑貨･インテリア･家具／レスポンシブ
 
@@ -88,9 +88,9 @@
 | 見出し | 36px | 1.6 |
 | 小見出し | 28px | 1.6 |
 | リード | 20px | 1.76 |
-| リード | 18px | 1.6 |
-| リード | 16px | — |
 | 本文 | 14px | 1.6 |
+| 補助 | 12px | — |
+
 
 - 本文は 14px・行間 1.8。
 
@@ -200,6 +200,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:640px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#76767b; --on:#76767b }
 .section--main .btn--fill{ background:#76767b; color:var(--main) }
 .card{ background:#f5f5f5;

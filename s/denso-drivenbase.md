@@ -1,7 +1,7 @@
 # DRIVEN BASE（ドリブンベース） ふうのデザイン
 
 - 出典: https://www.denso.com/jp/ja/driven-base/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角丸 / 色つき
 - 業種: ポータルサイト･メディア･情報サイト／Web･IT･XR･デジタル･テクノロジー／製造業･工業･メーカー･商社･物流
 
@@ -98,7 +98,7 @@
 | 本文 | 18px | 1.6 |
 | 補助 | 16px | 1 |
 | 注記 | 14px | — |
-| 注記 | 11px | — |
+
 
 - 本文は 18px・行間 1.6。
 
@@ -205,6 +205,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:1080px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#333333; --on:#333333 }
 .section--main .btn--fill{ background:#333333; color:var(--main) }
 .card{ background:#be50f1;

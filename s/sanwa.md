@@ -1,7 +1,7 @@
 # 外壁塗装・屋根塗装の三和ペイント ふうのデザイン
 
 - 出典: https://www.sanwa-paint.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角丸 / 色つき
 - 業種: コーポレートサイト／ブランドサイト･サービスサイト／建築･住宅･不動産･空間設計･エクステリア
 
@@ -74,9 +74,9 @@
 | 見出し | 26px | — |
 | 小見出し | 20px | 1.3 |
 | リード | 18px | — |
-| リード | 16px | — |
 | 本文 | 14px | 1.5 |
 | 補助 | 12px | — |
+
 
 - 本文は 14px・行間 1.5。
 
@@ -180,6 +180,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:820px; display:grid; align-content:center }
+
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:transparent; color:#204483; border-radius:0px;
   padding:10px 0px; min-height:70px;

@@ -1,9 +1,9 @@
 # 旅館・ホテル・宿泊業の集客・経営支援なら株式会社宿力 ふうのデザイン
 
 - 出典: https://yado-riki.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
-- 業種: コーポレートサイト／企画･開発･マーケティング･コンサルティング／オーソドックス
+- 業種: コーポレートサイト／企画･開発･マーケティング･コンサルティング／レスポンシブ
 
 白地に `#98794b` を文字と細部だけで効かせる配色。影も枠線もほとんど使わない。本文 19px・行間 1.75、セクション間 112px。
 
@@ -95,7 +95,7 @@
 | 本文 | 19px | 1.75 |
 | 補助 | 16px | — |
 | 注記 | 15px | — |
-| 注記 | 14px | — |
+
 
 - 本文は 19px・行間 1.75。
 
@@ -200,6 +200,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:#ffffff; border:1px solid var(--on);

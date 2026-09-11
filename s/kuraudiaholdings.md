@@ -1,7 +1,7 @@
 # 株式会社クラウディアホールディングス ふうのデザイン
 
 - 出典: https://www.kuraudia.holdings/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: コーポレートサイト／ファッション･アパレル･アクセサリー･ジュエリー／ウェディング
 
@@ -94,9 +94,7 @@
 | 本文 | 16px | 1.88 |
 | 補助 | 15px | 1.87 |
 | 注記 | 14px | — |
-| 注記 | 13px | — |
-| 注記 | 12px | — |
-| 注記 | 11px | — |
+
 
 - 本文は 16px・行間 2.25。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -183,6 +181,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#686464; --on:#686464 }
 .section--main .btn--fill{ background:#686464; color:var(--main) }
 .card{ background:#ffffff;

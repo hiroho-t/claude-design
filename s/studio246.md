@@ -1,7 +1,7 @@
 # 大阪・神戸・京都・名古屋の音楽スタジオ・バンド練習は【スタジオ246】 ふうのデザイン
 
 - 出典: https://widewindows.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／スタジオ･レンタルスペース･シェアオフィス／音楽･芸能･映画･テレビ･配信
 
@@ -99,6 +99,7 @@
 | 本文 | 16px | 1.75 |
 | 補助 | 15px | — |
 | 注記 | 14px | 1.5 |
+
 
 - 本文は 16px・行間 1.75。
 
@@ -214,6 +215,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#222222; --on:#222222 }
 .section--main .btn--fill{ background:#222222; color:var(--main) }
 .card{ background:#ffffff; border:1px solid var(--on);

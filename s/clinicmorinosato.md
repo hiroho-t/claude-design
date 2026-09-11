@@ -1,9 +1,9 @@
 # クリニック杜の里 ふうのデザイン
 
 - 出典: https://c-morinosato.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
-- 業種: ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／オーソドックス
+- 業種: ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／レスポンシブ
 
 #f5f5ee の地に `#002a1d` を文字と細部だけで効かせる配色。影を使って浮かせる。本文 16px・行間 1.8、セクション間 120px。
 
@@ -91,6 +91,7 @@
 | 本文 | 16px | 1.8 |
 | 補助 | 15px | — |
 | 注記 | 14px | — |
+
 
 - 本文は 16px・行間 1.8。
 
@@ -204,6 +205,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:780px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#349f87; --on:#349f87 }
 .section--main .btn--fill{ background:#349f87; color:var(--main) }
 .card{ background:#edf7f5;

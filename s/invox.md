@@ -1,7 +1,7 @@
 # invox受取請求書 ふうのデザイン
 
 - 出典: https://invox.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角丸 / 色つき
 - 業種: ブランドサイト･サービスサイト／Web･IT･XR･デジタル･テクノロジー／サービス･アプリ･ツール･SaaS
 
@@ -88,6 +88,7 @@
 | リード | 16px | 1.63 |
 | 本文 | 14px | 1.71 |
 | 補助 | 12px | — |
+
 
 - 本文は 14px・行間 1.71。
 
@@ -197,6 +198,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:740px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#0094ff; --on:#0094ff }
 .section--main .btn--fill{ background:#0094ff; color:var(--main) }
 .card{ background:transparent; border:2px solid var(--on);

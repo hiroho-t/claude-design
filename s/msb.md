@@ -1,7 +1,7 @@
 # 民泊清掃代行のM's B（エムズビー） ふうのデザイン
 
 - 出典: https://ms-b.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
 - 業種: コーポレートサイト／ブランドサイト･サービスサイト／ビルメンテナンス･清掃･警備
 
@@ -89,9 +89,10 @@
 | 見出し | 24px | 1.25 |
 | 小見出し | 20px | — |
 | リード | 18px | — |
-| リード | 16px | 2 |
 | 本文 | 15px | 1.87 |
 | 補助 | 14px | — |
+| 注記 | 10px | 1 |
+
 
 - 本文は 15px・行間 1.87。
 
@@ -214,6 +215,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:1040px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#e60012; --on:#e60012 }
 .section--main .btn--fill{ background:#e60012; color:var(--main) }
 .card{ background:#f5f4f4;

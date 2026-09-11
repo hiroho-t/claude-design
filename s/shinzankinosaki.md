@@ -1,7 +1,7 @@
 # 【公式】城崎温泉 深山 ふうのデザイン
 
 - 出典: https://shinzan-kinosaki.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／ホテル･旅館･温泉／レスポンシブ
 
@@ -99,6 +99,7 @@
 | 本文 | 16px | 2 |
 | 補助 | 14px | — |
 | 注記 | 12px | — |
+
 
 - 本文は 16px・行間 1。
 
@@ -206,6 +207,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:140px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:transparent; border:1px solid var(--on);

@@ -1,7 +1,7 @@
 # 桜商会 ふうのデザイン
 
 - 出典: https://sakura-copy.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角丸 / 色つき
 - 業種: コーポレートサイト／本･出版･印刷／レスポンシブ
 
@@ -97,6 +97,7 @@
 | リード | 16px | 1.6 |
 | 本文 | 15px | 2.1 |
 | 補助 | 14px | — |
+
 
 - 本文は 15px・行間 2.1。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -198,6 +199,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:1300px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#30416b; --on:#30416b }
 .section--main .btn--fill{ background:#30416b; color:var(--main) }
 .card{ background:#ffffff;

@@ -1,9 +1,9 @@
 # 神戸女子大学 ふうのデザイン
 
 - 出典: https://www.kobe-wu.ac.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
-- 業種: ブランドサイト･サービスサイト／BtoCのサイト／女性向け･女性的なテイスト
+- 業種: ブランドサイト･サービスサイト／BtoCのサイト／学校･教育
 
 白地に `#4996b6` を大きな面で置く配色。影も枠線もほとんど使わない。本文 15px・行間 1.75、セクション間 112px。
 
@@ -98,7 +98,7 @@
 | 本文 | 15px | 1.22 |
 | 補助 | 13px | — |
 | 注記 | 12px | 1.22 |
-| 注記 | 10px | — |
+
 
 - 本文は 15px・行間 1.75。
 
@@ -213,6 +213,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:740px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#1486ad; --on:#1486ad }
 .section--main .btn--fill{ background:#1486ad; color:var(--main) }
 .card{ background:#eef7fb;

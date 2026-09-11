@@ -92,6 +92,13 @@
   "headings": {
     "h2": [
       {
+        "fs": 32,
+        "weight": "300",
+        "lh": 1,
+        "ls": "0.031em",
+        "family": "balboa"
+      },
+      {
         "fs": 20,
         "weight": "600",
         "lh": 1,
@@ -109,6 +116,19 @@
       }
     ]
   },
+  "headSpace": {
+    "20": {
+      "above": 100,
+      "below": 17,
+      "n": 2
+    },
+    "32": {
+      "above": 102,
+      "below": 17,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

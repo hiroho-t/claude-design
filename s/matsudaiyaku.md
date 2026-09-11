@@ -1,7 +1,7 @@
 # 松田医薬品の入浴剤・石鹸 ふうのデザイン
 
 - 出典: https://matsudaiyaku.shop/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: 明朝 / 余白ひろい / 角ばった / 色つき
 - 業種: ECサイト･オンラインショップ／生活用品･雑貨･インテリア･家具／美容･化粧品･コスメ･ケア用品
 
@@ -95,9 +95,9 @@
 | 見出し | 32px | 1.3 |
 | 小見出し | 24px | 1.3 |
 | リード | 21px | — |
-| リード | 20px | — |
-| リード | 18px | — |
-| リード | 17px | — |
+| 本文 | 16px | 1.8 |
+| 補助 | 13px | — |
+
 
 - 本文は 16px・行間 1.8。
 
@@ -211,6 +211,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:580px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:transparent; border:1px solid var(--on);

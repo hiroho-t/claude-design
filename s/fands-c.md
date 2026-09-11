@@ -1,7 +1,7 @@
 # F&S CREATIONS ふうのデザイン
 
 - 出典: https://www.fands-c.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
 - 業種: コーポレートサイト／デザイン･イラスト･写真･映像･制作／レスポンシブ
 
@@ -94,6 +94,7 @@
 | 補助 | 14px | — |
 | 注記 | 12px | — |
 
+
 - 本文は 16px・行間 2.29。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
 ## レイアウト
@@ -181,6 +182,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:940px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#999999; --on:#999999 }
 .section--main .btn--fill{ background:#999999; color:var(--main) }
 .card{ background:#f1f1f1;

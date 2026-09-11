@@ -74,11 +74,12 @@ const ladder = (() => {
   const small = px.filter(v => v < d.body.fs);
   const bigName = ['大見出し', '見出し', '小見出し', 'リード'];
   const smallName = ['補助', '注記'];
+  // 本文の行を必ず残す。大きいほうから4段・小さいほうから2段だけ載せる
   return [
-    ...big.map((v, i) => ({ px: v, role: bigName[i] || 'リード' })),
+    ...big.slice(0, 4).map((v, i) => ({ px: v, role: bigName[i] || 'リード' })),
     { px: d.body.fs, role: '本文' },
-    ...small.map((v, i) => ({ px: v, role: smallName[i] || '注記' })),
-  ].slice(0, 7);
+    ...small.slice(0, 2).map((v, i) => ({ px: v, role: smallName[i] || '注記' })),
+  ];
 })();
 
 const secName = (x, i) => {
@@ -101,6 +102,13 @@ const lum = h => { if (!/^#[0-9a-f]{6}$/i.test(h || '')) return 1;
 const inkRev = d.ink[1]?.hex || '#ffffff';
 const onOf = hex => (lum(hex) > .55 ? main.hex : inkRev);
 const surfaces = (d.surfaces || []).map(s2 => ({ ...s2, on: onOf(s2.hex) }));
+const hs = d.headSpace || {};
+const hasHs = Object.keys(hs).length > 0;
+/** その文字サイズの見出しの、上／下の余白（実測の中央値） */
+const spaceOf = (px, k) => { const v = hs[px] ?? hs[String(px)]; return v && v[k] != null ? `${v[k]}px` : '—'; };
+// ラベル付き見出しは、同じ形が2回以上出てきたときだけ「型」として扱う
+const lab = d.labelHead && d.labelHead.n >= 2 ? d.labelHead : null;
+const labGapDown = lab ? spaceOf(lab.headFs, 'below') : '—';
 const mob = d.mobile || {};
 const uMain = usage.find(u => u.hex.toLowerCase() === main.hex.toLowerCase());
 const sidePad = mob.sidePad ?? 20;
@@ -191,13 +199,57 @@ ${d.cards[0]?.onBg ? `
 - 和文: ${ja?.family}${alt ? `（有料）→ 無料で近いのは **${alt[0]}**、なければ ${alt[1] || 'Noto Sans JP'}` : ''}
 ${en ? `- 欧文: ${en.family}\n` : ''}- ウェイトは ${[...new Set(h.map(x => x.weight))].join(' / ') || '400'} が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
+${hasHs ? `| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+${ladder.map(s => `| ${s.role} | ${s.px}px | ${lhOf(s.px) ?? '—'} | ${spaceOf(s.px, 'above')} | ${spaceOf(s.px, 'below')} |`).join('\n')}
+
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（${pad}px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。` : `| 用途 | サイズ | 行間 |
 |---|---|---|
 ${ladder.map(s => `| ${s.role} | ${s.px}px | ${lhOf(s.px) ?? '—'} |`).join('\n')}
+`}
 
 - 本文は ${d.body.fs}px・行間 ${d.body.lh}${d.body.lh >= 1.9 ? '。日本語をゆったり組むのがこのサイトの要。詰めると別物になる' : ''}。
 
-## レイアウト
+${lab ? `## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を ${lab.n}箇所で使っている${lab.total > lab.n ? `（見出し${lab.total}箇所のうち）` : ''}。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | ${lab.latin ? (lab.upper ? '英字（大文字）' : '英字') : '和文'} |
+| ラベルのサイズ | ${lab.fs}px |
+| ラベルの字間 | ${lab.ls ? lab.ls + 'em' : '0（詰めも空けもしない）'} |
+| ラベルの太さ | ${lab.weight} |
+| ラベルの色 | \`${lab.color}\` |
+| ラベル → 見出し | ${lab.gap}px |
+| 見出しのサイズ | ${lab.headFs}px |
+| 見出し → 本文 | ${labGapDown} |
+| 罫線 | ${lab.rule ? `${lab.rule}（見出しの下）` : 'なし'} |
+| 組み方 | ${lab.wrapped ? '**箱で包む**（ラベルと見出しが1つのまとまりとして囲まれている）' : '**兄弟に並べる**（囲まずに続けて置く）'} |
+
+\`\`\`html
+${lab.wrapped ? `<div class="c-head">
+  <p class="c-head__label">SERVICE</p>
+  <h2 class="c-head__title">サービス</h2>
+</div>
+<p>本文…</p>` : `<p class="c-head__label">SERVICE</p>
+<h2 class="c-head__title">サービス</h2>
+<p>本文…</p>`}
+\`\`\`
+
+\`\`\`css
+.c-head__label{ font-size:${lab.fs}px; font-weight:${lab.weight};${lab.ls ? ` letter-spacing:${lab.ls}em;` : ''}
+  color:${lab.color}${lab.latin ? '; text-transform:uppercase' : ''} }
+.c-head__title{ font-size:${lab.headFs}px;${lhOf(lab.headFs) ? ` line-height:${lhOf(lab.headFs)};` : ''} margin-top:${lab.gap}px${lab.rule ? `;\n  padding-bottom:${Math.max(8, Math.round(lab.gap / 2))}px; border-bottom:${lab.rule.split(' ')[0]} solid ${lab.rule.split(' ')[1] || 'var(--on)'}` : ''} }
+${lab.wrapped ? `.c-head + *` : `.c-head__title + *`}{ margin-top:${labGapDown === '—' ? lab.gap : labGapDown} }
+\`\`\`
+
+- ラベルと見出しの間は ${lab.gap}px、見出しと本文の間は ${labGapDown}。${labGapDown !== '—' && +String(labGapDown).replace('px', '') > lab.gap ? 'ラベル側を詰めて、本文側を空ける。この差がまとまりを作っている。' : 'この2つを同じにしない。'}
+
+` : ''}## レイアウト
 
 - コンテンツ幅: 最大 ${cont}px${read ? `／読ませる段は ${read}px` : ''}
 - セクションの上下余白: ${d.sectionPad.map(p => p.px).join(' / ')}px（基本は ${pad}px）
@@ -285,7 +337,20 @@ ${circles.n ? `## 丸いもの
 
 上の \`:root\` と合わせて、これをそのまま置けば土台になる。
 
-\`\`\`css
+${lab ? `\`\`\`html
+<section class="section">
+  <div class="container">
+${lab.wrapped ? `    <div class="c-head">
+      <p class="c-head__label">SERVICE</p>
+      <h2 class="c-head__title">サービス</h2>
+    </div>` : `    <p class="c-head__label">SERVICE</p>
+    <h2 class="c-head__title">サービス</h2>`}
+    <p>本文…</p>
+  </div>
+</section>
+\`\`\`
+
+` : ''}\`\`\`css
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
 
@@ -293,6 +358,10 @@ body{ background:var(--bg); color:var(--ink);
 .container{ width:min(100% - ${sidePad * 2}px, var(--container)); margin-inline:auto }
 ${read ? `.read{ max-width:var(--read) }\n` : ''}
 .hero{ ${secs[0] ? `min-height:${secs[0].h}px;` : ''} display:grid; align-content:center }
+${lab ? `.c-head__label{ font-size:${lab.fs}px; font-weight:${lab.weight};${lab.ls ? ` letter-spacing:${lab.ls}em;` : ''} color:${lab.color} }
+.c-head__title{ font-size:${lab.headFs}px;${lhOf(lab.headFs) ? ` line-height:${lhOf(lab.headFs)};` : ''} margin-top:${lab.gap}px }
+${lab.wrapped ? '.c-head + *' : '.c-head__title + *'}{ margin-top:${labGapDown === '—' ? lab.gap + 'px' : labGapDown} }
+` : ''}
 ${surfaces.length > 1 ? `.section--main{ background:var(--main); color:${inkRev}; --on:${inkRev} }
 .section--main .btn--fill{ background:${inkRev}; color:var(--main) }\n` : ''}${d.cards.length ? `.card{ background:${d.cards[0].bg};${d.cards[0].border ? ` border:${d.cards[0].border.split(' ')[0]} solid var(--on);` : ''}
   border-radius:${d.cards[0].radius}px; padding:${d.cards[0].pad.split('/')[0]}px ${d.cards[0].pad.split('/')[1]}px }\n` : ''}${d.buttons[0] ? `.btn{ display:inline-flex; align-items:center; justify-content:center;
@@ -335,6 +404,10 @@ writeFileSync(`p/${slug}.html`, detailPage({
 // 一覧用
 const list = existsSync('data.json') ? JSON.parse(readFileSync('data.json', 'utf8')) : [];
 const entry = { slug, name, url: d.url, industry, tags: d.tags, accent: main.hex,
+  // 判型。業種ではなく寸法で似たサイトを絞れるようにするため（s/*.md を開かずに済む）
+  container: cont ?? null, bodyFs: d.body.fs ?? null, bodyLh: d.body.lh ?? null,
+  sectionY: pad || null, radius: rad,
+  labelHead: lab ? { fs: lab.fs, gap: lab.gap, headFs: lab.headFs, wrapped: lab.wrapped } : null,
   palette: palette.slice(0, 4).map(c => ({ hex: c.hex, pct: c.pct })),
   ...(sank ? { cats: sank.map(c => ({ slug: c.slug, name: c.name })) } : {}) };
 const i = list.findIndex(x => x.slug === slug);

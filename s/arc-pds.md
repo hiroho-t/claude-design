@@ -1,7 +1,7 @@
 # アーク ペーパードライバースクール ふうのデザイン
 
 - 出典: https://arc-pds.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角丸 / 色つき
 - 業種: ブランドサイト･サービスサイト／車･乗り物･モビリティ／スクール･習い事･教材
 
@@ -93,9 +93,10 @@
 | 見出し | 43px | — |
 | 小見出し | 41px | 2 |
 | リード | 25px | 2 |
-| リード | 19px | — |
 | 本文 | 16px | 2 |
 | 補助 | 15px | — |
+| 注記 | 14px | — |
+
 
 - 本文は 16px・行間 1.88。
 
@@ -210,6 +211,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:220px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#4d5859; --on:#4d5859 }
 .section--main .btn--fill{ background:#4d5859; color:var(--main) }
 .card{ background:#ffffff; border:2px solid var(--on);

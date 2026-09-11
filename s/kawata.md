@@ -1,7 +1,7 @@
 # 加和太建設株式会社 ふうのデザイン
 
 - 出典: https://www.kawata.org/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: コーポレートサイト／建築･住宅･不動産･空間設計･エクステリア／建設･インフラ･土木･設備
 
@@ -73,8 +73,7 @@
 | 本文 | 20px | 1.6 |
 | 補助 | 18px | — |
 | 注記 | 14px | — |
-| 注記 | 12px | — |
-| 注記 | 11px | — |
+
 
 - 本文は 20px・行間 1.6。
 
@@ -165,6 +164,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:8980px; display:grid; align-content:center }
+
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:#000000; color:#ffffff; border-radius:40px;
   padding:0px 0px; min-height:54px;

@@ -1,7 +1,7 @@
 # VENTURE FOR JAPAN ふうのデザイン
 
 - 出典: https://ventureforjapan.or.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／求人･マッチング･転職･人材ビジネス／レスポンシブ
 
@@ -92,9 +92,10 @@
 | 見出し | 39px | 1.3 |
 | 小見出し | 36px | — |
 | リード | 25px | — |
-| リード | 23px | 1.4 |
 | 本文 | 16px | 1.4 |
 | 補助 | 15px | — |
+| 注記 | 14px | — |
+
 
 - 本文は 16px・行間 1.4。
 
@@ -183,6 +184,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:2160px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#dedede; --on:#dedede }
 .section--main .btn--fill{ background:#dedede; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

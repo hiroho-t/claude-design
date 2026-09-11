@@ -1,7 +1,7 @@
 # CHAGOCORO ふうのデザイン
 
 - 出典: https://www.chagocoro.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角丸 / 色つき
 - 業種: ECサイト･オンラインショップ／ポータルサイト･メディア･情報サイト／生活用品･雑貨･インテリア･家具
 
@@ -72,8 +72,8 @@
 | 見出し | 17px | 1.7 |
 | 小見出し | 13px | — |
 | リード | 12px | — |
-| リード | 11px | — |
 | 本文 | 10px | 1 |
+
 
 - 本文は 10px・行間 1。
 
@@ -169,6 +169,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:5160px; display:grid; align-content:center }
+
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:#ffffff; color:#000000; border-radius:15px;
   padding:0px 10px; min-height:30px;

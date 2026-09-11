@@ -1,9 +1,9 @@
 # 磯部運輸倉庫株式会社 ふうのデザイン
 
 - 出典: https://isobeunyu-souko.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
-- 業種: コーポレートサイト／製造業･工業･メーカー･商社･物流／オーソドックス
+- 業種: コーポレートサイト／製造業･工業･メーカー･商社･物流／レスポンシブ
 
 白地に `#c4d7dd` を文字と細部だけで効かせる配色。影も枠線もほとんど使わない。本文 11px・行間 1.8、セクション間 64px。
 
@@ -92,6 +92,7 @@
 | リード | 12px | — |
 | 本文 | 11px | 1.8 |
 | 補助 | 10px | — |
+
 
 - 本文は 11px・行間 1.8。
 
@@ -192,6 +193,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:840px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#006532; --on:#006532 }
 .section--main .btn--fill{ background:#006532; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

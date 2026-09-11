@@ -1,9 +1,8 @@
 # Zoff Recruitment Site ふうのデザイン
 
 - 出典: https://recruit.zoff.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
-- 業種: アイウェア・採用
 
 白地に `#2299e1` を文字と細部だけで効かせる配色。影も枠線もほとんど使わない。本文 18px・行間 1.5、セクション間 92px。
 
@@ -95,8 +94,7 @@
 | 本文 | 18px | 1.6 |
 | 補助 | 16px | 1.5 |
 | 注記 | 15px | — |
-| 注記 | 14px | 1 |
-| 注記 | 12px | — |
+
 
 - 本文は 18px・行間 1.5。
 
@@ -213,6 +211,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:#edeff0;

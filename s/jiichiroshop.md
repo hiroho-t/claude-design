@@ -1,9 +1,9 @@
 # 治一郎 公式オンラインショップ ふうのデザイン
 
 - 出典: https://www.jiichiro-shop.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / モノトーン
-- 業種: ECサイト･オンラインショップ／料理･食べ物･飲み物･食品製造／オーソドックス
+- 業種: ECサイト･オンラインショップ／料理･食べ物･飲み物･食品製造／レスポンシブ
 
 白地に `#ee8d97` を文字と細部だけで効かせる配色。影も枠線もほとんど使わない。本文 14px・行間 1.72、セクション間 40px。
 
@@ -76,6 +76,7 @@
 | 本文 | 14px | 1.72 |
 | 補助 | 13px | — |
 | 注記 | 12px | — |
+
 
 - 本文は 14px・行間 1.72。
 
@@ -176,6 +177,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .card{ background:transparent; border:1px solid var(--on);
   border-radius:8px; padding:30px 30px }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

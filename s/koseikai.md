@@ -1,9 +1,9 @@
 # 康生会 武田病院 ふうのデザイン
 
 - 出典: https://www.takedahp.or.jp/koseikai/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角丸 / 色つき
-- 業種: ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／スタイリッシュ
+- 業種: ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／レスポンシブ
 
 白地に `#946d69` を文字と細部だけで効かせる配色。影を使って浮かせる。本文 12px・行間 null、セクション間 80px。
 
@@ -97,9 +97,9 @@
 | 見出し | 23px | 1 |
 | 小見出し | 22px | 1 |
 | リード | 20px | 1 |
-| リード | 16px | — |
-| リード | 15px | — |
-| リード | 14px | — |
+| 本文 | 12px | — |
+| 補助 | 11px | — |
+
 
 - 本文は 12px・行間 null。
 
@@ -210,6 +210,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:980px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#777777; --on:#777777 }
 .section--main .btn--fill{ background:#777777; color:var(--main) }
 .card{ background:#ffffff;

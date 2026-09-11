@@ -1,7 +1,7 @@
 # 株式会社鷺宮製作所 ふうのデザイン
 
 - 出典: https://www.saginomiya.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
 - 業種: コーポレートサイト／製造業･工業･メーカー･商社･物流／レスポンシブ
 
@@ -88,7 +88,7 @@
 | 本文 | 16px | 1.75 |
 | 補助 | 14px | — |
 | 注記 | 12px | — |
-| 注記 | 10px | — |
+
 
 - 本文は 16px・行間 1.75。
 
@@ -181,6 +181,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

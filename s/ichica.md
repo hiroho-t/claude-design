@@ -1,7 +1,7 @@
 # イチカ ふうのデザイン
 
 - 出典: https://tenri-ichica.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角丸 / 色つき
 - 業種: ブランドサイト･サービスサイト／金融･投資･保険･士業／地域･地方創生･政治･行政･自治体･NPO
 
@@ -72,9 +72,8 @@
 | 見出し | 45px | 1.63 |
 | 小見出し | 39px | 1.62 |
 | リード | 32px | 1.5 |
-| リード | 22px | 2 |
-| リード | 19px | — |
 | 本文 | 17px | 1.5 |
+
 
 - 本文は 17px・行間 1.5。
 
@@ -167,6 +166,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:820px; display:grid; align-content:center }
+
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:#316043; color:#ffffff; border-radius:13px;
   padding:26px 26px; min-height:82px;

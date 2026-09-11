@@ -1,7 +1,7 @@
 # 大阪の遺品整理・生前整理・買取ならエンディール ふうのデザイン
 
 - 出典: https://endeal.net/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／サービス･アプリ･ツール･SaaS／暮らし･生活
 
@@ -97,9 +97,10 @@
 | 見出し | 28px | 1.4 |
 | 小見出し | 21px | — |
 | リード | 20px | — |
-| リード | 18px | 1 |
-| リード | 17px | 1 |
 | 本文 | 16px | 1 |
+| 補助 | 13px | — |
+| 注記 | 11px | 1 |
+
 
 - 本文は 16px・行間 1。
 
@@ -222,6 +223,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:120px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:#ffffff;

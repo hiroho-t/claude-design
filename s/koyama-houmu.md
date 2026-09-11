@@ -1,7 +1,7 @@
 # 奈良の司法書士・行政書士ならこやま法務事務所 ふうのデザイン
 
 - 出典: https://koyama-houmu.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角丸 / 色つき
 - 業種: コーポレートサイト／金融･投資･保険･士業／レスポンシブ
 
@@ -74,6 +74,7 @@
 | 本文 | 17px | 1 |
 | 補助 | 16px | — |
 | 注記 | 15px | — |
+
 
 - 本文は 17px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -163,6 +164,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:1780px; display:grid; align-content:center }
+
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:transparent; color:#1a3b56; border-radius:29px;
   padding:0px 0px; min-height:58px;

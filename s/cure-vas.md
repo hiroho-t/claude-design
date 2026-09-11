@@ -1,7 +1,7 @@
 # 難治性血管腫・血管奇形薬物療法研究班情報サイト ふうのデザイン
 
 - 出典: https://cure-vas.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: ポータルサイト･メディア･情報サイト／病院･クリニック･歯医者･医療･薬／レスポンシブ
 
@@ -98,6 +98,7 @@
 | 本文 | 16px | 1.88 |
 | 補助 | 14px | — |
 | 注記 | 12px | — |
+
 
 - 本文は 16px・行間 1.88。
 
@@ -203,6 +204,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:480px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ff8f8f; --on:#ff8f8f }
 .section--main .btn--fill{ background:#ff8f8f; color:var(--main) }
 .card{ background:#ffffff;

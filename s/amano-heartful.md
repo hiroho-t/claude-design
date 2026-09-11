@@ -1,7 +1,7 @@
 # 医療法人ハートフル ふうのデザイン
 
 - 出典: https://heartful.hiroshima.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: コーポレートサイト／ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬
 
@@ -74,6 +74,7 @@
 | 本文 | 15px | 1.67 |
 | 補助 | 14px | — |
 | 注記 | 13px | — |
+
 
 - 本文は 15px・行間 1.87。
 
@@ -178,6 +179,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:1000px; display:grid; align-content:center }
+
 .card{ background:#ffffff;
   border-radius:10px; padding:0px 0px }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

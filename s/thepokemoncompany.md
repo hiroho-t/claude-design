@@ -1,7 +1,7 @@
 # 株式会社ポケモン ふうのデザイン
 
 - 出典: https://corporate.pokemon.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / モノトーン
 - 業種: コーポレートサイト／自社プロダクト･サービス運営／漫画･アニメ･ゲーム
 
@@ -93,8 +93,8 @@
 | 見出し | 25px | — |
 | 小見出し | 22px | — |
 | リード | 16px | — |
-| リード | 14px | 1.45 |
 | 本文 | 12px | 1.5 |
+
 
 - 本文は 12px・行間 1.5。
 
@@ -198,6 +198,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:180px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#8d969b; --on:#8d969b }
 .section--main .btn--fill{ background:#8d969b; color:var(--main) }
 .card{ background:#edf2f5;

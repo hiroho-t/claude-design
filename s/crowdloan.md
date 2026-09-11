@@ -1,7 +1,7 @@
 # クラウドローン株式会社 ふうのデザイン
 
 - 出典: https://corp.crowdloan.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
 - 業種: コーポレートサイト／Web･IT･XR･デジタル･テクノロジー／金融･投資･保険･士業
 
@@ -96,9 +96,10 @@
 | 見出し | 36px | 1.6 |
 | 小見出し | 24px | 1.6 |
 | リード | 20px | — |
-| リード | 18px | 1.6 |
 | 本文 | 16px | 1.6 |
 | 補助 | 14px | — |
+| 注記 | 12px | — |
+
 
 - 本文は 16px・行間 1.6。
 
@@ -215,6 +216,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:1580px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#fefffc; --on:#fefffc }
 .section--main .btn--fill{ background:#fefffc; color:var(--main) }
 .card{ background:transparent; border:1px solid var(--on);

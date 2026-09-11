@@ -1,7 +1,7 @@
 # 福岡 ブランディング・ブランディングデザイン・パッケージ・ロゴ デザイン事務所 株式会社アルジュナ ふうのデザイン
 
 - 出典: https://arjuna.ne.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角丸 / 色つき
 - 業種: コーポレートサイト／デザイン･イラスト･写真･映像･制作／レスポンシブ
 
@@ -94,9 +94,10 @@
 | 見出し | 29px | 1 |
 | 小見出し | 19px | 1.5 |
 | リード | 18px | — |
-| リード | 17px | — |
-| リード | 16px | — |
 | 本文 | 15px | 1 |
+| 補助 | 13px | — |
+| 注記 | 12px | — |
+
 
 - 本文は 15px・行間 1。
 
@@ -205,6 +206,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:1180px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:#000000;

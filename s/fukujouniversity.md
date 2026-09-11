@@ -1,9 +1,9 @@
 # 福岡女学院大学・短期大学部 ふうのデザイン
 
 - 出典: https://www.fukujo.ac.jp/university/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: 明朝 / 余白ひろい / 角ばった / 色つき
-- 業種: ブランドサイト･サービスサイト／女性向け･女性的なテイスト／学校･教育
+- 業種: ブランドサイト･サービスサイト／学校･教育／レスポンシブ
 
 白地に `#a44858` を大きな面で置く配色。影も枠線もほとんど使わない。本文 15px・行間 1.8、セクション間 160px。
 
@@ -96,6 +96,7 @@
 | 本文 | 15px | 1.8 |
 | 補助 | 14px | 1.5 |
 | 注記 | 13px | — |
+
 
 - 本文は 15px・行間 1.8。
 
@@ -208,6 +209,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:700px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:#ffffff;

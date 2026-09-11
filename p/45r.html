@@ -265,7 +265,7 @@
         border:1px solid var(--line)">
         <span class="secno">2</span>
         <span class="secname">6カラム・画像あり</span>
-        <span class="sech">11600px</span>
+        <span class="sech">11540px</span>
       </div><div class="sec" style="height:50px;background:#f3f3f0;color:var(--ink);
         border:1px solid var(--line)">
         <span class="secno">3</span>
@@ -303,7 +303,7 @@
         <em>3:4・29枚</em></div><div><span style="aspect-ratio:16/9;border-radius:0px"></span>
         <em>16:9・8枚</em></div><div><span style="aspect-ratio:1/1;border-radius:0px"></span>
         <em>1:1・3枚</em></div></div>
-    <p class="note">67枚。角丸 0px。</p>
+    <p class="note">72枚。角丸 0px。</p>
   </section>
 </main>
 
@@ -315,7 +315,7 @@
   <pre id="md"># 45R（フォーティファイブ・アール）公式サイト・オンラインストア ふうのデザイン
 
 - 出典: https://45r.jp/ja/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／ECサイト･オンラインショップ／ファッション･アパレル･アクセサリー･ジュエリー
 
@@ -381,14 +381,18 @@
 - 欧文: A1 Gothic R
 - ウェイトは 400 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 60px | 1.23 |
-| 見出し | 50px | 2 |
-| 小見出し | 20px | — |
-| リード | 16px | — |
-| 本文 | 14px | 1.4 |
-| 補助 | 12px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 60px | 1.23 | — | 26px |
+| 見出し | 50px | 2 | — | 360px |
+| 小見出し | 20px | — | — | — |
+| リード | 16px | — | — | — |
+| 本文 | 14px | 1.4 | — | — |
+| 補助 | 12px | — | — | — |
+
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（152px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 14px・行間 1.4。
 
@@ -445,7 +449,7 @@
 | # | 高さ | 地色 | 中身 | 見出し | 画像 |
 |---|---|---|---|---|---|
 | 1 | 900px | — | ヒーロー | — | — |
-| 2 | 11600px | — | 6カラム・画像あり | 左 | 見出しの下 |
+| 2 | 11540px | — | 6カラム・画像あり | 左 | 見出しの下 |
 | 3 | 900px | — | 1カラム・文字だけ | — | — |
 | 4 | 220px | — | 帯・区切り | — | 全面 |
 
@@ -466,7 +470,7 @@
 
 ## 画像
 
-- 67枚使っている
+- 72枚使っている
 - 比率は 3:4（29枚）、16:9（8枚）、1:1（3枚）
 - 角丸 0px。切り抜かず四角のまま置く
 
@@ -483,6 +487,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:#1c2940; color:#ffffff; border-radius:6px;
   padding:0px 0px; min-height:46px;

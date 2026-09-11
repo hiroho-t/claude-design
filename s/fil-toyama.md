@@ -1,7 +1,7 @@
 # fil ふうのデザイン
 
 - 出典: https://fil-toyama.com/index.html
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / モノトーン
 - 業種: ブランドサイト･サービスサイト／カフェ･飲食店･テイクアウト／体験･交流
 
@@ -72,7 +72,7 @@
 | 本文 | 14px | 1.8 |
 | 補助 | 13px | — |
 | 注記 | 12px | 1 |
-| 注記 | 11px | — |
+
 
 - 本文は 14px・行間 1.8。
 
@@ -165,6 +165,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:940px; display:grid; align-content:center }
+
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:transparent; color:#ffffff; border-radius:0px;
   padding:0px 0px; min-height:60px;

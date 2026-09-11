@@ -1,7 +1,7 @@
 # 木村石鹸 公式サイト／本店オンラインストア ふうのデザイン
 
 - 出典: https://www.kimurasoap.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: コーポレートサイト／ブランドサイト･サービスサイト／ECサイト･オンラインショップ
 
@@ -96,6 +96,7 @@
 | リード | 13px | — |
 | 本文 | 12px | 1.42 |
 | 補助 | 11px | 1.36 |
+
 
 - 本文は 12px・行間 1.42。
 
@@ -198,6 +199,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:840px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#747369; --on:#747369 }
 .section--main .btn--fill{ background:#747369; color:var(--main) }
 .card{ background:#fcfbf5;

@@ -1,9 +1,9 @@
 # KAGAMI ふうのデザイン
 
 - 出典: https://jp.is-kagami.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角丸 / 色つき
-- 業種: ブランドサイト･サービスサイト／BtoBのサイト／ノーコードツールで制作されたサイト
+- 業種: ブランドサイト･サービスサイト／BtoBのサイト／Web･IT･XR･デジタル･テクノロジー
 
 白地に `#c3e6ff` を大きな面で置く配色。影を使って浮かせる。本文 18px・行間 1.4、セクション間 32px。
 
@@ -97,6 +97,7 @@
 | 本文 | 18px | 1.4 |
 | 補助 | 16px | — |
 | 注記 | 14px | — |
+
 
 - 本文は 18px・行間 1.4。
 
@@ -211,6 +212,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:760px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#0086cc; --on:#0086cc }
 .section--main .btn--fill{ background:#0086cc; color:var(--main) }
 .card{ background:transparent; border:10px solid var(--on);

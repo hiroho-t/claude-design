@@ -1,7 +1,7 @@
 # 株式会社カナリー ふうのデザイン
 
 - 出典: https://corp.canary-app.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: コーポレートサイト／Web･IT･XR･デジタル･テクノロジー／自社プロダクト･サービス運営
 
@@ -88,9 +88,9 @@
 | 見出し | 42px | 1.5 |
 | 小見出し | 28px | — |
 | リード | 16px | — |
-| リード | 15px | — |
 | 本文 | 14px | 1.8 |
 | 補助 | 13px | — |
+
 
 - 本文は 14px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -196,6 +196,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:360px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#000000; --on:#000000 }
 .section--main .btn--fill{ background:#000000; color:var(--main) }
 .card{ background:#ffffff; border:1px solid var(--on);

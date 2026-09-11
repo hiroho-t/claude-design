@@ -1,7 +1,7 @@
 # 株式会社 工匠 ふうのデザイン
 
 - 出典: https://koushou-inc.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: 明朝 / 余白ひろい / 角ばった / 色つき
 - 業種: コーポレートサイト／建築･住宅･不動産･空間設計･エクステリア／レスポンシブ
 
@@ -90,7 +90,7 @@
 | 本文 | 20px | 2 |
 | 補助 | 18px | — |
 | 注記 | 16px | — |
-| 注記 | 13px | — |
+
 
 - 本文は 20px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -191,6 +191,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:11100px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#a3d29e; --on:#a3d29e }
 .section--main .btn--fill{ background:#a3d29e; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

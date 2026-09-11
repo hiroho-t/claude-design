@@ -1,7 +1,7 @@
 # WALLPAPER MAGIC ふうのデザイン
 
 - 出典: https://wallpapermagic.net/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ひろい / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／建築･住宅･不動産･空間設計･エクステリア／レスポンシブ
 
@@ -93,9 +93,9 @@
 | 見出し | 36px | 1.5 |
 | 小見出し | 28px | 1.5 |
 | リード | 18px | — |
-| リード | 16px | — |
 | 本文 | 14px | 1.5 |
 | 補助 | 11px | — |
+
 
 - 本文は 14px・行間 1.5。
 
@@ -192,6 +192,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:1540px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

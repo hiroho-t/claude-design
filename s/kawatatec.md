@@ -1,9 +1,9 @@
 # 大型旋盤チャックの株式会社カワタテック Kawatate Corp. ふうのデザイン
 
 - 出典: https://kawatatec.co.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
-- 業種: コーポレートサイト／男性向け･男性的なテイスト／製造業･工業･メーカー･商社･物流
+- 業種: コーポレートサイト／製造業･工業･メーカー･商社･物流／レスポンシブ
 
 #f1f1f1 の地に `#002f7c` を大きな面で置く配色。影も枠線もほとんど使わない。本文 15px・行間 null、セクション間 40px。
 
@@ -95,9 +95,9 @@
 | 見出し | 26px | 1.2 |
 | 小見出し | 24px | — |
 | リード | 17px | — |
-| リード | 16px | — |
 | 本文 | 15px | — |
 | 補助 | 14px | 1.4 |
+
 
 - 本文は 15px・行間 null。
 
@@ -200,6 +200,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:860px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#002f7c; --on:#002f7c }
 .section--main .btn--fill{ background:#002f7c; color:var(--main) }
 .card{ background:#ffffff;

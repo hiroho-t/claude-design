@@ -1,7 +1,7 @@
 # 京都移住計画 ふうのデザイン
 
 - 出典: https://kyoto-iju.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角丸 / 色つき
 - 業種: ポータルサイト･メディア･情報サイト／求人･マッチング･転職･人材ビジネス／旅行･観光･遊び
 
@@ -90,6 +90,7 @@
 | リード | 18px | 1.5 |
 | 本文 | 16px | 1.6 |
 | 補助 | 14px | — |
+
 
 - 本文は 16px・行間 1.6。
 
@@ -196,6 +197,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:640px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#6f6f6f; --on:#6f6f6f }
 .section--main .btn--fill{ background:#6f6f6f; color:var(--main) }
 .card{ background:#ffffff;

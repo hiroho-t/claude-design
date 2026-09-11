@@ -1,7 +1,7 @@
 # 株式会社昭和工業 ふうのデザイン
 
 - 出典: https://showa-kogyo.com/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: コーポレートサイト／建設･インフラ･土木･設備／ビルメンテナンス･清掃･警備
 
@@ -92,8 +92,7 @@
 | 本文 | 17px | 1.9 |
 | 補助 | 16px | — |
 | 注記 | 15px | — |
-| 注記 | 12px | — |
-| 注記 | 1px | — |
+
 
 - 本文は 17px・行間 1.9。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -191,6 +190,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:360px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#000000; --on:#000000 }
 .section--main .btn--fill{ background:#000000; color:var(--main) }
 .card{ background:#f5f5f5;

@@ -1,7 +1,7 @@
 # 埼玉県済生会加須病院 ふうのデザイン
 
 - 出典: https://saikazo.org/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白ふつう / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／レスポンシブ
 
@@ -77,6 +77,7 @@
 | 本文 | 17px | 1.6 |
 | 補助 | 15px | — |
 | 注記 | 13px | — |
+
 
 - 本文は 17px・行間 1.6。
 
@@ -191,6 +192,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:660px; display:grid; align-content:center }
+
 .card{ background:#ffffff; border:1px solid var(--on);
   border-radius:22px; padding:12px 12px }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

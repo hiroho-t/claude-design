@@ -1,7 +1,7 @@
 # 洛和会京都看護学校 ふうのデザイン
 
 - 出典: https://rakuwa-nursingschool.ac.jp/
-- 実測: 2026-09-02／ブラウザ幅1440pxで実際に描かれた値を測ったもの
+- 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
 - 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／病院･クリニック･歯医者･医療･薬／レスポンシブ
 
@@ -96,9 +96,10 @@
 | 見出し | 32px | 1.5 |
 | 小見出し | 28px | 1.5 |
 | リード | 18px | 1.5 |
-| リード | 16px | 1.75 |
 | 本文 | 14px | 1.75 |
 | 補助 | 13px | — |
+| 注記 | 12px | — |
+
 
 - 本文は 14px・行間 1.75。
 
@@ -219,6 +220,7 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+
 .section--main{ background:var(--main); color:#00205b; --on:#00205b }
 .section--main .btn--fill{ background:#00205b; color:var(--main) }
 .card{ background:#ffffff;
