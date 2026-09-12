@@ -6,15 +6,15 @@
   "bg": [
     {
       "hex": "#ffffff",
-      "pct": 51.5
+      "pct": 51.8
     },
     {
       "hex": "#3143cf",
-      "pct": 29.2
+      "pct": 29.3
     },
     {
       "hex": "#f0f2f6",
-      "pct": 19.3
+      "pct": 18.9
     },
     {
       "hex": "#cccccc",
@@ -28,26 +28,26 @@
   "ink": [
     {
       "hex": "#ffffff",
-      "pct": 35.8
+      "pct": 36.2
     },
     {
       "hex": "#666666",
-      "pct": 22.6
+      "pct": 22.8
     },
     {
       "hex": "#222222",
-      "pct": 21.9
+      "pct": 21
     },
     {
       "hex": "#3143cf",
-      "pct": 19.8
+      "pct": 20
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "dnp-shuei-gothic-kin-std",
-      "w": 2024
+      "w": 1984
     },
     {
       "family": "BuenosAires",
@@ -69,7 +69,7 @@
     },
     {
       "px": 14,
-      "w": 718
+      "w": 678
     },
     {
       "px": 13,
@@ -118,6 +118,42 @@
         "family": "BuenosAires"
       }
     ]
+  },
+  "headSpace": {
+    "14": {
+      "above": 18,
+      "below": null,
+      "n": 8
+    },
+    "20": {
+      "above": 322,
+      "below": 20,
+      "n": 1
+    },
+    "24": {
+      "above": 19,
+      "below": 40,
+      "n": 5
+    },
+    "42": {
+      "above": null,
+      "below": 349,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 12,
+    "weight": "400",
+    "ls": 0,
+    "color": "#ffffff",
+    "latin": true,
+    "upper": false,
+    "gap": 19,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 24,
+    "n": 3,
+    "total": 3
   },
   "radius": [
     {
@@ -296,7 +332,7 @@
       "split": "45:55"
     },
     {
-      "h": 1040,
+      "h": 1000,
       "full": true,
       "cols": 0,
       "img": true,
@@ -378,7 +414,7 @@
     ],
     "pad": 80,
     "gap": 12,
-    "sidePad": 73,
+    "sidePad": 0,
     "h1": {
       "fs": 16,
       "lh": 2

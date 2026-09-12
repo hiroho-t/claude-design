@@ -56,7 +56,7 @@
 | `#ffffff` | 57 | 29 | 28 | 9 |
 | `#f1f0eb` | 9 | 8 | 0 | 1 |
 | `#eac512` | 3 | 0 | 0 | 0 |
-| `#191f20` | 4 | 177 | 6 | 2 |
+| `#191f20` | 4 | 179 | 6 | 2 |
 | `#3c845a` | 4 | 21 | 0 | 1 |
 | `#a8aeaf` | 0 | 15 | 0 | 0 |
 
@@ -89,18 +89,54 @@
 - 欧文: Inter Tight
 - ウェイトは 700 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 53px | 1.6 |
-| 見出し | 32px | 1.6 |
-| 小見出し | 19px | 1 |
-| リード | 18px | — |
-| 本文 | 16px | 1.6 |
-| 補助 | 14px | — |
-| 注記 | 13px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 53px | 1.6 | 0px | 101px |
+| 見出し | 32px | 1.6 | 0px | 27px |
+| 小見出し | 19px | 1 | 12px | 71px |
+| リード | 18px | — | — | — |
+| 本文 | 16px | 1.6 | 229px | 15px |
+| 補助 | 14px | — | — | — |
+| 注記 | 13px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（112px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 16px・行間 1.8。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 3箇所で使っている。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 和文 |
+| ラベルのサイズ | 16px |
+| ラベルの字間 | 0.01em |
+| ラベルの太さ | 700 |
+| ラベルの色 | `#191f20` |
+| ラベル → 見出し | 0px |
+| 見出しのサイズ | 32px |
+| 見出し → 本文 | 27px |
+| 罫線 | なし |
+| 組み方 | **兄弟に並べる**（囲まずに続けて置く） |
+
+```html
+<p class="c-head__label">私たちの仕事</p>
+<h2 class="c-head__title">サービス</h2>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:16px; font-weight:700; letter-spacing:0.01em;
+  color:#191f20 }
+.c-head__title{ font-size:32px; line-height:1.6; margin-top:0px }
+.c-head__title + *{ margin-top:27px }
+```
+
+- ラベルと見出しの間は 0px、見出しと本文の間は 27px。ラベル側を詰めて、本文側を空ける。この差がまとまりを作っている。
 
 ## レイアウト
 
@@ -202,13 +238,23 @@
 
 ## 画像
 
-- 44枚使っている。うち 6 枚は画面いっぱいに置く
-- 比率は 1:1（25枚）、21:9（2枚）、16:9（2枚）
+- 42枚使っている。うち 6 枚は画面いっぱいに置く
+- 比率は 1:1（23枚）、21:9（2枚）、16:9（2枚）
 - 角丸 0px。切り抜かず四角のまま置く
 
 ## すぐ使う骨格
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
+
+```html
+<section class="section">
+  <div class="container">
+    <p class="c-head__label">私たちの仕事</p>
+    <h2 class="c-head__title">サービス</h2>
+    <p>本文…</p>
+  </div>
+</section>
+```
 
 ```css
 body{ background:var(--bg); color:var(--ink);
@@ -219,6 +265,9 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:720px; display:grid; align-content:center }
+.c-head__label{ font-size:16px; font-weight:700; letter-spacing:0.01em; color:#191f20 }
+.c-head__title{ font-size:32px; line-height:1.6; margin-top:0px }
+.c-head__title + *{ margin-top:27px }
 
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }

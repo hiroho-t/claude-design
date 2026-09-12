@@ -74,22 +74,6 @@
     "ls": "0.020em"
   },
   "headings": {
-    "h3": [
-      {
-        "fs": 32,
-        "weight": "700",
-        "lh": 2.2,
-        "ls": "0.020em",
-        "family": "proxima-soft"
-      },
-      {
-        "fs": 20,
-        "weight": "700",
-        "lh": 1.5,
-        "ls": "0.050em",
-        "family": "proxima-soft"
-      }
-    ],
     "h1": [
       {
         "fs": 32,
@@ -97,24 +81,88 @@
         "lh": 1.5,
         "ls": "0.050em",
         "family": "proxima-soft"
+      },
+      {
+        "fs": 14,
+        "weight": "700",
+        "lh": 1.8,
+        "ls": "0.229em",
+        "family": "proxima-soft"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 18,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0.018em",
+        "family": "proxima-soft"
+      },
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 2.2,
+        "ls": "0.020em",
+        "family": "proxima-soft"
       }
     ],
     "h2": [
+      {
+        "fs": 14,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.023em",
+        "family": "proxima-soft"
+      },
       {
         "fs": 20,
         "weight": "700",
         "lh": 1.5,
         "ls": "0.050em",
         "family": "proxima-soft"
-      },
-      {
-        "fs": 28,
-        "weight": "700",
-        "lh": 1.5,
-        "ls": "0.011em",
-        "family": "proxima-soft"
       }
     ]
+  },
+  "headSpace": {
+    "14": {
+      "above": 15,
+      "below": 318,
+      "n": 6
+    },
+    "18": {
+      "above": 241,
+      "below": 30,
+      "n": 6
+    },
+    "20": {
+      "above": 277,
+      "below": 36,
+      "n": 4
+    },
+    "28": {
+      "above": 138,
+      "below": 59,
+      "n": 2
+    },
+    "32": {
+      "above": 0,
+      "below": 10,
+      "n": 6
+    }
+  },
+  "labelHead": {
+    "fs": 11,
+    "weight": "400",
+    "ls": 0.029,
+    "color": "#ea3800",
+    "latin": false,
+    "upper": false,
+    "gap": 12,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 18,
+    "n": 1,
+    "total": 1
   },
   "radius": [
     {

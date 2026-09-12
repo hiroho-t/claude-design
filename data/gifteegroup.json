@@ -88,6 +88,14 @@
       }
     ]
   },
+  "headSpace": {
+    "32": {
+      "above": 151,
+      "below": 40,
+      "n": 6
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 5,

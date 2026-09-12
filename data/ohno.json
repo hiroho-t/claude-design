@@ -112,6 +112,29 @@
       }
     ]
   },
+  "headSpace": {
+    "24": {
+      "above": 182,
+      "below": 74,
+      "n": 3
+    },
+    "25": {
+      "above": 272,
+      "below": 111,
+      "n": 10
+    },
+    "28": {
+      "above": 213,
+      "below": 199,
+      "n": 2
+    },
+    "52": {
+      "above": 133,
+      "below": 104,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
@@ -289,7 +312,7 @@
       "bg": null,
       "align": "左",
       "media": "右",
-      "split": "64:36"
+      "split": "63:37"
     },
     {
       "h": 980,

@@ -86,6 +86,15 @@
     "ls": "0"
   },
   "headings": {
+    "h2": [
+      {
+        "fs": 80,
+        "weight": "800",
+        "lh": 0.96,
+        "ls": "0",
+        "family": "Nunito"
+      }
+    ],
     "h3": [
       {
         "fs": 32,
@@ -96,6 +105,19 @@
       }
     ]
   },
+  "headSpace": {
+    "32": {
+      "above": 240,
+      "below": 20,
+      "n": 6
+    },
+    "80": {
+      "above": 312,
+      "below": 132,
+      "n": 4
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

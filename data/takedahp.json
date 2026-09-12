@@ -105,7 +105,47 @@
         "ls": "0.080em",
         "family": "FOT-セザンヌ Pro DB"
       }
+    ],
+    "h3": [
+      {
+        "fs": 22,
+        "weight": "500",
+        "lh": 1.2,
+        "ls": "0",
+        "family": "FOT-セザンヌ Pro M"
+      }
     ]
+  },
+  "headSpace": {
+    "15": {
+      "above": 52,
+      "below": 43,
+      "n": 2
+    },
+    "22": {
+      "above": 8,
+      "below": 12,
+      "n": 6
+    },
+    "26": {
+      "above": 0,
+      "below": 137,
+      "n": 2
+    }
+  },
+  "labelHead": {
+    "fs": 11,
+    "weight": "400",
+    "ls": 0,
+    "color": "#8a4940",
+    "latin": true,
+    "upper": true,
+    "gap": 8,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 22,
+    "n": 4,
+    "total": 4
   },
   "radius": [
     {

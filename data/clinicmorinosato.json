@@ -88,17 +88,17 @@
   "headings": {
     "h2": [
       {
-        "fs": 46,
+        "fs": 30,
         "weight": "700",
-        "lh": 1.5,
+        "lh": 1.3,
         "ls": "0.050em",
         "family": "Zen Kaku Gothic New"
       },
       {
-        "fs": 26,
+        "fs": 46,
         "weight": "700",
-        "lh": 1.8,
-        "ls": "0.031em",
+        "lh": 1.5,
+        "ls": "0.050em",
         "family": "Zen Kaku Gothic New"
       }
     ],
@@ -118,6 +118,52 @@
         "family": "Zen Kaku Gothic New"
       }
     ]
+  },
+  "headSpace": {
+    "18": {
+      "above": 96,
+      "below": 8,
+      "n": 2
+    },
+    "20": {
+      "above": null,
+      "below": 25,
+      "n": 3
+    },
+    "24": {
+      "above": null,
+      "below": 20,
+      "n": 1
+    },
+    "26": {
+      "above": 30,
+      "below": 49,
+      "n": 1
+    },
+    "30": {
+      "above": 301,
+      "below": 50,
+      "n": 4
+    },
+    "46": {
+      "above": null,
+      "below": 8,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 14,
+    "weight": "500",
+    "ls": 0.057,
+    "color": "#efa661",
+    "latin": true,
+    "upper": true,
+    "gap": 30,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 26,
+    "n": 1,
+    "total": 1
   },
   "radius": [
     {
@@ -262,7 +308,7 @@
       "bg": null,
       "align": "左",
       "media": "右",
-      "split": "69:31"
+      "split": "70:30"
     },
     {
       "h": 300,

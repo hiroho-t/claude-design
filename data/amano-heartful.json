@@ -6,11 +6,11 @@
   "bg": [
     {
       "hex": "#fafaf2",
-      "pct": 88.3
+      "pct": 88.5
     },
     {
       "hex": "#ffffff",
-      "pct": 6.6
+      "pct": 6.3
     },
     {
       "hex": "#aa9900",
@@ -24,26 +24,26 @@
   "ink": [
     {
       "hex": "#555555",
-      "pct": 71.2
+      "pct": 71.5
     },
     {
       "hex": "#777777",
-      "pct": 19.4
+      "pct": 19.7
     },
     {
       "hex": "#000000",
-      "pct": 5.1
+      "pct": 5.2
     },
     {
       "hex": "#009644",
-      "pct": 2.8
+      "pct": 2.1
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "FP-HiraginoUDSansFStdN-W4",
-      "w": 1282
+      "w": 1266
     },
     {
       "family": "UDKakugoC80Pro-R",
@@ -55,7 +55,7 @@
     },
     {
       "family": "FP-HiraginoUDSansFStdN-W5",
-      "w": 39
+      "w": 24
     }
   ],
   "sizes": [
@@ -69,15 +69,15 @@
     },
     {
       "px": 15,
-      "w": 517
+      "w": 502
     },
     {
       "px": 14,
-      "w": 303
+      "w": 289
     },
     {
       "px": 13,
-      "w": 244
+      "w": 242
     },
     {
       "px": 12,
@@ -90,6 +90,31 @@
     "ls": "0.020em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 40,
+        "weight": "400",
+        "lh": 1.3,
+        "ls": "0",
+        "family": "UDKakugoC80Pro-R"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 28,
+        "weight": "400",
+        "lh": 1.67,
+        "ls": "0",
+        "family": "UDKakugoC80Pro-R"
+      },
+      {
+        "fs": 80,
+        "weight": "400",
+        "lh": 1.3,
+        "ls": "0.011em",
+        "family": "UDKakugoC80Pro-R"
+      }
+    ],
     "h3": [
       {
         "fs": 15,
@@ -105,17 +130,46 @@
         "ls": "0",
         "family": "UDKakugoC80Pro-R"
       }
-    ],
-    "h2": [
-      {
-        "fs": 28,
-        "weight": "400",
-        "lh": 1.67,
-        "ls": "0",
-        "family": "UDKakugoC80Pro-R"
-      }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": 15,
+      "below": 15,
+      "n": 3
+    },
+    "15": {
+      "above": 246,
+      "below": 12,
+      "n": 10
+    },
+    "28": {
+      "above": 248,
+      "below": 136,
+      "n": 2
+    },
+    "36": {
+      "above": 330,
+      "below": 32,
+      "n": 1
+    },
+    "40": {
+      "above": null,
+      "below": 301,
+      "n": 1
+    },
+    "46": {
+      "above": null,
+      "below": 15,
+      "n": 5
+    },
+    "80": {
+      "above": null,
+      "below": 36,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
@@ -124,10 +178,6 @@
     {
       "px": 10,
       "n": 6
-    },
-    {
-      "px": 5,
-      "n": 1
     }
   ],
   "shadow": [
@@ -151,7 +201,7 @@
     },
     {
       "px": 5,
-      "n": 7
+      "n": 6
     }
   ],
   "sectionPad": [
@@ -210,18 +260,6 @@
       "h": 48,
       "ls": "0",
       "n": 1
-    },
-    {
-      "bg": "#ffffff",
-      "color": "#009644",
-      "border": "2px #009644",
-      "radius": "5px",
-      "pad": "6px 15px",
-      "fs": 14,
-      "weight": "600",
-      "h": 36,
-      "ls": "0.27px",
-      "n": 1
     }
   ],
   "bp": [],
@@ -237,14 +275,14 @@
       "split": "73:27"
     },
     {
-      "h": 260,
+      "h": 200,
       "full": false,
       "cols": 0,
       "img": true,
       "bg": null,
       "align": "左",
-      "media": "見出しの下",
-      "split": null
+      "media": "右",
+      "split": "35:65"
     },
     {
       "h": 3660,
@@ -257,7 +295,7 @@
       "split": null
     },
     {
-      "h": 420,
+      "h": 400,
       "full": true,
       "cols": 6,
       "img": true,
@@ -358,16 +396,16 @@
   "usage": [
     {
       "hex": "#ffffff",
-      "面": 10,
+      "面": 9,
       "文字": 0,
       "枠": 0,
-      "ボタン": 2
+      "ボタン": 1
     },
     {
       "hex": "#009644",
       "面": 0,
-      "文字": 7,
-      "枠": 1,
+      "文字": 6,
+      "枠": 0,
       "ボタン": 0
     },
     {

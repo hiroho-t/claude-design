@@ -86,6 +86,24 @@
     "ls": "0.050em"
   },
   "headings": {
+    "h2": [
+      {
+        "fs": 40,
+        "weight": "600",
+        "lh": 1.15,
+        "ls": "0",
+        "family": "Montserrat"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 40,
+        "weight": "600",
+        "lh": 1.15,
+        "ls": "0",
+        "family": "Montserrat"
+      }
+    ],
     "h4": [
       {
         "fs": 14,
@@ -96,6 +114,19 @@
       }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": null,
+      "below": 29,
+      "n": 2
+    },
+    "40": {
+      "above": 357,
+      "below": 152,
+      "n": 5
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

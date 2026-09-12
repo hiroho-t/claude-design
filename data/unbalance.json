@@ -6,11 +6,11 @@
   "bg": [
     {
       "hex": "#ffffff",
-      "pct": 47
+      "pct": 47.1
     },
     {
       "hex": "#f7f7f7",
-      "pct": 37.5
+      "pct": 37.6
     },
     {
       "hex": "#def3f7",
@@ -18,7 +18,7 @@
     },
     {
       "hex": "#ee7800",
-      "pct": 3.4
+      "pct": 3.3
     }
   ],
   "ink": [
@@ -76,6 +76,13 @@
   "headings": {
     "h2": [
       {
+        "fs": 36,
+        "weight": "600",
+        "lh": 1.76,
+        "ls": "0.040em",
+        "family": "dnp-shuei-gothic-kin-std"
+      },
+      {
         "fs": 15,
         "weight": "600",
         "lh": 1.43,
@@ -83,6 +90,32 @@
         "family": "ofelia-text"
       }
     ]
+  },
+  "headSpace": {
+    "15": {
+      "above": 31,
+      "below": 31,
+      "n": 5
+    },
+    "36": {
+      "above": 13,
+      "below": 34,
+      "n": 5
+    }
+  },
+  "labelHead": {
+    "fs": 19,
+    "weight": "600",
+    "ls": 0,
+    "color": "#ee7800",
+    "latin": true,
+    "upper": true,
+    "gap": 13,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 36,
+    "n": 4,
+    "total": 5
   },
   "radius": [
     {

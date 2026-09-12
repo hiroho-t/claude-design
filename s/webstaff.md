@@ -53,13 +53,13 @@
 
 | 色 | 面 | 文字 | 枠線 | ボタンの地 |
 |---|---|---|---|---|
-| `#ffffff` | 47 | 21 | 0 | 7 |
+| `#ffffff` | 46 | 21 | 0 | 7 |
 | `#222222` | 3 | 123 | 0 | 0 |
 | `#f8f8f8` | 9 | 0 | 0 | 2 |
 | `#333333` | 8 | 10 | 2 | 0 |
 | `#e40065` | 13 | 31 | 1 | 11 |
 | `#9b9b9b` | 0 | 43 | 0 | 0 |
-| `#707070` | 1 | 47 | 0 | 1 |
+| `#707070` | 1 | 50 | 0 | 1 |
 
 - `#dabbbe` は
 
@@ -87,20 +87,58 @@
 
 - 和文: Helvetica Neue
 - 欧文: Helvetica Neue
-- ウェイトは 700 / 400 が中心。太さで強弱をつけず、大きさで差をつける。
+- ウェイトは 700 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 32px | 1.5 |
-| 見出し | 28px | 1.75 |
-| 小見出し | 24px | — |
-| リード | 18px | 1.75 |
-| 本文 | 14px | 1.75 |
-| 補助 | 12px | — |
-| 注記 | 11px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 32px | 1.5 | 15px | 72px |
+| 見出し | 28px | 1.75 | 85px | 30px |
+| 小見出し | 24px | — | 50px | 40px |
+| リード | 18px | 1.75 | 313px | 6px |
+| 本文 | 14px | 1.75 | 14px | 75px |
+| 補助 | 12px | 1.75 | 100px | 35px |
+| 注記 | 11px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（40px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 14px・行間 1.75。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 8箇所で使っている（見出し10箇所のうち）。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 英字 |
+| ラベルのサイズ | 12px |
+| ラベルの字間 | 0（詰めも空けもしない） |
+| ラベルの太さ | 700 |
+| ラベルの色 | `#e40065` |
+| ラベル → 見出し | 15px |
+| 見出しのサイズ | 32px |
+| 見出し → 本文 | 72px |
+| 罫線 | なし |
+| 組み方 | **箱で包む**（ラベルと見出しが1つのまとまりとして囲まれている） |
+
+```html
+<div class="c-head">
+  <p class="c-head__label">SERVICE</p>
+  <h2 class="c-head__title">サービス</h2>
+</div>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:12px; font-weight:700;
+  color:#e40065; text-transform:uppercase }
+.c-head__title{ font-size:32px; line-height:1.5; margin-top:15px }
+.c-head + *{ margin-top:72px }
+```
+
+- ラベルと見出しの間は 15px、見出しと本文の間は 72px。ラベル側を詰めて、本文側を空ける。この差がまとまりを作っている。
 
 ## レイアウト
 
@@ -204,6 +242,18 @@
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
 
+```html
+<section class="section">
+  <div class="container">
+    <div class="c-head">
+      <p class="c-head__label">SERVICE</p>
+      <h2 class="c-head__title">サービス</h2>
+    </div>
+    <p>本文…</p>
+  </div>
+</section>
+```
+
 ```css
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
@@ -213,6 +263,9 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:600px; display:grid; align-content:center }
+.c-head__label{ font-size:12px; font-weight:700; color:#e40065 }
+.c-head__title{ font-size:32px; line-height:1.5; margin-top:15px }
+.c-head + *{ margin-top:72px }
 
 .section--main{ background:var(--main); color:#333333; --on:#333333 }
 .section--main .btn--fill{ background:#333333; color:var(--main) }

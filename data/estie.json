@@ -28,15 +28,15 @@
   "ink": [
     {
       "hex": "#222222",
-      "pct": 62.3
+      "pct": 61.9
     },
     {
       "hex": "#72777d",
-      "pct": 25.8
+      "pct": 26.1
     },
     {
       "hex": "#ffffff",
-      "pct": 10
+      "pct": 10.1
     },
     {
       "hex": "#626a73",
@@ -51,7 +51,7 @@
     },
     {
       "family": "mfw-pgothicmb101pr6n-debold",
-      "w": 612
+      "w": 596
     },
     {
       "family": "mfw-pgothicmb101pr6n-bold",
@@ -69,11 +69,11 @@
     },
     {
       "px": 20,
-      "w": 319
+      "w": 310
     },
     {
       "px": 16,
-      "w": 255
+      "w": 248
     },
     {
       "px": 14,
@@ -94,6 +94,15 @@
     "ls": "0"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 96,
+        "weight": "700",
+        "lh": 1.2,
+        "ls": "0",
+        "family": "mfw-pgothicmb101pr6n-bold"
+      }
+    ],
     "h2": [
       {
         "fs": 48,
@@ -111,6 +120,34 @@
       }
     ]
   },
+  "headSpace": {
+    "48": {
+      "above": 214,
+      "below": 220,
+      "n": 4
+    },
+    "64": {
+      "above": 290,
+      "below": 250,
+      "n": 1
+    },
+    "72": {
+      "above": null,
+      "below": 31,
+      "n": 1
+    },
+    "82": {
+      "above": null,
+      "below": 40,
+      "n": 1
+    },
+    "96": {
+      "above": 167,
+      "below": null,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 4,
@@ -242,7 +279,7 @@
       "split": null
     },
     {
-      "h": 680,
+      "h": 660,
       "full": true,
       "cols": 0,
       "img": true,

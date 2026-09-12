@@ -90,23 +90,67 @@
     "ls": "0.114em"
   },
   "headings": {
+    "h2": [
+      {
+        "fs": 67,
+        "weight": "500",
+        "lh": 1,
+        "ls": "0.060em",
+        "family": "futura"
+      },
+      {
+        "fs": 35,
+        "weight": "600",
+        "lh": 0.8,
+        "ls": "0.100em",
+        "family": "游ゴシック"
+      }
+    ],
     "h3": [
+      {
+        "fs": 14,
+        "weight": "300",
+        "lh": 1,
+        "ls": "0.113em",
+        "family": "futura"
+      },
       {
         "fs": 21,
         "weight": "600",
         "lh": 1.45,
         "ls": "0.074em",
         "family": "游ゴシック"
-      },
-      {
-        "fs": 21,
-        "weight": "600",
-        "lh": 1,
-        "ls": "0.074em",
-        "family": "游ゴシック"
       }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": 83,
+      "below": 83,
+      "n": 6
+    },
+    "18": {
+      "above": 361,
+      "below": 19,
+      "n": 3
+    },
+    "21": {
+      "above": 4,
+      "below": 171,
+      "n": 7
+    },
+    "35": {
+      "above": null,
+      "below": 47,
+      "n": 1
+    },
+    "67": {
+      "above": 280,
+      "below": 56,
+      "n": 5
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

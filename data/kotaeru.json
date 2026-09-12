@@ -82,6 +82,15 @@
     "ls": "0.100em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 10,
+        "weight": "400",
+        "lh": 1.2,
+        "ls": "0",
+        "family": "wfont_2d5e8a_ea2d142581cb41dc82a5e2a24a1b4b4b"
+      }
+    ],
     "h2": [
       {
         "fs": 40,
@@ -107,6 +116,42 @@
         "family": "wfont_2d5e8a_ea2d142581cb41dc82a5e2a24a1b4b4b"
       }
     ]
+  },
+  "headSpace": {
+    "10": {
+      "above": null,
+      "below": 200,
+      "n": 1
+    },
+    "21": {
+      "above": 300,
+      "below": 16,
+      "n": 3
+    },
+    "40": {
+      "above": 21,
+      "below": 64,
+      "n": 6
+    },
+    "60": {
+      "above": 199,
+      "below": 24,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 20,
+    "weight": "400",
+    "ls": 0.1,
+    "color": "#ffffff",
+    "latin": true,
+    "upper": false,
+    "gap": 21,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 40,
+    "n": 4,
+    "total": 6
   },
   "radius": [
     {

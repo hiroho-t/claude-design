@@ -92,17 +92,17 @@
   "headings": {
     "h1": [
       {
-        "fs": 14,
+        "fs": 36,
         "weight": "700",
-        "lh": 1.55,
-        "ls": "0.021em",
+        "lh": 1.4,
+        "ls": "0.020em",
         "family": "YakuHanJP"
       },
       {
         "fs": 14,
         "weight": "700",
-        "lh": 1.4,
-        "ls": "0.020em",
+        "lh": 1.55,
+        "ls": "0.021em",
         "family": "YakuHanJP"
       }
     ],
@@ -122,6 +122,77 @@
         "family": "YakuHanJP"
       }
     ]
+  },
+  "headSpace": {
+    "11": {
+      "above": 5,
+      "below": 30,
+      "n": 2
+    },
+    "14": {
+      "above": 265,
+      "below": 12,
+      "n": 3
+    },
+    "15": {
+      "above": 261,
+      "below": 12,
+      "n": 4
+    },
+    "16": {
+      "above": 126,
+      "below": 10,
+      "n": 2
+    },
+    "17": {
+      "above": 6,
+      "below": 24,
+      "n": 14
+    },
+    "22": {
+      "above": 129,
+      "below": 40,
+      "n": 4
+    },
+    "28": {
+      "above": 88,
+      "below": 42,
+      "n": 7
+    },
+    "30": {
+      "above": 138,
+      "below": 24,
+      "n": 5
+    },
+    "32": {
+      "above": 330,
+      "below": null,
+      "n": 1
+    },
+    "36": {
+      "above": 256,
+      "below": 30,
+      "n": 7
+    },
+    "38": {
+      "above": null,
+      "below": 32,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 12,
+    "weight": "700",
+    "ls": 0,
+    "color": "#848484",
+    "latin": false,
+    "upper": false,
+    "gap": 3,
+    "wrapped": false,
+    "rule": "2px",
+    "headFs": 28,
+    "n": 2,
+    "total": 2
   },
   "radius": [
     {
@@ -391,7 +462,7 @@
     }
   ],
   "images": {
-    "n": 266,
+    "n": 270,
     "fullBleed": 0,
     "ratios": [
       {
@@ -410,7 +481,7 @@
     "radius": [
       {
         "px": 0,
-        "n": 241
+        "n": 245
       },
       {
         "px": 12,

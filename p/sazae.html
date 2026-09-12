@@ -183,7 +183,7 @@
     <table class="usage">
       <tr><th>色</th><td>面</td><td>文字</td><td>枠線</td><td>ボタンの地</td></tr>
       <tr><th><i style="background:#ffffff"></i><code>#ffffff</code></th>
-        <td>41</td><td>53</td><td>0</td><td>0</td></tr><tr><th><i style="background:#ffe7c1"></i><code>#ffe7c1</code></th>
+        <td>41</td><td>52</td><td>0</td><td>0</td></tr><tr><th><i style="background:#ffe7c1"></i><code>#ffe7c1</code></th>
         <td>1</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#f4e6df"></i><code>#f4e6df</code></th>
         <td>3</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#b50d34"></i><code>#b50d34</code></th>
         <td>30</td><td>73</td><td>43</td><td>17</td></tr><tr><th><i style="background:#c39231"></i><code>#c39231</code></th>
@@ -201,14 +201,17 @@
       <div><p>本文</p><strong>18px / 行間 2</strong><em>この見本は Noto Sans JP で表示しています</em></div>
     </div>
     <div class="sp">
-      <p class="spmeta">大見出し<span>26px / 行間 1.5</span></p>
-      <p class="spdemo" style="font-size:26px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">大見出し<span>26px / 行間 1.88</span></p>
+      <p class="spdemo" style="font-size:26px;line-height:1.88">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">本文<span>18px / 行間 2</span></p>
-      <p class="spdemo" style="font-size:18px;line-height:2">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">見出し<span>23px / 行間 1.28</span></p>
+      <p class="spdemo" style="font-size:23px;line-height:1.28">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">補助<span>15px</span></p>
-      <p class="spdemo" style="font-size:15px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">本文<span>18px / 行間 1.5</span></p>
+      <p class="spdemo" style="font-size:18px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">補助<span>15px / 行間 1.6</span></p>
+      <p class="spdemo" style="font-size:15px;line-height:1.6">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">注記<span>14px</span></p>
       <p class="spdemo" style="font-size:14px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
@@ -324,7 +327,7 @@
         </div>
       </div>
       <p class="note">同じ形が 7 箇所。角丸 0px ／ 影なし</p>
-    <p class="note">角丸は 0px だが、完全な円は別扱いで 1 箇所（48px×1）。角を丸めないことと、円のモチーフは両立する。</p>
+    <p class="note">角丸は 0px だが、完全な円は別扱いで 1 箇所（64px×1）。角を丸めないことと、円のモチーフは両立する。</p>
     <div class="stage" style="background:#fff">
         <span class="chipdemo" style="background:#b50d34;color:#ffffff;border-radius:999px;
           padding:0px 11px;font-size:14px;border:1px solid currentColor;">タグ</span>
@@ -414,7 +417,7 @@
 
 | 色 | 面 | 文字 | 枠線 | ボタンの地 |
 |---|---|---|---|---|
-| `#ffffff` | 41 | 53 | 0 | 0 |
+| `#ffffff` | 41 | 52 | 0 | 0 |
 | `#ffe7c1` | 1 | 0 | 0 | 0 |
 | `#f4e6df` | 3 | 0 | 0 | 0 |
 | `#b50d34` | 30 | 73 | 43 | 17 |
@@ -449,13 +452,17 @@
 - 欧文: TazuganeGothicStdN-Medium
 - ウェイトは 400 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 26px | 1.5 |
-| 本文 | 18px | 2 |
-| 補助 | 15px | — |
-| 注記 | 14px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 26px | 1.88 | 336px | 99px |
+| 見出し | 23px | 1.28 | 159px | 74px |
+| 本文 | 18px | 1.5 | 277px | 18px |
+| 補助 | 15px | 1.6 | — | 15px |
+| 注記 | 14px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（120px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 18px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -552,7 +559,7 @@
 
 ## 丸いもの
 
-角丸は 0px だが、**完全な円は別扱い**で 1 箇所ある（48px×1）。
+角丸は 0px だが、**完全な円は別扱い**で 1 箇所ある（64px×1）。
 アイコンの地・点・装飾に使う。角を丸めないルールと、円のモチーフは両立する。
 
 ## 画像

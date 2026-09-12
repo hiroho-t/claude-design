@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 2268
+      "w": 2269
     },
     {
       "family": "Outfit",
@@ -77,7 +77,7 @@
     },
     {
       "px": 10,
-      "w": 165
+      "w": 163
     }
   ],
   "body": {
@@ -118,6 +118,52 @@
         "family": "Noto Sans JP"
       }
     ]
+  },
+  "headSpace": {
+    "12": {
+      "above": 355,
+      "below": 12,
+      "n": 8
+    },
+    "16": {
+      "above": 65,
+      "below": 65,
+      "n": 5
+    },
+    "20": {
+      "above": 14,
+      "below": 195,
+      "n": 3
+    },
+    "24": {
+      "above": 16,
+      "below": 377,
+      "n": 1
+    },
+    "32": {
+      "above": 130,
+      "below": 63,
+      "n": 1
+    },
+    "48": {
+      "above": 4,
+      "below": 24,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 10,
+    "weight": "500",
+    "ls": 0,
+    "color": "#ffffff",
+    "latin": false,
+    "upper": false,
+    "gap": 14,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 20,
+    "n": 4,
+    "total": 5
   },
   "radius": [
     {

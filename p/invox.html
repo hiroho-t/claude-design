@@ -165,7 +165,7 @@
         <td>19</td><td>6</td><td>0</td><td>9</td></tr><tr><th><i style="background:#000000"></i><code>#000000</code></th>
         <td>1</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#ffcc00"></i><code>#ffcc00</code></th>
         <td>24</td><td>1</td><td>35</td><td>16</td></tr><tr><th><i style="background:#474241"></i><code>#474241</code></th>
-        <td>5</td><td>352</td><td>49</td><td>0</td></tr><tr><th><i style="background:#e34047"></i><code>#e34047</code></th>
+        <td>5</td><td>354</td><td>49</td><td>0</td></tr><tr><th><i style="background:#e34047"></i><code>#e34047</code></th>
         <td>1</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#0094ff"></i><code>#0094ff</code></th>
         <td>0</td><td>7</td><td>0</td><td>0</td></tr><tr><th><i style="background:#a678d6"></i><code>#a678d6</code></th>
         <td>1</td><td>1</td><td>1</td><td>0</td></tr>
@@ -181,17 +181,17 @@
       <div><p>本文</p><strong>14px / 行間 1.71</strong><em>この見本は Noto Sans JP で表示しています</em></div>
     </div>
     <div class="sp">
-      <p class="spmeta">大見出し<span>36px / 行間 1.56</span></p>
+      <p class="spmeta">大見出し<span>40px / 行間 1</span></p>
+      <p class="spdemo" style="font-size:40px;line-height:1">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">見出し<span>36px / 行間 1.56</span></p>
       <p class="spdemo" style="font-size:36px;line-height:1.56">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">見出し<span>24px</span></p>
+      <p class="spmeta">小見出し<span>24px</span></p>
       <p class="spdemo" style="font-size:24px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">小見出し<span>18px / 行間 1.56</span></p>
+      <p class="spmeta">リード<span>18px / 行間 1.56</span></p>
       <p class="spdemo" style="font-size:18px;line-height:1.56">あのイーハトーヴォのすきとおった風</p>
-    </div><div class="sp">
-      <p class="spmeta">リード<span>16px / 行間 1.63</span></p>
-      <p class="spdemo" style="font-size:16px;line-height:1.63">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">本文<span>14px / 行間 1.71</span></p>
       <p class="spdemo" style="font-size:14px;line-height:1.71">あのイーハトーヴォのすきとおった風</p>
@@ -292,7 +292,7 @@
         border:1px solid var(--line)">
         <span class="secno">14</span>
         <span class="secname">1カラム・画像あり</span>
-        <span class="sech">2220px</span>
+        <span class="sech">2300px</span>
       </div><div class="sec" style="height:41px;background:#ffffff;color:var(--ink);
         border:1px solid var(--line)">
         <span class="secno">15</span>
@@ -336,7 +336,7 @@
     <table>
       <tr><th></th><td>PC 1440px</td><td>スマホ 390px</td></tr>
       <tr><th>本文</th><td>14px / 行間 1.71</td><td>14px / 行間 1.86</td></tr>
-      <tr><th>見出し</th><td>36px</td><td>32px</td></tr>
+      <tr><th>見出し</th><td>40px</td><td>32px</td></tr>
       <tr><th>セクションの上下余白</th><td>104px</td><td>24px</td></tr>
       <tr><th>左右の余白</th><td>—</td><td>24px</td></tr>
       <tr><th>並びの間隔</th><td>16px</td><td>16px</td></tr>
@@ -411,7 +411,7 @@
 | `#ffffff` | 19 | 6 | 0 | 9 |
 | `#000000` | 1 | 0 | 0 | 0 |
 | `#ffcc00` | 24 | 1 | 35 | 16 |
-| `#474241` | 5 | 352 | 49 | 0 |
+| `#474241` | 5 | 354 | 49 | 0 |
 | `#e34047` | 1 | 0 | 0 | 0 |
 | `#0094ff` | 0 | 7 | 0 | 0 |
 | `#a678d6` | 1 | 1 | 1 | 0 |
@@ -441,15 +441,18 @@
 - 欧文: Inter
 - ウェイトは 700 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 36px | 1.56 |
-| 見出し | 24px | — |
-| 小見出し | 18px | 1.56 |
-| リード | 16px | 1.63 |
-| 本文 | 14px | 1.71 |
-| 補助 | 12px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 40px | 1 | 104px | 6px |
+| 見出し | 36px | 1.56 | 163px | 45px |
+| 小見出し | 24px | — | 66px | 28px |
+| リード | 18px | 1.56 | 295px | 26px |
+| 本文 | 14px | 1.71 | — | — |
+| 補助 | 12px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（104px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 14px・行間 1.71。
 
@@ -468,7 +471,7 @@
 | | PC 1440px | スマホ 390px |
 |---|---|---|
 | 本文 | 14px / 行間 1.71 | 14px / 行間 1.86 |
-| 見出し | 36px | 32px / 行間 1.38 |
+| 見出し | 40px | 32px / 行間 1.38 |
 | セクションの上下余白 | 104px | 24px |
 | 左右の余白 | — | 24px |
 | 並びの間隔 | 16px | 16px |
@@ -517,7 +520,7 @@
 | 11 | 1800px | — | 6カラム・画像あり | 中央 | 見出しの下 |
 | 12 | 840px | — | 6カラム・画像あり | 中央 | — |
 | 13 | 1400px | — | 6カラム・画像あり | 中央 | — |
-| 14 | 2220px | — | 1カラム・画像あり | 中央 | — |
+| 14 | 2300px | — | 1カラム・画像あり | 中央 | — |
 | 15 | 740px | — | 6カラム・画像あり | 中央 | 見出しの下 |
 
 - 全15セクション。

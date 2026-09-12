@@ -118,9 +118,44 @@
         "lh": 1.5,
         "ls": "0.033em",
         "family": "fot-tsukuardgothic-std"
+      },
+      {
+        "fs": 18,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.100em",
+        "family": "fot-tsukuardgothic-std"
       }
     ]
   },
+  "headSpace": {
+    "16": {
+      "above": 313,
+      "below": 292,
+      "n": 1
+    },
+    "18": {
+      "above": 40,
+      "below": 10,
+      "n": 2
+    },
+    "22": {
+      "above": 207,
+      "below": 28,
+      "n": 3
+    },
+    "24": {
+      "above": 381,
+      "below": 83,
+      "n": 4
+    },
+    "26": {
+      "above": null,
+      "below": 30,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 20,

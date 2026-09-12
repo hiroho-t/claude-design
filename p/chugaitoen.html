@@ -142,7 +142,7 @@
     <a class="shot" href="https://chugaitoen.co.jp/" target="_blank" rel="noopener"><img src="../shot/chugaitoen.jpg" alt="株式会社中外陶園 のトップページ"></a>
     <h1>株式会社中外陶園</h1>
     <p class="lead">白地に #103381 を大きな面で置く配色。影も枠線もほとんど使わない。本文 16px・行間 2、セクション間 240px。</p>
-    <div class="tags"><span>明朝</span><span>余白ひろい</span><span>角ばった</span><span>色つき</span><span>コーポレートサイト／製造業･工業･メーカー･商社･物流／生活用品･雑貨･インテリア･家具</span></div>
+    <div class="tags"><span>ゴシック</span><span>余白ひろい</span><span>角ばった</span><span>色つき</span><span>コーポレートサイト／製造業･工業･メーカー･商社･物流／生活用品･雑貨･インテリア･家具</span></div>
     <p class="src"><a href="https://chugaitoen.co.jp/" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7h-1.5V5.56L5.06 12 4 10.94 10.44 4.5H6V3Z"/><path d="M3 5h2v1.5H4.5v5H10V11h1.5v2H3V5Z"/></svg>chugaitoen.co.jp<span>参考サイトを開く</span></a></p>
   </section>
 
@@ -209,15 +209,15 @@
   <section>
     <h2>文字</h2>
     <div class="fonts">
-      <div><p>和文</p><strong>dnp-shuei-gothic-gin-std</strong></div>
-      <div><p>欧文</p><strong>dnp-shuei-gothic-gin-std</strong></div>
+      <div><p>和文</p><strong>Manrope</strong></div>
+      <div><p>欧文</p><strong>Manrope</strong></div>
       <div><p>本文</p><strong>16px / 行間 2</strong><em>この見本は Noto Sans JP で表示しています</em></div>
     </div>
     <div class="sp">
       <p class="spmeta">大見出し<span>200px</span></p>
       <p class="spdemo" style="font-size:200px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">見出し<span>36px</span></p>
+      <p class="spmeta">見出し<span>36px / 行間 1.5</span></p>
       <p class="spdemo" style="font-size:36px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">小見出し<span>20px / 行間 1.8</span></p>
@@ -226,8 +226,8 @@
       <p class="spmeta">本文<span>16px / 行間 2</span></p>
       <p class="spdemo" style="font-size:16px;line-height:2">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">補助<span>14px / 行間 1.8</span></p>
-      <p class="spdemo" style="font-size:14px;line-height:1.8">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">補助<span>14px</span></p>
+      <p class="spdemo" style="font-size:14px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">注記<span>12px</span></p>
       <p class="spdemo" style="font-size:12px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
@@ -354,7 +354,7 @@
 
 - 出典: https://chugaitoen.co.jp/
 - 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
-- 印象: 明朝 / 余白ひろい / 角ばった / 色つき
+- 印象: ゴシック / 余白ひろい / 角ばった / 色つき
 - 業種: コーポレートサイト／製造業･工業･メーカー･商社･物流／生活用品･雑貨･インテリア･家具
 
 白地に `#103381` を文字と細部だけで効かせる配色。影も枠線もほとんど使わない。本文 16px・行間 2、セクション間 240px。
@@ -371,8 +371,8 @@
   --ink: #000000;
   --ink-rev: #999999;
   --on: #103381;   /* いま乗っている面の上で使う線と文字の色。面ごとに入れ替える */
-  --font-ja: &quot;dnp-shuei-gothic-gin-std&quot;, sans-serif;
-  --font-en: &quot;dnp-shuei-gothic-gin-std&quot;, sans-serif;
+  --font-ja: &quot;Manrope&quot;, sans-serif;
+  --font-en: &quot;Manrope&quot;, sans-serif;
   --fs-body: 16px;
   --lh-body: 2;
   --container: 1248px;
@@ -434,19 +434,22 @@
 
 ## 文字
 
-- 和文: dnp-shuei-gothic-gin-std
-- 欧文: dnp-shuei-gothic-gin-std
+- 和文: Manrope
+- 欧文: Manrope
 - ウェイトは 500 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 200px | — |
-| 見出し | 36px | — |
-| 小見出し | 20px | 1.8 |
-| 本文 | 16px | 2 |
-| 補助 | 14px | 1.8 |
-| 注記 | 12px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 200px | — | — | — |
+| 見出し | 36px | 1.5 | 386px | 100px |
+| 小見出し | 20px | 1.8 | 32px | 135px |
+| 本文 | 16px | 2 | — | — |
+| 補助 | 14px | — | 15px | — |
+| 注記 | 12px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（240px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 16px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 

@@ -103,6 +103,37 @@
       }
     ]
   },
+  "headSpace": {
+    "44": {
+      "above": 23,
+      "below": 30,
+      "n": 5
+    },
+    "48": {
+      "above": 224,
+      "below": 40,
+      "n": 1
+    },
+    "56": {
+      "above": 12,
+      "below": 62,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 14,
+    "weight": "500",
+    "ls": 0.04,
+    "color": "#ffffff",
+    "latin": true,
+    "upper": false,
+    "gap": 23,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 44,
+    "n": 2,
+    "total": 5
+  },
   "radius": [
     {
       "px": 4,

@@ -28,11 +28,11 @@
   "ink": [
     {
       "hex": "#364246",
-      "pct": 76.7
+      "pct": 76.6
     },
     {
       "hex": "#ffffff",
-      "pct": 20.5
+      "pct": 20.6
     },
     {
       "hex": "#006ea8",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "YakuHanJP",
-      "w": 1447
+      "w": 1440
     },
     {
       "family": "Josefin Sans",
@@ -69,7 +69,7 @@
     },
     {
       "px": 16,
-      "w": 718
+      "w": 711
     },
     {
       "px": 15,
@@ -86,6 +86,15 @@
     "ls": "0"
   },
   "headings": {
+    "h2": [
+      {
+        "fs": 64,
+        "weight": "300",
+        "lh": 1,
+        "ls": "-0.050em",
+        "family": "Josefin Sans"
+      }
+    ],
     "h3": [
       {
         "fs": 16,
@@ -93,9 +102,34 @@
         "lh": 1.8,
         "ls": "0",
         "family": "YakuHanJP"
+      },
+      {
+        "fs": 15,
+        "weight": "400",
+        "lh": 1.8,
+        "ls": "0.037em",
+        "family": "YakuHanJP"
       }
     ]
   },
+  "headSpace": {
+    "15": {
+      "above": 105,
+      "below": 360,
+      "n": 2
+    },
+    "16": {
+      "above": 10,
+      "below": 80,
+      "n": 5
+    },
+    "64": {
+      "above": 233,
+      "below": 60,
+      "n": 3
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

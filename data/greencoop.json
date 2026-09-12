@@ -28,15 +28,15 @@
   "ink": [
     {
       "hex": "#453112",
-      "pct": 81.2
+      "pct": 82.4
     },
     {
       "hex": "#c54117",
-      "pct": 11.1
+      "pct": 10.1
     },
     {
       "hex": "#ffffff",
-      "pct": 4.7
+      "pct": 4.6
     },
     {
       "hex": "#316fad",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "dnp-shuei-gothic-gin-std",
-      "w": 1270
+      "w": 1296
     },
     {
       "family": "Work Sans",
@@ -69,11 +69,11 @@
     },
     {
       "px": 16,
-      "w": 315
+      "w": 314
     },
     {
       "px": 14,
-      "w": 396
+      "w": 423
     },
     {
       "px": 12,
@@ -88,25 +88,16 @@
   "headings": {
     "h3": [
       {
-        "fs": 22,
-        "weight": "600",
-        "lh": 1.4,
+        "fs": 16,
+        "weight": "500",
+        "lh": 1.65,
         "ls": "0.120em",
         "family": "dnp-shuei-gothic-gin-std"
       },
       {
-        "fs": 17,
-        "weight": "500",
-        "lh": 1.55,
-        "ls": "0.120em",
-        "family": "dnp-shuei-gothic-gin-std"
-      }
-    ],
-    "h4": [
-      {
-        "fs": 14,
-        "weight": "500",
-        "lh": 1,
+        "fs": 22,
+        "weight": "600",
+        "lh": 1.4,
         "ls": "0.120em",
         "family": "dnp-shuei-gothic-gin-std"
       }
@@ -117,6 +108,22 @@
         "weight": "400",
         "lh": 1,
         "ls": "0.140em",
+        "family": "dnp-shuei-gothic-gin-std"
+      },
+      {
+        "fs": 23,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.110em",
+        "family": "Work Sans"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 14,
+        "weight": "500",
+        "lh": 1,
+        "ls": "0.120em",
         "family": "dnp-shuei-gothic-gin-std"
       }
     ],
@@ -129,6 +136,52 @@
         "family": "dnp-shuei-gothic-gin-std"
       }
     ]
+  },
+  "headSpace": {
+    "14": {
+      "above": 22,
+      "below": 82,
+      "n": 5
+    },
+    "16": {
+      "above": 278,
+      "below": 9,
+      "n": 10
+    },
+    "17": {
+      "above": 35,
+      "below": 35,
+      "n": 4
+    },
+    "22": {
+      "above": 142,
+      "below": 22,
+      "n": 6
+    },
+    "23": {
+      "above": 297,
+      "below": 20,
+      "n": 1
+    },
+    "36": {
+      "above": 133,
+      "below": 16,
+      "n": 2
+    }
+  },
+  "labelHead": {
+    "fs": 16,
+    "weight": "600",
+    "ls": 0.18,
+    "color": "#453112",
+    "latin": false,
+    "upper": false,
+    "gap": 25,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 36,
+    "n": 1,
+    "total": 1
   },
   "radius": [
     {
@@ -292,7 +345,7 @@
       "split": null
     },
     {
-      "h": 1160,
+      "h": 1140,
       "full": true,
       "cols": 6,
       "img": true,
@@ -444,14 +497,14 @@
     {
       "hex": "#453112",
       "面": 1,
-      "文字": 86,
+      "文字": 89,
       "枠": 2,
       "ボタン": 1
     },
     {
       "hex": "#c54117",
       "面": 0,
-      "文字": 17,
+      "文字": 14,
       "枠": 0,
       "ボタン": 0
     },

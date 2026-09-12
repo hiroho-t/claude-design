@@ -70,25 +70,32 @@
     "ls": "0.040em"
   },
   "headings": {
-    "h2": [
+    "h3": [
       {
-        "fs": 28,
+        "fs": 36,
         "weight": "500",
         "lh": 1.5,
         "ls": "0.100em",
         "family": "YakuHanMP_Noto"
       },
       {
-        "fs": 60,
+        "fs": 24,
         "weight": "500",
-        "lh": 1.3,
-        "ls": "0.100em",
-        "family": "Noto Serif JP"
+        "lh": 1,
+        "ls": "0.075em",
+        "family": "YakuHanMP_Noto"
       }
     ],
-    "h3": [
+    "h2": [
       {
-        "fs": 36,
+        "fs": 16,
+        "weight": "500",
+        "lh": 1.25,
+        "ls": "0.200em",
+        "family": "Noto Serif JP"
+      },
+      {
+        "fs": 28,
         "weight": "500",
         "lh": 1.5,
         "ls": "0.100em",
@@ -105,6 +112,39 @@
       }
     ]
   },
+  "headSpace": {
+    "16": {
+      "above": 88,
+      "below": null,
+      "n": 1
+    },
+    "20": {
+      "above": 35,
+      "below": null,
+      "n": 8
+    },
+    "24": {
+      "above": 31,
+      "below": 200,
+      "n": 1
+    },
+    "28": {
+      "above": 200,
+      "below": 264,
+      "n": 1
+    },
+    "36": {
+      "above": 250,
+      "below": 35,
+      "n": 13
+    },
+    "60": {
+      "above": 249,
+      "below": null,
+      "n": 2
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

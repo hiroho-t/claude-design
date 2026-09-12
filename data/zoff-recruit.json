@@ -28,7 +28,7 @@
   "ink": [
     {
       "hex": "#000000",
-      "pct": 60.5
+      "pct": 60.4
     },
     {
       "hex": "#ffffff",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 1891
+      "w": 1885
     },
     {
       "family": "Montserrat",
@@ -61,7 +61,7 @@
     },
     {
       "px": 18,
-      "w": 889
+      "w": 886
     },
     {
       "px": 16,
@@ -111,14 +111,37 @@
         "family": "Noto Sans JP"
       },
       {
-        "fs": 18,
+        "fs": 24,
         "weight": "600",
-        "lh": 1.4,
+        "lh": 1.5,
         "ls": "0.060em",
         "family": "Noto Sans JP"
       }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": 320,
+      "below": 11,
+      "n": 10
+    },
+    "16": {
+      "above": null,
+      "below": 309,
+      "n": 1
+    },
+    "18": {
+      "above": 11,
+      "below": 9,
+      "n": 20
+    },
+    "24": {
+      "above": 258,
+      "below": 86,
+      "n": 6
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

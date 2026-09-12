@@ -112,6 +112,29 @@
       }
     ]
   },
+  "headSpace": {
+    "18": {
+      "above": 52,
+      "below": 52,
+      "n": 1
+    },
+    "20": {
+      "above": 261,
+      "below": 8,
+      "n": 13
+    },
+    "32": {
+      "above": null,
+      "below": 26,
+      "n": 6
+    },
+    "56": {
+      "above": 351,
+      "below": null,
+      "n": 2
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
@@ -272,7 +295,7 @@
     }
   ],
   "images": {
-    "n": 18,
+    "n": 17,
     "fullBleed": 0,
     "ratios": [
       {
@@ -281,13 +304,13 @@
       },
       {
         "ratio": "3:4",
-        "n": 6
+        "n": 5
       }
     ],
     "radius": [
       {
         "px": 0,
-        "n": 18
+        "n": 17
       }
     ]
   },

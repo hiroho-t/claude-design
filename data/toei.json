@@ -28,22 +28,22 @@
   "ink": [
     {
       "hex": "#ffffff",
-      "pct": 77.8
+      "pct": 78.2
     },
     {
       "hex": "#222222",
-      "pct": 18.7
+      "pct": 18.4
     },
     {
       "hex": "#550e1c",
-      "pct": 3.5
+      "pct": 3.4
     }
   ],
   "pageBg": "#000000",
   "fonts": [
     {
       "family": "YakuHanJP",
-      "w": 1482
+      "w": 1513
     },
     {
       "family": "Outfit",
@@ -65,7 +65,7 @@
     },
     {
       "px": 13,
-      "w": 469
+      "w": 500
     },
     {
       "px": 12,
@@ -82,6 +82,8 @@
     "ls": "0"
   },
   "headings": {},
+  "headSpace": {},
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

@@ -17,7 +17,7 @@
   --main: #0069bc;
   --sub: #d4d1d2;
   --ink: #ffffff;
-  --ink-rev: #000000;
+  --ink-rev: #22222f;
   --on: #0069bc;   /* いま乗っている面の上で使う線と文字の色。面ごとに入れ替える */
   --font-ja: "TazuganeGothicStdN-Bold", sans-serif;
   --font-en: "TazuganeGothicStdN-Bold", sans-serif;
@@ -42,7 +42,7 @@
 | 差し色 | `#6b9ab3` | 2.1% |
 | 差し色 | `#b2a6a5` | 2% |
 
-文字色は `#ffffff` / `#000000` / `#22222f` / `#a7a7ac`。
+文字色は `#ffffff` / `#22222f` / `#000000` / `#a7a7ac`。
 
 - 主色 `#0069bc` は塗りにはほとんど使わない。文字・線・小さな部品だけで効かせる。
 - 影は`rgba(0, 0, 0, 0.5) 0px 5px 15px 0px`。
@@ -69,16 +69,16 @@
 
 | 面 | その上に置く線と文字 |
 |---|---|
-| `#0069bc`（主色） | `#000000` |
-| `#22222f` | `#000000` |
+| `#0069bc`（主色） | `#22222f` |
+| `#22222f` | `#22222f` |
 | `#ffffff`（地） | `#0069bc` |
 
 ```css
 .section{ --on:#0069bc }                     /* 地の面 */
-.section--main{ background:var(--main); color:#000000; --on:#000000 }
+.section--main{ background:var(--main); color:#22222f; --on:#22222f }
 .card{ border:1px solid var(--on) }
-.btn--fill{ background:var(--main); color:#000000 }
-.section--main .btn--fill{ background:#000000; color:var(--main) }   /* 主色の面では反転 */
+.btn--fill{ background:var(--main); color:#22222f }
+.section--main .btn--fill{ background:#22222f; color:var(--main) }   /* 主色の面では反転 */
 ```
 
 ## 文字
@@ -87,14 +87,17 @@
 - 欧文: TazuganeGothicStdN-Bold
 - ウェイトは 700 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 32px | 1.5 |
-| 見出し | 24px | 1.5 |
-| 小見出し | 18px | — |
-| リード | 16px | — |
-| 本文 | 12px | 1.75 |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 32px | 1.5 | 240px | 34px |
+| 見出し | 24px | 1.5 | 160px | 10px |
+| 小見出し | 18px | — | — | — |
+| リード | 16px | — | — | — |
+| 本文 | 12px | 1.75 | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（80px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 12px・行間 1.75。
 
@@ -190,8 +193,8 @@ body{ background:var(--bg); color:var(--ink);
 
 .hero{ min-height:600px; display:grid; align-content:center }
 
-.section--main{ background:var(--main); color:#000000; --on:#000000 }
-.section--main .btn--fill{ background:#000000; color:var(--main) }
+.section--main{ background:var(--main); color:#22222f; --on:#22222f }
+.section--main .btn--fill{ background:#22222f; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:#e55e43; color:#ffffff; border-radius:2px;
   padding:8px 16px; min-height:48px;

@@ -1,8 +1,1211 @@
 {
+  "2016": {
+    "state": "done"
+  },
+  "denso-drivenbase": {
+    "state": "done"
+  },
+  "diamondrealtymanagement": {
+    "state": "done"
+  },
+  "eco-pork": {
+    "state": "done"
+  },
+  "demaecan-corporate": {
+    "state": "done"
+  },
+  "eizosystem": {
+    "state": "done"
+  },
+  "elematec": {
+    "state": "done"
+  },
+  "douraku": {
+    "state": "done"
+  },
+  "enecloud": {
+    "state": "done"
+  },
+  "estie": {
+    "state": "done"
+  },
+  "famit": {
+    "state": "done"
+  },
+  "evoworx": {
+    "state": "done"
+  },
+  "endeal": {
+    "state": "done"
+  },
+  "fca": {
+    "state": "done"
+  },
+  "feetindesign": {
+    "state": "done"
+  },
+  "fands-c": {
+    "state": "done"
+  },
+  "fil-toyama": {
+    "state": "done"
+  },
+  "findy": {
+    "state": "done"
+  },
+  "firenzelife": {
+    "state": "done"
+  },
+  "fiore-flower": {
+    "state": "done"
+  },
+  "foodison": {
+    "state": "done"
+  },
+  "fuji-koeki": {
+    "state": "done"
+  },
+  "freee-jobs": {
+    "state": "done"
+  },
+  "fujiwaraprinting": {
+    "state": "done"
+  },
+  "fukoku": {
+    "state": "done"
+  },
+  "fujioka-dental": {
+    "state": "done"
+  },
+  "fukujouniversity": {
+    "state": "done"
+  },
+  "gcs-tc-school": {
+    "state": "done"
+  },
+  "gentosha": {
+    "state": "done"
+  },
+  "garage-recruit": {
+    "state": "done"
+  },
+  "gifteegroup": {
+    "state": "done"
+  },
+  "ghraicho": {
+    "state": "done"
+  },
+  "golfdigest": {
+    "state": "done"
+  },
+  "goodpat-chcareers": {
+    "state": "done"
+  },
+  "goodpatch-careers": {
+    "state": "done"
+  },
+  "gateone": {
+    "state": "done"
+  },
+  "goodpatch-anywhere": {
+    "state": "done"
+  },
+  "gosaijikenshin": {
+    "state": "done"
+  },
+  "goodthewhat": {
+    "state": "done"
+  },
+  "gotonotsubaki": {
+    "state": "done"
+  },
+  "gotoju": {
+    "state": "done"
+  },
+  "goodpatch-designpartnership": {
+    "state": "done"
+  },
+  "gris": {
+    "state": "done"
+  },
+  "ha-ru": {
+    "state": "done"
+  },
+  "haa": {
+    "state": "done"
+  },
+  "hacobu": {
+    "state": "done"
+  },
+  "greencoop": {
+    "state": "done"
+  },
+  "hagumuakari": {
+    "state": "done"
+  },
+  "harmonieswithkumon": {
+    "state": "done"
+  },
+  "hatanokoumuten": {
+    "state": "done"
+  },
+  "hatonosato": {
+    "state": "done"
+  },
+  "hayakawa-lawoffices": {
+    "state": "done"
+  },
+  "harimaya": {
+    "state": "done"
+  },
+  "higashihiroshima-kanko": {
+    "state": "done"
+  },
+  "hikarino-clinic": {
+    "state": "done"
+  },
+  "hogoneco-clinic-neco-republic": {
+    "state": "done"
+  },
+  "honeyque": {
+    "state": "done"
+  },
+  "honda-jobs": {
+    "state": "done"
+  },
+  "hiragino": {
+    "state": "done"
+  },
+  "hotelalpage": {
+    "state": "done"
+  },
+  "housousha": {
+    "state": "done"
+  },
+  "hozantei": {
+    "state": "done"
+  },
+  "i-tech-muramoto": {
+    "state": "done"
+  },
+  "iamas": {
+    "state": "done"
+  },
+  "hpmusicschool": {
+    "state": "done"
+  },
+  "ideacloud": {
+    "state": "done"
+  },
+  "ichica": {
+    "state": "done"
+  },
+  "iijengineering-recruit": {
+    "state": "done"
+  },
+  "iiojozo": {
+    "state": "done"
+  },
+  "ieshima": {
+    "state": "done"
+  },
+  "ikeihospitality": {
+    "state": "done"
+  },
+  "infomart": {
+    "state": "done"
+  },
+  "inuse": {
+    "state": "done"
+  },
+  "invox": {
+    "state": "done"
+  },
+  "isaka": {
+    "state": "done"
+  },
+  "ishiizouen": {
+    "state": "done"
+  },
+  "inadani-sees": {
+    "state": "done"
+  },
+  "isobeunyusouko": {
+    "state": "done"
+  },
+  "izumiiin": {
+    "state": "done"
+  },
+  "janu": {
+    "state": "done"
+  },
+  "isshiki-law": {
+    "state": "done"
+  },
+  "ikutarandsel": {
+    "state": "done"
+  },
+  "jiichiroshop": {
+    "state": "done"
+  },
+  "jins-holdings": {
+    "state": "done"
+  },
+  "jinsholdings": {
+    "state": "done"
+  },
+  "jdex": {
+    "state": "done"
+  },
+  "jiraku": {
+    "state": "done"
+  },
+  "jq": {
+    "state": "done"
+  },
+  "jorganic-coffee": {
+    "state": "done"
+  },
+  "jbn": {
+    "state": "done"
+  },
+  "juhmokusha": {
+    "state": "done"
+  },
+  "kaitori-studiocbr": {
+    "state": "done"
+  },
+  "jt": {
+    "state": "done"
+  },
+  "kagami": {
+    "state": "done"
+  },
+  "kajitsudotech": {
+    "state": "done"
+  },
+  "kajoanimalcenter": {
+    "state": "done"
+  },
+  "karimokucommonsshop": {
+    "state": "done"
+  },
+  "karteblocks": {
+    "state": "done"
+  },
+  "kakumagumi": {
+    "state": "done"
+  },
+  "kawara-museum": {
+    "state": "done"
+  },
+  "kawashimaseed": {
+    "state": "done"
+  },
+  "karte": {
+    "state": "done"
+  },
+  "kiboufudousan": {
+    "state": "done"
+  },
+  "kawatatec": {
+    "state": "done"
+  },
+  "kawata": {
+    "state": "done"
+  },
+  "kimurasoap": {
+    "state": "done"
+  },
+  "kichinan": {
+    "state": "done"
+  },
+  "kininaru": {
+    "state": "done"
+  },
+  "kidssnacklab": {
+    "state": "done"
+  },
+  "kingramliquor": {
+    "state": "done"
+  },
+  "kkimanufacture": {
+    "state": "done"
+  },
+  "kobesumaseaworld": {
+    "state": "done"
+  },
+  "kinswith-vet": {
+    "state": "done"
+  },
+  "koseikai": {
+    "state": "done"
+  },
+  "kobeurbanfarming": {
+    "state": "done"
+  },
+  "kotaeru": {
+    "state": "done"
+  },
+  "koushou": {
+    "state": "done"
+  },
+  "kobewomensuniversity": {
+    "state": "done"
+  },
+  "koyama-houmu": {
+    "state": "done"
+  },
+  "koyama-gr": {
+    "state": "done"
+  },
+  "kuwazawa-wagashi": {
+    "state": "done"
+  },
+  "kyoei": {
+    "state": "done"
+  },
+  "kuraudiaholdings": {
+    "state": "done"
+  },
+  "kyowa": {
+    "state": "done"
+  },
+  "kyoto-iju": {
+    "state": "done"
+  },
+  "lakesideac": {
+    "state": "done"
+  },
+  "laq2": {
+    "state": "done"
+  },
+  "landsolution": {
+    "state": "done"
+  },
+  "lakotahouse": {
+    "state": "done"
+  },
+  "learningware": {
+    "state": "done"
+  },
+  "lee": {
+    "state": "done"
+  },
+  "lifeandcom": {
+    "state": "done"
+  },
+  "linie-schule": {
+    "state": "done"
+  },
+  "lycomm-career": {
+    "state": "done"
+  },
+  "lion": {
+    "state": "done"
+  },
+  "lowrysfarm-2024holiday": {
+    "state": "done"
+  },
+  "maeni": {
+    "state": "done"
+  },
+  "lycorp": {
+    "state": "done"
+  },
+  "maruyama-urban": {
+    "state": "done"
+  },
+  "maruigroup": {
+    "state": "done"
+  },
+  "matsudaiyaku": {
+    "state": "done"
+  },
+  "mebukiya": {
+    "state": "done"
+  },
+  "meikei": {
+    "state": "done"
+  },
+  "meibi": {
+    "state": "done"
+  },
+  "merise": {
+    "state": "done"
+  },
+  "matsushitahome": {
+    "state": "done"
+  },
+  "meiseikg": {
+    "state": "done"
+  },
+  "michinoeki-ashigakubo": {
+    "state": "done"
+  },
+  "midori-no-mori": {
+    "state": "done"
+  },
+  "michi-kusa": {
+    "state": "done"
+  },
+  "minerva-sleep": {
+    "state": "done"
+  },
+  "mirai-works": {
+    "state": "done"
+  },
+  "mitsui-career": {
+    "state": "done"
+  },
+  "miyamotokanagata": {
+    "state": "done"
+  },
+  "mizotaarchitecturaldesign": {
+    "state": "done"
+  },
+  "modernca-online": {
+    "state": "done"
+  },
+  "monex-recruit": {
+    "state": "done"
+  },
+  "mixi": {
+    "state": "done"
+  },
+  "moneyforward-design": {
+    "state": "done"
+  },
+  "moshiyado": {
+    "state": "done"
+  },
+  "moriokaganka": {
+    "state": "done"
+  },
+  "miyoshishoji": {
+    "state": "done"
+  },
+  "mpn": {
+    "state": "done"
+  },
+  "muji-recruit": {
+    "state": "done"
+  },
+  "muice": {
+    "state": "done"
+  },
+  "msb": {
+    "state": "done"
+  },
+  "mujuu": {
+    "state": "done"
+  },
+  "mujigoodprogram": {
+    "state": "done"
+  },
+  "musashishinjo-shika": {
+    "state": "done"
+  },
+  "naganoanzen": {
+    "state": "done"
+  },
+  "nagano-cgc": {
+    "state": "done"
+  },
+  "nagaoyouchien": {
+    "state": "done"
+  },
+  "nacsj": {
+    "state": "done"
+  },
+  "nakatani-tac": {
+    "state": "done"
+  },
+  "nanatsuya-stay": {
+    "state": "done"
+  },
+  "nakamurabrace": {
+    "state": "done"
+  },
+  "nature": {
+    "state": "done"
+  },
+  "netbk-recruit": {
+    "state": "done"
+  },
+  "neutralworks-recruit": {
+    "state": "done"
+  },
+  "newt": {
+    "state": "done"
+  },
+  "nichiasteel": {
+    "state": "done"
+  },
+  "nemuli": {
+    "state": "done"
+  },
+  "nihontechness": {
+    "state": "done"
+  },
+  "nihonssi": {
+    "state": "done"
+  },
+  "nishi-itami-k": {
+    "state": "done"
+  },
+  "nasu": {
+    "state": "done"
+  },
+  "nishiokatent": {
+    "state": "done"
+  },
+  "nissin-store": {
+    "state": "done"
+  },
+  "nobel": {
+    "state": "done"
+  },
+  "nomurakougei": {
+    "state": "done"
+  },
+  "nonoichimedicalclinic": {
+    "state": "done"
+  },
+  "nue": {
+    "state": "done"
+  },
+  "nyle": {
+    "state": "done"
+  },
+  "office-pits": {
+    "state": "done"
+  },
+  "ogami": {
+    "state": "done"
+  },
+  "odakyuhousing": {
+    "state": "done"
+  },
+  "ohno": {
+    "state": "done"
+  },
+  "ntt-linkeeth": {
+    "state": "done"
+  },
+  "omorisakura-iwamiginzan": {
+    "state": "done"
+  },
+  "orbis": {
+    "state": "done"
+  },
+  "oricom": {
+    "state": "done"
+  },
+  "osakau-liaison": {
+    "state": "done"
+  },
+  "oneplanet": {
+    "state": "done"
+  },
+  "pday": {
+    "state": "done"
+  },
+  "pkshatech": {
+    "state": "done"
+  },
+  "pawpark": {
+    "state": "done"
+  },
+  "porters": {
+    "state": "done"
+  },
+  "partners": {
+    "state": "done"
+  },
+  "plazmark-craypas": {
+    "state": "done"
+  },
+  "powerx": {
+    "state": "done"
+  },
+  "ppc-wonder": {
+    "state": "done"
+  },
+  "r-equal": {
+    "state": "done"
+  },
+  "r-reha": {
+    "state": "done"
+  },
+  "rakuten": {
+    "state": "done"
+  },
+  "rakuwanursingschool": {
+    "state": "done"
+  },
+  "proni": {
+    "state": "done"
+  },
+  "rakuwaotowa": {
+    "state": "done"
+  },
+  "readycrew": {
+    "state": "done"
+  },
+  "rebitasumai": {
+    "state": "done"
+  },
+  "recruit": {
+    "state": "done"
+  },
+  "rekihaku": {
+    "state": "done"
+  },
+  "risetax-accountant": {
+    "state": "done"
+  },
+  "ricoas": {
+    "state": "done"
+  },
+  "robotpayment-recruit": {
+    "state": "done"
+  },
+  "retroinsatsu": {
+    "state": "done"
+  },
+  "roboti": {
+    "state": "done"
+  },
+  "safesafe": {
+    "state": "done"
+  },
+  "saintparts": {
+    "state": "done"
+  },
+  "saiseikai": {
+    "state": "done"
+  },
+  "saishunkan": {
+    "state": "done"
+  },
+  "saikazo": {
+    "state": "done"
+  },
+  "saginomiya": {
+    "state": "done"
+  },
+  "sajounohanasana": {
+    "state": "done"
+  },
+  "sakura-butudan": {
+    "state": "done"
+  },
+  "sakuracopy": {
+    "state": "done"
+  },
+  "sakurafudousan": {
+    "state": "done"
+  },
+  "sankido": {
+    "state": "done"
+  },
+  "sanwa": {
+    "state": "done"
+  },
+  "satsukikai": {
+    "state": "done"
+  },
+  "sazae": {
+    "state": "done"
+  },
+  "security": {
+    "state": "done"
+  },
+  "seisa": {
+    "state": "done"
+  },
+  "shibuya": {
+    "state": "done"
+  },
+  "sekisui": {
+    "state": "done"
+  },
+  "shikikodomodc": {
+    "state": "done"
+  },
+  "sakurajyuji": {
+    "state": "done"
+  },
+  "shinseidenki": {
+    "state": "done"
+  },
+  "shinzankinosaki": {
+    "state": "done"
+  },
+  "shiroyamakumano-jinja": {
+    "state": "done"
+  },
+  "shiwakamotsu": {
+    "state": "done"
+  },
+  "shimohara-auto": {
+    "state": "done"
+  },
+  "shonan-cloud": {
+    "state": "done"
+  },
+  "shouroutei": {
+    "state": "done"
+  },
+  "showakogyo": {
+    "state": "done"
+  },
+  "shunsukesatake": {
+    "state": "done"
+  },
+  "shops": {
+    "state": "done"
+  },
+  "shoei": {
+    "state": "done"
+  },
+  "skkenshin": {
+    "state": "done"
+  },
+  "sisi": {
+    "state": "done"
+  },
+  "smarthr": {
+    "state": "done"
+  },
+  "smart-sou": {
+    "state": "done"
+  },
+  "sososya": {
+    "state": "done"
+  },
+  "spainryugaku": {
+    "state": "done"
+  },
+  "soto": {
+    "state": "done"
+  },
+  "splashtop": {
+    "state": "done"
+  },
+  "sr-comodo": {
+    "state": "done"
+  },
+  "speeda": {
+    "state": "done"
+  },
+  "sta": {
+    "state": "done"
+  },
+  "st-is": {
+    "state": "done"
+  },
+  "stmn": {
+    "state": "done"
+  },
+  "studio-career": {
+    "state": "done"
+  },
+  "studio-tremo": {
+    "state": "done"
+  },
+  "studio-business": {
+    "state": "done"
+  },
+  "studyinshizuoka": {
+    "state": "done"
+  },
+  "sugoyose": {
+    "state": "done"
+  },
+  "sun-hope": {
+    "state": "done"
+  },
+  "superstudio-careers": {
+    "state": "done"
+  },
+  "studio246": {
+    "state": "done"
+  },
+  "swc-aiwakai": {
+    "state": "done"
+  },
+  "sur": {
+    "state": "done"
+  },
+  "syodorin": {
+    "state": "done"
+  },
+  "surugabank-recruitment": {
+    "state": "done"
+  },
+  "takedacpta": {
+    "state": "done"
+  },
+  "takedahp": {
+    "state": "done"
+  },
+  "takizumi-recruit": {
+    "state": "done"
+  },
+  "talkme": {
+    "state": "done"
+  },
+  "tdb": {
+    "state": "done"
+  },
+  "takedahp-topic": {
+    "state": "done"
+  },
+  "tential-recruit": {
+    "state": "done"
+  },
+  "terradrone-aramco2023": {
+    "state": "done"
+  },
+  "teienartmuseum": {
+    "state": "done"
+  },
+  "tetopaint": {
+    "state": "done"
+  },
+  "theo": {
+    "state": "done"
+  },
+  "toketa": {
+    "state": "done"
+  },
+  "toei": {
+    "state": "done"
+  },
+  "tomatec": {
+    "state": "done"
+  },
+  "tono-jingisukan": {
+    "state": "done"
+  },
+  "tokyobouhan": {
+    "state": "done"
+  },
+  "toutoucoco": {
+    "state": "done"
+  },
+  "thepokemoncompany": {
+    "state": "done"
+  },
+  "toyoenergy": {
+    "state": "done"
+  },
+  "toyotabattery": {
+    "state": "done"
+  },
+  "tsk": {
+    "state": "done"
+  },
+  "typography": {
+    "state": "done"
+  },
+  "uchida-bs": {
+    "state": "done"
+  },
+  "uchidasteel": {
+    "state": "done"
+  },
+  "tsunoru": {
+    "state": "done"
+  },
+  "unbalance": {
+    "state": "done"
+  },
+  "tribalmedia": {
+    "state": "done"
+  },
+  "unico-jp": {
+    "state": "done"
+  },
+  "uedahifuka": {
+    "state": "done"
+  },
+  "values": {
+    "state": "done"
+  },
+  "uniformnet": {
+    "state": "done"
+  },
+  "ventureforjapan": {
+    "state": "done"
+  },
+  "venect": {
+    "state": "done"
+  },
+  "ventvert": {
+    "state": "done"
+  },
+  "vansay-kumamoto": {
+    "state": "done"
+  },
+  "webstaff": {
+    "state": "done"
+  },
+  "wallpapermagic": {
+    "state": "done"
+  },
+  "wannamanna": {
+    "state": "done"
+  },
+  "welzo": {
+    "state": "done"
+  },
+  "wellulu": {
+    "state": "done"
+  },
+  "winfieldjapan": {
+    "state": "done"
+  },
+  "worldftl": {
+    "state": "done"
+  },
+  "wtbl": {
+    "state": "done"
+  },
+  "wjetec": {
+    "state": "done"
+  },
+  "yadoriki": {
+    "state": "done"
+  },
+  "yahagijisyo": {
+    "state": "done"
+  },
+  "yagyushichiho": {
+    "state": "done"
+  },
+  "yamamotocoffeekan": {
+    "state": "done"
+  },
+  "yasudayuko": {
+    "state": "done"
+  },
+  "yorisoi": {
+    "state": "done"
+  },
+  "yuasakensetsu": {
+    "state": "done"
+  },
+  "yamacs": {
+    "state": "done"
+  },
+  "yamashin": {
+    "state": "done"
+  },
+  "yubihari": {
+    "state": "done"
+  },
+  "yusinkai": {
+    "state": "done"
+  },
+  "yuridenki": {
+    "state": "done"
+  },
+  "yukiyasu": {
+    "state": "done"
+  },
+  "zoff-recruit": {
+    "state": "done"
+  },
+  "45r": {
+    "state": "done"
+  },
   "6mi-dental": {
     "state": "done"
   },
   "aa-design-lab": {
+    "state": "done"
+  },
+  "accorder-recruit": {
+    "state": "done"
+  },
+  "acesinc": {
+    "state": "done"
+  },
+  "agatajapan-tokyo": {
+    "state": "done"
+  },
+  "agentgrow": {
+    "state": "done"
+  },
+  "ai-sols": {
+    "state": "done"
+  },
+  "akatsukisecurities": {
+    "state": "done"
+  },
+  "aksball": {
+    "state": "done"
+  },
+  "algoartis": {
+    "state": "done"
+  },
+  "alphadrive-corp": {
+    "state": "done"
+  },
+  "alphadrive": {
+    "state": "done"
+  },
+  "amano-heartful": {
+    "state": "done"
+  },
+  "amanohospital": {
+    "state": "done"
+  },
+  "amcare-recruit": {
+    "state": "done"
+  },
+  "aoaosapporo": {
+    "state": "done"
+  },
+  "arc-pds": {
+    "state": "done"
+  },
+  "arjuna": {
+    "state": "done"
+  },
+  "artscouncil-kanazawa": {
+    "state": "done"
+  },
+  "axxis": {
+    "state": "done"
+  },
+  "axxzia": {
+    "state": "done"
+  },
+  "baigie-recruit": {
+    "state": "done"
+  },
+  "baigie": {
+    "state": "done"
+  },
+  "bakuraku": {
+    "state": "done"
+  },
+  "beeworks": {
+    "state": "done"
+  },
+  "beforward-recruit": {
+    "state": "done"
+  },
+  "belmo": {
+    "state": "done"
+  },
+  "benners": {
+    "state": "done"
+  },
+  "bitbeans": {
+    "state": "done"
+  },
+  "bluedge": {
+    "state": "done"
+  },
+  "bonx-work": {
+    "state": "done"
+  },
+  "bousai-fukushi": {
+    "state": "done"
+  },
+  "bright": {
+    "state": "done"
+  },
+  "budounoonepiece": {
+    "state": "done"
+  },
+  "buyo": {
+    "state": "done"
+  },
+  "cacco": {
+    "state": "done"
+  },
+  "canary": {
+    "state": "done"
+  },
+  "carekura": {
+    "state": "done"
+  },
+  "careplus-staff": {
+    "state": "done"
+  },
+  "cartaholdings": {
+    "state": "done"
+  },
+  "ceremonyhall-shion": {
+    "state": "done"
+  },
+  "chagocoro": {
+    "state": "done"
+  },
+  "chiyodakohan-recruit": {
+    "state": "done"
+  },
+  "chugaitoen": {
+    "state": "done"
+  },
+  "cipicipi": {
+    "state": "done"
+  },
+  "classia": {
+    "state": "done"
+  },
+  "classmethod": {
+    "state": "done"
+  },
+  "clinicmorinosato": {
+    "state": "done"
+  },
+  "cloudsoft": {
+    "state": "done"
+  },
+  "corp-penmark": {
+    "state": "done"
+  },
+  "cosok": {
+    "state": "done"
+  },
+  "creatures": {
+    "state": "done"
+  },
+  "crowdloan": {
+    "state": "done"
+  },
+  "cuebic-newgrads": {
+    "state": "done"
+  },
+  "cure-vas": {
+    "state": "done"
+  },
+  "cygames": {
+    "state": "done"
+  },
+  "daigakumegane": {
+    "state": "done"
+  },
+  "daytolife": {
+    "state": "done"
+  },
+  "dazaifutenmangu": {
+    "state": "done"
+  },
+  "decencia": {
+    "state": "done"
+  },
+  "dely-careers": {
+    "state": "done"
+  },
+  "demaecan-recruit": {
     "state": "done"
   }
 }

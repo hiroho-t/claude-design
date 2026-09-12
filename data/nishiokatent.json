@@ -127,6 +127,57 @@
       }
     ]
   },
+  "headSpace": {
+    "20": {
+      "above": null,
+      "below": 250,
+      "n": 2
+    },
+    "22": {
+      "above": 324,
+      "below": 186,
+      "n": 4
+    },
+    "24": {
+      "above": 110,
+      "below": 324,
+      "n": 1
+    },
+    "26": {
+      "above": 80,
+      "below": null,
+      "n": 2
+    },
+    "40": {
+      "above": 12,
+      "below": 46,
+      "n": 10
+    },
+    "48": {
+      "above": 268,
+      "below": 36,
+      "n": 1
+    },
+    "52": {
+      "above": 392,
+      "below": 36,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 15,
+    "weight": "700",
+    "ls": 0.08,
+    "color": "#1955a6",
+    "latin": true,
+    "upper": true,
+    "gap": 12,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 40,
+    "n": 8,
+    "total": 10
+  },
   "radius": [
     {
       "px": 0,

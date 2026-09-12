@@ -92,6 +92,13 @@
   "headings": {
     "h2": [
       {
+        "fs": 16,
+        "weight": "500",
+        "lh": 1.2,
+        "ls": "0.040em",
+        "family": "Poppins"
+      },
+      {
         "fs": 14,
         "weight": "500",
         "lh": 1.5,
@@ -108,14 +115,47 @@
         "family": "Zen Kaku Gothic New"
       },
       {
-        "fs": 38,
+        "fs": 18,
         "weight": "500",
-        "lh": 1.6,
-        "ls": "-0.040em",
+        "lh": 1.5,
+        "ls": "0",
         "family": "Zen Kaku Gothic New"
       }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": null,
+      "below": 167,
+      "n": 1
+    },
+    "16": {
+      "above": 191,
+      "below": 90,
+      "n": 9
+    },
+    "18": {
+      "above": 41,
+      "below": 71,
+      "n": 6
+    },
+    "22": {
+      "above": 295,
+      "below": 12,
+      "n": 43
+    },
+    "38": {
+      "above": 289,
+      "below": 56,
+      "n": 1
+    },
+    "56": {
+      "above": 248,
+      "below": 144,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

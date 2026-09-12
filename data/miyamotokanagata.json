@@ -82,8 +82,30 @@
         "ls": "0.016em",
         "family": "Montserrat"
       }
+    ],
+    "h3": [
+      {
+        "fs": 20,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0.051em",
+        "family": "游ゴシック体"
+      }
     ]
   },
+  "headSpace": {
+    "20": {
+      "above": null,
+      "below": 167,
+      "n": 1
+    },
+    "61": {
+      "above": 270,
+      "below": 54,
+      "n": 6
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

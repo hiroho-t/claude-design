@@ -104,6 +104,24 @@
       }
     ]
   },
+  "headSpace": {
+    "10": {
+      "above": null,
+      "below": 28,
+      "n": 2
+    },
+    "24": {
+      "above": 193,
+      "below": null,
+      "n": 1
+    },
+    "40": {
+      "above": null,
+      "below": 20,
+      "n": 2
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
@@ -190,15 +208,15 @@
   "bp": [
     {
       "px": 1200,
-      "n": 23
+      "n": 24
     },
     {
       "px": 840,
-      "n": 160
+      "n": 161
     },
     {
       "px": 540,
-      "n": 19
+      "n": 20
     }
   ],
   "sections": [

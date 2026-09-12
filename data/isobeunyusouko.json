@@ -43,7 +43,7 @@
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 704
+      "w": 703
     },
     {
       "family": "Questrial",
@@ -69,7 +69,7 @@
     },
     {
       "px": 11,
-      "w": 274
+      "w": 273
     },
     {
       "px": 10,
@@ -82,7 +82,23 @@
     "ls": "0.040em"
   },
   "headings": {
+    "h2": [
+      {
+        "fs": 40,
+        "weight": "700",
+        "lh": 1.3,
+        "ls": "0.060em",
+        "family": "Noto Sans JP"
+      }
+    ],
     "h3": [
+      {
+        "fs": 27,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.040em",
+        "family": "Noto Sans JP"
+      },
       {
         "fs": 15,
         "weight": "500",
@@ -92,6 +108,24 @@
       }
     ]
   },
+  "headSpace": {
+    "15": {
+      "above": 41,
+      "below": 41,
+      "n": 2
+    },
+    "27": {
+      "above": 80,
+      "below": 366,
+      "n": 4
+    },
+    "40": {
+      "above": null,
+      "below": 110,
+      "n": 2
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

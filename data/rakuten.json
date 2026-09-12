@@ -6,7 +6,7 @@
   "bg": [
     {
       "hex": "#f6f6f6",
-      "pct": 86.6
+      "pct": 86.7
     },
     {
       "hex": "#ffffff",
@@ -22,46 +22,46 @@
     },
     {
       "hex": "#000000",
-      "pct": 1.7
+      "pct": 1.5
     }
   ],
   "ink": [
     {
       "hex": "#000000",
-      "pct": 74.7
+      "pct": 74.1
     },
     {
       "hex": "#ffffff",
-      "pct": 19.6
+      "pct": 20
     },
     {
       "hex": "#bf0000",
-      "pct": 2.2
+      "pct": 2.3
     },
     {
       "hex": "#636363",
-      "pct": 1.8
+      "pct": 1.9
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "RakutenSansJP2_W",
-      "w": 2409
+      "w": 2315
     },
     {
       "family": "RakutenSansUI",
-      "w": 46
+      "w": 44
     }
   ],
   "sizes": [
     {
       "px": 18,
-      "w": 260
+      "w": 238
     },
     {
       "px": 16,
-      "w": 147
+      "w": 152
     },
     {
       "px": 15,
@@ -69,7 +69,7 @@
     },
     {
       "px": 14,
-      "w": 1272
+      "w": 1195
     },
     {
       "px": 13,
@@ -119,6 +119,34 @@
       }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": 8,
+      "below": 36,
+      "n": 4
+    },
+    "16": {
+      "above": 10,
+      "below": 263,
+      "n": 4
+    },
+    "18": {
+      "above": 10,
+      "below": 179,
+      "n": 5
+    },
+    "22": {
+      "above": 170,
+      "below": 18,
+      "n": 2
+    },
+    "30": {
+      "above": 263,
+      "below": 20,
+      "n": 3
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
@@ -235,12 +263,12 @@
       "cols": 0,
       "img": true,
       "bg": null,
-      "align": "中央",
+      "align": "右",
       "media": "右",
       "split": "23:77"
     },
     {
-      "h": 3760,
+      "h": 3740,
       "full": true,
       "cols": 0,
       "img": true,
@@ -305,11 +333,11 @@
     "ratios": [
       {
         "ratio": "3:2",
-        "n": 11
+        "n": 12
       },
       {
         "ratio": "16:9",
-        "n": 4
+        "n": 3
       }
     ],
     "radius": [

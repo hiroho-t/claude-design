@@ -28,26 +28,26 @@
   "ink": [
     {
       "hex": "#000000",
-      "pct": 45.3
+      "pct": 44.6
     },
     {
       "hex": "#ffffff",
-      "pct": 37.4
+      "pct": 36.8
     },
     {
       "hex": "#111111",
-      "pct": 9.5
+      "pct": 10.9
     },
     {
       "hex": "#f73636",
-      "pct": 3
+      "pct": 2.9
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 679
+      "w": 692
     },
     {
       "family": "Quicksand",
@@ -65,7 +65,7 @@
     },
     {
       "px": 16,
-      "w": 493
+      "w": 507
     },
     {
       "px": 14,
@@ -73,7 +73,7 @@
     },
     {
       "px": 12,
-      "w": 29
+      "w": 28
     },
     {
       "px": 11,
@@ -86,7 +86,23 @@
     "ls": "0.080em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 11,
+        "weight": "700",
+        "lh": 1.55,
+        "ls": "0.040em",
+        "family": "Noto Sans JP"
+      }
+    ],
     "h2": [
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0.080em",
+        "family": "Noto Sans JP"
+      },
       {
         "fs": 30,
         "weight": "700",
@@ -94,8 +110,45 @@
         "ls": "0.200em",
         "family": "Noto Sans JP"
       }
+    ],
+    "h3": [
+      {
+        "fs": 16,
+        "weight": "500",
+        "lh": 1.57,
+        "ls": "0.080em",
+        "family": "Noto Sans JP"
+      }
     ]
   },
+  "headSpace": {
+    "11": {
+      "above": null,
+      "below": 60,
+      "n": 1
+    },
+    "16": {
+      "above": 49,
+      "below": 49,
+      "n": 3
+    },
+    "24": {
+      "above": 106,
+      "below": 301,
+      "n": 1
+    },
+    "28": {
+      "above": 317,
+      "below": 37,
+      "n": 1
+    },
+    "30": {
+      "above": 304,
+      "below": 32,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

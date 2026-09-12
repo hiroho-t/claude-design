@@ -65,7 +65,46 @@
     "lh": 3.4,
     "ls": "0.120em"
   },
-  "headings": {},
+  "headings": {
+    "h2": [
+      {
+        "fs": 22,
+        "weight": "400",
+        "lh": 1.6,
+        "ls": "0.080em",
+        "family": "YakuHanMPs_Noto"
+      },
+      {
+        "fs": 22,
+        "weight": "400",
+        "lh": 1.6,
+        "ls": "0.120em",
+        "family": "YakuHanMPs_Noto"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 18,
+        "weight": "400",
+        "lh": 1.8,
+        "ls": "0.080em",
+        "family": "YakuHanMPs_Noto"
+      }
+    ]
+  },
+  "headSpace": {
+    "18": {
+      "above": 24,
+      "below": 200,
+      "n": 3
+    },
+    "22": {
+      "above": 203,
+      "below": 60,
+      "n": 5
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

@@ -86,6 +86,31 @@
     "ls": "0.050em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 54,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0.013em",
+        "family": "Hiragino Sans"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 29,
+        "weight": "500",
+        "lh": 1.6,
+        "ls": "0.025em",
+        "family": "Hiragino Sans"
+      },
+      {
+        "fs": 32,
+        "weight": "500",
+        "lh": 1,
+        "ls": "0.022em",
+        "family": "Hiragino Sans"
+      }
+    ],
     "h3": [
       {
         "fs": 22,
@@ -93,8 +118,51 @@
         "lh": 2,
         "ls": "0.033em",
         "family": "Hiragino Sans"
+      },
+      {
+        "fs": 22,
+        "weight": "500",
+        "lh": 1,
+        "ls": "0.033em",
+        "family": "Hiragino Sans"
       }
     ]
+  },
+  "headSpace": {
+    "22": {
+      "above": 13,
+      "below": 112,
+      "n": 9
+    },
+    "29": {
+      "above": 36,
+      "below": 29,
+      "n": 5
+    },
+    "32": {
+      "above": 50,
+      "below": 58,
+      "n": 1
+    },
+    "54": {
+      "above": null,
+      "below": 55,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 13,
+    "weight": "500",
+    "ls": 0.057,
+    "color": "#5c6166",
+    "latin": false,
+    "upper": false,
+    "gap": 13,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 22,
+    "n": 6,
+    "total": 14
   },
   "radius": [
     {

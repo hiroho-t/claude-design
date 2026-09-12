@@ -78,6 +78,22 @@
     "ls": "0"
   },
   "headings": {
+    "h2": [
+      {
+        "fs": 22,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0",
+        "family": "Midashi Go MB31"
+      },
+      {
+        "fs": 23,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0.100em",
+        "family": "Midashi Go MB31"
+      }
+    ],
     "h3": [
       {
         "fs": 22,
@@ -87,30 +103,57 @@
         "family": "Midashi Go MB31"
       },
       {
-        "fs": 26,
+        "fs": 29,
         "weight": "700",
         "lh": 1,
         "ls": "0",
         "family": "Midashi Go MB31"
-      }
-    ],
-    "h2": [
-      {
-        "fs": 17,
-        "weight": "700",
-        "lh": 1,
-        "ls": "0",
-        "family": "Midashi Go MB31"
-      },
-      {
-        "fs": 40,
-        "weight": "700",
-        "lh": 1,
-        "ls": "0.080em",
-        "family": "europa"
       }
     ]
   },
+  "headSpace": {
+    "17": {
+      "above": null,
+      "below": 59,
+      "n": 1
+    },
+    "19": {
+      "above": 206,
+      "below": 24,
+      "n": 1
+    },
+    "22": {
+      "above": 268,
+      "below": 14,
+      "n": 3
+    },
+    "23": {
+      "above": null,
+      "below": 28,
+      "n": 1
+    },
+    "26": {
+      "above": null,
+      "below": 16,
+      "n": 2
+    },
+    "27": {
+      "above": null,
+      "below": 40,
+      "n": 1
+    },
+    "29": {
+      "above": 188,
+      "below": null,
+      "n": 2
+    },
+    "40": {
+      "above": 251,
+      "below": null,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 29,

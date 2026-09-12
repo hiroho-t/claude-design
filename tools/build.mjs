@@ -109,6 +109,8 @@ const spaceOf = (px, k) => { const v = hs[px] ?? hs[String(px)]; return v && v[k
 // ラベル付き見出しは、同じ形が2回以上出てきたときだけ「型」として扱う
 const lab = d.labelHead && d.labelHead.n >= 2 ? d.labelHead : null;
 const labGapDown = lab ? spaceOf(lab.headFs, 'below') : '—';
+// 見本の文字は、実測が英字ラベルか和文ラベルかに合わせる
+const labSample = lab && !lab.latin ? '私たちの仕事' : 'SERVICE';
 const mob = d.mobile || {};
 const uMain = usage.find(u => u.hex.toLowerCase() === main.hex.toLowerCase());
 const sidePad = mob.sidePad ?? 20;
@@ -232,10 +234,10 @@ ${lab ? `## 見出しのまとまり
 
 \`\`\`html
 ${lab.wrapped ? `<div class="c-head">
-  <p class="c-head__label">SERVICE</p>
+  <p class="c-head__label">${labSample}</p>
   <h2 class="c-head__title">サービス</h2>
 </div>
-<p>本文…</p>` : `<p class="c-head__label">SERVICE</p>
+<p>本文…</p>` : `<p class="c-head__label">${labSample}</p>
 <h2 class="c-head__title">サービス</h2>
 <p>本文…</p>`}
 \`\`\`
@@ -341,9 +343,9 @@ ${lab ? `\`\`\`html
 <section class="section">
   <div class="container">
 ${lab.wrapped ? `    <div class="c-head">
-      <p class="c-head__label">SERVICE</p>
+      <p class="c-head__label">${labSample}</p>
       <h2 class="c-head__title">サービス</h2>
-    </div>` : `    <p class="c-head__label">SERVICE</p>
+    </div>` : `    <p class="c-head__label">${labSample}</p>
     <h2 class="c-head__title">サービス</h2>`}
     <p>本文…</p>
   </div>

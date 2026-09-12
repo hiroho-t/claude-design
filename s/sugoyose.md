@@ -88,16 +88,19 @@
 - 欧文: Helvetica Neue
 - ウェイトは 700 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 38px | 1.53 |
-| 見出し | 36px | 1.36 |
-| 小見出し | 24px | 1 |
-| リード | 22px | 1.58 |
-| 本文 | 14px | 1.43 |
-| 補助 | 12px | — |
-| 注記 | 11px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 38px | 1.53 | 71px | 16px |
+| 見出し | 36px | 1.36 | 170px | 53px |
+| 小見出し | 24px | 1 | 85px | 31px |
+| リード | 22px | 1.58 | 210px | 266px |
+| 本文 | 14px | 1.43 | — | — |
+| 補助 | 12px | — | — | — |
+| 注記 | 11px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（120px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 14px・行間 1.43。
 
@@ -118,7 +121,7 @@
 | 本文 | 14px / 行間 1.43 | 10px / 行間 1 |
 | 見出し | 38px | 28px / 行間 1.36 |
 | セクションの上下余白 | 120px | 60px |
-| 左右の余白 | — | 15px |
+| 左右の余白 | — | 0px |
 | 並びの間隔 | 50px | 2px |
 
 - 本文は 14px → 10px、セクション余白は 120px → 60px（PCの50%）。
@@ -198,7 +201,7 @@ body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
 
 .section{ padding:var(--section-y) 0; --on:#e7caba }
-.container{ width:min(100% - 30px, var(--container)); margin-inline:auto }
+.container{ width:min(100% - 0px, var(--container)); margin-inline:auto }
 .read{ max-width:var(--read) }
 
 .hero{ min-height:460px; display:grid; align-content:center }
@@ -216,7 +219,7 @@ img{ width:100%; height:auto; border-radius:0px; aspect-ratio:1/1; object-fit:co
 
 @media (max-width:769px){
   :root{ --fs-body:10px; --section-y:60px; --gap:2px; }
-  .container{ width:calc(100% - 30px) }
+  .container{ width:calc(100% - 0px) }
 }
 ```
 

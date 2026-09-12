@@ -20,15 +20,15 @@
   "ink": [
     {
       "hex": "#212121",
-      "pct": 67.9
+      "pct": 67.8
     },
     {
       "hex": "#ffffff",
-      "pct": 18.8
+      "pct": 18.9
     },
     {
       "hex": "#616161",
-      "pct": 8.1
+      "pct": 8.2
     },
     {
       "hex": "#da3734",
@@ -39,7 +39,7 @@
   "fonts": [
     {
       "family": "LINE Seed JP",
-      "w": 1878
+      "w": 1871
     }
   ],
   "sizes": [
@@ -57,7 +57,7 @@
     },
     {
       "px": 16,
-      "w": 847
+      "w": 840
     },
     {
       "px": 14,
@@ -99,6 +99,32 @@
         "family": "LINE Seed JP"
       }
     ]
+  },
+  "headSpace": {
+    "32": {
+      "above": 10,
+      "below": 104,
+      "n": 3
+    },
+    "41": {
+      "above": 84,
+      "below": 30,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 16,
+    "weight": "700",
+    "ls": 0.03,
+    "color": "#da3734",
+    "latin": true,
+    "upper": false,
+    "gap": 10,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 32,
+    "n": 3,
+    "total": 3
   },
   "radius": [
     {

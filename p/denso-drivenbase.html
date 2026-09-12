@@ -202,7 +202,7 @@
         <td>9</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#64afb9"></i><code>#64afb9</code></th>
         <td>9</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#34915e"></i><code>#34915e</code></th>
         <td>9</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#333333"></i><code>#333333</code></th>
-        <td>0</td><td>39</td><td>0</td><td>0</td></tr><tr><th><i style="background:#666666"></i><code>#666666</code></th>
+        <td>0</td><td>41</td><td>0</td><td>0</td></tr><tr><th><i style="background:#666666"></i><code>#666666</code></th>
         <td>0</td><td>18</td><td>0</td><td>0</td></tr><tr><th><i style="background:#dc0032"></i><code>#dc0032</code></th>
         <td>35</td><td>2</td><td>0</td><td>1</td></tr>
     </table>
@@ -266,21 +266,21 @@
         <span class="secno">2</span>
         <span class="secname">1カラム・画像あり</span>
         <span class="sech">360px ・ #dc0032</span>
-      </div><div class="sec" style="height:79px;background:#ffffff;color:var(--ink);
+      </div><div class="sec" style="height:81px;background:#ffffff;color:var(--ink);
         border:1px solid var(--line)">
         <span class="secno">3</span>
         <span class="secname">6カラム・画像あり</span>
-        <span class="sech">1420px</span>
+        <span class="sech">1460px</span>
       </div><div class="sec" style="height:68px;background:#db0033;color:#fff;
         border:1px solid transparent">
         <span class="secno">4</span>
         <span class="secname">6カラム・画像あり</span>
         <span class="sech">1220px ・ #db0033</span>
-      </div><div class="sec" style="height:37px;background:#ffffff;color:var(--ink);
+      </div><div class="sec" style="height:38px;background:#ffffff;color:var(--ink);
         border:1px solid var(--line)">
         <span class="secno">5</span>
         <span class="secname">1カラム・画像あり</span>
-        <span class="sech">660px ・ #ffffff</span>
+        <span class="sech">680px ・ #ffffff</span>
       </div><div class="sec" style="height:67px;background:#ffffff;color:var(--ink);
         border:1px solid var(--line)">
         <span class="secno">6</span>
@@ -420,7 +420,7 @@
 | `#be50f1` | 9 | 0 | 0 | 0 |
 | `#64afb9` | 9 | 0 | 0 | 0 |
 | `#34915e` | 9 | 0 | 0 | 0 |
-| `#333333` | 0 | 39 | 0 | 0 |
+| `#333333` | 0 | 41 | 0 | 0 |
 | `#666666` | 0 | 18 | 0 | 0 |
 | `#dc0032` | 35 | 2 | 0 | 1 |
 
@@ -453,14 +453,17 @@
 - 欧文: denso-en
 - ウェイトは 443 / 400 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 28px | — |
-| 見出し | 24px | 1.6 |
-| 本文 | 18px | 1.6 |
-| 補助 | 16px | 1 |
-| 注記 | 14px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 28px | — | — | — |
+| 見出し | 24px | 1.6 | 305px | 68px |
+| 本文 | 18px | 1.6 | — | — |
+| 補助 | 16px | 1 | 68px | 16px |
+| 注記 | 14px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（92px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 18px・行間 1.6。
 
@@ -517,9 +520,9 @@
 |---|---|---|---|---|---|
 | 1 | 1080px | `#ffffff` | ヒーロー（画像） | — | 全幅 |
 | 2 | 360px | `#dc0032` | 1カラム・画像あり | — | 全面 |
-| 3 | 1420px | — | 6カラム・画像あり | 中央 | 見出しの下 |
+| 3 | 1460px | — | 6カラム・画像あり | 中央 | 見出しの下 |
 | 4 | 1220px | `#db0033` | 6カラム・画像あり | 中央 | 見出しの下 |
-| 5 | 660px | `#ffffff` | 1カラム・画像あり | 中央 | 見出しの下 |
+| 5 | 680px | `#ffffff` | 1カラム・画像あり | 中央 | 見出しの下 |
 | 6 | 1200px | — | 1カラム・画像あり | — | 全幅 |
 | 7 | 340px | `#dc0032` | 1カラム・画像あり | — | — |
 

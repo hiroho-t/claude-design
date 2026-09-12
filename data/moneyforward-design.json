@@ -20,26 +20,26 @@
   "ink": [
     {
       "hex": "#323232",
-      "pct": 91.2
+      "pct": 90.8
     },
     {
       "hex": "#ffffff",
-      "pct": 3.6
+      "pct": 3.8
     },
     {
       "hex": "#000000",
-      "pct": 2.9
+      "pct": 3.1
     },
     {
       "hex": "#a0a0a0",
-      "pct": 2.3
+      "pct": 2.4
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "Montserrat",
-      "w": 898
+      "w": 858
     },
     {
       "family": "Material Icons",
@@ -65,7 +65,7 @@
     },
     {
       "px": 15,
-      "w": 232
+      "w": 176
     },
     {
       "px": 14,
@@ -73,7 +73,7 @@
     },
     {
       "px": 12,
-      "w": 326
+      "w": 342
     }
   ],
   "body": {
@@ -92,6 +92,14 @@
       }
     ]
   },
+  "headSpace": {
+    "24": {
+      "above": 305,
+      "below": 235,
+      "n": 4
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
@@ -255,7 +263,7 @@
       "split": null
     },
     {
-      "h": 640,
+      "h": 620,
       "full": true,
       "cols": 3,
       "img": true,

@@ -6,7 +6,7 @@
   "bg": [
     {
       "hex": "#ffffff",
-      "pct": 62
+      "pct": 62.1
     },
     {
       "hex": "#f2f2f2",
@@ -28,15 +28,15 @@
   "ink": [
     {
       "hex": "#000a41",
-      "pct": 77.5
+      "pct": 76.9
     },
     {
       "hex": "#ffffff",
-      "pct": 17.8
+      "pct": 18.2
     },
     {
       "hex": "#e7242e",
-      "pct": 2.6
+      "pct": 2.7
     },
     {
       "hex": "#000000",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "ゴシックMB101 M JIS2004",
-      "w": 1172
+      "w": 1121
     },
     {
       "family": "ゴシックMB101 DB JIS2004",
@@ -55,7 +55,7 @@
     },
     {
       "family": "Roboto Condensed",
-      "w": 130
+      "w": 129
     },
     {
       "family": "Material Icons",
@@ -77,11 +77,11 @@
     },
     {
       "px": 16,
-      "w": 925
+      "w": 874
     },
     {
       "px": 15,
-      "w": 259
+      "w": 258
     },
     {
       "px": 13,
@@ -94,6 +94,24 @@
     "ls": "0"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 64,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0.050em",
+        "family": "ゴシックMB101 DB JIS2004"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 80,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0",
+        "family": "Roboto Condensed"
+      }
+    ],
     "h3": [
       {
         "fs": 20,
@@ -111,6 +129,29 @@
       }
     ]
   },
+  "headSpace": {
+    "20": {
+      "above": 49,
+      "below": 49,
+      "n": 2
+    },
+    "28": {
+      "above": 50,
+      "below": 50,
+      "n": 1
+    },
+    "64": {
+      "above": 102,
+      "below": null,
+      "n": 1
+    },
+    "80": {
+      "above": 283,
+      "below": 152,
+      "n": 4
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
@@ -341,7 +382,7 @@
       14,
       12
     ],
-    "pad": 24,
+    "pad": 80,
     "gap": 4,
     "sidePad": 5,
     "h1": null

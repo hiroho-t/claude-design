@@ -10,11 +10,11 @@
     },
     {
       "hex": "#f1f0eb",
-      "pct": 26.1
+      "pct": 26
     },
     {
       "hex": "#eac512",
-      "pct": 12.6
+      "pct": 12.7
     },
     {
       "hex": "#191f20",
@@ -28,30 +28,30 @@
   "ink": [
     {
       "hex": "#191f20",
-      "pct": 65.7
+      "pct": 66.1
     },
     {
       "hex": "#ffffff",
-      "pct": 11.3
+      "pct": 11.2
     },
     {
       "hex": "#a8aeaf",
-      "pct": 8.2
+      "pct": 8.1
     },
     {
       "hex": "#f1f0eb",
-      "pct": 7.1
+      "pct": 7
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 3115
+      "w": 3141
     },
     {
       "family": "Inter Tight",
-      "w": 583
+      "w": 585
     }
   ],
   "sizes": [
@@ -69,15 +69,15 @@
     },
     {
       "px": 14,
-      "w": 614
+      "w": 654
     },
     {
       "px": 13,
-      "w": 202
+      "w": 246
     },
     {
       "px": 10,
-      "w": 754
+      "w": 696
     }
   ],
   "body": {
@@ -118,6 +118,52 @@
         "family": "Noto Sans JP"
       }
     ]
+  },
+  "headSpace": {
+    "16": {
+      "above": 229,
+      "below": 15,
+      "n": 6
+    },
+    "19": {
+      "above": 12,
+      "below": 71,
+      "n": 1
+    },
+    "23": {
+      "above": 76,
+      "below": 29,
+      "n": 3
+    },
+    "32": {
+      "above": 0,
+      "below": 27,
+      "n": 3
+    },
+    "33": {
+      "above": 176,
+      "below": 37,
+      "n": 1
+    },
+    "53": {
+      "above": 0,
+      "below": 101,
+      "n": 5
+    }
+  },
+  "labelHead": {
+    "fs": 16,
+    "weight": "700",
+    "ls": 0.01,
+    "color": "#191f20",
+    "latin": false,
+    "upper": false,
+    "gap": 0,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 32,
+    "n": 3,
+    "total": 3
   },
   "radius": [
     {
@@ -415,16 +461,16 @@
       "pad": "2px 7px",
       "fs": 10,
       "border": "1px",
-      "n": 4
+      "n": 2
     }
   ],
   "images": {
-    "n": 44,
+    "n": 42,
     "fullBleed": 6,
     "ratios": [
       {
         "ratio": "1:1",
-        "n": 25
+        "n": 23
       },
       {
         "ratio": "21:9",
@@ -438,7 +484,7 @@
     "radius": [
       {
         "px": 0,
-        "n": 26
+        "n": 24
       },
       {
         "px": 10,
@@ -506,7 +552,7 @@
     {
       "hex": "#191f20",
       "面": 4,
-      "文字": 177,
+      "文字": 179,
       "枠": 6,
       "ボタン": 2
     },

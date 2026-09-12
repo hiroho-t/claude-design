@@ -86,6 +86,22 @@
     "ls": "0.030em"
   },
   "headings": {
+    "h2": [
+      {
+        "fs": 17,
+        "weight": "500",
+        "lh": 1.4,
+        "ls": "0.028em",
+        "family": "DM Sans"
+      },
+      {
+        "fs": 40,
+        "weight": "500",
+        "lh": 1.4,
+        "ls": "0.012em",
+        "family": "DM Sans"
+      }
+    ],
     "h3": [
       {
         "fs": 19,
@@ -96,6 +112,29 @@
       }
     ]
   },
+  "headSpace": {
+    "17": {
+      "above": null,
+      "below": 47,
+      "n": 2
+    },
+    "19": {
+      "above": 61,
+      "below": 26,
+      "n": 4
+    },
+    "40": {
+      "above": 250,
+      "below": 142,
+      "n": 1
+    },
+    "64": {
+      "above": null,
+      "below": 48,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

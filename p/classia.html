@@ -203,17 +203,17 @@
       <div><p>本文</p><strong>16px / 行間 null</strong><em>この見本は Noto Sans JP で表示しています</em></div>
     </div>
     <div class="sp">
-      <p class="spmeta">大見出し<span>38px</span></p>
+      <p class="spmeta">大見出し<span>52px / 行間 1.4</span></p>
+      <p class="spdemo" style="font-size:52px;line-height:1.4">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">見出し<span>38px</span></p>
       <p class="spdemo" style="font-size:38px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">見出し<span>36px / 行間 1.24</span></p>
+      <p class="spmeta">小見出し<span>36px / 行間 1.24</span></p>
       <p class="spdemo" style="font-size:36px;line-height:1.24">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">小見出し<span>34px</span></p>
+      <p class="spmeta">リード<span>34px</span></p>
       <p class="spdemo" style="font-size:34px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
-    </div><div class="sp">
-      <p class="spmeta">リード<span>32px / 行間 1.24</span></p>
-      <p class="spdemo" style="font-size:32px;line-height:1.24">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">本文<span>16px</span></p>
       <p class="spdemo" style="font-size:16px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
@@ -331,7 +331,7 @@
     <table>
       <tr><th></th><td>PC 1440px</td><td>スマホ 390px</td></tr>
       <tr><th>本文</th><td>16px</td><td>14px / 行間 1.7</td></tr>
-      <tr><th>見出し</th><td>38px</td><td>20px</td></tr>
+      <tr><th>見出し</th><td>52px</td><td>20px</td></tr>
       <tr><th>セクションの上下余白</th><td>92px</td><td>24px</td></tr>
       <tr><th>左右の余白</th><td>—</td><td>20px</td></tr>
       <tr><th>並びの間隔</th><td>7px</td><td>24px</td></tr>
@@ -440,16 +440,19 @@
 - 和文: UD新丸ゴ M JIS2004
 - ウェイトは 400 / 800 / 700 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 38px | — |
-| 見出し | 36px | 1.24 |
-| 小見出し | 34px | — |
-| リード | 32px | 1.24 |
-| 本文 | 16px | — |
-| 補助 | 15px | — |
-| 注記 | 14px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 52px | 1.4 | 340px | 61px |
+| 見出し | 38px | — | — | — |
+| 小見出し | 36px | 1.24 | 278px | — |
+| リード | 34px | — | 0px | — |
+| 本文 | 16px | — | — | — |
+| 補助 | 15px | — | — | — |
+| 注記 | 14px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（92px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 16px・行間 null。
 
@@ -468,7 +471,7 @@
 | | PC 1440px | スマホ 390px |
 |---|---|---|
 | 本文 | 16px | 14px / 行間 1.7 |
-| 見出し | 38px | 20px / 行間 1.4 |
+| 見出し | 52px | 20px / 行間 1.4 |
 | セクションの上下余白 | 92px | 24px |
 | 左右の余白 | — | 20px |
 | 並びの間隔 | 7px | 24px |

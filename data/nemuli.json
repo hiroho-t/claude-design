@@ -94,6 +94,15 @@
     "ls": "0.037em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 58,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "0.200em",
+        "family": "Archivo"
+      }
+    ],
     "h2": [
       {
         "fs": 60,
@@ -126,6 +135,62 @@
         "family": "Archivo"
       }
     ]
+  },
+  "headSpace": {
+    "16": {
+      "above": 207,
+      "below": 9,
+      "n": 11
+    },
+    "18": {
+      "above": 50,
+      "below": 32,
+      "n": 1
+    },
+    "30": {
+      "above": null,
+      "below": 50,
+      "n": 1
+    },
+    "32": {
+      "above": 235,
+      "below": 50,
+      "n": 7
+    },
+    "36": {
+      "above": null,
+      "below": 50,
+      "n": 2
+    },
+    "40": {
+      "above": 10,
+      "below": 60,
+      "n": 4
+    },
+    "58": {
+      "above": 324,
+      "below": 40,
+      "n": 1
+    },
+    "60": {
+      "above": 260,
+      "below": 10,
+      "n": 5
+    }
+  },
+  "labelHead": {
+    "fs": 20,
+    "weight": "500",
+    "ls": 0.05,
+    "color": "#345378",
+    "latin": false,
+    "upper": false,
+    "gap": 10,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 40,
+    "n": 2,
+    "total": 2
   },
   "radius": [
     {

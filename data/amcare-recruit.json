@@ -18,7 +18,7 @@
     },
     {
       "hex": "#fbf4da",
-      "pct": 0.8
+      "pct": 0.7
     },
     {
       "hex": "#fff2cc",
@@ -28,26 +28,26 @@
   "ink": [
     {
       "hex": "#30416b",
-      "pct": 30.2
+      "pct": 31.5
     },
     {
       "hex": "#2a2a2a",
-      "pct": 29.2
+      "pct": 27.4
     },
     {
       "hex": "#5a5a5a",
-      "pct": 20.4
+      "pct": 20.7
     },
     {
       "hex": "#ffffff",
-      "pct": 10.9
+      "pct": 11
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 2211
+      "w": 2162
     },
     {
       "family": "Jost",
@@ -61,7 +61,7 @@
     },
     {
       "px": 20,
-      "w": 596
+      "w": 614
     },
     {
       "px": 18,
@@ -69,7 +69,7 @@
     },
     {
       "px": 16,
-      "w": 659
+      "w": 596
     },
     {
       "px": 14,
@@ -77,13 +77,13 @@
     },
     {
       "px": 12,
-      "w": 133
+      "w": 129
     }
   ],
   "body": {
-    "fs": 16,
+    "fs": 20,
     "lh": 1.8,
-    "ls": "0.040em"
+    "ls": "0.032em"
   },
   "headings": {
     "h1": [
@@ -110,8 +110,67 @@
         "ls": "0.080em",
         "family": "Noto Sans JP"
       }
+    ],
+    "h3": [
+      {
+        "fs": 22,
+        "weight": "400",
+        "lh": 1.8,
+        "ls": "0.029em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 20,
+        "weight": "400",
+        "lh": 1.8,
+        "ls": "0.032em",
+        "family": "Noto Sans JP"
+      }
     ]
   },
+  "headSpace": {
+    "20": {
+      "above": 16,
+      "below": 243,
+      "n": 2
+    },
+    "22": {
+      "above": 64,
+      "below": 306,
+      "n": 4
+    },
+    "28": {
+      "above": 194,
+      "below": 212,
+      "n": 1
+    },
+    "36": {
+      "above": 247,
+      "below": 32,
+      "n": 1
+    },
+    "40": {
+      "above": 334,
+      "below": 64,
+      "n": 1
+    },
+    "45": {
+      "above": 133,
+      "below": 336,
+      "n": 1
+    },
+    "46": {
+      "above": 227,
+      "below": 56,
+      "n": 2
+    },
+    "56": {
+      "above": 188,
+      "below": 56,
+      "n": 5
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
@@ -333,7 +392,7 @@
       "split": "40:60"
     },
     {
-      "h": 660,
+      "h": 640,
       "full": true,
       "cols": 0,
       "img": false,

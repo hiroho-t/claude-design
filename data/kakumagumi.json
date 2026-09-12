@@ -82,6 +82,22 @@
     "ls": "0"
   },
   "headings": {
+    "h2": [
+      {
+        "fs": 13,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.121em",
+        "family": "FOT-筑紫Aオールド明朝 Pr6 M"
+      },
+      {
+        "fs": 38,
+        "weight": "400",
+        "lh": null,
+        "ls": "0.085em",
+        "family": "FOT-筑紫Aオールド明朝 Pr6 B"
+      }
+    ],
     "h3": [
       {
         "fs": 29,
@@ -90,24 +106,36 @@
         "ls": "0",
         "family": "FOT-筑紫Aオールド明朝 Pr6 B"
       }
-    ],
-    "h2": [
-      {
-        "fs": 38,
-        "weight": "400",
-        "lh": null,
-        "ls": "0.085em",
-        "family": "FOT-筑紫Aオールド明朝 Pr6 B"
-      },
-      {
-        "fs": 30,
-        "weight": "400",
-        "lh": null,
-        "ls": "0",
-        "family": "FOT-筑紫Aオールド明朝 Pr6 M"
-      }
     ]
   },
+  "headSpace": {
+    "13": {
+      "above": 266,
+      "below": 43,
+      "n": 4
+    },
+    "20": {
+      "above": null,
+      "below": 12,
+      "n": 1
+    },
+    "29": {
+      "above": 274,
+      "below": 43,
+      "n": 1
+    },
+    "30": {
+      "above": 242,
+      "below": 12,
+      "n": 1
+    },
+    "38": {
+      "above": null,
+      "below": 23,
+      "n": 3
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

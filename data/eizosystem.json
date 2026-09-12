@@ -110,9 +110,54 @@
         "lh": 1.1,
         "ls": "0.033em",
         "family": "NeueHaasUnicaPro-Medium"
+      },
+      {
+        "fs": 13,
+        "weight": "600",
+        "lh": 1,
+        "ls": "0.046em",
+        "family": "NeueHaasUnicaPro-Medium"
       }
     ]
   },
+  "headSpace": {
+    "13": {
+      "above": 135,
+      "below": 14,
+      "n": 1
+    },
+    "14": {
+      "above": 64,
+      "below": 47,
+      "n": 1
+    },
+    "16": {
+      "above": 297,
+      "below": 107,
+      "n": 2
+    },
+    "18": {
+      "above": 47,
+      "below": 135,
+      "n": 1
+    },
+    "20": {
+      "above": 154,
+      "below": 40,
+      "n": 2
+    },
+    "22": {
+      "above": 291,
+      "below": 93,
+      "n": 2
+    },
+    "48": {
+      "above": 253,
+      "below": 15,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
@@ -383,7 +428,7 @@
       10
     ],
     "pad": 68,
-    "gap": 6,
+    "gap": 21,
     "sidePad": 27,
     "h1": {
       "fs": 40,

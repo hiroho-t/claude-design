@@ -86,6 +86,31 @@
     "ls": "0"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 16,
+        "weight": "400",
+        "lh": null,
+        "ls": "0",
+        "family": "Noto Sans"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 25,
+        "weight": "600",
+        "lh": null,
+        "ls": "0.160em",
+        "family": "Noto Sans"
+      },
+      {
+        "fs": 27,
+        "weight": "600",
+        "lh": 1.77,
+        "ls": "0.120em",
+        "family": "Noto Sans"
+      }
+    ],
     "h3": [
       {
         "fs": 27,
@@ -95,13 +120,54 @@
         "family": "Noto Sans"
       },
       {
-        "fs": 27,
+        "fs": 23,
         "weight": "600",
-        "lh": null,
-        "ls": "0.120em",
+        "lh": 1.64,
+        "ls": "0.080em",
         "family": "Noto Sans"
       }
     ]
+  },
+  "headSpace": {
+    "16": {
+      "above": 12,
+      "below": 65,
+      "n": 1
+    },
+    "23": {
+      "above": null,
+      "below": 0,
+      "n": 1
+    },
+    "25": {
+      "above": 0,
+      "below": 171,
+      "n": 2
+    },
+    "27": {
+      "above": 84,
+      "below": 136,
+      "n": 2
+    },
+    "102": {
+      "above": 285,
+      "below": 0,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 13,
+    "weight": "700",
+    "ls": 0.12,
+    "color": "#03b2eb",
+    "latin": true,
+    "upper": true,
+    "gap": 0,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 25,
+    "n": 2,
+    "total": 2
   },
   "radius": [
     {

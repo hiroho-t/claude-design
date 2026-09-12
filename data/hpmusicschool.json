@@ -90,6 +90,15 @@
     "ls": "0"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 14,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Zen Maru Gothic"
+      }
+    ],
     "h2": [
       {
         "fs": 24,
@@ -132,6 +141,44 @@
       }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": null,
+      "below": 389,
+      "n": 1
+    },
+    "16": {
+      "above": 16,
+      "below": 8,
+      "n": 2
+    },
+    "18": {
+      "above": 45,
+      "below": 78,
+      "n": 2
+    },
+    "20": {
+      "above": 296,
+      "below": 4,
+      "n": 1
+    },
+    "24": {
+      "above": 296,
+      "below": 10,
+      "n": 50
+    },
+    "32": {
+      "above": 88,
+      "below": 8,
+      "n": 3
+    },
+    "40": {
+      "above": 126,
+      "below": 112,
+      "n": 4
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 16,

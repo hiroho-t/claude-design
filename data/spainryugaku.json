@@ -28,15 +28,15 @@
   "ink": [
     {
       "hex": "#08204d",
-      "pct": 48.6
+      "pct": 47.8
     },
     {
       "hex": "#333333",
-      "pct": 23.6
+      "pct": 24
     },
     {
       "hex": "#ffffff",
-      "pct": 15.1
+      "pct": 15.4
     },
     {
       "hex": "#fffaad",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 1419
+      "w": 1393
     },
     {
       "family": "REM",
@@ -65,7 +65,7 @@
     },
     {
       "px": 20,
-      "w": 130
+      "w": 128
     },
     {
       "px": 19,
@@ -73,7 +73,7 @@
     },
     {
       "px": 16,
-      "w": 873
+      "w": 849
     },
     {
       "px": 15,
@@ -90,6 +90,22 @@
     "ls": "0.050em"
   },
   "headings": {
+    "h2": [
+      {
+        "fs": 66,
+        "weight": "700",
+        "lh": 1.2,
+        "ls": "0.050em",
+        "family": "REM"
+      },
+      {
+        "fs": 29,
+        "weight": "400",
+        "lh": 1.2,
+        "ls": "0.033em",
+        "family": "Homemade Apple"
+      }
+    ],
     "h3": [
       {
         "fs": 19,
@@ -107,6 +123,44 @@
       }
     ]
   },
+  "headSpace": {
+    "16": {
+      "above": 101,
+      "below": 101,
+      "n": 4
+    },
+    "19": {
+      "above": 83,
+      "below": 83,
+      "n": 6
+    },
+    "20": {
+      "above": 332,
+      "below": 57,
+      "n": 5
+    },
+    "25": {
+      "above": 142,
+      "below": 339,
+      "n": 3
+    },
+    "29": {
+      "above": 150,
+      "below": 61,
+      "n": 1
+    },
+    "56": {
+      "above": 282,
+      "below": 169,
+      "n": 3
+    },
+    "66": {
+      "above": 291,
+      "below": 109,
+      "n": 5
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 5,
@@ -249,7 +303,7 @@
       "img": true,
       "bg": null,
       "align": null,
-      "media": "全面",
+      "media": "全幅",
       "split": null
     },
     {
@@ -364,15 +418,15 @@
   ],
   "images": {
     "n": 39,
-    "fullBleed": 7,
+    "fullBleed": 12,
     "ratios": [
       {
         "ratio": "1:1",
         "n": 15
       },
       {
-        "ratio": "3:4",
-        "n": 5
+        "ratio": "3:2",
+        "n": 7
       },
       {
         "ratio": "2:3",

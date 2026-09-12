@@ -28,34 +28,34 @@
   "ink": [
     {
       "hex": "#423e3e",
-      "pct": 80.9
+      "pct": 80.6
     },
     {
       "hex": "#0000f9",
-      "pct": 7.3
+      "pct": 7.4
     },
     {
       "hex": "#ffffff",
-      "pct": 4.9
+      "pct": 5
     },
     {
       "hex": "#b2b1b1",
-      "pct": 3.9
+      "pct": 4
     }
   ],
   "pageBg": "#fbfcf7",
   "fonts": [
     {
       "family": "あおとゴシック R",
-      "w": 1130
+      "w": 1126
     },
     {
       "family": "あおとゴシック M",
-      "w": 639
+      "w": 609
     },
     {
       "family": "Roboto",
-      "w": 144
+      "w": 145
     },
     {
       "family": "Material Symbols Outlined",
@@ -81,11 +81,11 @@
     },
     {
       "px": 15,
-      "w": 329
+      "w": 299
     },
     {
       "px": 14,
-      "w": 210
+      "w": 211
     }
   ],
   "body": {
@@ -126,6 +126,47 @@
         "family": "あおとゴシック R"
       }
     ]
+  },
+  "headSpace": {
+    "18": {
+      "above": 12,
+      "below": 65,
+      "n": 3
+    },
+    "20": {
+      "above": 12,
+      "below": 24,
+      "n": 3
+    },
+    "24": {
+      "above": 66,
+      "below": 30,
+      "n": 7
+    },
+    "26": {
+      "above": 32,
+      "below": 87,
+      "n": 4
+    },
+    "28": {
+      "above": 32,
+      "below": null,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 15,
+    "weight": "400",
+    "ls": 0.1,
+    "color": "#0000f9",
+    "latin": true,
+    "upper": true,
+    "gap": 32,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 26,
+    "n": 3,
+    "total": 5
   },
   "radius": [
     {
@@ -233,19 +274,19 @@
   "bp": [
     {
       "px": 1140,
-      "n": 77
+      "n": 78
     },
     {
       "px": 840,
-      "n": 114
+      "n": 115
     },
     {
       "px": 540,
-      "n": 145
+      "n": 146
     },
     {
       "px": 320,
-      "n": 55
+      "n": 56
     }
   ],
   "sections": [
@@ -360,13 +401,9 @@
   ],
   "chips": [],
   "images": {
-    "n": 15,
+    "n": 14,
     "fullBleed": 1,
     "ratios": [
-      {
-        "ratio": "1:1",
-        "n": 3
-      },
       {
         "ratio": "4:3",
         "n": 3
@@ -374,12 +411,16 @@
       {
         "ratio": "3:2",
         "n": 3
+      },
+      {
+        "ratio": "1:1",
+        "n": 2
       }
     ],
     "radius": [
       {
         "px": 0,
-        "n": 15
+        "n": 14
       }
     ]
   },
@@ -398,7 +439,7 @@
   },
   "mobile": {
     "bodyFs": 15,
-    "bodyLh": 1.4,
+    "bodyLh": 2,
     "sizes": [
       17,
       16,

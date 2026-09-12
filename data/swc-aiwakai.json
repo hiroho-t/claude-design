@@ -82,6 +82,22 @@
     "ls": "0.030em"
   },
   "headings": {
+    "h2": [
+      {
+        "fs": 22,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0",
+        "family": "Work Sans"
+      },
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 1.8,
+        "ls": "0",
+        "family": "游ゴシック体"
+      }
+    ],
     "h3": [
       {
         "fs": 20,
@@ -99,6 +115,29 @@
       }
     ]
   },
+  "headSpace": {
+    "16": {
+      "above": 69,
+      "below": 34,
+      "n": 2
+    },
+    "20": {
+      "above": 67,
+      "below": 67,
+      "n": 3
+    },
+    "22": {
+      "above": 370,
+      "below": 94,
+      "n": 3
+    },
+    "32": {
+      "above": null,
+      "below": 52,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 16,

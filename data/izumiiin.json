@@ -109,8 +109,30 @@
         "ls": "0",
         "family": "MFW-UDShinGoPr6-Medium"
       }
+    ],
+    "h3": [
+      {
+        "fs": 20,
+        "weight": "400",
+        "lh": 1.7,
+        "ls": "0.060em",
+        "family": "MFW-UDShinGoPr6-Medium"
+      }
     ]
   },
+  "headSpace": {
+    "18": {
+      "above": 0,
+      "below": 129,
+      "n": 3
+    },
+    "20": {
+      "above": null,
+      "below": 16,
+      "n": 3
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

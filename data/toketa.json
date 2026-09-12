@@ -82,6 +82,22 @@
     "ls": "0.160em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 18,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.180em",
+        "family": "FOT-筑紫A丸ゴシック Std B"
+      },
+      {
+        "fs": 22,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.100em",
+        "family": "FOT-筑紫A丸ゴシック Std B"
+      }
+    ],
     "h2": [
       {
         "fs": 24,
@@ -91,10 +107,10 @@
         "family": "FOT-筑紫A丸ゴシック Std B"
       },
       {
-        "fs": 30,
+        "fs": 26,
         "weight": "400",
         "lh": 1,
-        "ls": "0.150em",
+        "ls": "0.140em",
         "family": "FOT-筑紫A丸ゴシック Std B"
       }
     ],
@@ -107,14 +123,62 @@
         "family": "FOT-筑紫A丸ゴシック Std B"
       },
       {
-        "fs": 17,
+        "fs": 31,
         "weight": "400",
-        "lh": 1.6,
-        "ls": "0.160em",
-        "family": "FOT-筑紫A丸ゴシック Std B"
+        "lh": 1,
+        "ls": "0.120em",
+        "family": "FOT-筑紫A丸ゴシック Std E"
       }
     ]
   },
+  "headSpace": {
+    "17": {
+      "above": 196,
+      "below": 6,
+      "n": 1
+    },
+    "18": {
+      "above": 214,
+      "below": 6,
+      "n": 7
+    },
+    "22": {
+      "above": null,
+      "below": 60,
+      "n": 1
+    },
+    "24": {
+      "above": 60,
+      "below": 35,
+      "n": 1
+    },
+    "25": {
+      "above": null,
+      "below": 217,
+      "n": 1
+    },
+    "26": {
+      "above": 112,
+      "below": 40,
+      "n": 1
+    },
+    "27": {
+      "above": 262,
+      "below": null,
+      "n": 1
+    },
+    "30": {
+      "above": 210,
+      "below": 136,
+      "n": 2
+    },
+    "31": {
+      "above": 194,
+      "below": 28,
+      "n": 3
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

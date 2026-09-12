@@ -86,6 +86,22 @@
     "ls": "0"
   },
   "headings": {
+    "h3": [
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "Gothic MB101 Bold"
+      },
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0",
+        "family": "Gothic MB101 Bold"
+      }
+    ],
     "h4": [
       {
         "fs": 26,
@@ -103,24 +119,31 @@
         "ls": "0",
         "family": "Gothic MB101 Bold"
       }
-    ],
-    "h3": [
-      {
-        "fs": 32,
-        "weight": "700",
-        "lh": 1.6,
-        "ls": "0",
-        "family": "Gothic MB101 Bold"
-      },
-      {
-        "fs": 18,
-        "weight": "700",
-        "lh": 1.6,
-        "ls": "0",
-        "family": "Gothic MB101 Bold"
-      }
     ]
   },
+  "headSpace": {
+    "18": {
+      "above": 96,
+      "below": 16,
+      "n": 1
+    },
+    "26": {
+      "above": 104,
+      "below": 24,
+      "n": 1
+    },
+    "32": {
+      "above": 131,
+      "below": 132,
+      "n": 4
+    },
+    "38": {
+      "above": 282,
+      "below": 82,
+      "n": 2
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

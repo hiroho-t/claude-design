@@ -136,6 +136,39 @@
       }
     ]
   },
+  "headSpace": {
+    "12": {
+      "above": 16,
+      "below": 113,
+      "n": 5
+    },
+    "15": {
+      "above": 9,
+      "below": 33,
+      "n": 4
+    },
+    "16": {
+      "above": 62,
+      "below": 56,
+      "n": 1
+    },
+    "17": {
+      "above": 8,
+      "below": 33,
+      "n": 9
+    },
+    "20": {
+      "above": 6,
+      "below": 8,
+      "n": 2
+    },
+    "48": {
+      "above": 32,
+      "below": 40,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 4,

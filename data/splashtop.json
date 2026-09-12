@@ -113,6 +113,32 @@
       }
     ]
   },
+  "headSpace": {
+    "36": {
+      "above": 60,
+      "below": 208,
+      "n": 1
+    },
+    "40": {
+      "above": 16,
+      "below": 55,
+      "n": 6
+    }
+  },
+  "labelHead": {
+    "fs": 12,
+    "weight": "800",
+    "ls": 0.04,
+    "color": "#ff5500",
+    "latin": true,
+    "upper": true,
+    "gap": 16,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 40,
+    "n": 6,
+    "total": 6
+  },
   "radius": [
     {
       "px": 0,
@@ -280,8 +306,8 @@
       "img": true,
       "bg": null,
       "align": "中央",
-      "media": "見出しの下",
-      "split": null
+      "media": "右",
+      "split": "24:76"
     },
     {
       "h": 920,
@@ -378,10 +404,14 @@
     ]
   },
   "circles": {
-    "n": 1,
+    "n": 2,
     "sizes": [
       {
         "px": 24,
+        "n": 1
+      },
+      {
+        "px": 40,
         "n": 1
       }
     ]

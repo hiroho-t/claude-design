@@ -98,8 +98,25 @@
         "ls": "0.038em",
         "family": "ヒラギノ角ゴ ProN"
       }
+    ],
+    "h3": [
+      {
+        "fs": 17,
+        "weight": "700",
+        "lh": 1.63,
+        "ls": "0.036em",
+        "family": "ヒラギノ角ゴ ProN"
+      }
     ]
   },
+  "headSpace": {
+    "17": {
+      "above": 177,
+      "below": 0,
+      "n": 8
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

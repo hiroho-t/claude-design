@@ -17,7 +17,7 @@
   --main: #00afaf;
   --sub: #ffffff;
   --ink: #ffffff;
-  --ink-rev: #2b2d2b;
+  --ink-rev: #d5d8d5;
   --on: #00afaf;   /* いま乗っている面の上で使う線と文字の色。面ごとに入れ替える */
   --font-ja: "noto-sans-cjk-jp", sans-serif;
   --font-en: "noto-sans-cjk-jp", sans-serif;
@@ -42,7 +42,7 @@
 | 差し色 | `#8c8783` | 2% |
 | 差し色 | `#a6a6a6` | 2% |
 
-文字色は `#ffffff` / `#2b2d2b` / `#d5d8d5` / `#5c5f5c`。
+文字色は `#ffffff` / `#d5d8d5` / `#2b2d2b` / `#5c5f5c`。
 
 - 主色 `#00afaf` は塗りにはほとんど使わない。文字・線・小さな部品だけで効かせる。
 - 影は**使わない**（計測0件）。段差は色面の切り替えだけでつくる。
@@ -58,8 +58,8 @@
 | `#00afaf` | 7 | 0 | 0 | 5 |
 | `#008282` | 5 | 0 | 0 | 0 |
 | `#edf0ed` | 1 | 0 | 0 | 1 |
-| `#2b2d2b` | 0 | 60 | 0 | 0 |
 | `#d5d8d5` | 0 | 10 | 3 | 0 |
+| `#2b2d2b` | 0 | 60 | 0 | 0 |
 | `#5c5f5c` | 0 | 39 | 0 | 0 |
 
 - `#00afaf` は面として7箇所、文字として0箇所。塗りが主役。ボタンの地にも使う。
@@ -71,14 +71,14 @@
 | 面 | その上に置く線と文字 |
 |---|---|
 | `#ffffff` | `#00afaf` |
-| `#434643` | `#2b2d2b` |
+| `#434643` | `#d5d8d5` |
 
 ```css
 .section{ --on:#00afaf }                     /* 地の面 */
-.section--main{ background:var(--main); color:#2b2d2b; --on:#2b2d2b }
+.section--main{ background:var(--main); color:#d5d8d5; --on:#d5d8d5 }
 .card{ border:1px solid var(--on) }
-.btn--fill{ background:var(--main); color:#2b2d2b }
-.section--main .btn--fill{ background:#2b2d2b; color:var(--main) }   /* 主色の面では反転 */
+.btn--fill{ background:var(--main); color:#d5d8d5 }
+.section--main .btn--fill{ background:#d5d8d5; color:var(--main) }   /* 主色の面では反転 */
 ```
 
 - 実測した囲みの線は ``。ただしその囲みは `#edf0ed` の面の上にしか無かった。**別の面に置くときは、その面の反対色にする。**
@@ -87,18 +87,21 @@
 
 - 和文: noto-sans-cjk-jp
 - 欧文: noto-sans-cjk-jp
-- ウェイトは 700 / 500 が中心。太さで強弱をつけず、大きさで差をつける。
+- ウェイトは 700 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 160px | — |
-| 見出し | 40px | 1.5 |
-| 小見出し | 18px | — |
-| リード | 16px | 1.2 |
-| 本文 | 14px | 1.5 |
-| 補助 | 12px | — |
-| 注記 | 10px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 160px | — | 112px | 19px |
+| 見出し | 48px | 1.5 | 137px | 39px |
+| 小見出し | 40px | 1.5 | 220px | 32px |
+| リード | 32px | 1.5 | 68px | 40px |
+| 本文 | 14px | 1.5 | 127px | 13px |
+| 補助 | 12px | — | — | — |
+| 注記 | 10px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（96px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 14px・行間 1.75。
 
@@ -189,8 +192,8 @@
 
 ## 画像
 
-- 99枚使っている
-- 比率は 16:9（88枚）、3:2（9枚）、3:4（2枚）
+- 98枚使っている
+- 比率は 16:9（87枚）、3:2（9枚）、3:4（2枚）
 - 角丸 0px。切り抜かず四角のまま置く
 
 ## すぐ使う骨格
@@ -207,8 +210,8 @@ body{ background:var(--bg); color:var(--ink);
 
 .hero{ min-height:940px; display:grid; align-content:center }
 
-.section--main{ background:var(--main); color:#2b2d2b; --on:#2b2d2b }
-.section--main .btn--fill{ background:#2b2d2b; color:var(--main) }
+.section--main{ background:var(--main); color:#d5d8d5; --on:#d5d8d5 }
+.section--main .btn--fill{ background:#d5d8d5; color:var(--main) }
 .card{ background:#ffffff;
   border-radius:4px; padding:32px 32px }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

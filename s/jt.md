@@ -2,10 +2,10 @@
 
 - 出典: https://www.jti.co.jp/
 - 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
-- 印象: ゴシック / 余白ふつう / 角ばった / 色つき
+- 印象: ゴシック / 余白つまった / 角ばった / 色つき
 - 業種: コーポレートサイト／レスポンシブ／1カラム
 
-白地に `#06513b` を文字と細部だけで効かせる配色。影を使って浮かせる。本文 14px・行間 1.5、セクション間 96px。
+白地に `#06513b` を文字と細部だけで効かせる配色。影を使って浮かせる。本文 16px・行間 null、セクション間 32px。
 
 このファイルに書いてあるのは色と寸法だけ。文言・写真・ロゴは真似せず、自分で用意すること。
 
@@ -21,11 +21,11 @@
   --on: #06513b;   /* いま乗っている面の上で使う線と文字の色。面ごとに入れ替える */
   --font-ja: "Noto Sans JP", sans-serif;
   --font-en: "Cormorant Infant", sans-serif;
-  --fs-body: 14px;
-  --lh-body: 1.5;
+  --fs-body: 16px;
+  --lh-body: null;
   --container: 1328px;
   --read: 1332px;
-  --section-y: 96px;
+  --section-y: 32px;
   --gap: 16px;
   --radius: 0px;
 }
@@ -51,13 +51,13 @@
 
 | 色 | 面 | 文字 | 枠線 | ボタンの地 |
 |---|---|---|---|---|
-| `#ffffff` | 4 | 14 | 0 | 1 |
+| `#ffffff` | 4 | 15 | 0 | 1 |
 | `#f1f4f3` | 9 | 0 | 0 | 5 |
-| `#056740` | 6 | 3 | 0 | 3 |
+| `#056740` | 7 | 3 | 0 | 3 |
 | `#00ae68` | 4 | 3 | 0 | 3 |
 | `#033824` | 0 | 93 | 1 | 0 |
 | `#707f89` | 0 | 53 | 0 | 0 |
-| `#5c7364` | 0 | 14 | 0 | 0 |
+| `#5c7364` | 0 | 13 | 0 | 0 |
 
 - `#06513b` は
 
@@ -84,23 +84,25 @@
 - 欧文: Cormorant Infant
 - ウェイトは 400 / 500 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 42px | 1.45 |
-| 見出し | 24px | — |
-| 小見出し | 18px | 2 |
-| リード | 16px | — |
-| 本文 | 14px | 1.5 |
-| 補助 | 12px | — |
-| 注記 | 10px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 42px | 1.45 | 0px | 246px |
+| 見出し | 24px | 1.5 | — | 32px |
+| 小見出し | 18px | 2 | 130px | 122px |
+| 本文 | 16px | — | — | — |
+| 補助 | 14px | — | 94px | 61px |
+| 注記 | 12px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（32px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
-- 本文は 14px・行間 1.5。
+- 本文は 16px・行間 null。
 
 ## レイアウト
 
 - コンテンツ幅: 最大 1328px／読ませる段は 1332px
-- セクションの上下余白: 96 / 32 / 56 / 64px（基本は 96px）
+- セクションの上下余白: 32 / 96 / 56 / 64px（基本は 32px）
 - 並びの間隔: 4 / 8 / 16 / 24px
 - 角丸: 0px が基本。大きな面だけ 8px。中途半端な角丸を混ぜない
 - 画面幅の切り替え: 1119 / 1050 / 1049 / 768 / 767px
@@ -111,27 +113,27 @@
 
 | | PC 1440px | スマホ 390px |
 |---|---|---|
-| 本文 | 14px / 行間 1.5 | 12px / 行間 1.5 |
+| 本文 | 16px | 12px / 行間 1.5 |
 | 見出し | 42px | 37px / 行間 1.44 |
-| セクションの上下余白 | 96px | 24px |
+| セクションの上下余白 | 32px | 24px |
 | 左右の余白 | — | 25px |
 | 並びの間隔 | 16px | 4px |
 
-- 本文は 14px → 12px、セクション余白は 96px → 24px（PCの25%）。
+- 本文は 16px → 12px、セクション余白は 32px → 24px（PCの75%）。
 - 文字サイズの段は 20 / 19 / 15 / 12 / 10px。
 
 ## ボタン
 
 ```css
 .btn{
-  background: transparent; color: #033824;
-  border-radius: 0px; padding: 0px 0px; min-height: 84px;
-  font-size: 12px; font-weight: 700; letter-spacing: 0.6px;
-}
-.btn-sub{
   background: #f1f4f3; color: #033824;
   border: 1px;
   border-radius: 24px; padding: 0px 16px; min-height: 48px;
+  font-size: 12px; font-weight: 700; letter-spacing: 0.6px;
+}
+.btn-sub{
+  background: transparent; color: #033824;
+  border-radius: 0px; padding: 0px 0px; min-height: 48px;
   font-size: 12px; font-weight: 700; letter-spacing: 0.6px;
 }
 .btn-sub{
@@ -149,7 +151,7 @@
 |---|---|---|---|---|---|
 | 1 | 560px | — | ヒーロー（画像） | — | 全面 |
 | 2 | 400px | — | 3カラム・画像あり | 左 | 右（19:81） |
-| 3 | 720px | — | 1カラム・文字だけ | 左 | — |
+| 3 | 820px | — | 1カラム・文字だけ | 左 | — |
 | 4 | 1140px | — | 6カラム・画像あり | 左 | 全幅 |
 | 5 | 840px | — | 4カラム・画像あり | 左 | 見出しの下 |
 
@@ -200,8 +202,8 @@ body{ background:var(--bg); color:var(--ink);
 .section--main{ background:var(--main); color:#707f89; --on:#707f89 }
 .section--main .btn--fill{ background:#707f89; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;
-  background:transparent; color:#033824; border-radius:0px;
-  padding:0px 0px; min-height:84px;
+  background:#f1f4f3; color:#033824; border-radius:24px;
+  padding:0px 16px; min-height:48px;
   font-size:12px; font-weight:700 }
 
 img{ width:100%; height:auto; border-radius:0px; aspect-ratio:1/1; object-fit:cover }
@@ -217,7 +219,7 @@ img{ width:100%; height:auto; border-radius:0px; aspect-ratio:1/1; object-fit:co
 やること
 
 - 地は `#ffffff` のまま。主色 `#06513b` は文字と小さな部品にだけ使う。
-- 余白 96px と行間 1.5 を先に決めてから中身を入れる。
+- 余白 32px と行間 null を先に決めてから中身を入れる。
 - 画像は 1:1 に統一し、角丸は 0px。
 - 線と文字の色は面ごとに入れ替える（`--on` を面のクラスで上書きする）。固定色で書かない。
 
@@ -225,5 +227,5 @@ img{ width:100%; height:auto; border-radius:0px; aspect-ratio:1/1; object-fit:co
 
 - 指定以外の影を足さない。
 - 主色を大きな面に塗らない。塗った瞬間に別物になる。
-- 本文の行間を 1.5 より詰めない。角を丸めない。
+- 本文の行間を null より詰めない。角を丸めない。
 - 中途半端な角丸（0px と 8px 以外）を混ぜない。完全な円は別枠なので、消さなくてよい。

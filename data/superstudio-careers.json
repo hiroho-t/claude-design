@@ -22,7 +22,7 @@
     },
     {
       "hex": "#aab4c0",
-      "pct": 0
+      "pct": 0.1
     }
   ],
   "ink": [
@@ -89,7 +89,81 @@
     "lh": 2,
     "ls": "0"
   },
-  "headings": {},
+  "headings": {
+    "h3": [
+      {
+        "fs": 28,
+        "weight": "700",
+        "lh": 1.7,
+        "ls": "0.020em",
+        "family": "__Noto_Sans_JP_6e7a57"
+      },
+      {
+        "fs": 71,
+        "weight": "400",
+        "lh": 1.1,
+        "ls": "0.030em",
+        "family": "__avenirNextBold_182481"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 56,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.060em",
+        "family": "__avenirNextBold_182481"
+      },
+      {
+        "fs": 80,
+        "weight": "400",
+        "lh": 1.1,
+        "ls": "0.040em",
+        "family": "__avenirNextBold_182481"
+      }
+    ]
+  },
+  "headSpace": {
+    "28": {
+      "above": 206,
+      "below": 8,
+      "n": 8
+    },
+    "40": {
+      "above": null,
+      "below": 36,
+      "n": 1
+    },
+    "56": {
+      "above": 264,
+      "below": 120,
+      "n": 1
+    },
+    "71": {
+      "above": 12,
+      "below": 32,
+      "n": 1
+    },
+    "80": {
+      "above": 12,
+      "below": null,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 20,
+    "weight": "700",
+    "ls": 0,
+    "color": "#ffffff",
+    "latin": false,
+    "upper": false,
+    "gap": 12,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 71,
+    "n": 1,
+    "total": 2
+  },
   "radius": [
     {
       "px": 0,

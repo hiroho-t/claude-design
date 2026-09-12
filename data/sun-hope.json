@@ -107,6 +107,42 @@
       }
     ]
   },
+  "headSpace": {
+    "39": {
+      "above": 359,
+      "below": 91,
+      "n": 1
+    },
+    "45": {
+      "above": 187,
+      "below": 39,
+      "n": 2
+    },
+    "52": {
+      "above": null,
+      "below": 74,
+      "n": 3
+    },
+    "64": {
+      "above": 283,
+      "below": 23,
+      "n": 2
+    }
+  },
+  "labelHead": {
+    "fs": 20,
+    "weight": "600",
+    "ls": 0,
+    "color": "#999999",
+    "latin": true,
+    "upper": false,
+    "gap": 26,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 45,
+    "n": 1,
+    "total": 1
+  },
   "radius": [
     {
       "px": 0,

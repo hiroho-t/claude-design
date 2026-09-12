@@ -86,6 +86,15 @@
     "ls": "0.050em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 16,
+        "weight": "500",
+        "lh": 1.7,
+        "ls": "0.050em",
+        "family": "Noto Sans JP"
+      }
+    ],
     "h2": [
       {
         "fs": 46,
@@ -119,6 +128,34 @@
       }
     ]
   },
+  "headSpace": {
+    "24": {
+      "above": 101,
+      "below": 0,
+      "n": 1
+    },
+    "28": {
+      "above": 228,
+      "below": 30,
+      "n": 1
+    },
+    "46": {
+      "above": null,
+      "below": 20,
+      "n": 5
+    },
+    "48": {
+      "above": 249,
+      "below": 60,
+      "n": 1
+    },
+    "100": {
+      "above": 201,
+      "below": 228,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

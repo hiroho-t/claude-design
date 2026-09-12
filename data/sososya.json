@@ -20,22 +20,22 @@
   "ink": [
     {
       "hex": "#524b40",
-      "pct": 89.7
+      "pct": 89.9
     },
     {
       "hex": "#c6a648",
-      "pct": 9.1
+      "pct": 9
     },
     {
       "hex": "#ffffff",
-      "pct": 1.2
+      "pct": 1.1
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "FOT-筑紫Aオールド明朝 Pr6N M{pm}",
-      "w": 779
+      "w": 807
     },
     {
       "family": "acumin-pro-wide",
@@ -61,11 +61,11 @@
     },
     {
       "px": 15,
-      "w": 180
+      "w": 186
     },
     {
       "px": 13,
-      "w": 106
+      "w": 128
     },
     {
       "px": 12,
@@ -123,6 +123,62 @@
         "family": "acumin-pro-wide"
       }
     ]
+  },
+  "headSpace": {
+    "10": {
+      "above": 16,
+      "below": 57,
+      "n": 3
+    },
+    "11": {
+      "above": 57,
+      "below": 22,
+      "n": 3
+    },
+    "12": {
+      "above": 202,
+      "below": 15,
+      "n": 1
+    },
+    "13": {
+      "above": null,
+      "below": 83,
+      "n": 1
+    },
+    "15": {
+      "above": 249,
+      "below": 3,
+      "n": 5
+    },
+    "16": {
+      "above": 114,
+      "below": 6,
+      "n": 5
+    },
+    "17": {
+      "above": 22,
+      "below": 16,
+      "n": 5
+    },
+    "38": {
+      "above": 15,
+      "below": 31,
+      "n": 2
+    }
+  },
+  "labelHead": {
+    "fs": 15,
+    "weight": "400",
+    "ls": 0.25,
+    "color": "#524b40",
+    "latin": false,
+    "upper": false,
+    "gap": 25,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 38,
+    "n": 1,
+    "total": 1
   },
   "radius": [
     {

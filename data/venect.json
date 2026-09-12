@@ -88,6 +88,13 @@
   "headings": {
     "h2": [
       {
+        "fs": 80,
+        "weight": "700",
+        "lh": 1.3,
+        "ls": "0",
+        "family": "Butler"
+      },
+      {
         "fs": 14,
         "weight": "700",
         "lh": 1.75,
@@ -104,13 +111,63 @@
         "family": "neue-haas-unica"
       },
       {
-        "fs": 32,
+        "fs": 14,
         "weight": "700",
-        "lh": 1.5,
+        "lh": 1.75,
+        "ls": "0",
+        "family": "neue-haas-unica"
+      }
+    ],
+    "h4": [
+      {
+        "fs": 14,
+        "weight": "700",
+        "lh": 1.75,
         "ls": "0",
         "family": "neue-haas-unica"
       }
     ]
+  },
+  "headSpace": {
+    "14": {
+      "above": 152,
+      "below": 8,
+      "n": 6
+    },
+    "28": {
+      "above": 191,
+      "below": 152,
+      "n": 2
+    },
+    "32": {
+      "above": 4,
+      "below": 24,
+      "n": 1
+    },
+    "52": {
+      "above": 24,
+      "below": 16,
+      "n": 1
+    },
+    "80": {
+      "above": 16,
+      "below": 16,
+      "n": 3
+    }
+  },
+  "labelHead": {
+    "fs": 14,
+    "weight": "700",
+    "ls": 0,
+    "color": "#303ab2",
+    "latin": false,
+    "upper": false,
+    "gap": 16,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 80,
+    "n": 3,
+    "total": 5
   },
   "radius": [
     {

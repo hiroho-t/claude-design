@@ -39,7 +39,7 @@
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 2794
+      "w": 2795
     },
     {
       "family": "Roboto",
@@ -132,6 +132,47 @@
         "family": "Noto Sans JP"
       }
     ]
+  },
+  "headSpace": {
+    "20": {
+      "above": 109,
+      "below": 89,
+      "n": 4
+    },
+    "24": {
+      "above": 175,
+      "below": 16,
+      "n": 1
+    },
+    "32": {
+      "above": 0,
+      "below": 8,
+      "n": 6
+    },
+    "36": {
+      "above": 4,
+      "below": 13,
+      "n": 1
+    },
+    "48": {
+      "above": 8,
+      "below": 40,
+      "n": 5
+    }
+  },
+  "labelHead": {
+    "fs": 20,
+    "weight": "700",
+    "ls": 0.02,
+    "color": "#00100e",
+    "latin": true,
+    "upper": false,
+    "gap": 8,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 48,
+    "n": 4,
+    "total": 9
   },
   "radius": [
     {

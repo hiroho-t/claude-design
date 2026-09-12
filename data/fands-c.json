@@ -69,7 +69,34 @@
     "lh": 2.29,
     "ls": "0.040em"
   },
-  "headings": {},
+  "headings": {
+    "h1": [
+      {
+        "fs": 16,
+        "weight": "700",
+        "lh": 1.8,
+        "ls": "0",
+        "family": "游ゴシック体"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 16,
+        "weight": "400",
+        "lh": 1.8,
+        "ls": "0",
+        "family": "Inter"
+      }
+    ]
+  },
+  "headSpace": {
+    "16": {
+      "above": 182,
+      "below": 186,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

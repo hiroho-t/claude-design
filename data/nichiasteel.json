@@ -90,6 +90,22 @@
     "ls": "0.100em"
   },
   "headings": {
+    "h2": [
+      {
+        "fs": 16,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0.020em",
+        "family": "Din Demi"
+      },
+      {
+        "fs": 14,
+        "weight": "600",
+        "lh": 2,
+        "ls": "0.114em",
+        "family": "Hiragino Sans"
+      }
+    ],
     "h3": [
       {
         "fs": 16,
@@ -105,24 +121,41 @@
         "ls": "0.067em",
         "family": "Hiragino Sans"
       }
-    ],
-    "h2": [
-      {
-        "fs": 56,
-        "weight": "400",
-        "lh": 1.1,
-        "ls": "0",
-        "family": "Din Demi"
-      },
-      {
-        "fs": 16,
-        "weight": "600",
-        "lh": 2,
-        "ls": "0.099em",
-        "family": "Hiragino Sans"
-      }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": null,
+      "below": 44,
+      "n": 2
+    },
+    "16": {
+      "above": 27,
+      "below": 60,
+      "n": 11
+    },
+    "18": {
+      "above": 333,
+      "below": 282,
+      "n": 1
+    },
+    "23": {
+      "above": 75,
+      "below": 53,
+      "n": 8
+    },
+    "29": {
+      "above": 11,
+      "below": 22,
+      "n": 4
+    },
+    "56": {
+      "above": 374,
+      "below": 10,
+      "n": 2
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

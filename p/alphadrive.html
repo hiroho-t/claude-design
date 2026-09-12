@@ -197,13 +197,13 @@
     <table class="usage">
       <tr><th>色</th><td>面</td><td>文字</td><td>枠線</td><td>ボタンの地</td></tr>
       <tr><th><i style="background:#ffffff"></i><code>#ffffff</code></th>
-        <td>193</td><td>39</td><td>0</td><td>2</td></tr><tr><th><i style="background:#f1f3f5"></i><code>#f1f3f5</code></th>
+        <td>193</td><td>38</td><td>0</td><td>2</td></tr><tr><th><i style="background:#f1f3f5"></i><code>#f1f3f5</code></th>
         <td>11</td><td>0</td><td>0</td><td>8</td></tr><tr><th><i style="background:#005abe"></i><code>#005abe</code></th>
-        <td>28</td><td>2</td><td>0</td><td>6</td></tr><tr><th><i style="background:#000000"></i><code>#000000</code></th>
-        <td>1</td><td>454</td><td>5</td><td>0</td></tr><tr><th><i style="background:#919699"></i><code>#919699</code></th>
-        <td>0</td><td>986</td><td>0</td><td>0</td></tr>
+        <td>27</td><td>2</td><td>0</td><td>6</td></tr><tr><th><i style="background:#000000"></i><code>#000000</code></th>
+        <td>1</td><td>456</td><td>5</td><td>0</td></tr><tr><th><i style="background:#919699"></i><code>#919699</code></th>
+        <td>0</td><td>991</td><td>0</td><td>0</td></tr>
     </table>
-    <p class="note"><code>#005abe</code> は面として28箇所、文字として2箇所。塗りが主役。ボタンの地にも使う。</p>
+    <p class="note"><code>#005abe</code> は面として27箇所、文字として2箇所。塗りが主役。ボタンの地にも使う。</p>
   </section>
 
   <section>
@@ -223,8 +223,8 @@
       <p class="spmeta">小見出し<span>18px / 行間 1.5</span></p>
       <p class="spdemo" style="font-size:18px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">リード<span>16px</span></p>
-      <p class="spdemo" style="font-size:16px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">リード<span>16px / 行間 1.75</span></p>
+      <p class="spdemo" style="font-size:16px;line-height:1.75">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">本文<span>13px / 行間 1.5</span></p>
       <p class="spdemo" style="font-size:13px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
@@ -425,13 +425,13 @@
 
 | 色 | 面 | 文字 | 枠線 | ボタンの地 |
 |---|---|---|---|---|
-| `#ffffff` | 193 | 39 | 0 | 2 |
+| `#ffffff` | 193 | 38 | 0 | 2 |
 | `#f1f3f5` | 11 | 0 | 0 | 8 |
-| `#005abe` | 28 | 2 | 0 | 6 |
-| `#000000` | 1 | 454 | 5 | 0 |
-| `#919699` | 0 | 986 | 0 | 0 |
+| `#005abe` | 27 | 2 | 0 | 6 |
+| `#000000` | 1 | 456 | 5 | 0 |
+| `#919699` | 0 | 991 | 0 | 0 |
 
-- `#005abe` は面として28箇所、文字として2箇所。塗りが主役。ボタンの地にも使う。
+- `#005abe` は面として27箇所、文字として2箇所。塗りが主役。ボタンの地にも使う。
 
 ## 面と線の関係
 
@@ -459,15 +459,18 @@
 - 欧文: nimbus-sans
 - ウェイトは 400 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 240px | — |
-| 見出し | 80px | 1 |
-| 小見出し | 18px | 1.5 |
-| リード | 16px | — |
-| 本文 | 13px | 1.5 |
-| 補助 | 12px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 240px | — | — | — |
+| 見出し | 80px | 1 | — | 36px |
+| 小見出し | 18px | 1.5 | — | 32px |
+| リード | 16px | 1.75 | 32px | 32px |
+| 本文 | 13px | 1.5 | — | — |
+| 補助 | 12px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（40px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 13px・行間 1.5。
 

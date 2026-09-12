@@ -94,6 +94,22 @@
     "ls": "0.050em"
   },
   "headings": {
+    "h2": [
+      {
+        "fs": 77,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.011em",
+        "family": "Cormorant"
+      },
+      {
+        "fs": 20,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.042em",
+        "family": "Cormorant"
+      }
+    ],
     "h3": [
       {
         "fs": 40,
@@ -104,6 +120,29 @@
       }
     ]
   },
+  "headSpace": {
+    "12": {
+      "above": 75,
+      "below": 37,
+      "n": 1
+    },
+    "20": {
+      "above": 0,
+      "below": 120,
+      "n": 1
+    },
+    "40": {
+      "above": 241,
+      "below": 37,
+      "n": 4
+    },
+    "77": {
+      "above": 115,
+      "below": 84,
+      "n": 3
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 20,

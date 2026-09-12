@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "M PLUS 1p",
-      "w": 4822
+      "w": 4826
     },
     {
       "family": "Outfit",
@@ -69,7 +69,7 @@
     },
     {
       "px": 16,
-      "w": 3758
+      "w": 3762
     },
     {
       "px": 15,
@@ -88,18 +88,18 @@
   "headings": {
     "h2": [
       {
+        "fs": 14,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0",
+        "family": "Outfit"
+      },
+      {
         "fs": 66,
         "weight": "700",
         "lh": 1.4,
         "ls": "0",
         "family": "M PLUS 1p"
-      },
-      {
-        "fs": 41,
-        "weight": "700",
-        "lh": 2,
-        "ls": "0",
-        "family": "Outfit"
       }
     ],
     "h3": [
@@ -119,6 +119,39 @@
       }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": 178,
+      "below": 75,
+      "n": 4
+    },
+    "16": {
+      "above": 5,
+      "below": 0,
+      "n": 12
+    },
+    "25": {
+      "above": 103,
+      "below": 78,
+      "n": 6
+    },
+    "41": {
+      "above": 197,
+      "below": null,
+      "n": 1
+    },
+    "43": {
+      "above": 283,
+      "below": 51,
+      "n": 1
+    },
+    "66": {
+      "above": null,
+      "below": 334,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 26,

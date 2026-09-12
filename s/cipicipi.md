@@ -23,8 +23,8 @@
   --font-en: "classico-urw", sans-serif;
   --fs-body: 18px;
   --lh-body: 1.4;
-  --container: 864px;
-  --read: 904px;
+  --container: 1280px;
+  --read: 864px;
   --section-y: 200px;
   --gap: 50px;
   --radius: 0px;
@@ -53,12 +53,12 @@
 
 | 色 | 面 | 文字 | 枠線 | ボタンの地 |
 |---|---|---|---|---|
-| `#fdf9f7` | 11 | 65 | 9 | 0 |
+| `#ffffff` | 9 | 70 | 9 | 0 |
 | `#f9dce8` | 3 | 0 | 0 | 0 |
 | `#eda4bb` | 3 | 0 | 0 | 0 |
 | `#fedef5` | 3 | 0 | 0 | 0 |
 | `#ea7aa2` | 3 | 0 | 0 | 0 |
-| `#1c1c1c` | 0 | 45 | 3 | 0 |
+| `#1c1c1c` | 0 | 54 | 3 | 0 |
 
 - `#fbcce4` は
 
@@ -68,10 +68,10 @@
 
 | 面 | その上に置く線と文字 |
 |---|---|
-| `#fdf9f7` | `#fbcce4` |
 | `#ffffff`（地） | `#fbcce4` |
 | `#f9dce8` | `#fbcce4` |
 | `#eda4bb` | `#fbcce4` |
+| `#fedef5` | `#fbcce4` |
 
 ```css
 .section{ --on:#fbcce4 }                     /* 地の面 */
@@ -81,7 +81,7 @@
 .section--main .btn--fill{ background:#1c1c1c; color:var(--main) }   /* 主色の面では反転 */
 ```
 
-- 実測した囲みの線は ``。ただしその囲みは `#ffffff` の面の上にしか無かった。**別の面に置くときは、その面の反対色にする。**
+- 実測した囲みの線は `#f2f2f2`。ただしその囲みは `#fdf9f7` の面の上にしか無かった。**別の面に置くときは、その面の反対色にする。**
 
 ## 文字
 
@@ -89,23 +89,26 @@
 - 欧文: classico-urw
 - ウェイトは 400 / 500 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 30px | 1 |
-| 見出し | 26px | — |
-| 小見出し | 21px | 1.7 |
-| リード | 19px | — |
-| 本文 | 18px | 1 |
-| 補助 | 14px | — |
-| 注記 | 13px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 30px | 1 | 395px | 60px |
+| 見出し | 26px | — | 45px | 20px |
+| 小見出し | 21px | 1.7 | 7px | 17px |
+| リード | 19px | — | 60px | 10px |
+| 本文 | 18px | 1 | — | 20px |
+| 補助 | 16px | — | — | — |
+| 注記 | 14px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（200px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 18px・行間 1.4。
 
 ## レイアウト
 
-- コンテンツ幅: 最大 864px／読ませる段は 904px
-- セクションの上下余白: 200 / 40 / 80 / 96px（基本は 200px）
+- コンテンツ幅: 最大 1280px／読ませる段は 864px
+- セクションの上下余白: 200 / 40 / 80 / 116px（基本は 200px）
 - 並びの間隔: 12 / 30 / 50 / 60px
 - 角丸: 0px が基本。中途半端な角丸を混ぜない
 - 画面幅の切り替え: 1600 / 1281 / 1267 / 1024 / 1023px
@@ -123,7 +126,7 @@
 | 並びの間隔 | 50px | 10px |
 
 - 本文は 18px → 12px、セクション余白は 200px → 40px（PCの20%）。
-- 文字サイズの段は 21 / 15 / 12 / 11 / 10px。
+- 文字サイズの段は 15 / 13 / 12 / 11 / 10px。
 
 ## ボタン
 
@@ -135,9 +138,9 @@
   font-size: 14px; font-weight: 400; letter-spacing: 0.84px;
 }
 .btn-sub{
-  background: transparent; color: #ffffff;
-  border-radius: 0px; padding: 0px 0px; min-height: 82px;
-  font-size: 11px; font-weight: 400; letter-spacing: 0.66px;
+  background: #bc696b; color: #ffffff;
+  border-radius: 9999px; padding: 0px 0px; min-height: 56px;
+  font-size: 14px; font-weight: 400; letter-spacing: 0.56px;
 }
 .btn-sub{
   background: transparent; color: #ffffff;
@@ -163,33 +166,34 @@
 | 9 | 720px | — | 2カラム・画像あり | 右 | 左（33:67） |
 
 - 全9セクション、すべて全幅。中央に寄せた箱を積むのではなく、色面を全幅で切り替えながら進む。
-- 使われている面の色: `#fdf9f7`（4） / `#ffffff`（3） / `#f9dce8`（3） / `#eda4bb`（3）
+- 使われている面の色: `#ffffff`（6） / `#f9dce8`（3） / `#eda4bb`（3） / `#fedef5`（3）
 - 見出しは**全部左寄せ**。中央寄せは1つもない。
 - 2カラムの分け方は 33:67 / 33:67 / 33:67 / 33:67 / 33:67 / 33:67 / 33:67 / 33:67 / 33:67。半分ずつには割らない。
 
 
 ## 部品
 
-囲み（3箇所で同じ形）
+囲み（4箇所で同じ形）
 
 ```css
 .card{
-  background: #f9dce8;
+  background: #ffffff;
+  border: 1px solid var(--on);   /* 実測は #f2f2f2。面によって入れ替える */
   border-radius: 0px;
-  padding: 0px 0px;
+  padding: 72px 28px;
 }
 ```
 
 
 ## 丸いもの
 
-角丸は 0px だが、**完全な円は別扱い**で 5 箇所ある（40px×3、48px×1、56px×1）。
+角丸は 0px だが、**完全な円は別扱い**で 10 箇所ある（56px×6、40px×3、48px×1）。
 アイコンの地・点・装飾に使う。角を丸めないルールと、円のモチーフは両立する。
 
 ## 画像
 
-- 67枚使っている。うち 6 枚は画面いっぱいに置く
-- 比率は 1:1（60枚）、3:2（6枚）、3:4（1枚）
+- 20枚使っている。うち 6 枚は画面いっぱいに置く
+- 比率は 1:1（13枚）、3:2（6枚）、3:4（1枚）
 - 角丸 0px。切り抜かず四角のまま置く
 
 ## すぐ使う骨格
@@ -208,8 +212,8 @@ body{ background:var(--bg); color:var(--ink);
 
 .section--main{ background:var(--main); color:#1c1c1c; --on:#1c1c1c }
 .section--main .btn--fill{ background:#1c1c1c; color:var(--main) }
-.card{ background:#f9dce8;
-  border-radius:0px; padding:0px 0px }
+.card{ background:#ffffff; border:1px solid var(--on);
+  border-radius:0px; padding:72px 28px }
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:transparent; color:#ffffff; border-radius:9999px;
   padding:0px 0px; min-height:46px;
@@ -231,7 +235,7 @@ img{ width:100%; height:auto; border-radius:0px; aspect-ratio:1/1; object-fit:co
 - 余白 200px と行間 1.4 を先に決めてから中身を入れる。
 - 画像は 1:1 に統一し、角丸は 0px。
 - 線と文字の色は面ごとに入れ替える（`--on` を面のクラスで上書きする）。固定色で書かない。
-- 囲みは 塗り＋角丸 0px でそろえる。
+- 囲みは 1px の線＋角丸 0px でそろえる。
 
 やらないこと
 

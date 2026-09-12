@@ -82,6 +82,15 @@
     "ls": "0"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 15,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "YakuHanJP"
+      }
+    ],
     "h2": [
       {
         "fs": 26,
@@ -115,6 +124,49 @@
       }
     ]
   },
+  "headSpace": {
+    "15": {
+      "above": null,
+      "below": 59,
+      "n": 1
+    },
+    "21": {
+      "above": 164,
+      "below": 11,
+      "n": 4
+    },
+    "22": {
+      "above": 112,
+      "below": 229,
+      "n": 1
+    },
+    "23": {
+      "above": 321,
+      "below": 18,
+      "n": 1
+    },
+    "26": {
+      "above": 336,
+      "below": 33,
+      "n": 3
+    },
+    "28": {
+      "above": 92,
+      "below": 112,
+      "n": 1
+    },
+    "30": {
+      "above": 114,
+      "below": 15,
+      "n": 2
+    },
+    "40": {
+      "above": 223,
+      "below": 79,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

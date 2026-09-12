@@ -6,7 +6,7 @@
   "bg": [
     {
       "hex": "#faf9f4",
-      "pct": 59.2
+      "pct": 59.3
     },
     {
       "hex": "#ffffff",
@@ -28,7 +28,7 @@
   "ink": [
     {
       "hex": "#002144",
-      "pct": 67.6
+      "pct": 67.8
     },
     {
       "hex": "#ffffff",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "A1ゴシック M JIS2004",
-      "w": 1025
+      "w": 1040
     },
     {
       "family": "A1ゴシック L JIS2004",
@@ -65,7 +65,7 @@
   "sizes": [
     {
       "px": 18,
-      "w": 586
+      "w": 601
     },
     {
       "px": 16,
@@ -144,6 +144,67 @@
         "family": "A1ゴシック M JIS2004"
       }
     ]
+  },
+  "headSpace": {
+    "14": {
+      "above": 4,
+      "below": 61,
+      "n": 5
+    },
+    "18": {
+      "above": 12,
+      "below": 4,
+      "n": 8
+    },
+    "20": {
+      "above": 96,
+      "below": 37,
+      "n": 7
+    },
+    "22": {
+      "above": 147,
+      "below": 10,
+      "n": 3
+    },
+    "24": {
+      "above": 235,
+      "below": 61,
+      "n": 2
+    },
+    "26": {
+      "above": 117,
+      "below": 20,
+      "n": 6
+    },
+    "32": {
+      "above": 2,
+      "below": 302,
+      "n": 2
+    },
+    "36": {
+      "above": 10,
+      "below": 10,
+      "n": 1
+    },
+    "40": {
+      "above": 10,
+      "below": 117,
+      "n": 2
+    }
+  },
+  "labelHead": {
+    "fs": 22,
+    "weight": "700",
+    "ls": 0.05,
+    "color": "#e13009",
+    "latin": true,
+    "upper": false,
+    "gap": 10,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 40,
+    "n": 2,
+    "total": 3
   },
   "radius": [
     {

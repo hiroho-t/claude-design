@@ -120,6 +120,32 @@
       }
     ]
   },
+  "headSpace": {
+    "16": {
+      "above": 20,
+      "below": 239,
+      "n": 7
+    },
+    "34": {
+      "above": 20,
+      "below": 20,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 18,
+    "weight": "600",
+    "ls": 0.25,
+    "color": "#f45d46",
+    "latin": false,
+    "upper": false,
+    "gap": 20,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 34,
+    "n": 1,
+    "total": 1
+  },
   "radius": [
     {
       "px": 0,

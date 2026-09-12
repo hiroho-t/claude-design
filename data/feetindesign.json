@@ -39,7 +39,7 @@
   "fonts": [
     {
       "family": "tke",
-      "w": 2992
+      "w": 2997
     }
   ],
   "sizes": [
@@ -53,7 +53,7 @@
     },
     {
       "px": 15,
-      "w": 203
+      "w": 208
     },
     {
       "px": 14,
@@ -74,19 +74,35 @@
     "ls": "0.023em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 116,
+        "weight": "300",
+        "lh": 0.92,
+        "ls": "0.003em",
+        "family": "tke"
+      },
+      {
+        "fs": 20,
+        "weight": "300",
+        "lh": 1.6,
+        "ls": "0.015em",
+        "family": "tke"
+      }
+    ],
     "h2": [
+      {
+        "fs": 100,
+        "weight": "300",
+        "lh": 1,
+        "ls": "0.003em",
+        "family": "tke"
+      },
       {
         "fs": 25,
         "weight": "300",
         "lh": 1.6,
         "ls": "0.012em",
-        "family": "tke"
-      },
-      {
-        "fs": 84,
-        "weight": "300",
-        "lh": 1,
-        "ls": "0.004em",
         "family": "tke"
       }
     ],
@@ -106,6 +122,92 @@
         "family": "tke"
       }
     ]
+  },
+  "headSpace": {
+    "14": {
+      "above": 316,
+      "below": 30,
+      "n": 4
+    },
+    "15": {
+      "above": null,
+      "below": 22,
+      "n": 1
+    },
+    "16": {
+      "above": 308,
+      "below": 12,
+      "n": 9
+    },
+    "20": {
+      "above": null,
+      "below": 14,
+      "n": 1
+    },
+    "21": {
+      "above": 138,
+      "below": 22,
+      "n": 1
+    },
+    "25": {
+      "above": 27,
+      "below": 19,
+      "n": 1
+    },
+    "30": {
+      "above": 180,
+      "below": 30,
+      "n": 1
+    },
+    "58": {
+      "above": 228,
+      "below": 175,
+      "n": 2
+    },
+    "62": {
+      "above": null,
+      "below": 40,
+      "n": 1
+    },
+    "64": {
+      "above": 399,
+      "below": 22,
+      "n": 3
+    },
+    "72": {
+      "above": null,
+      "below": 52,
+      "n": 1
+    },
+    "84": {
+      "above": 22,
+      "below": 23,
+      "n": 2
+    },
+    "100": {
+      "above": 229,
+      "below": 34,
+      "n": 2
+    },
+    "116": {
+      "above": 201,
+      "below": 20,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 21,
+    "weight": "300",
+    "ls": 0.014,
+    "color": "#ffffff",
+    "latin": true,
+    "upper": false,
+    "gap": 22,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 84,
+    "n": 1,
+    "total": 1
   },
   "radius": [
     {

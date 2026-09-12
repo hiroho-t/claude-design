@@ -82,6 +82,31 @@
     "ls": "0"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 104,
+        "weight": "800",
+        "lh": 1.2,
+        "ls": "0.010em",
+        "family": "LINE Seed JP"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 48,
+        "weight": "700",
+        "lh": 1.75,
+        "ls": "0.030em",
+        "family": "LINE Seed JP"
+      },
+      {
+        "fs": 32,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "LINE Seed JP"
+      }
+    ],
     "h3": [
       {
         "fs": 18,
@@ -97,23 +122,63 @@
         "ls": "0",
         "family": "LINE Seed JP"
       }
-    ],
-    "h2": [
-      {
-        "fs": 48,
-        "weight": "700",
-        "lh": 1.75,
-        "ls": "0.030em",
-        "family": "LINE Seed JP"
-      },
-      {
-        "fs": 35,
-        "weight": "700",
-        "lh": 1.7,
-        "ls": "0.050em",
-        "family": "LINE Seed JP"
-      }
     ]
+  },
+  "headSpace": {
+    "16": {
+      "above": 73,
+      "below": 24,
+      "n": 11
+    },
+    "18": {
+      "above": 283,
+      "below": 170,
+      "n": 3
+    },
+    "20": {
+      "above": 280,
+      "below": 8,
+      "n": 4
+    },
+    "24": {
+      "above": 378,
+      "below": 316,
+      "n": 1
+    },
+    "32": {
+      "above": 20,
+      "below": 258,
+      "n": 1
+    },
+    "35": {
+      "above": 80,
+      "below": 21,
+      "n": 1
+    },
+    "48": {
+      "above": 8,
+      "below": 56,
+      "n": 4
+    },
+    "104": {
+      "above": null,
+      "below": 20,
+      "n": 2
+    }
+  },
+  "labelHead": {
+    "fs": 20,
+    "weight": "700",
+    "ls": 0,
+    "color": "#da3734",
+    "latin": true,
+    "upper": false,
+    "gap": 8,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 48,
+    "n": 4,
+    "total": 4
   },
   "radius": [
     {

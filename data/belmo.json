@@ -90,6 +90,38 @@
     "ls": null
   },
   "headings": {
+    "h2": [
+      {
+        "fs": 50,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0",
+        "family": "DM Sans"
+      },
+      {
+        "fs": 20,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0",
+        "family": "DM Sans"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 18,
+        "weight": "700",
+        "lh": 1.3,
+        "ls": "0.020em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 30,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0",
+        "family": "DM Sans"
+      }
+    ],
     "h4": [
       {
         "fs": 15,
@@ -99,6 +131,52 @@
         "family": "Noto Sans JP"
       }
     ]
+  },
+  "headSpace": {
+    "15": {
+      "above": 44,
+      "below": 18,
+      "n": 2
+    },
+    "18": {
+      "above": 7,
+      "below": 78,
+      "n": 4
+    },
+    "20": {
+      "above": 15,
+      "below": null,
+      "n": 1
+    },
+    "25": {
+      "above": 5,
+      "below": 42,
+      "n": 2
+    },
+    "30": {
+      "above": 14,
+      "below": 282,
+      "n": 3
+    },
+    "50": {
+      "above": 314,
+      "below": 239,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 11,
+    "weight": "400",
+    "ls": 0,
+    "color": "#95b300",
+    "latin": false,
+    "upper": false,
+    "gap": 7,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 18,
+    "n": 4,
+    "total": 7
   },
   "radius": [
     {

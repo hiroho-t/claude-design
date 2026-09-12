@@ -88,19 +88,57 @@
 
 - 和文: Shippori Mincho
 - 欧文: Shippori Mincho
-- ウェイトは 500 が中心。太さで強弱をつけず、大きさで差をつける。
+- ウェイトは 500 / 400 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 20px | — |
-| 見出し | 18px | 1.28 |
-| 小見出し | 16px | — |
-| リード | 15px | — |
-| 本文 | 13px | 1.5 |
-| 補助 | 12px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 40px | 1.3 | 21px | 23px |
+| 見出し | 20px | — | — | — |
+| 小見出し | 18px | 1.28 | 332px | 248px |
+| リード | 16px | — | — | — |
+| 本文 | 13px | 1.5 | — | — |
+| 補助 | 12px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（120px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 13px・行間 1.5。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 4箇所で使っている。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 和文 |
+| ラベルのサイズ | 18px |
+| ラベルの字間 | 0.044em |
+| ラベルの太さ | 400 |
+| ラベルの色 | `#ffffff` |
+| ラベル → 見出し | 21px |
+| 見出しのサイズ | 40px |
+| 見出し → 本文 | 23px |
+| 罫線 | なし |
+| 組み方 | **箱で包む**（ラベルと見出しが1つのまとまりとして囲まれている） |
+
+```html
+<div class="c-head">
+  <p class="c-head__label">私たちの仕事</p>
+  <h2 class="c-head__title">サービス</h2>
+</div>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:18px; font-weight:400; letter-spacing:0.044em;
+  color:#ffffff }
+.c-head__title{ font-size:40px; line-height:1.3; margin-top:21px }
+.c-head + *{ margin-top:23px }
+```
+
+- ラベルと見出しの間は 21px、見出しと本文の間は 23px。ラベル側を詰めて、本文側を空ける。この差がまとまりを作っている。
 
 ## レイアウト
 
@@ -117,7 +155,7 @@
 | | PC 1440px | スマホ 390px |
 |---|---|---|
 | 本文 | 13px / 行間 1.5 | 13px / 行間 1.5 |
-| 見出し | 20px | 13px / 行間 1.38 |
+| 見出し | 40px | 13px / 行間 1.38 |
 | セクションの上下余白 | 120px | 32px |
 | 左右の余白 | — | 20px |
 | 並びの間隔 | 7px | 4px |
@@ -153,7 +191,7 @@
 | # | 高さ | 地色 | 中身 | 見出し | 画像 |
 |---|---|---|---|---|---|
 | 1 | 240px | `#d6be98` | ヒーロー | — | — |
-| 2 | 480px | — | 4カラム・画像あり | 左 | 見出しの下 |
+| 2 | 500px | — | 4カラム・画像あり | 左 | 見出しの下 |
 | 3 | 2120px | — | 3カラム・画像あり | — | 全面 |
 | 4 | 2620px | — | 1カラム・画像あり | 中央 | — |
 | 5 | 1760px | — | 4カラム・画像あり | 中央 | 見出しの下 |
@@ -186,6 +224,18 @@
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
 
+```html
+<section class="section">
+  <div class="container">
+    <div class="c-head">
+      <p class="c-head__label">私たちの仕事</p>
+      <h2 class="c-head__title">サービス</h2>
+    </div>
+    <p>本文…</p>
+  </div>
+</section>
+```
+
 ```css
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
@@ -195,6 +245,9 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:240px; display:grid; align-content:center }
+.c-head__label{ font-size:18px; font-weight:400; letter-spacing:0.044em; color:#ffffff }
+.c-head__title{ font-size:40px; line-height:1.3; margin-top:21px }
+.c-head + *{ margin-top:23px }
 
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }

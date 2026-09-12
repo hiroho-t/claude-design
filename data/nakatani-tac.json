@@ -78,23 +78,79 @@
     "ls": "0"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 16,
+        "weight": "600",
+        "lh": 1,
+        "ls": "0",
+        "family": "Outfit"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 17,
+        "weight": "100",
+        "lh": 1,
+        "ls": "0",
+        "family": "Outfit"
+      }
+    ],
     "h3": [
       {
         "fs": 15,
-        "weight": "400",
-        "lh": 1.4,
+        "weight": "300",
+        "lh": 1.1,
         "ls": "0",
         "family": "Outfit"
       },
       {
-        "fs": 67,
-        "weight": "100",
+        "fs": 14,
+        "weight": "350",
         "lh": 1.2,
         "ls": "0",
         "family": "Outfit"
       }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": 171,
+      "below": 16,
+      "n": 5
+    },
+    "15": {
+      "above": 319,
+      "below": 276,
+      "n": 2
+    },
+    "16": {
+      "above": null,
+      "below": 105,
+      "n": 1
+    },
+    "17": {
+      "above": 219,
+      "below": 31,
+      "n": 1
+    },
+    "18": {
+      "above": null,
+      "below": 16,
+      "n": 2
+    },
+    "21": {
+      "above": 74,
+      "below": 16,
+      "n": 3
+    },
+    "90": {
+      "above": 137,
+      "below": 39,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

@@ -17,7 +17,7 @@
   --main: #2e5a65;
   --sub: #f0e6db;
   --ink: #ffffff;
-  --ink-rev: #2e5a65;
+  --ink-rev: #444444;
   --on: #2e5a65;   /* いま乗っている面の上で使う線と文字の色。面ごとに入れ替える */
   --font-ja: "Zen Kaku Gothic New", sans-serif;
   --font-en: "Cinzel", sans-serif;
@@ -42,7 +42,7 @@
 | 差し色 | `#343e3f` | 4% |
 | 差し色 | `#12110f` | 2.4% |
 
-文字色は `#ffffff` / `#2e5a65` / `#444444` / `#ba915b`。
+文字色は `#ffffff` / `#444444` / `#2e5a65` / `#ba915b`。
 
 - 主色 `#2e5a65` は塗りにはほとんど使わない。文字・線・小さな部品だけで効かせる。
 - 影は`rgba(0, 0, 0, 0.1) 0px 0px 5px 0px`。
@@ -59,8 +59,8 @@
 | `#e2ceb8` | 1 | 0 | 0 | 0 |
 | `#d0b08d` | 1 | 0 | 0 | 0 |
 | `#ffffff` | 5 | 60 | 6 | 0 |
-| `#2e5a65` | 1 | 5 | 0 | 1 |
 | `#444444` | 1 | 8 | 0 | 0 |
+| `#2e5a65` | 1 | 5 | 0 | 1 |
 | `#ba915b` | 4 | 6 | 0 | 3 |
 
 - `#2e5a65` は文字色として5箇所で使うのが主。面としては1箇所しかないが、1枚が大きく画面の0%を占める。ボタンの地にも使う。
@@ -78,28 +78,31 @@
 
 ```css
 .section{ --on:#2e5a65 }                     /* 地の面 */
-.section--main{ background:var(--main); color:#2e5a65; --on:#2e5a65 }
+.section--main{ background:var(--main); color:#444444; --on:#444444 }
 .card{ border:1px solid var(--on) }
-.btn--fill{ background:var(--main); color:#2e5a65 }
-.section--main .btn--fill{ background:#2e5a65; color:var(--main) }   /* 主色の面では反転 */
+.btn--fill{ background:var(--main); color:#444444 }
+.section--main .btn--fill{ background:#444444; color:var(--main) }   /* 主色の面では反転 */
 ```
 
 ## 文字
 
 - 和文: Zen Kaku Gothic New
 - 欧文: Cinzel
-- ウェイトは 500 / 400 が中心。太さで強弱をつけず、大きさで差をつける。
+- ウェイトは 400 / 500 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 100px | 1 |
-| 見出し | 60px | 1.3 |
-| 小見出し | 18px | — |
-| リード | 16px | — |
-| 本文 | 15px | 2 |
-| 補助 | 13px | — |
-| 注記 | 12px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 60px | 1.3 | 283px | 0px |
+| 見出し | 18px | — | — | — |
+| 小見出し | 17px | 1 | 37px | 58px |
+| リード | 16px | — | — | — |
+| 本文 | 15px | 2 | 47px | 56px |
+| 補助 | 13px | — | — | — |
+| 注記 | 12px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（104px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 15px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -118,7 +121,7 @@
 | | PC 1440px | スマホ 390px |
 |---|---|---|
 | 本文 | 15px / 行間 2 | 15px / 行間 2 |
-| 見出し | 100px | 15px / 行間 2 |
+| 見出し | 60px | 15px / 行間 2 |
 | セクションの上下余白 | 104px | 24px |
 | 左右の余白 | — | 21px |
 | 並びの間隔 | 20px | 6px |
@@ -154,7 +157,7 @@
 | # | 高さ | 地色 | 中身 | 見出し | 画像 |
 |---|---|---|---|---|---|
 | 1 | 1060px | — | ヒーロー（画像） | — | 全幅 |
-| 2 | 640px | — | 1カラム・画像あり | 中央 | 見出しの下 |
+| 2 | 780px | — | 1カラム・画像あり | 中央 | 見出しの下 |
 | 3 | 680px | `#f0e6db` | 2カラム・画像あり | 中央 | 見出しの下 |
 | 4 | 900px | `#f2f2f2` | 1カラム・画像あり | 左 | 右（35:65） |
 | 5 | 660px | — | 1カラム・画像あり | 中央 | 全幅 |
@@ -200,8 +203,8 @@ body{ background:var(--bg); color:var(--ink);
 
 .hero{ min-height:1060px; display:grid; align-content:center }
 
-.section--main{ background:var(--main); color:#2e5a65; --on:#2e5a65 }
-.section--main .btn--fill{ background:#2e5a65; color:var(--main) }
+.section--main{ background:var(--main); color:#444444; --on:#444444 }
+.section--main .btn--fill{ background:#444444; color:var(--main) }
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:transparent; color:#ffffff; border-radius:0px;
   padding:35px 0px; min-height:85px;

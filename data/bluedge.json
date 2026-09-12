@@ -87,10 +87,10 @@
         "family": "Noto Sans JP"
       },
       {
-        "fs": 16,
-        "weight": "600",
+        "fs": 18,
+        "weight": "700",
         "lh": 1,
-        "ls": "0.061em",
+        "ls": "0.055em",
         "family": "Noto Sans JP"
       }
     ],
@@ -101,9 +101,39 @@
         "lh": 1.6,
         "ls": "0.055em",
         "family": "Noto Sans JP"
+      },
+      {
+        "fs": 36,
+        "weight": "700",
+        "lh": 1.8,
+        "ls": "0.066em",
+        "family": "Noto Sans JP"
       }
     ]
   },
+  "headSpace": {
+    "16": {
+      "above": 137,
+      "below": 16,
+      "n": 6
+    },
+    "18": {
+      "above": 198,
+      "below": 9,
+      "n": 14
+    },
+    "28": {
+      "above": 227,
+      "below": 73,
+      "n": 1
+    },
+    "36": {
+      "above": 274,
+      "below": 25,
+      "n": 2
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 12,

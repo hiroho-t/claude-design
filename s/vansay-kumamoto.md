@@ -85,20 +85,56 @@
 
 - 和文: Noto Sans JP
 - 欧文: MFW-UDShinMGoPro-DeBold
-- ウェイトは 600 が中心。太さで強弱をつけず、大きさで差をつける。
+- ウェイトは 600 / 700 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 24px | 1.4 |
-| 見出し | 22px | 1.7 |
-| 小見出し | 20px | 1.4 |
-| リード | 18px | — |
-| 本文 | 14px | 1.7 |
-| 補助 | 13px | — |
-| 注記 | 12px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 48px | 1 | 206px | 24px |
+| 見出し | 24px | 1.4 | 136px | 55px |
+| 小見出し | 22px | 1.7 | 215px | 12px |
+| リード | 20px | 1.4 | 136px | 8px |
+| 本文 | 14px | 1.7 | 181px | 190px |
+| 補助 | 13px | — | 69px | 124px |
+| 注記 | 12px | — | 306px | 28px |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（48px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 14px・行間 1.7。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 11箇所で使っている。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 和文 |
+| ラベルのサイズ | 10px |
+| ラベルの字間 | 0.06em |
+| ラベルの太さ | 700 |
+| ラベルの色 | `#ffffff` |
+| ラベル → 見出し | 10px |
+| 見出しのサイズ | 18px |
+| 見出し → 本文 | 229px |
+| 罫線 | なし |
+| 組み方 | **兄弟に並べる**（囲まずに続けて置く） |
+
+```html
+<p class="c-head__label">私たちの仕事</p>
+<h2 class="c-head__title">サービス</h2>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:10px; font-weight:700; letter-spacing:0.06em;
+  color:#ffffff }
+.c-head__title{ font-size:18px; line-height:1.7; margin-top:10px }
+.c-head__title + *{ margin-top:229px }
+```
+
+- ラベルと見出しの間は 10px、見出しと本文の間は 229px。ラベル側を詰めて、本文側を空ける。この差がまとまりを作っている。
 
 ## レイアウト
 
@@ -115,7 +151,7 @@
 | | PC 1440px | スマホ 390px |
 |---|---|---|
 | 本文 | 14px / 行間 1.7 | 13px / 行間 1.9 |
-| 見出し | 24px | 12px / 行間 1.4 |
+| 見出し | 48px | 12px / 行間 1.4 |
 | セクションの上下余白 | 48px | 24px |
 | 左右の余白 | — | 20px |
 | 並びの間隔 | 16px | 12px |
@@ -202,6 +238,16 @@
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
 
+```html
+<section class="section">
+  <div class="container">
+    <p class="c-head__label">私たちの仕事</p>
+    <h2 class="c-head__title">サービス</h2>
+    <p>本文…</p>
+  </div>
+</section>
+```
+
 ```css
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
@@ -211,6 +257,9 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:740px; display:grid; align-content:center }
+.c-head__label{ font-size:10px; font-weight:700; letter-spacing:0.06em; color:#ffffff }
+.c-head__title{ font-size:18px; line-height:1.7; margin-top:10px }
+.c-head__title + *{ margin-top:229px }
 
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }

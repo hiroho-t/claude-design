@@ -200,9 +200,9 @@
         <td>2</td><td>22</td><td>0</td><td>1</td></tr><tr><th><i style="background:#262626"></i><code>#262626</code></th>
         <td>2</td><td>20</td><td>0</td><td>2</td></tr><tr><th><i style="background:#faf7ef"></i><code>#faf7ef</code></th>
         <td>2</td><td>0</td><td>0</td><td>2</td></tr><tr><th><i style="background:#e5e5e5"></i><code>#e5e5e5</code></th>
-        <td>0</td><td>0</td><td>2</td><td>0</td></tr><tr><th><i style="background:#000000"></i><code>#000000</code></th>
-        <td>0</td><td>1</td><td>0</td><td>0</td></tr><tr><th><i style="background:#e91e24"></i><code>#e91e24</code></th>
-        <td>0</td><td>4</td><td>0</td><td>0</td></tr>
+        <td>0</td><td>0</td><td>2</td><td>0</td></tr><tr><th><i style="background:#e91e24"></i><code>#e91e24</code></th>
+        <td>0</td><td>4</td><td>0</td><td>0</td></tr><tr><th><i style="background:#000000"></i><code>#000000</code></th>
+        <td>0</td><td>1</td><td>0</td><td>0</td></tr>
     </table>
     <p class="note"><code>#e91e24</code> は文字色として4箇所で使うのが主。面としては0箇所しかないが、1枚が大きく画面の0%を占める。ボタンの地には使っていない。</p>
   </section>
@@ -215,7 +215,7 @@
       <div><p>本文</p><strong>16px / 行間 1.15</strong><em>この見本は Noto Sans JP で表示しています</em></div>
     </div>
     <div class="sp">
-      <p class="spmeta">大見出し<span>54px</span></p>
+      <p class="spmeta">大見出し<span>54px / 行間 1.5</span></p>
       <p class="spdemo" style="font-size:54px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">見出し<span>40px / 行間 1.8</span></p>
@@ -394,8 +394,8 @@
 | `#262626` | 2 | 20 | 0 | 2 |
 | `#faf7ef` | 2 | 0 | 0 | 2 |
 | `#e5e5e5` | 0 | 0 | 2 | 0 |
-| `#000000` | 0 | 1 | 0 | 0 |
 | `#e91e24` | 0 | 4 | 0 | 0 |
+| `#000000` | 0 | 1 | 0 | 0 |
 
 - `#e91e24` は文字色として4箇所で使うのが主。面としては0箇所しかないが、1枚が大きく画面の0%を占める。ボタンの地には使っていない。
 
@@ -405,16 +405,19 @@
 - 欧文: Montserrat
 - ウェイトは 600 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 54px | — |
-| 見出し | 40px | 1.8 |
-| 小見出し | 28px | 1.8 |
-| リード | 18px | — |
-| 本文 | 16px | 1.15 |
-| 補助 | 14px | — |
-| 注記 | 12px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 54px | 1.5 | — | 7px |
+| 見出し | 40px | 1.8 | 16px | 64px |
+| 小見出し | 28px | 1.8 | 16px | 32px |
+| リード | 18px | — | — | — |
+| 本文 | 16px | 1.15 | — | — |
+| 補助 | 14px | — | — | — |
+| 注記 | 12px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（80px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 16px・行間 1.15。
 

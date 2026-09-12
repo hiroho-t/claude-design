@@ -92,18 +92,18 @@
   "headings": {
     "h2": [
       {
+        "fs": 12,
+        "weight": "400",
+        "lh": 1.65,
+        "ls": "0.050em",
+        "family": "Noto Sans JP"
+      },
+      {
         "fs": 24,
         "weight": "400",
         "lh": 1.65,
         "ls": "0.050em",
         "family": "Optima"
-      },
-      {
-        "fs": 20,
-        "weight": "700",
-        "lh": 1.65,
-        "ls": "0.050em",
-        "family": "Noto Sans JP"
       }
     ],
     "h3": [
@@ -123,6 +123,29 @@
       }
     ]
   },
+  "headSpace": {
+    "12": {
+      "above": 344,
+      "below": 4,
+      "n": 19
+    },
+    "15": {
+      "above": null,
+      "below": 16,
+      "n": 2
+    },
+    "20": {
+      "above": 50,
+      "below": 43,
+      "n": 5
+    },
+    "24": {
+      "above": 213,
+      "below": 362,
+      "n": 7
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

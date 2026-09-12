@@ -90,18 +90,55 @@
 - 欧文: YakuHanJPs
 - ウェイトは 700 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 36px | — |
-| 見出し | 30px | 1.4 |
-| 小見出し | 17px | 1.5 |
-| リード | 16px | — |
-| 本文 | 15px | 1.4 |
-| 補助 | 14px | 1.55 |
-| 注記 | 13px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 36px | 1.4 | 256px | 30px |
+| 見出し | 30px | 1.4 | 138px | 24px |
+| 小見出し | 17px | 1.5 | 6px | 24px |
+| リード | 16px | — | 126px | 10px |
+| 本文 | 15px | 1.4 | 261px | 12px |
+| 補助 | 14px | 1.55 | 265px | 12px |
+| 注記 | 13px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（120px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 15px・行間 1.4。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 2箇所で使っている。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 和文 |
+| ラベルのサイズ | 12px |
+| ラベルの字間 | 0（詰めも空けもしない） |
+| ラベルの太さ | 700 |
+| ラベルの色 | `#848484` |
+| ラベル → 見出し | 3px |
+| 見出しのサイズ | 28px |
+| 見出し → 本文 | 42px |
+| 罫線 | 2px（見出しの下） |
+| 組み方 | **兄弟に並べる**（囲まずに続けて置く） |
+
+```html
+<p class="c-head__label">私たちの仕事</p>
+<h2 class="c-head__title">サービス</h2>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:12px; font-weight:700;
+  color:#848484 }
+.c-head__title{ font-size:28px; margin-top:3px;
+  padding-bottom:8px; border-bottom:2px solid var(--on) }
+.c-head__title + *{ margin-top:42px }
+```
+
+- ラベルと見出しの間は 3px、見出しと本文の間は 42px。ラベル側を詰めて、本文側を空ける。この差がまとまりを作っている。
 
 ## レイアウト
 
@@ -195,13 +232,23 @@
 
 ## 画像
 
-- 266枚使っている
+- 270枚使っている
 - 比率は 16:9（31枚）、1:1（18枚）、3:4（9枚）
 - 角丸 0px。切り抜かず四角のまま置く
 
 ## すぐ使う骨格
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
+
+```html
+<section class="section">
+  <div class="container">
+    <p class="c-head__label">私たちの仕事</p>
+    <h2 class="c-head__title">サービス</h2>
+    <p>本文…</p>
+  </div>
+</section>
+```
 
 ```css
 body{ background:var(--bg); color:var(--ink);
@@ -212,6 +259,9 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:9140px; display:grid; align-content:center }
+.c-head__label{ font-size:12px; font-weight:700; color:#848484 }
+.c-head__title{ font-size:28px; margin-top:3px }
+.c-head__title + *{ margin-top:42px }
 
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }

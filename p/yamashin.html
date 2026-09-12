@@ -409,17 +409,55 @@
 - 欧文: YuGothic
 - ウェイトは 500 / 700 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 60px | 1 |
-| 見出し | 32px | — |
-| 小見出し | 19px | 1 |
-| 本文 | 16px | 1 |
-| 補助 | 15px | — |
-| 注記 | 14px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 60px | 1 | 347px | 25px |
+| 見出し | 32px | — | — | — |
+| 小見出し | 19px | 1 | 15px | 193px |
+| 本文 | 16px | 1 | 18px | 66px |
+| 補助 | 15px | — | — | — |
+| 注記 | 14px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（240px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 16px・行間 2.5。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 6箇所で使っている。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 英字 |
+| ラベルのサイズ | 12px |
+| ラベルの字間 | 0.05em |
+| ラベルの太さ | 400 |
+| ラベルの色 | `#ffffff` |
+| ラベル → 見出し | 15px |
+| 見出しのサイズ | 19px |
+| 見出し → 本文 | 193px |
+| 罫線 | なし |
+| 組み方 | **箱で包む**（ラベルと見出しが1つのまとまりとして囲まれている） |
+
+```html
+&lt;div class=&quot;c-head&quot;&gt;
+  &lt;p class=&quot;c-head__label&quot;&gt;SERVICE&lt;/p&gt;
+  &lt;h2 class=&quot;c-head__title&quot;&gt;サービス&lt;/h2&gt;
+&lt;/div&gt;
+&lt;p&gt;本文…&lt;/p&gt;
+```
+
+```css
+.c-head__label{ font-size:12px; font-weight:400; letter-spacing:0.05em;
+  color:#ffffff; text-transform:uppercase }
+.c-head__title{ font-size:19px; line-height:1; margin-top:15px }
+.c-head + *{ margin-top:193px }
+```
+
+- ラベルと見出しの間は 15px、見出しと本文の間は 193px。ラベル側を詰めて、本文側を空ける。この差がまとまりを作っている。
 
 ## レイアウト
 
@@ -509,6 +547,18 @@
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
 
+```html
+&lt;section class=&quot;section&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;c-head&quot;&gt;
+      &lt;p class=&quot;c-head__label&quot;&gt;SERVICE&lt;/p&gt;
+      &lt;h2 class=&quot;c-head__title&quot;&gt;サービス&lt;/h2&gt;
+    &lt;/div&gt;
+    &lt;p&gt;本文…&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+```
+
 ```css
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
@@ -518,6 +568,9 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+.c-head__label{ font-size:12px; font-weight:400; letter-spacing:0.05em; color:#ffffff }
+.c-head__title{ font-size:19px; line-height:1; margin-top:15px }
+.c-head + *{ margin-top:193px }
 
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:#f6f6f4; color:#002c45; border-radius:0px;

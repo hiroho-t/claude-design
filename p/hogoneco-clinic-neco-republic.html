@@ -188,7 +188,7 @@
         <td>48</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#e5e3df"></i><code>#e5e3df</code></th>
         <td>1</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#ffb415"></i><code>#ffb415</code></th>
         <td>5</td><td>0</td><td>5</td><td>4</td></tr><tr><th><i style="background:#2f2f2f"></i><code>#2f2f2f</code></th>
-        <td>8</td><td>75</td><td>0</td><td>0</td></tr><tr><th><i style="background:#000000"></i><code>#000000</code></th>
+        <td>9</td><td>74</td><td>0</td><td>0</td></tr><tr><th><i style="background:#000000"></i><code>#000000</code></th>
         <td>0</td><td>34</td><td>0</td><td>0</td></tr><tr><th><i style="background:#ffad03"></i><code>#ffad03</code></th>
         <td>0</td><td>28</td><td>0</td><td>0</td></tr>
     </table>
@@ -203,17 +203,17 @@
       <div><p>本文</p><strong>15px / 行間 1.87</strong><em>この見本は Noto Sans JP で表示しています</em></div>
     </div>
     <div class="sp">
-      <p class="spmeta">大見出し<span>38px / 行間 1.74</span></p>
+      <p class="spmeta">大見出し<span>40px / 行間 1</span></p>
+      <p class="spdemo" style="font-size:40px;line-height:1">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">見出し<span>38px / 行間 1.74</span></p>
       <p class="spdemo" style="font-size:38px;line-height:1.74">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">見出し<span>22px / 行間 1.82</span></p>
-      <p class="spdemo" style="font-size:22px;line-height:1.82">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">小見出し<span>26px / 行間 1.54</span></p>
+      <p class="spdemo" style="font-size:26px;line-height:1.54">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">小見出し<span>20px / 行間 1.8</span></p>
+      <p class="spmeta">リード<span>20px / 行間 1.8</span></p>
       <p class="spdemo" style="font-size:20px;line-height:1.8">あのイーハトーヴォのすきとおった風</p>
-    </div><div class="sp">
-      <p class="spmeta">リード<span>16px</span></p>
-      <p class="spdemo" style="font-size:16px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">本文<span>15px / 行間 1.87</span></p>
       <p class="spdemo" style="font-size:15px;line-height:1.87">あのイーハトーヴォのすきとおった風</p>
@@ -337,7 +337,7 @@
     <table>
       <tr><th></th><td>PC 1440px</td><td>スマホ 390px</td></tr>
       <tr><th>本文</th><td>15px / 行間 1.87</td><td>15px / 行間 1.87</td></tr>
-      <tr><th>見出し</th><td>38px</td><td>28px</td></tr>
+      <tr><th>見出し</th><td>40px</td><td>28px</td></tr>
       <tr><th>セクションの上下余白</th><td>80px</td><td>60px</td></tr>
       <tr><th>左右の余白</th><td>—</td><td>20px</td></tr>
       <tr><th>並びの間隔</th><td>10px</td><td>—px</td></tr>
@@ -418,7 +418,7 @@
 | `#fff9f2` | 48 | 0 | 0 | 0 |
 | `#e5e3df` | 1 | 0 | 0 | 0 |
 | `#ffb415` | 5 | 0 | 5 | 4 |
-| `#2f2f2f` | 8 | 75 | 0 | 0 |
+| `#2f2f2f` | 9 | 74 | 0 | 0 |
 | `#000000` | 0 | 34 | 0 | 0 |
 | `#ffad03` | 0 | 28 | 0 | 0 |
 
@@ -447,18 +447,21 @@
 
 - 和文: 游ゴシック体（有料）→ 無料で近いのは **Noto Sans JP**、なければ Noto Sans JP
 - 欧文: Ubuntu
-- ウェイトは 700 が中心。太さで強弱をつけず、大きさで差をつける。
+- ウェイトは 700 / 500 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 38px | 1.74 |
-| 見出し | 22px | 1.82 |
-| 小見出し | 20px | 1.8 |
-| リード | 16px | — |
-| 本文 | 15px | 1.87 |
-| 補助 | 14px | — |
-| 注記 | 13px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 40px | 1 | 101px | 37px |
+| 見出し | 38px | 1.74 | 345px | 38px |
+| 小見出し | 26px | 1.54 | — | 23px |
+| リード | 20px | 1.8 | 272px | 20px |
+| 本文 | 15px | 1.87 | 14px | 81px |
+| 補助 | 14px | — | — | — |
+| 注記 | 13px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（80px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 15px・行間 1.87。
 
@@ -477,7 +480,7 @@
 | | PC 1440px | スマホ 390px |
 |---|---|---|
 | 本文 | 15px / 行間 1.87 | 15px / 行間 1.87 |
-| 見出し | 38px | 28px / 行間 1.86 |
+| 見出し | 40px | 28px / 行間 1.86 |
 | セクションの上下余白 | 80px | 60px |
 | 左右の余白 | — | 20px |
 | 並びの間隔 | 10px | —px |

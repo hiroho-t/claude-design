@@ -89,7 +89,51 @@
     "lh": 2.5,
     "ls": "0"
   },
-  "headings": {},
+  "headings": {
+    "h3": [
+      {
+        "fs": 21,
+        "weight": "400",
+        "lh": 1.8,
+        "ls": "0",
+        "family": "YakuHanMPs"
+      },
+      {
+        "fs": 24,
+        "weight": "400",
+        "lh": 1.8,
+        "ls": "0",
+        "family": "YakuHanMPs"
+      }
+    ],
+    "h1": [
+      {
+        "fs": 11,
+        "weight": "400",
+        "lh": 1.8,
+        "ls": "0.050em",
+        "family": "YakuHanMPs"
+      }
+    ]
+  },
+  "headSpace": {
+    "11": {
+      "above": 52,
+      "below": 18,
+      "n": 1
+    },
+    "21": {
+      "above": 130,
+      "below": 30,
+      "n": 1
+    },
+    "24": {
+      "above": 160,
+      "below": 30,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

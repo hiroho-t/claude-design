@@ -24,15 +24,15 @@
   "ink": [
     {
       "hex": "#000000",
-      "pct": 55
+      "pct": 55.4
     },
     {
       "hex": "#999999",
-      "pct": 25.2
+      "pct": 24.9
     },
     {
       "hex": "#f4f4f4",
-      "pct": 19
+      "pct": 19.1
     },
     {
       "hex": "#ffffff",
@@ -42,12 +42,12 @@
   "pageBg": "#ffffff",
   "fonts": [
     {
-      "family": "dnp-shuei-gothic-gin-std",
-      "w": 574
-    },
-    {
       "family": "Manrope",
       "w": 573
+    },
+    {
+      "family": "dnp-shuei-gothic-gin-std",
+      "w": 572
     }
   ],
   "sizes": [
@@ -61,11 +61,11 @@
     },
     {
       "px": 20,
-      "w": 222
+      "w": 226
     },
     {
       "px": 16,
-      "w": 420
+      "w": 414
     },
     {
       "px": 14,
@@ -84,21 +84,39 @@
   "headings": {
     "h2": [
       {
+        "fs": 36,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "0.100em",
+        "family": "dnp-shuei-gothic-gin-std"
+      },
+      {
         "fs": 20,
         "weight": "500",
         "lh": 1.8,
         "ls": "0.064em",
         "family": "dnp-shuei-gothic-gin-std"
-      },
-      {
-        "fs": 14,
-        "weight": "500",
-        "lh": 1.8,
-        "ls": "0.091em",
-        "family": "dnp-shuei-gothic-gin-std"
       }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": 15,
+      "below": null,
+      "n": 1
+    },
+    "20": {
+      "above": 32,
+      "below": 135,
+      "n": 3
+    },
+    "36": {
+      "above": 386,
+      "below": 100,
+      "n": 3
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
@@ -391,7 +409,7 @@
   ],
   "accent": "#103381",
   "tags": [
-    "明朝",
+    "ゴシック",
     "余白ひろい",
     "角ばった",
     "色つき"

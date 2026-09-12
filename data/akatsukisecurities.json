@@ -28,15 +28,15 @@
   "ink": [
     {
       "hex": "#ffffff",
-      "pct": 42.2
+      "pct": 42.5
     },
     {
       "hex": "#0a2146",
-      "pct": 32.9
+      "pct": 32.4
     },
     {
       "hex": "#ced0d3",
-      "pct": 6.9
+      "pct": 7
     },
     {
       "hex": "#34363b",
@@ -47,11 +47,11 @@
   "fonts": [
     {
       "family": "YakuHanJP",
-      "w": 1750
+      "w": 1736
     },
     {
       "family": "Poppins",
-      "w": 275
+      "w": 278
     }
   ],
   "sizes": [
@@ -69,7 +69,7 @@
     },
     {
       "px": 16,
-      "w": 713
+      "w": 698
     },
     {
       "px": 14,
@@ -77,7 +77,7 @@
     },
     {
       "px": 13,
-      "w": 244
+      "w": 245
     }
   ],
   "body": {
@@ -88,15 +88,15 @@
   "headings": {
     "h2": [
       {
-        "fs": 22,
-        "weight": "700",
+        "fs": 14,
+        "weight": "500",
         "lh": 1.35,
-        "ls": "0.060em",
-        "family": "YakuHanJP"
+        "ls": "0.040em",
+        "family": "Poppins"
       },
       {
         "fs": 22,
-        "weight": "500",
+        "weight": "700",
         "lh": 1.35,
         "ls": "0.060em",
         "family": "YakuHanJP"
@@ -111,6 +111,37 @@
         "family": "YakuHanJP"
       }
     ]
+  },
+  "headSpace": {
+    "14": {
+      "above": 148,
+      "below": 109,
+      "n": 3
+    },
+    "22": {
+      "above": 161,
+      "below": 88,
+      "n": 3
+    },
+    "30": {
+      "above": 8,
+      "below": 26,
+      "n": 4
+    }
+  },
+  "labelHead": {
+    "fs": 14,
+    "weight": "700",
+    "ls": 0.06,
+    "color": "#ffffff",
+    "latin": true,
+    "upper": false,
+    "gap": 8,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 30,
+    "n": 3,
+    "total": 3
   },
   "radius": [
     {
@@ -200,18 +231,6 @@
       "n": 7
     },
     {
-      "bg": "#0b4199",
-      "color": "#ffffff",
-      "border": null,
-      "radius": "9999px",
-      "pad": "0px 12px",
-      "fs": 13,
-      "weight": "500",
-      "h": 27,
-      "ls": "0.32px",
-      "n": 7
-    },
-    {
       "bg": "transparent",
       "color": "#34363b",
       "border": "1px #e2e2e6",
@@ -222,6 +241,18 @@
       "h": 50,
       "ls": "0.56px",
       "n": 7
+    },
+    {
+      "bg": "#0b4199",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "9999px",
+      "pad": "0px 12px",
+      "fs": 13,
+      "weight": "500",
+      "h": 27,
+      "ls": "0.32px",
+      "n": 6
     }
   ],
   "bp": [
@@ -334,7 +365,7 @@
       "pad": "0px 12px",
       "fs": 13,
       "border": null,
-      "n": 7
+      "n": 6
     }
   ],
   "images": {

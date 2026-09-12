@@ -190,10 +190,8 @@
     <table class="usage">
       <tr><th>色</th><td>面</td><td>文字</td><td>枠線</td><td>ボタンの地</td></tr>
       <tr><th><i style="background:#f6f6f6"></i><code>#f6f6f6</code></th>
-        <td>2</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#000000"></i><code>#000000</code></th>
-        <td>1</td><td>1</td><td>0</td><td>0</td></tr><tr><th><i style="background:#ffffff"></i><code>#ffffff</code></th>
-        <td>36</td><td>5</td><td>0</td><td>29</td></tr><tr><th><i style="background:#2cbf13"></i><code>#2cbf13</code></th>
-        <td>1</td><td>0</td><td>1</td><td>1</td></tr><tr><th><i style="background:#00a491"></i><code>#00a491</code></th>
+        <td>2</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#ffffff"></i><code>#ffffff</code></th>
+        <td>35</td><td>4</td><td>0</td><td>29</td></tr><tr><th><i style="background:#00a491"></i><code>#00a491</code></th>
         <td>1</td><td>19</td><td>1</td><td>0</td></tr><tr><th><i style="background:#111111"></i><code>#111111</code></th>
         <td>0</td><td>75</td><td>0</td><td>0</td></tr><tr><th><i style="background:#555555"></i><code>#555555</code></th>
         <td>0</td><td>33</td><td>0</td><td>0</td></tr><tr><th><i style="background:#f679a1"></i><code>#f679a1</code></th>
@@ -206,15 +204,15 @@
     <h2>文字</h2>
     <div class="fonts">
       <div><p>和文</p><strong>Zen Kaku Gothic New</strong></div>
-      <div><p>欧文</p><strong>sans-serif</strong></div>
+      <div><p>欧文</p><strong>Roboto</strong></div>
       <div><p>本文</p><strong>15px / 行間 1</strong><em>この見本は Noto Sans JP で表示しています</em></div>
     </div>
     <div class="sp">
       <p class="spmeta">大見出し<span>22px</span></p>
       <p class="spdemo" style="font-size:22px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">見出し<span>20px</span></p>
-      <p class="spdemo" style="font-size:20px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">見出し<span>17px</span></p>
+      <p class="spdemo" style="font-size:17px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">本文<span>15px / 行間 1.8</span></p>
       <p class="spdemo" style="font-size:15px;line-height:1.8">あのイーハトーヴォのすきとおった風</p>
@@ -274,11 +272,11 @@
         <span class="secno">5</span>
         <span class="secname">3カラム・画像あり</span>
         <span class="sech">1540px</span>
-      </div><div class="sec" style="height:32px;background:#ffffff;color:var(--ink);
+      </div><div class="sec" style="height:30px;background:#ffffff;color:var(--ink);
         border:1px solid var(--line)">
         <span class="secno">6</span>
         <span class="secname">1カラム・画像あり</span>
-        <span class="sech">580px</span>
+        <span class="sech">540px</span>
       </div><div class="sec" style="height:34px;background:#ffffff;color:var(--ink);
         border:1px solid var(--line)">
         <span class="secno">7</span>
@@ -296,7 +294,7 @@
       <tr><th>面</th><td>使用箇所</td><td>線と文字</td></tr>
       <tr>
         <th><i style="background:#ffffff"></i><code>#ffffff</code></th>
-        <td>2</td>
+        <td>1</td>
         <td><i style="background:#d6cebd;display:inline-block;width:12px;height:12px;border-radius:3px;border:1px solid var(--line);vertical-align:-2px;margin-right:6px"></i><code>#d6cebd</code></td>
       </tr><tr>
         <th><i style="background:#f3f4f8"></i><code>#f3f4f8</code></th>
@@ -306,10 +304,6 @@
         <th><i style="background:#f6f6f6"></i><code>#f6f6f6</code></th>
         <td>1</td>
         <td><i style="background:#d6cebd;display:inline-block;width:12px;height:12px;border-radius:3px;border:1px solid var(--line);vertical-align:-2px;margin-right:6px"></i><code>#d6cebd</code></td>
-      </tr><tr>
-        <th><i style="background:#000000"></i><code>#000000</code></th>
-        <td>1</td>
-        <td><i style="background:#555555;display:inline-block;width:12px;height:12px;border-radius:3px;border:1px solid var(--line);vertical-align:-2px;margin-right:6px"></i><code>#555555</code></td>
       </tr>
     </table>
     <p class="note">線と文字の色は固定ではなく、乗っている面で入れ替える。</p>
@@ -325,7 +319,7 @@
         </div>
       </div>
       <p class="note">同じ形が 18 箇所。角丸 5px</p>
-    <p class="note">角丸は 0px だが、完全な円は別扱いで 1 箇所（24px×1）。角を丸めないことと、円のモチーフは両立する。</p>
+    
     
   </section>
 
@@ -380,7 +374,7 @@
   --ink-rev: #555555;
   --on: #d6cebd;   /* いま乗っている面の上で使う線と文字の色。面ごとに入れ替える */
   --font-ja: &quot;Zen Kaku Gothic New&quot;, sans-serif;
-  --font-en: &quot;sans-serif&quot;, sans-serif;
+  --font-en: &quot;Roboto&quot;, sans-serif;
   --fs-body: 15px;
   --lh-body: 1;
   --container: 1092px;
@@ -413,9 +407,7 @@
 | 色 | 面 | 文字 | 枠線 | ボタンの地 |
 |---|---|---|---|---|
 | `#f6f6f6` | 2 | 0 | 0 | 0 |
-| `#000000` | 1 | 1 | 0 | 0 |
-| `#ffffff` | 36 | 5 | 0 | 29 |
-| `#2cbf13` | 1 | 0 | 1 | 1 |
+| `#ffffff` | 35 | 4 | 0 | 29 |
 | `#00a491` | 1 | 19 | 1 | 0 |
 | `#111111` | 0 | 75 | 0 | 0 |
 | `#555555` | 0 | 33 | 0 | 0 |
@@ -432,7 +424,6 @@
 | `#ffffff`（地） | `#d6cebd` |
 | `#f3f4f8` | `#d6cebd` |
 | `#f6f6f6` | `#d6cebd` |
-| `#000000` | `#555555` |
 
 ```css
 .section{ --on:#d6cebd }                     /* 地の面 */
@@ -447,17 +438,20 @@
 ## 文字
 
 - 和文: Zen Kaku Gothic New
-- 欧文: sans-serif
+- 欧文: Roboto
 - ウェイトは 700 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 22px | — |
-| 見出し | 20px | — |
-| 本文 | 15px | 1.8 |
-| 補助 | 14px | — |
-| 注記 | 13px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 22px | — | — | — |
+| 見出し | 17px | — | — | — |
+| 本文 | 15px | 1.8 | 70px | 63px |
+| 補助 | 14px | — | — | — |
+| 注記 | 13px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（56px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 15px・行間 1。
 
@@ -516,12 +510,12 @@
 | 3 | 340px | — | 1カラム・文字だけ | — | — |
 | 4 | 280px | — | 帯・区切り | — | — |
 | 5 | 1540px | — | 3カラム・画像あり | 左 | 右（50:50） |
-| 6 | 580px | — | 1カラム・画像あり | 右 | — |
+| 6 | 540px | — | 1カラム・画像あり | 右 | — |
 | 7 | 620px | — | 1カラム・画像あり | 右 | 見出しの下 |
 | 8 | 1440px | — | 1カラム・画像あり | — | 全面 |
 
 - 全8セクション、すべて全幅。中央に寄せた箱を積むのではなく、色面を全幅で切り替えながら進む。
-- 使われている面の色: `#ffffff`（2） / `#f3f4f8`（1） / `#f6f6f6`（1） / `#000000`（1）
+- 使われている面の色: `#ffffff`（1） / `#f3f4f8`（1） / `#f6f6f6`（1）
 - 見出しは**全部左寄せ**。中央寄せは1つもない。
 - 2カラムの分け方は 50:50。半分ずつには割らない。
 
@@ -539,11 +533,6 @@
 }
 ```
 
-
-## 丸いもの
-
-角丸は 0px だが、**完全な円は別扱い**で 1 箇所ある（24px×1）。
-アイコンの地・点・装飾に使う。角を丸めないルールと、円のモチーフは両立する。
 
 ## 画像
 
@@ -597,7 +586,7 @@ img{ width:100%; height:auto; border-radius:0px; aspect-ratio:4/3; object-fit:co
 - 影をつけない（このサイトには1つもない）。
 - 主色を大きな面に塗らない。塗った瞬間に別物になる。
 - 本文の行間を 1 より詰めない。角を丸めない。
-- 中途半端な角丸（0px と 5px 以外）を混ぜない。完全な円は別枠なので、消さなくてよい。
+- 中途半端な角丸（0px と 5px 以外）を混ぜない。
 </pre>
 </aside>
 </div>

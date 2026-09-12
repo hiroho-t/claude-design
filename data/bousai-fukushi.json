@@ -6,37 +6,37 @@
   "bg": [
     {
       "hex": "#ffffff",
-      "pct": 51.2
+      "pct": 55
     },
     {
       "hex": "#f8eb77",
-      "pct": 21.1
+      "pct": 22.7
     },
     {
       "hex": "#ebe9df",
-      "pct": 14.1
+      "pct": 15.1
     },
     {
       "hex": "#272724",
-      "pct": 6.1
+      "pct": 5.2
     },
     {
-      "hex": "#f8f0ad",
-      "pct": 5.6
+      "hex": "#cfe6f4",
+      "pct": 2
     }
   ],
   "ink": [
     {
       "hex": "#272724",
-      "pct": 92
+      "pct": 92.5
     },
     {
       "hex": "#ffffff",
-      "pct": 6.9
+      "pct": 6.1
     },
     {
       "hex": "#99914d",
-      "pct": 0.7
+      "pct": 0.8
     },
     {
       "hex": "#99978a",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "Zen Kaku Gothic New",
-      "w": 2290
+      "w": 1976
     },
     {
       "family": "Arvo",
@@ -55,6 +55,10 @@
     }
   ],
   "sizes": [
+    {
+      "px": 26,
+      "w": 40
+    },
     {
       "px": 21,
       "w": 176
@@ -64,12 +68,8 @@
       "w": 102
     },
     {
-      "px": 18,
-      "w": 158
-    },
-    {
       "px": 16,
-      "w": 779
+      "w": 634
     },
     {
       "px": 14,
@@ -95,26 +95,26 @@
         "family": "Zen Kaku Gothic New"
       },
       {
-        "fs": 26,
-        "weight": "700",
-        "lh": 1.54,
-        "ls": "0.031em",
+        "fs": 46,
+        "weight": "600",
+        "lh": 1.65,
+        "ls": "0.070em",
         "family": "Zen Kaku Gothic New"
       }
     ],
     "h3": [
       {
-        "fs": 14,
-        "weight": "500",
-        "lh": 1.86,
-        "ls": "0.050em",
-        "family": "Zen Kaku Gothic New"
-      },
-      {
         "fs": 26,
         "weight": "700",
         "lh": 1.54,
         "ls": "0.031em",
+        "family": "Zen Kaku Gothic New"
+      },
+      {
+        "fs": 14,
+        "weight": "500",
+        "lh": 1.86,
+        "ls": "0.050em",
         "family": "Zen Kaku Gothic New"
       }
     ],
@@ -128,28 +128,61 @@
       }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": 116,
+      "below": 116,
+      "n": 4
+    },
+    "19": {
+      "above": 6,
+      "below": 4,
+      "n": 6
+    },
+    "26": {
+      "above": 163,
+      "below": 12,
+      "n": 5
+    },
+    "30": {
+      "above": 4,
+      "below": 20,
+      "n": 1
+    },
+    "42": {
+      "above": 313,
+      "below": 12,
+      "n": 4
+    },
+    "46": {
+      "above": 260,
+      "below": 60,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
-      "n": 13
+      "n": 12
     },
     {
       "px": 20,
-      "n": 11
-    },
-    {
-      "px": 8,
-      "n": 8
+      "n": 10
     },
     {
       "px": 6,
       "n": 5
+    },
+    {
+      "px": 8,
+      "n": 4
     }
   ],
   "shadow": [
     {
       "css": "rgba(39, 39, 36, 0.3) 3px 4px 0px 0px",
-      "n": 15
+      "n": 11
     }
   ],
   "gap": [
@@ -172,26 +205,26 @@
   ],
   "sectionPad": [
     {
-      "px": 72,
-      "n": 6
-    },
-    {
       "px": 160,
       "n": 6
     },
     {
-      "px": 80,
+      "px": 100,
       "n": 4
     },
     {
-      "px": 100,
-      "n": 4
+      "px": 72,
+      "n": 2
+    },
+    {
+      "px": 36,
+      "n": 1
     }
   ],
   "container": [
     {
       "px": 1120,
-      "n": 32
+      "n": 29
     },
     {
       "px": 692,
@@ -204,18 +237,6 @@
   ],
   "buttons": [
     {
-      "bg": "#272724",
-      "color": "#ffffff",
-      "border": null,
-      "radius": "8px",
-      "pad": "13px 10px",
-      "fs": 16,
-      "weight": "700",
-      "h": 60,
-      "ls": "0.8px",
-      "n": 8
-    },
-    {
       "bg": "transparent",
       "color": "#272724",
       "border": null,
@@ -226,6 +247,18 @@
       "h": 35,
       "ls": "0.8px",
       "n": 6
+    },
+    {
+      "bg": "#272724",
+      "color": "#ffffff",
+      "border": null,
+      "radius": "8px",
+      "pad": "13px 10px",
+      "fs": 16,
+      "weight": "700",
+      "h": 60,
+      "ls": "0.8px",
+      "n": 4
     },
     {
       "bg": "transparent",
@@ -326,20 +359,10 @@
     {
       "h": 860,
       "full": false,
-      "cols": 3,
-      "img": true,
-      "bg": null,
-      "align": "中央",
-      "media": "none",
-      "split": null
-    },
-    {
-      "h": 380,
-      "full": false,
       "cols": 0,
       "img": true,
       "bg": null,
-      "align": "中央",
+      "align": null,
       "media": "none",
       "split": null
     }
@@ -358,7 +381,7 @@
       "n": 1
     },
     {
-      "hex": "#f8f0ad",
+      "hex": "#ebe9df",
       "n": 1
     }
   ],
@@ -443,7 +466,7 @@
     {
       "hex": "#ffffff",
       "面": 8,
-      "文字": 17,
+      "文字": 13,
       "枠": 0,
       "ボタン": 0
     },
@@ -463,13 +486,13 @@
     },
     {
       "hex": "#272724",
-      "面": 19,
-      "文字": 86,
+      "面": 15,
+      "文字": 75,
       "枠": 6,
-      "ボタン": 8
+      "ボタン": 4
     },
     {
-      "hex": "#f8f0ad",
+      "hex": "#cfe6f4",
       "面": 1,
       "文字": 0,
       "枠": 0,
@@ -493,7 +516,7 @@
   "accent": "#99914d",
   "tags": [
     "ゴシック",
-    "余白ふつう",
+    "余白ひろい",
     "角ばった",
     "色つき"
   ]

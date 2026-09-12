@@ -6,15 +6,15 @@
   "bg": [
     {
       "hex": "#ffffff",
-      "pct": 72.1
+      "pct": 72.2
     },
     {
       "hex": "#f2e7e6",
-      "pct": 10.4
+      "pct": 10.3
     },
     {
       "hex": "#000000",
-      "pct": 7.3
+      "pct": 7.2
     },
     {
       "hex": "#f2f0f4",
@@ -28,11 +28,11 @@
   "ink": [
     {
       "hex": "#838383",
-      "pct": 64.9
+      "pct": 64.8
     },
     {
       "hex": "#ffffff",
-      "pct": 19.5
+      "pct": 19.7
     },
     {
       "hex": "#ae9abb",
@@ -40,14 +40,14 @@
     },
     {
       "hex": "#606060",
-      "pct": 5.1
+      "pct": 5
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 1916
+      "w": 1922
     },
     {
       "family": "Inter",
@@ -73,7 +73,7 @@
     },
     {
       "px": 12,
-      "w": 1707
+      "w": 1713
     },
     {
       "px": 11,
@@ -103,6 +103,19 @@
       }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": 0,
+      "below": 217,
+      "n": 2
+    },
+    "50": {
+      "above": 351,
+      "below": null,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
@@ -246,7 +259,7 @@
       "split": null
     },
     {
-      "h": 1420,
+      "h": 1460,
       "full": true,
       "cols": 6,
       "img": true,
@@ -305,7 +318,17 @@
     }
   ],
   "cards": [],
-  "chips": [],
+  "chips": [
+    {
+      "bg": "#ec9bb0",
+      "color": "#ffffff",
+      "radius": "4px",
+      "pad": "2px 5px",
+      "fs": 12,
+      "border": null,
+      "n": 3
+    }
+  ],
   "images": {
     "n": 34,
     "fullBleed": 10,
@@ -356,7 +379,7 @@
     {
       "hex": "#ffffff",
       "面": 2,
-      "文字": 20,
+      "文字": 22,
       "枠": 1,
       "ボタン": 0
     },

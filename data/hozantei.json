@@ -16,18 +16,18 @@
   "ink": [
     {
       "hex": "#58574c",
-      "pct": 91.4
+      "pct": 92
     },
     {
       "hex": "#ffffff",
-      "pct": 8.6
+      "pct": 8
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "FOT-筑紫Aオールド明朝 Pr6 R",
-      "w": 728
+      "w": 714
     },
     {
       "family": "AGaramondPro-Regular",
@@ -49,11 +49,11 @@
     },
     {
       "px": 15,
-      "w": 154
+      "w": 147
     },
     {
       "px": 14,
-      "w": 135
+      "w": 128
     },
     {
       "px": 13,
@@ -66,6 +66,15 @@
     "ls": "0.300em"
   },
   "headings": {
+    "h2": [
+      {
+        "fs": 50,
+        "weight": "400",
+        "lh": 1.6,
+        "ls": "0.400em",
+        "family": "FOT-筑紫Aオールド明朝 Pr6 R"
+      }
+    ],
     "h3": [
       {
         "fs": 16,
@@ -92,6 +101,24 @@
       }
     ]
   },
+  "headSpace": {
+    "16": {
+      "above": null,
+      "below": 0,
+      "n": 2
+    },
+    "24": {
+      "above": 0,
+      "below": 30,
+      "n": 3
+    },
+    "28": {
+      "above": 200,
+      "below": 15,
+      "n": 2
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

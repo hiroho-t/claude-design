@@ -6,11 +6,11 @@
   "bg": [
     {
       "hex": "#ffffff",
-      "pct": 42.6
+      "pct": 42.5
     },
     {
       "hex": "#f4f4f4",
-      "pct": 28.1
+      "pct": 28.3
     },
     {
       "hex": "#333333",
@@ -27,16 +27,16 @@
   ],
   "ink": [
     {
-      "hex": "#231815",
-      "pct": 44.4
+      "hex": "#ffffff",
+      "pct": 44.2
     },
     {
-      "hex": "#ffffff",
-      "pct": 43.6
+      "hex": "#231815",
+      "pct": 44
     },
     {
       "hex": "#e60012",
-      "pct": 5.4
+      "pct": 5.5
     },
     {
       "hex": "#727171",
@@ -47,17 +47,17 @@
   "fonts": [
     {
       "family": "LINESeedJP",
-      "w": 4479
+      "w": 4350
     },
     {
       "family": "GeneralSans",
-      "w": 774
+      "w": 773
     }
   ],
   "sizes": [
     {
       "px": 19,
-      "w": 436
+      "w": 450
     },
     {
       "px": 16,
@@ -65,7 +65,7 @@
     },
     {
       "px": 15,
-      "w": 774
+      "w": 789
     },
     {
       "px": 14,
@@ -73,11 +73,11 @@
     },
     {
       "px": 13,
-      "w": 1737
+      "w": 1572
     },
     {
       "px": 12,
-      "w": 283
+      "w": 289
     }
   ],
   "body": {
@@ -95,29 +95,85 @@
         "family": "LINESeedJP"
       },
       {
-        "fs": 16,
-        "weight": "400",
-        "lh": 1.3,
-        "ls": "0",
-        "family": "GeneralSans"
+        "fs": 37,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.008em",
+        "family": "LINESeedJP"
       }
     ],
     "h2": [
+      {
+        "fs": 15,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0.021em",
+        "family": "LINESeedJP"
+      },
       {
         "fs": 33,
         "weight": "400",
         "lh": 2,
         "ls": "0.009em",
         "family": "LINESeedJP"
-      },
-      {
-        "fs": 29,
-        "weight": "400",
-        "lh": 1.3,
-        "ls": "0",
-        "family": "GeneralSans"
       }
     ]
+  },
+  "headSpace": {
+    "15": {
+      "above": 222,
+      "below": 16,
+      "n": 6
+    },
+    "16": {
+      "above": 93,
+      "below": 1,
+      "n": 7
+    },
+    "20": {
+      "above": null,
+      "below": 8,
+      "n": 1
+    },
+    "28": {
+      "above": 47,
+      "below": 28,
+      "n": 5
+    },
+    "29": {
+      "above": null,
+      "below": 262,
+      "n": 1
+    },
+    "33": {
+      "above": 17,
+      "below": 30,
+      "n": 2
+    },
+    "37": {
+      "above": 7,
+      "below": 30,
+      "n": 6
+    },
+    "47": {
+      "above": null,
+      "below": 205,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 16,
+    "weight": "400",
+    "ls": 0,
+    "color": "#231815",
+    "latin": true,
+    "upper": false,
+    "gap": 47,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 28,
+    "n": 5,
+    "total": 11
   },
   "radius": [
     {
@@ -199,7 +255,7 @@
       "weight": "400",
       "h": 30,
       "ls": "0.312163px",
-      "n": 9
+      "n": 10
     },
     {
       "bg": "#ffffff",
@@ -310,7 +366,7 @@
       "split": null
     },
     {
-      "h": 1940,
+      "h": 1960,
       "full": true,
       "cols": 6,
       "img": true,
@@ -416,7 +472,7 @@
       "pad": "2px 12px",
       "fs": 12,
       "border": "1px",
-      "n": 9
+      "n": 11
     }
   ],
   "images": {
@@ -521,7 +577,7 @@
     {
       "hex": "#231815",
       "面": 4,
-      "文字": 140,
+      "文字": 142,
       "枠": 16,
       "ボタン": 1
     },

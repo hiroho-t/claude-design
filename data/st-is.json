@@ -83,10 +83,10 @@
         "family": "Helvetica Neue"
       },
       {
-        "fs": 20,
+        "fs": 22,
         "weight": "700",
-        "lh": 1,
-        "ls": "0",
+        "lh": 1.4,
+        "ls": "0.091em",
         "family": "Helvetica Neue"
       }
     ],
@@ -106,6 +106,47 @@
         "family": "Helvetica Neue"
       }
     ]
+  },
+  "headSpace": {
+    "14": {
+      "above": 69,
+      "below": 69,
+      "n": 3
+    },
+    "15": {
+      "above": 88,
+      "below": 15,
+      "n": 1
+    },
+    "20": {
+      "above": 12,
+      "below": 24,
+      "n": 11
+    },
+    "22": {
+      "above": 125,
+      "below": 54,
+      "n": 4
+    },
+    "24": {
+      "above": 12,
+      "below": 32,
+      "n": 7
+    }
+  },
+  "labelHead": {
+    "fs": 12,
+    "weight": "400",
+    "ls": 0,
+    "color": "#1d1d1d",
+    "latin": false,
+    "upper": false,
+    "gap": 12,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 24,
+    "n": 5,
+    "total": 5
   },
   "radius": [
     {

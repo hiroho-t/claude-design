@@ -28,15 +28,15 @@
   "ink": [
     {
       "hex": "#282b2c",
-      "pct": 70.5
+      "pct": 69
     },
     {
       "hex": "#ffffff",
-      "pct": 23.5
+      "pct": 24.6
     },
     {
       "hex": "#b0974b",
-      "pct": 3.2
+      "pct": 3.3
     },
     {
       "hex": "#d6be98",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "Shippori Mincho",
-      "w": 3464
+      "w": 3269
     },
     {
       "family": "Cormorant Infant",
@@ -61,7 +61,7 @@
     },
     {
       "px": 18,
-      "w": 344
+      "w": 365
     },
     {
       "px": 16,
@@ -73,7 +73,7 @@
     },
     {
       "px": 13,
-      "w": 2320
+      "w": 2104
     },
     {
       "px": 12,
@@ -94,7 +94,42 @@
         "ls": "0.044em",
         "family": "Shippori Mincho"
       }
+    ],
+    "h3": [
+      {
+        "fs": 40,
+        "weight": "400",
+        "lh": 1.3,
+        "ls": "0.020em",
+        "family": "Shippori Mincho"
+      }
     ]
+  },
+  "headSpace": {
+    "18": {
+      "above": 332,
+      "below": 248,
+      "n": 2
+    },
+    "40": {
+      "above": 21,
+      "below": 23,
+      "n": 4
+    }
+  },
+  "labelHead": {
+    "fs": 18,
+    "weight": "400",
+    "ls": 0.044,
+    "color": "#ffffff",
+    "latin": false,
+    "upper": false,
+    "gap": 21,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 40,
+    "n": 4,
+    "total": 4
   },
   "radius": [
     {
@@ -234,7 +269,7 @@
       "split": null
     },
     {
-      "h": 480,
+      "h": 500,
       "full": true,
       "cols": 4,
       "img": true,

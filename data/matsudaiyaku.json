@@ -117,8 +117,56 @@
         "lh": 1.3,
         "ls": "0.017em",
         "family": "Noto Serif JP"
+      },
+      {
+        "fs": 16,
+        "weight": "600",
+        "lh": 1.6,
+        "ls": "0.037em",
+        "family": "Noto Serif JP"
       }
     ]
+  },
+  "headSpace": {
+    "16": {
+      "above": null,
+      "below": 7,
+      "n": 1
+    },
+    "24": {
+      "above": 210,
+      "below": 40,
+      "n": 3
+    },
+    "32": {
+      "above": 140,
+      "below": 63,
+      "n": 2
+    },
+    "36": {
+      "above": 4,
+      "below": 122,
+      "n": 4
+    },
+    "40": {
+      "above": null,
+      "below": 35,
+      "n": 2
+    }
+  },
+  "labelHead": {
+    "fs": 16,
+    "weight": "500",
+    "ls": 0.037,
+    "color": "#141414",
+    "latin": false,
+    "upper": false,
+    "gap": 4,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 36,
+    "n": 4,
+    "total": 4
   },
   "radius": [
     {

@@ -192,13 +192,15 @@
         <p class="cuse">部分的なアクセント</p>
       </div>
     </div></div>
-    <p class="cuse" style="margin-top:14px">文字色は <code>#555555</code> / <code>#ffffff</code>。</p>
+    <p class="cuse" style="margin-top:14px">文字色は <code>#555555</code> / <code>#d5d5d5</code> / <code>#ffffff</code> / <code>#c1c1c1</code>。</p>
     <h3 class="sub">どこに使っているか（箇所数）</h3>
     <table class="usage">
       <tr><th>色</th><td>面</td><td>文字</td><td>枠線</td><td>ボタンの地</td></tr>
       <tr><th><i style="background:#ffffff"></i><code>#ffffff</code></th>
-        <td>8</td><td>12</td><td>4</td><td>1</td></tr><tr><th><i style="background:#555555"></i><code>#555555</code></th>
-        <td>0</td><td>133</td><td>1</td><td>0</td></tr>
+        <td>9</td><td>3</td><td>4</td><td>1</td></tr><tr><th><i style="background:#555555"></i><code>#555555</code></th>
+        <td>0</td><td>133</td><td>1</td><td>0</td></tr><tr><th><i style="background:#d5d5d5"></i><code>#d5d5d5</code></th>
+        <td>0</td><td>6</td><td>0</td><td>0</td></tr><tr><th><i style="background:#c1c1c1"></i><code>#c1c1c1</code></th>
+        <td>0</td><td>3</td><td>0</td><td>0</td></tr>
     </table>
     <p class="note"><code>#009644</code> は</p>
   </section>
@@ -211,13 +213,16 @@
       <div><p>本文</p><strong>14px / 行間 1.87</strong><em>この見本は Noto Sans JP で表示しています</em></div>
     </div>
     <div class="sp">
-      <p class="spmeta">大見出し<span>20px</span></p>
-      <p class="spdemo" style="font-size:20px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">大見出し<span>40px / 行間 1.27</span></p>
+      <p class="spdemo" style="font-size:40px;line-height:1.27">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">見出し<span>18px</span></p>
-      <p class="spdemo" style="font-size:18px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">見出し<span>20px / 行間 1.25</span></p>
+      <p class="spdemo" style="font-size:20px;line-height:1.25">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">小見出し<span>15px</span></p>
+      <p class="spmeta">小見出し<span>18px / 行間 1.67</span></p>
+      <p class="spdemo" style="font-size:18px;line-height:1.67">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">リード<span>15px</span></p>
       <p class="spdemo" style="font-size:15px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">本文<span>14px / 行間 1.87</span></p>
@@ -245,8 +250,8 @@
       <span class="demo" style="background:transparent;color:#555555;border:1px;border-radius:0px;padding:10px 0px;min-height:42px;font-size:12px;font-weight:400;letter-spacing:0">もっと見る</span>
       <code>transparent / 12px / 400 / 角丸 0px</code>
     </div><div class="btnrow" style="background:var(--field);color:var(--sub)">
-      <span class="demo" style="background:#ffffff;color:#555555;border:1px solid #ffffff;border-radius:33554400px;padding:3px 16px;min-height:30px;font-size:13px;font-weight:700;letter-spacing:0">もっと見る</span>
-      <code>#ffffff / 13px / 700 / 角丸 33554400px</code>
+      <span class="demo" style="background:transparent;color:#555555;border:1px;border-radius:0px;padding:15px 20px;min-height:80px;font-size:13px;font-weight:400;letter-spacing:0.26px">もっと見る</span>
+      <code>transparent / 13px / 400 / 角丸 0px</code>
     </div>
   </section>
 
@@ -257,7 +262,7 @@
         border:1px solid var(--line)">
         <span class="secno">1</span>
         <span class="secname">ヒーロー（画像）</span>
-        <span class="sech">120px</span>
+        <span class="sech">120px ・ #ffffff</span>
       </div><div class="sec" style="height:120px;background:#ffffff;color:var(--ink);
         border:1px solid var(--line)">
         <span class="secno">2</span>
@@ -335,7 +340,7 @@
   --main: #009644;
   --sub: #afb4ba;
   --ink: #555555;
-  --ink-rev: #ffffff;
+  --ink-rev: #d5d5d5;
   --on: #009644;   /* いま乗っている面の上で使う線と文字の色。面ごとに入れ替える */
   --font-ja: &quot;Noto Sans JP&quot;, sans-serif;
   --font-en: &quot;TsukuARdGothicStd-B&quot;, sans-serif;
@@ -360,7 +365,7 @@
 | 差し色 | `#5c5d56` | 3.5% |
 | 差し色 | `#6f7575` | 2.4% |
 
-文字色は `#555555` / `#ffffff`。
+文字色は `#555555` / `#d5d5d5` / `#ffffff` / `#c1c1c1`。
 
 - 主色 `#009644` は塗りにはほとんど使わない。文字・線・小さな部品だけで効かせる。
 - 影は`rgba(0, 0, 0, 0.05) 5px 10px 20px 0px`。
@@ -371,8 +376,10 @@
 
 | 色 | 面 | 文字 | 枠線 | ボタンの地 |
 |---|---|---|---|---|
-| `#ffffff` | 8 | 12 | 4 | 1 |
+| `#ffffff` | 9 | 3 | 4 | 1 |
 | `#555555` | 0 | 133 | 1 | 0 |
+| `#d5d5d5` | 0 | 6 | 0 | 0 |
+| `#c1c1c1` | 0 | 3 | 0 | 0 |
 
 - `#009644` は
 
@@ -380,17 +387,21 @@
 
 - 和文: FP-HiraginoUDSansFStdN-W4（有料）→ 無料で近いのは **Noto Sans JP**、なければ Noto Sans JP
 - 欧文: TsukuARdGothicStd-B
-- ウェイトは 400 が中心。太さで強弱をつけず、大きさで差をつける。
+- ウェイトは 700 / 400 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 20px | — |
-| 見出し | 18px | — |
-| 小見出し | 15px | — |
-| 本文 | 14px | 1.87 |
-| 補助 | 13px | — |
-| 注記 | 12px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 40px | 1.27 | — | — |
+| 見出し | 20px | 1.25 | 164px | 10px |
+| 小見出し | 18px | 1.67 | 120px | 36px |
+| リード | 15px | — | — | — |
+| 本文 | 14px | 1.87 | 33px | 33px |
+| 補助 | 13px | — | — | — |
+| 注記 | 12px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（100px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 14px・行間 1.87。
 
@@ -432,10 +443,10 @@
   font-size: 12px; font-weight: 400; letter-spacing: 0;
 }
 .btn-sub{
-  background: #ffffff; color: #555555;
-  border: 1px solid #ffffff;
-  border-radius: 33554400px; padding: 3px 16px; min-height: 30px;
-  font-size: 13px; font-weight: 700; letter-spacing: 0;
+  background: transparent; color: #555555;
+  border: 1px;
+  border-radius: 0px; padding: 15px 20px; min-height: 80px;
+  font-size: 13px; font-weight: 400; letter-spacing: 0.26px;
 }
 ```
 
@@ -445,12 +456,12 @@
 
 | # | 高さ | 地色 | 中身 | 見出し | 画像 |
 |---|---|---|---|---|---|
-| 1 | 120px | — | ヒーロー（画像） | 左 | — |
+| 1 | 120px | `#ffffff` | ヒーロー（画像） | 左 | — |
 | 2 | 3880px | — | 6カラム・画像あり | 左 | 全幅 |
 | 3 | 700px | `#ffffff` | 1カラム・画像あり | — | — |
 
 - 全3セクション、すべて全幅。中央に寄せた箱を積むのではなく、色面を全幅で切り替えながら進む。
-- 使われている面の色: `#ffffff`（1）
+- 使われている面の色: `#ffffff`（2）
 - 見出しは**全部左寄せ**。中央寄せは1つもない。
 
 

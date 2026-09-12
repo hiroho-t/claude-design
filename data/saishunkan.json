@@ -28,26 +28,26 @@
   "ink": [
     {
       "hex": "#333333",
-      "pct": 54.9
+      "pct": 54.6
     },
     {
       "hex": "#ffffff",
-      "pct": 35.5
+      "pct": 35.7
     },
     {
       "hex": "#5f8092",
-      "pct": 3.2
+      "pct": 3.3
     },
     {
       "hex": "#b7b7b7",
-      "pct": 2.8
+      "pct": 2.9
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "Yu Gothic Pr6N M",
-      "w": 476
+      "w": 470
     },
     {
       "family": "A1 Mincho",
@@ -73,7 +73,7 @@
     },
     {
       "px": 17,
-      "w": 110
+      "w": 104
     },
     {
       "px": 15,
@@ -120,6 +120,34 @@
       }
     ]
   },
+  "headSpace": {
+    "11": {
+      "above": null,
+      "below": 14,
+      "n": 1
+    },
+    "16": {
+      "above": 369,
+      "below": 173,
+      "n": 1
+    },
+    "20": {
+      "above": 205,
+      "below": 193,
+      "n": 1
+    },
+    "28": {
+      "above": 193,
+      "below": 205,
+      "n": 13
+    },
+    "44": {
+      "above": 370,
+      "below": 369,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 10,
@@ -257,7 +285,7 @@
       "split": null
     },
     {
-      "h": 900,
+      "h": 940,
       "full": true,
       "cols": 0,
       "img": false,
@@ -267,7 +295,7 @@
       "split": null
     },
     {
-      "h": 940,
+      "h": 900,
       "full": true,
       "cols": 0,
       "img": false,

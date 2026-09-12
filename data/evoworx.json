@@ -136,6 +136,42 @@
       }
     ]
   },
+  "headSpace": {
+    "12": {
+      "above": null,
+      "below": 12,
+      "n": 14
+    },
+    "18": {
+      "above": 12,
+      "below": 215,
+      "n": 40
+    },
+    "20": {
+      "above": 167,
+      "below": 16,
+      "n": 6
+    },
+    "32": {
+      "above": 292,
+      "below": 16,
+      "n": 3
+    }
+  },
+  "labelHead": {
+    "fs": 10,
+    "weight": "400",
+    "ls": 0.06,
+    "color": "#7a7a7a",
+    "latin": false,
+    "upper": false,
+    "gap": 12,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 18,
+    "n": 20,
+    "total": 40
+  },
   "radius": [
     {
       "px": 0,

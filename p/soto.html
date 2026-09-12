@@ -192,18 +192,16 @@
         <p class="cuse">部分的なアクセント</p>
       </div>
     </div></div>
-    <p class="cuse" style="margin-top:14px">文字色は <code>#ffffff</code> / <code>#cac914</code> / <code>#090909</code> / <code>#f6f6f6</code>。</p>
+    <p class="cuse" style="margin-top:14px">文字色は <code>#ffffff</code> / <code>#cac914</code> / <code>#000000</code>。</p>
     <h3 class="sub">どこに使っているか（箇所数）</h3>
     <table class="usage">
       <tr><th>色</th><td>面</td><td>文字</td><td>枠線</td><td>ボタンの地</td></tr>
       <tr><th><i style="background:#ffffff"></i><code>#ffffff</code></th>
-        <td>44</td><td>161</td><td>4</td><td>0</td></tr><tr><th><i style="background:#161616"></i><code>#161616</code></th>
+        <td>45</td><td>161</td><td>4</td><td>0</td></tr><tr><th><i style="background:#161616"></i><code>#161616</code></th>
         <td>2</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#000000"></i><code>#000000</code></th>
-        <td>4</td><td>0</td><td>0</td><td>4</td></tr><tr><th><i style="background:#333333"></i><code>#333333</code></th>
+        <td>4</td><td>2</td><td>0</td><td>4</td></tr><tr><th><i style="background:#333333"></i><code>#333333</code></th>
         <td>1</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#cac914"></i><code>#cac914</code></th>
-        <td>0</td><td>36</td><td>13</td><td>0</td></tr><tr><th><i style="background:#090909"></i><code>#090909</code></th>
-        <td>0</td><td>2</td><td>0</td><td>0</td></tr><tr><th><i style="background:#f6f6f6"></i><code>#f6f6f6</code></th>
-        <td>0</td><td>2</td><td>33</td><td>0</td></tr>
+        <td>0</td><td>36</td><td>13</td><td>0</td></tr>
     </table>
     <p class="note"><code>#cac914</code> は文字色として36箇所で使うのが主。面としては0箇所しかないが、1枚が大きく画面の0%を占める。ボタンの地には使っていない。枠線にも13箇所。</p>
   </section>
@@ -228,8 +226,8 @@
       <p class="spmeta">リード<span>20px / 行間 1.6</span></p>
       <p class="spdemo" style="font-size:20px;line-height:1.6">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">本文<span>16px / 行間 1.6</span></p>
-      <p class="spdemo" style="font-size:16px;line-height:1.6">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">本文<span>16px / 行間 2.5</span></p>
+      <p class="spdemo" style="font-size:16px;line-height:2.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">補助<span>14px</span></p>
       <p class="spdemo" style="font-size:14px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
@@ -404,7 +402,7 @@
 | 差し色 | `#332f29` | 2% |
 | 差し色 | `#3d4245` | 1.6% |
 
-文字色は `#ffffff` / `#cac914` / `#090909` / `#f6f6f6`。
+文字色は `#ffffff` / `#cac914` / `#000000`。
 
 - 主色 `#cac914` は塗りにはほとんど使わない。文字・線・小さな部品だけで効かせる。
 - 影は**使わない**（計測0件）。段差は色面の切り替えだけでつくる。
@@ -415,13 +413,11 @@
 
 | 色 | 面 | 文字 | 枠線 | ボタンの地 |
 |---|---|---|---|---|
-| `#ffffff` | 44 | 161 | 4 | 0 |
+| `#ffffff` | 45 | 161 | 4 | 0 |
 | `#161616` | 2 | 0 | 0 | 0 |
-| `#000000` | 4 | 0 | 0 | 4 |
+| `#000000` | 4 | 2 | 0 | 4 |
 | `#333333` | 1 | 0 | 0 | 0 |
 | `#cac914` | 0 | 36 | 13 | 0 |
-| `#090909` | 0 | 2 | 0 | 0 |
-| `#f6f6f6` | 0 | 2 | 33 | 0 |
 
 - `#cac914` は文字色として36箇所で使うのが主。面としては0箇所しかないが、1枚が大きく画面の0%を占める。ボタンの地には使っていない。枠線にも13箇所。
 
@@ -451,16 +447,19 @@
 - 欧文: YakuHanJP
 - ウェイトは 700 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 52px | 1 |
-| 見出し | 46px | — |
-| 小見出し | 33px | 1 |
-| リード | 20px | 1.6 |
-| 本文 | 16px | 1.6 |
-| 補助 | 14px | — |
-| 注記 | 12px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 52px | 1 | — | 20px |
+| 見出し | 46px | — | — | — |
+| 小見出し | 33px | 1 | 177px | 126px |
+| リード | 20px | 1.6 | 35px | 40px |
+| 本文 | 16px | 2.5 | 41px | 263px |
+| 補助 | 14px | — | — | — |
+| 注記 | 12px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（60px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 16px・行間 1.6。
 

@@ -85,18 +85,56 @@
 
 - 和文: Hiragino Sans（有料）→ 無料で近いのは **Noto Sans JP**、なければ Noto Sans JP
 - 欧文: Roboto2
-- ウェイトは 500 が中心。太さで強弱をつけず、大きさで差をつける。
+- ウェイトは 400 / 500 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 29px | — |
-| 見出し | 22px | 2 |
-| 本文 | 14px | 2 |
-| 補助 | 13px | — |
-| 注記 | 12px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 54px | 1.4 | — | 55px |
+| 見出し | 32px | 1 | 50px | 58px |
+| 小見出し | 29px | 1.6 | 36px | 29px |
+| リード | 22px | 2 | 13px | 112px |
+| 本文 | 14px | 2 | — | — |
+| 補助 | 13px | — | — | — |
+| 注記 | 12px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（48px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 14px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 6箇所で使っている（見出し14箇所のうち）。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 和文 |
+| ラベルのサイズ | 13px |
+| ラベルの字間 | 0.057em |
+| ラベルの太さ | 500 |
+| ラベルの色 | `#5c6166` |
+| ラベル → 見出し | 13px |
+| 見出しのサイズ | 22px |
+| 見出し → 本文 | 112px |
+| 罫線 | なし |
+| 組み方 | **兄弟に並べる**（囲まずに続けて置く） |
+
+```html
+<p class="c-head__label">私たちの仕事</p>
+<h2 class="c-head__title">サービス</h2>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:13px; font-weight:500; letter-spacing:0.057em;
+  color:#5c6166 }
+.c-head__title{ font-size:22px; line-height:2; margin-top:13px }
+.c-head__title + *{ margin-top:112px }
+```
+
+- ラベルと見出しの間は 13px、見出しと本文の間は 112px。ラベル側を詰めて、本文側を空ける。この差がまとまりを作っている。
 
 ## レイアウト
 
@@ -182,6 +220,16 @@
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
 
+```html
+<section class="section">
+  <div class="container">
+    <p class="c-head__label">私たちの仕事</p>
+    <h2 class="c-head__title">サービス</h2>
+    <p>本文…</p>
+  </div>
+</section>
+```
+
 ```css
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
@@ -191,6 +239,9 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:840px; display:grid; align-content:center }
+.c-head__label{ font-size:13px; font-weight:500; letter-spacing:0.057em; color:#5c6166 }
+.c-head__title{ font-size:22px; line-height:2; margin-top:13px }
+.c-head__title + *{ margin-top:112px }
 
 .section--main{ background:var(--main); color:#5c6166; --on:#5c6166 }
 .section--main .btn--fill{ background:#5c6166; color:var(--main) }

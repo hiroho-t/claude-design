@@ -84,14 +84,39 @@
   "headings": {
     "h3": [
       {
-        "fs": 56,
+        "fs": 70,
         "weight": "700",
-        "lh": 1.2,
+        "lh": 0.8,
         "ls": "0",
         "family": "Barlow"
+      },
+      {
+        "fs": 14,
+        "weight": "500",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "Zen Kaku Gothic New"
       }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": 36,
+      "below": 36,
+      "n": 3
+    },
+    "56": {
+      "above": 210,
+      "below": 80,
+      "n": 1
+    },
+    "70": {
+      "above": 244,
+      "below": 181,
+      "n": 4
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

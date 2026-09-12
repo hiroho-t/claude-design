@@ -6,15 +6,15 @@
   "bg": [
     {
       "hex": "#faf9f7",
-      "pct": 92.7
+      "pct": 91.7
+    },
+    {
+      "hex": "#ffecf0",
+      "pct": 2.7
     },
     {
       "hex": "#6abbe8",
       "pct": 1.8
-    },
-    {
-      "hex": "#ffecf0",
-      "pct": 1.7
     },
     {
       "hex": "#6683a4",
@@ -28,26 +28,26 @@
   "ink": [
     {
       "hex": "#454545",
-      "pct": 58.1
+      "pct": 53.3
     },
     {
       "hex": "#7e8c8d",
-      "pct": 19.9
-    },
-    {
-      "hex": "#ffffff",
-      "pct": 10.4
+      "pct": 18.3
     },
     {
       "hex": "#fe1f54",
-      "pct": 4.9
+      "pct": 12.7
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 9.6
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 1739
+      "w": 1932
     },
     {
       "family": "Montserrat",
@@ -65,7 +65,7 @@
     },
     {
       "px": 15,
-      "w": 453
+      "w": 646
     },
     {
       "px": 14,
@@ -81,12 +81,19 @@
     }
   ],
   "body": {
-    "fs": 16,
+    "fs": 15,
     "lh": 1.6,
-    "ls": "0.020em"
+    "ls": "0.053em"
   },
   "headings": {
     "h2": [
+      {
+        "fs": 34,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.150em",
+        "family": "Noto Sans JP"
+      },
       {
         "fs": 68,
         "weight": "400",
@@ -97,6 +104,13 @@
     ],
     "h3": [
       {
+        "fs": 28,
+        "weight": "400",
+        "lh": 1.6,
+        "ls": "0.029em",
+        "family": "Noto Sans JP"
+      },
+      {
         "fs": 16,
         "weight": "400",
         "lh": 1.6,
@@ -105,6 +119,39 @@
       }
     ]
   },
+  "headSpace": {
+    "16": {
+      "above": 55,
+      "below": 55,
+      "n": 5
+    },
+    "28": {
+      "above": 387,
+      "below": 383,
+      "n": 10
+    },
+    "32": {
+      "above": null,
+      "below": 10,
+      "n": 3
+    },
+    "34": {
+      "above": 341,
+      "below": 96,
+      "n": 2
+    },
+    "44": {
+      "above": 170,
+      "below": null,
+      "n": 1
+    },
+    "68": {
+      "above": null,
+      "below": 105,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 5,
@@ -247,11 +294,11 @@
       "img": true,
       "bg": null,
       "align": "中央",
-      "media": "右",
+      "media": "左",
       "split": "38:62"
     },
     {
-      "h": 200,
+      "h": 280,
       "full": true,
       "cols": 0,
       "img": false,
@@ -454,16 +501,16 @@
       "ボタン": 11
     },
     {
-      "hex": "#6abbe8",
-      "面": 4,
-      "文字": 6,
+      "hex": "#ffecf0",
+      "面": 1,
+      "文字": 0,
       "枠": 0,
       "ボタン": 0
     },
     {
-      "hex": "#ffecf0",
-      "面": 1,
-      "文字": 0,
+      "hex": "#6abbe8",
+      "面": 4,
+      "文字": 6,
       "枠": 0,
       "ボタン": 0
     },

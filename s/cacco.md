@@ -84,18 +84,54 @@
 - 欧文: dnp-shuei-gothic-kin-std
 - ウェイトは 600 / 350 / 500 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 42px | 1 |
-| 見出し | 24px | 2 |
-| 小見出し | 20px | 1 |
-| リード | 16px | — |
-| 本文 | 15px | 2.33 |
-| 補助 | 14px | 2.29 |
-| 注記 | 13px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 42px | 1 | — | 349px |
+| 見出し | 24px | 2 | 19px | 40px |
+| 小見出し | 20px | 1 | 322px | 20px |
+| リード | 16px | — | — | — |
+| 本文 | 15px | 2.33 | — | — |
+| 補助 | 14px | 2.29 | 18px | — |
+| 注記 | 13px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（160px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 15px・行間 2.33。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 3箇所で使っている。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 英字 |
+| ラベルのサイズ | 12px |
+| ラベルの字間 | 0（詰めも空けもしない） |
+| ラベルの太さ | 400 |
+| ラベルの色 | `#ffffff` |
+| ラベル → 見出し | 19px |
+| 見出しのサイズ | 24px |
+| 見出し → 本文 | 40px |
+| 罫線 | なし |
+| 組み方 | **兄弟に並べる**（囲まずに続けて置く） |
+
+```html
+<p class="c-head__label">SERVICE</p>
+<h2 class="c-head__title">サービス</h2>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:12px; font-weight:400;
+  color:#ffffff; text-transform:uppercase }
+.c-head__title{ font-size:24px; line-height:2; margin-top:19px }
+.c-head__title + *{ margin-top:40px }
+```
+
+- ラベルと見出しの間は 19px、見出しと本文の間は 40px。ラベル側を詰めて、本文側を空ける。この差がまとまりを作っている。
 
 ## レイアウト
 
@@ -114,7 +150,7 @@
 | 本文 | 15px / 行間 2.33 | 13px / 行間 2 |
 | 見出し | 42px | 16px / 行間 2 |
 | セクションの上下余白 | 160px | 80px |
-| 左右の余白 | — | 73px |
+| 左右の余白 | — | 0px |
 | 並びの間隔 | 86px | 12px |
 
 - 本文は 15px → 13px、セクション余白は 160px → 80px（PCの50%）。
@@ -150,7 +186,7 @@
 | 5 | 500px | `#ffffff` | 1カラム・文字だけ | 左 | — |
 | 6 | 4800px | — | 1カラム・画像あり | 右 | — |
 | 7 | 840px | `#ffffff` | 1カラム・画像あり | 左 | 右（45:55） |
-| 8 | 1040px | `#f0f2f6` | 1カラム・画像あり | 左 | 見出しの下 |
+| 8 | 1000px | `#f0f2f6` | 1カラム・画像あり | 左 | 見出しの下 |
 | 9 | 400px | `#f0f2f6` | 2カラム | — | — |
 
 - 全9セクション、すべて全幅。中央に寄せた箱を積むのではなく、色面を全幅で切り替えながら進む。
@@ -183,15 +219,28 @@
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
 
+```html
+<section class="section">
+  <div class="container">
+    <p class="c-head__label">SERVICE</p>
+    <h2 class="c-head__title">サービス</h2>
+    <p>本文…</p>
+  </div>
+</section>
+```
+
 ```css
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
 
 .section{ padding:var(--section-y) 0; --on:#3143cf }
-.container{ width:min(100% - 146px, var(--container)); margin-inline:auto }
+.container{ width:min(100% - 0px, var(--container)); margin-inline:auto }
 .read{ max-width:var(--read) }
 
 .hero{ min-height:660px; display:grid; align-content:center }
+.c-head__label{ font-size:12px; font-weight:400; color:#ffffff }
+.c-head__title{ font-size:24px; line-height:2; margin-top:19px }
+.c-head__title + *{ margin-top:40px }
 
 .section--main{ background:var(--main); color:#666666; --on:#666666 }
 .section--main .btn--fill{ background:#666666; color:var(--main) }
@@ -206,7 +255,7 @@ img{ width:100%; height:auto; border-radius:0px; aspect-ratio:3/2; object-fit:co
 
 @media (max-width:768px){
   :root{ --fs-body:13px; --section-y:80px; --gap:12px; }
-  .container{ width:calc(100% - 146px) }
+  .container{ width:calc(100% - 0px) }
 }
 ```
 

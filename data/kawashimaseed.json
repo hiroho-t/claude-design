@@ -28,11 +28,11 @@
   "ink": [
     {
       "hex": "#000000",
-      "pct": 66.3
+      "pct": 66
     },
     {
       "hex": "#ffffff",
-      "pct": 32.5
+      "pct": 32.7
     },
     {
       "hex": "#687770",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "Zen Kaku Gothic New",
-      "w": 1281
+      "w": 1265
     },
     {
       "family": "Outfit",
@@ -69,7 +69,7 @@
     },
     {
       "px": 15,
-      "w": 688
+      "w": 672
     },
     {
       "px": 13,
@@ -97,16 +97,16 @@
     ],
     "h2": [
       {
-        "fs": 15,
+        "fs": 30,
         "weight": "500",
-        "lh": 1.7,
+        "lh": 1.8,
         "ls": "0",
         "family": "Zen Kaku Gothic New"
       },
       {
-        "fs": 38,
+        "fs": 15,
         "weight": "500",
-        "lh": 1.8,
+        "lh": 1.7,
         "ls": "0",
         "family": "Zen Kaku Gothic New"
       }
@@ -128,6 +128,44 @@
       }
     ]
   },
+  "headSpace": {
+    "11": {
+      "above": 62,
+      "below": 203,
+      "n": 8
+    },
+    "15": {
+      "above": 8,
+      "below": 47,
+      "n": 7
+    },
+    "23": {
+      "above": 39,
+      "below": 30,
+      "n": 3
+    },
+    "27": {
+      "above": 110,
+      "below": 205,
+      "n": 1
+    },
+    "30": {
+      "above": 198,
+      "below": 0,
+      "n": 3
+    },
+    "38": {
+      "above": 292,
+      "below": 46,
+      "n": 1
+    },
+    "61": {
+      "above": 81,
+      "below": null,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 8,

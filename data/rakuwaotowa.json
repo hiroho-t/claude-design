@@ -28,11 +28,11 @@
   "ink": [
     {
       "hex": "#262626",
-      "pct": 62.9
+      "pct": 63
     },
     {
       "hex": "#ffffff",
-      "pct": 24.3
+      "pct": 24.2
     },
     {
       "hex": "#00aa5c",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "Zen Kaku Gothic New",
-      "w": 3233
+      "w": 3242
     },
     {
       "family": "Inter",
@@ -69,7 +69,7 @@
     },
     {
       "px": 16,
-      "w": 1997
+      "w": 2006
     },
     {
       "px": 14,
@@ -88,16 +88,32 @@
   "headings": {
     "h2": [
       {
-        "fs": 70,
-        "weight": "500",
+        "fs": 30,
+        "weight": "700",
         "lh": 1.5,
         "ls": "0",
         "family": "Zen Kaku Gothic New"
       },
       {
-        "fs": 30,
-        "weight": "700",
-        "lh": 1.2,
+        "fs": 70,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Zen Kaku Gothic New"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 12,
+        "weight": "500",
+        "lh": 1,
+        "ls": "0",
+        "family": "Inter"
+      },
+      {
+        "fs": 18,
+        "weight": "500",
+        "lh": 1.75,
         "ls": "0",
         "family": "Zen Kaku Gothic New"
       }
@@ -117,17 +133,41 @@
         "ls": "0",
         "family": "Zen Kaku Gothic New"
       }
-    ],
-    "h3": [
-      {
-        "fs": 30,
-        "weight": "700",
-        "lh": 1.2,
-        "ls": "0",
-        "family": "Zen Kaku Gothic New"
-      }
     ]
   },
+  "headSpace": {
+    "12": {
+      "above": 109,
+      "below": 32,
+      "n": 15
+    },
+    "16": {
+      "above": 8,
+      "below": 53,
+      "n": 9
+    },
+    "18": {
+      "above": 109,
+      "below": 18,
+      "n": 11
+    },
+    "24": {
+      "above": 82,
+      "below": 290,
+      "n": 1
+    },
+    "30": {
+      "above": 160,
+      "below": 99,
+      "n": 6
+    },
+    "70": {
+      "above": null,
+      "below": 0,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 4,

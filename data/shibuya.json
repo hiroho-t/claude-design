@@ -28,15 +28,15 @@
   "ink": [
     {
       "hex": "#000000",
-      "pct": 79
+      "pct": 77.8
     },
     {
       "hex": "#ffffff",
-      "pct": 16
+      "pct": 16.9
     },
     {
       "hex": "#74748a",
-      "pct": 4.3
+      "pct": 4.6
     },
     {
       "hex": "#4d65cb",
@@ -47,11 +47,11 @@
   "fonts": [
     {
       "family": "OT-UDShinGoCOnizPr6N-Reg",
-      "w": 727
+      "w": 672
     },
     {
       "family": "OT-UDShinGoCOnizPr6N-Lig",
-      "w": 248
+      "w": 251
     },
     {
       "family": "Arial",
@@ -69,19 +69,19 @@
     },
     {
       "px": 20,
-      "w": 128
+      "w": 129
     },
     {
       "px": 16,
-      "w": 472
+      "w": 421
     },
     {
       "px": 14,
-      "w": 140
+      "w": 135
     },
     {
       "px": 12,
-      "w": 165
+      "w": 168
     }
   ],
   "body": {
@@ -100,6 +100,14 @@
       }
     ]
   },
+  "headSpace": {
+    "34": {
+      "above": 89,
+      "below": 55,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 20,

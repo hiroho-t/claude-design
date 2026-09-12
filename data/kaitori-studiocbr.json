@@ -14,21 +14,21 @@
     },
     {
       "hex": "#080808",
-      "pct": 17.6
+      "pct": 17.5
     },
     {
       "hex": "#000000",
-      "pct": 17.6
+      "pct": 17.5
     },
     {
       "hex": "#ffffff",
-      "pct": 13.1
+      "pct": 13.2
     }
   ],
   "ink": [
     {
       "hex": "#44514b",
-      "pct": 89.9
+      "pct": 90
     },
     {
       "hex": "#ffffff",
@@ -43,7 +43,7 @@
   "fonts": [
     {
       "family": "Lato",
-      "w": 4644
+      "w": 4663
     }
   ],
   "sizes": [
@@ -61,11 +61,11 @@
     },
     {
       "px": 16,
-      "w": 2495
+      "w": 2517
     },
     {
       "px": 14,
-      "w": 1162
+      "w": 1159
     },
     {
       "px": 12,
@@ -80,17 +80,17 @@
   "headings": {
     "h3": [
       {
+        "fs": 20,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.016em",
+        "family": "Lato"
+      },
+      {
         "fs": 24,
         "weight": "700",
         "lh": 1.5,
         "ls": "0.013em",
-        "family": "Lato"
-      },
-      {
-        "fs": 16,
-        "weight": "700",
-        "lh": 1.5,
-        "ls": "0.020em",
         "family": "Lato"
       }
     ],
@@ -126,6 +126,52 @@
         "family": "Lato"
       }
     ]
+  },
+  "headSpace": {
+    "14": {
+      "above": 36,
+      "below": 20,
+      "n": 9
+    },
+    "16": {
+      "above": 18,
+      "below": 75,
+      "n": 6
+    },
+    "20": {
+      "above": 71,
+      "below": 20,
+      "n": 17
+    },
+    "24": {
+      "above": 81,
+      "below": 15,
+      "n": 8
+    },
+    "28": {
+      "above": 0,
+      "below": 0,
+      "n": 1
+    },
+    "32": {
+      "above": 304,
+      "below": 40,
+      "n": 8
+    }
+  },
+  "labelHead": {
+    "fs": 16,
+    "weight": "700",
+    "ls": 0.02,
+    "color": "#ffffff",
+    "latin": false,
+    "upper": false,
+    "gap": 0,
+    "wrapped": false,
+    "rule": "1px #ffffff",
+    "headFs": 28,
+    "n": 1,
+    "total": 2
   },
   "radius": [
     {
@@ -257,7 +303,7 @@
       "split": null
     },
     {
-      "h": 8000,
+      "h": 8020,
       "full": true,
       "cols": 6,
       "img": true,

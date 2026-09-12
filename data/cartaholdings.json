@@ -28,34 +28,34 @@
   "ink": [
     {
       "hex": "#ffffff",
-      "pct": 34.5
+      "pct": 32.3
     },
     {
       "hex": "#000000",
-      "pct": 26.9
+      "pct": 29.6
     },
     {
       "hex": "#6d6d6d",
-      "pct": 23.6
+      "pct": 22.9
     },
     {
       "hex": "#b2b2b2",
-      "pct": 15.1
+      "pct": 15.2
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "CezanneProN-M",
-      "w": 572
+      "w": 583
     },
     {
       "family": "CezanneProN-DB",
-      "w": 562
+      "w": 581
     },
     {
       "family": "Gotham-Medium",
-      "w": 174
+      "w": 173
     },
     {
       "family": "Gotham-Book",
@@ -64,12 +64,12 @@
   ],
   "sizes": [
     {
-      "px": 40,
-      "w": 36
+      "px": 22,
+      "w": 64
     },
     {
       "px": 16,
-      "w": 720
+      "w": 692
     },
     {
       "px": 14,
@@ -81,7 +81,7 @@
     },
     {
       "px": 12,
-      "w": 230
+      "w": 240
     },
     {
       "px": 10,
@@ -103,6 +103,22 @@
         "family": "Gotham-Medium"
       }
     ],
+    "h2": [
+      {
+        "fs": 40,
+        "weight": "400",
+        "lh": 0.95,
+        "ls": "-0.040em",
+        "family": "Gotham-Bold"
+      },
+      {
+        "fs": 80,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0.080em",
+        "family": "CezanneProN-DB"
+      }
+    ],
     "h3": [
       {
         "fs": 40,
@@ -120,6 +136,24 @@
       }
     ]
   },
+  "headSpace": {
+    "40": {
+      "above": 320,
+      "below": 40,
+      "n": 5
+    },
+    "60": {
+      "above": 295,
+      "below": 40,
+      "n": 1
+    },
+    "80": {
+      "above": 8,
+      "below": 34,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
@@ -231,7 +265,7 @@
   ],
   "sections": [
     {
-      "h": 600,
+      "h": 580,
       "full": true,
       "cols": 3,
       "img": true,

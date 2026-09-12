@@ -82,16 +82,55 @@
     "ls": "0.020em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 48,
+        "weight": "400",
+        "lh": 1.2,
+        "ls": "0.010em",
+        "family": "HelveticaNeueLTPro-Md"
+      }
+    ],
     "h2": [
       {
-        "fs": 21,
+        "fs": 28,
         "weight": "600",
-        "lh": 1.65,
-        "ls": "0.029em",
+        "lh": 1.6,
+        "ls": "0.020em",
+        "family": "HelveticaNowText-Medium"
+      },
+      {
+        "fs": 24,
+        "weight": "600",
+        "lh": 1.4,
+        "ls": "0.025em",
         "family": "HelveticaNowText-Medium"
       }
     ]
   },
+  "headSpace": {
+    "21": {
+      "above": null,
+      "below": 137,
+      "n": 1
+    },
+    "24": {
+      "above": 186,
+      "below": 86,
+      "n": 1
+    },
+    "28": {
+      "above": 376,
+      "below": 56,
+      "n": 3
+    },
+    "48": {
+      "above": null,
+      "below": 19,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

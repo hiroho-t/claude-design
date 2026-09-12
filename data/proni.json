@@ -87,6 +87,15 @@
         "family": "Noto Sans JP"
       }
     ],
+    "h3": [
+      {
+        "fs": 96,
+        "weight": "600",
+        "lh": 0.83,
+        "ls": "-0.025em",
+        "family": "Schibsted Grotesk"
+      }
+    ],
     "h4": [
       {
         "fs": 20,
@@ -104,6 +113,29 @@
       }
     ]
   },
+  "headSpace": {
+    "16": {
+      "above": 378,
+      "below": null,
+      "n": 1
+    },
+    "20": {
+      "above": 72,
+      "below": 105,
+      "n": 27
+    },
+    "48": {
+      "above": 85,
+      "below": 27,
+      "n": 1
+    },
+    "96": {
+      "above": 332,
+      "below": 119,
+      "n": 3
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 16,

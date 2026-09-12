@@ -51,8 +51,8 @@
 
 | 色 | 面 | 文字 | 枠線 | ボタンの地 |
 |---|---|---|---|---|
-| `#ffffff` | 36 | 23 | 19 | 2 |
-| `#ff7a21` | 16 | 12 | 12 | 6 |
+| `#ffffff` | 35 | 23 | 18 | 2 |
+| `#ff7a21` | 15 | 10 | 12 | 6 |
 | `#4db6ac` | 2 | 13 | 3 | 1 |
 | `#fff8f4` | 1 | 0 | 0 | 0 |
 | `#cc621a` | 4 | 0 | 0 | 0 |
@@ -89,18 +89,56 @@
 - 欧文: Quicksand
 - ウェイトは 400 / 700 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 48px | 1.5 |
-| 見出し | 36px | 1.5 |
-| 小見出し | 24px | — |
-| リード | 18px | 1 |
-| 本文 | 16px | — |
-| 補助 | 14px | — |
-| 注記 | 12px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 48px | 1.5 | 24px | 64px |
+| 見出し | 36px | 1.5 | 24px | 24px |
+| 小見出し | 24px | — | — | — |
+| リード | 18px | 1 | 67px | 38px |
+| 本文 | 16px | — | — | — |
+| 補助 | 14px | — | — | — |
+| 注記 | 12px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（168px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 16px・行間 null。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 3箇所で使っている（見出し8箇所のうち）。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 英字 |
+| ラベルのサイズ | 18px |
+| ラベルの字間 | 0（詰めも空けもしない） |
+| ラベルの太さ | 700 |
+| ラベルの色 | `#ff7a21` |
+| ラベル → 見出し | 24px |
+| 見出しのサイズ | 48px |
+| 見出し → 本文 | 64px |
+| 罫線 | なし |
+| 組み方 | **箱で包む**（ラベルと見出しが1つのまとまりとして囲まれている） |
+
+```html
+<div class="c-head">
+  <p class="c-head__label">SERVICE</p>
+  <h2 class="c-head__title">サービス</h2>
+</div>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:18px; font-weight:700;
+  color:#ff7a21; text-transform:uppercase }
+.c-head__title{ font-size:48px; line-height:1.5; margin-top:24px }
+.c-head + *{ margin-top:64px }
+```
+
+- ラベルと見出しの間は 24px、見出しと本文の間は 64px。ラベル側を詰めて、本文側を空ける。この差がまとまりを作っている。
 
 ## レイアウト
 
@@ -187,7 +225,7 @@
 
 ## 丸いもの
 
-角丸は 24px だが、**完全な円は別扱い**で 19 箇所ある（48px×8、16px×4、40px×4）。
+角丸は 24px だが、**完全な円は別扱い**で 18 箇所ある（48px×7、16px×4、40px×4）。
 アイコンの地・点・装飾に使う。角を丸めないルールと、円のモチーフは両立する。
 
 ## 画像
@@ -200,6 +238,18 @@
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
 
+```html
+<section class="section">
+  <div class="container">
+    <div class="c-head">
+      <p class="c-head__label">SERVICE</p>
+      <h2 class="c-head__title">サービス</h2>
+    </div>
+    <p>本文…</p>
+  </div>
+</section>
+```
+
 ```css
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
@@ -209,6 +259,9 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:980px; display:grid; align-content:center }
+.c-head__label{ font-size:18px; font-weight:700; color:#ff7a21 }
+.c-head__title{ font-size:48px; line-height:1.5; margin-top:24px }
+.c-head + *{ margin-top:64px }
 
 .section--main{ background:var(--main); color:#212121; --on:#212121 }
 .section--main .btn--fill{ background:#212121; color:var(--main) }

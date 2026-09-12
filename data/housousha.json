@@ -84,10 +84,33 @@
   "headings": {
     "h2": [
       {
+        "fs": 54,
+        "weight": "300",
+        "lh": 1.2,
+        "ls": "0.080em",
+        "family": "Manrope"
+      },
+      {
         "fs": 14,
         "weight": "600",
         "lh": 1.2,
         "ls": "0.086em",
+        "family": "Manrope"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 20,
+        "weight": "600",
+        "lh": 1.2,
+        "ls": "0.060em",
+        "family": "Manrope"
+      },
+      {
+        "fs": 13,
+        "weight": "600",
+        "lh": 1.2,
+        "ls": "0.092em",
         "family": "Manrope"
       }
     ],
@@ -99,17 +122,41 @@
         "ls": "0.067em",
         "family": "Manrope"
       }
-    ],
-    "h3": [
-      {
-        "fs": 20,
-        "weight": "600",
-        "lh": 1.2,
-        "ls": "0.060em",
-        "family": "Manrope"
-      }
     ]
   },
+  "headSpace": {
+    "13": {
+      "above": 7,
+      "below": null,
+      "n": 1
+    },
+    "14": {
+      "above": null,
+      "below": 19,
+      "n": 1
+    },
+    "15": {
+      "above": 231,
+      "below": 172,
+      "n": 2
+    },
+    "20": {
+      "above": null,
+      "below": 29,
+      "n": 2
+    },
+    "46": {
+      "above": null,
+      "below": 50,
+      "n": 1
+    },
+    "54": {
+      "above": 340,
+      "below": 30,
+      "n": 5
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

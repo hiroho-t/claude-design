@@ -197,11 +197,11 @@
     <table class="usage">
       <tr><th>色</th><td>面</td><td>文字</td><td>枠線</td><td>ボタンの地</td></tr>
       <tr><th><i style="background:#fbf9f6"></i><code>#fbf9f6</code></th>
-        <td>44</td><td>9</td><td>0</td><td>16</td></tr><tr><th><i style="background:#dcdcdc"></i><code>#dcdcdc</code></th>
-        <td>39</td><td>2</td><td>0</td><td>0</td></tr><tr><th><i style="background:#bbbbbb"></i><code>#bbbbbb</code></th>
+        <td>43</td><td>9</td><td>0</td><td>16</td></tr><tr><th><i style="background:#dcdcdc"></i><code>#dcdcdc</code></th>
+        <td>38</td><td>2</td><td>0</td><td>0</td></tr><tr><th><i style="background:#bbbbbb"></i><code>#bbbbbb</code></th>
         <td>8</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#e7e0d6"></i><code>#e7e0d6</code></th>
         <td>1</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#000000"></i><code>#000000</code></th>
-        <td>0</td><td>113</td><td>0</td><td>0</td></tr><tr><th><i style="background:#969696"></i><code>#969696</code></th>
+        <td>0</td><td>108</td><td>0</td><td>0</td></tr><tr><th><i style="background:#969696"></i><code>#969696</code></th>
         <td>0</td><td>18</td><td>5</td><td>0</td></tr><tr><th><i style="background:#484743"></i><code>#484743</code></th>
         <td>0</td><td>15</td><td>5</td><td>0</td></tr>
     </table>
@@ -216,8 +216,8 @@
       <div><p>本文</p><strong>12px / 行間 1.75</strong><em>この見本は Noto Sans JP で表示しています</em></div>
     </div>
     <div class="sp">
-      <p class="spmeta">大見出し<span>40px</span></p>
-      <p class="spdemo" style="font-size:40px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">大見出し<span>40px / 行間 1</span></p>
+      <p class="spdemo" style="font-size:40px;line-height:1">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">見出し<span>24px</span></p>
       <p class="spdemo" style="font-size:24px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
@@ -304,7 +304,7 @@
           <i style="width:60%;background:rgba(255,255,255,.5)"></i>
         </div>
       </div>
-      <p class="note">同じ形が 34 箇所。角丸 4px ／ 影なし</p>
+      <p class="note">同じ形が 33 箇所。角丸 4px ／ 影なし</p>
     <p class="note">角丸は 0px だが、完全な円は別扱いで 12 箇所（24px×12）。角を丸めないことと、円のモチーフは両立する。</p>
     
   </section>
@@ -326,10 +326,10 @@
   <section>
     <h2>画像</h2>
     <div class="imgs"><div><span style="aspect-ratio:1/1;border-radius:0px"></span>
-        <em>1:1・55枚</em></div><div><span style="aspect-ratio:3/4;border-radius:0px"></span>
+        <em>1:1・54枚</em></div><div><span style="aspect-ratio:3/4;border-radius:0px"></span>
         <em>3:4・5枚</em></div><div><span style="aspect-ratio:16/9;border-radius:0px"></span>
         <em>16:9・4枚</em></div></div>
-    <p class="note">64枚。角丸 0px。</p>
+    <p class="note">63枚。角丸 0px。</p>
   </section>
 </main>
 
@@ -393,11 +393,11 @@
 
 | 色 | 面 | 文字 | 枠線 | ボタンの地 |
 |---|---|---|---|---|
-| `#fbf9f6` | 44 | 9 | 0 | 16 |
-| `#dcdcdc` | 39 | 2 | 0 | 0 |
+| `#fbf9f6` | 43 | 9 | 0 | 16 |
+| `#dcdcdc` | 38 | 2 | 0 | 0 |
 | `#bbbbbb` | 8 | 0 | 0 | 0 |
 | `#e7e0d6` | 1 | 0 | 0 | 0 |
-| `#000000` | 0 | 113 | 0 | 0 |
+| `#000000` | 0 | 108 | 0 | 0 |
 | `#969696` | 0 | 18 | 5 | 0 |
 | `#484743` | 0 | 15 | 5 | 0 |
 
@@ -428,14 +428,17 @@
 - 欧文: fot-cezanne-pron
 - ウェイトは 400 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 40px | — |
-| 見出し | 24px | — |
-| 小見出し | 20px | — |
-| リード | 16px | — |
-| 本文 | 12px | 1.75 |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 40px | 1 | 88px | 76px |
+| 見出し | 24px | — | — | — |
+| 小見出し | 20px | — | — | — |
+| リード | 16px | — | — | — |
+| 本文 | 12px | 1.75 | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（48px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 12px・行間 1.75。
 
@@ -489,7 +492,7 @@
 
 ## 部品
 
-囲み（34箇所で同じ形）
+囲み（33箇所で同じ形）
 
 ```css
 .card{
@@ -507,8 +510,8 @@
 
 ## 画像
 
-- 64枚使っている
-- 比率は 1:1（55枚）、3:4（5枚）、16:9（4枚）
+- 63枚使っている
+- 比率は 1:1（54枚）、3:4（5枚）、16:9（4枚）
 - 角丸 0px。切り抜かず四角のまま置く
 
 ## すぐ使う骨格

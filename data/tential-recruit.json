@@ -87,6 +87,13 @@
       {
         "fs": 16,
         "weight": "500",
+        "lh": 0.75,
+        "ls": "0.050em",
+        "family": "Figtree"
+      },
+      {
+        "fs": 16,
+        "weight": "500",
         "lh": null,
         "ls": "0.050em",
         "family": "Figtree"
@@ -108,6 +115,42 @@
         "family": "Figtree"
       }
     ]
+  },
+  "headSpace": {
+    "16": {
+      "above": 391,
+      "below": 10,
+      "n": 4
+    },
+    "20": {
+      "above": 23,
+      "below": 8,
+      "n": 10
+    },
+    "34": {
+      "above": null,
+      "below": 73,
+      "n": 1
+    },
+    "64": {
+      "above": 10,
+      "below": 42,
+      "n": 4
+    }
+  },
+  "labelHead": {
+    "fs": 16,
+    "weight": "500",
+    "ls": 0.05,
+    "color": "#ffffff",
+    "latin": false,
+    "upper": false,
+    "gap": 10,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 64,
+    "n": 2,
+    "total": 4
   },
   "radius": [
     {

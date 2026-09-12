@@ -26,7 +26,7 @@
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 1280
+      "w": 1281
     },
     {
       "family": "Expletus Sans",
@@ -52,7 +52,7 @@
     },
     {
       "px": 16,
-      "w": 440
+      "w": 441
     },
     {
       "px": 15,
@@ -67,14 +67,44 @@
   "headings": {
     "h2": [
       {
-        "fs": 96,
+        "fs": 20,
+        "weight": "500",
+        "lh": 1.4,
+        "ls": "0.040em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 48,
         "weight": "400",
-        "lh": 1.2,
-        "ls": "0.020em",
-        "family": "Expletus Sans"
+        "lh": 1.7,
+        "ls": "0.030em",
+        "family": "Noto Sans JP"
       }
     ]
   },
+  "headSpace": {
+    "20": {
+      "above": 309,
+      "below": 141,
+      "n": 4
+    },
+    "32": {
+      "above": null,
+      "below": 28,
+      "n": 1
+    },
+    "48": {
+      "above": 63,
+      "below": null,
+      "n": 1
+    },
+    "96": {
+      "above": null,
+      "below": 30,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [],
   "shadow": [],
   "gap": [

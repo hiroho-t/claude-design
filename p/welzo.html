@@ -201,7 +201,7 @@
         <td>2</td><td>1</td><td>2</td><td>1</td></tr><tr><th><i style="background:#168352"></i><code>#168352</code></th>
         <td>9</td><td>5</td><td>8</td><td>8</td></tr><tr><th><i style="background:#251e1c"></i><code>#251e1c</code></th>
         <td>1</td><td>65</td><td>0</td><td>0</td></tr><tr><th><i style="background:#473221"></i><code>#473221</code></th>
-        <td>1</td><td>4</td><td>0</td><td>0</td></tr>
+        <td>1</td><td>5</td><td>0</td><td>0</td></tr>
     </table>
     <p class="note"><code>#dfcfbe</code> は</p>
   </section>
@@ -214,17 +214,17 @@
       <div><p>本文</p><strong>16px / 行間 2</strong><em>この見本は Noto Sans JP で表示しています</em></div>
     </div>
     <div class="sp">
-      <p class="spmeta">大見出し<span>52px / 行間 2.2</span></p>
+      <p class="spmeta">大見出し<span>65px / 行間 1.5</span></p>
+      <p class="spdemo" style="font-size:65px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">見出し<span>52px / 行間 2.2</span></p>
       <p class="spdemo" style="font-size:52px;line-height:2.2">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">見出し<span>41px / 行間 1.03</span></p>
-      <p class="spdemo" style="font-size:41px;line-height:1.03">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">小見出し<span>51px / 行間 1.4</span></p>
+      <p class="spdemo" style="font-size:51px;line-height:1.4">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">小見出し<span>29px / 行間 1.79</span></p>
+      <p class="spmeta">リード<span>29px / 行間 1.79</span></p>
       <p class="spdemo" style="font-size:29px;line-height:1.79">あのイーハトーヴォのすきとおった風</p>
-    </div><div class="sp">
-      <p class="spmeta">リード<span>20px</span></p>
-      <p class="spdemo" style="font-size:20px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">本文<span>16px / 行間 2.64</span></p>
       <p class="spdemo" style="font-size:16px;line-height:2.64">あのイーハトーヴォのすきとおった風</p>
@@ -341,12 +341,12 @@
     <table>
       <tr><th></th><td>PC 1440px</td><td>スマホ 390px</td></tr>
       <tr><th>本文</th><td>16px / 行間 2</td><td>14px / 行間 1.7</td></tr>
-      <tr><th>見出し</th><td>52px</td><td>11px</td></tr>
+      <tr><th>見出し</th><td>65px</td><td>11px</td></tr>
       <tr><th>セクションの上下余白</th><td>112px</td><td>32px</td></tr>
       <tr><th>左右の余白</th><td>—</td><td>21px</td></tr>
       <tr><th>並びの間隔</th><td>50px</td><td>—px</td></tr>
     </table>
-    <p class="note">文字サイズの段は 21 / 15 / 14 / 12 / 10px。セクション余白はPCの29%まで詰める。</p>
+    <p class="note">文字サイズの段は 15 / 14 / 12 / 11 / 10px。セクション余白はPCの29%まで詰める。</p>
   </section>
 
   <section>
@@ -423,7 +423,7 @@
 | `#f4f4f4` | 2 | 1 | 2 | 1 |
 | `#168352` | 9 | 5 | 8 | 8 |
 | `#251e1c` | 1 | 65 | 0 | 0 |
-| `#473221` | 1 | 4 | 0 | 0 |
+| `#473221` | 1 | 5 | 0 | 0 |
 
 - `#dfcfbe` は
 
@@ -453,16 +453,19 @@
 - 欧文: Poppins
 - ウェイトは 700 / 600 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 52px | 2.2 |
-| 見出し | 41px | 1.03 |
-| 小見出し | 29px | 1.79 |
-| リード | 20px | — |
-| 本文 | 16px | 2.64 |
-| 補助 | 15px | — |
-| 注記 | 14px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 65px | 1.5 | 196px | 75px |
+| 見出し | 52px | 2.2 | 240px | 0px |
+| 小見出し | 51px | 1.4 | 110px | 32px |
+| リード | 29px | 1.79 | 247px | 27px |
+| 本文 | 16px | 2.64 | 259px | — |
+| 補助 | 15px | — | — | — |
+| 注記 | 14px | — | — | 3px |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（112px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 16px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -481,13 +484,13 @@
 | | PC 1440px | スマホ 390px |
 |---|---|---|
 | 本文 | 16px / 行間 2 | 14px / 行間 1.7 |
-| 見出し | 52px | 11px / 行間 1.5 |
+| 見出し | 65px | 11px / 行間 1.5 |
 | セクションの上下余白 | 112px | 32px |
 | 左右の余白 | — | 21px |
 | 並びの間隔 | 50px | —px |
 
 - 本文は 16px → 14px、セクション余白は 112px → 32px（PCの29%）。
-- 文字サイズの段は 21 / 15 / 14 / 12 / 10px。
+- 文字サイズの段は 15 / 14 / 12 / 11 / 10px。
 
 ## ボタン
 

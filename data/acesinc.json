@@ -90,6 +90,15 @@
     "ls": "0"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 68,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "MFW-YuGoPr6N-Bold"
+      }
+    ],
     "h2": [
       {
         "fs": 20,
@@ -125,6 +134,29 @@
       }
     ]
   },
+  "headSpace": {
+    "20": {
+      "above": 40,
+      "below": 125,
+      "n": 9
+    },
+    "40": {
+      "above": 179,
+      "below": 50,
+      "n": 5
+    },
+    "52": {
+      "above": 179,
+      "below": null,
+      "n": 1
+    },
+    "68": {
+      "above": 315,
+      "below": 40,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

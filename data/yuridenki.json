@@ -6,7 +6,7 @@
   "bg": [
     {
       "hex": "#f5f5f5",
-      "pct": 56.9
+      "pct": 56.8
     },
     {
       "hex": "#ffffff",
@@ -90,6 +90,22 @@
     "ls": "0.060em"
   },
   "headings": {
+    "h2": [
+      {
+        "fs": 12,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0.040em",
+        "family": "termina"
+      },
+      {
+        "fs": 120,
+        "weight": "500",
+        "lh": 1,
+        "ls": "-0.050em",
+        "family": "termina"
+      }
+    ],
     "h3": [
       {
         "fs": 24,
@@ -99,14 +115,52 @@
         "family": "YakuHanJP_Noto"
       },
       {
-        "fs": 46,
-        "weight": "400",
+        "fs": 30,
+        "weight": "700",
         "lh": 1.4,
-        "ls": "0.030em",
-        "family": "termina"
+        "ls": "0.028em",
+        "family": "YakuHanJP_Noto"
       }
     ]
   },
+  "headSpace": {
+    "12": {
+      "above": 185,
+      "below": 56,
+      "n": 2
+    },
+    "24": {
+      "above": 116,
+      "below": 17,
+      "n": 7
+    },
+    "30": {
+      "above": 0,
+      "below": 26,
+      "n": 4
+    },
+    "36": {
+      "above": 70,
+      "below": null,
+      "n": 1
+    },
+    "38": {
+      "above": null,
+      "below": 40,
+      "n": 1
+    },
+    "46": {
+      "above": null,
+      "below": 16,
+      "n": 1
+    },
+    "120": {
+      "above": null,
+      "below": 70,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

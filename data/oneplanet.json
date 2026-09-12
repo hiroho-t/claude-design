@@ -6,7 +6,7 @@
   "bg": [
     {
       "hex": "#ffffff",
-      "pct": 86.6
+      "pct": 86.5
     },
     {
       "hex": "#1c1c1c",
@@ -28,26 +28,26 @@
   "ink": [
     {
       "hex": "#1c1c1c",
-      "pct": 54.6
+      "pct": 54
     },
     {
       "hex": "#f7f7f7",
-      "pct": 13.2
+      "pct": 13.4
     },
     {
       "hex": "#606060",
-      "pct": 9.9
+      "pct": 10
     },
     {
       "hex": "#ffffff",
-      "pct": 8.9
+      "pct": 9
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 1185
+      "w": 1168
     },
     {
       "family": "Ubuntu",
@@ -61,7 +61,7 @@
   "sizes": [
     {
       "px": 22,
-      "w": 182
+      "w": 165
     },
     {
       "px": 20,
@@ -139,6 +139,44 @@
       }
     ]
   },
+  "headSpace": {
+    "16": {
+      "above": 12,
+      "below": 81,
+      "n": 3
+    },
+    "22": {
+      "above": 4,
+      "below": 23,
+      "n": 3
+    },
+    "56": {
+      "above": 12,
+      "below": 0,
+      "n": 1
+    },
+    "60": {
+      "above": 0,
+      "below": 26,
+      "n": 1
+    },
+    "62": {
+      "above": 14,
+      "below": 2,
+      "n": 1
+    },
+    "140": {
+      "above": 162,
+      "below": 222,
+      "n": 1
+    },
+    "160": {
+      "above": 182,
+      "below": 248,
+      "n": 4
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
@@ -302,7 +340,7 @@
       "split": null
     },
     {
-      "h": 620,
+      "h": 600,
       "full": true,
       "cols": 3,
       "img": false,

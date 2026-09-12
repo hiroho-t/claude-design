@@ -2,10 +2,10 @@
 
 - 出典: https://mujuu.jp/
 - 実測: 2026-09-12／ブラウザ幅1440pxで実際に描かれた値を測ったもの
-- 印象: 明朝 / 余白つまった / 角ばった / モノトーン
+- 印象: 明朝 / 余白ふつう / 角ばった / 色つき
 - 業種: ブランドサイト･サービスサイト／美容･化粧品･コスメ･ケア用品／レスポンシブ
 
-白地に `#bbcbad` を文字と細部だけで効かせる配色。影も枠線もほとんど使わない。本文 18px・行間 1.4、セクション間 60px。
+白地に `#bbcbad` を文字と細部だけで効かせる配色。影も枠線もほとんど使わない。本文 16px・行間 null、セクション間 80px。
 
 このファイルに書いてあるのは色と寸法だけ。文言・写真・ロゴは真似せず、自分で用意すること。
 
@@ -16,17 +16,17 @@
   --bg: #ffffff;
   --main: #bbcbad;
   --sub: #dbdbda;
-  --ink: #ffffff;
-  --ink-rev: #000000;
+  --ink: #000000;
+  --ink-rev: #ffffff;
   --on: #bbcbad;   /* いま乗っている面の上で使う線と文字の色。面ごとに入れ替える */
   --font-ja: "Zen Old Mincho", sans-serif;
-  --font-en: "Material Icons", sans-serif;
-  --fs-body: 18px;
-  --lh-body: 1.4;
-  --container: 1224px;
+  --font-en: "Inter", sans-serif;
+  --fs-body: 16px;
+  --lh-body: null;
+  --container: 580px;
   --read: 720px;
-  --section-y: 60px;
-  --gap: 16px;
+  --section-y: 80px;
+  --gap: 24px;
   --radius: 0px;
 }
 ```
@@ -41,7 +41,7 @@
 | 差し色 | `#bbcbad` | 1.9% |
 | 差し色 | `#0a0d0a` | 1.9% |
 
-文字色は `#ffffff` / `#000000` / `#191919` / `#333333`。
+文字色は `#000000` / `#ffffff` / `#005409` / `#333333`。
 
 - 主色 `#bbcbad` は塗りにはほとんど使わない。文字・線・小さな部品だけで効かせる。
 - 影は**使わない**（計測0件）。段差は色面の切り替えだけでつくる。
@@ -52,13 +52,14 @@
 
 | 色 | 面 | 文字 | 枠線 | ボタンの地 |
 |---|---|---|---|---|
-| `#ffffff` | 1 | 63 | 5 | 0 |
-| `#2c423b` | 2 | 0 | 0 | 0 |
-| `#344842` | 1 | 0 | 0 | 0 |
-| `#dbdbda` | 1 | 0 | 0 | 0 |
-| `#000000` | 1 | 27 | 31 | 0 |
-| `#191919` | 0 | 24 | 0 | 0 |
-| `#333333` | 0 | 5 | 0 | 0 |
+| `#ffffff` | 12 | 44 | 0 | 7 |
+| `#014b29` | 17 | 0 | 0 | 0 |
+| `#344842` | 2 | 0 | 0 | 0 |
+| `#2c423b` | 1 | 0 | 0 | 0 |
+| `#d9d9d9` | 6 | 0 | 0 | 0 |
+| `#000000` | 0 | 58 | 39 | 0 |
+| `#005409` | 0 | 19 | 0 | 0 |
+| `#333333` | 0 | 2 | 0 | 0 |
 
 - `#bbcbad` は
 
@@ -68,43 +69,44 @@
 
 | 面 | その上に置く線と文字 |
 |---|---|
-| `#2c423b` | `#000000` |
+| `#014b29` | `#ffffff` |
+| `#d9d9d9` | `#bbcbad` |
 | `#ffffff`（地） | `#bbcbad` |
-| `#344842` | `#000000` |
-| `#dbdbda` | `#bbcbad` |
+| `#344842` | `#ffffff` |
 
 ```css
 .section{ --on:#bbcbad }                     /* 地の面 */
-.section--main{ background:var(--main); color:#000000; --on:#000000 }
+.section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .card{ border:1px solid var(--on) }
-.btn--fill{ background:var(--main); color:#000000 }
-.section--main .btn--fill{ background:#000000; color:var(--main) }   /* 主色の面では反転 */
+.btn--fill{ background:var(--main); color:#ffffff }
+.section--main .btn--fill{ background:#ffffff; color:var(--main) }   /* 主色の面では反転 */
 ```
+
+- 実測した囲みの線は `#000000`。ただしその囲みは `#ffffff` の面の上にしか無かった。**別の面に置くときは、その面の反対色にする。**
 
 ## 文字
 
 - 和文: Zen Old Mincho
-- 欧文: Material Icons
-- ウェイトは 500 / 700 / 600 が中心。太さで強弱をつけず、大きさで差をつける。
+- 欧文: Inter
+- ウェイトは 400 が中心。太さで強弱をつけず、大きさで差をつける。
 
 | 用途 | サイズ | 行間 |
 |---|---|---|
-| 大見出し | 48px | 1.4 |
-| 見出し | 28px | 2 |
-| 小見出し | 24px | 1.4 |
-| リード | 21px | — |
-| 本文 | 18px | 1.4 |
-| 補助 | 16px | — |
-| 注記 | 14px | — |
+| 大見出し | 28px | — |
+| 見出し | 24px | — |
+| 小見出し | 20px | — |
+| 本文 | 16px | — |
+| 補助 | 14px | — |
+| 注記 | 12px | — |
 
 
-- 本文は 18px・行間 1.4。
+- 本文は 16px・行間 null。
 
 ## レイアウト
 
-- コンテンツ幅: 最大 1224px／読ませる段は 720px
-- セクションの上下余白: 60 / 120 / 180 / 100px（基本は 60px）
-- 並びの間隔: px
+- コンテンツ幅: 最大 580px／読ませる段は 720px
+- セクションの上下余白: 80 / 100 / 60 / 96px（基本は 80px）
+- 並びの間隔: 8 / 16 / 24 / 40px
 - 角丸: 0px が基本。大きな面だけ 24px。中途半端な角丸を混ぜない
 - 画面幅の切り替え: 1180 / 840 / 690 / 360px
 
@@ -114,14 +116,13 @@
 
 | | PC 1440px | スマホ 390px |
 |---|---|---|
-| 本文 | 18px / 行間 1.4 | 14px / 行間 2.4 |
-| 見出し | 48px | 16px / 行間 1.4 |
-| セクションの上下余白 | 60px | 32px |
-| 左右の余白 | — | 20px |
-| 並びの間隔 | 16px | —px |
+| 本文 | 16px | 14px / 行間 1.5 |
+| セクションの上下余白 | 80px | 40px |
+| 左右の余白 | — | 24px |
+| 並びの間隔 | 24px | 32px |
 
-- 本文は 18px → 14px、セクション余白は 60px → 32px（PCの53%）。
-- 文字サイズの段は 20 / 18 / 16 / 14 / 12px。
+- 本文は 16px → 14px、セクション余白は 80px → 40px（PCの50%）。
+- 文字サイズの段は 23 / 18 / 16 / 14 / 12px。
 
 ## ボタン
 
@@ -129,14 +130,19 @@
 .btn{
   background: transparent; color: #000000;
   border: 1px solid #000000;
-  border-radius: 24px; padding: 0px 0px; min-height: 40px;
-  font-size: 21px; font-weight: 500; letter-spacing: 0;
+  border-radius: 24px; padding: 12px 24px; min-height: 46px;
+  font-size: 24px; font-weight: 700; letter-spacing: 1.2px;
 }
 .btn-sub{
-  background: transparent; color: #ffffff;
-  border: 1px solid #ffffff;
-  border-radius: 24px; padding: 0px 0px; min-height: 40px;
-  font-size: 21px; font-weight: 500; letter-spacing: 0;
+  background: transparent; color: #000000;
+  border-radius: 0px; padding: 0px 0px; min-height: 46px;
+  font-size: 24px; font-weight: 700; letter-spacing: 1.2px;
+}
+.btn-sub{
+  background: #ffffff; color: #000000;
+  border: 1px solid #000000;
+  border-radius: 24px; padding: 12px 24px; min-height: 46px;
+  font-size: 24px; font-weight: 700; letter-spacing: 1.2px;
 }
 ```
 
@@ -146,41 +152,39 @@
 
 | # | 高さ | 地色 | 中身 | 見出し | 画像 |
 |---|---|---|---|---|---|
-| 1 | 900px | — | ヒーロー | — | — |
-| 2 | 900px | — | 1カラム・文字だけ | — | — |
-| 3 | 900px | `#344842` | 1カラム・文字だけ | — | — |
-| 4 | 900px | — | 1カラム・画像あり | — | 全面 |
-| 5 | 1060px | — | 1カラム・画像あり | 左 | 見出しの下 |
-| 6 | 360px | — | 1カラム・文字だけ | 中央 | — |
-| 7 | 900px | — | 1カラム・画像あり | — | 全面 |
-| 8 | 680px | — | 1カラム・画像あり | 右 | 左（42:58） |
-| 9 | 700px | — | 1カラム・画像あり | 左 | 右（50:50） |
-| 10 | 680px | — | 1カラム・画像あり | 右 | 左（47:53） |
-| 11 | 680px | — | 1カラム・画像あり | 左 | 右（47:53） |
-| 12 | 840px | — | 4カラム・画像あり | 中央 | 見出しの下 |
-| 13 | 580px | — | 1カラム・画像あり | 右 | 左（33:67） |
-| 14 | 400px | — | 1カラム・画像あり | — | 全面 |
-| 15 | 1180px | — | 3カラム・画像あり | 中央 | 見出しの下 |
-| 16 | 1380px | — | 3カラム・画像あり | 中央 | 見出しの下 |
-| 17 | 640px | `#dbdbda` | 1カラム・画像あり | 中央 | — |
-| 18 | 440px | — | 1カラム・画像あり | — | — |
-| 19 | 200px | — | 帯・区切り | — | — |
+| 1 | 920px | — | ヒーロー（画像） | — | 全面 |
+| 2 | 400px | — | 1カラム・文字だけ | — | — |
+| 3 | 1240px | — | 2カラム・画像あり | — | 全面 |
+| 4 | 360px | — | 4カラム・画像あり | — | 全面 |
+| 5 | 400px | — | 1カラム・文字だけ | — | — |
+| 6 | 500px | — | 2カラム・画像あり | — | 全面 |
+| 7 | 500px | — | 1カラム・画像あり | — | 全面 |
+| 8 | 400px | — | 1カラム・文字だけ | — | — |
+| 9 | 1460px | `#ffffff` | 3カラム | — | — |
+| 10 | 460px | — | 2カラム | — | — |
 
-- 全19セクション、すべて全幅。中央に寄せた箱を積むのではなく、色面を全幅で切り替えながら進む。
-- 使われている面の色: `#2c423b`（2） / `#ffffff`（1） / `#344842`（1） / `#dbdbda`（1）
-- 見出しは左3／中央5。
-- 2カラムの分け方は 42:58 / 50:50 / 47:53 / 47:53 / 33:67。半分ずつには割らない。
+- 全10セクション、すべて全幅。中央に寄せた箱を積むのではなく、色面を全幅で切り替えながら進む。
+- 使われている面の色: `#014b29`（17） / `#d9d9d9`（6） / `#ffffff`（4） / `#344842`（2）
 
 
 ## 部品
 
-囲みらしい繰り返しの箱は見つからなかった。枠で囲まずに余白だけで区切っている。
+囲み（6箇所で同じ形）
+
+```css
+.card{
+  background: #d9d9d9;
+  border: 1px solid var(--on);   /* 実測は #000000。面によって入れ替える */
+  border-radius: 0px;
+  padding: 0px 0px;
+}
+```
 
 
 ## 画像
 
-- 28枚使っている。うち 1 枚は画面いっぱいに置く
-- 比率は 1:1（13枚）、3:2（4枚）、4:3（4枚）
+- 10枚使っている。うち 1 枚は画面いっぱいに置く
+- 比率は 3:2（5枚）、4:3（5枚）
 - 角丸 0px。切り抜かず四角のまま置く
 
 ## すぐ使う骨格
@@ -192,23 +196,25 @@ body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
 
 .section{ padding:var(--section-y) 0; --on:#bbcbad }
-.container{ width:min(100% - 40px, var(--container)); margin-inline:auto }
+.container{ width:min(100% - 48px, var(--container)); margin-inline:auto }
 .read{ max-width:var(--read) }
 
-.hero{ min-height:900px; display:grid; align-content:center }
+.hero{ min-height:920px; display:grid; align-content:center }
 
-.section--main{ background:var(--main); color:#000000; --on:#000000 }
-.section--main .btn--fill{ background:#000000; color:var(--main) }
+.section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
+.section--main .btn--fill{ background:#ffffff; color:var(--main) }
+.card{ background:#d9d9d9; border:1px solid var(--on);
+  border-radius:0px; padding:0px 0px }
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:transparent; color:#000000; border-radius:24px;
-  padding:0px 0px; min-height:40px;
-  font-size:21px; font-weight:500 }
+  padding:12px 24px; min-height:46px;
+  font-size:24px; font-weight:700 }
 
-img{ width:100%; height:auto; border-radius:0px; aspect-ratio:1/1; object-fit:cover }
+img{ width:100%; height:auto; border-radius:0px; aspect-ratio:3/2; object-fit:cover }
 
 @media (max-width:840px){
-  :root{ --fs-body:14px; --section-y:32px; }
-  .container{ width:calc(100% - 40px) }
+  :root{ --fs-body:14px; --section-y:40px; --gap:32px; }
+  .container{ width:calc(100% - 48px) }
 }
 ```
 
@@ -217,13 +223,14 @@ img{ width:100%; height:auto; border-radius:0px; aspect-ratio:1/1; object-fit:co
 やること
 
 - 地は `#ffffff` のまま。主色 `#bbcbad` は文字と小さな部品にだけ使う。
-- 余白 60px と行間 1.4 を先に決めてから中身を入れる。
-- 画像は 1:1 に統一し、角丸は 0px。
+- 余白 80px と行間 null を先に決めてから中身を入れる。
+- 画像は 3:2 に統一し、角丸は 0px。
 - 線と文字の色は面ごとに入れ替える（`--on` を面のクラスで上書きする）。固定色で書かない。
+- 囲みは 1px の線＋角丸 0px でそろえる。
 
 やらないこと
 
 - 影をつけない（このサイトには1つもない）。
 - 主色を大きな面に塗らない。塗った瞬間に別物になる。
-- 本文の行間を 1.4 より詰めない。角を丸めない。
+- 本文の行間を null より詰めない。角を丸めない。
 - 中途半端な角丸（0px と 24px 以外）を混ぜない。

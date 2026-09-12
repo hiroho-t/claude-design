@@ -28,30 +28,30 @@
   "ink": [
     {
       "hex": "#333333",
-      "pct": 89.7
+      "pct": 90.5
     },
     {
       "hex": "#ffffff",
-      "pct": 4.8
-    },
-    {
-      "hex": "#ff1f54",
-      "pct": 2.8
+      "pct": 4.9
     },
     {
       "hex": "#555555",
-      "pct": 2.7
+      "pct": 2.8
+    },
+    {
+      "hex": "#ff1f54",
+      "pct": 1.7
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "Yu Gothic",
-      "w": 2845
+      "w": 2741
     },
     {
       "family": "Open Sans",
-      "w": 549
+      "w": 539
     },
     {
       "family": "FOT-マティス Pro M",
@@ -65,11 +65,11 @@
     },
     {
       "px": 14,
-      "w": 427
+      "w": 373
     },
     {
       "px": 13,
-      "w": 1713
+      "w": 1680
     },
     {
       "px": 12,
@@ -89,7 +89,46 @@
     "lh": 1.6,
     "ls": "0"
   },
-  "headings": {},
+  "headings": {
+    "h3": [
+      {
+        "fs": 18,
+        "weight": "700",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "Yu Gothic"
+      },
+      {
+        "fs": 15,
+        "weight": "700",
+        "lh": 1.65,
+        "ls": "0",
+        "family": "Yu Gothic"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 18,
+        "weight": "700",
+        "lh": 1.65,
+        "ls": "0",
+        "family": "Yu Gothic"
+      }
+    ]
+  },
+  "headSpace": {
+    "15": {
+      "above": 60,
+      "below": 31,
+      "n": 3
+    },
+    "18": {
+      "above": 180,
+      "below": 87,
+      "n": 12
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 5,
@@ -205,16 +244,6 @@
       "bg": "#f7f5f2",
       "align": null,
       "media": "全幅",
-      "split": null
-    },
-    {
-      "h": 160,
-      "full": true,
-      "cols": 0,
-      "img": true,
-      "bg": null,
-      "align": null,
-      "media": "none",
       "split": null
     },
     {
@@ -409,16 +438,16 @@
       "ボタン": 0
     },
     {
-      "hex": "#ff1f54",
+      "hex": "#555555",
       "面": 0,
-      "文字": 6,
+      "文字": 12,
       "枠": 0,
       "ボタン": 0
     },
     {
-      "hex": "#555555",
+      "hex": "#ff1f54",
       "面": 0,
-      "文字": 12,
+      "文字": 4,
       "枠": 0,
       "ボタン": 0
     }

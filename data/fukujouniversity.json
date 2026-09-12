@@ -20,26 +20,26 @@
   "ink": [
     {
       "hex": "#444444",
-      "pct": 57.5
+      "pct": 58.8
     },
     {
       "hex": "#ffffff",
-      "pct": 32.4
+      "pct": 31.5
     },
     {
       "hex": "#a44858",
-      "pct": 6
+      "pct": 5.8
     },
     {
       "hex": "#858585",
-      "pct": 4.1
+      "pct": 4
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "dnp-shuei-gothic-gin-std",
-      "w": 2009
+      "w": 2096
     },
     {
       "family": "tt-commons-pro",
@@ -65,7 +65,7 @@
     },
     {
       "px": 15,
-      "w": 1306
+      "w": 1393
     },
     {
       "px": 13,
@@ -116,14 +116,42 @@
         "family": "dnp-shuei-gothic-gin-std"
       },
       {
-        "fs": 14,
-        "weight": "400",
+        "fs": 20,
+        "weight": "500",
         "lh": 1.5,
-        "ls": "0",
-        "family": "tt-commons-pro"
+        "ls": "0.080em",
+        "family": "dnp-shuei-gothic-gin-std"
       }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": 30,
+      "below": 31,
+      "n": 6
+    },
+    "15": {
+      "above": 30,
+      "below": 10,
+      "n": 42
+    },
+    "20": {
+      "above": 28,
+      "below": 20,
+      "n": 3
+    },
+    "24": {
+      "above": 0,
+      "below": 70,
+      "n": 1
+    },
+    "48": {
+      "above": 368,
+      "below": 3,
+      "n": 3
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
@@ -182,7 +210,7 @@
   "container": [
     {
       "px": 1360,
-      "n": 18
+      "n": 19
     },
     {
       "px": 956,
@@ -261,7 +289,7 @@
       "split": null
     },
     {
-      "h": 940,
+      "h": 960,
       "full": true,
       "cols": 6,
       "img": true,
@@ -357,7 +385,7 @@
     }
   ],
   "images": {
-    "n": 68,
+    "n": 69,
     "fullBleed": 1,
     "ratios": [
       {
@@ -376,7 +404,7 @@
     "radius": [
       {
         "px": 0,
-        "n": 68
+        "n": 69
       }
     ]
   },

@@ -28,7 +28,7 @@
   "ink": [
     {
       "hex": "#3a3a3a",
-      "pct": 68.8
+      "pct": 68.7
     },
     {
       "hex": "#ffffff",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "Zen Kaku Gothic New",
-      "w": 1437
+      "w": 1433
     },
     {
       "family": "Montserrat",
@@ -65,7 +65,7 @@
     },
     {
       "px": 20,
-      "w": 440
+      "w": 436
     },
     {
       "px": 18,
@@ -87,6 +87,13 @@
   },
   "headings": {
     "h2": [
+      {
+        "fs": 28,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0.010em",
+        "family": "Zen Kaku Gothic New"
+      },
       {
         "fs": 24,
         "weight": "700",
@@ -112,6 +119,29 @@
       }
     ]
   },
+  "headSpace": {
+    "16": {
+      "above": 102,
+      "below": 10,
+      "n": 3
+    },
+    "20": {
+      "above": 74,
+      "below": 202,
+      "n": 2
+    },
+    "24": {
+      "above": 210,
+      "below": 88,
+      "n": 1
+    },
+    "28": {
+      "above": 263,
+      "below": 66,
+      "n": 4
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 10,

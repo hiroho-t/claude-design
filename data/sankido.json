@@ -32,7 +32,7 @@
     },
     {
       "hex": "#666666",
-      "pct": 10
+      "pct": 10.1
     },
     {
       "hex": "#00b1cb",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 2010
+      "w": 2007
     },
     {
       "family": "Shippori Antique",
@@ -101,8 +101,35 @@
         "ls": "0.100em",
         "family": "Noto Sans JP"
       }
+    ],
+    "h2": [
+      {
+        "fs": 30,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.120em",
+        "family": "Noto Sans JP"
+      }
     ]
   },
+  "headSpace": {
+    "17": {
+      "above": 308,
+      "below": 8,
+      "n": 27
+    },
+    "20": {
+      "above": 20,
+      "below": 10,
+      "n": 1
+    },
+    "30": {
+      "above": null,
+      "below": 308,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 50,
@@ -226,7 +253,7 @@
       "split": null
     },
     {
-      "h": 1400,
+      "h": 1360,
       "full": true,
       "cols": 4,
       "img": true,

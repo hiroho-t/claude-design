@@ -74,18 +74,27 @@
     "ls": "0.050em"
   },
   "headings": {
+    "h2": [
+      {
+        "fs": 77,
+        "weight": "700",
+        "lh": 1.3,
+        "ls": "0.290em",
+        "family": "Jost"
+      }
+    ],
     "h3": [
       {
-        "fs": 40,
+        "fs": 16,
         "weight": "600",
-        "lh": 1.5,
-        "ls": "0.300em",
+        "lh": 1.2,
+        "ls": "0",
         "family": "Jost"
       },
       {
-        "fs": 33,
-        "weight": "600",
-        "lh": 1.7,
+        "fs": 14,
+        "weight": "700",
+        "lh": 1.2,
         "ls": "0",
         "family": "Jost"
       }
@@ -107,6 +116,44 @@
       }
     ]
   },
+  "headSpace": {
+    "12": {
+      "above": null,
+      "below": 396,
+      "n": 1
+    },
+    "14": {
+      "above": 185,
+      "below": 81,
+      "n": 6
+    },
+    "16": {
+      "above": 286,
+      "below": 10,
+      "n": 15
+    },
+    "28": {
+      "above": 16,
+      "below": null,
+      "n": 1
+    },
+    "33": {
+      "above": 30,
+      "below": 32,
+      "n": 1
+    },
+    "40": {
+      "above": null,
+      "below": 52,
+      "n": 1
+    },
+    "77": {
+      "above": 327,
+      "below": 16,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 4,

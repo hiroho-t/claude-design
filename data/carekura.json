@@ -6,15 +6,15 @@
   "bg": [
     {
       "hex": "#ffffff",
-      "pct": 58.9
+      "pct": 59.3
     },
     {
       "hex": "#34a9ee",
-      "pct": 22.9
+      "pct": 22.4
     },
     {
       "hex": "#fdf2ed",
-      "pct": 15.3
+      "pct": 15.4
     },
     {
       "hex": "#e57547",
@@ -28,26 +28,26 @@
   "ink": [
     {
       "hex": "#18181b",
-      "pct": 41
+      "pct": 41.1
     },
     {
       "hex": "#34a9ee",
-      "pct": 22.3
-    },
-    {
-      "hex": "#ffffff",
-      "pct": 16.2
+      "pct": 22.4
     },
     {
       "hex": "#000000",
-      "pct": 16
+      "pct": 16.6
+    },
+    {
+      "hex": "#ffffff",
+      "pct": 15.4
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "Urbanist",
-      "w": 2332
+      "w": 2312
     }
   ],
   "sizes": [
@@ -57,7 +57,7 @@
     },
     {
       "px": 20,
-      "w": 202
+      "w": 213
     },
     {
       "px": 16,
@@ -73,7 +73,7 @@
     },
     {
       "px": 13,
-      "w": 410
+      "w": 379
     }
   ],
   "body": {
@@ -84,26 +84,26 @@
   "headings": {
     "h2": [
       {
-        "fs": 64,
-        "weight": "400",
-        "lh": 2.4,
-        "ls": "0.080em",
+        "fs": 48,
+        "weight": "500",
+        "lh": 1.3,
+        "ls": "0.017em",
         "family": "Urbanist"
       },
       {
-        "fs": 36,
+        "fs": 64,
         "weight": "400",
-        "lh": 2,
+        "lh": 2.4,
         "ls": "0.080em",
         "family": "Urbanist"
       }
     ],
     "h3": [
       {
-        "fs": 13,
-        "weight": "500",
-        "lh": 1.6,
-        "ls": "0.062em",
+        "fs": 20,
+        "weight": "400",
+        "lh": 1.7,
+        "ls": "0.040em",
         "family": "Urbanist"
       },
       {
@@ -124,10 +124,76 @@
       }
     ]
   },
+  "headSpace": {
+    "13": {
+      "above": 12,
+      "below": 145,
+      "n": 2
+    },
+    "15": {
+      "above": 7,
+      "below": 176,
+      "n": 5
+    },
+    "18": {
+      "above": 288,
+      "below": 260,
+      "n": 1
+    },
+    "20": {
+      "above": 14,
+      "below": 67,
+      "n": 5
+    },
+    "22": {
+      "above": 5,
+      "below": 301,
+      "n": 3
+    },
+    "24": {
+      "above": 96,
+      "below": 24,
+      "n": 3
+    },
+    "36": {
+      "above": null,
+      "below": 0,
+      "n": 1
+    },
+    "44": {
+      "above": 302,
+      "below": 218,
+      "n": 2
+    },
+    "48": {
+      "above": 257,
+      "below": 100,
+      "n": 2
+    },
+    "64": {
+      "above": 144,
+      "below": 268,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 11,
+    "weight": "400",
+    "ls": 0.073,
+    "color": "#ffffff",
+    "latin": false,
+    "upper": false,
+    "gap": 14,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 20,
+    "n": 4,
+    "total": 5
+  },
   "radius": [
     {
       "px": 8,
-      "n": 15
+      "n": 14
     },
     {
       "px": 16,
@@ -257,7 +323,7 @@
     {
       "h": 1000,
       "full": true,
-      "cols": 3,
+      "cols": 2,
       "img": true,
       "bg": null,
       "align": "中央",
@@ -452,13 +518,13 @@
     {
       "hex": "#ffffff",
       "面": 20,
-      "文字": 29,
+      "文字": 27,
       "枠": 0,
       "ボタン": 4
     },
     {
       "hex": "#34a9ee",
-      "面": 12,
+      "面": 11,
       "文字": 29,
       "枠": 4,
       "ボタン": 4

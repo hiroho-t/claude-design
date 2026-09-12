@@ -215,11 +215,17 @@
       <div><p>本文</p><strong>16px / 行間 1.5</strong><em>この見本は Noto Sans JP で表示しています</em></div>
     </div>
     <div class="sp">
-      <p class="spmeta">大見出し<span>60px / 行間 1.4</span></p>
+      <p class="spmeta">大見出し<span>80px / 行間 1.5</span></p>
+      <p class="spdemo" style="font-size:80px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">見出し<span>60px / 行間 1.4</span></p>
       <p class="spdemo" style="font-size:60px;line-height:1.4">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">見出し<span>40px / 行間 1.4</span></p>
-      <p class="spdemo" style="font-size:40px;line-height:1.4">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">小見出し<span>40px / 行間 0.95</span></p>
+      <p class="spdemo" style="font-size:40px;line-height:0.95">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">リード<span>22px</span></p>
+      <p class="spdemo" style="font-size:22px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">本文<span>16px / 行間 1.5</span></p>
       <p class="spdemo" style="font-size:16px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
@@ -251,11 +257,11 @@
   <section>
     <h2>ページの組み立て</h2>
     <p class="note">上から順に、実際に並んでいたセクション。高さの比率もそのまま。</p>
-    <div class="secs"><div class="sec" style="height:33px;background:#000000;color:#fff;
+    <div class="secs"><div class="sec" style="height:32px;background:#000000;color:#fff;
         border:1px solid transparent">
         <span class="secno">1</span>
         <span class="secname">ヒーロー（画像）</span>
-        <span class="sech">600px</span>
+        <span class="sech">580px</span>
       </div><div class="sec" style="height:62px;background:#000000;color:#fff;
         border:1px solid transparent">
         <span class="secno">2</span>
@@ -310,7 +316,7 @@
     <table>
       <tr><th></th><td>PC 1440px</td><td>スマホ 390px</td></tr>
       <tr><th>本文</th><td>16px / 行間 1.5</td><td>16px / 行間 1.5</td></tr>
-      <tr><th>見出し</th><td>60px</td><td>16px</td></tr>
+      <tr><th>見出し</th><td>80px</td><td>16px</td></tr>
       <tr><th>セクションの上下余白</th><td>40px</td><td>32px</td></tr>
       <tr><th>左右の余白</th><td>—</td><td>33px</td></tr>
       <tr><th>並びの間隔</th><td>9px</td><td>8px</td></tr>
@@ -422,14 +428,19 @@
 - 欧文: CezanneProN-M
 - ウェイトは 400 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 60px | 1.4 |
-| 見出し | 40px | 1.4 |
-| 本文 | 16px | 1.5 |
-| 補助 | 14px | — |
-| 注記 | 13px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 80px | 1.5 | 8px | 34px |
+| 見出し | 60px | 1.4 | 295px | 40px |
+| 小見出し | 40px | 0.95 | 320px | 40px |
+| リード | 22px | — | — | — |
+| 本文 | 16px | 1.5 | — | — |
+| 補助 | 14px | — | — | — |
+| 注記 | 13px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（40px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 16px・行間 1.5。
 
@@ -448,7 +459,7 @@
 | | PC 1440px | スマホ 390px |
 |---|---|---|
 | 本文 | 16px / 行間 1.5 | 16px / 行間 1.5 |
-| 見出し | 60px | 16px / 行間 1.5 |
+| 見出し | 80px | 16px / 行間 1.5 |
 | セクションの上下余白 | 40px | 32px |
 | 左右の余白 | — | 33px |
 | 並びの間隔 | 9px | 8px |
@@ -477,7 +488,7 @@
 
 | # | 高さ | 地色 | 中身 | 見出し | 画像 |
 |---|---|---|---|---|---|
-| 1 | 600px | — | ヒーロー（画像） | 左 | 右（19:81） |
+| 1 | 580px | — | ヒーロー（画像） | 左 | 右（19:81） |
 | 2 | 1120px | — | 6カラム・画像あり | 左 | 見出しの下 |
 | 3 | 540px | `#f5f5f5` | 1カラム・画像あり | 左 | — |
 | 4 | 540px | `#f5f5f5` | 1カラム・画像あり | 左 | — |
@@ -517,7 +528,7 @@ body{ background:var(--bg); color:var(--ink);
 .container{ width:min(100% - 66px, var(--container)); margin-inline:auto }
 .read{ max-width:var(--read) }
 
-.hero{ min-height:600px; display:grid; align-content:center }
+.hero{ min-height:580px; display:grid; align-content:center }
 
 .section--main{ background:var(--main); color:#000000; --on:#000000 }
 .section--main .btn--fill{ background:#000000; color:var(--main) }

@@ -47,11 +47,11 @@
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 10588
+      "w": 10627
     },
     {
       "family": "Inter",
-      "w": 375
+      "w": 385
     },
     {
       "family": "sans-serif",
@@ -77,7 +77,7 @@
     },
     {
       "px": 16,
-      "w": 3968
+      "w": 4017
     },
     {
       "px": 14,
@@ -110,6 +110,13 @@
         "lh": 1.56,
         "ls": "0.028em",
         "family": "Noto Sans JP"
+      },
+      {
+        "fs": 40,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0.025em",
+        "family": "Inter"
       }
     ],
     "h3": [
@@ -128,6 +135,47 @@
         "family": "Noto Sans JP"
       }
     ]
+  },
+  "headSpace": {
+    "16": {
+      "above": 255,
+      "below": 16,
+      "n": 14
+    },
+    "18": {
+      "above": 295,
+      "below": 26,
+      "n": 30
+    },
+    "24": {
+      "above": 66,
+      "below": 28,
+      "n": 3
+    },
+    "36": {
+      "above": 163,
+      "below": 45,
+      "n": 14
+    },
+    "40": {
+      "above": 104,
+      "below": 6,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 14,
+    "weight": "700",
+    "ls": 0,
+    "color": "#ffffff",
+    "latin": false,
+    "upper": false,
+    "gap": 37,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 36,
+    "n": 1,
+    "total": 1
   },
   "radius": [
     {
@@ -188,7 +236,7 @@
     },
     {
       "px": 1072,
-      "n": 22
+      "n": 23
     },
     {
       "px": 700,
@@ -387,7 +435,7 @@
       "split": null
     },
     {
-      "h": 2220,
+      "h": 2300,
       "full": true,
       "cols": 0,
       "img": true,
@@ -509,7 +557,7 @@
     {
       "hex": "#474241",
       "面": 5,
-      "文字": 352,
+      "文字": 354,
       "枠": 49,
       "ボタン": 0
     },

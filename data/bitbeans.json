@@ -6,7 +6,7 @@
   "bg": [
     {
       "hex": "#fafafa",
-      "pct": 93.7
+      "pct": 93.8
     },
     {
       "hex": "#292d33",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "YakuHanMP",
-      "w": 6133
+      "w": 6132
     },
     {
       "family": "-apple-system",
@@ -127,6 +127,62 @@
         "family": "YakuHanMP"
       }
     ]
+  },
+  "headSpace": {
+    "13": {
+      "above": 0,
+      "below": 378,
+      "n": 57
+    },
+    "14": {
+      "above": 6,
+      "below": 0,
+      "n": 11
+    },
+    "16": {
+      "above": 55,
+      "below": 9,
+      "n": 6
+    },
+    "18": {
+      "above": 121,
+      "below": 7,
+      "n": 7
+    },
+    "22": {
+      "above": 0,
+      "below": 9,
+      "n": 9
+    },
+    "23": {
+      "above": 83,
+      "below": 27,
+      "n": 1
+    },
+    "31": {
+      "above": 329,
+      "below": 31,
+      "n": 1
+    },
+    "32": {
+      "above": 243,
+      "below": 20,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 13,
+    "weight": "400",
+    "ls": 0.021,
+    "color": "#292d33",
+    "latin": false,
+    "upper": false,
+    "gap": 0,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 22,
+    "n": 6,
+    "total": 6
   },
   "radius": [
     {
@@ -252,7 +308,7 @@
       "split": null
     },
     {
-      "h": 2480,
+      "h": 2520,
       "full": true,
       "cols": 6,
       "img": true,
@@ -308,8 +364,8 @@
       "img": true,
       "bg": "#fafafa",
       "align": "右",
-      "media": "見出しの下",
-      "split": null
+      "media": "左",
+      "split": "11:89"
     },
     {
       "h": 560,
@@ -372,16 +428,16 @@
   ],
   "chips": [],
   "images": {
-    "n": 89,
+    "n": 88,
     "fullBleed": 0,
     "ratios": [
       {
         "ratio": "16:9",
-        "n": 66
+        "n": 63
       },
       {
         "ratio": "1:1",
-        "n": 11
+        "n": 10
       },
       {
         "ratio": "3:4",
@@ -391,7 +447,7 @@
     "radius": [
       {
         "px": 0,
-        "n": 89
+        "n": 88
       }
     ]
   },

@@ -28,15 +28,15 @@
   "ink": [
     {
       "hex": "#ffffff",
-      "pct": 49.9
+      "pct": 50.2
     },
     {
       "hex": "#4e4e4e",
-      "pct": 37
+      "pct": 37.2
     },
     {
       "hex": "#ad9667",
-      "pct": 6.4
+      "pct": 5.9
     },
     {
       "hex": "#1b574b",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "游ゴシック",
-      "w": 4770
+      "w": 4710
     },
     {
       "family": "游明朝",
@@ -81,7 +81,7 @@
     },
     {
       "px": 15,
-      "w": 300
+      "w": 240
     },
     {
       "px": 14,
@@ -95,6 +95,13 @@
   },
   "headings": {
     "h2": [
+      {
+        "fs": 21,
+        "weight": "400",
+        "lh": 1.75,
+        "ls": "0.042em",
+        "family": "Marcellus"
+      },
       {
         "fs": 27,
         "weight": "500",
@@ -112,6 +119,52 @@
         "family": "游明朝"
       }
     ]
+  },
+  "headSpace": {
+    "21": {
+      "above": 174,
+      "below": 75,
+      "n": 5
+    },
+    "23": {
+      "above": 24,
+      "below": 9,
+      "n": 1
+    },
+    "27": {
+      "above": 47,
+      "below": 27,
+      "n": 2
+    },
+    "34": {
+      "above": 5,
+      "below": 22,
+      "n": 4
+    },
+    "41": {
+      "above": 304,
+      "below": 372,
+      "n": 1
+    },
+    "45": {
+      "above": 13,
+      "below": 9,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 16,
+    "weight": "500",
+    "ls": 0.05,
+    "color": "#ffffff",
+    "latin": false,
+    "upper": false,
+    "gap": 13,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 45,
+    "n": 1,
+    "total": 5
   },
   "radius": [
     {

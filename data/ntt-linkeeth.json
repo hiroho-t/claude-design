@@ -92,13 +92,70 @@
   "headings": {
     "h2": [
       {
-        "fs": 40,
-        "weight": "700",
+        "fs": 14,
+        "weight": "600",
         "lh": 1,
-        "ls": "0.070em",
+        "ls": "0.080em",
+        "family": "Exo 2"
+      },
+      {
+        "fs": 56,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.280em",
+        "family": "Roboto"
+      }
+    ],
+    "h1": [
+      {
+        "fs": 12,
+        "weight": "400",
+        "lh": 5,
+        "ls": "0.022em",
         "family": "Roboto"
       }
     ]
+  },
+  "headSpace": {
+    "12": {
+      "above": null,
+      "below": 61,
+      "n": 1
+    },
+    "13": {
+      "above": null,
+      "below": 50,
+      "n": 1
+    },
+    "14": {
+      "above": 187,
+      "below": 78,
+      "n": 6
+    },
+    "40": {
+      "above": 244,
+      "below": null,
+      "n": 1
+    },
+    "56": {
+      "above": 26,
+      "below": 28,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 10,
+    "weight": "600",
+    "ls": 0,
+    "color": "#666666",
+    "latin": false,
+    "upper": false,
+    "gap": 26,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 56,
+    "n": 1,
+    "total": 1
   },
   "radius": [
     {

@@ -53,7 +53,7 @@
 
 | 色 | 面 | 文字 | 枠線 | ボタンの地 |
 |---|---|---|---|---|
-| `#000000` | 8 | 178 | 0 | 1 |
+| `#000000` | 8 | 180 | 0 | 1 |
 | `#ffffff` | 41 | 107 | 0 | 18 |
 | `#61625f` | 2 | 0 | 0 | 0 |
 | `#f1f1e6` | 1 | 1 | 0 | 0 |
@@ -87,18 +87,54 @@
 - 欧文: -apple-system
 - ウェイトは 400 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 40px | 1.4 |
-| 見出し | 32px | 1 |
-| 小見出し | 24px | 1 |
-| リード | 20px | — |
-| 本文 | 16px | 1 |
-| 補助 | 14px | — |
-| 注記 | 12px | 1 |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 40px | 1.4 | 10px | 20px |
+| 見出し | 24px | 1 | 194px | 28px |
+| 小見出し | 20px | 1 | 390px | 23px |
+| リード | 18px | — | — | — |
+| 本文 | 16px | 1 | 215px | 40px |
+| 補助 | 14px | 1 | 370px | 61px |
+| 注記 | 12px | — | 31px | 51px |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（52px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 16px・行間 1。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 2箇所で使っている（見出し3箇所のうち）。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 英字 |
+| ラベルのサイズ | 20px |
+| ラベルの字間 | 0（詰めも空けもしない） |
+| ラベルの太さ | 400 |
+| ラベルの色 | `#ffffff` |
+| ラベル → 見出し | 10px |
+| 見出しのサイズ | 40px |
+| 見出し → 本文 | 20px |
+| 罫線 | なし |
+| 組み方 | **兄弟に並べる**（囲まずに続けて置く） |
+
+```html
+<p class="c-head__label">SERVICE</p>
+<h2 class="c-head__title">サービス</h2>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:20px; font-weight:400;
+  color:#ffffff; text-transform:uppercase }
+.c-head__title{ font-size:40px; line-height:1.4; margin-top:10px }
+.c-head__title + *{ margin-top:20px }
+```
+
+- ラベルと見出しの間は 10px、見出しと本文の間は 20px。ラベル側を詰めて、本文側を空ける。この差がまとまりを作っている。
 
 ## レイアウト
 
@@ -211,6 +247,16 @@
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
 
+```html
+<section class="section">
+  <div class="container">
+    <p class="c-head__label">SERVICE</p>
+    <h2 class="c-head__title">サービス</h2>
+    <p>本文…</p>
+  </div>
+</section>
+```
+
 ```css
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
@@ -220,6 +266,9 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:640px; display:grid; align-content:center }
+.c-head__label{ font-size:20px; font-weight:400; color:#ffffff }
+.c-head__title{ font-size:40px; line-height:1.4; margin-top:10px }
+.c-head__title + *{ margin-top:20px }
 
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }

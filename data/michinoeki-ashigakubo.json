@@ -28,11 +28,11 @@
   "ink": [
     {
       "hex": "#222222",
-      "pct": 75.5
+      "pct": 75.9
     },
     {
       "hex": "#1f9f60",
-      "pct": 19.1
+      "pct": 18.8
     },
     {
       "hex": "#1797f4",
@@ -40,14 +40,14 @@
     },
     {
       "hex": "#ffffff",
-      "pct": 2.1
+      "pct": 2
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "Outfit",
-      "w": 1295
+      "w": 1324
     }
   ],
   "sizes": [
@@ -65,7 +65,7 @@
     },
     {
       "px": 16,
-      "w": 527
+      "w": 556
     },
     {
       "px": 15,
@@ -82,22 +82,6 @@
     "ls": "0"
   },
   "headings": {
-    "h2": [
-      {
-        "fs": 72,
-        "weight": "700",
-        "lh": 1,
-        "ls": "-0.020em",
-        "family": "Outfit"
-      },
-      {
-        "fs": 18,
-        "weight": "700",
-        "lh": 1.2,
-        "ls": "0",
-        "family": "Outfit"
-      }
-    ],
     "h3": [
       {
         "fs": 16,
@@ -113,8 +97,52 @@
         "ls": "0",
         "family": "Outfit"
       }
+    ],
+    "h2": [
+      {
+        "fs": 72,
+        "weight": "700",
+        "lh": 1,
+        "ls": "-0.020em",
+        "family": "Outfit"
+      },
+      {
+        "fs": 18,
+        "weight": "700",
+        "lh": 1.2,
+        "ls": "0",
+        "family": "Outfit"
+      }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": null,
+      "below": 232,
+      "n": 2
+    },
+    "16": {
+      "above": 78,
+      "below": 5,
+      "n": 19
+    },
+    "18": {
+      "above": 40,
+      "below": 10,
+      "n": 4
+    },
+    "32": {
+      "above": null,
+      "below": 30,
+      "n": 1
+    },
+    "72": {
+      "above": 123,
+      "below": 60,
+      "n": 5
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
@@ -159,7 +187,7 @@
     },
     {
       "px": 60,
-      "n": 3
+      "n": 4
     },
     {
       "px": 64,
@@ -180,7 +208,7 @@
       "n": 6
     },
     {
-      "px": 712,
+      "px": 672,
       "n": 1
     }
   ],
@@ -234,7 +262,7 @@
   ],
   "sections": [
     {
-      "h": 6620,
+      "h": 6640,
       "full": true,
       "cols": 6,
       "img": true,

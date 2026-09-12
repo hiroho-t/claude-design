@@ -192,7 +192,7 @@
       <tr><th><i style="background:#fafafa"></i><code>#fafafa</code></th>
         <td>1</td><td>7</td><td>0</td><td>1</td></tr><tr><th><i style="background:#666666"></i><code>#666666</code></th>
         <td>0</td><td>39</td><td>0</td><td>0</td></tr><tr><th><i style="background:#1f1a17"></i><code>#1f1a17</code></th>
-        <td>0</td><td>92</td><td>0</td><td>0</td></tr><tr><th><i style="background:#000000"></i><code>#000000</code></th>
+        <td>0</td><td>117</td><td>0</td><td>0</td></tr><tr><th><i style="background:#000000"></i><code>#000000</code></th>
         <td>0</td><td>89</td><td>3</td><td>0</td></tr>
     </table>
     <p class="note"><code>#fafafa</code> は文字色として7箇所で使うのが主。面としては1箇所しかないが、1枚が大きく画面の82%を占める。ボタンの地にも使う。</p>
@@ -225,7 +225,7 @@
 
   <section>
     <h2>余白とかたち</h2>
-    <table><tr><th>コンテンツ幅</th><td>1260px</td><td class="pvcell"><div class="pv"><span style="width:100%;max-width:260px"></span></div></td></tr><tr><th>読ませる段の幅</th><td>616px</td><td class="pvcell"><div class="pv"><span style="width:154px"></span></div></td></tr><tr><th>セクションの上下余白</th><td>76px</td><td class="pvcell"><div class="pv"><span style="height:76px;width:3px"></span></div></td></tr><tr><th>並びの間隔</th><td>5 / 8 / 9 / 16px</td><td class="pvcell"><div class="pv gaps"><span style="width:5px"></span><span style="width:8px"></span><span style="width:9px"></span><span style="width:16px"></span></div></td></tr><tr><th>角丸</th><td>0px</td><td class="pvcell"><div class="pv"><b style="border-radius:0px"></b></div></td></tr><tr><th>影</th><td>なし</td><td class="pvcell"><div class="pv"><b></b></div></td></tr><tr><th>画面幅の切り替え</th><td>1199 / 960 / 959 / 640 / 600px</td><td class="pvcell"></td></tr></table>
+    <table><tr><th>コンテンツ幅</th><td>1276px</td><td class="pvcell"><div class="pv"><span style="width:100%;max-width:260px"></span></div></td></tr><tr><th>読ませる段の幅</th><td>1260px</td><td class="pvcell"><div class="pv"><span style="width:260px"></span></div></td></tr><tr><th>セクションの上下余白</th><td>76px</td><td class="pvcell"><div class="pv"><span style="height:76px;width:3px"></span></div></td></tr><tr><th>並びの間隔</th><td>5 / 8 / 9 / 16px</td><td class="pvcell"><div class="pv gaps"><span style="width:5px"></span><span style="width:8px"></span><span style="width:9px"></span><span style="width:16px"></span></div></td></tr><tr><th>角丸</th><td>0px</td><td class="pvcell"><div class="pv"><b style="border-radius:0px"></b></div></td></tr><tr><th>影</th><td>なし</td><td class="pvcell"><div class="pv"><b></b></div></td></tr><tr><th>画面幅の切り替え</th><td>1199 / 960 / 959 / 640 / 600px</td><td class="pvcell"></td></tr></table>
   </section>
 
   <section>
@@ -283,7 +283,7 @@
     <p class="note">同じサイトを390px幅で測り直した値。</p>
     <table>
       <tr><th></th><td>PC 1440px</td><td>スマホ 390px</td></tr>
-      <tr><th>本文</th><td>11px / 行間 1</td><td>22px</td></tr>
+      <tr><th>本文</th><td>11px / 行間 1</td><td>10px / 行間 1.45</td></tr>
       <tr><th>見出し</th><td>44px</td><td>20px</td></tr>
       <tr><th>セクションの上下余白</th><td>76px</td><td>76px</td></tr>
       <tr><th>左右の余白</th><td>—</td><td>20px</td></tr>
@@ -331,8 +331,8 @@
   --font-en: &quot;Inter&quot;, sans-serif;
   --fs-body: 11px;
   --lh-body: 1;
-  --container: 1260px;
-  --read: 616px;
+  --container: 1276px;
+  --read: 1260px;
   --section-y: 76px;
   --gap: 9px;
   --radius: 0px;
@@ -362,7 +362,7 @@
 |---|---|---|---|---|
 | `#fafafa` | 1 | 7 | 0 | 1 |
 | `#666666` | 0 | 39 | 0 | 0 |
-| `#1f1a17` | 0 | 92 | 0 | 0 |
+| `#1f1a17` | 0 | 117 | 0 | 0 |
 | `#000000` | 0 | 89 | 3 | 0 |
 
 - `#fafafa` は文字色として7箇所で使うのが主。面としては1箇所しかないが、1枚が大きく画面の82%を占める。ボタンの地にも使う。
@@ -373,20 +373,23 @@
 - 欧文: Inter
 - ウェイトは 400 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 44px | — |
-| 見出し | 22px | — |
-| 小見出し | 16px | 1.4 |
-| リード | 14px | — |
-| 本文 | 11px | 1 |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 44px | — | — | — |
+| 見出し | 22px | — | 239px | 154px |
+| 小見出し | 16px | 1.4 | 283px | 16px |
+| リード | 14px | — | — | — |
+| 本文 | 11px | 1 | — | 16px |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（76px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 11px・行間 1。
 
 ## レイアウト
 
-- コンテンツ幅: 最大 1260px／読ませる段は 616px
+- コンテンツ幅: 最大 1276px／読ませる段は 1260px
 - セクションの上下余白: 76 / 200 / 152px（基本は 76px）
 - 並びの間隔: 5 / 8 / 9 / 16px
 - 角丸: 0px が基本。中途半端な角丸を混ぜない
@@ -398,13 +401,13 @@
 
 | | PC 1440px | スマホ 390px |
 |---|---|---|
-| 本文 | 11px / 行間 1 | 22px |
+| 本文 | 11px / 行間 1 | 10px / 行間 1.45 |
 | 見出し | 44px | 20px |
 | セクションの上下余白 | 76px | 76px |
 | 左右の余白 | — | 20px |
 | 並びの間隔 | 9px | 9px |
 
-- 本文は 11px → 22px、セクション余白は 76px → 76px（PCの100%）。
+- 本文は 11px → 10px、セクション余白は 76px → 76px（PCの100%）。
 - 文字サイズの段は 22 / 14 / 13 / 12 / 10px。
 
 ## ボタン
@@ -481,7 +484,7 @@ body{ background:var(--bg); color:var(--ink);
 img{ width:100%; height:auto; border-radius:0px; aspect-ratio:4/3; object-fit:cover }
 
 @media (max-width:640px){
-  :root{ --fs-body:22px; --section-y:76px; --gap:9px; }
+  :root{ --fs-body:10px; --section-y:76px; --gap:9px; }
   .container{ width:calc(100% - 40px) }
 }
 ```

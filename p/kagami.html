@@ -197,7 +197,7 @@
     <table class="usage">
       <tr><th>色</th><td>面</td><td>文字</td><td>枠線</td><td>ボタンの地</td></tr>
       <tr><th><i style="background:#ffffff"></i><code>#ffffff</code></th>
-        <td>56</td><td>27</td><td>7</td><td>3</td></tr><tr><th><i style="background:#c3e6ff"></i><code>#c3e6ff</code></th>
+        <td>55</td><td>27</td><td>7</td><td>3</td></tr><tr><th><i style="background:#c3e6ff"></i><code>#c3e6ff</code></th>
         <td>1</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#ebf8fd"></i><code>#ebf8fd</code></th>
         <td>5</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#e0f2fe"></i><code>#e0f2fe</code></th>
         <td>8</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#0086cc"></i><code>#0086cc</code></th>
@@ -295,7 +295,7 @@
       <tr><th>面</th><td>使用箇所</td><td>線と文字</td></tr>
       <tr>
         <th><i style="background:#ffffff"></i><code>#ffffff</code></th>
-        <td>28</td>
+        <td>27</td>
         <td><i style="background:#c3e6ff;display:inline-block;width:12px;height:12px;border-radius:3px;border:1px solid var(--line);vertical-align:-2px;margin-right:6px"></i><code>#c3e6ff</code></td>
       </tr><tr>
         <th><i style="background:#e0f2fe"></i><code>#e0f2fe</code></th>
@@ -416,7 +416,7 @@
 
 | 色 | 面 | 文字 | 枠線 | ボタンの地 |
 |---|---|---|---|---|
-| `#ffffff` | 56 | 27 | 7 | 3 |
+| `#ffffff` | 55 | 27 | 7 | 3 |
 | `#c3e6ff` | 1 | 0 | 0 | 0 |
 | `#ebf8fd` | 5 | 0 | 0 | 0 |
 | `#e0f2fe` | 8 | 0 | 0 | 0 |
@@ -452,15 +452,18 @@
 - 和文: Noto Sans JP
 - ウェイトは 600 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 32px | — |
-| 見出し | 24px | — |
-| 小見出し | 20px | — |
-| 本文 | 18px | 1.4 |
-| 補助 | 16px | — |
-| 注記 | 14px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 32px | — | — | — |
+| 見出し | 24px | — | — | — |
+| 小見出し | 20px | — | — | — |
+| 本文 | 18px | 1.4 | 287px | 41px |
+| 補助 | 16px | — | — | — |
+| 注記 | 14px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（32px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 18px・行間 1.4。
 
@@ -523,7 +526,7 @@
 
 - 全6セクション。
 - 主色 `#c3e6ff` の面が 1 箇所。地色と主色の面を交互に置くのがリズムのつくり方。
-- 使われている面の色: `#ffffff`（28） / `#e0f2fe`（2） / `#ebf8fd`（1） / `#c3e6ff`（1）
+- 使われている面の色: `#ffffff`（27） / `#e0f2fe`（2） / `#ebf8fd`（1） / `#c3e6ff`（1）
 - 見出しは**全部左寄せ**。中央寄せは1つもない。
 - 2カラムの分け方は 71:29。半分ずつには割らない。
 

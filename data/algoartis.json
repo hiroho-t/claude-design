@@ -39,7 +39,7 @@
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 1645
+      "w": 1647
     },
     {
       "family": "Inter",
@@ -61,11 +61,11 @@
     },
     {
       "px": 15,
-      "w": 446
+      "w": 411
     },
     {
       "px": 14,
-      "w": 205
+      "w": 242
     },
     {
       "px": 13,
@@ -88,6 +88,14 @@
       }
     ]
   },
+  "headSpace": {
+    "15": {
+      "above": 255,
+      "below": 3,
+      "n": 7
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 10,

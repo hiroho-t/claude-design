@@ -24,7 +24,7 @@
   --fs-body: 16px;
   --lh-body: 1;
   --container: 1120px;
-  --read: 1076px;
+  --read: 1020px;
   --section-y: 52px;
   --gap: 15px;
   --radius: 10px;
@@ -52,9 +52,9 @@
 | 色 | 面 | 文字 | 枠線 | ボタンの地 |
 |---|---|---|---|---|
 | `#e6e6e6` | 106 | 0 | 0 | 0 |
-| `#fafafa` | 11 | 93 | 0 | 6 |
+| `#fafafa` | 13 | 97 | 0 | 7 |
 | `#262626` | 1 | 0 | 0 | 0 |
-| `#000000` | 1 | 65 | 3 | 0 |
+| `#000000` | 1 | 66 | 10 | 0 |
 | `#313131` | 1 | 0 | 0 | 0 |
 | `#8c8c8c` | 0 | 5 | 0 | 0 |
 | `#ff0000` | 0 | 3 | 0 | 0 |
@@ -86,25 +86,63 @@
 
 - 和文: YakuHanJP
 - 欧文: YakuHanJP
-- ウェイトは 500 / 600 が中心。太さで強弱をつけず、大きさで差をつける。
+- ウェイトは 500 / 600 / 700 / 400 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 44px | 1.3 |
-| 見出し | 36px | 1.44 |
-| 小見出し | 30px | 1.8 |
-| リード | 18px | — |
-| 本文 | 16px | 1 |
-| 補助 | 15px | — |
-| 注記 | 13px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 44px | 1.3 | 150px | 28px |
+| 見出し | 30px | 1.8 | 17px | 145px |
+| 小見出し | 28px | 1.8 | 91px | 0px |
+| リード | 26px | 1.8 | 6px | 8px |
+| 本文 | 16px | 1 | — | — |
+| 補助 | 15px | — | — | — |
+| 注記 | 13px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（52px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 16px・行間 1。
 
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 5箇所で使っている（見出し6箇所のうち）。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 英字 |
+| ラベルのサイズ | 15px |
+| ラベルの字間 | -0.02em |
+| ラベルの太さ | 500 |
+| ラベルの色 | `#8c8c8c` |
+| ラベル → 見出し | 17px |
+| 見出しのサイズ | 30px |
+| 見出し → 本文 | 145px |
+| 罫線 | なし |
+| 組み方 | **箱で包む**（ラベルと見出しが1つのまとまりとして囲まれている） |
+
+```html
+<div class="c-head">
+  <p class="c-head__label">SERVICE</p>
+  <h2 class="c-head__title">サービス</h2>
+</div>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:15px; font-weight:500; letter-spacing:-0.02em;
+  color:#8c8c8c; text-transform:uppercase }
+.c-head__title{ font-size:30px; line-height:1.8; margin-top:17px }
+.c-head + *{ margin-top:145px }
+```
+
+- ラベルと見出しの間は 17px、見出しと本文の間は 145px。ラベル側を詰めて、本文側を空ける。この差がまとまりを作っている。
+
 ## レイアウト
 
-- コンテンツ幅: 最大 1120px／読ませる段は 1076px
-- セクションの上下余白: 52 / 180 / 72 / 80px（基本は 52px）
+- コンテンツ幅: 最大 1120px／読ませる段は 1020px
+- セクションの上下余白: 52 / 40 / 180 / 72px（基本は 52px）
 - 並びの間隔: 6 / 10 / 15 / 20px
 - 角丸: 10px が基本。大きな面だけ 0px。中途半端な角丸を混ぜない
 - 画面幅の切り替え: 1500 / 1300 / 1100 / 1000 / 999px
@@ -117,11 +155,11 @@
 |---|---|---|
 | 本文 | 16px / 行間 1 | 12px / 行間 1.8 |
 | 見出し | 44px | 27px / 行間 1.3 |
-| セクションの上下余白 | 52px | 52px |
+| セクションの上下余白 | 52px | 32px |
 | 左右の余白 | — | 38px |
 | 並びの間隔 | 15px | 15px |
 
-- 本文は 16px → 12px、セクション余白は 52px → 52px（PCの100%）。
+- 本文は 16px → 12px、セクション余白は 52px → 32px（PCの62%）。
 - 文字サイズの段は 16 / 14 / 12 / 11 / 10px。
 
 ## ボタン
@@ -140,7 +178,7 @@
 }
 .btn-sub{
   background: transparent; color: #e6172c;
-  border-radius: 0px; padding: 0px 0px; min-height: 48px;
+  border-radius: 0px; padding: 0px 0px; min-height: 50px;
   font-size: 13px; font-weight: 500; letter-spacing: 1.3px;
 }
 ```
@@ -168,7 +206,7 @@
 | 15 | 480px | — | 1カラム・文字だけ | — | — |
 
 - 全15セクション、すべて全幅。中央に寄せた箱を積むのではなく、色面を全幅で切り替えながら進む。
-- 使われている面の色: `#e6e6e6`（57） / `#ffffff`（4） / `#000000`（1） / `#fafafa`（1）
+- 使われている面の色: `#e6e6e6`（57） / `#ffffff`（5） / `#000000`（1） / `#fafafa`（1）
 
 
 ## 部品
@@ -195,13 +233,25 @@
 
 ## 画像
 
-- 1枚使っている。うち 1 枚は画面いっぱいに置く
+- 3枚使っている。うち 1 枚は画面いっぱいに置く
 - 比率は 16:9（1枚）
 - 角丸 0px。切り抜かず四角のまま置く
 
 ## すぐ使う骨格
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
+
+```html
+<section class="section">
+  <div class="container">
+    <div class="c-head">
+      <p class="c-head__label">SERVICE</p>
+      <h2 class="c-head__title">サービス</h2>
+    </div>
+    <p>本文…</p>
+  </div>
+</section>
+```
 
 ```css
 body{ background:var(--bg); color:var(--ink);
@@ -212,6 +262,9 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:480px; display:grid; align-content:center }
+.c-head__label{ font-size:15px; font-weight:500; letter-spacing:-0.02em; color:#8c8c8c }
+.c-head__title{ font-size:30px; line-height:1.8; margin-top:17px }
+.c-head + *{ margin-top:145px }
 
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
@@ -225,7 +278,7 @@ body{ background:var(--bg); color:var(--ink);
 img{ width:100%; height:auto; border-radius:0px; aspect-ratio:16/9; object-fit:cover }
 
 @media (max-width:768px){
-  :root{ --fs-body:12px; --section-y:52px; --gap:15px; }
+  :root{ --fs-body:12px; --section-y:32px; --gap:15px; }
   .container{ width:calc(100% - 76px) }
 }
 ```

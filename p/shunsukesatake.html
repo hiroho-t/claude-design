@@ -199,7 +199,7 @@
       <tr><th><i style="background:#666666"></i><code>#666666</code></th>
         <td>12</td><td>21</td><td>0</td><td>0</td></tr><tr><th><i style="background:#2d1001"></i><code>#2d1001</code></th>
         <td>6</td><td>82</td><td>0</td><td>0</td></tr><tr><th><i style="background:#ffffff"></i><code>#ffffff</code></th>
-        <td>2</td><td>28</td><td>1</td><td>0</td></tr><tr><th><i style="background:#fceede"></i><code>#fceede</code></th>
+        <td>3</td><td>28</td><td>1</td><td>0</td></tr><tr><th><i style="background:#fceede"></i><code>#fceede</code></th>
         <td>1</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#000000"></i><code>#000000</code></th>
         <td>0</td><td>1</td><td>0</td><td>0</td></tr>
     </table>
@@ -220,8 +220,8 @@
       <p class="spmeta">見出し<span>20px / 行間 1.5</span></p>
       <p class="spdemo" style="font-size:20px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">本文<span>18px / 行間 1.6</span></p>
-      <p class="spdemo" style="font-size:18px;line-height:1.6">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">本文<span>18px / 行間 1.7</span></p>
+      <p class="spdemo" style="font-size:18px;line-height:1.7">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">補助<span>16px / 行間 1</span></p>
       <p class="spdemo" style="font-size:16px;line-height:1">あのイーハトーヴォのすきとおった風</p>
@@ -403,7 +403,7 @@
 |---|---|---|---|---|
 | `#666666` | 12 | 21 | 0 | 0 |
 | `#2d1001` | 6 | 82 | 0 | 0 |
-| `#ffffff` | 2 | 28 | 1 | 0 |
+| `#ffffff` | 3 | 28 | 1 | 0 |
 | `#fceede` | 1 | 0 | 0 | 0 |
 | `#000000` | 0 | 1 | 0 | 0 |
 
@@ -433,16 +433,19 @@
 
 - 和文: YakuHanJP
 - 欧文: YakuHanJP
-- ウェイトは 400 が中心。太さで強弱をつけず、大きさで差をつける。
+- ウェイトは 400 / 500 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 22px | — |
-| 見出し | 20px | 1.5 |
-| 本文 | 18px | 1.6 |
-| 補助 | 16px | 1 |
-| 注記 | 15px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 22px | — | — | — |
+| 見出し | 20px | 1.5 | 15px | 67px |
+| 本文 | 18px | 1.7 | 336px | 10px |
+| 補助 | 16px | 1 | 138px | 55px |
+| 注記 | 15px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（36px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 18px・行間 1.6。
 

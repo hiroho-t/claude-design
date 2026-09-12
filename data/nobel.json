@@ -6,15 +6,15 @@
   "bg": [
     {
       "hex": "#fff7eb",
-      "pct": 45.8
+      "pct": 46.3
     },
     {
       "hex": "#ffffff",
-      "pct": 30.6
+      "pct": 30.8
     },
     {
       "hex": "#d80012",
-      "pct": 13.4
+      "pct": 12.6
     },
     {
       "hex": "#e60013",
@@ -28,30 +28,30 @@
   "ink": [
     {
       "hex": "#333333",
-      "pct": 53.1
+      "pct": 55.3
     },
     {
       "hex": "#ffffff",
-      "pct": 27.6
+      "pct": 24.2
     },
     {
       "hex": "#848484",
-      "pct": 11.3
+      "pct": 12
     },
     {
       "hex": "#e60013",
-      "pct": 8
+      "pct": 8.5
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "M PLUS Rounded 1c",
-      "w": 1274
+      "w": 1264
     },
     {
       "family": "Noto Sans JP",
-      "w": 506
+      "w": 397
     },
     {
       "family": "Fredoka",
@@ -65,7 +65,7 @@
     },
     {
       "px": 18,
-      "w": 277
+      "w": 272
     },
     {
       "px": 17,
@@ -73,7 +73,7 @@
     },
     {
       "px": 16,
-      "w": 635
+      "w": 521
     },
     {
       "px": 14,
@@ -98,8 +98,52 @@
         "ls": "0.040em",
         "family": "M PLUS Rounded 1c"
       }
+    ],
+    "h3": [
+      {
+        "fs": 16,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "0.040em",
+        "family": "M PLUS Rounded 1c"
+      },
+      {
+        "fs": 19,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "0.040em",
+        "family": "M PLUS Rounded 1c"
+      }
     ]
   },
+  "headSpace": {
+    "16": {
+      "above": 16,
+      "below": 225,
+      "n": 19
+    },
+    "17": {
+      "above": 318,
+      "below": 217,
+      "n": 4
+    },
+    "18": {
+      "above": 8,
+      "below": 9,
+      "n": 3
+    },
+    "19": {
+      "above": 37,
+      "below": 184,
+      "n": 9
+    },
+    "37": {
+      "above": 272,
+      "below": 9,
+      "n": 8
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 22,
@@ -266,7 +310,7 @@
       "split": null
     },
     {
-      "h": 1480,
+      "h": 1380,
       "full": true,
       "cols": 5,
       "img": true,
@@ -276,7 +320,7 @@
       "split": null
     },
     {
-      "h": 1620,
+      "h": 1600,
       "full": true,
       "cols": 6,
       "img": true,
@@ -286,7 +330,7 @@
       "split": null
     },
     {
-      "h": 3000,
+      "h": 3040,
       "full": true,
       "cols": 6,
       "img": true,

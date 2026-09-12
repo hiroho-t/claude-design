@@ -28,7 +28,7 @@
     },
     {
       "hex": "#747474",
-      "pct": 9.1
+      "pct": 9.2
     },
     {
       "hex": "#ffffff",
@@ -43,7 +43,7 @@
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 747
+      "w": 742
     },
     {
       "family": "Zen Kaku Gothic Antique",
@@ -51,7 +51,7 @@
     },
     {
       "family": "Montserrat",
-      "w": 99
+      "w": 98
     }
   ],
   "sizes": [
@@ -65,7 +65,7 @@
     },
     {
       "px": 16,
-      "w": 600
+      "w": 594
     },
     {
       "px": 15,
@@ -86,6 +86,22 @@
     "ls": "0.040em"
   },
   "headings": {
+    "h2": [
+      {
+        "fs": 15,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0.090em",
+        "family": "Montserrat"
+      },
+      {
+        "fs": 37,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0.068em",
+        "family": "Noto Sans JP"
+      }
+    ],
     "h3": [
       {
         "fs": 16,
@@ -101,24 +117,36 @@
         "ls": "0.100em",
         "family": "Noto Sans JP"
       }
-    ],
-    "h2": [
-      {
-        "fs": 37,
-        "weight": "700",
-        "lh": 1,
-        "ls": "0.068em",
-        "family": "Noto Sans JP"
-      },
-      {
-        "fs": 24,
-        "weight": "700",
-        "lh": 1.79,
-        "ls": "0.040em",
-        "family": "Zen Kaku Gothic Antique"
-      }
     ]
   },
+  "headSpace": {
+    "15": {
+      "above": 315,
+      "below": 124,
+      "n": 3
+    },
+    "16": {
+      "above": 48,
+      "below": 48,
+      "n": 5
+    },
+    "24": {
+      "above": null,
+      "below": 29,
+      "n": 1
+    },
+    "26": {
+      "above": null,
+      "below": 31,
+      "n": 2
+    },
+    "37": {
+      "above": 400,
+      "below": null,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

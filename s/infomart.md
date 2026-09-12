@@ -49,15 +49,15 @@
 | 色 | 面 | 文字 | 枠線 | ボタンの地 |
 |---|---|---|---|---|
 | `#f8f8f8` | 1 | 0 | 0 | 0 |
-| `#025c54` | 2 | 8 | 0 | 1 |
+| `#025c54` | 2 | 9 | 0 | 1 |
 | `#148871` | 1 | 0 | 0 | 0 |
-| `#ffffff` | 9 | 63 | 4 | 0 |
+| `#ffffff` | 8 | 62 | 4 | 0 |
 | `#6eb72f` | 5 | 2 | 0 | 3 |
-| `#000000` | 0 | 23 | 0 | 0 |
+| `#000000` | 0 | 21 | 0 | 0 |
 | `#81aeaa` | 0 | 16 | 0 | 0 |
 | `#eff2f1` | 0 | 1 | 0 | 0 |
 
-- `#025c54` は文字色として8箇所で使うのが主。面としては2箇所しかないが、1枚が大きく画面の22%を占める。ボタンの地にも使う。
+- `#025c54` は文字色として9箇所で使うのが主。面としては2箇所しかないが、1枚が大きく画面の22%を占める。ボタンの地にも使う。
 
 ## 面と線の関係
 
@@ -86,16 +86,19 @@
 - 欧文: Figtree
 - ウェイトは 700 / 300 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 162px | 1 |
-| 見出し | 34px | — |
-| 小見出し | 18px | — |
-| リード | 16px | — |
-| 本文 | 15px | 1.6 |
-| 補助 | 14px | 1.5 |
-| 注記 | 12px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 162px | 1 | 128px | 239px |
+| 見出し | 34px | — | — | — |
+| 小見出し | 18px | — | — | — |
+| リード | 16px | — | — | — |
+| 本文 | 15px | 1.6 | — | — |
+| 補助 | 14px | 1.5 | — | 229px |
+| 注記 | 12px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（80px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 15px・行間 1.6。
 
@@ -103,8 +106,8 @@
 
 - コンテンツ幅: 最大 1120px／読ませる段は 640px
 - セクションの上下余白: 80 / 112 / 40 / 56px（基本は 80px）
-- 並びの間隔: 4 / 6 / 8 / 16px
-- 角丸: 0px が基本。大きな面だけ 4px。中途半端な角丸を混ぜない
+- 並びの間隔: 4 / 6 / 8 / 10px
+- 角丸: 0px が基本。大きな面だけ 2px。中途半端な角丸を混ぜない
 - 画面幅の切り替え: 1170 / 1080 / 1024 / 768 / 640px
 
 ## スマホ（390px）
@@ -126,6 +129,11 @@
 
 ```css
 .btn{
+  background: #d9e0de; color: #00645a;
+  border-radius: 2px; padding: 4px 10px; min-height: 28px;
+  font-size: 12px; font-weight: 400; letter-spacing: 0;
+}
+.btn-sub{
   background: transparent; color: #ffffff;
   border-radius: 0px; padding: 0px 0px; min-height: 46px;
   font-size: 14px; font-weight: 700; letter-spacing: 0.56px;
@@ -134,11 +142,6 @@
   background: #6eb72f; color: #ffffff;
   border-radius: 3px; padding: 10px 24px; min-height: 64px;
   font-size: 16px; font-weight: 700; letter-spacing: 0;
-}
-.btn-sub{
-  background: #00645a; color: #ffffff;
-  border-radius: 0px; padding: 13px 20px; min-height: 46px;
-  font-size: 14px; font-weight: 700; letter-spacing: 0.56px;
 }
 ```
 
@@ -156,7 +159,7 @@
 
 - 全5セクション、すべて全幅。中央に寄せた箱を積むのではなく、色面を全幅で切り替えながら進む。
 - 主色 `#025c54` の面が 1 箇所。地色と主色の面を交互に置くのがリズムのつくり方。
-- 使われている面の色: `#ffffff`（5） / `#f8f8f8`（1） / `#148871`（1） / `#025c54`（1）
+- 使われている面の色: `#ffffff`（4） / `#f8f8f8`（1） / `#148871`（1） / `#025c54`（1）
 - 見出しは左1／中央2。
 
 
@@ -204,9 +207,9 @@ body{ background:var(--bg); color:var(--ink);
 .card{ background:#ffffff; border:1px solid var(--on);
   border-radius:4px; padding:0px 0px }
 .btn{ display:inline-flex; align-items:center; justify-content:center;
-  background:transparent; color:#ffffff; border-radius:0px;
-  padding:0px 0px; min-height:46px;
-  font-size:14px; font-weight:700 }
+  background:#d9e0de; color:#00645a; border-radius:2px;
+  padding:4px 10px; min-height:28px;
+  font-size:12px; font-weight:400 }
 
 img{ width:100%; height:auto; border-radius:0px; aspect-ratio:16/9; object-fit:cover }
 
@@ -231,4 +234,4 @@ img{ width:100%; height:auto; border-radius:0px; aspect-ratio:16/9; object-fit:c
 - 影をつけない（このサイトには1つもない）。
 - 主色を線やボタンだけの差し色に使わない。面で使わないと別物になる。
 - 本文の行間を 1.6 より詰めない。角を丸めない。
-- 中途半端な角丸（0px と 4px 以外）を混ぜない。完全な円は別枠なので、消さなくてよい。
+- 中途半端な角丸（0px と 2px 以外）を混ぜない。完全な円は別枠なので、消さなくてよい。

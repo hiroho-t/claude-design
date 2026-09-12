@@ -82,6 +82,15 @@
     "ls": "0.030em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 14,
+        "weight": "500",
+        "lh": 1,
+        "ls": "0.500em",
+        "family": "TsukuGoPr5-D"
+      }
+    ],
     "h2": [
       {
         "fs": 31,
@@ -108,6 +117,39 @@
       }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": 221,
+      "below": 135,
+      "n": 2
+    },
+    "17": {
+      "above": 13,
+      "below": 6,
+      "n": 5
+    },
+    "21": {
+      "above": null,
+      "below": 21,
+      "n": 1
+    },
+    "28": {
+      "above": 299,
+      "below": null,
+      "n": 1
+    },
+    "31": {
+      "above": 356,
+      "below": 31,
+      "n": 5
+    },
+    "41": {
+      "above": 366,
+      "below": 24,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

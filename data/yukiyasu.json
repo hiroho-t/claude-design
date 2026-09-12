@@ -96,17 +96,17 @@
   "headings": {
     "h2": [
       {
-        "fs": 20,
-        "weight": "500",
-        "lh": 1,
-        "ls": "0.080em",
-        "family": "Noto Sans JP"
+        "fs": 16,
+        "weight": "700",
+        "lh": 1.8,
+        "ls": "0.040em",
+        "family": "游ゴシック体"
       },
       {
-        "fs": 32,
-        "weight": "400",
-        "lh": 1.4,
-        "ls": "0.040em",
+        "fs": 24,
+        "weight": "500",
+        "lh": 1.6,
+        "ls": "0",
         "family": "Noto Sans JP"
       }
     ],
@@ -114,18 +114,64 @@
       {
         "fs": 20,
         "weight": "700",
-        "lh": 1,
-        "ls": "0",
-        "family": "Noto Sans JP"
+        "lh": 1.6,
+        "ls": "0.040em",
+        "family": "游ゴシック体"
       },
       {
-        "fs": 24,
-        "weight": "500",
-        "lh": 1,
-        "ls": "0",
-        "family": "Noto Sans JP"
+        "fs": 16,
+        "weight": "700",
+        "lh": 1.6,
+        "ls": "0.040em",
+        "family": "游ゴシック体"
       }
     ]
+  },
+  "headSpace": {
+    "16": {
+      "above": 7,
+      "below": 248,
+      "n": 17
+    },
+    "20": {
+      "above": 9,
+      "below": 20,
+      "n": 11
+    },
+    "24": {
+      "above": 12,
+      "below": 21,
+      "n": 4
+    },
+    "26": {
+      "above": 16,
+      "below": 32,
+      "n": 1
+    },
+    "30": {
+      "above": 180,
+      "below": 152,
+      "n": 2
+    },
+    "32": {
+      "above": 16,
+      "below": 24,
+      "n": 7
+    }
+  },
+  "labelHead": {
+    "fs": 12,
+    "weight": "400",
+    "ls": 0.08,
+    "color": "#ffffff",
+    "latin": true,
+    "upper": false,
+    "gap": 9,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 20,
+    "n": 7,
+    "total": 20
   },
   "radius": [
     {

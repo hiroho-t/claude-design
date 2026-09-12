@@ -105,12 +105,66 @@
       {
         "fs": 28,
         "weight": "400",
-        "lh": 1,
-        "ls": "0.025em",
-        "family": "Barlow Semi Condensed"
+        "lh": 1.25,
+        "ls": "0",
+        "family": "UD新丸ゴ DB"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 22,
+        "weight": "400",
+        "lh": 1.25,
+        "ls": "0",
+        "family": "UD新丸ゴ DB"
+      },
+      {
+        "fs": 14,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Hiragino Kaku Gothic Pro"
       }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": 29,
+      "below": 29,
+      "n": 5
+    },
+    "16": {
+      "above": 302,
+      "below": 14,
+      "n": 6
+    },
+    "18": {
+      "above": 128,
+      "below": 22,
+      "n": 1
+    },
+    "22": {
+      "above": 333,
+      "below": 12,
+      "n": 6
+    },
+    "28": {
+      "above": 159,
+      "below": 269,
+      "n": 4
+    },
+    "40": {
+      "above": 301,
+      "below": 57,
+      "n": 1
+    },
+    "56": {
+      "above": 20,
+      "below": 28,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 5,

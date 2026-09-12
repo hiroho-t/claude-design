@@ -123,6 +123,57 @@
       }
     ]
   },
+  "headSpace": {
+    "13": {
+      "above": 277,
+      "below": 294,
+      "n": 1
+    },
+    "14": {
+      "above": 225,
+      "below": 4,
+      "n": 10
+    },
+    "16": {
+      "above": null,
+      "below": 14,
+      "n": 1
+    },
+    "18": {
+      "above": 15,
+      "below": 23,
+      "n": 3
+    },
+    "22": {
+      "above": 18,
+      "below": 9,
+      "n": 7
+    },
+    "23": {
+      "above": 77,
+      "below": 70,
+      "n": 3
+    },
+    "29": {
+      "above": 11,
+      "below": 101,
+      "n": 5
+    }
+  },
+  "labelHead": {
+    "fs": 14,
+    "weight": "500",
+    "ls": 0.05,
+    "color": "#719c8b",
+    "latin": false,
+    "upper": false,
+    "gap": 11,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 29,
+    "n": 5,
+    "total": 7
+  },
   "radius": [
     {
       "px": 14,

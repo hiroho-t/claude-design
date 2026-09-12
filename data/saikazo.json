@@ -28,7 +28,7 @@
   "ink": [
     {
       "hex": "#222222",
-      "pct": 72.8
+      "pct": 72.7
     },
     {
       "hex": "#ffffff",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 2272
+      "w": 2258
     },
     {
       "family": "Jost",
@@ -61,7 +61,7 @@
     },
     {
       "px": 17,
-      "w": 913
+      "w": 899
     },
     {
       "px": 15,
@@ -111,6 +111,42 @@
         "family": "Noto Sans JP"
       }
     ]
+  },
+  "headSpace": {
+    "18": {
+      "above": null,
+      "below": 182,
+      "n": 1
+    },
+    "22": {
+      "above": 41,
+      "below": 6,
+      "n": 2
+    },
+    "29": {
+      "above": 149,
+      "below": 31,
+      "n": 2
+    },
+    "38": {
+      "above": 17,
+      "below": 55,
+      "n": 4
+    }
+  },
+  "labelHead": {
+    "fs": 17,
+    "weight": "400",
+    "ls": 0.1,
+    "color": "#114fa1",
+    "latin": false,
+    "upper": false,
+    "gap": 17,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 38,
+    "n": 3,
+    "total": 4
   },
   "radius": [
     {
@@ -361,21 +397,21 @@
   "chips": [
     {
       "bg": "#ffffff",
+      "color": "#eb8030",
+      "radius": "999px",
+      "pad": "4px 11px",
+      "fs": 11,
+      "border": "1px",
+      "n": 9
+    },
+    {
+      "bg": "#ffffff",
       "color": "#114fa1",
       "radius": "999px",
       "pad": "4px 11px",
       "fs": 11,
       "border": "1px",
-      "n": 7
-    },
-    {
-      "bg": "#ffffff",
-      "color": "#7c344d",
-      "radius": "999px",
-      "pad": "4px 11px",
-      "fs": 11,
-      "border": "1px",
-      "n": 7
+      "n": 6
     }
   ],
   "images": {
@@ -451,7 +487,7 @@
     {
       "hex": "#114fa1",
       "面": 9,
-      "文字": 20,
+      "文字": 19,
       "枠": 10,
       "ボタン": 2
     },

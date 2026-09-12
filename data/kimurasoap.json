@@ -6,11 +6,11 @@
   "bg": [
     {
       "hex": "#ffffff",
-      "pct": 90.5
+      "pct": 90.8
     },
     {
       "hex": "#faf7e8",
-      "pct": 7.3
+      "pct": 7
     },
     {
       "hex": "#cccabd",
@@ -28,15 +28,15 @@
   "ink": [
     {
       "hex": "#373635",
-      "pct": 77.2
+      "pct": 77.1
     },
     {
       "hex": "#747369",
-      "pct": 11.8
+      "pct": 11.7
     },
     {
       "hex": "#ffffff",
-      "pct": 9.9
+      "pct": 10
     },
     {
       "hex": "#1989f0",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "YakuHanJPs",
-      "w": 2924
+      "w": 2923
     },
     {
       "family": "heebo",
@@ -57,7 +57,7 @@
   "sizes": [
     {
       "px": 16,
-      "w": 82
+      "w": 66
     },
     {
       "px": 15,
@@ -65,11 +65,11 @@
     },
     {
       "px": 14,
-      "w": 756
+      "w": 772
     },
     {
       "px": 13,
-      "w": 762
+      "w": 759
     },
     {
       "px": 12,
@@ -77,7 +77,7 @@
     },
     {
       "px": 11,
-      "w": 246
+      "w": 244
     }
   ],
   "body": {
@@ -86,6 +86,22 @@
     "ls": "0.020em"
   },
   "headings": {
+    "h2": [
+      {
+        "fs": 19,
+        "weight": "500",
+        "lh": 1.7,
+        "ls": "0.060em",
+        "family": "YakuHanJPs"
+      },
+      {
+        "fs": 11,
+        "weight": "500",
+        "lh": 1.36,
+        "ls": "0.040em",
+        "family": "YakuHanJPs"
+      }
+    ],
     "h3": [
       {
         "fs": 15,
@@ -101,21 +117,45 @@
         "ls": "0.020em",
         "family": "YakuHanJPs"
       }
-    ],
-    "h2": [
-      {
-        "fs": 11,
-        "weight": "500",
-        "lh": 1.36,
-        "ls": "0.040em",
-        "family": "YakuHanJPs"
-      }
     ]
   },
+  "headSpace": {
+    "11": {
+      "above": 85,
+      "below": null,
+      "n": 1
+    },
+    "13": {
+      "above": 10,
+      "below": 160,
+      "n": 4
+    },
+    "14": {
+      "above": 6,
+      "below": 10,
+      "n": 5
+    },
+    "15": {
+      "above": 298,
+      "below": 8,
+      "n": 8
+    },
+    "16": {
+      "above": 5,
+      "below": 8,
+      "n": 2
+    },
+    "19": {
+      "above": 121,
+      "below": 150,
+      "n": 5
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
-      "n": 38
+      "n": 39
     },
     {
       "px": 6,
@@ -142,16 +182,16 @@
       "n": 16
     },
     {
+      "px": 2,
+      "n": 4
+    },
+    {
       "px": 4,
       "n": 4
     },
     {
       "px": 16,
       "n": 4
-    },
-    {
-      "px": 2,
-      "n": 3
     }
   ],
   "sectionPad": [
@@ -179,7 +219,7 @@
     },
     {
       "px": 1024,
-      "n": 14
+      "n": 15
     },
     {
       "px": 1168,
@@ -243,14 +283,14 @@
     },
     {
       "px": 749,
-      "n": 35
+      "n": 36
     }
   ],
   "sections": [
     {
-      "h": 840,
+      "h": 760,
       "full": true,
-      "cols": 0,
+      "cols": 6,
       "img": true,
       "bg": null,
       "align": null,
@@ -258,130 +298,130 @@
       "split": null
     },
     {
-      "h": 840,
+      "h": 340,
       "full": true,
       "cols": 0,
       "img": true,
       "bg": null,
       "align": null,
-      "media": "全幅",
+      "media": "全面",
       "split": null
     },
     {
-      "h": 840,
+      "h": 340,
       "full": true,
       "cols": 0,
       "img": true,
       "bg": null,
       "align": null,
-      "media": "全幅",
+      "media": "全面",
       "split": null
     },
     {
-      "h": 840,
+      "h": 340,
       "full": true,
       "cols": 0,
       "img": true,
       "bg": null,
       "align": null,
-      "media": "全幅",
+      "media": "全面",
       "split": null
     },
     {
-      "h": 840,
+      "h": 340,
       "full": true,
       "cols": 0,
       "img": true,
       "bg": null,
       "align": null,
-      "media": "全幅",
+      "media": "全面",
       "split": null
     },
     {
-      "h": 840,
+      "h": 340,
       "full": true,
-      "cols": 0,
+      "cols": 3,
       "img": true,
       "bg": null,
-      "align": null,
-      "media": "全幅",
+      "align": "中央",
+      "media": "none",
       "split": null
     },
     {
-      "h": 840,
+      "h": 360,
       "full": true,
-      "cols": 0,
+      "cols": 6,
       "img": true,
       "bg": null,
-      "align": null,
-      "media": "全幅",
+      "align": "中央",
+      "media": "見出しの下",
       "split": null
     },
     {
-      "h": 840,
+      "h": 200,
       "full": true,
       "cols": 0,
       "img": true,
       "bg": null,
       "align": null,
-      "media": "全幅",
+      "media": "全面",
       "split": null
     },
     {
-      "h": 840,
+      "h": 660,
       "full": true,
-      "cols": 0,
+      "cols": 5,
       "img": true,
       "bg": null,
-      "align": null,
-      "media": "全幅",
+      "align": "中央",
+      "media": "見出しの下",
       "split": null
     },
     {
-      "h": 840,
+      "h": 880,
       "full": true,
-      "cols": 0,
+      "cols": 6,
       "img": true,
       "bg": null,
-      "align": null,
-      "media": "全幅",
+      "align": "左",
+      "media": "見出しの下",
       "split": null
     },
     {
-      "h": 840,
+      "h": 680,
       "full": true,
       "cols": 0,
       "img": true,
       "bg": null,
-      "align": null,
-      "media": "全幅",
+      "align": "中央",
+      "media": "見出しの下",
       "split": null
     },
     {
-      "h": 840,
+      "h": 440,
       "full": true,
-      "cols": 0,
+      "cols": 4,
       "img": true,
       "bg": null,
-      "align": null,
-      "media": "全幅",
+      "align": "中央",
+      "media": "見出しの下",
       "split": null
     },
     {
-      "h": 840,
+      "h": 700,
       "full": true,
-      "cols": 0,
+      "cols": 6,
       "img": true,
       "bg": null,
-      "align": null,
-      "media": "全幅",
-      "split": null
+      "align": "右",
+      "media": "左",
+      "split": "50:50"
     }
   ],
   "surfaces": [
     {
       "hex": "#ffffff",
-      "n": 13
+      "n": 14
     },
     {
       "hex": "#fcfbf5",
@@ -409,7 +449,7 @@
   ],
   "chips": [],
   "images": {
-    "n": 81,
+    "n": 82,
     "fullBleed": 13,
     "ratios": [
       {
@@ -428,7 +468,7 @@
     "radius": [
       {
         "px": 0,
-        "n": 81
+        "n": 82
       }
     ]
   },
@@ -446,7 +486,7 @@
       12,
       11
     ],
-    "pad": 40,
+    "pad": 24,
     "gap": 10,
     "sidePad": 0,
     "h1": {
@@ -457,8 +497,8 @@
   "usage": [
     {
       "hex": "#ffffff",
-      "面": 27,
-      "文字": 25,
+      "面": 28,
+      "文字": 26,
       "枠": 13,
       "ボタン": 0
     },
@@ -479,7 +519,7 @@
     {
       "hex": "#373635",
       "面": 6,
-      "文字": 241,
+      "文字": 243,
       "枠": 0,
       "ボタン": 5
     },

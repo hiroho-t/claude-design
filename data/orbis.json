@@ -93,11 +93,37 @@
       {
         "fs": 38,
         "weight": "500",
-        "lh": 1.5,
+        "lh": 1.4,
         "ls": "0.080em",
         "family": "fot-cezanne-pron"
       }
     ]
+  },
+  "headSpace": {
+    "22": {
+      "above": 5,
+      "below": 75,
+      "n": 3
+    },
+    "38": {
+      "above": 5,
+      "below": 104,
+      "n": 3
+    }
+  },
+  "labelHead": {
+    "fs": 12,
+    "weight": "400",
+    "ls": 0.08,
+    "color": "#818688",
+    "latin": true,
+    "upper": true,
+    "gap": 5,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 22,
+    "n": 5,
+    "total": 6
   },
   "radius": [
     {

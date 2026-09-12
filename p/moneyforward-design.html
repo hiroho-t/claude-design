@@ -238,11 +238,11 @@
         <span class="secno">4</span>
         <span class="secname">4カラム・画像あり</span>
         <span class="sech">620px</span>
-      </div><div class="sec" style="height:36px;background:#ffffff;color:var(--ink);
+      </div><div class="sec" style="height:34px;background:#ffffff;color:var(--ink);
         border:1px solid var(--line)">
         <span class="secno">5</span>
         <span class="secname">3カラム・画像あり</span>
-        <span class="sech">640px</span>
+        <span class="sech">620px</span>
       </div><div class="sec" style="height:26px;background:#ffffff;color:var(--ink);
         border:1px solid var(--line)">
         <span class="secno">6</span>
@@ -369,14 +369,17 @@
 - 欧文: Montserrat
 - ウェイトは 500 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 24px | 1.4 |
-| 見出し | 18px | — |
-| 小見出し | 16px | — |
-| リード | 15px | — |
-| 本文 | 12px | 1.6 |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 24px | 1.4 | 305px | 235px |
+| 見出し | 18px | — | — | — |
+| 小見出し | 16px | — | — | — |
+| リード | 15px | — | — | — |
+| 本文 | 12px | 1.6 | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（120px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 12px・行間 1.6。
 
@@ -435,7 +438,7 @@
 | 2 | 460px | — | 6カラム・画像あり | 左 | 見出しの下 |
 | 3 | 620px | — | 1カラム・画像あり | 左 | 右（50:50） |
 | 4 | 620px | — | 4カラム・画像あり | 左 | 見出しの下 |
-| 5 | 640px | — | 3カラム・画像あり | 左 | 見出しの下 |
+| 5 | 620px | — | 3カラム・画像あり | 左 | 見出しの下 |
 | 6 | 360px | — | 1カラム・画像あり | 左 | 見出しの下 |
 | 7 | 500px | — | 3カラム・画像あり | 左 | 見出しの下 |
 | 8 | 260px | — | 帯・区切り | — | — |

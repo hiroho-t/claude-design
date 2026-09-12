@@ -28,7 +28,7 @@
   "ink": [
     {
       "hex": "#3d3a2b",
-      "pct": 43.6
+      "pct": 43
     },
     {
       "hex": "#006e96",
@@ -36,7 +36,7 @@
     },
     {
       "hex": "#333333",
-      "pct": 18.6
+      "pct": 19.3
     },
     {
       "hex": "#ffffff",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 2240
+      "w": 2257
     },
     {
       "family": "Material Icons",
@@ -73,11 +73,11 @@
     },
     {
       "px": 18,
-      "w": 581
+      "w": 596
     },
     {
       "px": 16,
-      "w": 775
+      "w": 769
     },
     {
       "px": 14,
@@ -85,7 +85,7 @@
     },
     {
       "px": 12,
-      "w": 158
+      "w": 166
     }
   ],
   "body": {
@@ -96,36 +96,82 @@
   "headings": {
     "h2": [
       {
+        "fs": 14,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Inter"
+      },
+      {
         "fs": 20,
         "weight": "700",
         "lh": 1.4,
         "ls": "0",
         "family": "Noto Sans JP"
-      },
-      {
-        "fs": 40,
-        "weight": "700",
-        "lh": 1.6,
-        "ls": "-0.020em",
-        "family": "A1ゴシック M JIS2004"
       }
     ],
     "h3": [
+      {
+        "fs": 18,
+        "weight": "600",
+        "lh": 1.5,
+        "ls": "0.060em",
+        "family": "Noto Sans JP"
+      },
       {
         "fs": 16,
         "weight": "800",
         "lh": 1.5,
         "ls": "0",
         "family": "Noto Sans JP"
-      },
-      {
-        "fs": 18,
-        "weight": "500",
-        "lh": 1.5,
-        "ls": "0",
-        "family": "Noto Sans JP"
       }
     ]
+  },
+  "headSpace": {
+    "14": {
+      "above": 293,
+      "below": 52,
+      "n": 4
+    },
+    "16": {
+      "above": 307,
+      "below": 32,
+      "n": 6
+    },
+    "18": {
+      "above": 37,
+      "below": 12,
+      "n": 11
+    },
+    "20": {
+      "above": null,
+      "below": 12,
+      "n": 2
+    },
+    "36": {
+      "above": 210,
+      "below": 16,
+      "n": 1
+    },
+    "40": {
+      "above": 34,
+      "below": 33,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 16,
+    "weight": "700",
+    "ls": 0,
+    "color": "#ffffff",
+    "latin": false,
+    "upper": false,
+    "gap": 34,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 40,
+    "n": 1,
+    "total": 1
   },
   "radius": [
     {

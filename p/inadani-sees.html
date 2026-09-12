@@ -197,11 +197,11 @@
     <table class="usage">
       <tr><th>色</th><td>面</td><td>文字</td><td>枠線</td><td>ボタンの地</td></tr>
       <tr><th><i style="background:#ffffff"></i><code>#ffffff</code></th>
-        <td>40</td><td>6</td><td>0</td><td>3</td></tr><tr><th><i style="background:#cccccc"></i><code>#cccccc</code></th>
+        <td>40</td><td>8</td><td>0</td><td>3</td></tr><tr><th><i style="background:#cccccc"></i><code>#cccccc</code></th>
         <td>10</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#d5d5d5"></i><code>#d5d5d5</code></th>
         <td>4</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#f47a2e"></i><code>#f47a2e</code></th>
         <td>1</td><td>0</td><td>0</td><td>0</td></tr><tr><th><i style="background:#000000"></i><code>#000000</code></th>
-        <td>3</td><td>99</td><td>0</td><td>0</td></tr><tr><th><i style="background:#e94709"></i><code>#e94709</code></th>
+        <td>5</td><td>97</td><td>0</td><td>0</td></tr><tr><th><i style="background:#e94709"></i><code>#e94709</code></th>
         <td>0</td><td>6</td><td>0</td><td>0</td></tr>
     </table>
     <p class="note"><code>#55a4c6</code> は</p>
@@ -218,10 +218,13 @@
       <p class="spmeta">大見出し<span>34px / 行間 1</span></p>
       <p class="spdemo" style="font-size:34px;line-height:1">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">見出し<span>22px</span></p>
+      <p class="spmeta">見出し<span>29px / 行間 1</span></p>
+      <p class="spdemo" style="font-size:29px;line-height:1">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">小見出し<span>22px</span></p>
       <p class="spdemo" style="font-size:22px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">小見出し<span>16px</span></p>
+      <p class="spmeta">リード<span>16px</span></p>
       <p class="spdemo" style="font-size:16px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">本文<span>14px / 行間 3</span></p>
@@ -258,7 +261,7 @@
         border:1px solid var(--line)">
         <span class="secno">1</span>
         <span class="secname">ヒーロー（画像）</span>
-        <span class="sech">7020px</span>
+        <span class="sech">7000px</span>
       </div><div class="sec" style="height:26px;background:#f0f0f0;color:var(--ink);
         border:1px solid var(--line)">
         <span class="secno">2</span>
@@ -301,7 +304,7 @@
         </div>
       </div>
       <p class="note">同じ形が 3 箇所。角丸 16px</p>
-    <p class="note">角丸は 0px だが、完全な円は別扱いで 5 箇所（32px×3、136px×1、176px×1）。角を丸めないことと、円のモチーフは両立する。</p>
+    <p class="note">角丸は 0px だが、完全な円は別扱いで 7 箇所（32px×5、136px×1、176px×1）。角を丸めないことと、円のモチーフは両立する。</p>
     <div class="stage" style="background:#fff">
         <span class="chipdemo" style="background:#000000;color:#ffffff;border-radius:999px;
           padding:0px 9px;font-size:12px;">タグ</span>
@@ -393,11 +396,11 @@
 
 | 色 | 面 | 文字 | 枠線 | ボタンの地 |
 |---|---|---|---|---|
-| `#ffffff` | 40 | 6 | 0 | 3 |
+| `#ffffff` | 40 | 8 | 0 | 3 |
 | `#cccccc` | 10 | 0 | 0 | 0 |
 | `#d5d5d5` | 4 | 0 | 0 | 0 |
 | `#f47a2e` | 1 | 0 | 0 | 0 |
-| `#000000` | 3 | 99 | 0 | 0 |
+| `#000000` | 5 | 97 | 0 | 0 |
 | `#e94709` | 0 | 6 | 0 | 0 |
 
 - `#55a4c6` は
@@ -428,15 +431,19 @@
 - 欧文: MFW-PA1GothicStd-Regular
 - ウェイトは 700 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 34px | 1 |
-| 見出し | 22px | — |
-| 小見出し | 16px | — |
-| 本文 | 14px | 3 |
-| 補助 | 12px | — |
-| 注記 | 11px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 34px | 1 | 148px | 7px |
+| 見出し | 29px | 1 | — | — |
+| 小見出し | 22px | — | — | — |
+| リード | 16px | — | — | — |
+| 本文 | 14px | 3 | — | — |
+| 補助 | 12px | — | — | — |
+| 注記 | 11px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（48px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 14px・行間 3。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -484,7 +491,7 @@
 
 | # | 高さ | 地色 | 中身 | 見出し | 画像 |
 |---|---|---|---|---|---|
-| 1 | 7020px | — | ヒーロー（画像） | 左 | 見出しの下 |
+| 1 | 7000px | — | ヒーロー（画像） | 左 | 見出しの下 |
 | 2 | 140px | — | 帯・区切り | — | — |
 | 3 | 900px | — | 1カラム・画像あり | — | 全面 |
 
@@ -517,7 +524,7 @@
 
 ## 丸いもの
 
-角丸は 0px だが、**完全な円は別扱い**で 5 箇所ある（32px×3、136px×1、176px×1）。
+角丸は 0px だが、**完全な円は別扱い**で 7 箇所ある（32px×5、136px×1、176px×1）。
 アイコンの地・点・装飾に使う。角を丸めないルールと、円のモチーフは両立する。
 
 ## 画像
@@ -538,7 +545,7 @@ body{ background:var(--bg); color:var(--ink);
 .container{ width:min(100% - 0px, var(--container)); margin-inline:auto }
 .read{ max-width:var(--read) }
 
-.hero{ min-height:7020px; display:grid; align-content:center }
+.hero{ min-height:7000px; display:grid; align-content:center }
 
 .section--main{ background:var(--main); color:#e94709; --on:#e94709 }
 .section--main .btn--fill{ background:#e94709; color:var(--main) }

@@ -128,6 +128,52 @@
       }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": 20,
+      "below": 143,
+      "n": 3
+    },
+    "24": {
+      "above": 53,
+      "below": 64,
+      "n": 7
+    },
+    "32": {
+      "above": 128,
+      "below": 16,
+      "n": 2
+    },
+    "40": {
+      "above": 10,
+      "below": 196,
+      "n": 2
+    },
+    "48": {
+      "above": null,
+      "below": 48,
+      "n": 1
+    },
+    "50": {
+      "above": null,
+      "below": 164,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 14,
+    "weight": "400",
+    "ls": 0.04,
+    "color": "#009f5d",
+    "latin": true,
+    "upper": true,
+    "gap": 16,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 24,
+    "n": 3,
+    "total": 5
+  },
   "radius": [
     {
       "px": 0,

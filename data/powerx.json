@@ -74,18 +74,25 @@
     "ls": "0"
   },
   "headings": {
-    "h1": [
+    "h2": [
       {
         "fs": 40,
-        "weight": "500",
+        "weight": "400",
         "lh": 1.25,
+        "ls": "0",
+        "family": "powerXSans"
+      },
+      {
+        "fs": 16,
+        "weight": "500",
+        "lh": 1.5,
         "ls": "0",
         "family": "powerXSans"
       }
     ],
-    "h2": [
+    "h1": [
       {
-        "fs": 72,
+        "fs": 40,
         "weight": "500",
         "lh": 1.25,
         "ls": "0",
@@ -102,6 +109,29 @@
       }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": null,
+      "below": 294,
+      "n": 2
+    },
+    "16": {
+      "above": 65,
+      "below": 19,
+      "n": 6
+    },
+    "40": {
+      "above": 258,
+      "below": 13,
+      "n": 9
+    },
+    "72": {
+      "above": 12,
+      "below": 32,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

@@ -28,15 +28,15 @@
   "ink": [
     {
       "hex": "#1b1e29",
-      "pct": 70.8
+      "pct": 71.2
     },
     {
       "hex": "#ffffff",
-      "pct": 21.2
+      "pct": 21.3
     },
     {
       "hex": "#a4a5a9",
-      "pct": 5.1
+      "pct": 4.6
     },
     {
       "hex": "#61636a",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "Roboto",
-      "w": 2085
+      "w": 2070
     },
     {
       "family": "Zen Kaku Gothic New",
@@ -69,7 +69,7 @@
     },
     {
       "px": 16,
-      "w": 1148
+      "w": 1150
     },
     {
       "px": 15,
@@ -77,7 +77,7 @@
     },
     {
       "px": 14,
-      "w": 362
+      "w": 345
     }
   ],
   "body": {
@@ -86,7 +86,30 @@
     "ls": "0.070em"
   },
   "headings": {
+    "h2": [
+      {
+        "fs": 75,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.010em",
+        "family": "Roboto"
+      },
+      {
+        "fs": 42,
+        "weight": "500",
+        "lh": 1.6,
+        "ls": "0.300em",
+        "family": "Roboto"
+      }
+    ],
     "h3": [
+      {
+        "fs": 16,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "0.080em",
+        "family": "Roboto"
+      },
       {
         "fs": 16,
         "weight": "500",
@@ -97,30 +120,59 @@
     ],
     "h4": [
       {
+        "fs": 18,
+        "weight": "500",
+        "lh": 1.6,
+        "ls": "0.053em",
+        "family": "Roboto"
+      },
+      {
         "fs": 22,
         "weight": "500",
         "lh": 1.2,
         "ls": "0.080em",
         "family": "Roboto"
       }
-    ],
-    "h2": [
-      {
-        "fs": 75,
-        "weight": "400",
-        "lh": 1,
-        "ls": "0.010em",
-        "family": "Roboto"
-      },
-      {
-        "fs": 55,
-        "weight": "400",
-        "lh": 1,
-        "ls": "0.010em",
-        "family": "Roboto"
-      }
     ]
   },
+  "headSpace": {
+    "16": {
+      "above": 15,
+      "below": 10,
+      "n": 12
+    },
+    "18": {
+      "above": 396,
+      "below": null,
+      "n": 4
+    },
+    "22": {
+      "above": 42,
+      "below": 35,
+      "n": 3
+    },
+    "42": {
+      "above": 159,
+      "below": null,
+      "n": 1
+    },
+    "55": {
+      "above": null,
+      "below": 10,
+      "n": 1
+    },
+    "63": {
+      "above": null,
+      "below": 239,
+      "n": 1
+    },
+    "75": {
+      "above": 203,
+      "below": 10,
+      "n": 3
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 5,
@@ -451,7 +503,7 @@
     {
       "hex": "#a4a5a9",
       "面": 0,
-      "文字": 38,
+      "文字": 34,
       "枠": 0,
       "ボタン": 0
     }

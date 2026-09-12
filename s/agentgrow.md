@@ -124,7 +124,7 @@
 | 組み方 | **兄弟に並べる**（囲まずに続けて置く） |
 
 ```html
-<p class="c-head__label">SERVICE</p>
+<p class="c-head__label">私たちの仕事</p>
 <h2 class="c-head__title">サービス</h2>
 <p>本文…</p>
 ```
@@ -239,7 +239,7 @@
 ```html
 <section class="section">
   <div class="container">
-    <p class="c-head__label">SERVICE</p>
+    <p class="c-head__label">私たちの仕事</p>
     <h2 class="c-head__title">サービス</h2>
     <p>本文…</p>
   </div>

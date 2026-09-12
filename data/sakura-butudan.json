@@ -96,20 +96,106 @@
     ],
     "h2": [
       {
-        "fs": 28,
-        "weight": "500",
-        "lh": 1.15,
-        "ls": "0.150em",
-        "family": "Shippori Mincho"
-      },
-      {
         "fs": 33,
         "weight": "400",
         "lh": 1.15,
         "ls": "0.100em",
         "family": "Shippori Mincho"
+      },
+      {
+        "fs": 28,
+        "weight": "500",
+        "lh": 1.15,
+        "ls": "0.150em",
+        "family": "Shippori Mincho"
       }
     ]
+  },
+  "headSpace": {
+    "14": {
+      "above": 17,
+      "below": 11,
+      "n": 2
+    },
+    "15": {
+      "above": 110,
+      "below": 137,
+      "n": 7
+    },
+    "16": {
+      "above": 18,
+      "below": 64,
+      "n": 6
+    },
+    "17": {
+      "above": null,
+      "below": 191,
+      "n": 1
+    },
+    "20": {
+      "above": 211,
+      "below": 30,
+      "n": 10
+    },
+    "21": {
+      "above": 26,
+      "below": 19,
+      "n": 1
+    },
+    "22": {
+      "above": 79,
+      "below": 231,
+      "n": 6
+    },
+    "23": {
+      "above": 46,
+      "below": null,
+      "n": 1
+    },
+    "26": {
+      "above": 14,
+      "below": 325,
+      "n": 3
+    },
+    "28": {
+      "above": 144,
+      "below": 175,
+      "n": 6
+    },
+    "30": {
+      "above": 191,
+      "below": 98,
+      "n": 1
+    },
+    "32": {
+      "above": 343,
+      "below": 65,
+      "n": 1
+    },
+    "33": {
+      "above": 246,
+      "below": 70,
+      "n": 5
+    },
+    "60": {
+      "above": 15,
+      "below": 126,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 20,
+    "weight": "500",
+    "ls": 0.09,
+    "color": "#ffffff",
+    "latin": false,
+    "upper": false,
+    "gap": 15,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 60,
+    "n": 1,
+    "total": 2
   },
   "radius": [
     {

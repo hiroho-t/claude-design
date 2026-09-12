@@ -28,11 +28,11 @@
   "ink": [
     {
       "hex": "#cf000e",
-      "pct": 61.5
+      "pct": 62.9
     },
     {
       "hex": "#ffffff",
-      "pct": 37.8
+      "pct": 36.4
     },
     {
       "hex": "#003723",
@@ -43,7 +43,7 @@
   "fonts": [
     {
       "family": "荳ｸ譏弱が繝ｼ繝ｫ繝� StdN R",
-      "w": 1098
+      "w": 1141
     },
     {
       "family": "AGaramondPro-Italic",
@@ -61,7 +61,7 @@
     },
     {
       "px": 20,
-      "w": 581
+      "w": 623
     },
     {
       "px": 16,
@@ -73,7 +73,7 @@
     },
     {
       "px": 12,
-      "w": 122
+      "w": 123
     }
   ],
   "body": {
@@ -98,6 +98,22 @@
         "family": "荳ｸ譏弱が繝ｼ繝ｫ繝� StdN R"
       }
     ],
+    "h2": [
+      {
+        "fs": 40,
+        "weight": "400",
+        "lh": 1.55,
+        "ls": "0.080em",
+        "family": "荳ｸ譏弱が繝ｼ繝ｫ繝� StdN R"
+      },
+      {
+        "fs": 32,
+        "weight": "400",
+        "lh": 1.55,
+        "ls": "0.080em",
+        "family": "荳ｸ譏弱が繝ｼ繝ｫ繝� StdN R"
+      }
+    ],
     "h4": [
       {
         "fs": 24,
@@ -107,6 +123,42 @@
         "family": "荳ｸ譏弱が繝ｼ繝ｫ繝� StdN R"
       }
     ]
+  },
+  "headSpace": {
+    "20": {
+      "above": 166,
+      "below": 15,
+      "n": 10
+    },
+    "24": {
+      "above": 128,
+      "below": 63,
+      "n": 1
+    },
+    "32": {
+      "above": 332,
+      "below": 208,
+      "n": 1
+    },
+    "40": {
+      "above": 63,
+      "below": 36,
+      "n": 4
+    }
+  },
+  "labelHead": {
+    "fs": 12,
+    "weight": "400",
+    "ls": 0.058,
+    "color": "#cf000e",
+    "latin": true,
+    "upper": false,
+    "gap": 16,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 20,
+    "n": 4,
+    "total": 5
   },
   "radius": [
     {

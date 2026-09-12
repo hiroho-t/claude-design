@@ -89,6 +89,32 @@
       }
     ]
   },
+  "headSpace": {
+    "19": {
+      "above": 332,
+      "below": null,
+      "n": 1
+    },
+    "28": {
+      "above": 39,
+      "below": 332,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 17,
+    "weight": "700",
+    "ls": 0,
+    "color": "#ffffff",
+    "latin": false,
+    "upper": false,
+    "gap": 39,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 28,
+    "n": 1,
+    "total": 1
+  },
   "radius": [
     {
       "px": 0,
@@ -204,7 +230,7 @@
       "bg": null,
       "align": "中央",
       "media": "左",
-      "split": "92:8"
+      "split": "93:7"
     },
     {
       "h": 1220,
@@ -330,18 +356,18 @@
     "sizes": []
   },
   "mobile": {
-    "bodyFs": 16,
-    "bodyLh": 1.87,
+    "bodyFs": 17,
+    "bodyLh": 1.88,
     "sizes": [
+      19,
       17,
       16,
       15,
-      12,
       11
     ],
-    "pad": 40,
+    "pad": 32,
     "gap": null,
-    "sidePad": 0,
+    "sidePad": 21,
     "h1": {
       "fs": 21,
       "lh": 1.7

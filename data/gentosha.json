@@ -6,15 +6,15 @@
   "bg": [
     {
       "hex": "#ffffff",
-      "pct": 35
+      "pct": 35.7
     },
     {
       "hex": "#f5f5f5",
-      "pct": 23.1
+      "pct": 23.3
     },
     {
       "hex": "#383838",
-      "pct": 21.2
+      "pct": 21.3
     },
     {
       "hex": "#ededed",
@@ -22,40 +22,40 @@
     },
     {
       "hex": "#000000",
-      "pct": 5.8
+      "pct": 5.9
     }
   ],
   "ink": [
     {
       "hex": "#000000",
-      "pct": 48.1
+      "pct": 53.2
     },
     {
       "hex": "#d0d0d0",
-      "pct": 34.9
+      "pct": 27.3
     },
     {
       "hex": "#ffffff",
-      "pct": 7.7
+      "pct": 9
     },
     {
       "hex": "#ededed",
-      "pct": 5
+      "pct": 5.6
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "Font-mincho",
-      "w": 1104
+      "w": 922
     },
     {
       "family": "Font-gothic-bold",
-      "w": 468
+      "w": 478
     },
     {
       "family": "Font-gothic-medium",
-      "w": 347
+      "w": 359
     },
     {
       "family": "Font-decoration",
@@ -65,15 +65,15 @@
   "sizes": [
     {
       "px": 41,
-      "w": 456
+      "w": 315
     },
     {
-      "px": 22,
-      "w": 201
+      "px": 24,
+      "w": 213
     },
     {
       "px": 20,
-      "w": 253
+      "w": 191
     },
     {
       "px": 17,
@@ -94,12 +94,28 @@
     "ls": "0.008em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 336,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.001em",
+        "family": "Font-en"
+      }
+    ],
     "h2": [
       {
         "fs": 24,
         "weight": "400",
         "lh": 1.5,
         "ls": "0.013em",
+        "family": "Font-gothic-bold"
+      },
+      {
+        "fs": 38,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0.008em",
         "family": "Font-gothic-bold"
       }
     ],
@@ -113,6 +129,29 @@
       }
     ]
   },
+  "headSpace": {
+    "24": {
+      "above": 268,
+      "below": 79,
+      "n": 6
+    },
+    "31": {
+      "above": 36,
+      "below": 24,
+      "n": 1
+    },
+    "38": {
+      "above": 312,
+      "below": 76,
+      "n": 1
+    },
+    "336": {
+      "above": null,
+      "below": 56,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
@@ -143,12 +182,12 @@
       "n": 24
     },
     {
-      "px": 41,
-      "n": 18
+      "px": 24,
+      "n": 20
     },
     {
-      "px": 10,
-      "n": 17
+      "px": 41,
+      "n": 18
     }
   ],
   "sectionPad": [
@@ -206,7 +245,7 @@
       "weight": "400",
       "h": 34,
       "ls": "0.32px",
-      "n": 8
+      "n": 10
     },
     {
       "bg": "transparent",
@@ -224,7 +263,7 @@
   "bp": [],
   "sections": [
     {
-      "h": 1460,
+      "h": 1680,
       "full": true,
       "cols": 2,
       "img": true,
@@ -234,7 +273,7 @@
       "split": null
     },
     {
-      "h": 900,
+      "h": 920,
       "full": true,
       "cols": 5,
       "img": true,
@@ -318,8 +357,8 @@
       "n": 3
     },
     {
-      "hex": "#e0e0e0",
-      "n": 3
+      "hex": "#888888",
+      "n": 1
     }
   ],
   "cards": [
@@ -363,26 +402,26 @@
     }
   ],
   "images": {
-    "n": 34,
+    "n": 35,
     "fullBleed": 0,
     "ratios": [
       {
         "ratio": "2:3",
-        "n": 12
-      },
-      {
-        "ratio": "3:4",
-        "n": 9
+        "n": 18
       },
       {
         "ratio": "16:9",
-        "n": 5
+        "n": 6
+      },
+      {
+        "ratio": "3:4",
+        "n": 3
       }
     ],
     "radius": [
       {
         "px": 0,
-        "n": 34
+        "n": 35
       }
     ]
   },
@@ -391,11 +430,11 @@
     "sizes": []
   },
   "mobile": {
-    "bodyFs": 32,
-    "bodyLh": 1.5,
+    "bodyFs": 14,
+    "bodyLh": null,
     "sizes": [
       32,
-      20,
+      18,
       16,
       15,
       14
@@ -440,7 +479,7 @@
     {
       "hex": "#000000",
       "面": 14,
-      "文字": 141,
+      "文字": 144,
       "枠": 8,
       "ボタン": 8
     },

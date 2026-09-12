@@ -62,16 +62,64 @@
     "ls": "0"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 81,
+        "weight": "400",
+        "lh": 1.3,
+        "ls": "0",
+        "family": "HelveticaNeueLTStd-Lt"
+      }
+    ],
     "h2": [
       {
-        "fs": 26,
+        "fs": 64,
+        "weight": "400",
+        "lh": 1.3,
+        "ls": "0.030em",
+        "family": "HelveticaNeueLTPro-Roman"
+      },
+      {
+        "fs": 44,
+        "weight": "400",
+        "lh": 1.3,
+        "ls": "0.030em",
+        "family": "HelveticaNeueLTPro-Roman"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 25,
         "weight": "400",
         "lh": 1,
-        "ls": "0.020em",
-        "family": "HelveticaNeueLTPro-Roman"
+        "ls": "0",
+        "family": "YakuHanJP"
       }
     ]
   },
+  "headSpace": {
+    "25": {
+      "above": 242,
+      "below": 30,
+      "n": 7
+    },
+    "26": {
+      "above": 385,
+      "below": null,
+      "n": 1
+    },
+    "64": {
+      "above": 363,
+      "below": 242,
+      "n": 1
+    },
+    "81": {
+      "above": 254,
+      "below": null,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

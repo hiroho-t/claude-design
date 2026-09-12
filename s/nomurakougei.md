@@ -57,7 +57,7 @@
 | `#a2a2a2` | 1 | 0 | 0 | 0 |
 | `#595c56` | 10 | 0 | 0 | 8 |
 | `#f4f4f4` | 7 | 5 | 0 | 0 |
-| `#191a18` | 0 | 191 | 1 | 0 |
+| `#191a18` | 0 | 186 | 1 | 0 |
 
 - `#b5b9d0` は
 
@@ -84,18 +84,56 @@
 
 - 和文: YakuHanJPs
 - 欧文: YakuHanJPs
-- ウェイトは 500 が中心。太さで強弱をつけず、大きさで差をつける。
+- ウェイトは 400 / 500 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 28px | — |
-| 見出し | 16px | 1.5 |
-| 本文 | 14px | 1.5 |
-| 補助 | 13px | — |
-| 注記 | 12px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 36px | 1 | 225px | 199px |
+| 見出し | 28px | 1.5 | 5px | 15px |
+| 小見出し | 26px | 1 | — | 52px |
+| リード | 16px | 1.5 | 233px | 14px |
+| 本文 | 14px | 1.5 | 10px | 73px |
+| 補助 | 13px | — | — | — |
+| 注記 | 12px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（40px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 14px・行間 1.5。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 5箇所で使っている。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 英字 |
+| ラベルのサイズ | 14px |
+| ラベルの字間 | 0（詰めも空けもしない） |
+| ラベルの太さ | 400 |
+| ラベルの色 | `#ffffff` |
+| ラベル → 見出し | 5px |
+| 見出しのサイズ | 28px |
+| 見出し → 本文 | 15px |
+| 罫線 | なし |
+| 組み方 | **兄弟に並べる**（囲まずに続けて置く） |
+
+```html
+<p class="c-head__label">SERVICE</p>
+<h2 class="c-head__title">サービス</h2>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:14px; font-weight:400;
+  color:#ffffff; text-transform:uppercase }
+.c-head__title{ font-size:28px; line-height:1.5; margin-top:5px }
+.c-head__title + *{ margin-top:15px }
+```
+
+- ラベルと見出しの間は 5px、見出しと本文の間は 15px。ラベル側を詰めて、本文側を空ける。この差がまとまりを作っている。
 
 ## レイアウト
 
@@ -117,7 +155,7 @@
 | 並びの間隔 | 15px | 20px |
 
 - 本文は 14px → 13px、セクション余白は 40px → 40px（PCの100%）。
-- 文字サイズの段は 18 / 16 / 14 / 13 / 12px。
+- 文字サイズの段は 18 / 14 / 13 / 12 / 11px。
 
 ## ボタン
 
@@ -147,10 +185,10 @@
 | # | 高さ | 地色 | 中身 | 見出し | 画像 |
 |---|---|---|---|---|---|
 | 1 | 940px | — | ヒーロー（画像） | 左 | 全幅 |
-| 2 | 620px | — | 5カラム・画像あり | 中央 | 見出しの下 |
+| 2 | 600px | — | 5カラム・画像あり | 中央 | 見出しの下 |
 | 3 | 960px | — | 1カラム・画像あり | — | 全面 |
 | 4 | 880px | — | 3カラム・画像あり | 中央 | 見出しの下 |
-| 5 | 900px | — | 4カラム・画像あり | 中央 | 見出しの下 |
+| 5 | 840px | — | 4カラム・画像あり | 中央 | 見出しの下 |
 | 6 | 640px | — | 4カラム・画像あり | 中央 | 見出しの下 |
 | 7 | 600px | — | 6カラム・画像あり | 中央 | 見出しの下 |
 | 8 | 140px | — | 帯・区切り | — | — |
@@ -197,6 +235,16 @@
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
 
+```html
+<section class="section">
+  <div class="container">
+    <p class="c-head__label">SERVICE</p>
+    <h2 class="c-head__title">サービス</h2>
+    <p>本文…</p>
+  </div>
+</section>
+```
+
 ```css
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
@@ -206,6 +254,9 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:940px; display:grid; align-content:center }
+.c-head__label{ font-size:14px; font-weight:400; color:#ffffff }
+.c-head__title{ font-size:28px; line-height:1.5; margin-top:5px }
+.c-head__title + *{ margin-top:15px }
 
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }

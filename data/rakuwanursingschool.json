@@ -94,38 +94,103 @@
     "ls": "0.040em"
   },
   "headings": {
-    "h3": [
-      {
-        "fs": 32,
-        "weight": "600",
-        "lh": 1.5,
-        "ls": "0.080em",
-        "family": "Shippori Mincho"
-      },
-      {
-        "fs": 16,
-        "weight": "700",
-        "lh": 1.75,
-        "ls": "0.060em",
-        "family": "Noto Sans JP"
-      }
-    ],
-    "h2": [
-      {
-        "fs": 28,
-        "weight": "600",
-        "lh": 1.5,
-        "ls": "0.080em",
-        "family": "Shippori Mincho"
-      },
+    "h1": [
       {
         "fs": 18,
         "weight": "400",
         "lh": 1.5,
-        "ls": "0",
-        "family": "Zen Kaku Gothic New"
+        "ls": "0.142em",
+        "family": "Lato"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 13,
+        "weight": "400",
+        "lh": 1.5,
+        "ls": "0.060em",
+        "family": "Lato"
+      },
+      {
+        "fs": 40,
+        "weight": "600",
+        "lh": 1.5,
+        "ls": "0.080em",
+        "family": "Shippori Mincho"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 14,
+        "weight": "400",
+        "lh": 1.75,
+        "ls": "0.040em",
+        "family": "Noto Sans JP"
+      },
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.080em",
+        "family": "Shippori Mincho"
       }
     ]
+  },
+  "headSpace": {
+    "13": {
+      "above": 257,
+      "below": 80,
+      "n": 5
+    },
+    "14": {
+      "above": 12,
+      "below": 57,
+      "n": 5
+    },
+    "16": {
+      "above": 12,
+      "below": 190,
+      "n": 4
+    },
+    "18": {
+      "above": null,
+      "below": 143,
+      "n": 2
+    },
+    "24": {
+      "above": 124,
+      "below": 32,
+      "n": 8
+    },
+    "28": {
+      "above": 12,
+      "below": 61,
+      "n": 1
+    },
+    "32": {
+      "above": 119,
+      "below": 32,
+      "n": 2
+    },
+    "40": {
+      "above": 316,
+      "below": 80,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 14,
+    "weight": "400",
+    "ls": 0.04,
+    "color": "#00205b",
+    "latin": false,
+    "upper": true,
+    "gap": 12,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 28,
+    "n": 1,
+    "total": 1
   },
   "radius": [
     {

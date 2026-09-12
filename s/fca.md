@@ -15,8 +15,8 @@
 :root{
   --bg: #ffffff;
   --main: #e60012;
-  --ink: #231815;
-  --ink-rev: #ffffff;
+  --ink: #ffffff;
+  --ink-rev: #231815;
   --on: #e60012;   /* いま乗っている面の上で使う線と文字の色。面ごとに入れ替える */
   --font-ja: "LINESeedJP", sans-serif;
   --font-en: "LINESeedJP", sans-serif;
@@ -36,7 +36,7 @@
 |---|---|---|
 | 地 | `#ffffff` | 93.6% |
 
-文字色は `#231815` / `#ffffff` / `#e60012` / `#727171`。
+文字色は `#ffffff` / `#231815` / `#e60012` / `#727171`。
 
 - 主色 `#e60012` は塗りにはほとんど使わない。文字・線・小さな部品だけで効かせる。
 - 影は**使わない**（計測0件）。段差は色面の切り替えだけでつくる。
@@ -52,7 +52,7 @@
 | `#333333` | 1 | 0 | 0 | 0 |
 | `#fb909a` | 1 | 0 | 0 | 0 |
 | `#1c1cc9` | 1 | 0 | 0 | 0 |
-| `#231815` | 4 | 140 | 16 | 1 |
+| `#231815` | 4 | 142 | 16 | 1 |
 | `#e60012` | 12 | 24 | 7 | 10 |
 | `#727171` | 0 | 19 | 1 | 0 |
 
@@ -67,14 +67,14 @@
 | `#ffffff`（地） | `#e60012` |
 | `#f4f4f4` | `#e60012` |
 | `#fb909a` | `#e60012` |
-| `#1c1cc9` | `#ffffff` |
+| `#1c1cc9` | `#231815` |
 
 ```css
 .section{ --on:#e60012 }                     /* 地の面 */
-.section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
+.section--main{ background:var(--main); color:#231815; --on:#231815 }
 .card{ border:1px solid var(--on) }
-.btn--fill{ background:var(--main); color:#ffffff }
-.section--main .btn--fill{ background:#ffffff; color:var(--main) }   /* 主色の面では反転 */
+.btn--fill{ background:var(--main); color:#231815 }
+.section--main .btn--fill{ background:#231815; color:var(--main) }   /* 主色の面では反転 */
 ```
 
 ## 文字
@@ -83,17 +83,53 @@
 - 欧文: LINESeedJP
 - ウェイトは 700 / 400 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 33px | 2 |
-| 見出し | 29px | 1.3 |
-| 小見出し | 28px | 1.5 |
-| リード | 19px | — |
-| 本文 | 13px | 1.5 |
-| 補助 | 12px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 37px | 1.5 | 7px | 30px |
+| 見出し | 33px | 2 | 17px | 30px |
+| 小見出し | 28px | 1.5 | 47px | 28px |
+| リード | 19px | — | — | — |
+| 本文 | 13px | 1.5 | — | — |
+| 補助 | 12px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（48px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 13px・行間 1.5。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 5箇所で使っている（見出し11箇所のうち）。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 英字 |
+| ラベルのサイズ | 16px |
+| ラベルの字間 | 0（詰めも空けもしない） |
+| ラベルの太さ | 400 |
+| ラベルの色 | `#231815` |
+| ラベル → 見出し | 47px |
+| 見出しのサイズ | 28px |
+| 見出し → 本文 | 28px |
+| 罫線 | なし |
+| 組み方 | **兄弟に並べる**（囲まずに続けて置く） |
+
+```html
+<p class="c-head__label">SERVICE</p>
+<h2 class="c-head__title">サービス</h2>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:16px; font-weight:400;
+  color:#231815; text-transform:uppercase }
+.c-head__title{ font-size:28px; line-height:1.5; margin-top:47px }
+.c-head__title + *{ margin-top:28px }
+```
+
+- ラベルと見出しの間は 47px、見出しと本文の間は 28px。この2つを同じにしない。
 
 ## レイアウト
 
@@ -110,7 +146,7 @@
 | | PC 1440px | スマホ 390px |
 |---|---|---|
 | 本文 | 13px / 行間 1.5 | 13px / 行間 2 |
-| 見出し | 33px | 20px / 行間 2 |
+| 見出し | 37px | 20px / 行間 2 |
 | セクションの上下余白 | 48px | 60px |
 | 左右の余白 | — | 20px |
 | 並びの間隔 | 16px | 13px |
@@ -152,7 +188,7 @@
 | 4 | 180px | — | 帯・区切り | 左 | 見出しの下 |
 | 5 | 1040px | `#f4f4f4` | 5カラム・画像あり | 中央 | 右（41:59） |
 | 6 | 3280px | — | 1カラム・画像あり | 中央 | 見出しの下 |
-| 7 | 1940px | `#f4f4f4` | 6カラム・画像あり | 中央 | 全幅 |
+| 7 | 1960px | `#f4f4f4` | 6カラム・画像あり | 中央 | 全幅 |
 | 8 | 860px | — | 1カラム・画像あり | 中央 | 見出しの下 |
 | 9 | 1220px | `#333333` | 1カラム・画像あり | 中央 | 全幅 |
 | 10 | 620px | — | 1カラム・画像あり | 左 | 右（15:85） |
@@ -203,6 +239,16 @@
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
 
+```html
+<section class="section">
+  <div class="container">
+    <p class="c-head__label">SERVICE</p>
+    <h2 class="c-head__title">サービス</h2>
+    <p>本文…</p>
+  </div>
+</section>
+```
+
 ```css
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
@@ -212,9 +258,12 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:880px; display:grid; align-content:center }
+.c-head__label{ font-size:16px; font-weight:400; color:#231815 }
+.c-head__title{ font-size:28px; line-height:1.5; margin-top:47px }
+.c-head__title + *{ margin-top:28px }
 
-.section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
-.section--main .btn--fill{ background:#ffffff; color:var(--main) }
+.section--main{ background:var(--main); color:#231815; --on:#231815 }
+.section--main .btn--fill{ background:#231815; color:var(--main) }
 .card{ background:transparent; border:1px solid var(--on);
   border-radius:10px; padding:0px 0px }
 .btn{ display:inline-flex; align-items:center; justify-content:center;

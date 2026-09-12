@@ -85,18 +85,56 @@
 - 欧文: Roboto
 - ウェイトは 700 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 28px | 1.6 |
-| 見出し | 26px | 1.6 |
-| 小見出し | 24px | 1.6 |
-| リード | 20px | — |
-| 本文 | 17px | 1.8 |
-| 補助 | 16px | — |
-| 注記 | 15px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 28px | 1.6 | 32px | — |
+| 見出し | 26px | 1.6 | 32px | 87px |
+| 小見出し | 24px | 1.6 | 66px | 30px |
+| リード | 20px | — | 12px | 24px |
+| 本文 | 17px | 1.8 | — | — |
+| 補助 | 16px | — | — | — |
+| 注記 | 15px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（132px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 17px・行間 1.8。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 3箇所で使っている（見出し5箇所のうち）。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 英字（大文字） |
+| ラベルのサイズ | 15px |
+| ラベルの字間 | 0.1em |
+| ラベルの太さ | 400 |
+| ラベルの色 | `#0000f9` |
+| ラベル → 見出し | 32px |
+| 見出しのサイズ | 26px |
+| 見出し → 本文 | 87px |
+| 罫線 | なし |
+| 組み方 | **箱で包む**（ラベルと見出しが1つのまとまりとして囲まれている） |
+
+```html
+<div class="c-head">
+  <p class="c-head__label">SERVICE</p>
+  <h2 class="c-head__title">サービス</h2>
+</div>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:15px; font-weight:400; letter-spacing:0.1em;
+  color:#0000f9; text-transform:uppercase }
+.c-head__title{ font-size:26px; line-height:1.6; margin-top:32px }
+.c-head + *{ margin-top:87px }
+```
+
+- ラベルと見出しの間は 32px、見出しと本文の間は 87px。ラベル側を詰めて、本文側を空ける。この差がまとまりを作っている。
 
 ## レイアウト
 
@@ -112,7 +150,7 @@
 
 | | PC 1440px | スマホ 390px |
 |---|---|---|
-| 本文 | 17px / 行間 1.8 | 15px / 行間 1.4 |
+| 本文 | 17px / 行間 1.8 | 15px / 行間 2 |
 | 見出し | 28px | 26px / 行間 1.6 |
 | セクションの上下余白 | 132px | 40px |
 | 左右の余白 | — | 0px |
@@ -183,13 +221,25 @@
 
 ## 画像
 
-- 15枚使っている。うち 1 枚は画面いっぱいに置く
-- 比率は 1:1（3枚）、4:3（3枚）、3:2（3枚）
+- 14枚使っている。うち 1 枚は画面いっぱいに置く
+- 比率は 4:3（3枚）、3:2（3枚）、1:1（2枚）
 - 角丸 0px。切り抜かず四角のまま置く
 
 ## すぐ使う骨格
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
+
+```html
+<section class="section">
+  <div class="container">
+    <div class="c-head">
+      <p class="c-head__label">SERVICE</p>
+      <h2 class="c-head__title">サービス</h2>
+    </div>
+    <p>本文…</p>
+  </div>
+</section>
+```
 
 ```css
 body{ background:var(--bg); color:var(--ink);
@@ -200,6 +250,9 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:760px; display:grid; align-content:center }
+.c-head__label{ font-size:15px; font-weight:400; letter-spacing:0.1em; color:#0000f9 }
+.c-head__title{ font-size:26px; line-height:1.6; margin-top:32px }
+.c-head + *{ margin-top:87px }
 
 .section--main{ background:var(--main); color:#0000f9; --on:#0000f9 }
 .section--main .btn--fill{ background:#0000f9; color:var(--main) }
@@ -210,7 +263,7 @@ body{ background:var(--bg); color:var(--ink);
   padding:6px 18px; min-height:36px;
   font-size:16px; font-weight:400 }
 
-img{ width:100%; height:auto; border-radius:0px; aspect-ratio:1/1; object-fit:cover }
+img{ width:100%; height:auto; border-radius:0px; aspect-ratio:4/3; object-fit:cover }
 
 @media (max-width:840px){
   :root{ --fs-body:15px; --section-y:40px; --gap:16px; }
@@ -224,7 +277,7 @@ img{ width:100%; height:auto; border-radius:0px; aspect-ratio:1/1; object-fit:co
 
 - 地は `#fbfcf7` のまま。主色 `#0000f9` は文字と小さな部品にだけ使う。
 - 余白 132px と行間 1.8 を先に決めてから中身を入れる。
-- 画像は 1:1 に統一し、角丸は 0px。
+- 画像は 4:3 に統一し、角丸は 0px。
 - 線と文字の色は面ごとに入れ替える（`--on` を面のクラスで上書きする）。固定色で書かない。
 - 囲みは 塗り＋角丸 0px でそろえる。
 

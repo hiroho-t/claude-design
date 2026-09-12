@@ -24,7 +24,7 @@
   --fs-body: 14px;
   --lh-body: 1.75;
   --container: 1200px;
-  --read: 588px;
+  --read: 568px;
   --section-y: 64px;
   --gap: 9px;
   --radius: 4px;
@@ -53,10 +53,10 @@
 
 | 色 | 面 | 文字 | 枠線 | ボタンの地 |
 |---|---|---|---|---|
-| `#ffffff` | 34 | 73 | 18 | 2 |
-| `#f5f5f5` | 127 | 0 | 1 | 62 |
-| `#0b191f` | 1 | 104 | 0 | 0 |
-| `#dd1d1d` | 11 | 5 | 4 | 2 |
+| `#ffffff` | 36 | 74 | 19 | 3 |
+| `#f5f5f5` | 125 | 0 | 1 | 61 |
+| `#0b191f` | 2 | 105 | 1 | 1 |
+| `#dd1d1d` | 13 | 6 | 2 | 2 |
 | `#565f63` | 0 | 116 | 1 | 0 |
 
 - `#b0f2be` は
@@ -88,21 +88,57 @@
 - 欧文: HondaGlobalFontJP-Bold
 - ウェイトは 700 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 64px | 1.5 |
-| 見出し | 24px | 1.5 |
-| 小見出し | 20px | — |
-| リード | 18px | — |
-| 本文 | 14px | 1.75 |
-| 補助 | 12px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 64px | 1.5 | 26px | 11px |
+| 見出し | 24px | 1.5 | 101px | 28px |
+| 小見出し | 20px | 1.5 | 0px | 16px |
+| リード | 18px | — | — | — |
+| 本文 | 14px | 1.75 | — | — |
+| 補助 | 12px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（64px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 14px・行間 1.75。
 
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 9箇所で使っている（見出し14箇所のうち）。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 和文 |
+| ラベルのサイズ | 12px |
+| ラベルの字間 | 0.08em |
+| ラベルの太さ | 400 |
+| ラベルの色 | `#565f63` |
+| ラベル → 見出し | 0px |
+| 見出しのサイズ | 20px |
+| 見出し → 本文 | 16px |
+| 罫線 | なし |
+| 組み方 | **兄弟に並べる**（囲まずに続けて置く） |
+
+```html
+<p class="c-head__label">私たちの仕事</p>
+<h2 class="c-head__title">サービス</h2>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:12px; font-weight:400; letter-spacing:0.08em;
+  color:#565f63 }
+.c-head__title{ font-size:20px; line-height:1.5; margin-top:0px }
+.c-head__title + *{ margin-top:16px }
+```
+
+- ラベルと見出しの間は 0px、見出しと本文の間は 16px。ラベル側を詰めて、本文側を空ける。この差がまとまりを作っている。
+
 ## レイアウト
 
-- コンテンツ幅: 最大 1200px／読ませる段は 588px
+- コンテンツ幅: 最大 1200px／読ませる段は 568px
 - セクションの上下余白: 64 / 120 / 80 / 40px（基本は 64px）
 - 並びの間隔: 4 / 8 / 9 / 24px
 - 角丸: 4px が基本。大きな面だけ 0px。中途半端な角丸を混ぜない
@@ -185,7 +221,7 @@
 
 ## 丸いもの
 
-角丸は 4px だが、**完全な円は別扱い**で 55 箇所ある（40px×21、24px×13、32px×10）。
+角丸は 4px だが、**完全な円は別扱い**で 55 箇所ある（40px×21、24px×13、48px×11）。
 アイコンの地・点・装飾に使う。角を丸めないルールと、円のモチーフは両立する。
 
 ## 画像
@@ -198,6 +234,16 @@
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
 
+```html
+<section class="section">
+  <div class="container">
+    <p class="c-head__label">私たちの仕事</p>
+    <h2 class="c-head__title">サービス</h2>
+    <p>本文…</p>
+  </div>
+</section>
+```
+
 ```css
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
@@ -207,6 +253,9 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:300px; display:grid; align-content:center }
+.c-head__label{ font-size:12px; font-weight:400; letter-spacing:0.08em; color:#565f63 }
+.c-head__title{ font-size:20px; line-height:1.5; margin-top:0px }
+.c-head__title + *{ margin-top:16px }
 
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }

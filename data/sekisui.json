@@ -6,19 +6,19 @@
   "bg": [
     {
       "hex": "#ffffff",
-      "pct": 71.3
+      "pct": 71.4
     },
     {
       "hex": "#1d93ed",
-      "pct": 10.8
+      "pct": 10.7
     },
     {
       "hex": "#f6f6f6",
-      "pct": 13.7
+      "pct": 13.6
     },
     {
       "hex": "#004ea2",
-      "pct": 4.3
+      "pct": 4.2
     },
     {
       "hex": "#000000",
@@ -28,26 +28,26 @@
   "ink": [
     {
       "hex": "#555555",
-      "pct": 70.3
+      "pct": 68.3
     },
     {
       "hex": "#004ea2",
-      "pct": 23.1
+      "pct": 25.3
     },
     {
       "hex": "#ffffff",
-      "pct": 4.9
+      "pct": 4.8
     },
     {
       "hex": "#333333",
-      "pct": 1
+      "pct": 0.9
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 4775
+      "w": 4920
     }
   ],
   "sizes": [
@@ -65,7 +65,7 @@
     },
     {
       "px": 14,
-      "w": 2561
+      "w": 2706
     },
     {
       "px": 13,
@@ -91,9 +91,9 @@
         "family": "Noto Sans JP"
       },
       {
-        "fs": 24,
+        "fs": 40,
         "weight": "600",
-        "lh": 1,
+        "lh": 1.8,
         "ls": "0",
         "family": "Noto Sans JP"
       }
@@ -114,6 +114,42 @@
         "family": "Noto Sans JP"
       }
     ]
+  },
+  "headSpace": {
+    "24": {
+      "above": 272,
+      "below": 26,
+      "n": 1
+    },
+    "28": {
+      "above": 284,
+      "below": 20,
+      "n": 1
+    },
+    "32": {
+      "above": 12,
+      "below": 81,
+      "n": 1
+    },
+    "40": {
+      "above": 206,
+      "below": 24,
+      "n": 6
+    }
+  },
+  "labelHead": {
+    "fs": 12,
+    "weight": "400",
+    "ls": 0,
+    "color": "#555555",
+    "latin": false,
+    "upper": false,
+    "gap": 11,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 40,
+    "n": 1,
+    "total": 1
   },
   "radius": [
     {
@@ -238,7 +274,7 @@
     },
     {
       "px": 767,
-      "n": 2
+      "n": 3
     }
   ],
   "sections": [
@@ -253,7 +289,7 @@
       "split": null
     },
     {
-      "h": 360,
+      "h": 420,
       "full": true,
       "cols": 0,
       "img": true,

@@ -39,7 +39,7 @@
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 3130
+      "w": 3137
     },
     {
       "family": "ryo-gothic-plusn",
@@ -65,7 +65,7 @@
     },
     {
       "px": 16,
-      "w": 1780
+      "w": 1784
     },
     {
       "px": 14,
@@ -95,7 +95,7 @@
         "family": "Noto Sans JP"
       },
       {
-        "fs": 28,
+        "fs": 22,
         "weight": "900",
         "lh": 1.4,
         "ls": "0",
@@ -104,20 +104,81 @@
     ],
     "h3": [
       {
+        "fs": 28,
+        "weight": "900",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      },
+      {
         "fs": 34,
         "weight": "700",
         "lh": 1.2,
         "ls": "0",
         "family": "neue-haas-grotesk-display"
-      },
-      {
-        "fs": 30,
-        "weight": "900",
-        "lh": 1.4,
-        "ls": "0",
-        "family": "Noto Sans JP"
       }
     ]
+  },
+  "headSpace": {
+    "16": {
+      "above": 4,
+      "below": 36,
+      "n": 3
+    },
+    "22": {
+      "above": 10,
+      "below": 10,
+      "n": 1
+    },
+    "26": {
+      "above": 0,
+      "below": 20,
+      "n": 3
+    },
+    "28": {
+      "above": 46,
+      "below": 32,
+      "n": 9
+    },
+    "30": {
+      "above": 18,
+      "below": 32,
+      "n": 4
+    },
+    "34": {
+      "above": 333,
+      "below": 6,
+      "n": 6
+    },
+    "36": {
+      "above": 260,
+      "below": 90,
+      "n": 1
+    },
+    "38": {
+      "above": 206,
+      "below": 50,
+      "n": 5
+    },
+    "48": {
+      "above": 185,
+      "below": 0,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 14,
+    "weight": "700",
+    "ls": 0,
+    "color": "#e10029",
+    "latin": false,
+    "upper": false,
+    "gap": 9,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 30,
+    "n": 1,
+    "total": 1
   },
   "radius": [
     {
@@ -162,8 +223,8 @@
       "n": 5
     },
     {
-      "px": 120,
-      "n": 5
+      "px": 52,
+      "n": 4
     },
     {
       "px": 60,
@@ -346,7 +407,7 @@
   ],
   "chips": [],
   "images": {
-    "n": 21,
+    "n": 22,
     "fullBleed": 0,
     "ratios": [
       {
@@ -365,7 +426,7 @@
     "radius": [
       {
         "px": 0,
-        "n": 20
+        "n": 21
       },
       {
         "px": 12,

@@ -82,7 +82,23 @@
     "ls": "0.080em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 56,
+        "weight": "600",
+        "lh": 1,
+        "ls": "0.150em",
+        "family": "Poppins"
+      }
+    ],
     "h2": [
+      {
+        "fs": 56,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0",
+        "family": "Ubuntu"
+      },
       {
         "fs": 24,
         "weight": "400",
@@ -90,8 +106,62 @@
         "ls": "0",
         "family": "Ubuntu"
       }
+    ],
+    "h3": [
+      {
+        "fs": 18,
+        "weight": "600",
+        "lh": 1.5,
+        "ls": "0.080em",
+        "family": "Poppins"
+      },
+      {
+        "fs": 15,
+        "weight": "600",
+        "lh": 1.6,
+        "ls": "0.080em",
+        "family": "Poppins"
+      }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": 139,
+      "below": 198,
+      "n": 1
+    },
+    "15": {
+      "above": 149,
+      "below": 202,
+      "n": 4
+    },
+    "16": {
+      "above": 148,
+      "below": 66,
+      "n": 4
+    },
+    "18": {
+      "above": 296,
+      "below": 82,
+      "n": 8
+    },
+    "24": {
+      "above": 111,
+      "below": 185,
+      "n": 2
+    },
+    "36": {
+      "above": null,
+      "below": 295,
+      "n": 1
+    },
+    "56": {
+      "above": 185,
+      "below": 97,
+      "n": 6
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
@@ -337,12 +407,12 @@
   ],
   "chips": [],
   "images": {
-    "n": 35,
-    "fullBleed": 6,
+    "n": 36,
+    "fullBleed": 7,
     "ratios": [
       {
         "ratio": "3:2",
-        "n": 14
+        "n": 15
       },
       {
         "ratio": "2:3",
@@ -356,7 +426,7 @@
     "radius": [
       {
         "px": 0,
-        "n": 35
+        "n": 36
       }
     ]
   },

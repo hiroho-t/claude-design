@@ -199,10 +199,13 @@
       <div><p>本文</p><strong>16px / 行間 2</strong><em>この見本は Noto Sans JP で表示しています</em></div>
     </div>
     <div class="sp">
-      <p class="spmeta">大見出し<span>56px</span></p>
-      <p class="spdemo" style="font-size:56px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">大見出し<span>56px / 行間 1</span></p>
+      <p class="spdemo" style="font-size:56px;line-height:1">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">見出し<span>18px</span></p>
+      <p class="spmeta">見出し<span>28px / 行間 1.8</span></p>
+      <p class="spdemo" style="font-size:28px;line-height:1.8">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">小見出し<span>18px</span></p>
       <p class="spdemo" style="font-size:18px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">本文<span>16px / 行間 2</span></p>
@@ -358,16 +361,20 @@
 
 - 和文: YakuHanJP
 - 欧文: YakuHanJP
-- ウェイトは 400 が中心。太さで強弱をつけず、大きさで差をつける。
+- ウェイトは 700 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 56px | — |
-| 見出し | 18px | — |
-| 本文 | 16px | 2 |
-| 補助 | 15px | — |
-| 注記 | 14px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 56px | 1 | 240px | 24px |
+| 見出し | 28px | 1.8 | 103px | 36px |
+| 小見出し | 18px | — | — | — |
+| 本文 | 16px | 2 | — | — |
+| 補助 | 15px | — | — | — |
+| 注記 | 14px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（72px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 16px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 

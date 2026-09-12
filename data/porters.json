@@ -115,6 +115,52 @@
       }
     ]
   },
+  "headSpace": {
+    "10": {
+      "above": 147,
+      "below": 36,
+      "n": 4
+    },
+    "15": {
+      "above": 20,
+      "below": 45,
+      "n": 5
+    },
+    "18": {
+      "above": 85,
+      "below": 71,
+      "n": 7
+    },
+    "28": {
+      "above": null,
+      "below": 133,
+      "n": 1
+    },
+    "30": {
+      "above": 22,
+      "below": 25,
+      "n": 1
+    },
+    "60": {
+      "above": 82,
+      "below": 352,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 12,
+    "weight": "600",
+    "ls": 0.05,
+    "color": "#ffffff",
+    "latin": true,
+    "upper": false,
+    "gap": 22,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 30,
+    "n": 1,
+    "total": 1
+  },
   "radius": [
     {
       "px": 0,
@@ -281,14 +327,14 @@
       "split": null
     },
     {
-      "h": 120,
+      "h": 780,
       "full": true,
       "cols": 0,
       "img": true,
       "bg": null,
       "align": "左",
-      "media": "none",
-      "split": null
+      "media": "左",
+      "split": "47:53"
     },
     {
       "h": 760,
@@ -332,12 +378,12 @@
   ],
   "chips": [],
   "images": {
-    "n": 12,
+    "n": 14,
     "fullBleed": 2,
     "ratios": [
       {
         "ratio": "1:1",
-        "n": 4
+        "n": 6
       },
       {
         "ratio": "4:3",
@@ -351,7 +397,7 @@
     "radius": [
       {
         "px": 0,
-        "n": 12
+        "n": 14
       }
     ]
   },

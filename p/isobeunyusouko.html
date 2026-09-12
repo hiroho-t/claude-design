@@ -214,17 +214,17 @@
       <div><p>本文</p><strong>11px / 行間 1.8</strong><em>この見本は Noto Sans JP で表示しています</em></div>
     </div>
     <div class="sp">
-      <p class="spmeta">大見出し<span>21px</span></p>
+      <p class="spmeta">大見出し<span>40px / 行間 1.3</span></p>
+      <p class="spdemo" style="font-size:40px;line-height:1.3">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">見出し<span>27px / 行間 1.5</span></p>
+      <p class="spdemo" style="font-size:27px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">小見出し<span>21px</span></p>
       <p class="spdemo" style="font-size:21px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">見出し<span>15px / 行間 1.8</span></p>
+      <p class="spmeta">リード<span>15px / 行間 1.8</span></p>
       <p class="spdemo" style="font-size:15px;line-height:1.8">あのイーハトーヴォのすきとおった風</p>
-    </div><div class="sp">
-      <p class="spmeta">小見出し<span>13px</span></p>
-      <p class="spdemo" style="font-size:13px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
-    </div><div class="sp">
-      <p class="spmeta">リード<span>12px</span></p>
-      <p class="spdemo" style="font-size:12px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">本文<span>11px / 行間 1.8</span></p>
       <p class="spdemo" style="font-size:11px;line-height:1.8">あのイーハトーヴォのすきとおった風</p>
@@ -428,17 +428,20 @@
 
 - 和文: Noto Sans JP
 - 欧文: Questrial
-- ウェイトは 500 が中心。太さで強弱をつけず、大きさで差をつける。
+- ウェイトは 700 / 500 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 21px | — |
-| 見出し | 15px | 1.8 |
-| 小見出し | 13px | — |
-| リード | 12px | — |
-| 本文 | 11px | 1.8 |
-| 補助 | 10px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 40px | 1.3 | — | 110px |
+| 見出し | 27px | 1.5 | 80px | 366px |
+| 小見出し | 21px | — | — | — |
+| リード | 15px | 1.8 | 41px | 41px |
+| 本文 | 11px | 1.8 | — | — |
+| 補助 | 10px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（64px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 11px・行間 1.8。
 

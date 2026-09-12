@@ -96,6 +96,14 @@
       }
     ]
   },
+  "headSpace": {
+    "24": {
+      "above": 11,
+      "below": 61,
+      "n": 2
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 4,

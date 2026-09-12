@@ -82,15 +82,18 @@
 - 欧文: Noto Sans Japanese
 - ウェイトは 700 / 400 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 50px | 1.3 |
-| 見出し | 24px | — |
-| 小見出し | 21px | 1.5 |
-| 本文 | 14px | 1.75 |
-| 補助 | 12px | — |
-| 注記 | 11px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 50px | 1.3 | 135px | 78px |
+| 見出し | 24px | — | 149px | 268px |
+| 小見出し | 21px | 1.5 | 57px | 135px |
+| 本文 | 14px | 1.75 | 91px | 91px |
+| 補助 | 12px | — | — | — |
+| 注記 | 11px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（56px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 14px・行間 1.5。
 
@@ -129,7 +132,7 @@
 
 | # | 高さ | 地色 | 中身 | 見出し | 画像 |
 |---|---|---|---|---|---|
-| 1 | 3960px | — | ヒーロー（画像） | 中央 | 見出しの下 |
+| 1 | 3920px | — | ヒーロー（画像） | 中央 | 見出しの下 |
 | 2 | 780px | — | 1カラム・画像あり | 中央 | — |
 
 - 全2セクション、すべて全幅。中央に寄せた箱を積むのではなく、色面を全幅で切り替えながら進む。
@@ -169,7 +172,7 @@ body{ background:var(--bg); color:var(--ink);
 .container{ width:min(100% - 62px, var(--container)); margin-inline:auto }
 .read{ max-width:var(--read) }
 
-.hero{ min-height:3960px; display:grid; align-content:center }
+.hero{ min-height:3920px; display:grid; align-content:center }
 
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }

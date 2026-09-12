@@ -80,6 +80,22 @@
   "headings": {
     "h2": [
       {
+        "fs": 14,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.050em",
+        "family": "adrianna-extended"
+      },
+      {
+        "fs": 19,
+        "weight": "400",
+        "lh": 1.75,
+        "ls": "0.050em",
+        "family": "A+mfCv-AXIS Font ベーシック M ProN"
+      }
+    ],
+    "h3": [
+      {
         "fs": 19,
         "weight": "400",
         "lh": 1.75,
@@ -87,29 +103,68 @@
         "family": "A+mfCv-AXIS Font ベーシック M ProN"
       },
       {
-        "fs": 48,
+        "fs": 32,
         "weight": "400",
         "lh": 1.5,
         "ls": "0.100em",
         "family": "A+mfCv-AXIS Font ベーシック R ProN"
       }
     ],
-    "h3": [
+    "h4": [
       {
         "fs": 15,
-        "weight": "400",
-        "lh": 1.75,
-        "ls": "0.050em",
-        "family": "A+mfCv-AXIS Font ベーシック R ProN"
-      },
-      {
-        "fs": 17,
         "weight": "400",
         "lh": 1.75,
         "ls": "0.050em",
         "family": "A+mfCv-AXIS Font ベーシック M ProN"
       }
     ]
+  },
+  "headSpace": {
+    "14": {
+      "above": 285,
+      "below": 302,
+      "n": 4
+    },
+    "15": {
+      "above": 17,
+      "below": 34,
+      "n": 24
+    },
+    "17": {
+      "above": 400,
+      "below": 24,
+      "n": 3
+    },
+    "19": {
+      "above": 17,
+      "below": 57,
+      "n": 8
+    },
+    "32": {
+      "above": 371,
+      "below": 203,
+      "n": 4
+    },
+    "48": {
+      "above": null,
+      "below": 53,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 10,
+    "weight": "400",
+    "ls": 0.05,
+    "color": "#99a1ac",
+    "latin": true,
+    "upper": false,
+    "gap": 43,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 32,
+    "n": 1,
+    "total": 1
   },
   "radius": [
     {

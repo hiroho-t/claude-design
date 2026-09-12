@@ -18,7 +18,7 @@
     },
     {
       "hex": "#fdf6da",
-      "pct": 10.6
+      "pct": 10.7
     },
     {
       "hex": "#e7f2f3",
@@ -118,10 +118,70 @@
         "fs": 30,
         "weight": "700",
         "lh": 1.75,
-        "ls": "0.026em",
+        "ls": "0.100em",
         "family": "Zen Kaku Gothic Antique"
       }
+    ],
+    "h4": [
+      {
+        "fs": 14,
+        "weight": "500",
+        "lh": 1.75,
+        "ls": "0.057em",
+        "family": "Noto Sans JP"
+      }
     ]
+  },
+  "headSpace": {
+    "14": {
+      "above": 70,
+      "below": 8,
+      "n": 3
+    },
+    "20": {
+      "above": 9,
+      "below": 19,
+      "n": 8
+    },
+    "23": {
+      "above": 63,
+      "below": 33,
+      "n": 11
+    },
+    "30": {
+      "above": 221,
+      "below": 15,
+      "n": 20
+    },
+    "31": {
+      "above": 262,
+      "below": null,
+      "n": 1
+    },
+    "37": {
+      "above": 17,
+      "below": 68,
+      "n": 1
+    },
+    "38": {
+      "above": 19,
+      "below": 231,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 14,
+    "weight": "500",
+    "ls": 0.057,
+    "color": "#999592",
+    "latin": true,
+    "upper": false,
+    "gap": 3,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 23,
+    "n": 4,
+    "total": 6
   },
   "radius": [
     {

@@ -53,7 +53,7 @@
 
 | 色 | 面 | 文字 | 枠線 | ボタンの地 |
 |---|---|---|---|---|
-| `#ffffff` | 11 | 82 | 1 | 0 |
+| `#ffffff` | 11 | 84 | 1 | 0 |
 | `#f1f1f1` | 30 | 0 | 0 | 0 |
 | `#b71503` | 17 | 56 | 0 | 3 |
 | `#fff5f5` | 6 | 0 | 0 | 0 |
@@ -70,9 +70,9 @@
 | 面 | その上に置く線と文字 |
 |---|---|
 | `#f7f7f7` | `#b71503` |
+| `#f1f1f1` | `#b71503` |
 | `#fff5f5` | `#b71503` |
 | `#ffffff`（地） | `#b71503` |
-| `#f1f1f1` | `#b71503` |
 
 ```css
 .section{ --on:#b71503 }                     /* 地の面 */
@@ -90,18 +90,54 @@
 - 欧文: Times New Roman
 - ウェイトは 400 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 32px | 1.2 |
-| 見出し | 24px | 1.2 |
-| 小見出し | 18px | 1.5 |
-| リード | 16px | — |
-| 本文 | 14px | 1.2 |
-| 補助 | 12px | — |
-| 注記 | 11px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 32px | 1.2 | 92px | 106px |
+| 見出し | 24px | 1.2 | 60px | 95px |
+| 小見出し | 18px | 1.5 | 36px | 7px |
+| リード | 16px | — | 47px | 20px |
+| 本文 | 14px | 1.2 | 42px | 54px |
+| 補助 | 12px | — | — | — |
+| 注記 | 11px | 5.45 | — | 80px |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（40px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 14px・行間 1.6。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 9箇所で使っている（見出し15箇所のうち）。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 和文 |
+| ラベルのサイズ | 11px |
+| ラベルの字間 | 0（詰めも空けもしない） |
+| ラベルの太さ | 400 |
+| ラベルの色 | `#ffffff` |
+| ラベル → 見出し | 14px |
+| 見出しのサイズ | 18px |
+| 見出し → 本文 | 7px |
+| 罫線 | なし |
+| 組み方 | **兄弟に並べる**（囲まずに続けて置く） |
+
+```html
+<p class="c-head__label">私たちの仕事</p>
+<h2 class="c-head__title">サービス</h2>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:11px; font-weight:400;
+  color:#ffffff }
+.c-head__title{ font-size:18px; line-height:1.5; margin-top:14px }
+.c-head__title + *{ margin-top:7px }
+```
+
+- ラベルと見出しの間は 14px、見出しと本文の間は 7px。この2つを同じにしない。
 
 ## レイアウト
 
@@ -154,22 +190,22 @@
 |---|---|---|---|---|---|
 | 1 | 120px | — | ヒーロー（画像） | 左 | — |
 | 2 | 140px | `#ffffff` | 帯・区切り | — | — |
-| 3 | 7380px | — | 6カラム・画像あり | 中央 | 右（83:17） |
+| 3 | 8000px | — | 6カラム・画像あり | 中央 | 右（83:17） |
 | 4 | 1060px | — | 1カラム・画像あり | — | 全面 |
 
 - 全4セクション。
-- 使われている面の色: `#f7f7f7`（12） / `#fff5f5`（6） / `#ffffff`（2） / `#f1f1f1`（1）
+- 使われている面の色: `#f7f7f7`（12） / `#f1f1f1`（7） / `#fff5f5`（6） / `#ffffff`（2）
 - 見出しは左1／中央1。
 - 2カラムの分け方は 83:17。半分ずつには割らない。
 
 
 ## 部品
 
-囲み（15箇所で同じ形）
+囲み（12箇所で同じ形）
 
 ```css
 .card{
-  background: #f1f1f1;
+  background: #f7f7f7;
   border-radius: 0px;
   padding: 0px 0px;
 }
@@ -186,13 +222,23 @@
 
 ## 画像
 
-- 34枚使っている
-- 比率は 3:2（16枚）、4:3（16枚）
+- 31枚使っている
+- 比率は 4:3（16枚）、3:2（13枚）
 - 角丸 0px。切り抜かず四角のまま置く
 
 ## すぐ使う骨格
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
+
+```html
+<section class="section">
+  <div class="container">
+    <p class="c-head__label">私たちの仕事</p>
+    <h2 class="c-head__title">サービス</h2>
+    <p>本文…</p>
+  </div>
+</section>
+```
 
 ```css
 body{ background:var(--bg); color:var(--ink);
@@ -203,17 +249,20 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:120px; display:grid; align-content:center }
+.c-head__label{ font-size:11px; font-weight:400; color:#ffffff }
+.c-head__title{ font-size:18px; line-height:1.5; margin-top:14px }
+.c-head__title + *{ margin-top:7px }
 
 .section--main{ background:var(--main); color:#b61503; --on:#b61503 }
 .section--main .btn--fill{ background:#b61503; color:var(--main) }
-.card{ background:#f1f1f1;
+.card{ background:#f7f7f7;
   border-radius:0px; padding:0px 0px }
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:transparent; color:#ffffff; border-radius:0px;
   padding:0px 0px; min-height:26px;
   font-size:11px; font-weight:400 }
 
-img{ width:100%; height:auto; border-radius:0px; aspect-ratio:3/2; object-fit:cover }
+img{ width:100%; height:auto; border-radius:0px; aspect-ratio:4/3; object-fit:cover }
 
 @media (max-width:768px){
   :root{ --fs-body:12px; --section-y:124px; --gap:15px; }
@@ -227,7 +276,7 @@ img{ width:100%; height:auto; border-radius:0px; aspect-ratio:3/2; object-fit:co
 
 - 地色と主色 `#b71503` の面を交互に置く。主色は画面の13%を占めるだけ使う。
 - 余白 40px と行間 1.6 を先に決めてから中身を入れる。
-- 画像は 3:2 に統一し、角丸は 0px。
+- 画像は 4:3 に統一し、角丸は 0px。
 - 線と文字の色は面ごとに入れ替える（`--on` を面のクラスで上書きする）。固定色で書かない。
 - 囲みは 塗り＋角丸 0px でそろえる。
 

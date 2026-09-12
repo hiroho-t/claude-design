@@ -28,15 +28,15 @@
   "ink": [
     {
       "hex": "#1a1a1a",
-      "pct": 85.8
+      "pct": 86.1
     },
     {
       "hex": "#ffffff",
-      "pct": 10.4
+      "pct": 10.3
     },
     {
       "hex": "#000000",
-      "pct": 3.1
+      "pct": 3
     },
     {
       "hex": "#976f22",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "MFW-GJGothicBBBProN-Medium",
-      "w": 4086
+      "w": 4119
     },
     {
       "family": "A P-OTF Kasumi Seiran Min2",
@@ -61,11 +61,11 @@
     },
     {
       "px": 16,
-      "w": 673
+      "w": 688
     },
     {
       "px": 15,
-      "w": 636
+      "w": 662
     },
     {
       "px": 14,
@@ -77,7 +77,7 @@
     },
     {
       "px": 12,
-      "w": 300
+      "w": 292
     }
   ],
   "body": {
@@ -86,6 +86,15 @@
     "ls": "0.092em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 30,
+        "weight": "400",
+        "lh": 2,
+        "ls": "0.040em",
+        "family": "A P-OTF Kasumi Seiran Min2"
+      }
+    ],
     "h2": [
       {
         "fs": 26,
@@ -102,6 +111,47 @@
         "family": "A P-OTF Kasumi Seiran Min2"
       }
     ]
+  },
+  "headSpace": {
+    "18": {
+      "above": 93,
+      "below": 27,
+      "n": 1
+    },
+    "22": {
+      "above": null,
+      "below": 7,
+      "n": 2
+    },
+    "24": {
+      "above": 186,
+      "below": 55,
+      "n": 1
+    },
+    "26": {
+      "above": 255,
+      "below": 34,
+      "n": 5
+    },
+    "30": {
+      "above": 148,
+      "below": 61,
+      "n": 2
+    }
+  },
+  "labelHead": {
+    "fs": 16,
+    "weight": "500",
+    "ls": 0.08,
+    "color": "#976f22",
+    "latin": true,
+    "upper": false,
+    "gap": 16,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 26,
+    "n": 1,
+    "total": 1
   },
   "radius": [
     {

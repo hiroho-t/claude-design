@@ -92,17 +92,17 @@
   "headings": {
     "h2": [
       {
-        "fs": 20,
-        "weight": "500",
-        "lh": 1.6,
-        "ls": "0.030em",
-        "family": "Yu Gothic"
+        "fs": 12,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0",
+        "family": "Cardo"
       },
       {
-        "fs": 24,
-        "weight": "500",
-        "lh": 1.5,
-        "ls": "0.080em",
+        "fs": 14,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.100em",
         "family": "Zen Old Mincho"
       }
     ],
@@ -123,6 +123,34 @@
       }
     ]
   },
+  "headSpace": {
+    "12": {
+      "above": 231,
+      "below": 58,
+      "n": 4
+    },
+    "14": {
+      "above": 151,
+      "below": 28,
+      "n": 3
+    },
+    "16": {
+      "above": 16,
+      "below": 148,
+      "n": 4
+    },
+    "20": {
+      "above": 98,
+      "below": 231,
+      "n": 2
+    },
+    "24": {
+      "above": 389,
+      "below": 44,
+      "n": 2
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

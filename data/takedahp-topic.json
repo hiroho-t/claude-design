@@ -112,14 +112,54 @@
     ],
     "h3": [
       {
-        "fs": 18,
+        "fs": 34,
         "weight": "300",
         "lh": 1.6,
         "ls": "0",
         "family": "MFW-UDShinGoCOeizPr6-Lig"
+      },
+      {
+        "fs": 24,
+        "weight": "400",
+        "lh": 1.6,
+        "ls": "0",
+        "family": "MFW-UDShinGoCOeizPr6-Reg"
       }
     ]
   },
+  "headSpace": {
+    "12": {
+      "above": 132,
+      "below": 157,
+      "n": 4
+    },
+    "18": {
+      "above": 16,
+      "below": 44,
+      "n": 3
+    },
+    "20": {
+      "above": 48,
+      "below": 24,
+      "n": 3
+    },
+    "24": {
+      "above": 136,
+      "below": 16,
+      "n": 4
+    },
+    "28": {
+      "above": 227,
+      "below": 24,
+      "n": 1
+    },
+    "34": {
+      "above": 132,
+      "below": 19,
+      "n": 4
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

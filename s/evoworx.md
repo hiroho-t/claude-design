@@ -84,16 +84,52 @@
 - 欧文: TTNormsPro
 - ウェイトは 400 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 32px | 1.5 |
-| 見出し | 20px | 1.5 |
-| 本文 | 18px | 1.6 |
-| 補助 | 15px | — |
-| 注記 | 14px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 32px | 1.5 | 292px | 16px |
+| 見出し | 20px | 1.5 | 167px | 16px |
+| 本文 | 18px | 1.6 | 12px | 215px |
+| 補助 | 15px | — | — | — |
+| 注記 | 14px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（32px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 18px・行間 1.7。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 20箇所で使っている（見出し40箇所のうち）。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 和文 |
+| ラベルのサイズ | 10px |
+| ラベルの字間 | 0.06em |
+| ラベルの太さ | 400 |
+| ラベルの色 | `#7a7a7a` |
+| ラベル → 見出し | 12px |
+| 見出しのサイズ | 18px |
+| 見出し → 本文 | 215px |
+| 罫線 | なし |
+| 組み方 | **兄弟に並べる**（囲まずに続けて置く） |
+
+```html
+<p class="c-head__label">私たちの仕事</p>
+<h2 class="c-head__title">サービス</h2>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:10px; font-weight:400; letter-spacing:0.06em;
+  color:#7a7a7a }
+.c-head__title{ font-size:18px; line-height:1.6; margin-top:12px }
+.c-head__title + *{ margin-top:215px }
+```
+
+- ラベルと見出しの間は 12px、見出しと本文の間は 215px。ラベル側を詰めて、本文側を空ける。この差がまとまりを作っている。
 
 ## レイアウト
 
@@ -190,6 +226,16 @@
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
 
+```html
+<section class="section">
+  <div class="container">
+    <p class="c-head__label">私たちの仕事</p>
+    <h2 class="c-head__title">サービス</h2>
+    <p>本文…</p>
+  </div>
+</section>
+```
+
 ```css
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
@@ -199,6 +245,9 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+.c-head__label{ font-size:10px; font-weight:400; letter-spacing:0.06em; color:#7a7a7a }
+.c-head__title{ font-size:18px; line-height:1.6; margin-top:12px }
+.c-head__title + *{ margin-top:215px }
 
 .section--main{ background:var(--main); color:#7a7a7a; --on:#7a7a7a }
 .section--main .btn--fill{ background:#7a7a7a; color:var(--main) }

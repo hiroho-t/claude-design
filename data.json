@@ -152,7 +152,12 @@
     "bodyLh": 1,
     "sectionY": 60,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 18,
+      "gap": 25,
+      "headFs": 48,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#f5f8f3",
@@ -289,7 +294,7 @@
       "モノトーン"
     ],
     "accent": "#fafafa",
-    "container": 1260,
+    "container": 1276,
     "bodyFs": 11,
     "bodyLh": 1,
     "sectionY": 76,
@@ -681,7 +686,12 @@
     "bodyLh": 1.6,
     "sectionY": 100,
     "radius": 15,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 18,
+      "gap": 20,
+      "headFs": 41,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#10ad5e",
@@ -768,7 +778,12 @@
     "bodyLh": 1.8,
     "sectionY": 132,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 15,
+      "gap": 32,
+      "headFs": 26,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#fbfcf7",
@@ -922,7 +937,12 @@
     "bodyLh": 1.75,
     "sectionY": 112,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 15,
+      "gap": 5,
+      "headFs": 50,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -1360,7 +1380,12 @@
     "bodyLh": 1.8,
     "sectionY": 48,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 12,
+      "gap": 8,
+      "headFs": 32,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -1435,7 +1460,12 @@
     "bodyLh": 2.2,
     "sectionY": 40,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 13,
+      "gap": 0,
+      "headFs": 36,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#faf3e9",
@@ -1503,7 +1533,7 @@
     "url": "https://chugaitoen.co.jp/",
     "industry": "コーポレートサイト／製造業･工業･メーカー･商社･物流／生活用品･雑貨･インテリア･家具",
     "tags": [
-      "明朝",
+      "ゴシック",
       "余白ひろい",
       "角ばった",
       "色つき"
@@ -1648,7 +1678,12 @@
     "bodyLh": 2,
     "sectionY": 80,
     "radius": 4,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 16,
+      "gap": 26,
+      "headFs": 40,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -2423,7 +2458,12 @@
     "bodyLh": null,
     "sectionY": 80,
     "radius": 24,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 12,
+      "gap": 13,
+      "headFs": 22,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -2589,7 +2629,12 @@
     "bodyLh": 1.75,
     "sectionY": 112,
     "radius": 2,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 19,
+      "gap": 0,
+      "headFs": 46,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -2739,7 +2784,12 @@
     "bodyLh": 1.75,
     "sectionY": 76,
     "radius": 7,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 14,
+      "gap": 3,
+      "headFs": 23,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#fffbed",
@@ -2814,7 +2864,12 @@
     "bodyLh": 2,
     "sectionY": 80,
     "radius": 8,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 14,
+      "gap": 16,
+      "headFs": 24,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -3101,16 +3156,21 @@
     "tags": [
       "ゴシック",
       "余白つまった",
-      "角ばった",
+      "角丸",
       "モノトーン"
     ],
     "accent": "#eaeaea",
-    "container": 840,
+    "container": 704,
     "bodyFs": 13,
     "bodyLh": 1.6,
     "sectionY": 40,
-    "radius": 8,
-    "labelHead": null,
+    "radius": 12,
+    "labelHead": {
+      "fs": 20,
+      "gap": 20,
+      "headFs": 45,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#eaeaea",
@@ -3343,7 +3403,12 @@
     "bodyLh": 1.8,
     "sectionY": 112,
     "radius": 10,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 16,
+      "gap": 0,
+      "headFs": 32,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -3801,8 +3866,8 @@
     ],
     "accent": "#2061ab",
     "container": 1280,
-    "bodyFs": 22,
-    "bodyLh": 1.8,
+    "bodyFs": 16,
+    "bodyLh": 1.5,
     "sectionY": 100,
     "radius": 8,
     "labelHead": null,
@@ -3963,7 +4028,12 @@
     "bodyLh": 1.8,
     "sectionY": 56,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 14,
+      "gap": 43,
+      "headFs": 23,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -4362,7 +4432,12 @@
     "bodyLh": 1.6,
     "sectionY": 200,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 20,
+      "gap": 10,
+      "headFs": 36,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#f7f5f0",
@@ -4433,7 +4508,12 @@
     "bodyLh": 1.5,
     "sectionY": 32,
     "radius": 4,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 11,
+      "gap": 8,
+      "headFs": 22,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#fcf2e5",
@@ -4946,7 +5026,12 @@
     "bodyLh": 1.5,
     "sectionY": 120,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 18,
+      "gap": 21,
+      "headFs": 40,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#f5f3ee",
@@ -5881,7 +5966,12 @@
     "bodyLh": 1.4,
     "sectionY": 64,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 14,
+      "gap": 0,
+      "headFs": 32,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -6027,7 +6117,7 @@
     ],
     "accent": "#243149",
     "container": 1100,
-    "bodyFs": 16,
+    "bodyFs": 20,
     "bodyLh": 1.8,
     "sectionY": 140,
     "radius": 0,
@@ -6114,7 +6204,12 @@
     "bodyLh": 2.6,
     "sectionY": 172,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 16,
+      "gap": 10,
+      "headFs": 64,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#e7eff5",
@@ -6264,7 +6359,12 @@
     "bodyLh": 1.9,
     "sectionY": 40,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 10,
+      "gap": 18,
+      "headFs": 17,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -6497,7 +6597,12 @@
     "bodyLh": 2.2,
     "sectionY": 128,
     "radius": 8,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 11,
+      "gap": 14,
+      "headFs": 20,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -6797,7 +6902,12 @@
     "bodyLh": 1,
     "sectionY": 80,
     "radius": 8,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 16,
+      "gap": 26,
+      "headFs": 40,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -6880,7 +6990,12 @@
     "bodyLh": 1.6,
     "sectionY": 88,
     "radius": 11,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 17,
+      "gap": 17,
+      "headFs": 38,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -6963,7 +7078,12 @@
     "bodyLh": 1.5,
     "sectionY": 88,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 14,
+      "gap": 8,
+      "headFs": 30,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -7488,7 +7608,12 @@
     "bodyLh": 2,
     "sectionY": 32,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 14,
+      "gap": 26,
+      "headFs": 42,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -8026,7 +8151,7 @@
     "accent": "#f49c06",
     "container": 1224,
     "bodyFs": 16,
-    "bodyLh": null,
+    "bodyLh": 1,
     "sectionY": 80,
     "radius": 0,
     "labelHead": null,
@@ -8167,7 +8292,12 @@
     "bodyLh": 1.5,
     "sectionY": 60,
     "radius": 30,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 20,
+      "gap": 23,
+      "headFs": 150,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -8396,7 +8526,12 @@
     "bodyLh": 2,
     "sectionY": 40,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 14,
+      "gap": 16,
+      "headFs": 24,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -8621,7 +8756,7 @@
     ],
     "accent": "#fe1f54",
     "container": 924,
-    "bodyFs": 16,
+    "bodyFs": 15,
     "bodyLh": 1.6,
     "sectionY": 40,
     "radius": 5,
@@ -8768,7 +8903,12 @@
     "bodyLh": 1.8,
     "sectionY": 96,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 22,
+      "gap": 16,
+      "headFs": 36,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -8985,7 +9125,12 @@
     "bodyLh": 1.75,
     "sectionY": 64,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 10,
+      "gap": 14,
+      "headFs": 20,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -9273,7 +9418,12 @@
     "bodyLh": 2,
     "sectionY": 152,
     "radius": 16,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 20,
+      "gap": 8,
+      "headFs": 48,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -9348,7 +9498,12 @@
     "bodyLh": 1.8,
     "sectionY": 168,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 14,
+      "gap": 16,
+      "headFs": 26,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -9555,15 +9710,15 @@
     "industry": "コーポレートサイト／レスポンシブ／1カラム",
     "tags": [
       "ゴシック",
-      "余白ふつう",
+      "余白つまった",
       "角ばった",
       "色つき"
     ],
     "accent": "#06513b",
     "container": 1328,
-    "bodyFs": 14,
-    "bodyLh": 1.5,
-    "sectionY": 96,
+    "bodyFs": 16,
+    "bodyLh": null,
+    "sectionY": 32,
     "radius": 0,
     "labelHead": null,
     "palette": [
@@ -9849,7 +10004,12 @@
     "bodyLh": 1.87,
     "sectionY": 136,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 14,
+      "gap": 24,
+      "headFs": 32,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -10070,7 +10230,12 @@
     "bodyLh": 1.75,
     "sectionY": 64,
     "radius": 4,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 12,
+      "gap": 0,
+      "headFs": 20,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -10445,7 +10610,12 @@
     "bodyLh": 1.5,
     "sectionY": 100,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 11,
+      "gap": 14,
+      "headFs": 18,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#f5f5f5",
@@ -10528,7 +10698,12 @@
     "bodyLh": 1,
     "sectionY": 244,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 10,
+      "gap": 7,
+      "headFs": 18,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#fffaf1",
@@ -10743,7 +10918,7 @@
     "industry": "ブランドサイト･サービスサイト／体験･交流／商業施設･レジャー施設･文化施設",
     "tags": [
       "ゴシック",
-      "余白つまった",
+      "余白ふつう",
       "角ばった",
       "色つき"
     ],
@@ -10751,7 +10926,7 @@
     "container": 1000,
     "bodyFs": 14,
     "bodyLh": 1.65,
-    "sectionY": 60,
+    "sectionY": 100,
     "radius": 0,
     "labelHead": null,
     "palette": [
@@ -10836,7 +11011,12 @@
     "bodyLh": 1.8,
     "sectionY": 120,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 20,
+      "gap": 10,
+      "headFs": 40,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#f2f2f2",
@@ -10915,7 +11095,12 @@
     "bodyLh": null,
     "sectionY": 80,
     "radius": 12,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 14,
+      "gap": 9,
+      "headFs": 56,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -11085,7 +11270,12 @@
     "bodyLh": 1.5,
     "sectionY": 40,
     "radius": 4,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 12,
+      "gap": 12,
+      "headFs": 20,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -11168,7 +11358,12 @@
     "bodyLh": 1.7,
     "sectionY": 32,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 10,
+      "gap": 12,
+      "headFs": 18,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -11231,7 +11426,12 @@
     "bodyLh": 2,
     "sectionY": 84,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 20,
+      "gap": 21,
+      "headFs": 40,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#062d59",
@@ -11385,7 +11585,12 @@
     "bodyLh": 1,
     "sectionY": 52,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 20,
+      "gap": 10,
+      "headFs": 40,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -11934,7 +12139,12 @@
     "bodyLh": 2,
     "sectionY": 88,
     "radius": 10,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 16,
+      "gap": 30,
+      "headFs": 30,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -12068,7 +12278,12 @@
     "bodyLh": 2.33,
     "sectionY": 92,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 13,
+      "gap": 0,
+      "headFs": 22,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -12210,7 +12425,12 @@
     "bodyLh": 2.3,
     "sectionY": 32,
     "radius": 28,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 18,
+      "gap": 0,
+      "headFs": 40,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -12507,7 +12727,7 @@
     "accent": "#1c3b73",
     "container": 1020,
     "bodyFs": 16,
-    "bodyLh": 2,
+    "bodyLh": 1.6,
     "sectionY": 60,
     "radius": 0,
     "labelHead": null,
@@ -12597,7 +12817,12 @@
     "bodyLh": 1.5,
     "sectionY": 48,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 16,
+      "gap": 47,
+      "headFs": 28,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -13087,7 +13312,12 @@
     "bodyLh": 1.4,
     "sectionY": 120,
     "radius": 36,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 12,
+      "gap": 3,
+      "headFs": 28,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -13494,7 +13724,12 @@
     "bodyLh": 2,
     "sectionY": 100,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 14,
+      "gap": 10,
+      "headFs": 48,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -13561,7 +13796,12 @@
     "bodyLh": 1.8,
     "sectionY": 44,
     "radius": 5,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 10,
+      "gap": 0,
+      "headFs": 35,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -13944,7 +14184,12 @@
     "bodyLh": 1.75,
     "sectionY": 120,
     "radius": 4,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 14,
+      "gap": 16,
+      "headFs": 80,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -14193,7 +14438,12 @@
     "bodyLh": 2,
     "sectionY": 160,
     "radius": 4,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 12,
+      "gap": 16,
+      "headFs": 20,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#f0eeec",
@@ -14556,7 +14806,12 @@
     "bodyLh": 1,
     "sectionY": 56,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 16,
+      "gap": 24,
+      "headFs": 28,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -15166,15 +15421,15 @@
     "industry": "ブランドサイト･サービスサイト／美容･化粧品･コスメ･ケア用品／レスポンシブ",
     "tags": [
       "明朝",
-      "余白つまった",
+      "余白ふつう",
       "角ばった",
-      "モノトーン"
+      "色つき"
     ],
     "accent": "#bbcbad",
-    "container": 1224,
-    "bodyFs": 18,
-    "bodyLh": 1.4,
-    "sectionY": 60,
+    "container": 580,
+    "bodyFs": 16,
+    "bodyLh": null,
+    "sectionY": 80,
     "radius": 0,
     "labelHead": null,
     "palette": [
@@ -15476,7 +15731,12 @@
     "bodyLh": 1.75,
     "sectionY": 140,
     "radius": 8,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 16,
+      "gap": 13,
+      "headFs": 32,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -15551,7 +15811,12 @@
     "bodyLh": 1.6,
     "sectionY": 40,
     "radius": 10,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 11,
+      "gap": 7,
+      "headFs": 24,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -15796,7 +16061,12 @@
     "bodyLh": 1.4,
     "sectionY": 64,
     "radius": 3,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 14,
+      "gap": 45,
+      "headFs": 45,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#f3f3f4",
@@ -15875,7 +16145,12 @@
     "bodyLh": 1.72,
     "sectionY": 180,
     "radius": 5,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 12,
+      "gap": 30,
+      "headFs": 40,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#f2f4f5",
@@ -15958,7 +16233,7 @@
     ],
     "accent": "#f39800",
     "container": 800,
-    "bodyFs": 16,
+    "bodyFs": 15,
     "bodyLh": null,
     "sectionY": 88,
     "radius": 0,
@@ -16432,7 +16707,12 @@
     "bodyLh": 2,
     "sectionY": 80,
     "radius": 30,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 15,
+      "gap": 27,
+      "headFs": 31,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#fdfdfd",
@@ -16582,7 +16862,12 @@
     "bodyLh": 1.75,
     "sectionY": 32,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 12,
+      "gap": 16,
+      "headFs": 40,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#fafaf5",
@@ -16665,7 +16950,12 @@
     "bodyLh": 1.75,
     "sectionY": 40,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 12,
+      "gap": 15,
+      "headFs": 32,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -17178,7 +17468,12 @@
     "bodyLh": null,
     "sectionY": 168,
     "radius": 24,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 18,
+      "gap": 24,
+      "headFs": 48,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -17415,7 +17710,12 @@
     "bodyLh": 1.7,
     "sectionY": 48,
     "radius": 20,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 10,
+      "gap": 10,
+      "headFs": 18,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#fbfaf6",
@@ -17715,7 +18015,12 @@
     "bodyLh": 2.5,
     "sectionY": 56,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 13,
+      "gap": 0,
+      "headFs": 25,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#f7f7f7",
@@ -17865,7 +18170,12 @@
     "bodyLh": 1.5,
     "sectionY": 56,
     "radius": 2,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 16,
+      "gap": 40,
+      "headFs": 38,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -18098,7 +18408,12 @@
     "bodyLh": 1.75,
     "sectionY": 120,
     "radius": 4,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 14,
+      "gap": 23,
+      "headFs": 44,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -18469,7 +18784,12 @@
     "bodyLh": null,
     "sectionY": 152,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 15,
+      "gap": 12,
+      "headFs": 40,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -18635,7 +18955,12 @@
     "bodyLh": 1,
     "sectionY": 52,
     "radius": 10,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 15,
+      "gap": 17,
+      "headFs": 30,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#fafafa",
@@ -18967,7 +19292,12 @@
     "bodyLh": 2.5,
     "sectionY": 240,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 12,
+      "gap": 15,
+      "headFs": 19,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -19346,7 +19676,12 @@
     "bodyLh": 2,
     "sectionY": 80,
     "radius": 15,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 16,
+      "gap": 12,
+      "headFs": 32,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -19662,7 +19997,12 @@
     "bodyLh": 2.25,
     "sectionY": 96,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 19,
+      "gap": 13,
+      "headFs": 36,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -19946,8 +20286,8 @@
     ],
     "accent": "#b13f36",
     "container": 824,
-    "bodyFs": 14,
-    "bodyLh": 2.5,
+    "bodyFs": 18,
+    "bodyLh": 1.9,
     "sectionY": 60,
     "radius": 0,
     "labelHead": null,
@@ -20167,7 +20507,12 @@
     "bodyLh": 1.5,
     "sectionY": 76,
     "radius": 14,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 14,
+      "gap": 11,
+      "headFs": 29,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#f4f4f4",
@@ -20771,7 +21116,12 @@
     "bodyLh": null,
     "sectionY": 52,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 14,
+      "gap": 0,
+      "headFs": 28,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#f9f8f4",
@@ -20858,7 +21208,12 @@
     "bodyLh": 2.14,
     "sectionY": 140,
     "radius": 25,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 18,
+      "gap": 10,
+      "headFs": 30,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#fcf9e7",
@@ -20929,7 +21284,12 @@
     "bodyLh": 2,
     "sectionY": 64,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 12,
+      "gap": 5,
+      "headFs": 22,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -21049,7 +21409,7 @@
     "industry": "ポータルサイト･メディア･情報サイト／福祉･介護／レスポンシブ",
     "tags": [
       "ゴシック",
-      "余白ふつう",
+      "余白ひろい",
       "角ばった",
       "色つき"
     ],
@@ -21057,7 +21417,7 @@
     "container": 1120,
     "bodyFs": 14,
     "bodyLh": 1.86,
-    "sectionY": 72,
+    "sectionY": 160,
     "radius": 0,
     "labelHead": null,
     "palette": [
@@ -21596,7 +21956,12 @@
     "bodyLh": 1.5,
     "sectionY": 40,
     "radius": 4,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 14,
+      "gap": 5,
+      "headFs": 28,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -21789,8 +22154,8 @@
     ],
     "accent": "#d8eeff",
     "container": 1200,
-    "bodyFs": 16,
-    "bodyLh": 1.75,
+    "bodyFs": 14,
+    "bodyLh": 1.5,
     "sectionY": 100,
     "radius": 0,
     "labelHead": null,
@@ -22010,7 +22375,12 @@
     "bodyLh": 2,
     "sectionY": 112,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 12,
+      "gap": 12,
+      "headFs": 24,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#f7f7f7",
@@ -22085,7 +22455,12 @@
     "bodyLh": 1.6,
     "sectionY": 40,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 11,
+      "gap": 14,
+      "headFs": 18,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -22326,7 +22701,12 @@
     "bodyLh": 1.75,
     "sectionY": 60,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 16,
+      "gap": 10,
+      "headFs": 32,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -22409,7 +22789,12 @@
     "bodyLh": 2,
     "sectionY": 64,
     "radius": 12,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 20,
+      "gap": 8,
+      "headFs": 48,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -22642,7 +23027,12 @@
     "bodyLh": 2,
     "sectionY": 48,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 13,
+      "gap": 13,
+      "headFs": 22,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#edf0f2",
@@ -23598,7 +23988,12 @@
     "bodyLh": 2.02,
     "sectionY": 140,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 12,
+      "gap": 20,
+      "headFs": 20,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -23760,7 +24155,12 @@
     "bodyLh": 1.86,
     "sectionY": 152,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 12,
+      "gap": 7,
+      "headFs": 24,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ebeae9",
@@ -24194,7 +24594,12 @@
     "bodyLh": 2,
     "sectionY": 80,
     "radius": 15,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 13,
+      "gap": 14,
+      "headFs": 28,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -24264,7 +24669,7 @@
       "色つき"
     ],
     "accent": "#fbcce4",
-    "container": 864,
+    "container": 1280,
     "bodyFs": 18,
     "bodyLh": 1.4,
     "sectionY": 200,
@@ -24340,7 +24745,12 @@
     "bodyLh": 2.33,
     "sectionY": 160,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 12,
+      "gap": 19,
+      "headFs": 24,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -24419,7 +24829,12 @@
     "bodyLh": 2,
     "sectionY": 64,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 12,
+      "gap": 16,
+      "headFs": 24,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#1b2465",
@@ -24857,7 +25272,12 @@
     "bodyLh": 2,
     "sectionY": 100,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 12,
+      "gap": 9,
+      "headFs": 20,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#efefec",
@@ -25485,7 +25905,12 @@
     "bodyLh": null,
     "sectionY": 100,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 11,
+      "gap": 7,
+      "headFs": 18,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#f4ede5",
@@ -26117,7 +26542,12 @@
     "bodyLh": 2,
     "sectionY": 40,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 22,
+      "gap": 10,
+      "headFs": 40,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#faf9f4",
@@ -26212,7 +26642,12 @@
     "bodyLh": 1.6,
     "sectionY": 96,
     "radius": 4,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 16,
+      "gap": 48,
+      "headFs": 30,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#ffffff",
@@ -26836,7 +27271,12 @@
     "bodyLh": 1.5,
     "sectionY": 116,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 14,
+      "gap": 19,
+      "headFs": 26,
+      "wrapped": false
+    },
     "palette": [
       {
         "hex": "#fafafa",
@@ -30292,7 +30732,12 @@
     "bodyLh": 1.8,
     "sectionY": 120,
     "radius": 0,
-    "labelHead": null,
+    "labelHead": {
+      "fs": 16,
+      "gap": 4,
+      "headFs": 36,
+      "wrapped": true
+    },
     "palette": [
       {
         "hex": "#fcfaf7",

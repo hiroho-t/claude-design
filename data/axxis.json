@@ -91,16 +91,32 @@
         "family": "Noto Sans JP"
       }
     ],
-    "h3": [
+    "h2": [
       {
-        "fs": 14,
-        "weight": "700",
-        "lh": 1.5,
-        "ls": "0.060em",
-        "family": "Noto Sans JP"
+        "fs": 80,
+        "weight": "200",
+        "lh": 1,
+        "ls": "0",
+        "family": "Hanken Grotesk"
       },
       {
-        "fs": 18,
+        "fs": 100,
+        "weight": "200",
+        "lh": 1.3,
+        "ls": "0",
+        "family": "Hanken Grotesk"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 12,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "0.040em",
+        "family": "Hanken Grotesk"
+      },
+      {
+        "fs": 14,
         "weight": "700",
         "lh": 1.5,
         "ls": "0.060em",
@@ -108,6 +124,49 @@
       }
     ]
   },
+  "headSpace": {
+    "12": {
+      "above": 243,
+      "below": 28,
+      "n": 3
+    },
+    "14": {
+      "above": 18,
+      "below": 87,
+      "n": 3
+    },
+    "18": {
+      "above": 44,
+      "below": 49,
+      "n": 1
+    },
+    "24": {
+      "above": 25,
+      "below": null,
+      "n": 1
+    },
+    "28": {
+      "above": 110,
+      "below": null,
+      "n": 1
+    },
+    "32": {
+      "above": 124,
+      "below": 20,
+      "n": 1
+    },
+    "80": {
+      "above": 280,
+      "below": 72,
+      "n": 2
+    },
+    "100": {
+      "above": 250,
+      "below": 110,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

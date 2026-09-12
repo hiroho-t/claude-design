@@ -202,11 +202,11 @@
       <p class="spmeta">本文<span>100px / 行間 1</span></p>
       <p class="spdemo" style="font-size:100px;line-height:1">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">補助<span>67px / 行間 1.2</span></p>
-      <p class="spdemo" style="font-size:67px;line-height:1.2">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">補助<span>17px / 行間 1</span></p>
+      <p class="spdemo" style="font-size:17px;line-height:1">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">注記<span>17px</span></p>
-      <p class="spdemo" style="font-size:17px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">注記<span>16px / 行間 1</span></p>
+      <p class="spdemo" style="font-size:16px;line-height:1">あのイーハトーヴォのすきとおった風</p>
     </div>
   </section>
 
@@ -364,14 +364,17 @@
 
 - 和文: Outfit
 - 欧文: Outfit
-- ウェイトは 400 / 100 が中心。太さで強弱をつけず、大きさで差をつける。
+- ウェイトは 600 / 100 / 300 / 350 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 本文 | 100px | 1 |
-| 補助 | 67px | 1.2 |
-| 注記 | 17px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 本文 | 100px | 1 | — | — |
+| 補助 | 17px | 1 | 219px | 31px |
+| 注記 | 16px | 1 | — | 105px |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（60px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 100px・行間 1。
 

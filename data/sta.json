@@ -94,9 +94,34 @@
         "lh": 1,
         "ls": "0.028em",
         "family": "RotisSansSerif-ExtraBold"
+      },
+      {
+        "fs": 40,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.021em",
+        "family": "RotisSansSerif-ExtraBold"
       }
     ]
   },
+  "headSpace": {
+    "26": {
+      "above": null,
+      "below": 18,
+      "n": 1
+    },
+    "30": {
+      "above": null,
+      "below": 16,
+      "n": 4
+    },
+    "40": {
+      "above": 316,
+      "below": 193,
+      "n": 2
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

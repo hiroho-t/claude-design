@@ -6,7 +6,7 @@
   "bg": [
     {
       "hex": "#f9f9f9",
-      "pct": 54.9
+      "pct": 54.8
     },
     {
       "hex": "#020202",
@@ -82,6 +82,31 @@
     "ls": null
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 1,
+        "weight": "600",
+        "lh": 1,
+        "ls": "0",
+        "family": "yakuhanjp"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 14,
+        "weight": "500",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "yakuhanjp"
+      },
+      {
+        "fs": 112,
+        "weight": "500",
+        "lh": 1,
+        "ls": "0",
+        "family": "yakuhanjp"
+      }
+    ],
     "h3": [
       {
         "fs": 16,
@@ -98,6 +123,72 @@
         "family": "yakuhanjp"
       }
     ]
+  },
+  "headSpace": {
+    "1": {
+      "above": null,
+      "below": 82,
+      "n": 1
+    },
+    "14": {
+      "above": 178,
+      "below": 72,
+      "n": 3
+    },
+    "16": {
+      "above": null,
+      "below": 10,
+      "n": 12
+    },
+    "19": {
+      "above": 72,
+      "below": 13,
+      "n": 5
+    },
+    "20": {
+      "above": 213,
+      "below": 9,
+      "n": 8
+    },
+    "22": {
+      "above": 256,
+      "below": 10,
+      "n": 1
+    },
+    "30": {
+      "above": null,
+      "below": 26,
+      "n": 3
+    },
+    "40": {
+      "above": 9,
+      "below": 22,
+      "n": 1
+    },
+    "72": {
+      "above": 9,
+      "below": 22,
+      "n": 1
+    },
+    "112": {
+      "above": 57,
+      "below": 50,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 14,
+    "weight": "500",
+    "ls": 0,
+    "color": "#0e7ae0",
+    "latin": true,
+    "upper": false,
+    "gap": 9,
+    "wrapped": false,
+    "rule": "1px #0e7ae0",
+    "headFs": 56,
+    "n": 2,
+    "total": 2
   },
   "radius": [
     {

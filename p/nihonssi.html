@@ -219,14 +219,14 @@
       <p class="spmeta">大見出し<span>68px / 行間 1.35</span></p>
       <p class="spdemo" style="font-size:68px;line-height:1.35">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">見出し<span>24px</span></p>
+      <p class="spmeta">見出し<span>38px / 行間 1.4</span></p>
+      <p class="spdemo" style="font-size:38px;line-height:1.4">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">小見出し<span>24px</span></p>
       <p class="spdemo" style="font-size:24px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">小見出し<span>20px</span></p>
+      <p class="spmeta">リード<span>20px</span></p>
       <p class="spdemo" style="font-size:20px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
-    </div><div class="sp">
-      <p class="spmeta">リード<span>18px</span></p>
-      <p class="spdemo" style="font-size:18px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">本文<span>13px / 行間 1.8</span></p>
       <p class="spdemo" style="font-size:13px;line-height:1.8">あのイーハトーヴォのすきとおった風</p>
@@ -313,7 +313,7 @@
       <p class="note">同じ形が 3 箇所。角丸 10px</p>
     
     <div class="stage" style="background:var(--field)">
-        <span class="chipdemo" style="background:#d6e3f0;color:#0058a2;border-radius:4px;
+        <span class="chipdemo" style="background:#f0dbd6;color:#e71a2f;border-radius:4px;
           padding:3px 15px;font-size:12px;">タグ</span>
       </div>
       <p class="note">角丸 4px ／ 12px</p>
@@ -438,14 +438,17 @@
 - 欧文: Montserrat
 - ウェイトは 700 / 500 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 68px | 1.35 |
-| 見出し | 24px | — |
-| 小見出し | 20px | — |
-| リード | 18px | — |
-| 本文 | 13px | 1.8 |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 68px | 1.35 | 2px | 16px |
+| 見出し | 38px | 1.4 | 8px | 64px |
+| 小見出し | 24px | — | — | — |
+| リード | 20px | — | — | — |
+| 本文 | 13px | 1.8 | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（60px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 13px・行間 1.8。
 
@@ -529,7 +532,7 @@
 
 ```css
 .chip{
-  background: #d6e3f0; color: #0058a2;
+  background: #f0dbd6; color: #e71a2f;
   border-radius: 4px; padding: 3px 15px; font-size: 12px;
 }
 ```

@@ -97,17 +97,17 @@
     ],
     "h2": [
       {
+        "fs": 40,
+        "weight": "600",
+        "lh": 1.25,
+        "ls": "0.010em",
+        "family": "YakuHanJP"
+      },
+      {
         "fs": 22,
         "weight": "600",
         "lh": 1.5,
         "ls": "0",
-        "family": "YakuHanJP"
-      },
-      {
-        "fs": 32,
-        "weight": "600",
-        "lh": 1.25,
-        "ls": "0.010em",
         "family": "YakuHanJP"
       }
     ],
@@ -127,6 +127,62 @@
         "family": "YakuHanJP"
       }
     ]
+  },
+  "headSpace": {
+    "16": {
+      "above": 12,
+      "below": 40,
+      "n": 2
+    },
+    "18": {
+      "above": 137,
+      "below": 16,
+      "n": 6
+    },
+    "20": {
+      "above": 74,
+      "below": 8,
+      "n": 4
+    },
+    "22": {
+      "above": 72,
+      "below": 16,
+      "n": 5
+    },
+    "24": {
+      "above": 27,
+      "below": 10,
+      "n": 3
+    },
+    "32": {
+      "above": 0,
+      "below": 36,
+      "n": 1
+    },
+    "36": {
+      "above": 0,
+      "below": 250,
+      "n": 3
+    },
+    "40": {
+      "above": 200,
+      "below": 32,
+      "n": 7
+    }
+  },
+  "labelHead": {
+    "fs": 14,
+    "weight": "400",
+    "ls": 0.025,
+    "color": "#808080",
+    "latin": false,
+    "upper": false,
+    "gap": 27,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 24,
+    "n": 1,
+    "total": 3
   },
   "radius": [
     {

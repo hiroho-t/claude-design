@@ -24,40 +24,40 @@
   "ink": [
     {
       "hex": "#333333",
-      "pct": 73.2
+      "pct": 73.6
     },
     {
       "hex": "#999999",
-      "pct": 14.9
+      "pct": 14.8
     },
     {
       "hex": "#ffffff",
-      "pct": 7.9
+      "pct": 7.8
     },
     {
       "hex": "#7492b9",
-      "pct": 1.7
+      "pct": 2
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "YakuHanJPs",
-      "w": 1680
+      "w": 1709
     },
     {
       "family": "aktiv-grotesk",
-      "w": 80
+      "w": 71
     }
   ],
   "sizes": [
     {
       "px": 18,
-      "w": 313
+      "w": 321
     },
     {
       "px": 16,
-      "w": 424
+      "w": 437
     },
     {
       "px": 15,
@@ -65,11 +65,11 @@
     },
     {
       "px": 14,
-      "w": 46
+      "w": 37
     },
     {
       "px": 13,
-      "w": 477
+      "w": 485
     },
     {
       "px": 12,
@@ -99,6 +99,19 @@
       }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": 6,
+      "below": 175,
+      "n": 5
+    },
+    "34": {
+      "above": 333,
+      "below": 0,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
@@ -185,7 +198,7 @@
     },
     {
       "px": 767,
-      "n": 374
+      "n": 355
     }
   ],
   "sections": [
@@ -200,7 +213,7 @@
       "split": null
     },
     {
-      "h": 540,
+      "h": 500,
       "full": true,
       "cols": 6,
       "img": true,
@@ -210,7 +223,7 @@
       "split": null
     },
     {
-      "h": 1020,
+      "h": 1040,
       "full": true,
       "cols": 0,
       "img": false,

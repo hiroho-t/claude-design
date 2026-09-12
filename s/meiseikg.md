@@ -54,14 +54,14 @@
 | 色 | 面 | 文字 | 枠線 | ボタンの地 |
 |---|---|---|---|---|
 | `#f9f3f3` | 7 | 0 | 0 | 0 |
-| `#7f3033` | 7 | 18 | 3 | 0 |
-| `#ffffff` | 8 | 18 | 0 | 0 |
-| `#7bc8bd` | 1 | 0 | 0 | 1 |
+| `#7f3033` | 7 | 21 | 3 | 0 |
+| `#ffffff` | 8 | 17 | 0 | 0 |
+| `#7bc8bd` | 2 | 0 | 0 | 2 |
 | `#ee84b2` | 1 | 1 | 0 | 1 |
-| `#222222` | 0 | 107 | 0 | 0 |
+| `#222222` | 0 | 111 | 0 | 0 |
 | `#666666` | 0 | 13 | 0 | 0 |
 
-- `#7f3033` は面7箇所・文字18箇所を行き来する。ボタンの地には使っていない。枠線にも3箇所。
+- `#7f3033` は文字色として21箇所で使うのが主。面としては7箇所しかないが、1枚が大きく画面の17%を占める。ボタンの地には使っていない。枠線にも3箇所。
 
 ## 面と線の関係
 
@@ -87,17 +87,54 @@
 
 - 和文: Zen Maru Gothic
 - 欧文: Inter
-- ウェイトは 700 / 500 が中心。太さで強弱をつけず、大きさで差をつける。
+- ウェイトは 700 / 600 / 500 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 18px | 1.5 |
-| 本文 | 16px | 1.5 |
-| 補助 | 15px | — |
-| 注記 | 14px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 32px | 1.3 | 8px | 23px |
+| 見出し | 18px | 1.5 | 62px | 28px |
+| 本文 | 16px | 1.5 | 249px | 88px |
+| 補助 | 15px | — | — | — |
+| 注記 | 14px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（48px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 16px・行間 1.8。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 3箇所で使っている（見出し4箇所のうち）。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 英字（大文字） |
+| ラベルのサイズ | 12px |
+| ラベルの字間 | 0（詰めも空けもしない） |
+| ラベルの太さ | 700 |
+| ラベルの色 | `#7f3033` |
+| ラベル → 見出し | 8px |
+| 見出しのサイズ | 32px |
+| 見出し → 本文 | 23px |
+| 罫線 | なし |
+| 組み方 | **兄弟に並べる**（囲まずに続けて置く） |
+
+```html
+<p class="c-head__label">SERVICE</p>
+<h2 class="c-head__title">サービス</h2>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:12px; font-weight:700;
+  color:#7f3033; text-transform:uppercase }
+.c-head__title{ font-size:32px; line-height:1.3; margin-top:8px }
+.c-head__title + *{ margin-top:23px }
+```
+
+- ラベルと見出しの間は 8px、見出しと本文の間は 23px。ラベル側を詰めて、本文側を空ける。この差がまとまりを作っている。
 
 ## レイアウト
 
@@ -125,17 +162,17 @@
 
 ```css
 .btn{
+  background: #7bc8bd; color: #222222;
+  border-radius: 9999px; padding: 10px 16px; min-height: 40px;
+  font-size: 16px; font-weight: 500; letter-spacing: 0;
+}
+.btn-sub{
   background: #ee84b2; color: #222222;
   border-radius: 9999px; padding: 10px 16px; min-height: 40px;
   font-size: 16px; font-weight: 500; letter-spacing: 0;
 }
 .btn-sub{
   background: #f4aa8a; color: #222222;
-  border-radius: 9999px; padding: 10px 16px; min-height: 40px;
-  font-size: 16px; font-weight: 500; letter-spacing: 0;
-}
-.btn-sub{
-  background: #7bc8bd; color: #222222;
   border-radius: 9999px; padding: 10px 16px; min-height: 40px;
   font-size: 16px; font-weight: 500; letter-spacing: 0;
 }
@@ -149,12 +186,12 @@
 |---|---|---|---|---|---|
 | 1 | 900px | — | ヒーロー（画像） | 右 | 全幅 |
 | 2 | 1580px | `#7f3033` | 1カラム・画像あり | 中央 | 見出しの下 |
-| 3 | 340px | — | 4カラム・画像あり | 中央 | 左（9:91） |
+| 3 | 320px | — | 4カラム・画像あり | 中央 | 左（9:91） |
 | 4 | 1240px | `#f9f3f3` | 3カラム・画像あり | 中央 | 見出しの下 |
 | 5 | 1320px | — | 5カラム・画像あり | 左 | 右（72:28） |
 | 6 | 720px | — | 2カラム・画像あり | 左 | 右（32:68） |
 | 7 | 1000px | `#f9f3f3` | 3カラム・画像あり | 中央 | 見出しの下 |
-| 8 | 680px | — | 3カラム・画像あり | 左 | 見出しの下 |
+| 8 | 860px | — | 4カラム・画像あり | 左 | 見出しの下 |
 | 9 | 240px | — | 2カラム・画像あり | 中央 | — |
 | 10 | 720px | — | 4カラム・画像あり | — | 全面 |
 
@@ -201,6 +238,16 @@
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
 
+```html
+<section class="section">
+  <div class="container">
+    <p class="c-head__label">SERVICE</p>
+    <h2 class="c-head__title">サービス</h2>
+    <p>本文…</p>
+  </div>
+</section>
+```
+
 ```css
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
@@ -210,13 +257,16 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+.c-head__label{ font-size:12px; font-weight:700; color:#7f3033 }
+.c-head__title{ font-size:32px; line-height:1.3; margin-top:8px }
+.c-head__title + *{ margin-top:23px }
 
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }
 .card{ background:#ffffff;
   border-radius:19px; padding:20px 20px }
 .btn{ display:inline-flex; align-items:center; justify-content:center;
-  background:#ee84b2; color:#222222; border-radius:9999px;
+  background:#7bc8bd; color:#222222; border-radius:9999px;
   padding:10px 16px; min-height:40px;
   font-size:16px; font-weight:500 }
 

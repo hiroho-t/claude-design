@@ -82,17 +82,53 @@
 - 欧文: Helvetica Neue
 - ウェイトは 400 / 700 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 20px | 1 |
-| 見出し | 16px | — |
-| 小見出し | 15px | — |
-| リード | 14px | 2 |
-| 本文 | 13px | 2 |
-| 補助 | 12px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 22px | 1.4 | 125px | 54px |
+| 見出し | 20px | 1.5 | 12px | 24px |
+| 小見出し | 16px | — | — | — |
+| リード | 15px | — | 88px | 15px |
+| 本文 | 13px | 2 | — | — |
+| 補助 | 12px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（112px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 13px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 5箇所で使っている。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 和文 |
+| ラベルのサイズ | 12px |
+| ラベルの字間 | 0（詰めも空けもしない） |
+| ラベルの太さ | 400 |
+| ラベルの色 | `#1d1d1d` |
+| ラベル → 見出し | 12px |
+| 見出しのサイズ | 24px |
+| 見出し → 本文 | 32px |
+| 罫線 | なし |
+| 組み方 | **兄弟に並べる**（囲まずに続けて置く） |
+
+```html
+<p class="c-head__label">私たちの仕事</p>
+<h2 class="c-head__title">サービス</h2>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:12px; font-weight:400;
+  color:#1d1d1d }
+.c-head__title{ font-size:24px; margin-top:12px }
+.c-head__title + *{ margin-top:32px }
+```
+
+- ラベルと見出しの間は 12px、見出しと本文の間は 32px。ラベル側を詰めて、本文側を空ける。この差がまとまりを作っている。
 
 ## レイアウト
 
@@ -186,6 +222,16 @@
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
 
+```html
+<section class="section">
+  <div class="container">
+    <p class="c-head__label">私たちの仕事</p>
+    <h2 class="c-head__title">サービス</h2>
+    <p>本文…</p>
+  </div>
+</section>
+```
+
 ```css
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
@@ -195,6 +241,9 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:360px; display:grid; align-content:center }
+.c-head__label{ font-size:12px; font-weight:400; color:#1d1d1d }
+.c-head__title{ font-size:24px; margin-top:12px }
+.c-head__title + *{ margin-top:32px }
 
 .section--main{ background:var(--main); color:#000000; --on:#000000 }
 .section--main .btn--fill{ background:#000000; color:var(--main) }

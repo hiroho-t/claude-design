@@ -28,30 +28,30 @@
   "ink": [
     {
       "hex": "#362e26",
-      "pct": 36
+      "pct": 37.6
     },
     {
       "hex": "#ffffff",
-      "pct": 34.8
+      "pct": 35.8
     },
     {
       "hex": "#645a50",
-      "pct": 8.6
+      "pct": 8.9
     },
     {
       "hex": "#83776a",
-      "pct": 4.9
+      "pct": 5.1
     }
   ],
   "pageBg": "#fcf5eb",
   "fonts": [
     {
       "family": "FP-こぶりなゴシック StdN W3",
-      "w": 603
+      "w": 605
     },
     {
       "family": "YakuHanMP",
-      "w": 356
+      "w": 361
     },
     {
       "family": "HelveticaNeueLTStd-Lt",
@@ -65,7 +65,7 @@
   "sizes": [
     {
       "px": 20,
-      "w": 103
+      "w": 108
     },
     {
       "px": 16,
@@ -81,7 +81,7 @@
     },
     {
       "px": 12,
-      "w": 193
+      "w": 195
     },
     {
       "px": 11,
@@ -94,6 +94,15 @@
     "ls": "0.160em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 10,
+        "weight": "300",
+        "lh": 1,
+        "ls": "0",
+        "family": "FP-こぶりなゴシック StdN W3"
+      }
+    ],
     "h2": [
       {
         "fs": 36,
@@ -103,13 +112,63 @@
         "family": "YakuHanMP"
       },
       {
-        "fs": 44,
+        "fs": 40,
+        "weight": "500",
+        "lh": 1.8,
+        "ls": "0.060em",
+        "family": "YakuHanMP"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 17,
         "weight": "400",
-        "lh": 1,
+        "lh": 1.6,
         "ls": "0",
         "family": "YakuHanMP"
       }
     ]
+  },
+  "headSpace": {
+    "10": {
+      "above": 398,
+      "below": 28,
+      "n": 1
+    },
+    "17": {
+      "above": 157,
+      "below": 136,
+      "n": 2
+    },
+    "36": {
+      "above": 0,
+      "below": 377,
+      "n": 3
+    },
+    "40": {
+      "above": 0,
+      "below": 80,
+      "n": 1
+    },
+    "44": {
+      "above": 0,
+      "below": 48,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 13,
+    "weight": "300",
+    "ls": 0,
+    "color": "#a7917b",
+    "latin": true,
+    "upper": false,
+    "gap": 0,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 36,
+    "n": 4,
+    "total": 5
   },
   "radius": [
     {
@@ -183,7 +242,7 @@
       "weight": "300",
       "h": 28,
       "ls": "0.36px",
-      "n": 20
+      "n": 21
     },
     {
       "bg": "transparent",

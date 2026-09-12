@@ -74,6 +74,8 @@
     "ls": "0"
   },
   "headings": {},
+  "headSpace": {},
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

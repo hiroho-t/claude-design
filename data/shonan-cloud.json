@@ -1,7 +1,7 @@
 {
   "slug": "shonan-cloud",
   "url": "https://www.shonan-cloud.com/",
-  "title": "湘南クラウド会計事務所｜湘南の起業家を支援する税理士｜freee活用・効率化・経理代行｜藤沢市・鎌倉市・茅ヶ崎市 他",
+  "title": "湘南クラウド会計事務所｜湘南・藤沢・鎌倉の税理士｜freee活用・経理体制づくり・経営支援",
   "desc": "湘南で起業、会社設立から経営をサポート。経営者の抱える様々な問題に税理士・中小企業診断士が丁寧に対応します。freee活用・業務効率化の支援。チャットやオンライン相談によるサポート。藤沢市、鎌倉市、茅ヶ崎市、逗子市、横須賀市など湘南エリアを中心とした神奈川県。Chatwork、Slack、Zoom、GoogleMeet対応。",
   "bg": [
     {
@@ -28,7 +28,7 @@
   "ink": [
     {
       "hex": "#333333",
-      "pct": 37
+      "pct": 37.5
     },
     {
       "hex": "#004e98",
@@ -36,7 +36,7 @@
     },
     {
       "hex": "#ffffff",
-      "pct": 18.6
+      "pct": 18.7
     },
     {
       "hex": "#646464",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 1641
+      "w": 1651
     },
     {
       "family": "Material Icons",
@@ -55,7 +55,7 @@
     },
     {
       "family": "Hiragino Kaku Gothic ProN",
-      "w": 67
+      "w": 54
     },
     {
       "family": "Rubik",
@@ -73,7 +73,7 @@
     },
     {
       "px": 16,
-      "w": 339
+      "w": 334
     },
     {
       "px": 14,
@@ -135,6 +135,52 @@
         "family": "Noto Sans JP"
       }
     ]
+  },
+  "headSpace": {
+    "16": {
+      "above": 16,
+      "below": 8,
+      "n": 3
+    },
+    "20": {
+      "above": 317,
+      "below": 237,
+      "n": 2
+    },
+    "22": {
+      "above": 64,
+      "below": 22,
+      "n": 3
+    },
+    "26": {
+      "above": null,
+      "below": 205,
+      "n": 1
+    },
+    "32": {
+      "above": 279,
+      "below": 21,
+      "n": 3
+    },
+    "40": {
+      "above": 0,
+      "below": 175,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 13,
+    "weight": "700",
+    "ls": 0.15,
+    "color": "#004e98",
+    "latin": false,
+    "upper": false,
+    "gap": 0,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 40,
+    "n": 1,
+    "total": 1
   },
   "radius": [
     {

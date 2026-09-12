@@ -86,22 +86,81 @@
     "ls": "0.018em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 14,
+        "weight": "400",
+        "lh": 1.72,
+        "ls": "0.020em",
+        "family": "Noto Sans JP"
+      }
+    ],
     "h2": [
+      {
+        "fs": 14,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.020em",
+        "family": "Noto Sans JP"
+      },
       {
         "fs": 14,
         "weight": "700",
         "lh": 1.72,
         "ls": "0",
         "family": "Poppins"
-      },
+      }
+    ],
+    "h3": [
       {
-        "fs": 18,
-        "weight": "500",
-        "lh": 1,
-        "ls": "0.016em",
+        "fs": 40,
+        "weight": "700",
+        "lh": 1.35,
+        "ls": "0.007em",
         "family": "Noto Sans JP"
       }
     ]
+  },
+  "headSpace": {
+    "14": {
+      "above": 340,
+      "below": 69,
+      "n": 11
+    },
+    "18": {
+      "above": 53,
+      "below": null,
+      "n": 1
+    },
+    "28": {
+      "above": null,
+      "below": 40,
+      "n": 1
+    },
+    "40": {
+      "above": 30,
+      "below": 35,
+      "n": 5
+    },
+    "48": {
+      "above": 199,
+      "below": 50,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 12,
+    "weight": "700",
+    "ls": 0,
+    "color": "#ffffff",
+    "latin": true,
+    "upper": false,
+    "gap": 30,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 40,
+    "n": 5,
+    "total": 5
   },
   "radius": [
     {

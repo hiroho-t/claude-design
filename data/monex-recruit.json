@@ -84,11 +84,11 @@
   "headings": {
     "h2": [
       {
-        "fs": 24,
-        "weight": "700",
-        "lh": 1.9,
+        "fs": 80,
+        "weight": "400",
+        "lh": 1,
         "ls": "0",
-        "family": "Noto Sans JP"
+        "family": "Montserrat"
       },
       {
         "fs": 48,
@@ -99,6 +99,19 @@
       }
     ]
   },
+  "headSpace": {
+    "48": {
+      "above": 385,
+      "below": 341,
+      "n": 1
+    },
+    "80": {
+      "above": 304,
+      "below": 40,
+      "n": 4
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

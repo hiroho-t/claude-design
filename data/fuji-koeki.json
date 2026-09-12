@@ -32,7 +32,7 @@
     },
     {
       "hex": "#123d83",
-      "pct": 28
+      "pct": 27.9
     },
     {
       "hex": "#ffffff",
@@ -40,7 +40,7 @@
     },
     {
       "hex": "#1eb8d4",
-      "pct": 2.5
+      "pct": 2.6
     }
   ],
   "pageBg": "#ffffff",
@@ -142,6 +142,67 @@
         "family": "Noto Sans JP"
       }
     ]
+  },
+  "headSpace": {
+    "14": {
+      "above": 9,
+      "below": 262,
+      "n": 1
+    },
+    "15": {
+      "above": 8,
+      "below": 69,
+      "n": 3
+    },
+    "16": {
+      "above": 319,
+      "below": 99,
+      "n": 3
+    },
+    "18": {
+      "above": 305,
+      "below": 12,
+      "n": 4
+    },
+    "20": {
+      "above": null,
+      "below": 12,
+      "n": 1
+    },
+    "22": {
+      "above": 60,
+      "below": 60,
+      "n": 6
+    },
+    "27": {
+      "above": 11,
+      "below": 177,
+      "n": 2
+    },
+    "32": {
+      "above": 15,
+      "below": 30,
+      "n": 2
+    },
+    "34": {
+      "above": 12,
+      "below": 45,
+      "n": 2
+    }
+  },
+  "labelHead": {
+    "fs": 16,
+    "weight": "500",
+    "ls": 0,
+    "color": "#1eb8d4",
+    "latin": true,
+    "upper": false,
+    "gap": 12,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 32,
+    "n": 5,
+    "total": 6
   },
   "radius": [
     {

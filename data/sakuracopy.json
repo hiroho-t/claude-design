@@ -84,21 +84,75 @@
   "headings": {
     "h3": [
       {
-        "fs": 16,
+        "fs": 22,
         "weight": "600",
-        "lh": 1.6,
-        "ls": "0",
+        "lh": 1.5,
+        "ls": "0.030em",
         "family": "yakuhanjp"
       },
       {
-        "fs": 20,
-        "weight": "600",
-        "lh": 1.8,
-        "ls": "0",
+        "fs": 22,
+        "weight": "300",
+        "lh": 1.6,
+        "ls": "0.050em",
+        "family": "yakuhanjp"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 130,
+        "weight": "100",
+        "lh": 1,
+        "ls": "-0.010em",
+        "family": "yakuhanjp"
+      },
+      {
+        "fs": 100,
+        "weight": "100",
+        "lh": 1,
+        "ls": "-0.010em",
         "family": "yakuhanjp"
       }
     ]
   },
+  "headSpace": {
+    "16": {
+      "above": 102,
+      "below": 102,
+      "n": 2
+    },
+    "18": {
+      "above": 30,
+      "below": 29,
+      "n": 1
+    },
+    "20": {
+      "above": 107,
+      "below": 293,
+      "n": 1
+    },
+    "22": {
+      "above": 152,
+      "below": 282,
+      "n": 4
+    },
+    "30": {
+      "above": 202,
+      "below": 40,
+      "n": 2
+    },
+    "100": {
+      "above": null,
+      "below": 76,
+      "n": 2
+    },
+    "130": {
+      "above": 296,
+      "below": 95,
+      "n": 4
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 14,

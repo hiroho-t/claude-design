@@ -20,11 +20,11 @@
   "ink": [
     {
       "hex": "#555555",
-      "pct": 96.3
+      "pct": 96.4
     },
     {
       "hex": "#ff7360",
-      "pct": 2.6
+      "pct": 2.5
     },
     {
       "hex": "#ffffff",
@@ -35,7 +35,7 @@
   "fonts": [
     {
       "family": "Robot",
-      "w": 1060
+      "w": 1078
     },
     {
       "family": "Roboto Condensed",
@@ -61,7 +61,7 @@
     },
     {
       "px": 14,
-      "w": 611
+      "w": 629
     },
     {
       "px": 13,
@@ -81,7 +81,46 @@
     "lh": 1.7,
     "ls": "0.021em"
   },
-  "headings": {},
+  "headings": {
+    "h2": [
+      {
+        "fs": 32,
+        "weight": "300",
+        "lh": 1.87,
+        "ls": "0.056em",
+        "family": "Robot"
+      },
+      {
+        "fs": 39,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0.008em",
+        "family": "Zen Maru Gothic"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 16,
+        "weight": "500",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "Robot"
+      }
+    ]
+  },
+  "headSpace": {
+    "16": {
+      "above": 69,
+      "below": 17,
+      "n": 6
+    },
+    "32": {
+      "above": null,
+      "below": 28,
+      "n": 4
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 10,

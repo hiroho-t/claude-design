@@ -28,11 +28,11 @@
   "ink": [
     {
       "hex": "#121213",
-      "pct": 54.4
+      "pct": 54.7
     },
     {
       "hex": "#ffffff",
-      "pct": 35.9
+      "pct": 35.6
     },
     {
       "hex": "#828282",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "Satoshi",
-      "w": 2313
+      "w": 2334
     }
   ],
   "sizes": [
@@ -61,7 +61,7 @@
     },
     {
       "px": 15,
-      "w": 895
+      "w": 912
     },
     {
       "px": 14,
@@ -73,7 +73,7 @@
     },
     {
       "px": 11,
-      "w": 97
+      "w": 101
     }
   ],
   "body": {
@@ -82,6 +82,31 @@
     "ls": "0.100em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 78,
+        "weight": "700",
+        "lh": 1.07,
+        "ls": "0",
+        "family": "Satoshi"
+      }
+    ],
+    "h2": [
+      {
+        "fs": 22,
+        "weight": "500",
+        "lh": 1,
+        "ls": "0",
+        "family": "Satoshi"
+      },
+      {
+        "fs": 56,
+        "weight": "500",
+        "lh": 1,
+        "ls": "0.020em",
+        "family": "Satoshi"
+      }
+    ],
     "h3": [
       {
         "fs": 15,
@@ -113,23 +138,58 @@
         "ls": "0.050em",
         "family": "Satoshi"
       }
-    ],
-    "h2": [
-      {
-        "fs": 56,
-        "weight": "500",
-        "lh": 1,
-        "ls": "0.020em",
-        "family": "Satoshi"
-      },
-      {
-        "fs": 56,
-        "weight": "500",
-        "lh": 1,
-        "ls": "0",
-        "family": "Satoshi"
-      }
     ]
+  },
+  "headSpace": {
+    "14": {
+      "above": 238,
+      "below": 35,
+      "n": 2
+    },
+    "15": {
+      "above": 51,
+      "below": 51,
+      "n": 5
+    },
+    "22": {
+      "above": 35,
+      "below": 17,
+      "n": 5
+    },
+    "26": {
+      "above": 26,
+      "below": 35,
+      "n": 1
+    },
+    "56": {
+      "above": null,
+      "below": 26,
+      "n": 2
+    },
+    "78": {
+      "above": 149,
+      "below": null,
+      "n": 1
+    },
+    "121": {
+      "above": null,
+      "below": 130,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 14,
+    "weight": "700",
+    "ls": 0.1,
+    "color": "#ffffff",
+    "latin": false,
+    "upper": false,
+    "gap": 26,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 26,
+    "n": 1,
+    "total": 1
   },
   "radius": [
     {
@@ -229,7 +289,7 @@
     },
     {
       "px": 639,
-      "n": 1081
+      "n": 1143
     },
     {
       "px": 630,

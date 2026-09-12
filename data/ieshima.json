@@ -82,7 +82,23 @@
     "ls": "0.030em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 28,
+        "weight": "500",
+        "lh": 1.6,
+        "ls": "0.030em",
+        "family": "Satoshi"
+      }
+    ],
     "h2": [
+      {
+        "fs": 80,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0",
+        "family": "Satoshi"
+      },
       {
         "fs": 15,
         "weight": "600",
@@ -107,6 +123,57 @@
         "family": "Satoshi"
       }
     ]
+  },
+  "headSpace": {
+    "15": {
+      "above": 29,
+      "below": 6,
+      "n": 2
+    },
+    "16": {
+      "above": 21,
+      "below": 101,
+      "n": 9
+    },
+    "18": {
+      "above": 66,
+      "below": 65,
+      "n": 4
+    },
+    "20": {
+      "above": 254,
+      "below": 187,
+      "n": 3
+    },
+    "28": {
+      "above": 6,
+      "below": null,
+      "n": 1
+    },
+    "80": {
+      "above": 233,
+      "below": 191,
+      "n": 5
+    },
+    "100": {
+      "above": null,
+      "below": 80,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 15,
+    "weight": "600",
+    "ls": 0,
+    "color": "#ffffff",
+    "latin": true,
+    "upper": false,
+    "gap": 6,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 28,
+    "n": 1,
+    "total": 1
   },
   "radius": [
     {

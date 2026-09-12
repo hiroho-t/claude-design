@@ -121,18 +121,18 @@
     ],
     "h3": [
       {
-        "fs": 28,
+        "fs": 22,
+        "weight": "400",
+        "lh": 1.8,
+        "ls": "0.050em",
+        "family": "新丸ゴ DB"
+      },
+      {
+        "fs": 20,
         "weight": "400",
         "lh": 1,
         "ls": "0.020em",
-        "family": "新丸ゴ B"
-      },
-      {
-        "fs": 37,
-        "weight": "400",
-        "lh": 1.4,
-        "ls": "0.050em",
-        "family": "新丸ゴ B"
+        "family": "YakuHanJP"
       }
     ],
     "h4": [
@@ -144,6 +144,87 @@
         "family": "YakuHanJP"
       }
     ]
+  },
+  "headSpace": {
+    "11": {
+      "above": null,
+      "below": 31,
+      "n": 1
+    },
+    "17": {
+      "above": 194,
+      "below": 24,
+      "n": 8
+    },
+    "18": {
+      "above": 167,
+      "below": 8,
+      "n": 10
+    },
+    "20": {
+      "above": 291,
+      "below": 20,
+      "n": 4
+    },
+    "22": {
+      "above": 14,
+      "below": 20,
+      "n": 4
+    },
+    "26": {
+      "above": 302,
+      "below": 384,
+      "n": 1
+    },
+    "28": {
+      "above": 24,
+      "below": 8,
+      "n": 5
+    },
+    "32": {
+      "above": 228,
+      "below": 16,
+      "n": 1
+    },
+    "37": {
+      "above": 199,
+      "below": 56,
+      "n": 1
+    },
+    "38": {
+      "above": 199,
+      "below": 60,
+      "n": 1
+    },
+    "45": {
+      "above": 20,
+      "below": 26,
+      "n": 1
+    },
+    "50": {
+      "above": 70,
+      "below": 20,
+      "n": 3
+    },
+    "68": {
+      "above": 24,
+      "below": 57,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 16,
+    "weight": "700",
+    "ls": 0.05,
+    "color": "#482607",
+    "latin": false,
+    "upper": false,
+    "gap": 24,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 28,
+    "n": 4,
+    "total": 5
   },
   "radius": [
     {

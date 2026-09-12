@@ -6,7 +6,7 @@
   "bg": [
     {
       "hex": "#ffffff",
-      "pct": 98.5
+      "pct": 98.4
     },
     {
       "hex": "#000a02",
@@ -90,6 +90,15 @@
     "ls": "0"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 59,
+        "weight": "600",
+        "lh": 1,
+        "ls": "0",
+        "family": "Haas Grot Disp Web"
+      }
+    ],
     "h2": [
       {
         "fs": 13,
@@ -107,6 +116,29 @@
       }
     ]
   },
+  "headSpace": {
+    "13": {
+      "above": 398,
+      "below": 32,
+      "n": 5
+    },
+    "17": {
+      "above": 174,
+      "below": 31,
+      "n": 2
+    },
+    "29": {
+      "above": 312,
+      "below": 326,
+      "n": 3
+    },
+    "59": {
+      "above": null,
+      "below": 54,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 5,

@@ -77,7 +77,37 @@
     "lh": 2,
     "ls": "0"
   },
-  "headings": {},
+  "headings": {
+    "h2": [
+      {
+        "fs": 56,
+        "weight": "700",
+        "lh": 1,
+        "ls": "0",
+        "family": "Raleway"
+      },
+      {
+        "fs": 28,
+        "weight": "700",
+        "lh": 1.8,
+        "ls": "0",
+        "family": "YakuHanJP"
+      }
+    ]
+  },
+  "headSpace": {
+    "28": {
+      "above": 103,
+      "below": 36,
+      "n": 1
+    },
+    "56": {
+      "above": 240,
+      "below": 24,
+      "n": 2
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

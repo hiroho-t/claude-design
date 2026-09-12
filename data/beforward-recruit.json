@@ -108,6 +108,47 @@
       }
     ]
   },
+  "headSpace": {
+    "26": {
+      "above": 129,
+      "below": 28,
+      "n": 1
+    },
+    "32": {
+      "above": 32,
+      "below": 7,
+      "n": 1
+    },
+    "50": {
+      "above": 363,
+      "below": 7,
+      "n": 1
+    },
+    "54": {
+      "above": 154,
+      "below": 7,
+      "n": 1
+    },
+    "65": {
+      "above": 276,
+      "below": 7,
+      "n": 4
+    }
+  },
+  "labelHead": {
+    "fs": 18,
+    "weight": "900",
+    "ls": 0.036,
+    "color": "#ffffff",
+    "latin": false,
+    "upper": false,
+    "gap": 32,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 32,
+    "n": 1,
+    "total": 1
+  },
   "radius": [
     {
       "px": 0,

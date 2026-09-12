@@ -6,11 +6,11 @@
   "bg": [
     {
       "hex": "#f5f4ea",
-      "pct": 37.7
+      "pct": 37.6
     },
     {
       "hex": "#ffffff",
-      "pct": 30
+      "pct": 30.1
     },
     {
       "hex": "#338751",
@@ -28,7 +28,7 @@
   "ink": [
     {
       "hex": "#2e2e2e",
-      "pct": 67.8
+      "pct": 67.7
     },
     {
       "hex": "#666666",
@@ -36,18 +36,18 @@
     },
     {
       "hex": "#8a8a8a",
-      "pct": 8.2
+      "pct": 8.3
     },
     {
       "hex": "#ffffff",
-      "pct": 8
+      "pct": 8.1
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "Zen Kaku Gothic New",
-      "w": 2757
+      "w": 2714
     },
     {
       "family": "Public Sans",
@@ -61,7 +61,7 @@
     },
     {
       "px": 16,
-      "w": 763
+      "w": 732
     },
     {
       "px": 15,
@@ -77,7 +77,7 @@
     },
     {
       "px": 12,
-      "w": 1143
+      "w": 1131
     }
   ],
   "body": {
@@ -102,6 +102,42 @@
         "family": "Zen Kaku Gothic New"
       }
     ]
+  },
+  "headSpace": {
+    "13": {
+      "above": 196,
+      "below": 70,
+      "n": 3
+    },
+    "16": {
+      "above": 8,
+      "below": 8,
+      "n": 5
+    },
+    "20": {
+      "above": 100,
+      "below": 8,
+      "n": 12
+    },
+    "30": {
+      "above": 176,
+      "below": 159,
+      "n": 2
+    }
+  },
+  "labelHead": {
+    "fs": 12,
+    "weight": "700",
+    "ls": 0,
+    "color": "#666666",
+    "latin": false,
+    "upper": false,
+    "gap": 12,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 20,
+    "n": 6,
+    "total": 6
   },
   "radius": [
     {
@@ -133,7 +169,7 @@
     },
     {
       "px": 8,
-      "n": 13
+      "n": 11
     },
     {
       "px": 40,
@@ -264,7 +300,7 @@
       "split": null
     },
     {
-      "h": 700,
+      "h": 660,
       "full": true,
       "cols": 5,
       "img": true,
@@ -440,7 +476,7 @@
     {
       "hex": "#666666",
       "面": 0,
-      "文字": 58,
+      "文字": 54,
       "枠": 0,
       "ボタン": 0
     },

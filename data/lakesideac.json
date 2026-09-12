@@ -92,8 +92,15 @@
   "headings": {
     "h2": [
       {
-        "fs": 28,
-        "weight": "700",
+        "fs": 13,
+        "weight": "500",
+        "lh": 1.4,
+        "ls": "0.050em",
+        "family": "Zen Maru Gothic"
+      },
+      {
+        "fs": 20,
+        "weight": "500",
         "lh": 1.4,
         "ls": "0.050em",
         "family": "Zen Maru Gothic"
@@ -109,6 +116,29 @@
       }
     ]
   },
+  "headSpace": {
+    "13": {
+      "above": 220,
+      "below": 40,
+      "n": 2
+    },
+    "20": {
+      "above": null,
+      "below": 19,
+      "n": 1
+    },
+    "24": {
+      "above": 115,
+      "below": 10,
+      "n": 3
+    },
+    "28": {
+      "above": 144,
+      "below": 10,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

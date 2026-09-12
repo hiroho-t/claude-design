@@ -78,6 +78,15 @@
     "ls": "0.120em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 11,
+        "weight": "500",
+        "lh": 1,
+        "ls": "0.290em",
+        "family": "dnp-shuei-mincho-pr6n"
+      }
+    ],
     "h2": [
       {
         "fs": 16,
@@ -96,6 +105,13 @@
     ],
     "h3": [
       {
+        "fs": 15,
+        "weight": "500",
+        "lh": 1.7,
+        "ls": "0.120em",
+        "family": "dnp-shuei-mincho-pr6n"
+      },
+      {
         "fs": 20,
         "weight": "500",
         "lh": 1,
@@ -113,6 +129,44 @@
       }
     ]
   },
+  "headSpace": {
+    "11": {
+      "above": null,
+      "below": 90,
+      "n": 1
+    },
+    "15": {
+      "above": 10,
+      "below": 86,
+      "n": 9
+    },
+    "16": {
+      "above": 312,
+      "below": 229,
+      "n": 7
+    },
+    "18": {
+      "above": 165,
+      "below": 22,
+      "n": 2
+    },
+    "19": {
+      "above": null,
+      "below": 22,
+      "n": 2
+    },
+    "20": {
+      "above": 196,
+      "below": 32,
+      "n": 1
+    },
+    "28": {
+      "above": null,
+      "below": 14,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

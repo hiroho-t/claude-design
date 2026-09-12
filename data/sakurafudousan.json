@@ -86,6 +86,15 @@
     "ls": "0.042em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 11,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0.045em",
+        "family": "MFW-PA1GothicStdN-Regular"
+      }
+    ],
     "h2": [
       {
         "fs": 12,
@@ -118,6 +127,47 @@
         "family": "MFW-PA1GothicStdN-Medium"
       }
     ]
+  },
+  "headSpace": {
+    "11": {
+      "above": null,
+      "below": 191,
+      "n": 1
+    },
+    "12": {
+      "above": 125,
+      "below": 0,
+      "n": 3
+    },
+    "15": {
+      "above": 3,
+      "below": 8,
+      "n": 9
+    },
+    "20": {
+      "above": null,
+      "below": 3,
+      "n": 3
+    },
+    "35": {
+      "above": 0,
+      "below": 10,
+      "n": 2
+    }
+  },
+  "labelHead": {
+    "fs": 10,
+    "weight": "400",
+    "ls": 0.05,
+    "color": "#000000",
+    "latin": true,
+    "upper": false,
+    "gap": 0,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 35,
+    "n": 2,
+    "total": 2
   },
   "radius": [
     {

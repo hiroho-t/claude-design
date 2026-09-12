@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "Zen Kaku Gothic New",
-      "w": 2128
+      "w": 2132
     },
     {
       "family": "Montserrat",
@@ -65,7 +65,7 @@
     },
     {
       "px": 16,
-      "w": 426
+      "w": 430
     },
     {
       "px": 15,
@@ -107,6 +107,19 @@
       }
     ]
   },
+  "headSpace": {
+    "24": {
+      "above": 210,
+      "below": 127,
+      "n": 1
+    },
+    "33": {
+      "above": 191,
+      "below": 61,
+      "n": 2
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

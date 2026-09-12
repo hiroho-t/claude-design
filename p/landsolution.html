@@ -199,7 +199,7 @@
       <tr><th><i style="background:#3b673d"></i><code>#3b673d</code></th>
         <td>8</td><td>1</td><td>1</td><td>1</td></tr><tr><th><i style="background:#ffffff"></i><code>#ffffff</code></th>
         <td>1</td><td>13</td><td>1</td><td>0</td></tr><tr><th><i style="background:#2f4243"></i><code>#2f4243</code></th>
-        <td>0</td><td>91</td><td>0</td><td>0</td></tr>
+        <td>0</td><td>97</td><td>0</td><td>0</td></tr>
     </table>
     <p class="note"><code>#508e64</code> は</p>
   </section>
@@ -215,14 +215,14 @@
       <p class="spmeta">大見出し<span>48px / 行間 1.14</span></p>
       <p class="spdemo" style="font-size:48px;line-height:1.14">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">見出し<span>40px / 行間 1</span></p>
-      <p class="spdemo" style="font-size:40px;line-height:1">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">見出し<span>24px / 行間 1.2</span></p>
+      <p class="spdemo" style="font-size:24px;line-height:1.2">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">小見出し<span>24px</span></p>
-      <p class="spdemo" style="font-size:24px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
-    </div><div class="sp">
-      <p class="spmeta">リード<span>20px / 行間 1.6</span></p>
+      <p class="spmeta">小見出し<span>20px / 行間 1.6</span></p>
       <p class="spdemo" style="font-size:20px;line-height:1.6">あのイーハトーヴォのすきとおった風</p>
+    </div><div class="sp">
+      <p class="spmeta">リード<span>18px</span></p>
+      <p class="spdemo" style="font-size:18px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">本文<span>16px / 行間 1</span></p>
       <p class="spdemo" style="font-size:16px;line-height:1">あのイーハトーヴォのすきとおった風</p>
@@ -230,7 +230,7 @@
       <p class="spmeta">補助<span>14px</span></p>
       <p class="spdemo" style="font-size:14px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">注記<span>12px</span></p>
+      <p class="spmeta">注記<span>12px / 行間 1.5</span></p>
       <p class="spdemo" style="font-size:12px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div>
   </section>
@@ -312,7 +312,19 @@
     
   </section>
 
-  
+  <section>
+    <h2>部品</h2>
+    <div class="stage" style="background:var(--field)">
+        <div class="carddemo" style="background:transparent;border:1px solid #1f2529;
+          border-radius:50px;padding:48px 0px;">
+          <i style="background:var(--line)"></i>
+          <i style="width:60%;background:var(--line)"></i>
+        </div>
+      </div>
+      <p class="note">同じ形が 3 箇所。角丸 50px ／ 1px #1f2529 の線 ／ 影なし</p>
+    <p class="note">角丸は 0px だが、完全な円は別扱いで 11 箇所（24px×8、312px×3）。角を丸めないことと、円のモチーフは両立する。</p>
+    
+  </section>
 
   <section>
     <h2>PCとスマホ</h2>
@@ -334,7 +346,7 @@
         <em>1:1・9枚</em></div><div><span style="aspect-ratio:3/2;border-radius:0px"></span>
         <em>3:2・3枚</em></div><div><span style="aspect-ratio:16/9;border-radius:0px"></span>
         <em>16:9・2枚</em></div></div>
-    <p class="note">18枚。うち 6 枚は画面いっぱいに置く。角丸 0px。</p>
+    <p class="note">18枚。うち 4 枚は画面いっぱいに置く。角丸 0px。</p>
   </section>
 </main>
 
@@ -400,7 +412,7 @@
 |---|---|---|---|---|
 | `#3b673d` | 8 | 1 | 1 | 1 |
 | `#ffffff` | 1 | 13 | 1 | 0 |
-| `#2f4243` | 0 | 91 | 0 | 0 |
+| `#2f4243` | 0 | 97 | 0 | 0 |
 
 - `#508e64` は
 
@@ -410,18 +422,56 @@
 - 欧文: Crimson Text
 - ウェイトは 500 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 48px | 1.14 |
-| 見出し | 40px | 1 |
-| 小見出し | 24px | — |
-| リード | 20px | 1.6 |
-| 本文 | 16px | 1 |
-| 補助 | 14px | — |
-| 注記 | 12px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 48px | 1.14 | 25px | 40px |
+| 見出し | 24px | 1.2 | 120px | 46px |
+| 小見出し | 20px | 1.6 | 81px | 81px |
+| リード | 18px | — | 10px | 20px |
+| 本文 | 16px | 1 | — | — |
+| 補助 | 14px | — | — | — |
+| 注記 | 12px | 1.5 | 236px | 309px |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（60px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 16px・行間 1。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 5箇所で使っている。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 英字 |
+| ラベルのサイズ | 18px |
+| ラベルの字間 | 0（詰めも空けもしない） |
+| ラベルの太さ | 400 |
+| ラベルの色 | `#2f4243` |
+| ラベル → 見出し | 25px |
+| 見出しのサイズ | 48px |
+| 見出し → 本文 | 40px |
+| 罫線 | なし |
+| 組み方 | **箱で包む**（ラベルと見出しが1つのまとまりとして囲まれている） |
+
+```html
+&lt;div class=&quot;c-head&quot;&gt;
+  &lt;p class=&quot;c-head__label&quot;&gt;SERVICE&lt;/p&gt;
+  &lt;h2 class=&quot;c-head__title&quot;&gt;サービス&lt;/h2&gt;
+&lt;/div&gt;
+&lt;p&gt;本文…&lt;/p&gt;
+```
+
+```css
+.c-head__label{ font-size:18px; font-weight:400;
+  color:#2f4243; text-transform:uppercase }
+.c-head__title{ font-size:48px; line-height:1.14; margin-top:25px }
+.c-head + *{ margin-top:40px }
+```
+
+- ラベルと見出しの間は 25px、見出しと本文の間は 40px。ラベル側を詰めて、本文側を空ける。この差がまとまりを作っている。
 
 ## レイアウト
 
@@ -494,23 +544,44 @@
 
 ## 部品
 
-囲みらしい繰り返しの箱は見つからなかった。枠で囲まずに余白だけで区切っている。
+囲み（3箇所で同じ形）
+
+```css
+.card{
+  background: transparent;
+  border: 1px solid var(--on);   /* 実測は #1f2529。面によって入れ替える */
+  border-radius: 50px;
+  padding: 48px 0px;
+}
+```
 
 
 ## 丸いもの
 
-角丸は 0px だが、**完全な円は別扱い**で 8 箇所ある（24px×8）。
+角丸は 0px だが、**完全な円は別扱い**で 11 箇所ある（24px×8、312px×3）。
 アイコンの地・点・装飾に使う。角を丸めないルールと、円のモチーフは両立する。
 
 ## 画像
 
-- 18枚使っている。うち 6 枚は画面いっぱいに置く
+- 18枚使っている。うち 4 枚は画面いっぱいに置く
 - 比率は 1:1（9枚）、3:2（3枚）、16:9（2枚）
 - 角丸 0px。切り抜かず四角のまま置く
 
 ## すぐ使う骨格
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
+
+```html
+&lt;section class=&quot;section&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;c-head&quot;&gt;
+      &lt;p class=&quot;c-head__label&quot;&gt;SERVICE&lt;/p&gt;
+      &lt;h2 class=&quot;c-head__title&quot;&gt;サービス&lt;/h2&gt;
+    &lt;/div&gt;
+    &lt;p&gt;本文…&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+```
 
 ```css
 body{ background:var(--bg); color:var(--ink);
@@ -521,7 +592,12 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:1120px; display:grid; align-content:center }
+.c-head__label{ font-size:18px; font-weight:400; color:#2f4243 }
+.c-head__title{ font-size:48px; line-height:1.14; margin-top:25px }
+.c-head + *{ margin-top:40px }
 
+.card{ background:transparent; border:1px solid var(--on);
+  border-radius:50px; padding:48px 0px }
 .btn{ display:inline-flex; align-items:center; justify-content:center;
   background:transparent; color:#2f4243; border-radius:1440px;
   padding:0px 18px; min-height:56px;
@@ -543,6 +619,7 @@ img{ width:100%; height:auto; border-radius:0px; aspect-ratio:1/1; object-fit:co
 - 余白 60px と行間 1 を先に決めてから中身を入れる。
 - 画像は 1:1 に統一し、角丸は 0px。
 - 線と文字の色は面ごとに入れ替える（`--on` を面のクラスで上書きする）。固定色で書かない。
+- 囲みは 1px の線＋角丸 50px でそろえる。
 
 やらないこと
 

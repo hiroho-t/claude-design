@@ -28,26 +28,26 @@
   "ink": [
     {
       "hex": "#ffffff",
-      "pct": 45.5
-    },
-    {
-      "hex": "#000000",
-      "pct": 20.1
+      "pct": 44
     },
     {
       "hex": "#22222f",
-      "pct": 18.5
+      "pct": 21.2
+    },
+    {
+      "hex": "#000000",
+      "pct": 19.4
     },
     {
       "hex": "#a7a7ac",
-      "pct": 7.7
+      "pct": 7.4
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "TazuganeGothicStdN-Bold",
-      "w": 1454
+      "w": 1529
     },
     {
       "family": "sans-serif",
@@ -65,7 +65,7 @@
     },
     {
       "px": 16,
-      "w": 358
+      "w": 433
     },
     {
       "px": 14,
@@ -105,6 +105,19 @@
       }
     ]
   },
+  "headSpace": {
+    "24": {
+      "above": 160,
+      "below": 10,
+      "n": 1
+    },
+    "32": {
+      "above": 240,
+      "below": 34,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 2,

@@ -20,26 +20,26 @@
   "ink": [
     {
       "hex": "#444444",
-      "pct": 43.9
+      "pct": 46.2
     },
     {
       "hex": "#000000",
-      "pct": 43.1
+      "pct": 41.4
     },
     {
       "hex": "#ffffff",
-      "pct": 12.1
+      "pct": 11.6
     },
     {
       "hex": "#999999",
-      "pct": 0.8
+      "pct": 0.7
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "SS Soil",
-      "w": 7446
+      "w": 7804
     }
   ],
   "sizes": [
@@ -65,7 +65,7 @@
     },
     {
       "px": 12,
-      "w": 3861
+      "w": 4219
     }
   ],
   "body": {
@@ -74,6 +74,8 @@
     "ls": "0.035em"
   },
   "headings": {},
+  "headSpace": {},
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

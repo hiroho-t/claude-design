@@ -92,21 +92,59 @@
     ],
     "h2": [
       {
+        "fs": 14,
+        "weight": "400",
+        "lh": 1.2,
+        "ls": "0.350em",
+        "family": "IwaUDMinPro-Th"
+      },
+      {
         "fs": 83,
         "weight": "300",
         "lh": 1,
         "ls": "-0.048em",
         "family": "IwaUDMinPro-Th"
-      },
-      {
-        "fs": 20,
-        "weight": "400",
-        "lh": 1.2,
-        "ls": "0.020em",
-        "family": "IwaUDMinPro-Th"
       }
     ]
   },
+  "headSpace": {
+    "12": {
+      "above": 2,
+      "below": null,
+      "n": 9
+    },
+    "14": {
+      "above": 378,
+      "below": 2,
+      "n": 37
+    },
+    "18": {
+      "above": 265,
+      "below": 20,
+      "n": 1
+    },
+    "20": {
+      "above": 275,
+      "below": 12,
+      "n": 8
+    },
+    "38": {
+      "above": null,
+      "below": 265,
+      "n": 2
+    },
+    "70": {
+      "above": 14,
+      "below": 159,
+      "n": 3
+    },
+    "83": {
+      "above": null,
+      "below": 30,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

@@ -80,6 +80,13 @@
   "headings": {
     "h2": [
       {
+        "fs": 30,
+        "weight": "700",
+        "lh": 1.1,
+        "ls": "0.100em",
+        "family": "Zen Kaku Gothic New"
+      },
+      {
         "fs": 18,
         "weight": "700",
         "lh": 2,
@@ -88,6 +95,29 @@
       }
     ]
   },
+  "headSpace": {
+    "14": {
+      "above": null,
+      "below": 89,
+      "n": 1
+    },
+    "18": {
+      "above": 193,
+      "below": 18,
+      "n": 3
+    },
+    "30": {
+      "above": null,
+      "below": 300,
+      "n": 1
+    },
+    "40": {
+      "above": 244,
+      "below": null,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

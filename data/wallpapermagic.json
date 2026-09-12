@@ -87,9 +87,9 @@
         "family": "Kaimin Sora Bold"
       },
       {
-        "fs": 44,
+        "fs": 54,
         "weight": "700",
-        "lh": 1.5,
+        "lh": 1,
         "ls": "0.100em",
         "family": "Kaimin Sora Bold"
       }
@@ -111,6 +111,29 @@
       }
     ]
   },
+  "headSpace": {
+    "28": {
+      "above": 290,
+      "below": 30,
+      "n": 2
+    },
+    "36": {
+      "above": 177,
+      "below": 35,
+      "n": 2
+    },
+    "44": {
+      "above": 180,
+      "below": 40,
+      "n": 1
+    },
+    "52": {
+      "above": 88,
+      "below": 60,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

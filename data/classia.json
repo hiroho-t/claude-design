@@ -105,17 +105,17 @@
     ],
     "h2": [
       {
-        "fs": 0,
-        "weight": "400",
-        "lh": null,
-        "ls": "0",
-        "family": "UD新丸ゴ DB JIS2004"
-      },
-      {
         "fs": 34,
         "weight": "800",
         "lh": null,
         "ls": "0.080em",
+        "family": "UD新丸ゴ B JIS2004"
+      },
+      {
+        "fs": 52,
+        "weight": "400",
+        "lh": 1.4,
+        "ls": "0.100em",
         "family": "UD新丸ゴ B JIS2004"
       }
     ],
@@ -135,6 +135,52 @@
         "family": "UD新丸ゴ B JIS2004"
       }
     ]
+  },
+  "headSpace": {
+    "20": {
+      "above": 20,
+      "below": 369,
+      "n": 3
+    },
+    "32": {
+      "above": 43,
+      "below": 13,
+      "n": 2
+    },
+    "34": {
+      "above": 0,
+      "below": null,
+      "n": 1
+    },
+    "36": {
+      "above": 278,
+      "below": null,
+      "n": 1
+    },
+    "48": {
+      "above": 372,
+      "below": 20,
+      "n": 1
+    },
+    "52": {
+      "above": 340,
+      "below": 61,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 12,
+    "weight": "400",
+    "ls": 0,
+    "color": "#4f4844",
+    "latin": false,
+    "upper": false,
+    "gap": 5,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 32,
+    "n": 1,
+    "total": 1
   },
   "radius": [
     {

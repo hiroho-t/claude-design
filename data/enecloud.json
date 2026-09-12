@@ -6,15 +6,15 @@
   "bg": [
     {
       "hex": "#ffffff",
-      "pct": 75.5
+      "pct": 75.3
     },
     {
       "hex": "#ebf0f3",
-      "pct": 24.3
+      "pct": 24.4
     },
     {
       "hex": "#f5f7f9",
-      "pct": 0.2
+      "pct": 0.3
     },
     {
       "hex": "#f7b400",
@@ -28,34 +28,30 @@
   "ink": [
     {
       "hex": "#404040",
-      "pct": 66.4
+      "pct": 68.3
     },
     {
       "hex": "#ffffff",
-      "pct": 19.2
+      "pct": 19
     },
     {
       "hex": "#ec6c00",
-      "pct": 4.1
+      "pct": 4.3
     },
     {
       "hex": "#808282",
-      "pct": 2.7
+      "pct": 2.8
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "Noto Sans JP",
-      "w": 1416
+      "w": 1388
     },
     {
       "family": "こぶりなゴシック W6 JIS2004",
       "w": 80
-    },
-    {
-      "family": "Hiragino Kaku Gothic ProN",
-      "w": 37
     }
   ],
   "sizes": [
@@ -65,19 +61,19 @@
     },
     {
       "px": 20,
-      "w": 73
+      "w": 61
     },
     {
       "px": 18,
-      "w": 191
+      "w": 176
     },
     {
       "px": 16,
-      "w": 815
+      "w": 778
     },
     {
       "px": 14,
-      "w": 171
+      "w": 170
     },
     {
       "px": 10,
@@ -86,7 +82,7 @@
   ],
   "body": {
     "fs": 16,
-    "lh": null,
+    "lh": 1,
     "ls": "0"
   },
   "headings": {
@@ -109,6 +105,14 @@
       }
     ]
   },
+  "headSpace": {
+    "16": {
+      "above": null,
+      "below": 24,
+      "n": 5
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
@@ -190,24 +194,8 @@
   ],
   "bp": [
     {
-      "px": 1200,
-      "n": 87
-    },
-    {
-      "px": 990,
-      "n": 140
-    },
-    {
       "px": 840,
       "n": 1
-    },
-    {
-      "px": 690,
-      "n": 106
-    },
-    {
-      "px": 320,
-      "n": 35
     }
   ],
   "sections": [
@@ -232,7 +220,7 @@
       "split": null
     },
     {
-      "h": 880,
+      "h": 840,
       "full": true,
       "cols": 3,
       "img": true,

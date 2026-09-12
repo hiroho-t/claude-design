@@ -105,6 +105,27 @@
       }
     ]
   },
+  "headSpace": {
+    "22": {
+      "above": 6,
+      "below": 44,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 12,
+    "weight": "500",
+    "ls": 0.12,
+    "color": "#0062a3",
+    "latin": true,
+    "upper": false,
+    "gap": 6,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 22,
+    "n": 1,
+    "total": 1
+  },
   "radius": [
     {
       "px": 5,

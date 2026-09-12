@@ -109,7 +109,64 @@
         "ls": "0",
         "family": "MFW-UDShinGoCOnizPr6-DeB"
       }
+    ],
+    "h3": [
+      {
+        "fs": 16,
+        "weight": "600",
+        "lh": 1.75,
+        "ls": "0",
+        "family": "Hiragino Kaku Gothic ProN"
+      },
+      {
+        "fs": 13,
+        "weight": "600",
+        "lh": 1,
+        "ls": "0",
+        "family": "Hiragino Kaku Gothic ProN"
+      }
     ]
+  },
+  "headSpace": {
+    "13": {
+      "above": 61,
+      "below": 61,
+      "n": 4
+    },
+    "16": {
+      "above": 12,
+      "below": 79,
+      "n": 8
+    },
+    "24": {
+      "above": 16,
+      "below": 32,
+      "n": 3
+    },
+    "26": {
+      "above": null,
+      "below": 56,
+      "n": 1
+    },
+    "52": {
+      "above": 149,
+      "below": 32,
+      "n": 3
+    }
+  },
+  "labelHead": {
+    "fs": 12,
+    "weight": "400",
+    "ls": 0.1,
+    "color": "#ffffff",
+    "latin": true,
+    "upper": false,
+    "gap": 16,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 24,
+    "n": 3,
+    "total": 3
   },
   "radius": [
     {

@@ -96,10 +96,10 @@
         "family": "WelmoSansSerif-Medium"
       },
       {
-        "fs": 32,
-        "weight": "700",
+        "fs": 20,
+        "weight": "500",
         "lh": 1,
-        "ls": "0.023em",
+        "ls": "0.037em",
         "family": "WelmoSansSerif-Medium"
       }
     ],
@@ -120,6 +120,39 @@
       }
     ]
   },
+  "headSpace": {
+    "15": {
+      "above": 51,
+      "below": 51,
+      "n": 3
+    },
+    "20": {
+      "above": 380,
+      "below": 73,
+      "n": 2
+    },
+    "21": {
+      "above": 206,
+      "below": 12,
+      "n": 6
+    },
+    "24": {
+      "above": 261,
+      "below": 0,
+      "n": 4
+    },
+    "32": {
+      "above": null,
+      "below": 40,
+      "n": 1
+    },
+    "156": {
+      "above": 131,
+      "below": null,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

@@ -88,16 +88,52 @@
 
 - 和文: Noto Sans JP
 - 欧文: Figtree
-- ウェイトは 700 が中心。太さで強弱をつけず、大きさで差をつける。
+- ウェイトは 700 / 600 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 本文 | 18px | 1.5 |
-| 補助 | 16px | — |
-| 注記 | 14px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 本文 | 18px | 1.5 | 14px | — |
+| 補助 | 16px | — | — | — |
+| 注記 | 14px | 1 | 300px | 198px |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（100px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 18px・行間 1.5。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 8箇所で使っている（見出し10箇所のうち）。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 和文 |
+| ラベルのサイズ | 11px |
+| ラベルの字間 | 0.02em |
+| ラベルの太さ | 400 |
+| ラベルの色 | `#212224` |
+| ラベル → 見出し | 14px |
+| 見出しのサイズ | 18px |
+| 見出し → 本文 | — |
+| 罫線 | なし |
+| 組み方 | **兄弟に並べる**（囲まずに続けて置く） |
+
+```html
+<p class="c-head__label">私たちの仕事</p>
+<h2 class="c-head__title">サービス</h2>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:11px; font-weight:400; letter-spacing:0.02em;
+  color:#212224 }
+.c-head__title{ font-size:18px; line-height:1.5; margin-top:14px }
+.c-head__title + *{ margin-top:14 }
+```
+
+- ラベルと見出しの間は 14px、見出しと本文の間は —。この2つを同じにしない。
 
 ## レイアウト
 
@@ -198,6 +234,16 @@
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
 
+```html
+<section class="section">
+  <div class="container">
+    <p class="c-head__label">私たちの仕事</p>
+    <h2 class="c-head__title">サービス</h2>
+    <p>本文…</p>
+  </div>
+</section>
+```
+
 ```css
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
@@ -207,6 +253,9 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:900px; display:grid; align-content:center }
+.c-head__label{ font-size:11px; font-weight:400; letter-spacing:0.02em; color:#212224 }
+.c-head__title{ font-size:18px; line-height:1.5; margin-top:14px }
+.c-head__title + *{ margin-top:14px }
 
 .section--main{ background:var(--main); color:#ffffff; --on:#ffffff }
 .section--main .btn--fill{ background:#ffffff; color:var(--main) }

@@ -16,11 +16,11 @@
   "ink": [
     {
       "hex": "#1c1c1c",
-      "pct": 87.3
+      "pct": 87.2
     },
     {
       "hex": "#ffffff",
-      "pct": 11.7
+      "pct": 11.8
     },
     {
       "hex": "#f8f8f8",
@@ -35,7 +35,7 @@
   "fonts": [
     {
       "family": "Shippori Mincho",
-      "w": 2495
+      "w": 2465
     },
     {
       "family": "Marcellus",
@@ -49,7 +49,7 @@
     },
     {
       "px": 20,
-      "w": 822
+      "w": 797
     },
     {
       "px": 18,
@@ -61,7 +61,7 @@
     },
     {
       "px": 14,
-      "w": 254
+      "w": 249
     },
     {
       "px": 12,
@@ -85,6 +85,13 @@
     ],
     "h2": [
       {
+        "fs": 16,
+        "weight": "600",
+        "lh": 1.5,
+        "ls": "0.050em",
+        "family": "Marcellus"
+      },
+      {
         "fs": 24,
         "weight": "600",
         "lh": 1,
@@ -95,20 +102,53 @@
     "h3": [
       {
         "fs": 20,
-        "weight": "500",
+        "weight": "400",
         "lh": 1.5,
         "ls": "0.040em",
         "family": "Shippori Mincho"
       },
       {
         "fs": 20,
-        "weight": "400",
+        "weight": "500",
         "lh": 1.5,
         "ls": "0.040em",
         "family": "Shippori Mincho"
       }
     ]
   },
+  "headSpace": {
+    "16": {
+      "above": 209,
+      "below": 103,
+      "n": 9
+    },
+    "20": {
+      "above": 102,
+      "below": 40,
+      "n": 18
+    },
+    "24": {
+      "above": 137,
+      "below": 168,
+      "n": 1
+    },
+    "38": {
+      "above": 75,
+      "below": 26,
+      "n": 2
+    },
+    "40": {
+      "above": 100,
+      "below": 100,
+      "n": 1
+    },
+    "58": {
+      "above": 380,
+      "below": 137,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,
@@ -425,7 +465,7 @@
     {
       "hex": "#1c1c1c",
       "面": 2,
-      "文字": 214,
+      "文字": 213,
       "枠": 2,
       "ボタン": 0
     },

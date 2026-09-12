@@ -224,11 +224,11 @@
       <p class="spmeta">小見出し<span>24px / 行間 1.5</span></p>
       <p class="spdemo" style="font-size:24px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">リード<span>20px</span></p>
+      <p class="spmeta">リード<span>20px / 行間 1.5</span></p>
       <p class="spdemo" style="font-size:20px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
-      <p class="spmeta">本文<span>16px / 行間 1.5</span></p>
-      <p class="spdemo" style="font-size:16px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
+      <p class="spmeta">本文<span>16px / 行間 2</span></p>
+      <p class="spdemo" style="font-size:16px;line-height:2">あのイーハトーヴォのすきとおった風</p>
     </div><div class="sp">
       <p class="spmeta">補助<span>14px / 行間 1.5</span></p>
       <p class="spdemo" style="font-size:14px;line-height:1.5">あのイーハトーヴォのすきとおった風</p>
@@ -274,7 +274,7 @@
         border:1px solid var(--line)">
         <span class="secno">3</span>
         <span class="secname">6カラム・画像あり</span>
-        <span class="sech">8000px</span>
+        <span class="sech">8020px</span>
       </div><div class="sec" style="height:57px;background:#f5f3ed;color:var(--ink);
         border:1px solid var(--line)">
         <span class="secno">4</span>
@@ -443,16 +443,19 @@
 - 欧文: Lato
 - ウェイトは 700 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 32px | 1.5 |
-| 見出し | 28px | 1.5 |
-| 小見出し | 24px | 1.5 |
-| リード | 20px | — |
-| 本文 | 16px | 1.5 |
-| 補助 | 14px | 1.5 |
-| 注記 | 12px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 32px | 1.5 | 304px | 40px |
+| 見出し | 28px | 1.5 | 0px | 0px |
+| 小見出し | 24px | 1.5 | 81px | 15px |
+| リード | 20px | 1.5 | 71px | 20px |
+| 本文 | 16px | 2 | 18px | 75px |
+| 補助 | 14px | 1.5 | 36px | 20px |
+| 注記 | 12px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（60px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 16px・行間 2。日本語をゆったり組むのがこのサイトの要。詰めると別物になる。
 
@@ -507,7 +510,7 @@
 |---|---|---|---|---|---|
 | 1 | 160px | — | ヒーロー（画像） | 右 | — |
 | 2 | 900px | — | 1カラム・文字だけ | 右 | — |
-| 3 | 8000px | — | 6カラム・画像あり | 左 | 右（44:56） |
+| 3 | 8020px | — | 6カラム・画像あり | 左 | 右（44:56） |
 | 4 | 1020px | — | 1カラム・画像あり | 右 | — |
 
 - 全4セクション、すべて全幅。中央に寄せた箱を積むのではなく、色面を全幅で切り替えながら進む。

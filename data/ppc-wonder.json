@@ -85,7 +85,39 @@
     "lh": 2,
     "ls": "0.025em"
   },
-  "headings": {},
+  "headings": {
+    "h2": [
+      {
+        "fs": 11,
+        "weight": "400",
+        "lh": 1,
+        "ls": "0.050em",
+        "family": "Brandon"
+      }
+    ],
+    "h3": [
+      {
+        "fs": 13,
+        "weight": "400",
+        "lh": 2,
+        "ls": "0.025em",
+        "family": "RodinBokutohPro-DB"
+      }
+    ]
+  },
+  "headSpace": {
+    "11": {
+      "above": 189,
+      "below": 15,
+      "n": 12
+    },
+    "13": {
+      "above": 52,
+      "below": 52,
+      "n": 3
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 20,

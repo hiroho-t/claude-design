@@ -90,6 +90,15 @@
     "ls": "0"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 36,
+        "weight": "900",
+        "lh": 1.6,
+        "ls": "0.040em",
+        "family": "Roboto"
+      }
+    ],
     "h2": [
       {
         "fs": 24,
@@ -123,6 +132,39 @@
       }
     ]
   },
+  "headSpace": {
+    "24": {
+      "above": null,
+      "below": 133,
+      "n": 3
+    },
+    "32": {
+      "above": 218,
+      "below": 16,
+      "n": 1
+    },
+    "36": {
+      "above": 207,
+      "below": 181,
+      "n": 1
+    },
+    "40": {
+      "above": null,
+      "below": 130,
+      "n": 2
+    },
+    "48": {
+      "above": 0,
+      "below": 40,
+      "n": 1
+    },
+    "56": {
+      "above": 16,
+      "below": 120,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

@@ -120,6 +120,34 @@
       }
     ]
   },
+  "headSpace": {
+    "16": {
+      "above": 20,
+      "below": 20,
+      "n": 3
+    },
+    "28": {
+      "above": null,
+      "below": 32,
+      "n": 3
+    },
+    "32": {
+      "above": null,
+      "below": 8,
+      "n": 1
+    },
+    "40": {
+      "above": 165,
+      "below": 20,
+      "n": 2
+    },
+    "48": {
+      "above": 187,
+      "below": 0,
+      "n": 2
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

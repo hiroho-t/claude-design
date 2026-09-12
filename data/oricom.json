@@ -90,19 +90,28 @@
     "ls": "0"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 16,
+        "weight": "400",
+        "lh": 2,
+        "ls": "0",
+        "family": "Arial"
+      }
+    ],
     "h2": [
+      {
+        "fs": 24,
+        "weight": "700",
+        "lh": 1.5,
+        "ls": "0",
+        "family": "Arial"
+      },
       {
         "fs": 18,
         "weight": "700",
         "lh": 1.75,
         "ls": "0",
-        "family": "Arial"
-      },
-      {
-        "fs": 104,
-        "weight": "700",
-        "lh": 1.25,
-        "ls": "0.030em",
         "family": "Arial"
       }
     ],
@@ -115,13 +124,69 @@
         "family": "Gotham"
       },
       {
-        "fs": 24,
-        "weight": "700",
-        "lh": 1.75,
+        "fs": 16,
+        "weight": "400",
+        "lh": 1.5,
         "ls": "0",
         "family": "Arial"
       }
     ]
+  },
+  "headSpace": {
+    "16": {
+      "above": 20,
+      "below": 16,
+      "n": 7
+    },
+    "18": {
+      "above": 237,
+      "below": 8,
+      "n": 6
+    },
+    "20": {
+      "above": 334,
+      "below": 28,
+      "n": 3
+    },
+    "24": {
+      "above": 16,
+      "below": 68,
+      "n": 14
+    },
+    "64": {
+      "above": 8,
+      "below": 92,
+      "n": 6
+    },
+    "80": {
+      "above": 178,
+      "below": 24,
+      "n": 1
+    },
+    "104": {
+      "above": 48,
+      "below": 142,
+      "n": 1
+    },
+    "130": {
+      "above": 80,
+      "below": 64,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 14,
+    "weight": "400",
+    "ls": 0,
+    "color": "#000000",
+    "latin": true,
+    "upper": false,
+    "gap": 16,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 24,
+    "n": 11,
+    "total": 16
   },
   "radius": [
     {

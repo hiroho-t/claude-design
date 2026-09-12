@@ -112,6 +112,14 @@
       }
     ]
   },
+  "headSpace": {
+    "36": {
+      "above": null,
+      "below": 54,
+      "n": 3
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

@@ -111,6 +111,29 @@
       }
     ]
   },
+  "headSpace": {
+    "16": {
+      "above": 7,
+      "below": 97,
+      "n": 9
+    },
+    "20": {
+      "above": null,
+      "below": 200,
+      "n": 1
+    },
+    "22": {
+      "above": 320,
+      "below": 309,
+      "n": 3
+    },
+    "27": {
+      "above": null,
+      "below": 0,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

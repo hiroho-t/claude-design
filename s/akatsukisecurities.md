@@ -88,19 +88,55 @@
 
 - 和文: YakuHanJP
 - 欧文: YakuHanJP
-- ウェイトは 700 / 500 が中心。太さで強弱をつけず、大きさで差をつける。
+- ウェイトは 500 / 700 が中心。太さで強弱をつけず、大きさで差をつける。
 
-| 用途 | サイズ | 行間 |
-|---|---|---|
-| 大見出し | 30px | 1.35 |
-| 見出し | 22px | 1.35 |
-| 小見出し | 18px | — |
-| 本文 | 16px | 1.5 |
-| 補助 | 14px | — |
-| 注記 | 13px | — |
+| 用途 | サイズ | 行間 | 上の余白 | 下の余白 |
+|---|---|---|---|---|
+| 大見出し | 30px | 1.35 | 8px | 26px |
+| 見出し | 22px | 1.35 | 161px | 88px |
+| 小見出し | 18px | — | — | — |
+| 本文 | 16px | 1.5 | — | — |
+| 補助 | 14px | 1.35 | 148px | 109px |
+| 注記 | 13px | — | — | — |
 
+- 余白は margin ではなく**実際に描かれた間隔**。その要素の上端 − ひとつ上の文字要素の下端（下はその逆）で測っている。行間の余りぶんを含む。
+- 「—」は見出しに使われていないサイズ。測る相手がないので数字が出ない。
+- 上の余白は、セクションの先頭に来る見出しだとセクションの上下余白（88px）を含む。まとまりの中の間隔は「見出しのまとまり」を見る。
 
 - 本文は 16px・行間 1.5。
+
+## 見出しのまとまり
+
+小さいラベルを見出しの上に置く型を 3箇所で使っている。
+「近接」はここの間隔で決まるので、セクションの上下余白より先にこちらをそろえる。
+
+| | 実測 |
+|---|---|
+| ラベルの文字 | 英字 |
+| ラベルのサイズ | 14px |
+| ラベルの字間 | 0.06em |
+| ラベルの太さ | 700 |
+| ラベルの色 | `#ffffff` |
+| ラベル → 見出し | 8px |
+| 見出しのサイズ | 30px |
+| 見出し → 本文 | 26px |
+| 罫線 | なし |
+| 組み方 | **兄弟に並べる**（囲まずに続けて置く） |
+
+```html
+<p class="c-head__label">SERVICE</p>
+<h2 class="c-head__title">サービス</h2>
+<p>本文…</p>
+```
+
+```css
+.c-head__label{ font-size:14px; font-weight:700; letter-spacing:0.06em;
+  color:#ffffff; text-transform:uppercase }
+.c-head__title{ font-size:30px; line-height:1.35; margin-top:8px }
+.c-head__title + *{ margin-top:26px }
+```
+
+- ラベルと見出しの間は 8px、見出しと本文の間は 26px。ラベル側を詰めて、本文側を空ける。この差がまとまりを作っている。
 
 ## レイアウト
 
@@ -134,15 +170,15 @@
   font-size: 13px; font-weight: 500; letter-spacing: 0.32px;
 }
 .btn-sub{
-  background: #0b4199; color: #ffffff;
-  border-radius: 9999px; padding: 0px 12px; min-height: 27px;
-  font-size: 13px; font-weight: 500; letter-spacing: 0.32px;
-}
-.btn-sub{
   background: transparent; color: #34363b;
   border: 1px solid #e2e2e6;
   border-radius: 0px; padding: 30px 0px; min-height: 50px;
   font-size: 14px; font-weight: 400; letter-spacing: 0.56px;
+}
+.btn-sub{
+  background: #0b4199; color: #ffffff;
+  border-radius: 9999px; padding: 0px 12px; min-height: 27px;
+  font-size: 13px; font-weight: 500; letter-spacing: 0.32px;
 }
 ```
 
@@ -194,6 +230,16 @@
 
 上の `:root` と合わせて、これをそのまま置けば土台になる。
 
+```html
+<section class="section">
+  <div class="container">
+    <p class="c-head__label">SERVICE</p>
+    <h2 class="c-head__title">サービス</h2>
+    <p>本文…</p>
+  </div>
+</section>
+```
+
 ```css
 body{ background:var(--bg); color:var(--ink);
   font-family:var(--font-ja); font-size:var(--fs-body); line-height:var(--lh-body) }
@@ -203,6 +249,9 @@ body{ background:var(--bg); color:var(--ink);
 .read{ max-width:var(--read) }
 
 .hero{ min-height:600px; display:grid; align-content:center }
+.c-head__label{ font-size:14px; font-weight:700; letter-spacing:0.06em; color:#ffffff }
+.c-head__title{ font-size:30px; line-height:1.35; margin-top:8px }
+.c-head__title + *{ margin-top:26px }
 
 .section--main{ background:var(--main); color:#0a2146; --on:#0a2146 }
 .section--main .btn--fill{ background:#0a2146; color:var(--main) }

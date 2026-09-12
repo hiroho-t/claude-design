@@ -120,6 +120,44 @@
       }
     ]
   },
+  "headSpace": {
+    "16": {
+      "above": 28,
+      "below": 214,
+      "n": 2
+    },
+    "22": {
+      "above": 222,
+      "below": 28,
+      "n": 1
+    },
+    "24": {
+      "above": 110,
+      "below": null,
+      "n": 1
+    },
+    "28": {
+      "above": 80,
+      "below": 24,
+      "n": 1
+    },
+    "60": {
+      "above": null,
+      "below": 24,
+      "n": 1
+    },
+    "67": {
+      "above": 222,
+      "below": 222,
+      "n": 1
+    },
+    "80": {
+      "above": 280,
+      "below": 0,
+      "n": 5
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 10,

@@ -28,7 +28,7 @@
   "ink": [
     {
       "hex": "#414141",
-      "pct": 78.5
+      "pct": 78.7
     },
     {
       "hex": "#686868",
@@ -40,14 +40,14 @@
     },
     {
       "hex": "#ffffff",
-      "pct": 5.6
+      "pct": 5.5
     }
   ],
   "pageBg": "#ffffff",
   "fonts": [
     {
       "family": "line",
-      "w": 2569
+      "w": 2581
     },
     {
       "family": "Plus Jakarta Sans",
@@ -65,7 +65,7 @@
     },
     {
       "px": 16,
-      "w": 699
+      "w": 712
     },
     {
       "px": 15,
@@ -77,7 +77,7 @@
     },
     {
       "px": 12,
-      "w": 195
+      "w": 194
     }
   ],
   "body": {
@@ -112,6 +112,29 @@
       }
     ]
   },
+  "headSpace": {
+    "18": {
+      "above": 221,
+      "below": 27,
+      "n": 1
+    },
+    "20": {
+      "above": 61,
+      "below": 74,
+      "n": 2
+    },
+    "28": {
+      "above": 166,
+      "below": 88,
+      "n": 2
+    },
+    "32": {
+      "above": 186,
+      "below": 76,
+      "n": 6
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 6,
@@ -178,12 +201,12 @@
       "n": 17
     },
     {
-      "px": 1400,
+      "px": 1380,
       "n": 15
     },
     {
-      "px": 1200,
-      "n": 14
+      "px": 1400,
+      "n": 15
     }
   ],
   "buttons": [
@@ -352,6 +375,26 @@
       "align": null,
       "media": "全幅",
       "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
+    },
+    {
+      "h": 480,
+      "full": true,
+      "cols": 0,
+      "img": true,
+      "bg": null,
+      "align": null,
+      "media": "全幅",
+      "split": null
     }
   ],
   "surfaces": [
@@ -390,8 +433,8 @@
   ],
   "chips": [],
   "images": {
-    "n": 28,
-    "fullBleed": 22,
+    "n": 32,
+    "fullBleed": 26,
     "ratios": [
       {
         "ratio": "3:2",
@@ -401,7 +444,7 @@
     "radius": [
       {
         "px": 0,
-        "n": 22
+        "n": 26
       },
       {
         "px": 6,

@@ -82,6 +82,15 @@
     "ls": "0.050em"
   },
   "headings": {
+    "h1": [
+      {
+        "fs": 45,
+        "weight": "700",
+        "lh": 1.54,
+        "ls": "0",
+        "family": "Noto Sans JP"
+      }
+    ],
     "h2": [
       {
         "fs": 16,
@@ -99,6 +108,24 @@
       }
     ]
   },
+  "headSpace": {
+    "13": {
+      "above": null,
+      "below": 25,
+      "n": 1
+    },
+    "16": {
+      "above": 176,
+      "below": 144,
+      "n": 3
+    },
+    "45": {
+      "above": 186,
+      "below": null,
+      "n": 1
+    }
+  },
+  "labelHead": null,
   "radius": [
     {
       "px": 0,

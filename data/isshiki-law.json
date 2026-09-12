@@ -93,6 +93,27 @@
       }
     ]
   },
+  "headSpace": {
+    "24": {
+      "above": 7,
+      "below": 40,
+      "n": 5
+    }
+  },
+  "labelHead": {
+    "fs": 12,
+    "weight": "400",
+    "ls": 0.15,
+    "color": "#444444",
+    "latin": true,
+    "upper": true,
+    "gap": 7,
+    "wrapped": false,
+    "rule": null,
+    "headFs": 24,
+    "n": 3,
+    "total": 4
+  },
   "radius": [
     {
       "px": 0,

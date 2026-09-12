@@ -6,15 +6,15 @@
   "bg": [
     {
       "hex": "#ffffff",
-      "pct": 67.1
+      "pct": 67.2
     },
     {
       "hex": "#2f4350",
-      "pct": 14.1
+      "pct": 14
     },
     {
       "hex": "#111111",
-      "pct": 6.9
+      "pct": 6.8
     },
     {
       "hex": "#dddddd",
@@ -28,11 +28,11 @@
   "ink": [
     {
       "hex": "#111111",
-      "pct": 55.9
+      "pct": 56.6
     },
     {
       "hex": "#ffffff",
-      "pct": 40.7
+      "pct": 40
     },
     {
       "hex": "#b4b4b4",
@@ -47,7 +47,7 @@
   "fonts": [
     {
       "family": "Zen Kaku Gothic New",
-      "w": 1579
+      "w": 1618
     },
     {
       "family": "Manrope",
@@ -65,7 +65,7 @@
     },
     {
       "px": 16,
-      "w": 510
+      "w": 542
     },
     {
       "px": 15,
@@ -110,7 +110,69 @@
         "ls": "0.040em",
         "family": "Zen Kaku Gothic New"
       }
+    ],
+    "h3": [
+      {
+        "fs": 16,
+        "weight": "500",
+        "lh": 1.5,
+        "ls": "0.050em",
+        "family": "Zen Kaku Gothic New"
+      },
+      {
+        "fs": 16,
+        "weight": "500",
+        "lh": 1.88,
+        "ls": "0.050em",
+        "family": "Zen Kaku Gothic New"
+      }
     ]
+  },
+  "headSpace": {
+    "13": {
+      "above": null,
+      "below": 152,
+      "n": 2
+    },
+    "16": {
+      "above": 16,
+      "below": 63,
+      "n": 8
+    },
+    "28": {
+      "above": 318,
+      "below": 44,
+      "n": 2
+    },
+    "35": {
+      "above": 203,
+      "below": 10,
+      "n": 1
+    },
+    "40": {
+      "above": 26,
+      "below": 32,
+      "n": 2
+    },
+    "53": {
+      "above": 33,
+      "below": 40,
+      "n": 1
+    }
+  },
+  "labelHead": {
+    "fs": 16,
+    "weight": "500",
+    "ls": 0.05,
+    "color": "#ffffff",
+    "latin": false,
+    "upper": false,
+    "gap": 26,
+    "wrapped": true,
+    "rule": null,
+    "headFs": 40,
+    "n": 2,
+    "total": 3
   },
   "radius": [
     {
@@ -288,7 +350,7 @@
       "split": null
     },
     {
-      "h": 980,
+      "h": 1000,
       "full": true,
       "cols": 2,
       "img": true,
@@ -344,7 +406,7 @@
       "pad": "3px 12px",
       "fs": 12,
       "border": null,
-      "n": 6
+      "n": 7
     }
   ],
   "images": {
@@ -411,7 +473,7 @@
     {
       "hex": "#111111",
       "面": 4,
-      "文字": 75,
+      "文字": 76,
       "枠": 1,
       "ボタン": 0
     },
